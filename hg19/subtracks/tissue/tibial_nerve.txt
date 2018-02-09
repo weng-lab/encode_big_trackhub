@@ -1,0 +1,663 @@
+
+track tissue_tibial_nerve
+parent super_tissue
+compositeTrack on
+shortLabel tibial nerve
+longLabel tibial nerve (23 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR154GUK=ENCSR154GUK ENCSR157ZVP=ENCSR157ZVP ENCSR314SPW=ENCSR314SPW ENCSR401ESD=ENCSR401ESD ENCSR434XLP=ENCSR434XLP ENCSR469POZ=ENCSR469POZ ENCSR479GPU=ENCSR479GPU ENCSR569SZK=ENCSR569SZK ENCSR580XUK=ENCSR580XUK ENCSR611YUJ=ENCSR611YUJ ENCSR754WNA=ENCSR754WNA ENCSR771YJT=ENCSR771YJT ENCSR822PJT=ENCSR822PJT ENCSR850RVA=ENCSR850RVA ENCSR935XOT=ENCSR935XOT bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR401ESD_ENCFF506KGT
+	parent tissue_tibial_nerve off
+	subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF506KGT/@@download/ENCFF506KGT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR401ESD tibial_nerve_female_adult_51_year_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR401ESD age=51_year description=ENCSR401ESD_tibial_nerve_female_adult_51_year_read_depth_normalized_signal_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR401ESD
+	parent tissue_tibial_nerve off
+	view ENCSR401ESD
+	visibility dense
+	type bigBed
+
+		track ENCSR401ESD_ENCFF304ZTC
+		parent tissue_tibial_nerve_view_ENCSR401ESD off
+		subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=ENCSR401ESD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF304ZTC/@@download/ENCFF304ZTC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR401ESD tibial_nerve_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR401ESD age=51_year description=ENCSR401ESD_tibial_nerve_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR401ESD 
+		view ENCSR401ESD
+
+	track ENCSR754WNA_ENCFF762MPO
+	parent tissue_tibial_nerve off
+	subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF762MPO/@@download/ENCFF762MPO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR754WNA tibial_nerve_male_adult_37_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR754WNA age=37_year description=ENCSR754WNA_tibial_nerve_male_adult_37_years_read_depth_normalized_signal_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR754WNA
+	parent tissue_tibial_nerve off
+	view ENCSR754WNA
+	visibility dense
+	type bigBed
+
+		track ENCSR754WNA_ENCFF770KDF
+		parent tissue_tibial_nerve_view_ENCSR754WNA off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR754WNA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF770KDF/@@download/ENCFF770KDF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR754WNA tibial_nerve_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR754WNA age=37_year description=ENCSR754WNA_tibial_nerve_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR754WNA 
+		view ENCSR754WNA
+
+	track ENCSR314SPW_ENCFF566IRU
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF566IRU/@@download/ENCFF566IRU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR314SPW tibial_nerve_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR314SPW age=53_year description=ENCSR314SPW_tibial_nerve_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR314SPW
+	parent tissue_tibial_nerve off
+	view ENCSR314SPW
+	visibility dense
+	type bigBed
+
+		track ENCSR314SPW_ENCFF982LID
+		parent tissue_tibial_nerve_view_ENCSR314SPW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR314SPW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982LID/@@download/ENCFF982LID.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR314SPW tibial_nerve_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR314SPW age=53_year description=ENCSR314SPW_tibial_nerve_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR314SPW 
+		view ENCSR314SPW
+
+	track ENCSR434XLP_ENCFF581HZK
+	parent tissue_tibial_nerve off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF581HZK/@@download/ENCFF581HZK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR434XLP tibial_nerve_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR434XLP age=37_year description=ENCSR434XLP_tibial_nerve_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR434XLP
+	parent tissue_tibial_nerve off
+	view ENCSR434XLP
+	visibility dense
+	type bigBed
+
+		track ENCSR434XLP_ENCFF610GMA
+		parent tissue_tibial_nerve_view_ENCSR434XLP off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR434XLP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF610GMA/@@download/ENCFF610GMA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR434XLP tibial_nerve_male_adult_37_years_ (pseudoreplicated idr thresholded 
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR434XLP age=37_year description=ENCSR434XLP_tibial_nerve_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR434XLP 
+		view ENCSR434XLP
+
+	track ENCSR469POZ_ENCFF808KYU
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF808KYU/@@download/ENCFF808KYU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR469POZ tibial_nerve_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR469POZ age=53_year description=ENCSR469POZ_tibial_nerve_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR469POZ
+	parent tissue_tibial_nerve off
+	view ENCSR469POZ
+	visibility dense
+	type bigBed
+
+		track ENCSR469POZ_ENCFF825ZII
+		parent tissue_tibial_nerve_view_ENCSR469POZ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR469POZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF825ZII/@@download/ENCFF825ZII.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR469POZ tibial_nerve_female_adult_53_years_ (pseudoreplicated idr thresholde
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR469POZ age=53_year description=ENCSR469POZ_tibial_nerve_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR469POZ 
+		view ENCSR469POZ
+
+	track ENCSR771YJT_ENCFF817FJA
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF817FJA/@@download/ENCFF817FJA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR771YJT tibial_nerve_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR771YJT age=53_year description=ENCSR771YJT_tibial_nerve_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR771YJT
+	parent tissue_tibial_nerve off
+	view ENCSR771YJT
+	visibility dense
+	type bigBed
+
+		track ENCSR771YJT_ENCFF799HLT
+		parent tissue_tibial_nerve_view_ENCSR771YJT off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR771YJT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF799HLT/@@download/ENCFF799HLT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR771YJT tibial_nerve_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR771YJT age=53_year description=ENCSR771YJT_tibial_nerve_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR771YJT 
+		view ENCSR771YJT
+
+	track ENCSR822PJT_ENCFF692BII
+	parent tissue_tibial_nerve off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF692BII/@@download/ENCFF692BII.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR822PJT tibial_nerve_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR822PJT age=51_year description=ENCSR822PJT_tibial_nerve_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR822PJT
+	parent tissue_tibial_nerve off
+	view ENCSR822PJT
+	visibility dense
+	type bigBed
+
+		track ENCSR822PJT_ENCFF992MAF
+		parent tissue_tibial_nerve_view_ENCSR822PJT off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR822PJT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF992MAF/@@download/ENCFF992MAF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR822PJT tibial_nerve_female_adult_51_year_ (pseudoreplicated idr thresholded
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR822PJT age=51_year description=ENCSR822PJT_tibial_nerve_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR822PJT 
+		view ENCSR822PJT
+
+	track ENCSR203DPX_ENCFF342ZQJ
+	parent tissue_tibial_nerve off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF342ZQJ/@@download/ENCFF342ZQJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR203DPX tibial_nerve_male_adult_37_years_ (plus strand signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR203DPX age=37_year description=ENCSR203DPX_tibial_nerve_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR272UNO_ENCFF594WGD
+	parent tissue_tibial_nerve off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF594WGD/@@download/ENCFF594WGD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR272UNO tibial_nerve_female_adult_51_year_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR272UNO age=51_year description=ENCSR272UNO_tibial_nerve_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR648OSR_ENCFF883CXZ
+	parent tissue_tibial_nerve off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF883CXZ/@@download/ENCFF883CXZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR648OSR tibial_nerve_male_adult_54_years_ (plus strand signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR648OSR age=54_year description=ENCSR648OSR_tibial_nerve_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR706VZW_ENCFF697OBI
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF697OBI/@@download/ENCFF697OBI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR706VZW tibial_nerve_female_adult_53_years_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR706VZW age=53_year description=ENCSR706VZW_tibial_nerve_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR722NWC_ENCFF627QCP
+	parent tissue_tibial_nerve off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF627QCP/@@download/ENCFF627QCP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR722NWC tibial_nerve_male_adult_37_years_ (plus strand signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR722NWC age=37_year description=ENCSR722NWC_tibial_nerve_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR796HLX_ENCFF445CYU
+	parent tissue_tibial_nerve off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF445CYU/@@download/ENCFF445CYU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR796HLX tibial_nerve_male_adult_37_years_ (plus strand signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR796HLX age=37_year description=ENCSR796HLX_tibial_nerve_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR848OYH_ENCFF924HZG
+	parent tissue_tibial_nerve off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF924HZG/@@download/ENCFF924HZG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR848OYH tibial_nerve_female_adult_51_year_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR848OYH age=51_year description=ENCSR848OYH_tibial_nerve_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR858QEL_ENCFF391AEB
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF391AEB/@@download/ENCFF391AEB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR858QEL tibial_nerve_female_adult_53_years_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR858QEL age=53_year description=ENCSR858QEL_tibial_nerve_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR569SZK_ENCFF026FOM
+	parent tissue_tibial_nerve off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF026FOM/@@download/ENCFF026FOM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR569SZK tibial_nerve_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR569SZK age=51_year description=ENCSR569SZK_tibial_nerve_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR569SZK
+	parent tissue_tibial_nerve off
+	view ENCSR569SZK
+	visibility dense
+	type bigBed
+
+		track ENCSR569SZK_ENCFF850HEX
+		parent tissue_tibial_nerve_view_ENCSR569SZK off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR569SZK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF850HEX/@@download/ENCFF850HEX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR569SZK tibial_nerve_female_adult_51_year_ (pseudoreplicated idr thresholded
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR569SZK age=51_year description=ENCSR569SZK_tibial_nerve_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR569SZK 
+		view ENCSR569SZK
+
+	track ENCSR580XUK_ENCFF034ZXB
+	parent tissue_tibial_nerve off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF034ZXB/@@download/ENCFF034ZXB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR580XUK tibial_nerve_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR580XUK age=37_year description=ENCSR580XUK_tibial_nerve_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR580XUK
+	parent tissue_tibial_nerve off
+	view ENCSR580XUK
+	visibility dense
+	type bigBed
+
+		track ENCSR580XUK_ENCFF754LRY
+		parent tissue_tibial_nerve_view_ENCSR580XUK off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=ENCSR580XUK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF754LRY/@@download/ENCFF754LRY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR580XUK tibial_nerve_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR580XUK age=37_year description=ENCSR580XUK_tibial_nerve_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR580XUK 
+		view ENCSR580XUK
+
+	track ENCSR611YUJ_ENCFF460WQF
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF460WQF/@@download/ENCFF460WQF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR611YUJ tibial_nerve_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR611YUJ age=53_year description=ENCSR611YUJ_tibial_nerve_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR611YUJ
+	parent tissue_tibial_nerve off
+	view ENCSR611YUJ
+	visibility dense
+	type bigBed
+
+		track ENCSR611YUJ_ENCFF181TAJ
+		parent tissue_tibial_nerve_view_ENCSR611YUJ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=ENCSR611YUJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF181TAJ/@@download/ENCFF181TAJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR611YUJ tibial_nerve_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR611YUJ age=53_year description=ENCSR611YUJ_tibial_nerve_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR611YUJ 
+		view ENCSR611YUJ
+
+	track ENCSR157ZVP_ENCFF166UOM
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF166UOM/@@download/ENCFF166UOM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR157ZVP tibial_nerve_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR157ZVP age=53_year description=ENCSR157ZVP_tibial_nerve_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR157ZVP
+	parent tissue_tibial_nerve off
+	view ENCSR157ZVP
+	visibility dense
+	type bigBed
+
+		track ENCSR157ZVP_ENCFF896JEM
+		parent tissue_tibial_nerve_view_ENCSR157ZVP off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR157ZVP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF896JEM/@@download/ENCFF896JEM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR157ZVP tibial_nerve_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR157ZVP age=53_year description=ENCSR157ZVP_tibial_nerve_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR157ZVP 
+		view ENCSR157ZVP
+
+	track ENCSR850RVA_ENCFF534EIB
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF534EIB/@@download/ENCFF534EIB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR850RVA tibial_nerve_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR850RVA age=53_year description=ENCSR850RVA_tibial_nerve_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR850RVA
+	parent tissue_tibial_nerve off
+	view ENCSR850RVA
+	visibility dense
+	type bigBed
+
+		track ENCSR850RVA_ENCFF928URM
+		parent tissue_tibial_nerve_view_ENCSR850RVA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR850RVA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF928URM/@@download/ENCFF928URM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR850RVA tibial_nerve_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR850RVA age=53_year description=ENCSR850RVA_tibial_nerve_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR850RVA 
+		view ENCSR850RVA
+
+	track ENCSR479GPU_ENCFF511ATU
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF511ATU/@@download/ENCFF511ATU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR479GPU tibial_nerve_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR479GPU age=53_year description=ENCSR479GPU_tibial_nerve_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR479GPU
+	parent tissue_tibial_nerve off
+	view ENCSR479GPU
+	visibility dense
+	type bigBed
+
+		track ENCSR479GPU_ENCFF992YBW
+		parent tissue_tibial_nerve_view_ENCSR479GPU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR479GPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF992YBW/@@download/ENCFF992YBW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR479GPU tibial_nerve_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR479GPU age=53_year description=ENCSR479GPU_tibial_nerve_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR479GPU 
+		view ENCSR479GPU
+
+	track ENCSR154GUK_ENCFF862FKS
+	parent tissue_tibial_nerve off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF862FKS/@@download/ENCFF862FKS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR154GUK tibial_nerve_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR154GUK age=51_year description=ENCSR154GUK_tibial_nerve_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR154GUK
+	parent tissue_tibial_nerve off
+	view ENCSR154GUK
+	visibility dense
+	type bigBed
+
+		track ENCSR154GUK_ENCFF631AOU
+		parent tissue_tibial_nerve_view_ENCSR154GUK off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR154GUK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF631AOU/@@download/ENCFF631AOU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR154GUK tibial_nerve_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR154GUK age=51_year description=ENCSR154GUK_tibial_nerve_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR154GUK 
+		view ENCSR154GUK
+
+	track ENCSR935XOT_ENCFF115NGL
+	parent tissue_tibial_nerve off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF115NGL/@@download/ENCFF115NGL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR935XOT tibial_nerve_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR935XOT age=53_year description=ENCSR935XOT_tibial_nerve_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tibial_nerve_view_ENCSR935XOT
+	parent tissue_tibial_nerve off
+	view ENCSR935XOT
+	visibility dense
+	type bigBed
+
+		track ENCSR935XOT_ENCFF916UJQ
+		parent tissue_tibial_nerve_view_ENCSR935XOT off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR935XOT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF916UJQ/@@download/ENCFF916UJQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR935XOT tibial_nerve_female_adult_53_years_ (pseudoreplicated idr thresholde
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR935XOT age=53_year description=ENCSR935XOT_tibial_nerve_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR935XOT 
+		view ENCSR935XOT
+

@@ -1,0 +1,48 @@
+
+track tissue_placenta
+parent super_tissue
+compositeTrack on
+shortLabel placenta
+longLabel placenta (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a8_week=8&#32;week 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000BZP_ENCFF995NTK
+	parent tissue_placenta off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF995NTK/@@download/ENCFF995NTK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BZP C57BL_6_placenta_adult_8_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BZP age=8_week description=ENCSR000BZP_C57BL_6_placenta_adult_8_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CHD_ENCFF046KOC
+	parent tissue_placenta off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF046KOC/@@download/ENCFF046KOC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CHD C57BL_6_placenta_female_adult_8_weeks_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CHD age=8_week description=ENCSR000CHD_C57BL_6_placenta_female_adult_8_weeks_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+

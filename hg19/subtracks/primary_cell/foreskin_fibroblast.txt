@@ -1,0 +1,1524 @@
+
+track primary_cell_foreskin_fibroblast
+parent super_primary_cell
+compositeTrack on
+shortLabel foreskin fibrobla
+longLabel foreskin fibroblast (41 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000AAG=ENCDO000AAG ENCDO047TBB=ENCDO047TBB ENCDO191CQJ=ENCDO191CQJ ENCDO232AAA=ENCDO232AAA ENCDO666YUN=ENCDO666YUN ENCDO686OPO=ENCDO686OPO 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DQF=ENCSR000DQF ENCSR000DQG=ENCSR000DQG ENCSR000DQH=ENCSR000DQH ENCSR000DQI=ENCSR000DQI ENCSR000DUH=ENCSR000DUH ENCSR000DUJ=ENCSR000DUJ ENCSR000DWQ=ENCSR000DWQ ENCSR000DWS=ENCSR000DWS ENCSR000EME=ENCSR000EME ENCSR019ZRR=ENCSR019ZRR ENCSR079ZQI=ENCSR079ZQI ENCSR108NVQ=ENCSR108NVQ ENCSR122IJJ=ENCSR122IJJ ENCSR251UPG=ENCSR251UPG ENCSR285UTJ=ENCSR285UTJ ENCSR344WLV=ENCSR344WLV ENCSR346DNL=ENCSR346DNL ENCSR367HVD=ENCSR367HVD ENCSR417IEJ=ENCSR417IEJ ENCSR512BHQ=ENCSR512BHQ ENCSR621EXD=ENCSR621EXD ENCSR624YTO=ENCSR624YTO ENCSR786ESI=ENCSR786ESI ENCSR813CFB=ENCSR813CFB ENCSR822ZIG=ENCSR822ZIG ENCSR889OUV=ENCSR889OUV ENCSR917QEH=ENCSR917QEH bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EME_ENCFF056LXB
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF056LXB/@@download/ENCFF056LXB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EME foreskin_fibroblast_male_newborn (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EME age=unknown description=ENCSR000EME_foreskin_fibroblast_male_newborn_read_depth_normalized_signal_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000EME
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000EME
+	visibility dense
+	type bigBed
+
+		track ENCSR000EME_ENCFF168QFP
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000EME off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAG label=unknown view=ENCSR000EME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF168QFP/@@download/ENCFF168QFP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EME foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EME age=unknown description=ENCSR000EME_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO000AAG sex=male view=ENCSR000EME 
+		view ENCSR000EME
+
+		track ENCSR000EME_ENCFF017BAV
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000EME off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAG label=unknown view=ENCSR000EME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017BAV/@@download/ENCFF017BAV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF017BAV 9state-DNase DNase-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EME age=unknown description=ENCFF017BAV_9state_DNase_DNase_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000EME 
+		view ENCSR000EME
+
+		track ENCSR000EME_ENCFF804YUL
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000EME off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAG label=unknown view=ENCSR000EME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF804YUL/@@download/ENCFF804YUL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF804YUL 9state-CTCF DNase-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EME age=unknown description=ENCFF804YUL_9state_CTCF_DNase_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000EME 
+		view ENCSR000EME
+
+		track ENCSR000EME_ENCFF080EPK
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000EME off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAG label=unknown view=ENCSR000EME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF080EPK/@@download/ENCFF080EPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF080EPK 5group DNase-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EME age=unknown description=ENCFF080EPK_5group_DNase_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000EME 
+		view ENCSR000EME
+
+		track ENCSR000EME_ENCFF663XOF
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000EME off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAG label=unknown view=ENCSR000EME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663XOF/@@download/ENCFF663XOF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF663XOF 9state-H3K27ac DNase-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EME age=unknown description=ENCFF663XOF_9state_H3K27ac_DNase_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000EME 
+		view ENCSR000EME
+
+		track ENCSR000EME_ENCFF369TAY
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000EME off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAG label=unknown view=ENCSR000EME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF369TAY/@@download/ENCFF369TAY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF369TAY 9state-H3K4me3 DNase-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EME age=unknown description=ENCFF369TAY_9state_H3K4me3_DNase_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000EME 
+		view ENCSR000EME
+
+	track ENCSR251UPG_ENCFF202WUE
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO686OPO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF202WUE/@@download/ENCFF202WUE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR251UPG foreskin_fibroblast_male_newborn (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR251UPG age=unknown description=ENCSR251UPG_foreskin_fibroblast_male_newborn_read_depth_normalized_signal_ donor=ENCDO686OPO sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR251UPG
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR251UPG
+	visibility dense
+	type bigBed
+
+		track ENCSR251UPG_ENCFF307LSF
+		parent primary_cell_foreskin_fibroblast_view_ENCSR251UPG off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO686OPO label=unknown view=ENCSR251UPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF307LSF/@@download/ENCFF307LSF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR251UPG foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR251UPG age=unknown description=ENCSR251UPG_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO686OPO sex=male view=ENCSR251UPG 
+		view ENCSR251UPG
+
+	track ENCSR000DQH_ENCFF987BJP
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF987BJP/@@download/ENCFF987BJP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DQH foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQH age=unknown description=ENCSR000DQH_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000DQH
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000DQH
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQH_ENCFF840OQZ
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=H3K4me3 view=ENCSR000DQH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF840OQZ/@@download/ENCFF840OQZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DQH foreskin_fibroblast_male_newborn (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DQH age=unknown description=ENCSR000DQH_foreskin_fibroblast_male_newborn_replicated_peaks_ donor=ENCDO000AAG sex=male view=ENCSR000DQH 
+		view ENCSR000DQH
+
+		track ENCSR000DQH_ENCFF719ETK
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=H3K4me3 view=ENCSR000DQH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF719ETK/@@download/ENCFF719ETK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF719ETK 5group H3K4me3 ChIP-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQH age=unknown description=ENCFF719ETK_5group_H3K4me3_ChIP_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000DQH 
+		view ENCSR000DQH
+
+	track ENCSR000DUJ_ENCFF184KHW
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO232AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF184KHW/@@download/ENCFF184KHW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DUJ foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DUJ age=unknown description=ENCSR000DUJ_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO232AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000DUJ
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000DUJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DUJ_ENCFF810NGI
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DUJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO232AAA label=H3K4me3 view=ENCSR000DUJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF810NGI/@@download/ENCFF810NGI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DUJ foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DUJ age=unknown description=ENCSR000DUJ_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO232AAA sex=male view=ENCSR000DUJ 
+		view ENCSR000DUJ
+
+		track ENCSR000DUJ_ENCFF212HPV
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DUJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO232AAA label=H3K4me3 view=ENCSR000DUJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF212HPV/@@download/ENCFF212HPV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF212HPV 9state-CTCF H3K4me3 ChIP-seq on human HFF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUJ age=unknown description=ENCFF212HPV_9state_CTCF_H3K4me3_ChIP_seq_on_human_HFF donor=ENCDO232AAA sex=male view=ENCSR000DUJ 
+		view ENCSR000DUJ
+
+		track ENCSR000DUJ_ENCFF821QIK
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DUJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO232AAA label=H3K4me3 view=ENCSR000DUJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF821QIK/@@download/ENCFF821QIK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF821QIK 5group H3K4me3 ChIP-seq on human HFF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUJ age=unknown description=ENCFF821QIK_5group_H3K4me3_ChIP_seq_on_human_HFF donor=ENCDO232AAA sex=male view=ENCSR000DUJ 
+		view ENCSR000DUJ
+
+		track ENCSR000DUJ_ENCFF856VNH
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DUJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO232AAA label=H3K4me3 view=ENCSR000DUJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF856VNH/@@download/ENCFF856VNH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF856VNH 9state-H3K4me3 H3K4me3 ChIP-seq on human HFF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUJ age=unknown description=ENCFF856VNH_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HFF donor=ENCDO232AAA sex=male view=ENCSR000DUJ 
+		view ENCSR000DUJ
+
+	track ENCSR000DWS_ENCFF117ZDR
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO191CQJ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF117ZDR/@@download/ENCFF117ZDR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DWS foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DWS age=unknown description=ENCSR000DWS_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO191CQJ sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000DWS
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000DWS
+	visibility dense
+	type bigBed
+
+		track ENCSR000DWS_ENCFF711UEX
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DWS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO191CQJ label=H3K4me3 view=ENCSR000DWS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF711UEX/@@download/ENCFF711UEX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DWS foreskin_fibroblast_male_newborn (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DWS age=unknown description=ENCSR000DWS_foreskin_fibroblast_male_newborn_replicated_peaks_ donor=ENCDO191CQJ sex=male view=ENCSR000DWS 
+		view ENCSR000DWS
+
+	track ENCSR079ZQI_ENCFF982GJB
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF982GJB/@@download/ENCFF982GJB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR079ZQI foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR079ZQI age=unknown description=ENCSR079ZQI_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO047TBB sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR079ZQI
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR079ZQI
+	visibility dense
+	type bigBed
+
+		track ENCSR079ZQI_ENCFF692PFA
+		parent primary_cell_foreskin_fibroblast_view_ENCSR079ZQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me3 view=ENCSR079ZQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF692PFA/@@download/ENCFF692PFA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR079ZQI foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR079ZQI age=unknown description=ENCSR079ZQI_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO047TBB sex=male view=ENCSR079ZQI 
+		view ENCSR079ZQI
+
+		track ENCSR079ZQI_ENCFF017BAV
+		parent primary_cell_foreskin_fibroblast_view_ENCSR079ZQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me3 view=ENCSR079ZQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017BAV/@@download/ENCFF017BAV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF017BAV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR079ZQI age=unknown description=ENCFF017BAV_9state_DNase_ donor=ENCDO047TBB sex=male view=ENCSR079ZQI 
+		view ENCSR079ZQI
+
+		track ENCSR079ZQI_ENCFF804YUL
+		parent primary_cell_foreskin_fibroblast_view_ENCSR079ZQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me3 view=ENCSR079ZQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF804YUL/@@download/ENCFF804YUL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF804YUL 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR079ZQI age=unknown description=ENCFF804YUL_9state_CTCF_ donor=ENCDO047TBB sex=male view=ENCSR079ZQI 
+		view ENCSR079ZQI
+
+		track ENCSR079ZQI_ENCFF080EPK
+		parent primary_cell_foreskin_fibroblast_view_ENCSR079ZQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me3 view=ENCSR079ZQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF080EPK/@@download/ENCFF080EPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF080EPK 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR079ZQI age=unknown description=ENCFF080EPK_5group_ donor=ENCDO047TBB sex=male view=ENCSR079ZQI 
+		view ENCSR079ZQI
+
+		track ENCSR079ZQI_ENCFF663XOF
+		parent primary_cell_foreskin_fibroblast_view_ENCSR079ZQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me3 view=ENCSR079ZQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663XOF/@@download/ENCFF663XOF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF663XOF 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR079ZQI age=unknown description=ENCFF663XOF_9state_H3K27ac_ donor=ENCDO047TBB sex=male view=ENCSR079ZQI 
+		view ENCSR079ZQI
+
+		track ENCSR079ZQI_ENCFF369TAY
+		parent primary_cell_foreskin_fibroblast_view_ENCSR079ZQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me3 view=ENCSR079ZQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF369TAY/@@download/ENCFF369TAY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF369TAY 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR079ZQI age=unknown description=ENCFF369TAY_9state_H3K4me3_ donor=ENCDO047TBB sex=male view=ENCSR079ZQI 
+		view ENCSR079ZQI
+
+	track ENCSR122IJJ_ENCFF110IYD
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF110IYD/@@download/ENCFF110IYD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR122IJJ foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR122IJJ age=unknown description=ENCSR122IJJ_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO666YUN sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR122IJJ
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR122IJJ
+	visibility dense
+	type bigBed
+
+		track ENCSR122IJJ_ENCFF805HDD
+		parent primary_cell_foreskin_fibroblast_view_ENCSR122IJJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K4me3 view=ENCSR122IJJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF805HDD/@@download/ENCFF805HDD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR122IJJ foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR122IJJ age=unknown description=ENCSR122IJJ_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO666YUN sex=male view=ENCSR122IJJ 
+		view ENCSR122IJJ
+
+	track ENCSR813CFB_ENCFF679PIT
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF679PIT/@@download/ENCFF679PIT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR813CFB foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR813CFB age=unknown description=ENCSR813CFB_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO686OPO sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR813CFB
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR813CFB
+	visibility dense
+	type bigBed
+
+		track ENCSR813CFB_ENCFF849MYN
+		parent primary_cell_foreskin_fibroblast_view_ENCSR813CFB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K4me3 view=ENCSR813CFB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF849MYN/@@download/ENCFF849MYN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR813CFB foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR813CFB age=unknown description=ENCSR813CFB_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO686OPO sex=male view=ENCSR813CFB 
+		view ENCSR813CFB
+
+	track ENCSR000DQI_ENCFF333PXD
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF333PXD/@@download/ENCFF333PXD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DQI foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQI age=unknown description=ENCSR000DQI_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000DQI
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000DQI
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQI_ENCFF923JPC
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=CTCF view=ENCSR000DQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF923JPC/@@download/ENCFF923JPC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DQI foreskin_fibroblast_male_newborn (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DQI age=unknown description=ENCSR000DQI_foreskin_fibroblast_male_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAG sex=male view=ENCSR000DQI 
+		view ENCSR000DQI
+
+		track ENCSR000DQI_ENCFF017BAV
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=CTCF view=ENCSR000DQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017BAV/@@download/ENCFF017BAV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF017BAV 9state-DNase CTCF ChIP-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQI age=unknown description=ENCFF017BAV_9state_DNase_CTCF_ChIP_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000DQI 
+		view ENCSR000DQI
+
+		track ENCSR000DQI_ENCFF804YUL
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=CTCF view=ENCSR000DQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF804YUL/@@download/ENCFF804YUL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF804YUL 9state-CTCF CTCF ChIP-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQI age=unknown description=ENCFF804YUL_9state_CTCF_CTCF_ChIP_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000DQI 
+		view ENCSR000DQI
+
+		track ENCSR000DQI_ENCFF080EPK
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=CTCF view=ENCSR000DQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF080EPK/@@download/ENCFF080EPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF080EPK 5group CTCF ChIP-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQI age=unknown description=ENCFF080EPK_5group_CTCF_ChIP_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000DQI 
+		view ENCSR000DQI
+
+		track ENCSR000DQI_ENCFF663XOF
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=CTCF view=ENCSR000DQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663XOF/@@download/ENCFF663XOF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF663XOF 9state-H3K27ac CTCF ChIP-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQI age=unknown description=ENCFF663XOF_9state_H3K27ac_CTCF_ChIP_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000DQI 
+		view ENCSR000DQI
+
+		track ENCSR000DQI_ENCFF369TAY
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=CTCF view=ENCSR000DQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF369TAY/@@download/ENCFF369TAY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF369TAY 9state-H3K4me3 CTCF ChIP-seq on human foreskin fibroblast cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQI age=unknown description=ENCFF369TAY_9state_H3K4me3_CTCF_ChIP_seq_on_human_foreskin_fibroblast_cell donor=ENCDO000AAG sex=male view=ENCSR000DQI 
+		view ENCSR000DQI
+
+	track ENCSR000DUH_ENCFF294XKH
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO232AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF294XKH/@@download/ENCFF294XKH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DUH foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DUH age=unknown description=ENCSR000DUH_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO232AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000DUH
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000DUH
+	visibility dense
+	type bigBed
+
+		track ENCSR000DUH_ENCFF553CSF
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DUH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO232AAA label=CTCF view=ENCSR000DUH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF553CSF/@@download/ENCFF553CSF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DUH foreskin_fibroblast_male_newborn (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DUH age=unknown description=ENCSR000DUH_foreskin_fibroblast_male_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO232AAA sex=male view=ENCSR000DUH 
+		view ENCSR000DUH
+
+	track ENCSR000DWQ_ENCFF744SJH
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO191CQJ label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF744SJH/@@download/ENCFF744SJH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DWQ foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DWQ age=unknown description=ENCSR000DWQ_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO191CQJ sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000DWQ
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000DWQ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DWQ_ENCFF342QKN
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DWQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO191CQJ label=CTCF view=ENCSR000DWQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF342QKN/@@download/ENCFF342QKN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DWQ foreskin_fibroblast_male_newborn (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DWQ age=unknown description=ENCSR000DWQ_foreskin_fibroblast_male_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO191CQJ sex=male view=ENCSR000DWQ 
+		view ENCSR000DWQ
+
+		track ENCSR000DWQ_ENCFF212HPV
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DWQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO191CQJ label=CTCF view=ENCSR000DWQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF212HPV/@@download/ENCFF212HPV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF212HPV 9state-CTCF CTCF ChIP-seq on human NHDF-neo
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DWQ age=unknown description=ENCFF212HPV_9state_CTCF_CTCF_ChIP_seq_on_human_NHDF_neo donor=ENCDO191CQJ sex=male view=ENCSR000DWQ 
+		view ENCSR000DWQ
+
+		track ENCSR000DWQ_ENCFF821QIK
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DWQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO191CQJ label=CTCF view=ENCSR000DWQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF821QIK/@@download/ENCFF821QIK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF821QIK 5group CTCF ChIP-seq on human NHDF-neo
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DWQ age=unknown description=ENCFF821QIK_5group_CTCF_ChIP_seq_on_human_NHDF_neo donor=ENCDO191CQJ sex=male view=ENCSR000DWQ 
+		view ENCSR000DWQ
+
+		track ENCSR000DWQ_ENCFF856VNH
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DWQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO191CQJ label=CTCF view=ENCSR000DWQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF856VNH/@@download/ENCFF856VNH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF856VNH 9state-H3K4me3 CTCF ChIP-seq on human NHDF-neo
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DWQ age=unknown description=ENCFF856VNH_9state_H3K4me3_CTCF_ChIP_seq_on_human_NHDF_neo donor=ENCDO191CQJ sex=male view=ENCSR000DWQ 
+		view ENCSR000DWQ
+
+	track ENCSR108NVQ_ENCFF055AOO
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF055AOO/@@download/ENCFF055AOO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR108NVQ foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR108NVQ age=unknown description=ENCSR108NVQ_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO047TBB sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR108NVQ
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR108NVQ
+	visibility dense
+	type bigBed
+
+		track ENCSR108NVQ_ENCFF379IWQ
+		parent primary_cell_foreskin_fibroblast_view_ENCSR108NVQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27ac view=ENCSR108NVQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF379IWQ/@@download/ENCFF379IWQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR108NVQ foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR108NVQ age=unknown description=ENCSR108NVQ_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO047TBB sex=male view=ENCSR108NVQ 
+		view ENCSR108NVQ
+
+		track ENCSR108NVQ_ENCFF017BAV
+		parent primary_cell_foreskin_fibroblast_view_ENCSR108NVQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27ac view=ENCSR108NVQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017BAV/@@download/ENCFF017BAV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF017BAV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR108NVQ age=unknown description=ENCFF017BAV_9state_DNase_ donor=ENCDO047TBB sex=male view=ENCSR108NVQ 
+		view ENCSR108NVQ
+
+		track ENCSR108NVQ_ENCFF804YUL
+		parent primary_cell_foreskin_fibroblast_view_ENCSR108NVQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27ac view=ENCSR108NVQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF804YUL/@@download/ENCFF804YUL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF804YUL 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR108NVQ age=unknown description=ENCFF804YUL_9state_CTCF_ donor=ENCDO047TBB sex=male view=ENCSR108NVQ 
+		view ENCSR108NVQ
+
+		track ENCSR108NVQ_ENCFF080EPK
+		parent primary_cell_foreskin_fibroblast_view_ENCSR108NVQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27ac view=ENCSR108NVQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF080EPK/@@download/ENCFF080EPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF080EPK 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR108NVQ age=unknown description=ENCFF080EPK_5group_ donor=ENCDO047TBB sex=male view=ENCSR108NVQ 
+		view ENCSR108NVQ
+
+		track ENCSR108NVQ_ENCFF663XOF
+		parent primary_cell_foreskin_fibroblast_view_ENCSR108NVQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27ac view=ENCSR108NVQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663XOF/@@download/ENCFF663XOF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF663XOF 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR108NVQ age=unknown description=ENCFF663XOF_9state_H3K27ac_ donor=ENCDO047TBB sex=male view=ENCSR108NVQ 
+		view ENCSR108NVQ
+
+		track ENCSR108NVQ_ENCFF369TAY
+		parent primary_cell_foreskin_fibroblast_view_ENCSR108NVQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27ac view=ENCSR108NVQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF369TAY/@@download/ENCFF369TAY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF369TAY 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR108NVQ age=unknown description=ENCFF369TAY_9state_H3K4me3_ donor=ENCDO047TBB sex=male view=ENCSR108NVQ 
+		view ENCSR108NVQ
+
+	track ENCSR822ZIG_ENCFF376OWO
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF376OWO/@@download/ENCFF376OWO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR822ZIG foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR822ZIG age=unknown description=ENCSR822ZIG_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO686OPO sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR822ZIG
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR822ZIG
+	visibility dense
+	type bigBed
+
+		track ENCSR822ZIG_ENCFF791GMC
+		parent primary_cell_foreskin_fibroblast_view_ENCSR822ZIG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K27ac view=ENCSR822ZIG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF791GMC/@@download/ENCFF791GMC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR822ZIG foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR822ZIG age=unknown description=ENCSR822ZIG_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO686OPO sex=male view=ENCSR822ZIG 
+		view ENCSR822ZIG
+
+	track ENCSR917QEH_ENCFF906FAB
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF906FAB/@@download/ENCFF906FAB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR917QEH foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR917QEH age=unknown description=ENCSR917QEH_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO666YUN sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR917QEH
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR917QEH
+	visibility dense
+	type bigBed
+
+		track ENCSR917QEH_ENCFF068VBJ
+		parent primary_cell_foreskin_fibroblast_view_ENCSR917QEH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K27ac view=ENCSR917QEH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF068VBJ/@@download/ENCFF068VBJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR917QEH foreskin_fibroblast_male_newborn (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR917QEH age=unknown description=ENCSR917QEH_foreskin_fibroblast_male_newborn_replicated_peaks_ donor=ENCDO666YUN sex=male view=ENCSR917QEH 
+		view ENCSR917QEH
+
+	track ENCSR000CJX_ENCFF377MOK
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=CAGE donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF377MOK/@@download/ENCFF377MOK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CJX foreskin_fibroblast_male_newborn (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CJX age=unknown description=ENCSR000CJX_foreskin_fibroblast_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000COP_ENCFF108WJU
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF108WJU/@@download/ENCFF108WJU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000COP foreskin_fibroblast_male_newborn (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000COP age=unknown description=ENCSR000COP_foreskin_fibroblast_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CQD_ENCFF335EBK
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF335EBK/@@download/ENCFF335EBK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CQD foreskin_fibroblast_male_newborn (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CQD age=unknown description=ENCSR000CQD_foreskin_fibroblast_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CRG_ENCFF991OVQ
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF991OVQ/@@download/ENCFF991OVQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CRG foreskin_fibroblast_male_newborn (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CRG age=unknown description=ENCSR000CRG_foreskin_fibroblast_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CXO_ENCFF001GIC
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GIC/@@download/ENCFF001GIC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR000CXO foreskin_fibroblast_G1b_phase_male_newborn (percentage normalized si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CXO age=unknown description=ENCSR000CXO_foreskin_fibroblast_G1b_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR075IID_ENCFF001GJC
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GJC/@@download/ENCFF001GJC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR075IID foreskin_fibroblast_S3_phase_male_newborn (percentage normalized sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR075IID age=unknown description=ENCSR075IID_foreskin_fibroblast_S3_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR118GUR_ENCFF824ACD
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=microRNA-seq donor=ENCDO047TBB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF824ACD/@@download/ENCFF824ACD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR118GUR foreskin_fibroblast_male_newborn (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR118GUR age=unknown description=ENCSR118GUR_foreskin_fibroblast_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO047TBB sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR261ISO_ENCFF634EAZ
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO666YUN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF634EAZ/@@download/ENCFF634EAZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR261ISO foreskin_fibroblast_male_newborn (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR261ISO age=unknown description=ENCSR261ISO_foreskin_fibroblast_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO666YUN sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR507FZW_ENCFF330JRX
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=microRNA-seq donor=ENCDO666YUN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF330JRX/@@download/ENCFF330JRX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR507FZW foreskin_fibroblast_male_newborn (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR507FZW age=unknown description=ENCSR507FZW_foreskin_fibroblast_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO666YUN sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR750HRE_ENCFF001GIX
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GIX/@@download/ENCFF001GIX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR750HRE foreskin_fibroblast_S2_phase_male_newborn (percentage normalized sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR750HRE age=unknown description=ENCSR750HRE_foreskin_fibroblast_S2_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR851GNB_ENCFF877DKR
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO686OPO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF877DKR/@@download/ENCFF877DKR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR851GNB foreskin_fibroblast_male_newborn (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR851GNB age=unknown description=ENCSR851GNB_foreskin_fibroblast_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO686OPO sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR852QFP_ENCFF001GJH
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GJH/@@download/ENCFF001GJH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR852QFP foreskin_fibroblast_S4_phase_male_newborn (percentage normalized sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR852QFP age=unknown description=ENCSR852QFP_foreskin_fibroblast_S4_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR895MIM_ENCFF001GII
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GII/@@download/ENCFF001GII.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR895MIM foreskin_fibroblast_G2_phase_male_newborn (percentage normalized sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR895MIM age=unknown description=ENCSR895MIM_foreskin_fibroblast_G2_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR935ULX_ENCFF001GIP
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000AAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GIP/@@download/ENCFF001GIP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR935ULX foreskin_fibroblast_S1_phase_male_newborn (percentage normalized sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR935ULX age=unknown description=ENCSR935ULX_foreskin_fibroblast_S1_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000DQG_ENCFF810QLL
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810QLL/@@download/ENCFF810QLL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DQG foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQG age=unknown description=ENCSR000DQG_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000DQG
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000DQG
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQG_ENCFF220RQH
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=H3K27me3 view=ENCSR000DQG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF220RQH/@@download/ENCFF220RQH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DQG foreskin_fibroblast_male_newborn (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DQG age=unknown description=ENCSR000DQG_foreskin_fibroblast_male_newborn_replicated_peaks_ donor=ENCDO000AAG sex=male view=ENCSR000DQG 
+		view ENCSR000DQG
+
+	track ENCSR285UTJ_ENCFF281GTK
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF281GTK/@@download/ENCFF281GTK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR285UTJ foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR285UTJ age=unknown description=ENCSR285UTJ_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO047TBB sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR285UTJ
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR285UTJ
+	visibility dense
+	type bigBed
+
+		track ENCSR285UTJ_ENCFF718DEG
+		parent primary_cell_foreskin_fibroblast_view_ENCSR285UTJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K27me3 view=ENCSR285UTJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF718DEG/@@download/ENCFF718DEG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR285UTJ foreskin_fibroblast_male_newborn (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR285UTJ age=unknown description=ENCSR285UTJ_foreskin_fibroblast_male_newborn_replicated_peaks_ donor=ENCDO047TBB sex=male view=ENCSR285UTJ 
+		view ENCSR285UTJ
+
+	track ENCSR417IEJ_ENCFF413GXW
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF413GXW/@@download/ENCFF413GXW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR417IEJ foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR417IEJ age=unknown description=ENCSR417IEJ_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO686OPO sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR417IEJ
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR417IEJ
+	visibility dense
+	type bigBed
+
+		track ENCSR417IEJ_ENCFF892RAQ
+		parent primary_cell_foreskin_fibroblast_view_ENCSR417IEJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K27me3 view=ENCSR417IEJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF892RAQ/@@download/ENCFF892RAQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR417IEJ foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR417IEJ age=unknown description=ENCSR417IEJ_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO686OPO sex=male view=ENCSR417IEJ 
+		view ENCSR417IEJ
+
+	track ENCSR786ESI_ENCFF284TZJ
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF284TZJ/@@download/ENCFF284TZJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR786ESI foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR786ESI age=unknown description=ENCSR786ESI_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO666YUN sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR786ESI
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR786ESI
+	visibility dense
+	type bigBed
+
+		track ENCSR786ESI_ENCFF830MTL
+		parent primary_cell_foreskin_fibroblast_view_ENCSR786ESI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K27me3 view=ENCSR786ESI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF830MTL/@@download/ENCFF830MTL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR786ESI foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR786ESI age=unknown description=ENCSR786ESI_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO666YUN sex=male view=ENCSR786ESI 
+		view ENCSR786ESI
+
+	track ENCSR000DQF_ENCFF800XSI
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF800XSI/@@download/ENCFF800XSI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DQF foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQF age=unknown description=ENCSR000DQF_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO000AAG sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR000DQF
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR000DQF
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQF_ENCFF589XRR
+		parent primary_cell_foreskin_fibroblast_view_ENCSR000DQF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAG label=H3K36me3 view=ENCSR000DQF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF589XRR/@@download/ENCFF589XRR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DQF foreskin_fibroblast_male_newborn (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DQF age=unknown description=ENCSR000DQF_foreskin_fibroblast_male_newborn_replicated_peaks_ donor=ENCDO000AAG sex=male view=ENCSR000DQF 
+		view ENCSR000DQF
+
+	track ENCSR019ZRR_ENCFF125VWN
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF125VWN/@@download/ENCFF125VWN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR019ZRR foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR019ZRR age=unknown description=ENCSR019ZRR_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO666YUN sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR019ZRR
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR019ZRR
+	visibility dense
+	type bigBed
+
+		track ENCSR019ZRR_ENCFF734JGO
+		parent primary_cell_foreskin_fibroblast_view_ENCSR019ZRR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K36me3 view=ENCSR019ZRR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF734JGO/@@download/ENCFF734JGO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR019ZRR foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR019ZRR age=unknown description=ENCSR019ZRR_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO666YUN sex=male view=ENCSR019ZRR 
+		view ENCSR019ZRR
+
+	track ENCSR621EXD_ENCFF590JRP
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF590JRP/@@download/ENCFF590JRP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR621EXD foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR621EXD age=unknown description=ENCSR621EXD_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO686OPO sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR621EXD
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR621EXD
+	visibility dense
+	type bigBed
+
+		track ENCSR621EXD_ENCFF572UGO
+		parent primary_cell_foreskin_fibroblast_view_ENCSR621EXD off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K36me3 view=ENCSR621EXD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF572UGO/@@download/ENCFF572UGO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR621EXD foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR621EXD age=unknown description=ENCSR621EXD_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO686OPO sex=male view=ENCSR621EXD 
+		view ENCSR621EXD
+
+	track ENCSR889OUV_ENCFF029THI
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF029THI/@@download/ENCFF029THI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR889OUV foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR889OUV age=unknown description=ENCSR889OUV_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO047TBB sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR889OUV
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR889OUV
+	visibility dense
+	type bigBed
+
+		track ENCSR889OUV_ENCFF573FKP
+		parent primary_cell_foreskin_fibroblast_view_ENCSR889OUV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K36me3 view=ENCSR889OUV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF573FKP/@@download/ENCFF573FKP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR889OUV foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR889OUV age=unknown description=ENCSR889OUV_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO047TBB sex=male view=ENCSR889OUV 
+		view ENCSR889OUV
+
+	track ENCSR344WLV_ENCFF842DVN
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF842DVN/@@download/ENCFF842DVN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR344WLV foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR344WLV age=unknown description=ENCSR344WLV_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO666YUN sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR344WLV
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR344WLV
+	visibility dense
+	type bigBed
+
+		track ENCSR344WLV_ENCFF679ISG
+		parent primary_cell_foreskin_fibroblast_view_ENCSR344WLV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO666YUN label=H3K4me1 view=ENCSR344WLV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF679ISG/@@download/ENCFF679ISG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR344WLV foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR344WLV age=unknown description=ENCSR344WLV_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO666YUN sex=male view=ENCSR344WLV 
+		view ENCSR344WLV
+
+	track ENCSR346DNL_ENCFF486GKI
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF486GKI/@@download/ENCFF486GKI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR346DNL foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR346DNL age=unknown description=ENCSR346DNL_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO047TBB sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR346DNL
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR346DNL
+	visibility dense
+	type bigBed
+
+		track ENCSR346DNL_ENCFF572QBR
+		parent primary_cell_foreskin_fibroblast_view_ENCSR346DNL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K4me1 view=ENCSR346DNL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF572QBR/@@download/ENCFF572QBR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR346DNL foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR346DNL age=unknown description=ENCSR346DNL_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO047TBB sex=male view=ENCSR346DNL 
+		view ENCSR346DNL
+
+	track ENCSR367HVD_ENCFF167NTC
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF167NTC/@@download/ENCFF167NTC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR367HVD foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR367HVD age=unknown description=ENCSR367HVD_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO686OPO sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR367HVD
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR367HVD
+	visibility dense
+	type bigBed
+
+		track ENCSR367HVD_ENCFF710TBJ
+		parent primary_cell_foreskin_fibroblast_view_ENCSR367HVD off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K4me1 view=ENCSR367HVD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF710TBJ/@@download/ENCFF710TBJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR367HVD foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR367HVD age=unknown description=ENCSR367HVD_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO686OPO sex=male view=ENCSR367HVD 
+		view ENCSR367HVD
+
+	track ENCSR512BHQ_ENCFF381VTD
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF381VTD/@@download/ENCFF381VTD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR512BHQ foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR512BHQ age=unknown description=ENCSR512BHQ_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO047TBB sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR512BHQ
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR512BHQ
+	visibility dense
+	type bigBed
+
+		track ENCSR512BHQ_ENCFF963CAA
+		parent primary_cell_foreskin_fibroblast_view_ENCSR512BHQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO047TBB label=H3K9me3 view=ENCSR512BHQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF963CAA/@@download/ENCFF963CAA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR512BHQ foreskin_fibroblast_male_newborn (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR512BHQ age=unknown description=ENCSR512BHQ_foreskin_fibroblast_male_newborn_stable_peaks_ donor=ENCDO047TBB sex=male view=ENCSR512BHQ 
+		view ENCSR512BHQ
+
+	track ENCSR624YTO_ENCFF735TXC
+	parent primary_cell_foreskin_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF735TXC/@@download/ENCFF735TXC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR624YTO foreskin_fibroblast_male_newborn (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR624YTO age=unknown description=ENCSR624YTO_foreskin_fibroblast_male_newborn_fold_change_over_control_ donor=ENCDO686OPO sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_foreskin_fibroblast_view_ENCSR624YTO
+	parent primary_cell_foreskin_fibroblast off
+	view ENCSR624YTO
+	visibility dense
+	type bigBed
+
+		track ENCSR624YTO_ENCFF179BDY
+		parent primary_cell_foreskin_fibroblast_view_ENCSR624YTO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO686OPO label=H3K9me3 view=ENCSR624YTO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF179BDY/@@download/ENCFF179BDY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR624YTO foreskin_fibroblast_male_newborn (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR624YTO age=unknown description=ENCSR624YTO_foreskin_fibroblast_male_newborn_peaks_ donor=ENCDO686OPO sex=male view=ENCSR624YTO 
+		view ENCSR624YTO
+

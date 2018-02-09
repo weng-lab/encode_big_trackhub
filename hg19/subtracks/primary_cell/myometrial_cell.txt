@@ -1,0 +1,48 @@
+
+track primary_cell_myometrial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel myometrial cell
+longLabel myometrial cell (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO212MHK=ENCDO212MHK 
+subGroup2 age age a34_year=34&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR290RXI_ENCFF743CCL
+	parent primary_cell_myometrial_cell off
+	subGroups age=a34_year assay=RAMPAGE donor=ENCDO212MHK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF743CCL/@@download/ENCFF743CCL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR290RXI myometrial_cell_female_adult_34_years_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR290RXI age=34_year description=ENCSR290RXI_myometrial_cell_female_adult_34_years_plus_strand_signal_of_unique_reads_ donor=ENCDO212MHK sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR371VGV_ENCFF028CRZ
+	parent primary_cell_myometrial_cell off
+	subGroups age=a34_year assay=RNA-seq donor=ENCDO212MHK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF028CRZ/@@download/ENCFF028CRZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR371VGV myometrial_cell_female_adult_34_years_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR371VGV age=34_year description=ENCSR371VGV_myometrial_cell_female_adult_34_years_plus_strand_signal_of_unique_reads_ donor=ENCDO212MHK sex=female view=bigWig 
+	view bigWig
+

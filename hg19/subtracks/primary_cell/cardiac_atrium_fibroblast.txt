@@ -1,0 +1,48 @@
+
+track primary_cell_cardiac_atrium_fibroblast
+parent super_primary_cell
+compositeTrack on
+shortLabel cardiac atrium fi
+longLabel cardiac atrium fibroblast (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO452MAH=ENCDO452MAH ENCDO664YBM=ENCDO664YBM 
+subGroup2 age age a2_year=2&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR110BDY_ENCFF521SNS
+	parent primary_cell_cardiac_atrium_fibroblast off
+	subGroups age=a2_year assay=RNA-seq donor=ENCDO452MAH label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF521SNS/@@download/ENCFF521SNS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR110BDY cardiac_atrium_fibroblast_male_child_2_years_ (plus strand signal of
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR110BDY age=2_year description=ENCSR110BDY_cardiac_atrium_fibroblast_male_child_2_years_plus_strand_signal_of_unique_reads_ donor=ENCDO452MAH sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR936TYP_ENCFF449OLZ
+	parent primary_cell_cardiac_atrium_fibroblast off
+	subGroups age=a2_year assay=RAMPAGE donor=ENCDO664YBM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF449OLZ/@@download/ENCFF449OLZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR936TYP cardiac_atrium_fibroblast_male_child_2_years_ (plus strand signal of
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR936TYP age=2_year description=ENCSR936TYP_cardiac_atrium_fibroblast_male_child_2_years_plus_strand_signal_of_unique_reads_ donor=ENCDO664YBM sex=male view=bigWig 
+	view bigWig
+

@@ -1,0 +1,558 @@
+
+track tissue_spinal_cord
+parent super_tissue
+compositeTrack on
+shortLabel spinal cord
+longLabel spinal cord (17 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO022PVU=ENCDO022PVU ENCDO067AAA=ENCDO067AAA ENCDO076OLG=ENCDO076OLG ENCDO171HMD=ENCDO171HMD ENCDO176AAI=ENCDO176AAI ENCDO220PYT=ENCDO220PYT ENCDO676JUB=ENCDO676JUB ENCDO814BQX=ENCDO814BQX 
+subGroup2 age age a105_day=105&#32;day a108_day=108&#32;day a113_day=113&#32;day a24_week=24&#32;week a87_day=87&#32;day a89_day=89&#32;day a96_day=96&#32;day 
+subGroup3 view view ENCSR036HAT=ENCSR036HAT ENCSR083RXV=ENCSR083RXV ENCSR148MFM=ENCSR148MFM ENCSR209QGZ=ENCSR209QGZ ENCSR262LFG=ENCSR262LFG ENCSR615WIN=ENCSR615WIN ENCSR678PDD=ENCSR678PDD ENCSR788SOI=ENCSR788SOI ENCSR855JPU=ENCSR855JPU ENCSR863GVT=ENCSR863GVT ENCSR973MKT=ENCSR973MKT bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR148MFM_ENCFF366OQI
+	parent tissue_spinal_cord off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF366OQI/@@download/ENCFF366OQI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR148MFM spinal_cord_male_embryo_105_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR148MFM age=105_day description=ENCSR148MFM_spinal_cord_male_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO171HMD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR148MFM
+	parent tissue_spinal_cord off
+	view ENCSR148MFM
+	visibility dense
+	type bigBed
+
+		track ENCSR148MFM_ENCFF756MLT
+		parent tissue_spinal_cord_view_ENCSR148MFM off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=ENCSR148MFM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF756MLT/@@download/ENCFF756MLT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR148MFM spinal_cord_male_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR148MFM age=105_day description=ENCSR148MFM_spinal_cord_male_embryo_105_days_peaks_ donor=ENCDO171HMD sex=male view=ENCSR148MFM 
+		view ENCSR148MFM
+
+		track ENCSR148MFM_ENCFF786SJZ
+		parent tissue_spinal_cord_view_ENCSR148MFM off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=ENCSR148MFM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF786SJZ/@@download/ENCFF786SJZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF786SJZ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR148MFM age=105_day description=ENCFF786SJZ_9state_DNase_ donor=ENCDO171HMD sex=male view=ENCSR148MFM 
+		view ENCSR148MFM
+
+	track ENCSR615WIN_ENCFF684QXP
+	parent tissue_spinal_cord off
+	subGroups age=a89_day assay=DNase-seq donor=ENCDO076OLG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF684QXP/@@download/ENCFF684QXP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR615WIN spinal_cord_female_embryo_89_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR615WIN age=89_day description=ENCSR615WIN_spinal_cord_female_embryo_89_days_read_depth_normalized_signal_ donor=ENCDO076OLG sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR615WIN
+	parent tissue_spinal_cord off
+	view ENCSR615WIN
+	visibility dense
+	type bigBed
+
+		track ENCSR615WIN_ENCFF309OMO
+		parent tissue_spinal_cord_view_ENCSR615WIN off
+		subGroups age=a89_day assay=DNase-seq donor=ENCDO076OLG label=unknown view=ENCSR615WIN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF309OMO/@@download/ENCFF309OMO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR615WIN spinal_cord_female_embryo_89_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR615WIN age=89_day description=ENCSR615WIN_spinal_cord_female_embryo_89_days_peaks_ donor=ENCDO076OLG sex=female view=ENCSR615WIN 
+		view ENCSR615WIN
+
+		track ENCSR615WIN_ENCFF998BPH
+		parent tissue_spinal_cord_view_ENCSR615WIN off
+		subGroups age=a89_day assay=DNase-seq donor=ENCDO076OLG label=unknown view=ENCSR615WIN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF998BPH/@@download/ENCFF998BPH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF998BPH 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR615WIN age=89_day description=ENCFF998BPH_9state_DNase_ donor=ENCDO076OLG sex=female view=ENCSR615WIN 
+		view ENCSR615WIN
+
+	track ENCSR678PDD_ENCFF497JFU
+	parent tissue_spinal_cord off
+	subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF497JFU/@@download/ENCFF497JFU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR678PDD spinal_cord_female_embryo_113_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR678PDD age=113_day description=ENCSR678PDD_spinal_cord_female_embryo_113_days_read_depth_normalized_signal_ donor=ENCDO676JUB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR678PDD
+	parent tissue_spinal_cord off
+	view ENCSR678PDD
+	visibility dense
+	type bigBed
+
+		track ENCSR678PDD_ENCFF105DKR
+		parent tissue_spinal_cord_view_ENCSR678PDD off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR678PDD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF105DKR/@@download/ENCFF105DKR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR678PDD spinal_cord_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR678PDD age=113_day description=ENCSR678PDD_spinal_cord_female_embryo_113_days_peaks_ donor=ENCDO676JUB sex=female view=ENCSR678PDD 
+		view ENCSR678PDD
+
+		track ENCSR678PDD_ENCFF826UGF
+		parent tissue_spinal_cord_view_ENCSR678PDD off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR678PDD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF826UGF/@@download/ENCFF826UGF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF826UGF 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR678PDD age=113_day description=ENCFF826UGF_9state_DNase_ donor=ENCDO676JUB sex=female view=ENCSR678PDD 
+		view ENCSR678PDD
+
+	track ENCSR788SOI_ENCFF361DNV
+	parent tissue_spinal_cord off
+	subGroups age=a96_day assay=DNase-seq donor=ENCDO220PYT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF361DNV/@@download/ENCFF361DNV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR788SOI spinal_cord_male_embryo_96_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR788SOI age=96_day description=ENCSR788SOI_spinal_cord_male_embryo_96_days_read_depth_normalized_signal_ donor=ENCDO220PYT sex=male view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR788SOI
+	parent tissue_spinal_cord off
+	view ENCSR788SOI
+	visibility dense
+	type bigBed
+
+		track ENCSR788SOI_ENCFF480BSL
+		parent tissue_spinal_cord_view_ENCSR788SOI off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO220PYT label=unknown view=ENCSR788SOI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF480BSL/@@download/ENCFF480BSL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR788SOI spinal_cord_male_embryo_96_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR788SOI age=96_day description=ENCSR788SOI_spinal_cord_male_embryo_96_days_peaks_ donor=ENCDO220PYT sex=male view=ENCSR788SOI 
+		view ENCSR788SOI
+
+		track ENCSR788SOI_ENCFF488YPI
+		parent tissue_spinal_cord_view_ENCSR788SOI off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO220PYT label=unknown view=ENCSR788SOI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF488YPI/@@download/ENCFF488YPI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF488YPI 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR788SOI age=96_day description=ENCFF488YPI_9state_DNase_ donor=ENCDO220PYT sex=male view=ENCSR788SOI 
+		view ENCSR788SOI
+
+	track ENCSR973MKT_ENCFF444XOJ
+	parent tissue_spinal_cord off
+	subGroups age=a87_day assay=DNase-seq donor=ENCDO814BQX label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF444XOJ/@@download/ENCFF444XOJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR973MKT spinal_cord_female_embryo_87_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR973MKT age=87_day description=ENCSR973MKT_spinal_cord_female_embryo_87_days_read_depth_normalized_signal_ donor=ENCDO814BQX sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR973MKT
+	parent tissue_spinal_cord off
+	view ENCSR973MKT
+	visibility dense
+	type bigBed
+
+		track ENCSR973MKT_ENCFF178AHM
+		parent tissue_spinal_cord_view_ENCSR973MKT off
+		subGroups age=a87_day assay=DNase-seq donor=ENCDO814BQX label=unknown view=ENCSR973MKT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF178AHM/@@download/ENCFF178AHM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR973MKT spinal_cord_female_embryo_87_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR973MKT age=87_day description=ENCSR973MKT_spinal_cord_female_embryo_87_days_peaks_ donor=ENCDO814BQX sex=female view=ENCSR973MKT 
+		view ENCSR973MKT
+
+		track ENCSR973MKT_ENCFF073JON
+		parent tissue_spinal_cord_view_ENCSR973MKT off
+		subGroups age=a87_day assay=DNase-seq donor=ENCDO814BQX label=unknown view=ENCSR973MKT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF073JON/@@download/ENCFF073JON.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF073JON 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR973MKT age=87_day description=ENCFF073JON_9state_DNase_ donor=ENCDO814BQX sex=female view=ENCSR973MKT 
+		view ENCSR973MKT
+
+	track ENCSR036HAT_ENCFF255YLW
+	parent tissue_spinal_cord off
+	subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF255YLW/@@download/ENCFF255YLW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR036HAT spinal_cord_female_embryo_113_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR036HAT age=113_day description=ENCSR036HAT_spinal_cord_female_embryo_113_days_fold_change_over_control_ donor=ENCDO022PVU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR036HAT
+	parent tissue_spinal_cord off
+	view ENCSR036HAT
+	visibility dense
+	type bigBed
+
+		track ENCSR036HAT_ENCFF967BUQ
+		parent tissue_spinal_cord_view_ENCSR036HAT off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me3 view=ENCSR036HAT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF967BUQ/@@download/ENCFF967BUQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR036HAT spinal_cord_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR036HAT age=113_day description=ENCSR036HAT_spinal_cord_female_embryo_113_days_peaks_ donor=ENCDO022PVU sex=female view=ENCSR036HAT 
+		view ENCSR036HAT
+
+	track ENCSR209QGZ_ENCFF863QGY
+	parent tissue_spinal_cord off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO176AAI label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF863QGY/@@download/ENCFF863QGY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR209QGZ spinal_cord_female_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR209QGZ age=108_day description=ENCSR209QGZ_spinal_cord_female_embryo_108_days_fold_change_over_control_ donor=ENCDO176AAI sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR209QGZ
+	parent tissue_spinal_cord off
+	view ENCSR209QGZ
+	visibility dense
+	type bigBed
+
+		track ENCSR209QGZ_ENCFF723WIP
+		parent tissue_spinal_cord_view_ENCSR209QGZ off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO176AAI label=H3K27ac view=ENCSR209QGZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF723WIP/@@download/ENCFF723WIP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR209QGZ spinal_cord_female_embryo_108_days_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR209QGZ age=108_day description=ENCSR209QGZ_spinal_cord_female_embryo_108_days_peaks_ donor=ENCDO176AAI sex=female view=ENCSR209QGZ 
+		view ENCSR209QGZ
+
+	track ENCSR000AFH_ENCFF785GDE
+	parent tissue_spinal_cord off
+	subGroups age=a24_week assay=RNA-seq donor=ENCDO067AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF785GDE/@@download/ENCFF785GDE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFH spinal_cord_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus s
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFH age=24_week description=ENCSR000AFH_spinal_cord_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO067AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGB_ENCFF073GTQ
+	parent tissue_spinal_cord off
+	subGroups age=a24_week assay=RNA-seq donor=ENCDO067AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF073GTQ/@@download/ENCFF073GTQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AGB spinal_cord_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus s
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGB age=24_week description=ENCSR000AGB_spinal_cord_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO067AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGV_ENCFF484LQH
+	parent tissue_spinal_cord off
+	subGroups age=a24_week assay=RAMPAGE donor=ENCDO067AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF484LQH/@@download/ENCFF484LQH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR000AGV spinal_cord_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus s
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGV age=24_week description=ENCSR000AGV_spinal_cord_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO067AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR333FZW_ENCFF475PMU
+	parent tissue_spinal_cord off
+	subGroups age=a105_day assay=RNA-seq donor=ENCDO171HMD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF475PMU/@@download/ENCFF475PMU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR333FZW spinal_cord_male_embryo_105_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR333FZW age=105_day description=ENCSR333FZW_spinal_cord_male_embryo_105_days_signal_of_unique_reads_ donor=ENCDO171HMD sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR542OHE_ENCFF337GJC
+	parent tissue_spinal_cord off
+	subGroups age=a113_day assay=RNA-seq donor=ENCDO676JUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF337GJC/@@download/ENCFF337GJC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR542OHE spinal_cord_female_embryo_113_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR542OHE age=113_day description=ENCSR542OHE_spinal_cord_female_embryo_113_days_signal_of_unique_reads_ donor=ENCDO676JUB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR899NLW_ENCFF395XHN
+	parent tissue_spinal_cord off
+	subGroups age=a96_day assay=RNA-seq donor=ENCDO220PYT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF395XHN/@@download/ENCFF395XHN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR899NLW spinal_cord_male_embryo_96_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR899NLW age=96_day description=ENCSR899NLW_spinal_cord_male_embryo_96_days_signal_of_unique_reads_ donor=ENCDO220PYT sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR855JPU_ENCFF529INW
+	parent tissue_spinal_cord off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO176AAI label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF529INW/@@download/ENCFF529INW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR855JPU spinal_cord_female_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR855JPU age=108_day description=ENCSR855JPU_spinal_cord_female_embryo_108_days_fold_change_over_control_ donor=ENCDO176AAI sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR855JPU
+	parent tissue_spinal_cord off
+	view ENCSR855JPU
+	visibility dense
+	type bigBed
+
+		track ENCSR855JPU_ENCFF729WUJ
+		parent tissue_spinal_cord_view_ENCSR855JPU off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO176AAI label=H3K27me3 view=ENCSR855JPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF729WUJ/@@download/ENCFF729WUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR855JPU spinal_cord_female_embryo_108_days_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR855JPU age=108_day description=ENCSR855JPU_spinal_cord_female_embryo_108_days_stable_peaks_ donor=ENCDO176AAI sex=female view=ENCSR855JPU 
+		view ENCSR855JPU
+
+	track ENCSR083RXV_ENCFF272JJW
+	parent tissue_spinal_cord off
+	subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF272JJW/@@download/ENCFF272JJW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR083RXV spinal_cord_female_embryo_113_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR083RXV age=113_day description=ENCSR083RXV_spinal_cord_female_embryo_113_days_fold_change_over_control_ donor=ENCDO022PVU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR083RXV
+	parent tissue_spinal_cord off
+	view ENCSR083RXV
+	visibility dense
+	type bigBed
+
+		track ENCSR083RXV_ENCFF777WTI
+		parent tissue_spinal_cord_view_ENCSR083RXV off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K36me3 view=ENCSR083RXV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF777WTI/@@download/ENCFF777WTI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR083RXV spinal_cord_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR083RXV age=113_day description=ENCSR083RXV_spinal_cord_female_embryo_113_days_peaks_ donor=ENCDO022PVU sex=female view=ENCSR083RXV 
+		view ENCSR083RXV
+
+	track ENCSR863GVT_ENCFF912HDU
+	parent tissue_spinal_cord off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO176AAI label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF912HDU/@@download/ENCFF912HDU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR863GVT spinal_cord_female_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR863GVT age=108_day description=ENCSR863GVT_spinal_cord_female_embryo_108_days_fold_change_over_control_ donor=ENCDO176AAI sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR863GVT
+	parent tissue_spinal_cord off
+	view ENCSR863GVT
+	visibility dense
+	type bigBed
+
+		track ENCSR863GVT_ENCFF434SGH
+		parent tissue_spinal_cord_view_ENCSR863GVT off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO176AAI label=H3K4me1 view=ENCSR863GVT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF434SGH/@@download/ENCFF434SGH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR863GVT spinal_cord_female_embryo_108_days_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR863GVT age=108_day description=ENCSR863GVT_spinal_cord_female_embryo_108_days_stable_peaks_ donor=ENCDO176AAI sex=female view=ENCSR863GVT 
+		view ENCSR863GVT
+
+	track ENCSR262LFG_ENCFF243OAB
+	parent tissue_spinal_cord off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO176AAI label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF243OAB/@@download/ENCFF243OAB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR262LFG spinal_cord_female_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR262LFG age=108_day description=ENCSR262LFG_spinal_cord_female_embryo_108_days_fold_change_over_control_ donor=ENCDO176AAI sex=female view=bigWig 
+	view bigWig
+
+	track tissue_spinal_cord_view_ENCSR262LFG
+	parent tissue_spinal_cord off
+	view ENCSR262LFG
+	visibility dense
+	type bigBed
+
+		track ENCSR262LFG_ENCFF473ANU
+		parent tissue_spinal_cord_view_ENCSR262LFG off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO176AAI label=H3K9me3 view=ENCSR262LFG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF473ANU/@@download/ENCFF473ANU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR262LFG spinal_cord_female_embryo_108_days_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR262LFG age=108_day description=ENCSR262LFG_spinal_cord_female_embryo_108_days_stable_peaks_ donor=ENCDO176AAI sex=female view=ENCSR262LFG 
+		view ENCSR262LFG
+

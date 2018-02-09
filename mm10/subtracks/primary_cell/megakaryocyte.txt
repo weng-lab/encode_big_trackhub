@@ -1,0 +1,301 @@
+
+track primary_cell_megakaryocyte
+parent super_primary_cell
+compositeTrack on
+shortLabel megakaryocyte
+longLabel megakaryocyte (10 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO083AAA=ENCDO083AAA 
+subGroup2 age age a14_5_day=14&#46;5&#32;day a5_6_week=5-6&#32;week 
+subGroup3 view view ENCSR000DHD=ENCSR000DHD ENCSR000DHF=ENCSR000DHF ENCSR000DHH=ENCSR000DHH ENCSR000DHI=ENCSR000DHI ENCSR000DHR=ENCSR000DHR ENCSR000DHT=ENCSR000DHT bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DHT_ENCFF211IXB
+	parent primary_cell_megakaryocyte off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF211IXB/@@download/ENCFF211IXB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DHT CD_1_megakaryocyte_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHT age=14_5_day description=ENCSR000DHT_CD_1_megakaryocyte_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_megakaryocyte_view_ENCSR000DHT
+	parent primary_cell_megakaryocyte off
+	view ENCSR000DHT
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHT_ENCFF953ZOH
+		parent primary_cell_megakaryocyte_view_ENCSR000DHT off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me3 view=ENCSR000DHT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF953ZOH/@@download/ENCFF953ZOH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DHT CD_1_megakaryocyte_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DHT age=14_5_day description=ENCSR000DHT_CD_1_megakaryocyte_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHT 
+		view ENCSR000DHT
+
+		track ENCSR000DHT_ENCFF583XND
+		parent primary_cell_megakaryocyte_view_ENCSR000DHT off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me3 view=ENCSR000DHT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF583XND/@@download/ENCFF583XND.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF583XND 5group PSU mouse Megakaryo H3K4me3 ChIP-seq
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DHT age=14_5_day description=ENCFF583XND_5group_PSU_mouse_Megakaryo_H3K4me3_ChIP_seq donor=ENCDO083AAA sex=unknown view=ENCSR000DHT 
+		view ENCSR000DHT
+
+	track ENCSR000CIC_ENCFF494ELG
+	parent primary_cell_megakaryocyte off
+	subGroups age=a14_5_day assay=RNA-seq donor=ENCDO083AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF494ELG/@@download/ENCFF494ELG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CIC CD_1_megakaryocyte_embryo_14_5_days_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CIC age=14_5_day description=ENCSR000CIC_CD_1_megakaryocyte_embryo_14_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR025JRA_ENCFF598GVI
+	parent primary_cell_megakaryocyte off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF598GVI/@@download/ENCFF598GVI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR025JRA C57BL_6_megakaryocyte_male_adult_5_6_weeks_ (plus strand signal of u
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR025JRA age=5_6_week description=ENCSR025JRA_C57BL_6_megakaryocyte_male_adult_5_6_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR340NCF_ENCFF307YVG
+	parent primary_cell_megakaryocyte off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF307YVG/@@download/ENCFF307YVG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR340NCF C57BL_6_megakaryocyte_male_adult_5_6_weeks_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR340NCF age=5_6_week description=ENCSR340NCF_C57BL_6_megakaryocyte_male_adult_5_6_weeks_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR498DQA_ENCFF047WUY
+	parent primary_cell_megakaryocyte off
+	subGroups age=a5_6_week assay=ATAC-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF047WUY/@@download/ENCFF047WUY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR498DQA C57BL_6_megakaryocyte_male_adult_5_6_weeks_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR498DQA age=5_6_week description=ENCSR498DQA_C57BL_6_megakaryocyte_male_adult_5_6_weeks_fold_change_over_control_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000DHD_ENCFF460EAQ
+	parent primary_cell_megakaryocyte off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=FLI1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF460EAQ/@@download/ENCFF460EAQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FLI1
+	longLabel ENCSR000DHD CD_1_megakaryocyte_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHD age=14_5_day description=ENCSR000DHD_CD_1_megakaryocyte_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_megakaryocyte_view_ENCSR000DHD
+	parent primary_cell_megakaryocyte off
+	view ENCSR000DHD
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHD_ENCFF021FKC
+		parent primary_cell_megakaryocyte_view_ENCSR000DHD off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=FLI1 view=ENCSR000DHD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF021FKC/@@download/ENCFF021FKC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq FLI1
+		longLabel ENCSR000DHD CD_1_megakaryocyte_embryo_14_5_days_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DHD age=14_5_day description=ENCSR000DHD_CD_1_megakaryocyte_embryo_14_5_days_optimal_idr_thresholded_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHD 
+		view ENCSR000DHD
+
+	track ENCSR000DHF_ENCFF331NCU
+	parent primary_cell_megakaryocyte off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF331NCU/@@download/ENCFF331NCU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DHF CD_1_megakaryocyte_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHF age=14_5_day description=ENCSR000DHF_CD_1_megakaryocyte_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_megakaryocyte_view_ENCSR000DHF
+	parent primary_cell_megakaryocyte off
+	view ENCSR000DHF
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHF_ENCFF661DBM
+		parent primary_cell_megakaryocyte_view_ENCSR000DHF off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K27me3 view=ENCSR000DHF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF661DBM/@@download/ENCFF661DBM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DHF CD_1_megakaryocyte_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DHF age=14_5_day description=ENCSR000DHF_CD_1_megakaryocyte_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHF 
+		view ENCSR000DHF
+
+	track ENCSR000DHI_ENCFF410HES
+	parent primary_cell_megakaryocyte off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF410HES/@@download/ENCFF410HES.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DHI CD_1_megakaryocyte_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHI age=14_5_day description=ENCSR000DHI_CD_1_megakaryocyte_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_megakaryocyte_view_ENCSR000DHI
+	parent primary_cell_megakaryocyte off
+	view ENCSR000DHI
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHI_ENCFF425JHS
+		parent primary_cell_megakaryocyte_view_ENCSR000DHI off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K36me3 view=ENCSR000DHI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF425JHS/@@download/ENCFF425JHS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DHI CD_1_megakaryocyte_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DHI age=14_5_day description=ENCSR000DHI_CD_1_megakaryocyte_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHI 
+		view ENCSR000DHI
+
+	track ENCSR000DHR_ENCFF817HHK
+	parent primary_cell_megakaryocyte off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF817HHK/@@download/ENCFF817HHK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000DHR CD_1_megakaryocyte_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHR age=14_5_day description=ENCSR000DHR_CD_1_megakaryocyte_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_megakaryocyte_view_ENCSR000DHR
+	parent primary_cell_megakaryocyte off
+	view ENCSR000DHR
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHR_ENCFF278DIP
+		parent primary_cell_megakaryocyte_view_ENCSR000DHR off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me1 view=ENCSR000DHR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF278DIP/@@download/ENCFF278DIP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000DHR CD_1_megakaryocyte_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000DHR age=14_5_day description=ENCSR000DHR_CD_1_megakaryocyte_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHR 
+		view ENCSR000DHR
+
+	track ENCSR000DHH_ENCFF851DGO
+	parent primary_cell_megakaryocyte off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF851DGO/@@download/ENCFF851DGO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR000DHH CD_1_megakaryocyte_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHH age=14_5_day description=ENCSR000DHH_CD_1_megakaryocyte_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_megakaryocyte_view_ENCSR000DHH
+	parent primary_cell_megakaryocyte off
+	view ENCSR000DHH
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHH_ENCFF611FTU
+		parent primary_cell_megakaryocyte_view_ENCSR000DHH off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K9me3 view=ENCSR000DHH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF611FTU/@@download/ENCFF611FTU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR000DHH CD_1_megakaryocyte_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR000DHH age=14_5_day description=ENCSR000DHH_CD_1_megakaryocyte_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHH 
+		view ENCSR000DHH
+

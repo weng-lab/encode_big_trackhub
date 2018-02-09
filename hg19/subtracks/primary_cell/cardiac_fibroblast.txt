@@ -1,0 +1,236 @@
+
+track primary_cell_cardiac_fibroblast
+parent super_primary_cell
+compositeTrack on
+shortLabel cardiac fibroblas
+longLabel cardiac fibroblast (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO095AAA=ENCDO095AAA ENCDO230AAA=ENCDO230AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DTE=ENCSR000DTE ENCSR000DTF=ENCSR000DTF ENCSR000DTH=ENCSR000DTH ENCSR000ENI=ENCSR000ENI bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ENI_ENCFF588JMO
+	parent primary_cell_cardiac_fibroblast off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO230AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF588JMO/@@download/ENCFF588JMO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENI cardiac_fibroblast_female (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENI age=unknown description=ENCSR000ENI_cardiac_fibroblast_female_read_depth_normalized_signal_ donor=ENCDO230AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_cardiac_fibroblast_view_ENCSR000ENI
+	parent primary_cell_cardiac_fibroblast off
+	view ENCSR000ENI
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENI_ENCFF608XDX
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000ENI off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO230AAA label=unknown view=ENCSR000ENI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF608XDX/@@download/ENCFF608XDX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENI cardiac_fibroblast_female (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENI age=unknown description=ENCSR000ENI_cardiac_fibroblast_female_peaks_ donor=ENCDO230AAA sex=female view=ENCSR000ENI 
+		view ENCSR000ENI
+
+	track ENCSR000DTE_ENCFF055DJI
+	parent primary_cell_cardiac_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO095AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF055DJI/@@download/ENCFF055DJI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DTE cardiac_fibroblast (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DTE age=unknown description=ENCSR000DTE_cardiac_fibroblast_fold_change_over_control_ donor=ENCDO095AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_cardiac_fibroblast_view_ENCSR000DTE
+	parent primary_cell_cardiac_fibroblast off
+	view ENCSR000DTE
+	visibility dense
+	type bigBed
+
+		track ENCSR000DTE_ENCFF746RRG
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO095AAA label=H3K4me3 view=ENCSR000DTE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF746RRG/@@download/ENCFF746RRG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DTE cardiac_fibroblast (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DTE age=unknown description=ENCSR000DTE_cardiac_fibroblast_replicated_peaks_ donor=ENCDO095AAA sex=unknown view=ENCSR000DTE 
+		view ENCSR000DTE
+
+		track ENCSR000DTE_ENCFF700DAZ
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO095AAA label=H3K4me3 view=ENCSR000DTE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF700DAZ/@@download/ENCFF700DAZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF700DAZ 9state-CTCF H3K4me3 ChIP-seq on human HCF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTE age=unknown description=ENCFF700DAZ_9state_CTCF_H3K4me3_ChIP_seq_on_human_HCF donor=ENCDO095AAA sex=unknown view=ENCSR000DTE 
+		view ENCSR000DTE
+
+		track ENCSR000DTE_ENCFF802YXQ
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO095AAA label=H3K4me3 view=ENCSR000DTE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF802YXQ/@@download/ENCFF802YXQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF802YXQ 5group H3K4me3 ChIP-seq on human HCF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTE age=unknown description=ENCFF802YXQ_5group_H3K4me3_ChIP_seq_on_human_HCF donor=ENCDO095AAA sex=unknown view=ENCSR000DTE 
+		view ENCSR000DTE
+
+		track ENCSR000DTE_ENCFF609SMT
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO095AAA label=H3K4me3 view=ENCSR000DTE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF609SMT/@@download/ENCFF609SMT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF609SMT 9state-H3K4me3 H3K4me3 ChIP-seq on human HCF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTE age=unknown description=ENCFF609SMT_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HCF donor=ENCDO095AAA sex=unknown view=ENCSR000DTE 
+		view ENCSR000DTE
+
+	track ENCSR000DTH_ENCFF187GUF
+	parent primary_cell_cardiac_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO230AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF187GUF/@@download/ENCFF187GUF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DTH cardiac_fibroblast_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DTH age=unknown description=ENCSR000DTH_cardiac_fibroblast_female_fold_change_over_control_ donor=ENCDO230AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_cardiac_fibroblast_view_ENCSR000DTH
+	parent primary_cell_cardiac_fibroblast off
+	view ENCSR000DTH
+	visibility dense
+	type bigBed
+
+		track ENCSR000DTH_ENCFF329WTJ
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO230AAA label=H3K4me3 view=ENCSR000DTH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF329WTJ/@@download/ENCFF329WTJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DTH cardiac_fibroblast_female (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DTH age=unknown description=ENCSR000DTH_cardiac_fibroblast_female_stable_peaks_ donor=ENCDO230AAA sex=female view=ENCSR000DTH 
+		view ENCSR000DTH
+
+	track ENCSR000DTF_ENCFF413XIV
+	parent primary_cell_cardiac_fibroblast off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO230AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF413XIV/@@download/ENCFF413XIV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DTF cardiac_fibroblast_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DTF age=unknown description=ENCSR000DTF_cardiac_fibroblast_female_fold_change_over_control_ donor=ENCDO230AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_cardiac_fibroblast_view_ENCSR000DTF
+	parent primary_cell_cardiac_fibroblast off
+	view ENCSR000DTF
+	visibility dense
+	type bigBed
+
+		track ENCSR000DTF_ENCFF946BDK
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO230AAA label=CTCF view=ENCSR000DTF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF946BDK/@@download/ENCFF946BDK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DTF cardiac_fibroblast_female (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DTF age=unknown description=ENCSR000DTF_cardiac_fibroblast_female_peaks_ donor=ENCDO230AAA sex=female view=ENCSR000DTF 
+		view ENCSR000DTF
+
+		track ENCSR000DTF_ENCFF700DAZ
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO230AAA label=CTCF view=ENCSR000DTF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF700DAZ/@@download/ENCFF700DAZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF700DAZ 9state-CTCF CTCF ChIP-seq on human HCFaa
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTF age=unknown description=ENCFF700DAZ_9state_CTCF_CTCF_ChIP_seq_on_human_HCFaa donor=ENCDO230AAA sex=female view=ENCSR000DTF 
+		view ENCSR000DTF
+
+		track ENCSR000DTF_ENCFF802YXQ
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO230AAA label=CTCF view=ENCSR000DTF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF802YXQ/@@download/ENCFF802YXQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF802YXQ 5group CTCF ChIP-seq on human HCFaa
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTF age=unknown description=ENCFF802YXQ_5group_CTCF_ChIP_seq_on_human_HCFaa donor=ENCDO230AAA sex=female view=ENCSR000DTF 
+		view ENCSR000DTF
+
+		track ENCSR000DTF_ENCFF609SMT
+		parent primary_cell_cardiac_fibroblast_view_ENCSR000DTF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO230AAA label=CTCF view=ENCSR000DTF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF609SMT/@@download/ENCFF609SMT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF609SMT 9state-H3K4me3 CTCF ChIP-seq on human HCFaa
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTF age=unknown description=ENCFF609SMT_9state_H3K4me3_CTCF_ChIP_seq_on_human_HCFaa donor=ENCDO230AAA sex=female view=ENCSR000DTF 
+		view ENCSR000DTF
+

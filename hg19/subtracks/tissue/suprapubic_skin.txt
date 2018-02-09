@@ -1,0 +1,418 @@
+
+track tissue_suprapubic_skin
+parent super_tissue
+compositeTrack on
+shortLabel suprapubic skin
+longLabel suprapubic skin (16 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR025ZZA=ENCSR025ZZA ENCSR038FOS=ENCSR038FOS ENCSR270TYZ=ENCSR270TYZ ENCSR300KUL=ENCSR300KUL ENCSR756KRS=ENCSR756KRS ENCSR773QRB=ENCSR773QRB ENCSR825RBI=ENCSR825RBI ENCSR928LDG=ENCSR928LDG bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR038FOS_ENCFF873HKL
+	parent tissue_suprapubic_skin off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF873HKL/@@download/ENCFF873HKL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR038FOS suprapubic_skin_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR038FOS age=54_year description=ENCSR038FOS_suprapubic_skin_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_suprapubic_skin_view_ENCSR038FOS
+	parent tissue_suprapubic_skin off
+	view ENCSR038FOS
+	visibility dense
+	type bigBed
+
+		track ENCSR038FOS_ENCFF659NNQ
+		parent tissue_suprapubic_skin_view_ENCSR038FOS off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR038FOS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF659NNQ/@@download/ENCFF659NNQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR038FOS suprapubic_skin_male_adult_54_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR038FOS age=54_year description=ENCSR038FOS_suprapubic_skin_male_adult_54_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO451RUA sex=male view=ENCSR038FOS 
+		view ENCSR038FOS
+
+	track ENCSR756KRS_ENCFF173OVC
+	parent tissue_suprapubic_skin off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF173OVC/@@download/ENCFF173OVC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR756KRS suprapubic_skin_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR756KRS age=51_year description=ENCSR756KRS_suprapubic_skin_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_suprapubic_skin_view_ENCSR756KRS
+	parent tissue_suprapubic_skin off
+	view ENCSR756KRS
+	visibility dense
+	type bigBed
+
+		track ENCSR756KRS_ENCFF469JVL
+		parent tissue_suprapubic_skin_view_ENCSR756KRS off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR756KRS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF469JVL/@@download/ENCFF469JVL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR756KRS suprapubic_skin_female_adult_51_year_ (pseudoreplicated idr threshol
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR756KRS age=51_year description=ENCSR756KRS_suprapubic_skin_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR756KRS 
+		view ENCSR756KRS
+
+	track ENCSR026WQO_ENCFF713KVD
+	parent tissue_suprapubic_skin off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF713KVD/@@download/ENCFF713KVD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR026WQO suprapubic_skin_female_adult_51_year_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR026WQO age=51_year description=ENCSR026WQO_suprapubic_skin_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR108MAU_ENCFF580LTI
+	parent tissue_suprapubic_skin off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF580LTI/@@download/ENCFF580LTI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR108MAU suprapubic_skin_male_adult_54_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR108MAU age=54_year description=ENCSR108MAU_suprapubic_skin_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR450ENK_ENCFF501LKD
+	parent tissue_suprapubic_skin off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF501LKD/@@download/ENCFF501LKD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR450ENK suprapubic_skin_female_adult_53_years_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR450ENK age=53_year description=ENCSR450ENK_suprapubic_skin_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR480SLD_ENCFF382HMC
+	parent tissue_suprapubic_skin off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF382HMC/@@download/ENCFF382HMC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR480SLD suprapubic_skin_female_adult_51_year_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR480SLD age=51_year description=ENCSR480SLD_suprapubic_skin_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR480WCN_ENCFF055BNE
+	parent tissue_suprapubic_skin off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF055BNE/@@download/ENCFF055BNE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR480WCN suprapubic_skin_female_adult_53_years_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR480WCN age=53_year description=ENCSR480WCN_suprapubic_skin_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR501EGS_ENCFF374ZYC
+	parent tissue_suprapubic_skin off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF374ZYC/@@download/ENCFF374ZYC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR501EGS suprapubic_skin_male_adult_37_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR501EGS age=37_year description=ENCSR501EGS_suprapubic_skin_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR616JRI_ENCFF543GKZ
+	parent tissue_suprapubic_skin off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF543GKZ/@@download/ENCFF543GKZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR616JRI suprapubic_skin_male_adult_54_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR616JRI age=54_year description=ENCSR616JRI_suprapubic_skin_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR862RGX_ENCFF951EDP
+	parent tissue_suprapubic_skin off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF951EDP/@@download/ENCFF951EDP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR862RGX suprapubic_skin_male_adult_37_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR862RGX age=37_year description=ENCSR862RGX_suprapubic_skin_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR270TYZ_ENCFF009OHL
+	parent tissue_suprapubic_skin off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF009OHL/@@download/ENCFF009OHL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR270TYZ suprapubic_skin_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR270TYZ age=37_year description=ENCSR270TYZ_suprapubic_skin_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_suprapubic_skin_view_ENCSR270TYZ
+	parent tissue_suprapubic_skin off
+	view ENCSR270TYZ
+	visibility dense
+	type bigBed
+
+		track ENCSR270TYZ_ENCFF393BSZ
+		parent tissue_suprapubic_skin_view_ENCSR270TYZ off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=ENCSR270TYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF393BSZ/@@download/ENCFF393BSZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR270TYZ suprapubic_skin_male_adult_37_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR270TYZ age=37_year description=ENCSR270TYZ_suprapubic_skin_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR270TYZ 
+		view ENCSR270TYZ
+
+	track ENCSR300KUL_ENCFF331NEO
+	parent tissue_suprapubic_skin off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF331NEO/@@download/ENCFF331NEO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR300KUL suprapubic_skin_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR300KUL age=51_year description=ENCSR300KUL_suprapubic_skin_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_suprapubic_skin_view_ENCSR300KUL
+	parent tissue_suprapubic_skin off
+	view ENCSR300KUL
+	visibility dense
+	type bigBed
+
+		track ENCSR300KUL_ENCFF834UDV
+		parent tissue_suprapubic_skin_view_ENCSR300KUL off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR300KUL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF834UDV/@@download/ENCFF834UDV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR300KUL suprapubic_skin_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR300KUL age=51_year description=ENCSR300KUL_suprapubic_skin_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR300KUL 
+		view ENCSR300KUL
+
+	track ENCSR773QRB_ENCFF200DLH
+	parent tissue_suprapubic_skin off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF200DLH/@@download/ENCFF200DLH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR773QRB suprapubic_skin_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR773QRB age=54_year description=ENCSR773QRB_suprapubic_skin_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_suprapubic_skin_view_ENCSR773QRB
+	parent tissue_suprapubic_skin off
+	view ENCSR773QRB
+	visibility dense
+	type bigBed
+
+		track ENCSR773QRB_ENCFF546NVQ
+		parent tissue_suprapubic_skin_view_ENCSR773QRB off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=ENCSR773QRB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF546NVQ/@@download/ENCFF546NVQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR773QRB suprapubic_skin_male_adult_54_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR773QRB age=54_year description=ENCSR773QRB_suprapubic_skin_male_adult_54_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO451RUA sex=male view=ENCSR773QRB 
+		view ENCSR773QRB
+
+	track ENCSR928LDG_ENCFF841TPJ
+	parent tissue_suprapubic_skin off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF841TPJ/@@download/ENCFF841TPJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR928LDG suprapubic_skin_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR928LDG age=53_year description=ENCSR928LDG_suprapubic_skin_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_suprapubic_skin_view_ENCSR928LDG
+	parent tissue_suprapubic_skin off
+	view ENCSR928LDG
+	visibility dense
+	type bigBed
+
+		track ENCSR928LDG_ENCFF295ECG
+		parent tissue_suprapubic_skin_view_ENCSR928LDG off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=ENCSR928LDG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF295ECG/@@download/ENCFF295ECG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR928LDG suprapubic_skin_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR928LDG age=53_year description=ENCSR928LDG_suprapubic_skin_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR928LDG 
+		view ENCSR928LDG
+
+	track ENCSR025ZZA_ENCFF679ULL
+	parent tissue_suprapubic_skin off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF679ULL/@@download/ENCFF679ULL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR025ZZA suprapubic_skin_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR025ZZA age=51_year description=ENCSR025ZZA_suprapubic_skin_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_suprapubic_skin_view_ENCSR025ZZA
+	parent tissue_suprapubic_skin off
+	view ENCSR025ZZA
+	visibility dense
+	type bigBed
+
+		track ENCSR025ZZA_ENCFF347TXB
+		parent tissue_suprapubic_skin_view_ENCSR025ZZA off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR025ZZA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF347TXB/@@download/ENCFF347TXB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR025ZZA suprapubic_skin_female_adult_51_year_ (pseudoreplicated idr threshol
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR025ZZA age=51_year description=ENCSR025ZZA_suprapubic_skin_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR025ZZA 
+		view ENCSR025ZZA
+
+	track ENCSR825RBI_ENCFF284MDF
+	parent tissue_suprapubic_skin off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF284MDF/@@download/ENCFF284MDF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR825RBI suprapubic_skin_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR825RBI age=53_year description=ENCSR825RBI_suprapubic_skin_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_suprapubic_skin_view_ENCSR825RBI
+	parent tissue_suprapubic_skin off
+	view ENCSR825RBI
+	visibility dense
+	type bigBed
+
+		track ENCSR825RBI_ENCFF247XTI
+		parent tissue_suprapubic_skin_view_ENCSR825RBI off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR825RBI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF247XTI/@@download/ENCFF247XTI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR825RBI suprapubic_skin_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR825RBI age=53_year description=ENCSR825RBI_suprapubic_skin_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR825RBI 
+		view ENCSR825RBI
+

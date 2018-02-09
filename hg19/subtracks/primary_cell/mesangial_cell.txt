@@ -1,0 +1,48 @@
+
+track primary_cell_mesangial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel mesangial cell
+longLabel mesangial cell (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO008MFT=ENCDO008MFT ENCDO223XJD=ENCDO223XJD 
+subGroup2 age age a21_week=21&#32;week aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR198TKA_ENCFF599SXY
+	parent primary_cell_mesangial_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO223XJD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF599SXY/@@download/ENCFF599SXY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR198TKA mesangial_cell_NONE_and_female_embryo_21_week_ (plus strand signal o
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR198TKA age=unknown description=ENCSR198TKA_mesangial_cell_NONE_and_female_embryo_21_week_plus_strand_signal_of_unique_reads_ donor=ENCDO223XJD sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR356VOK_ENCFF386QUF
+	parent primary_cell_mesangial_cell off
+	subGroups age=a21_week assay=RAMPAGE donor=ENCDO008MFT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF386QUF/@@download/ENCFF386QUF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR356VOK mesangial_cell_female_embryo_21_week_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR356VOK age=21_week description=ENCSR356VOK_mesangial_cell_female_embryo_21_week_plus_strand_signal_of_unique_reads_ donor=ENCDO008MFT sex=female view=bigWig 
+	view bigWig
+

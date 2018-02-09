@@ -1,0 +1,545 @@
+
+track tissue_muscle_of_trunk
+parent super_tissue
+compositeTrack on
+shortLabel muscle of trunk
+longLabel muscle of trunk (11 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO555CMC=ENCDO555CMC ENCDO676JUB=ENCDO676JUB ENCDO708NQU=ENCDO708NQU ENCDO920LST=ENCDO920LST 
+subGroup2 age age a113_day=113&#32;day a115_day=115&#32;day a120_day=120&#32;day a121_day=121&#32;day 
+subGroup3 view view ENCSR183LNU=ENCSR183LNU ENCSR193XWO=ENCSR193XWO ENCSR217YRJ=ENCSR217YRJ ENCSR411MGY=ENCSR411MGY ENCSR440FZS=ENCSR440FZS ENCSR514DNQ=ENCSR514DNQ ENCSR686PTV=ENCSR686PTV ENCSR714SGY=ENCSR714SGY ENCSR775FTU=ENCSR775FTU bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR217YRJ_ENCFF930KCQ
+	parent tissue_muscle_of_trunk off
+	subGroups age=a120_day assay=DNase-seq donor=ENCDO555CMC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF930KCQ/@@download/ENCFF930KCQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR217YRJ muscle_of_trunk_female_embryo_120_days_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR217YRJ age=120_day description=ENCSR217YRJ_muscle_of_trunk_female_embryo_120_days_read_depth_normalized_signal_ donor=ENCDO555CMC sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR217YRJ
+	parent tissue_muscle_of_trunk off
+	view ENCSR217YRJ
+	visibility dense
+	type bigBed
+
+		track ENCSR217YRJ_ENCFF114MYK
+		parent tissue_muscle_of_trunk_view_ENCSR217YRJ off
+		subGroups age=a120_day assay=DNase-seq donor=ENCDO555CMC label=unknown view=ENCSR217YRJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF114MYK/@@download/ENCFF114MYK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR217YRJ muscle_of_trunk_female_embryo_120_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR217YRJ age=120_day description=ENCSR217YRJ_muscle_of_trunk_female_embryo_120_days_peaks_ donor=ENCDO555CMC sex=female view=ENCSR217YRJ 
+		view ENCSR217YRJ
+
+		track ENCSR217YRJ_ENCFF364HYH
+		parent tissue_muscle_of_trunk_view_ENCSR217YRJ off
+		subGroups age=a120_day assay=DNase-seq donor=ENCDO555CMC label=unknown view=ENCSR217YRJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF364HYH/@@download/ENCFF364HYH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF364HYH 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR217YRJ age=120_day description=ENCFF364HYH_9state_DNase_ donor=ENCDO555CMC sex=female view=ENCSR217YRJ 
+		view ENCSR217YRJ
+
+	track ENCSR411MGY_ENCFF937WDA
+	parent tissue_muscle_of_trunk off
+	subGroups age=a121_day assay=DNase-seq donor=ENCDO920LST label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF937WDA/@@download/ENCFF937WDA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR411MGY muscle_of_trunk_female_embryo_121_day_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR411MGY age=121_day description=ENCSR411MGY_muscle_of_trunk_female_embryo_121_day_read_depth_normalized_signal_ donor=ENCDO920LST sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR411MGY
+	parent tissue_muscle_of_trunk off
+	view ENCSR411MGY
+	visibility dense
+	type bigBed
+
+		track ENCSR411MGY_ENCFF472YQR
+		parent tissue_muscle_of_trunk_view_ENCSR411MGY off
+		subGroups age=a121_day assay=DNase-seq donor=ENCDO920LST label=unknown view=ENCSR411MGY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF472YQR/@@download/ENCFF472YQR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR411MGY muscle_of_trunk_female_embryo_121_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR411MGY age=121_day description=ENCSR411MGY_muscle_of_trunk_female_embryo_121_day_peaks_ donor=ENCDO920LST sex=female view=ENCSR411MGY 
+		view ENCSR411MGY
+
+		track ENCSR411MGY_ENCFF792NHV
+		parent tissue_muscle_of_trunk_view_ENCSR411MGY off
+		subGroups age=a121_day assay=DNase-seq donor=ENCDO920LST label=unknown view=ENCSR411MGY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF792NHV/@@download/ENCFF792NHV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF792NHV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR411MGY age=121_day description=ENCFF792NHV_9state_DNase_ donor=ENCDO920LST sex=female view=ENCSR411MGY 
+		view ENCSR411MGY
+
+	track ENCSR440FZS_ENCFF851IPZ
+	parent tissue_muscle_of_trunk off
+	subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF851IPZ/@@download/ENCFF851IPZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR440FZS muscle_of_trunk_female_embryo_113_days_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR440FZS age=113_day description=ENCSR440FZS_muscle_of_trunk_female_embryo_113_days_read_depth_normalized_signal_ donor=ENCDO676JUB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR440FZS
+	parent tissue_muscle_of_trunk off
+	view ENCSR440FZS
+	visibility dense
+	type bigBed
+
+		track ENCSR440FZS_ENCFF284VYD
+		parent tissue_muscle_of_trunk_view_ENCSR440FZS off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR440FZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF284VYD/@@download/ENCFF284VYD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR440FZS muscle_of_trunk_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR440FZS age=113_day description=ENCSR440FZS_muscle_of_trunk_female_embryo_113_days_peaks_ donor=ENCDO676JUB sex=female view=ENCSR440FZS 
+		view ENCSR440FZS
+
+		track ENCSR440FZS_ENCFF752TMW
+		parent tissue_muscle_of_trunk_view_ENCSR440FZS off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR440FZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF752TMW/@@download/ENCFF752TMW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF752TMW 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR440FZS age=113_day description=ENCFF752TMW_9state_DNase_ donor=ENCDO676JUB sex=female view=ENCSR440FZS 
+		view ENCSR440FZS
+
+		track ENCSR440FZS_ENCFF800YES
+		parent tissue_muscle_of_trunk_view_ENCSR440FZS off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR440FZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF800YES/@@download/ENCFF800YES.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF800YES 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR440FZS age=113_day description=ENCFF800YES_5group_ donor=ENCDO676JUB sex=female view=ENCSR440FZS 
+		view ENCSR440FZS
+
+		track ENCSR440FZS_ENCFF658HHQ
+		parent tissue_muscle_of_trunk_view_ENCSR440FZS off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR440FZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF658HHQ/@@download/ENCFF658HHQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF658HHQ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR440FZS age=113_day description=ENCFF658HHQ_9state_H3K27ac_ donor=ENCDO676JUB sex=female view=ENCSR440FZS 
+		view ENCSR440FZS
+
+		track ENCSR440FZS_ENCFF574LAJ
+		parent tissue_muscle_of_trunk_view_ENCSR440FZS off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR440FZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF574LAJ/@@download/ENCFF574LAJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF574LAJ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR440FZS age=113_day description=ENCFF574LAJ_9state_H3K4me3_ donor=ENCDO676JUB sex=female view=ENCSR440FZS 
+		view ENCSR440FZS
+
+	track ENCSR714SGY_ENCFF703OHL
+	parent tissue_muscle_of_trunk off
+	subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF703OHL/@@download/ENCFF703OHL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR714SGY muscle_of_trunk_female_embryo_115_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR714SGY age=115_day description=ENCSR714SGY_muscle_of_trunk_female_embryo_115_days_fold_change_over_control_ donor=ENCDO708NQU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR714SGY
+	parent tissue_muscle_of_trunk off
+	view ENCSR714SGY
+	visibility dense
+	type bigBed
+
+		track ENCSR714SGY_ENCFF752MYO
+		parent tissue_muscle_of_trunk_view_ENCSR714SGY off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K4me3 view=ENCSR714SGY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF752MYO/@@download/ENCFF752MYO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR714SGY muscle_of_trunk_female_embryo_115_days_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR714SGY age=115_day description=ENCSR714SGY_muscle_of_trunk_female_embryo_115_days_stable_peaks_ donor=ENCDO708NQU sex=female view=ENCSR714SGY 
+		view ENCSR714SGY
+
+		track ENCSR714SGY_ENCFF752TMW
+		parent tissue_muscle_of_trunk_view_ENCSR714SGY off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K4me3 view=ENCSR714SGY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF752TMW/@@download/ENCFF752TMW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF752TMW 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR714SGY age=115_day description=ENCFF752TMW_9state_DNase_ donor=ENCDO708NQU sex=female view=ENCSR714SGY 
+		view ENCSR714SGY
+
+		track ENCSR714SGY_ENCFF800YES
+		parent tissue_muscle_of_trunk_view_ENCSR714SGY off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K4me3 view=ENCSR714SGY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF800YES/@@download/ENCFF800YES.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF800YES 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR714SGY age=115_day description=ENCFF800YES_5group_ donor=ENCDO708NQU sex=female view=ENCSR714SGY 
+		view ENCSR714SGY
+
+		track ENCSR714SGY_ENCFF658HHQ
+		parent tissue_muscle_of_trunk_view_ENCSR714SGY off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K4me3 view=ENCSR714SGY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF658HHQ/@@download/ENCFF658HHQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF658HHQ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR714SGY age=115_day description=ENCFF658HHQ_9state_H3K27ac_ donor=ENCDO708NQU sex=female view=ENCSR714SGY 
+		view ENCSR714SGY
+
+		track ENCSR714SGY_ENCFF574LAJ
+		parent tissue_muscle_of_trunk_view_ENCSR714SGY off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K4me3 view=ENCSR714SGY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF574LAJ/@@download/ENCFF574LAJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF574LAJ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR714SGY age=115_day description=ENCFF574LAJ_9state_H3K4me3_ donor=ENCDO708NQU sex=female view=ENCSR714SGY 
+		view ENCSR714SGY
+
+	track ENCSR775FTU_ENCFF023PPS
+	parent tissue_muscle_of_trunk off
+	subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF023PPS/@@download/ENCFF023PPS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR775FTU muscle_of_trunk_female_embryo_115_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR775FTU age=115_day description=ENCSR775FTU_muscle_of_trunk_female_embryo_115_days_fold_change_over_control_ donor=ENCDO708NQU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR775FTU
+	parent tissue_muscle_of_trunk off
+	view ENCSR775FTU
+	visibility dense
+	type bigBed
+
+		track ENCSR775FTU_ENCFF957PCK
+		parent tissue_muscle_of_trunk_view_ENCSR775FTU off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K27ac view=ENCSR775FTU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF957PCK/@@download/ENCFF957PCK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR775FTU muscle_of_trunk_female_embryo_115_days_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR775FTU age=115_day description=ENCSR775FTU_muscle_of_trunk_female_embryo_115_days_peaks_ donor=ENCDO708NQU sex=female view=ENCSR775FTU 
+		view ENCSR775FTU
+
+		track ENCSR775FTU_ENCFF752TMW
+		parent tissue_muscle_of_trunk_view_ENCSR775FTU off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K27ac view=ENCSR775FTU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF752TMW/@@download/ENCFF752TMW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF752TMW 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR775FTU age=115_day description=ENCFF752TMW_9state_DNase_ donor=ENCDO708NQU sex=female view=ENCSR775FTU 
+		view ENCSR775FTU
+
+		track ENCSR775FTU_ENCFF800YES
+		parent tissue_muscle_of_trunk_view_ENCSR775FTU off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K27ac view=ENCSR775FTU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF800YES/@@download/ENCFF800YES.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF800YES 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR775FTU age=115_day description=ENCFF800YES_5group_ donor=ENCDO708NQU sex=female view=ENCSR775FTU 
+		view ENCSR775FTU
+
+		track ENCSR775FTU_ENCFF658HHQ
+		parent tissue_muscle_of_trunk_view_ENCSR775FTU off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K27ac view=ENCSR775FTU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF658HHQ/@@download/ENCFF658HHQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF658HHQ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR775FTU age=115_day description=ENCFF658HHQ_9state_H3K27ac_ donor=ENCDO708NQU sex=female view=ENCSR775FTU 
+		view ENCSR775FTU
+
+		track ENCSR775FTU_ENCFF574LAJ
+		parent tissue_muscle_of_trunk_view_ENCSR775FTU off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K27ac view=ENCSR775FTU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF574LAJ/@@download/ENCFF574LAJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF574LAJ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR775FTU age=115_day description=ENCFF574LAJ_9state_H3K4me3_ donor=ENCDO708NQU sex=female view=ENCSR775FTU 
+		view ENCSR775FTU
+
+	track ENCSR531RKI_ENCFF795BOZ
+	parent tissue_muscle_of_trunk off
+	subGroups age=a120_day assay=RNA-seq donor=ENCDO555CMC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF795BOZ/@@download/ENCFF795BOZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR531RKI muscle_of_trunk_female_embryo_120_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR531RKI age=120_day description=ENCSR531RKI_muscle_of_trunk_female_embryo_120_days_signal_of_unique_reads_ donor=ENCDO555CMC sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR906HEV_ENCFF971RMN
+	parent tissue_muscle_of_trunk off
+	subGroups age=a113_day assay=RNA-seq donor=ENCDO676JUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF971RMN/@@download/ENCFF971RMN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR906HEV muscle_of_trunk_female_embryo_113_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR906HEV age=113_day description=ENCSR906HEV_muscle_of_trunk_female_embryo_113_days_signal_of_unique_reads_ donor=ENCDO676JUB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR686PTV_ENCFF504DLO
+	parent tissue_muscle_of_trunk off
+	subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF504DLO/@@download/ENCFF504DLO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR686PTV muscle_of_trunk_female_embryo_115_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR686PTV age=115_day description=ENCSR686PTV_muscle_of_trunk_female_embryo_115_days_fold_change_over_control_ donor=ENCDO708NQU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR686PTV
+	parent tissue_muscle_of_trunk off
+	view ENCSR686PTV
+	visibility dense
+	type bigBed
+
+		track ENCSR686PTV_ENCFF998UZQ
+		parent tissue_muscle_of_trunk_view_ENCSR686PTV off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K27me3 view=ENCSR686PTV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF998UZQ/@@download/ENCFF998UZQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR686PTV muscle_of_trunk_female_embryo_115_days_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR686PTV age=115_day description=ENCSR686PTV_muscle_of_trunk_female_embryo_115_days_stable_peaks_ donor=ENCDO708NQU sex=female view=ENCSR686PTV 
+		view ENCSR686PTV
+
+	track ENCSR193XWO_ENCFF111GJB
+	parent tissue_muscle_of_trunk off
+	subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF111GJB/@@download/ENCFF111GJB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR193XWO muscle_of_trunk_female_embryo_115_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR193XWO age=115_day description=ENCSR193XWO_muscle_of_trunk_female_embryo_115_days_fold_change_over_control_ donor=ENCDO708NQU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR193XWO
+	parent tissue_muscle_of_trunk off
+	view ENCSR193XWO
+	visibility dense
+	type bigBed
+
+		track ENCSR193XWO_ENCFF912UCV
+		parent tissue_muscle_of_trunk_view_ENCSR193XWO off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K36me3 view=ENCSR193XWO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF912UCV/@@download/ENCFF912UCV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR193XWO muscle_of_trunk_female_embryo_115_days_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR193XWO age=115_day description=ENCSR193XWO_muscle_of_trunk_female_embryo_115_days_peaks_ donor=ENCDO708NQU sex=female view=ENCSR193XWO 
+		view ENCSR193XWO
+
+	track ENCSR514DNQ_ENCFF573CJI
+	parent tissue_muscle_of_trunk off
+	subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF573CJI/@@download/ENCFF573CJI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR514DNQ muscle_of_trunk_female_embryo_115_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR514DNQ age=115_day description=ENCSR514DNQ_muscle_of_trunk_female_embryo_115_days_fold_change_over_control_ donor=ENCDO708NQU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR514DNQ
+	parent tissue_muscle_of_trunk off
+	view ENCSR514DNQ
+	visibility dense
+	type bigBed
+
+		track ENCSR514DNQ_ENCFF146HVP
+		parent tissue_muscle_of_trunk_view_ENCSR514DNQ off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K4me1 view=ENCSR514DNQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF146HVP/@@download/ENCFF146HVP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR514DNQ muscle_of_trunk_female_embryo_115_days_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR514DNQ age=115_day description=ENCSR514DNQ_muscle_of_trunk_female_embryo_115_days_peaks_ donor=ENCDO708NQU sex=female view=ENCSR514DNQ 
+		view ENCSR514DNQ
+
+	track ENCSR183LNU_ENCFF124ZNP
+	parent tissue_muscle_of_trunk off
+	subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF124ZNP/@@download/ENCFF124ZNP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR183LNU muscle_of_trunk_female_embryo_115_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR183LNU age=115_day description=ENCSR183LNU_muscle_of_trunk_female_embryo_115_days_fold_change_over_control_ donor=ENCDO708NQU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_trunk_view_ENCSR183LNU
+	parent tissue_muscle_of_trunk off
+	view ENCSR183LNU
+	visibility dense
+	type bigBed
+
+		track ENCSR183LNU_ENCFF750YMW
+		parent tissue_muscle_of_trunk_view_ENCSR183LNU off
+		subGroups age=a115_day assay=ChIP-seq donor=ENCDO708NQU label=H3K9me3 view=ENCSR183LNU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF750YMW/@@download/ENCFF750YMW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR183LNU muscle_of_trunk_female_embryo_115_days_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR183LNU age=115_day description=ENCSR183LNU_muscle_of_trunk_female_embryo_115_days_stable_peaks_ donor=ENCDO708NQU sex=female view=ENCSR183LNU 
+		view ENCSR183LNU
+

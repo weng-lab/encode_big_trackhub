@@ -1,0 +1,66 @@
+
+track primary_cell_fibroblast_of_peridontal_ligament
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of per
+longLabel fibroblast of peridontal ligament (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO247AAA=ENCDO247AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000EOI=ENCSR000EOI bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EOI_ENCFF473LRZ
+	parent primary_cell_fibroblast_of_peridontal_ligament off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO247AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF473LRZ/@@download/ENCFF473LRZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOI fibroblast_of_peridontal_ligament_male (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOI age=unknown description=ENCSR000EOI_fibroblast_of_peridontal_ligament_male_read_depth_normalized_signal_ donor=ENCDO247AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_peridontal_ligament_view_ENCSR000EOI
+	parent primary_cell_fibroblast_of_peridontal_ligament off
+	view ENCSR000EOI
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOI_ENCFF953HEG
+		parent primary_cell_fibroblast_of_peridontal_ligament_view_ENCSR000EOI off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO247AAA label=unknown view=ENCSR000EOI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF953HEG/@@download/ENCFF953HEG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOI fibroblast_of_peridontal_ligament_male (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOI age=unknown description=ENCSR000EOI_fibroblast_of_peridontal_ligament_male_peaks_ donor=ENCDO247AAA sex=male view=ENCSR000EOI 
+		view ENCSR000EOI
+
+		track ENCSR000EOI_ENCFF032ZKF
+		parent primary_cell_fibroblast_of_peridontal_ligament_view_ENCSR000EOI off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO247AAA label=unknown view=ENCSR000EOI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF032ZKF/@@download/ENCFF032ZKF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF032ZKF 9state-DNase DNase-seq and DGF on human HPdLF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOI age=unknown description=ENCFF032ZKF_9state_DNase_DNase_seq_and_DGF_on_human_HPdLF donor=ENCDO247AAA sex=male view=ENCSR000EOI 
+		view ENCSR000EOI
+

@@ -1,0 +1,48 @@
+
+track primary_cell_hair_follicular_keratinocyte
+parent super_primary_cell
+compositeTrack on
+shortLabel hair follicular k
+longLabel hair follicular keratinocyte (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO030DJO=ENCDO030DJO 
+subGroup2 age age a55_year=55&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR166TEB_ENCFF880HFH
+	parent primary_cell_hair_follicular_keratinocyte off
+	subGroups age=a55_year assay=RAMPAGE donor=ENCDO030DJO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF880HFH/@@download/ENCFF880HFH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR166TEB hair_follicular_keratinocyte_male_adult_55_years_ (plus strand signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR166TEB age=55_year description=ENCSR166TEB_hair_follicular_keratinocyte_male_adult_55_years_plus_strand_signal_of_unique_reads_ donor=ENCDO030DJO sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR680USE_ENCFF705AXQ
+	parent primary_cell_hair_follicular_keratinocyte off
+	subGroups age=a55_year assay=RNA-seq donor=ENCDO030DJO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF705AXQ/@@download/ENCFF705AXQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR680USE hair_follicular_keratinocyte_male_adult_55_years_ (plus strand signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR680USE age=55_year description=ENCSR680USE_hair_follicular_keratinocyte_male_adult_55_years_plus_strand_signal_of_unique_reads_ donor=ENCDO030DJO sex=male view=bigWig 
+	view bigWig
+

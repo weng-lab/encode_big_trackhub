@@ -1,0 +1,93 @@
+
+track in_vitro_differentiated_cells_dendritic_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel dendritic cell
+longLabel dendritic cell (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR085TSA_ENCFF424ATJ
+	parent in_vitro_differentiated_cells_dendritic_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF424ATJ/@@download/ENCFF424ATJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR085TSA C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_1
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR085TSA age=unknown description=ENCSR085TSA_C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_100_ng_mL_Lipopolysaccharide_for_4_hours_signal_of_all_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR198JTV_ENCFF124ZEK
+	parent in_vitro_differentiated_cells_dendritic_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF124ZEK/@@download/ENCFF124ZEK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR198JTV C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_1
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR198JTV age=unknown description=ENCSR198JTV_C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_100_ng_mL_Lipopolysaccharide_for_2_hours_signal_of_all_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR602ODY_ENCFF485AJH
+	parent in_vitro_differentiated_cells_dendritic_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF485AJH/@@download/ENCFF485AJH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR602ODY C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_1
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR602ODY age=unknown description=ENCSR602ODY_C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_100_ng_mL_Lipopolysaccharide_for_1_hour_signal_of_all_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR867RTO_ENCFF951BWK
+	parent in_vitro_differentiated_cells_dendritic_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF951BWK/@@download/ENCFF951BWK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR867RTO C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_1
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR867RTO age=unknown description=ENCSR867RTO_C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_100_ng_mL_Lipopolysaccharide_for_6_hours_signal_of_all_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR945SYV_ENCFF319MJR
+	parent in_vitro_differentiated_cells_dendritic_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF319MJR/@@download/ENCFF319MJR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR945SYV C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_0
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR945SYV age=unknown description=ENCSR945SYV_C57BL_6_dendritic_cell_originated_from_whole_organism_treated_with_0_ng_mL_Lipopolysaccharide_for_0_hours_signal_of_all_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+

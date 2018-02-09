@@ -1,0 +1,586 @@
+
+track tissue_colonic_mucosa
+parent super_tissue
+compositeTrack on
+shortLabel colonic mucosa
+longLabel colonic mucosa (14 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO159WAM=ENCDO159WAM ENCDO438RUL=ENCDO438RUL 
+subGroup2 age age a56_year=56&#32;year a73_year=73&#32;year 
+subGroup3 view view ENCSR024DUV=ENCSR024DUV ENCSR142BBV=ENCSR142BBV ENCSR175XPY=ENCSR175XPY ENCSR273TNG=ENCSR273TNG ENCSR294GDI=ENCSR294GDI ENCSR322FGP=ENCSR322FGP ENCSR327XTS=ENCSR327XTS ENCSR328KRD=ENCSR328KRD ENCSR375DWY=ENCSR375DWY ENCSR564RWY=ENCSR564RWY ENCSR577DVK=ENCSR577DVK ENCSR714BDG=ENCSR714BDG ENCSR749ANR=ENCSR749ANR ENCSR831LTX=ENCSR831LTX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR322FGP_ENCFF956GBB
+	parent tissue_colonic_mucosa off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF956GBB/@@download/ENCFF956GBB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR322FGP colonic_mucosa_female_adult_56_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR322FGP age=56_year description=ENCSR322FGP_colonic_mucosa_female_adult_56_years_fold_change_over_control_ donor=ENCDO438RUL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR322FGP
+	parent tissue_colonic_mucosa off
+	view ENCSR322FGP
+	visibility dense
+	type bigBed
+
+		track ENCSR322FGP_ENCFF817MAX
+		parent tissue_colonic_mucosa_view_ENCSR322FGP off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K4me3 view=ENCSR322FGP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF817MAX/@@download/ENCFF817MAX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR322FGP colonic_mucosa_female_adult_56_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR322FGP age=56_year description=ENCSR322FGP_colonic_mucosa_female_adult_56_years_stable_peaks_ donor=ENCDO438RUL sex=female view=ENCSR322FGP 
+		view ENCSR322FGP
+
+	track ENCSR577DVK_ENCFF202MXN
+	parent tissue_colonic_mucosa off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF202MXN/@@download/ENCFF202MXN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR577DVK colonic_mucosa_female_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR577DVK age=73_year description=ENCSR577DVK_colonic_mucosa_female_adult_73_years_fold_change_over_control_ donor=ENCDO159WAM sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR577DVK
+	parent tissue_colonic_mucosa off
+	view ENCSR577DVK
+	visibility dense
+	type bigBed
+
+		track ENCSR577DVK_ENCFF874PAW
+		parent tissue_colonic_mucosa_view_ENCSR577DVK off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K4me3 view=ENCSR577DVK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF874PAW/@@download/ENCFF874PAW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR577DVK colonic_mucosa_female_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR577DVK age=73_year description=ENCSR577DVK_colonic_mucosa_female_adult_73_years_stable_peaks_ donor=ENCDO159WAM sex=female view=ENCSR577DVK 
+		view ENCSR577DVK
+
+		track ENCSR577DVK_ENCFF867TJN
+		parent tissue_colonic_mucosa_view_ENCSR577DVK off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K4me3 view=ENCSR577DVK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF867TJN/@@download/ENCFF867TJN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF867TJN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR577DVK age=73_year description=ENCFF867TJN_5group_ donor=ENCDO159WAM sex=female view=ENCSR577DVK 
+		view ENCSR577DVK
+
+		track ENCSR577DVK_ENCFF427HKG
+		parent tissue_colonic_mucosa_view_ENCSR577DVK off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K4me3 view=ENCSR577DVK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF427HKG/@@download/ENCFF427HKG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF427HKG 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR577DVK age=73_year description=ENCFF427HKG_9state_H3K27ac_ donor=ENCDO159WAM sex=female view=ENCSR577DVK 
+		view ENCSR577DVK
+
+		track ENCSR577DVK_ENCFF843ZNY
+		parent tissue_colonic_mucosa_view_ENCSR577DVK off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K4me3 view=ENCSR577DVK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF843ZNY/@@download/ENCFF843ZNY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF843ZNY 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR577DVK age=73_year description=ENCFF843ZNY_9state_H3K4me3_ donor=ENCDO159WAM sex=female view=ENCSR577DVK 
+		view ENCSR577DVK
+
+	track ENCSR175XPY_ENCFF259AHM
+	parent tissue_colonic_mucosa off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF259AHM/@@download/ENCFF259AHM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR175XPY colonic_mucosa_female_adult_56_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR175XPY age=56_year description=ENCSR175XPY_colonic_mucosa_female_adult_56_years_fold_change_over_control_ donor=ENCDO438RUL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR175XPY
+	parent tissue_colonic_mucosa off
+	view ENCSR175XPY
+	visibility dense
+	type bigBed
+
+		track ENCSR175XPY_ENCFF661WOY
+		parent tissue_colonic_mucosa_view_ENCSR175XPY off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K27ac view=ENCSR175XPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF661WOY/@@download/ENCFF661WOY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR175XPY colonic_mucosa_female_adult_56_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR175XPY age=56_year description=ENCSR175XPY_colonic_mucosa_female_adult_56_years_peaks_ donor=ENCDO438RUL sex=female view=ENCSR175XPY 
+		view ENCSR175XPY
+
+	track ENCSR327XTS_ENCFF282FBA
+	parent tissue_colonic_mucosa off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF282FBA/@@download/ENCFF282FBA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR327XTS colonic_mucosa_female_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR327XTS age=73_year description=ENCSR327XTS_colonic_mucosa_female_adult_73_years_fold_change_over_control_ donor=ENCDO159WAM sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR327XTS
+	parent tissue_colonic_mucosa off
+	view ENCSR327XTS
+	visibility dense
+	type bigBed
+
+		track ENCSR327XTS_ENCFF379FNP
+		parent tissue_colonic_mucosa_view_ENCSR327XTS off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K27ac view=ENCSR327XTS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF379FNP/@@download/ENCFF379FNP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR327XTS colonic_mucosa_female_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR327XTS age=73_year description=ENCSR327XTS_colonic_mucosa_female_adult_73_years_stable_peaks_ donor=ENCDO159WAM sex=female view=ENCSR327XTS 
+		view ENCSR327XTS
+
+		track ENCSR327XTS_ENCFF867TJN
+		parent tissue_colonic_mucosa_view_ENCSR327XTS off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K27ac view=ENCSR327XTS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF867TJN/@@download/ENCFF867TJN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF867TJN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR327XTS age=73_year description=ENCFF867TJN_5group_ donor=ENCDO159WAM sex=female view=ENCSR327XTS 
+		view ENCSR327XTS
+
+		track ENCSR327XTS_ENCFF427HKG
+		parent tissue_colonic_mucosa_view_ENCSR327XTS off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K27ac view=ENCSR327XTS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF427HKG/@@download/ENCFF427HKG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF427HKG 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR327XTS age=73_year description=ENCFF427HKG_9state_H3K27ac_ donor=ENCDO159WAM sex=female view=ENCSR327XTS 
+		view ENCSR327XTS
+
+		track ENCSR327XTS_ENCFF843ZNY
+		parent tissue_colonic_mucosa_view_ENCSR327XTS off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K27ac view=ENCSR327XTS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF843ZNY/@@download/ENCFF843ZNY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF843ZNY 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR327XTS age=73_year description=ENCFF843ZNY_9state_H3K4me3_ donor=ENCDO159WAM sex=female view=ENCSR327XTS 
+		view ENCSR327XTS
+
+	track ENCSR564RWY_ENCFF921GXA
+	parent tissue_colonic_mucosa off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF921GXA/@@download/ENCFF921GXA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR564RWY colonic_mucosa_female_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR564RWY age=73_year description=ENCSR564RWY_colonic_mucosa_female_adult_73_years_fold_change_over_control_ donor=ENCDO159WAM sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR564RWY
+	parent tissue_colonic_mucosa off
+	view ENCSR564RWY
+	visibility dense
+	type bigBed
+
+		track ENCSR564RWY_ENCFF582QLH
+		parent tissue_colonic_mucosa_view_ENCSR564RWY off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K27me3 view=ENCSR564RWY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF582QLH/@@download/ENCFF582QLH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR564RWY colonic_mucosa_female_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR564RWY age=73_year description=ENCSR564RWY_colonic_mucosa_female_adult_73_years_stable_peaks_ donor=ENCDO159WAM sex=female view=ENCSR564RWY 
+		view ENCSR564RWY
+
+	track ENCSR831LTX_ENCFF810LMX
+	parent tissue_colonic_mucosa off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810LMX/@@download/ENCFF810LMX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR831LTX colonic_mucosa_female_adult_56_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR831LTX age=56_year description=ENCSR831LTX_colonic_mucosa_female_adult_56_years_fold_change_over_control_ donor=ENCDO438RUL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR831LTX
+	parent tissue_colonic_mucosa off
+	view ENCSR831LTX
+	visibility dense
+	type bigBed
+
+		track ENCSR831LTX_ENCFF605WXX
+		parent tissue_colonic_mucosa_view_ENCSR831LTX off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K27me3 view=ENCSR831LTX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF605WXX/@@download/ENCFF605WXX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR831LTX colonic_mucosa_female_adult_56_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR831LTX age=56_year description=ENCSR831LTX_colonic_mucosa_female_adult_56_years_stable_peaks_ donor=ENCDO438RUL sex=female view=ENCSR831LTX 
+		view ENCSR831LTX
+
+	track ENCSR024DUV_ENCFF230DZF
+	parent tissue_colonic_mucosa off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF230DZF/@@download/ENCFF230DZF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR024DUV colonic_mucosa_female_adult_56_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR024DUV age=56_year description=ENCSR024DUV_colonic_mucosa_female_adult_56_years_fold_change_over_control_ donor=ENCDO438RUL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR024DUV
+	parent tissue_colonic_mucosa off
+	view ENCSR024DUV
+	visibility dense
+	type bigBed
+
+		track ENCSR024DUV_ENCFF924OCC
+		parent tissue_colonic_mucosa_view_ENCSR024DUV off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K36me3 view=ENCSR024DUV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF924OCC/@@download/ENCFF924OCC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR024DUV colonic_mucosa_female_adult_56_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR024DUV age=56_year description=ENCSR024DUV_colonic_mucosa_female_adult_56_years_stable_peaks_ donor=ENCDO438RUL sex=female view=ENCSR024DUV 
+		view ENCSR024DUV
+
+	track ENCSR142BBV_ENCFF442OAT
+	parent tissue_colonic_mucosa off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF442OAT/@@download/ENCFF442OAT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR142BBV colonic_mucosa_female_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR142BBV age=73_year description=ENCSR142BBV_colonic_mucosa_female_adult_73_years_fold_change_over_control_ donor=ENCDO159WAM sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR142BBV
+	parent tissue_colonic_mucosa off
+	view ENCSR142BBV
+	visibility dense
+	type bigBed
+
+		track ENCSR142BBV_ENCFF435EKA
+		parent tissue_colonic_mucosa_view_ENCSR142BBV off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K36me3 view=ENCSR142BBV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF435EKA/@@download/ENCFF435EKA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR142BBV colonic_mucosa_female_adult_73_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR142BBV age=73_year description=ENCSR142BBV_colonic_mucosa_female_adult_73_years_peaks_ donor=ENCDO159WAM sex=female view=ENCSR142BBV 
+		view ENCSR142BBV
+
+	track ENCSR273TNG_ENCFF852KKT
+	parent tissue_colonic_mucosa off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF852KKT/@@download/ENCFF852KKT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR273TNG colonic_mucosa_female_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR273TNG age=73_year description=ENCSR273TNG_colonic_mucosa_female_adult_73_years_fold_change_over_control_ donor=ENCDO159WAM sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR273TNG
+	parent tissue_colonic_mucosa off
+	view ENCSR273TNG
+	visibility dense
+	type bigBed
+
+		track ENCSR273TNG_ENCFF524CPA
+		parent tissue_colonic_mucosa_view_ENCSR273TNG off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K4me1 view=ENCSR273TNG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF524CPA/@@download/ENCFF524CPA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR273TNG colonic_mucosa_female_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR273TNG age=73_year description=ENCSR273TNG_colonic_mucosa_female_adult_73_years_stable_peaks_ donor=ENCDO159WAM sex=female view=ENCSR273TNG 
+		view ENCSR273TNG
+
+	track ENCSR714BDG_ENCFF861UCV
+	parent tissue_colonic_mucosa off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF861UCV/@@download/ENCFF861UCV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR714BDG colonic_mucosa_female_adult_56_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR714BDG age=56_year description=ENCSR714BDG_colonic_mucosa_female_adult_56_years_fold_change_over_control_ donor=ENCDO438RUL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR714BDG
+	parent tissue_colonic_mucosa off
+	view ENCSR714BDG
+	visibility dense
+	type bigBed
+
+		track ENCSR714BDG_ENCFF765YPM
+		parent tissue_colonic_mucosa_view_ENCSR714BDG off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K4me1 view=ENCSR714BDG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF765YPM/@@download/ENCFF765YPM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR714BDG colonic_mucosa_female_adult_56_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR714BDG age=56_year description=ENCSR714BDG_colonic_mucosa_female_adult_56_years_peaks_ donor=ENCDO438RUL sex=female view=ENCSR714BDG 
+		view ENCSR714BDG
+
+	track ENCSR328KRD_ENCFF817HRJ
+	parent tissue_colonic_mucosa off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF817HRJ/@@download/ENCFF817HRJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR328KRD colonic_mucosa_female_adult_56_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR328KRD age=56_year description=ENCSR328KRD_colonic_mucosa_female_adult_56_years_fold_change_over_control_ donor=ENCDO438RUL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR328KRD
+	parent tissue_colonic_mucosa off
+	view ENCSR328KRD
+	visibility dense
+	type bigBed
+
+		track ENCSR328KRD_ENCFF384KIK
+		parent tissue_colonic_mucosa_view_ENCSR328KRD off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K9ac view=ENCSR328KRD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF384KIK/@@download/ENCFF384KIK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR328KRD colonic_mucosa_female_adult_56_years_ (stable peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR328KRD age=56_year description=ENCSR328KRD_colonic_mucosa_female_adult_56_years_stable_peaks_ donor=ENCDO438RUL sex=female view=ENCSR328KRD 
+		view ENCSR328KRD
+
+	track ENCSR375DWY_ENCFF322SLS
+	parent tissue_colonic_mucosa off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF322SLS/@@download/ENCFF322SLS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR375DWY colonic_mucosa_female_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR375DWY age=73_year description=ENCSR375DWY_colonic_mucosa_female_adult_73_years_fold_change_over_control_ donor=ENCDO159WAM sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR375DWY
+	parent tissue_colonic_mucosa off
+	view ENCSR375DWY
+	visibility dense
+	type bigBed
+
+		track ENCSR375DWY_ENCFF915ZYB
+		parent tissue_colonic_mucosa_view_ENCSR375DWY off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K9ac view=ENCSR375DWY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF915ZYB/@@download/ENCFF915ZYB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR375DWY colonic_mucosa_female_adult_73_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR375DWY age=73_year description=ENCSR375DWY_colonic_mucosa_female_adult_73_years_peaks_ donor=ENCDO159WAM sex=female view=ENCSR375DWY 
+		view ENCSR375DWY
+
+	track ENCSR294GDI_ENCFF062FSF
+	parent tissue_colonic_mucosa off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF062FSF/@@download/ENCFF062FSF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR294GDI colonic_mucosa_female_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR294GDI age=73_year description=ENCSR294GDI_colonic_mucosa_female_adult_73_years_fold_change_over_control_ donor=ENCDO159WAM sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR294GDI
+	parent tissue_colonic_mucosa off
+	view ENCSR294GDI
+	visibility dense
+	type bigBed
+
+		track ENCSR294GDI_ENCFF810TEF
+		parent tissue_colonic_mucosa_view_ENCSR294GDI off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO159WAM label=H3K9me3 view=ENCSR294GDI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF810TEF/@@download/ENCFF810TEF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR294GDI colonic_mucosa_female_adult_73_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR294GDI age=73_year description=ENCSR294GDI_colonic_mucosa_female_adult_73_years_peaks_ donor=ENCDO159WAM sex=female view=ENCSR294GDI 
+		view ENCSR294GDI
+
+	track ENCSR749ANR_ENCFF489PKD
+	parent tissue_colonic_mucosa off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF489PKD/@@download/ENCFF489PKD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR749ANR colonic_mucosa_female_adult_56_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR749ANR age=56_year description=ENCSR749ANR_colonic_mucosa_female_adult_56_years_fold_change_over_control_ donor=ENCDO438RUL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_colonic_mucosa_view_ENCSR749ANR
+	parent tissue_colonic_mucosa off
+	view ENCSR749ANR
+	visibility dense
+	type bigBed
+
+		track ENCSR749ANR_ENCFF194FAB
+		parent tissue_colonic_mucosa_view_ENCSR749ANR off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO438RUL label=H3K9me3 view=ENCSR749ANR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF194FAB/@@download/ENCFF194FAB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR749ANR colonic_mucosa_female_adult_56_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR749ANR age=56_year description=ENCSR749ANR_colonic_mucosa_female_adult_56_years_peaks_ donor=ENCDO438RUL sex=female view=ENCSR749ANR 
+		view ENCSR749ANR
+

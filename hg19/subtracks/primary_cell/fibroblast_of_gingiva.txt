@@ -1,0 +1,314 @@
+
+track primary_cell_fibroblast_of_gingiva
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of gin
+longLabel fibroblast of gingiva (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO235AAA=ENCDO235AAA ENCDO373ZSZ=ENCDO373ZSZ 
+subGroup2 age age a24_year=24&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000DPS=ENCSR000DPS ENCSR000DPU=ENCSR000DPU ENCSR000EMA=ENCSR000EMA ENCSR000ENS=ENCSR000ENS bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EMA_ENCFF785HNO
+	parent primary_cell_fibroblast_of_gingiva off
+	subGroups age=a24_year assay=DNase-seq donor=ENCDO373ZSZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF785HNO/@@download/ENCFF785HNO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMA fibroblast_of_gingiva_female_adult_24_years_ (read-depth normalized 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMA age=24_year description=ENCSR000EMA_fibroblast_of_gingiva_female_adult_24_years_read_depth_normalized_signal_ donor=ENCDO373ZSZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_gingiva_view_ENCSR000EMA
+	parent primary_cell_fibroblast_of_gingiva off
+	view ENCSR000EMA
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMA_ENCFF798DOI
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000EMA off
+		subGroups age=a24_year assay=DNase-seq donor=ENCDO373ZSZ label=unknown view=ENCSR000EMA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF798DOI/@@download/ENCFF798DOI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMA fibroblast_of_gingiva_female_adult_24_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMA age=24_year description=ENCSR000EMA_fibroblast_of_gingiva_female_adult_24_years_peaks_ donor=ENCDO373ZSZ sex=female view=ENCSR000EMA 
+		view ENCSR000EMA
+
+		track ENCSR000EMA_ENCFF549YNH
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000EMA off
+		subGroups age=a24_year assay=DNase-seq donor=ENCDO373ZSZ label=unknown view=ENCSR000EMA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549YNH/@@download/ENCFF549YNH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF549YNH 9state-DNase DNase-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMA age=24_year description=ENCFF549YNH_9state_DNase_DNase_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000EMA 
+		view ENCSR000EMA
+
+		track ENCSR000EMA_ENCFF432NBS
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000EMA off
+		subGroups age=a24_year assay=DNase-seq donor=ENCDO373ZSZ label=unknown view=ENCSR000EMA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF432NBS/@@download/ENCFF432NBS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF432NBS 9state-CTCF DNase-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMA age=24_year description=ENCFF432NBS_9state_CTCF_DNase_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000EMA 
+		view ENCSR000EMA
+
+		track ENCSR000EMA_ENCFF519OCH
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000EMA off
+		subGroups age=a24_year assay=DNase-seq donor=ENCDO373ZSZ label=unknown view=ENCSR000EMA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF519OCH/@@download/ENCFF519OCH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF519OCH 5group DNase-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMA age=24_year description=ENCFF519OCH_5group_DNase_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000EMA 
+		view ENCSR000EMA
+
+		track ENCSR000EMA_ENCFF705BKQ
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000EMA off
+		subGroups age=a24_year assay=DNase-seq donor=ENCDO373ZSZ label=unknown view=ENCSR000EMA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF705BKQ/@@download/ENCFF705BKQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF705BKQ 9state-H3K4me3 DNase-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMA age=24_year description=ENCFF705BKQ_9state_H3K4me3_DNase_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000EMA 
+		view ENCSR000EMA
+
+	track ENCSR000ENS_ENCFF558WYV
+	parent primary_cell_fibroblast_of_gingiva off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO235AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF558WYV/@@download/ENCFF558WYV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENS fibroblast_of_gingiva (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENS age=unknown description=ENCSR000ENS_fibroblast_of_gingiva_read_depth_normalized_signal_ donor=ENCDO235AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_gingiva_view_ENCSR000ENS
+	parent primary_cell_fibroblast_of_gingiva off
+	view ENCSR000ENS
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENS_ENCFF566EIR
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000ENS off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO235AAA label=unknown view=ENCSR000ENS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF566EIR/@@download/ENCFF566EIR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENS fibroblast_of_gingiva (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENS age=unknown description=ENCSR000ENS_fibroblast_of_gingiva_peaks_ donor=ENCDO235AAA sex=unknown view=ENCSR000ENS 
+		view ENCSR000ENS
+
+	track ENCSR000DPU_ENCFF846PDS
+	parent primary_cell_fibroblast_of_gingiva off
+	subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF846PDS/@@download/ENCFF846PDS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DPU fibroblast_of_gingiva_female_adult_24_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPU age=24_year description=ENCSR000DPU_fibroblast_of_gingiva_female_adult_24_years_fold_change_over_control_ donor=ENCDO373ZSZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_gingiva_view_ENCSR000DPU
+	parent primary_cell_fibroblast_of_gingiva off
+	view ENCSR000DPU
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPU_ENCFF741VJR
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPU off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=H3K4me3 view=ENCSR000DPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF741VJR/@@download/ENCFF741VJR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DPU fibroblast_of_gingiva_female_adult_24_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DPU age=24_year description=ENCSR000DPU_fibroblast_of_gingiva_female_adult_24_years_replicated_peaks_ donor=ENCDO373ZSZ sex=female view=ENCSR000DPU 
+		view ENCSR000DPU
+
+		track ENCSR000DPU_ENCFF549YNH
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPU off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=H3K4me3 view=ENCSR000DPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549YNH/@@download/ENCFF549YNH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF549YNH 9state-DNase H3K4me3 ChIP-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPU age=24_year description=ENCFF549YNH_9state_DNase_H3K4me3_ChIP_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000DPU 
+		view ENCSR000DPU
+
+		track ENCSR000DPU_ENCFF432NBS
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPU off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=H3K4me3 view=ENCSR000DPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF432NBS/@@download/ENCFF432NBS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF432NBS 9state-CTCF H3K4me3 ChIP-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPU age=24_year description=ENCFF432NBS_9state_CTCF_H3K4me3_ChIP_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000DPU 
+		view ENCSR000DPU
+
+		track ENCSR000DPU_ENCFF519OCH
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPU off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=H3K4me3 view=ENCSR000DPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF519OCH/@@download/ENCFF519OCH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF519OCH 5group H3K4me3 ChIP-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPU age=24_year description=ENCFF519OCH_5group_H3K4me3_ChIP_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000DPU 
+		view ENCSR000DPU
+
+		track ENCSR000DPU_ENCFF705BKQ
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPU off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=H3K4me3 view=ENCSR000DPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF705BKQ/@@download/ENCFF705BKQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF705BKQ 9state-H3K4me3 H3K4me3 ChIP-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPU age=24_year description=ENCFF705BKQ_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000DPU 
+		view ENCSR000DPU
+
+	track ENCSR000DPS_ENCFF399ZBJ
+	parent primary_cell_fibroblast_of_gingiva off
+	subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF399ZBJ/@@download/ENCFF399ZBJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DPS fibroblast_of_gingiva_female_adult_24_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPS age=24_year description=ENCSR000DPS_fibroblast_of_gingiva_female_adult_24_years_fold_change_over_control_ donor=ENCDO373ZSZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_gingiva_view_ENCSR000DPS
+	parent primary_cell_fibroblast_of_gingiva off
+	view ENCSR000DPS
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPS_ENCFF572FCK
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPS off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=CTCF view=ENCSR000DPS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF572FCK/@@download/ENCFF572FCK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DPS fibroblast_of_gingiva_female_adult_24_years_ (optimal idr thresholde
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DPS age=24_year description=ENCSR000DPS_fibroblast_of_gingiva_female_adult_24_years_optimal_idr_thresholded_peaks_ donor=ENCDO373ZSZ sex=female view=ENCSR000DPS 
+		view ENCSR000DPS
+
+		track ENCSR000DPS_ENCFF549YNH
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPS off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=CTCF view=ENCSR000DPS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549YNH/@@download/ENCFF549YNH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF549YNH 9state-DNase CTCF ChIP-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPS age=24_year description=ENCFF549YNH_9state_DNase_CTCF_ChIP_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000DPS 
+		view ENCSR000DPS
+
+		track ENCSR000DPS_ENCFF432NBS
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPS off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=CTCF view=ENCSR000DPS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF432NBS/@@download/ENCFF432NBS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF432NBS 9state-CTCF CTCF ChIP-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPS age=24_year description=ENCFF432NBS_9state_CTCF_CTCF_ChIP_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000DPS 
+		view ENCSR000DPS
+
+		track ENCSR000DPS_ENCFF519OCH
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPS off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=CTCF view=ENCSR000DPS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF519OCH/@@download/ENCFF519OCH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF519OCH 5group CTCF ChIP-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPS age=24_year description=ENCFF519OCH_5group_CTCF_ChIP_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000DPS 
+		view ENCSR000DPS
+
+		track ENCSR000DPS_ENCFF705BKQ
+		parent primary_cell_fibroblast_of_gingiva_view_ENCSR000DPS off
+		subGroups age=a24_year assay=ChIP-seq donor=ENCDO373ZSZ label=CTCF view=ENCSR000DPS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF705BKQ/@@download/ENCFF705BKQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF705BKQ 9state-H3K4me3 CTCF ChIP-seq on human AG09319
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPS age=24_year description=ENCFF705BKQ_9state_H3K4me3_CTCF_ChIP_seq_on_human_AG09319 donor=ENCDO373ZSZ sex=female view=ENCSR000DPS 
+		view ENCSR000DPS
+

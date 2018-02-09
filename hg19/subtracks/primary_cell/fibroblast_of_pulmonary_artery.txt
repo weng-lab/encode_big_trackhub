@@ -1,0 +1,279 @@
+
+track primary_cell_fibroblast_of_pulmonary_artery
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of pul
+longLabel fibroblast of pulmonary artery (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO245AAA=ENCDO245AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DUX=ENCSR000DUX ENCSR000DUZ=ENCSR000DUZ ENCSR000EOH=ENCSR000EOH bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EOH_ENCFF721KUW
+	parent primary_cell_fibroblast_of_pulmonary_artery off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO245AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF721KUW/@@download/ENCFF721KUW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOH fibroblast_of_pulmonary_artery (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOH age=unknown description=ENCSR000EOH_fibroblast_of_pulmonary_artery_read_depth_normalized_signal_ donor=ENCDO245AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000EOH
+	parent primary_cell_fibroblast_of_pulmonary_artery off
+	view ENCSR000EOH
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOH_ENCFF755MEK
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000EOH off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO245AAA label=unknown view=ENCSR000EOH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF755MEK/@@download/ENCFF755MEK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOH fibroblast_of_pulmonary_artery (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOH age=unknown description=ENCSR000EOH_fibroblast_of_pulmonary_artery_peaks_ donor=ENCDO245AAA sex=unknown view=ENCSR000EOH 
+		view ENCSR000EOH
+
+		track ENCSR000EOH_ENCFF481TMR
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000EOH off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO245AAA label=unknown view=ENCSR000EOH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF481TMR/@@download/ENCFF481TMR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF481TMR 9state-DNase DNase-seq and DGF on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOH age=unknown description=ENCFF481TMR_9state_DNase_DNase_seq_and_DGF_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000EOH 
+		view ENCSR000EOH
+
+		track ENCSR000EOH_ENCFF952QTJ
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000EOH off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO245AAA label=unknown view=ENCSR000EOH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF952QTJ/@@download/ENCFF952QTJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF952QTJ 9state-CTCF DNase-seq and DGF on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOH age=unknown description=ENCFF952QTJ_9state_CTCF_DNase_seq_and_DGF_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000EOH 
+		view ENCSR000EOH
+
+		track ENCSR000EOH_ENCFF942EEI
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000EOH off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO245AAA label=unknown view=ENCSR000EOH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF942EEI/@@download/ENCFF942EEI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF942EEI 5group DNase-seq and DGF on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOH age=unknown description=ENCFF942EEI_5group_DNase_seq_and_DGF_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000EOH 
+		view ENCSR000EOH
+
+		track ENCSR000EOH_ENCFF976NAH
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000EOH off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO245AAA label=unknown view=ENCSR000EOH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF976NAH/@@download/ENCFF976NAH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF976NAH 9state-H3K4me3 DNase-seq and DGF on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOH age=unknown description=ENCFF976NAH_9state_H3K4me3_DNase_seq_and_DGF_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000EOH 
+		view ENCSR000EOH
+
+	track ENCSR000DUZ_ENCFF810EJQ
+	parent primary_cell_fibroblast_of_pulmonary_artery off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810EJQ/@@download/ENCFF810EJQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DUZ fibroblast_of_pulmonary_artery (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DUZ age=unknown description=ENCSR000DUZ_fibroblast_of_pulmonary_artery_fold_change_over_control_ donor=ENCDO245AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUZ
+	parent primary_cell_fibroblast_of_pulmonary_artery off
+	view ENCSR000DUZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DUZ_ENCFF471MNP
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=H3K4me3 view=ENCSR000DUZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF471MNP/@@download/ENCFF471MNP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DUZ fibroblast_of_pulmonary_artery (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DUZ age=unknown description=ENCSR000DUZ_fibroblast_of_pulmonary_artery_replicated_peaks_ donor=ENCDO245AAA sex=unknown view=ENCSR000DUZ 
+		view ENCSR000DUZ
+
+		track ENCSR000DUZ_ENCFF481TMR
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=H3K4me3 view=ENCSR000DUZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF481TMR/@@download/ENCFF481TMR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF481TMR 9state-DNase H3K4me3 ChIP-seq on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUZ age=unknown description=ENCFF481TMR_9state_DNase_H3K4me3_ChIP_seq_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000DUZ 
+		view ENCSR000DUZ
+
+		track ENCSR000DUZ_ENCFF952QTJ
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=H3K4me3 view=ENCSR000DUZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF952QTJ/@@download/ENCFF952QTJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF952QTJ 9state-CTCF H3K4me3 ChIP-seq on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUZ age=unknown description=ENCFF952QTJ_9state_CTCF_H3K4me3_ChIP_seq_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000DUZ 
+		view ENCSR000DUZ
+
+		track ENCSR000DUZ_ENCFF942EEI
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=H3K4me3 view=ENCSR000DUZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF942EEI/@@download/ENCFF942EEI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF942EEI 5group H3K4me3 ChIP-seq on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUZ age=unknown description=ENCFF942EEI_5group_H3K4me3_ChIP_seq_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000DUZ 
+		view ENCSR000DUZ
+
+		track ENCSR000DUZ_ENCFF976NAH
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=H3K4me3 view=ENCSR000DUZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF976NAH/@@download/ENCFF976NAH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF976NAH 9state-H3K4me3 H3K4me3 ChIP-seq on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUZ age=unknown description=ENCFF976NAH_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000DUZ 
+		view ENCSR000DUZ
+
+	track ENCSR000DUX_ENCFF178KSO
+	parent primary_cell_fibroblast_of_pulmonary_artery off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF178KSO/@@download/ENCFF178KSO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DUX fibroblast_of_pulmonary_artery (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DUX age=unknown description=ENCSR000DUX_fibroblast_of_pulmonary_artery_fold_change_over_control_ donor=ENCDO245AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUX
+	parent primary_cell_fibroblast_of_pulmonary_artery off
+	view ENCSR000DUX
+	visibility dense
+	type bigBed
+
+		track ENCSR000DUX_ENCFF499SZQ
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=CTCF view=ENCSR000DUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF499SZQ/@@download/ENCFF499SZQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DUX fibroblast_of_pulmonary_artery (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DUX age=unknown description=ENCSR000DUX_fibroblast_of_pulmonary_artery_optimal_idr_thresholded_peaks_ donor=ENCDO245AAA sex=unknown view=ENCSR000DUX 
+		view ENCSR000DUX
+
+		track ENCSR000DUX_ENCFF481TMR
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=CTCF view=ENCSR000DUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF481TMR/@@download/ENCFF481TMR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF481TMR 9state-DNase CTCF ChIP-seq on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUX age=unknown description=ENCFF481TMR_9state_DNase_CTCF_ChIP_seq_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000DUX 
+		view ENCSR000DUX
+
+		track ENCSR000DUX_ENCFF952QTJ
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=CTCF view=ENCSR000DUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF952QTJ/@@download/ENCFF952QTJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF952QTJ 9state-CTCF CTCF ChIP-seq on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUX age=unknown description=ENCFF952QTJ_9state_CTCF_CTCF_ChIP_seq_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000DUX 
+		view ENCSR000DUX
+
+		track ENCSR000DUX_ENCFF942EEI
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=CTCF view=ENCSR000DUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF942EEI/@@download/ENCFF942EEI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF942EEI 5group CTCF ChIP-seq on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUX age=unknown description=ENCFF942EEI_5group_CTCF_ChIP_seq_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000DUX 
+		view ENCSR000DUX
+
+		track ENCSR000DUX_ENCFF976NAH
+		parent primary_cell_fibroblast_of_pulmonary_artery_view_ENCSR000DUX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO245AAA label=CTCF view=ENCSR000DUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF976NAH/@@download/ENCFF976NAH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF976NAH 9state-H3K4me3 CTCF ChIP-seq on human HPAF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUX age=unknown description=ENCFF976NAH_9state_H3K4me3_CTCF_ChIP_seq_on_human_HPAF donor=ENCDO245AAA sex=unknown view=ENCSR000DUX 
+		view ENCSR000DUX
+

@@ -1,0 +1,111 @@
+
+track tissue_skeletal_muscle_tissue
+parent super_tissue
+compositeTrack on
+shortLabel skeletal muscle t
+longLabel skeletal muscle tissue (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a0_day=0&#32;day a8_week=8&#32;week 
+subGroup3 view view ENCSR000CNX=ENCSR000CNX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CNX_ENCFF731YAA
+	parent tissue_skeletal_muscle_tissue off
+	subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF731YAA/@@download/ENCFF731YAA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CNX C57BL_6_skeletal_muscle_tissue_male_adult_8_weeks_ (read-depth norma
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CNX age=8_week description=ENCSR000CNX_C57BL_6_skeletal_muscle_tissue_male_adult_8_weeks_read_depth_normalized_signal_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_skeletal_muscle_tissue_view_ENCSR000CNX
+	parent tissue_skeletal_muscle_tissue off
+	view ENCSR000CNX
+	visibility dense
+	type bigBed
+
+		track ENCSR000CNX_ENCFF446YUT
+		parent tissue_skeletal_muscle_tissue_view_ENCSR000CNX off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CNX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF446YUT/@@download/ENCFF446YUT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CNX C57BL_6_skeletal_muscle_tissue_male_adult_8_weeks_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CNX age=8_week description=ENCSR000CNX_C57BL_6_skeletal_muscle_tissue_male_adult_8_weeks_peaks_ donor=ENCDO072AAA sex=unknown view=ENCSR000CNX 
+		view ENCSR000CNX
+
+		track ENCSR000CNX_ENCFF575RXE
+		parent tissue_skeletal_muscle_tissue_view_ENCSR000CNX off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CNX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF575RXE/@@download/ENCFF575RXE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF575RXE 9state-DNase DNase on 8 week adult mouse skeletal muscle tissue
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CNX age=8_week description=ENCFF575RXE_9state_DNase_DNase_on_8_week_adult_mouse_skeletal_muscle_tissue donor=ENCDO072AAA sex=unknown view=ENCSR000CNX 
+		view ENCSR000CNX
+
+	track ENCSR242CPC_ENCFF987AZG
+	parent tissue_skeletal_muscle_tissue off
+	subGroups age=a0_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF987AZG/@@download/ENCFF987AZG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR242CPC C57BL_6_skeletal_muscle_tissue_postnatal_0_days_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR242CPC age=0_day description=ENCSR242CPC_C57BL_6_skeletal_muscle_tissue_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR940JVJ_ENCFF238RWT
+	parent tissue_skeletal_muscle_tissue off
+	subGroups age=a0_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF238RWT/@@download/ENCFF238RWT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR940JVJ C57BL_6_skeletal_muscle_tissue_postnatal_0_days_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR940JVJ age=0_day description=ENCSR940JVJ_C57BL_6_skeletal_muscle_tissue_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR946HWC_ENCFF490FDN
+	parent tissue_skeletal_muscle_tissue off
+	subGroups age=a0_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF490FDN/@@download/ENCFF490FDN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR946HWC C57BL_6_skeletal_muscle_tissue_postnatal_0_days_ (signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR946HWC age=0_day description=ENCSR946HWC_C57BL_6_skeletal_muscle_tissue_postnatal_0_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+

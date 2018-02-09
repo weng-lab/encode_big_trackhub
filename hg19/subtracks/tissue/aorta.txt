@@ -1,0 +1,511 @@
+
+track tissue_aorta
+parent super_tissue
+compositeTrack on
+shortLabel aorta
+longLabel aorta (13 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO058AAA=ENCDO058AAA ENCDO424HVB=ENCDO424HVB 
+subGroup2 age age a30_year=30&#32;year a34_year=34&#32;year 
+subGroup3 view view ENCSR065ZNA=ENCSR065ZNA ENCSR128VHV=ENCSR128VHV ENCSR196PGM=ENCSR196PGM ENCSR322TJD=ENCSR322TJD ENCSR325VOA=ENCSR325VOA ENCSR519CFV=ENCSR519CFV ENCSR673JYT=ENCSR673JYT ENCSR848TLB=ENCSR848TLB ENCSR957BPJ=ENCSR957BPJ ENCSR960EVO=ENCSR960EVO ENCSR989AMI=ENCSR989AMI bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR957BPJ_ENCFF786OKT
+	parent tissue_aorta off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF786OKT/@@download/ENCFF786OKT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR957BPJ aorta_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR957BPJ age=34_year description=ENCSR957BPJ_aorta_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR957BPJ
+	parent tissue_aorta off
+	view ENCSR957BPJ
+	visibility dense
+	type bigBed
+
+		track ENCSR957BPJ_ENCFF778YRL
+		parent tissue_aorta_view_ENCSR957BPJ off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR957BPJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF778YRL/@@download/ENCFF778YRL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR957BPJ aorta_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR957BPJ age=34_year description=ENCSR957BPJ_aorta_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR957BPJ 
+		view ENCSR957BPJ
+
+		track ENCSR957BPJ_ENCFF178GDW
+		parent tissue_aorta_view_ENCSR957BPJ off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR957BPJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF178GDW/@@download/ENCFF178GDW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF178GDW 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR957BPJ age=34_year description=ENCFF178GDW_5group_ donor=ENCDO058AAA sex=male view=ENCSR957BPJ 
+		view ENCSR957BPJ
+
+		track ENCSR957BPJ_ENCFF654IWU
+		parent tissue_aorta_view_ENCSR957BPJ off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR957BPJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF654IWU/@@download/ENCFF654IWU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF654IWU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR957BPJ age=34_year description=ENCFF654IWU_9state_H3K27ac_ donor=ENCDO058AAA sex=male view=ENCSR957BPJ 
+		view ENCSR957BPJ
+
+		track ENCSR957BPJ_ENCFF457PLS
+		parent tissue_aorta_view_ENCSR957BPJ off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR957BPJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF457PLS/@@download/ENCFF457PLS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF457PLS 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR957BPJ age=34_year description=ENCFF457PLS_9state_H3K4me3_ donor=ENCDO058AAA sex=male view=ENCSR957BPJ 
+		view ENCSR957BPJ
+
+	track ENCSR960EVO_ENCFF106UPY
+	parent tissue_aorta off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF106UPY/@@download/ENCFF106UPY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR960EVO aorta_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR960EVO age=30_year description=ENCSR960EVO_aorta_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR960EVO
+	parent tissue_aorta off
+	view ENCSR960EVO
+	visibility dense
+	type bigBed
+
+		track ENCSR960EVO_ENCFF904HTF
+		parent tissue_aorta_view_ENCSR960EVO off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=ENCSR960EVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF904HTF/@@download/ENCFF904HTF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR960EVO aorta_female_adult_30_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR960EVO age=30_year description=ENCSR960EVO_aorta_female_adult_30_years_peaks_ donor=ENCDO424HVB sex=female view=ENCSR960EVO 
+		view ENCSR960EVO
+
+	track ENCSR322TJD_ENCFF731GRT
+	parent tissue_aorta off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF731GRT/@@download/ENCFF731GRT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR322TJD aorta_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR322TJD age=30_year description=ENCSR322TJD_aorta_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR322TJD
+	parent tissue_aorta off
+	view ENCSR322TJD
+	visibility dense
+	type bigBed
+
+		track ENCSR322TJD_ENCFF463WMM
+		parent tissue_aorta_view_ENCSR322TJD off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=ENCSR322TJD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF463WMM/@@download/ENCFF463WMM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR322TJD aorta_female_adult_30_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR322TJD age=30_year description=ENCSR322TJD_aorta_female_adult_30_years_peaks_ donor=ENCDO424HVB sex=female view=ENCSR322TJD 
+		view ENCSR322TJD
+
+	track ENCSR519CFV_ENCFF656YLD
+	parent tissue_aorta off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF656YLD/@@download/ENCFF656YLD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR519CFV aorta_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR519CFV age=34_year description=ENCSR519CFV_aorta_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR519CFV
+	parent tissue_aorta off
+	view ENCSR519CFV
+	visibility dense
+	type bigBed
+
+		track ENCSR519CFV_ENCFF347BOU
+		parent tissue_aorta_view_ENCSR519CFV off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR519CFV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF347BOU/@@download/ENCFF347BOU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR519CFV aorta_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR519CFV age=34_year description=ENCSR519CFV_aorta_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR519CFV 
+		view ENCSR519CFV
+
+		track ENCSR519CFV_ENCFF178GDW
+		parent tissue_aorta_view_ENCSR519CFV off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR519CFV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF178GDW/@@download/ENCFF178GDW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF178GDW 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR519CFV age=34_year description=ENCFF178GDW_5group_ donor=ENCDO058AAA sex=male view=ENCSR519CFV 
+		view ENCSR519CFV
+
+		track ENCSR519CFV_ENCFF654IWU
+		parent tissue_aorta_view_ENCSR519CFV off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR519CFV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF654IWU/@@download/ENCFF654IWU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF654IWU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR519CFV age=34_year description=ENCFF654IWU_9state_H3K27ac_ donor=ENCDO058AAA sex=male view=ENCSR519CFV 
+		view ENCSR519CFV
+
+		track ENCSR519CFV_ENCFF457PLS
+		parent tissue_aorta_view_ENCSR519CFV off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR519CFV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF457PLS/@@download/ENCFF457PLS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF457PLS 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR519CFV age=34_year description=ENCFF457PLS_9state_H3K4me3_ donor=ENCDO058AAA sex=male view=ENCSR519CFV 
+		view ENCSR519CFV
+
+	track ENCSR763NOO_ENCFF079FTT
+	parent tissue_aorta off
+	subGroups age=a34_year assay=RNA-seq donor=ENCDO058AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF079FTT/@@download/ENCFF079FTT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR763NOO aorta_male_adult_34_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR763NOO age=34_year description=ENCSR763NOO_aorta_male_adult_34_years_plus_strand_signal_of_unique_reads_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR995BHD_ENCFF707PTE
+	parent tissue_aorta off
+	subGroups age=a30_year assay=RNA-seq donor=ENCDO424HVB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF707PTE/@@download/ENCFF707PTE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR995BHD aorta_female_adult_30_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR995BHD age=30_year description=ENCSR995BHD_aorta_female_adult_30_years_plus_strand_signal_of_unique_reads_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR128VHV_ENCFF893DTQ
+	parent tissue_aorta off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF893DTQ/@@download/ENCFF893DTQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR128VHV aorta_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR128VHV age=30_year description=ENCSR128VHV_aorta_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR128VHV
+	parent tissue_aorta off
+	view ENCSR128VHV
+	visibility dense
+	type bigBed
+
+		track ENCSR128VHV_ENCFF673UNH
+		parent tissue_aorta_view_ENCSR128VHV off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27me3 view=ENCSR128VHV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF673UNH/@@download/ENCFF673UNH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR128VHV aorta_female_adult_30_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR128VHV age=30_year description=ENCSR128VHV_aorta_female_adult_30_years_peaks_ donor=ENCDO424HVB sex=female view=ENCSR128VHV 
+		view ENCSR128VHV
+
+	track ENCSR196PGM_ENCFF996DXX
+	parent tissue_aorta off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF996DXX/@@download/ENCFF996DXX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR196PGM aorta_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR196PGM age=34_year description=ENCSR196PGM_aorta_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR196PGM
+	parent tissue_aorta off
+	view ENCSR196PGM
+	visibility dense
+	type bigBed
+
+		track ENCSR196PGM_ENCFF712AMF
+		parent tissue_aorta_view_ENCSR196PGM off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=ENCSR196PGM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF712AMF/@@download/ENCFF712AMF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR196PGM aorta_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR196PGM age=34_year description=ENCSR196PGM_aorta_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR196PGM 
+		view ENCSR196PGM
+
+	track ENCSR673JYT_ENCFF630YFS
+	parent tissue_aorta off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF630YFS/@@download/ENCFF630YFS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR673JYT aorta_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR673JYT age=34_year description=ENCSR673JYT_aorta_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR673JYT
+	parent tissue_aorta off
+	view ENCSR673JYT
+	visibility dense
+	type bigBed
+
+		track ENCSR673JYT_ENCFF719CIW
+		parent tissue_aorta_view_ENCSR673JYT off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K36me3 view=ENCSR673JYT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF719CIW/@@download/ENCFF719CIW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR673JYT aorta_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR673JYT age=34_year description=ENCSR673JYT_aorta_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR673JYT 
+		view ENCSR673JYT
+
+	track ENCSR989AMI_ENCFF109XBT
+	parent tissue_aorta off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF109XBT/@@download/ENCFF109XBT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR989AMI aorta_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR989AMI age=30_year description=ENCSR989AMI_aorta_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR989AMI
+	parent tissue_aorta off
+	view ENCSR989AMI
+	visibility dense
+	type bigBed
+
+		track ENCSR989AMI_ENCFF668GXW
+		parent tissue_aorta_view_ENCSR989AMI off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K36me3 view=ENCSR989AMI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF668GXW/@@download/ENCFF668GXW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR989AMI aorta_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR989AMI age=30_year description=ENCSR989AMI_aorta_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR989AMI 
+		view ENCSR989AMI
+
+	track ENCSR325VOA_ENCFF082SRT
+	parent tissue_aorta off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF082SRT/@@download/ENCFF082SRT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR325VOA aorta_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR325VOA age=34_year description=ENCSR325VOA_aorta_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR325VOA
+	parent tissue_aorta off
+	view ENCSR325VOA
+	visibility dense
+	type bigBed
+
+		track ENCSR325VOA_ENCFF931DHR
+		parent tissue_aorta_view_ENCSR325VOA off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=ENCSR325VOA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF931DHR/@@download/ENCFF931DHR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR325VOA aorta_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR325VOA age=34_year description=ENCSR325VOA_aorta_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR325VOA 
+		view ENCSR325VOA
+
+	track ENCSR848TLB_ENCFF115HUM
+	parent tissue_aorta off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF115HUM/@@download/ENCFF115HUM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR848TLB aorta_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR848TLB age=30_year description=ENCSR848TLB_aorta_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR848TLB
+	parent tissue_aorta off
+	view ENCSR848TLB
+	visibility dense
+	type bigBed
+
+		track ENCSR848TLB_ENCFF917TKM
+		parent tissue_aorta_view_ENCSR848TLB off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me1 view=ENCSR848TLB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF917TKM/@@download/ENCFF917TKM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR848TLB aorta_female_adult_30_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR848TLB age=30_year description=ENCSR848TLB_aorta_female_adult_30_years_peaks_ donor=ENCDO424HVB sex=female view=ENCSR848TLB 
+		view ENCSR848TLB
+
+	track ENCSR065ZNA_ENCFF591RCD
+	parent tissue_aorta off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF591RCD/@@download/ENCFF591RCD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR065ZNA aorta_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR065ZNA age=34_year description=ENCSR065ZNA_aorta_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_aorta_view_ENCSR065ZNA
+	parent tissue_aorta off
+	view ENCSR065ZNA
+	visibility dense
+	type bigBed
+
+		track ENCSR065ZNA_ENCFF375URL
+		parent tissue_aorta_view_ENCSR065ZNA off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K9me3 view=ENCSR065ZNA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF375URL/@@download/ENCFF375URL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR065ZNA aorta_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR065ZNA age=34_year description=ENCSR065ZNA_aorta_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR065ZNA 
+		view ENCSR065ZNA
+

@@ -1,0 +1,186 @@
+
+track immortalized_cell_line_SK_MEL_5
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel SK-MEL-5
+longLabel SK-MEL-5 (9 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view ENCSR000FEK=ENCSR000FEK bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000FEK_ENCFF638EJF
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=DNase-seq donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF638EJF/@@download/ENCFF638EJF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000FEK SK_MEL_5 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000FEK age=24_year description=ENCSR000FEK_SK_MEL_5_read_depth_normalized_signal_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_MEL_5_view_ENCSR000FEK
+	parent immortalized_cell_line_SK_MEL_5 off
+	view ENCSR000FEK
+	visibility dense
+	type bigBed
+
+		track ENCSR000FEK_ENCFF048MDV
+		parent immortalized_cell_line_SK_MEL_5_view_ENCSR000FEK off
+		subGroups age=a24_year assay=DNase-seq donor=ENCDO338AAA label=unknown view=ENCSR000FEK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF048MDV/@@download/ENCFF048MDV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000FEK SK_MEL_5 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000FEK age=24_year description=ENCSR000FEK_SK_MEL_5_peaks_ donor=ENCDO338AAA sex=female view=ENCSR000FEK 
+		view ENCSR000FEK
+
+		track ENCSR000FEK_ENCFF041BNH
+		parent immortalized_cell_line_SK_MEL_5_view_ENCSR000FEK off
+		subGroups age=a24_year assay=DNase-seq donor=ENCDO338AAA label=unknown view=ENCSR000FEK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF041BNH/@@download/ENCFF041BNH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF041BNH 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000FEK age=24_year description=ENCFF041BNH_9state_DNase_ donor=ENCDO338AAA sex=female view=ENCSR000FEK 
+		view ENCSR000FEK
+
+	track ENCSR007RIV_ENCFF721NQI
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=RAMPAGE donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF721NQI/@@download/ENCFF721NQI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR007RIV SK_MEL_5_cytosolic_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR007RIV age=24_year description=ENCSR007RIV_SK_MEL_5_cytosolic_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR054RIR_ENCFF439XOY
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=RAMPAGE donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF439XOY/@@download/ENCFF439XOY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR054RIR SK_MEL_5 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR054RIR age=24_year description=ENCSR054RIR_SK_MEL_5_plus_strand_signal_of_unique_reads_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR201WVA_ENCFF820EXT
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=RNA-seq donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF820EXT/@@download/ENCFF820EXT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR201WVA SK_MEL_5_nuclear_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR201WVA age=24_year description=ENCSR201WVA_SK_MEL_5_nuclear_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR291DJH_ENCFF876BDH
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=RNA-seq donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF876BDH/@@download/ENCFF876BDH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR291DJH SK_MEL_5_cytosolic_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR291DJH age=24_year description=ENCSR291DJH_SK_MEL_5_cytosolic_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR506WDZ_ENCFF044GSD
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=RAMPAGE donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF044GSD/@@download/ENCFF044GSD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR506WDZ SK_MEL_5_nuclear_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR506WDZ age=24_year description=ENCSR506WDZ_SK_MEL_5_nuclear_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR571FTT_ENCFF161UND
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=RNA-seq donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF161UND/@@download/ENCFF161UND.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR571FTT SK_MEL_5_cytosolic_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR571FTT age=24_year description=ENCSR571FTT_SK_MEL_5_cytosolic_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR669KQU_ENCFF399KQO
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=RNA-seq donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF399KQO/@@download/ENCFF399KQO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR669KQU SK_MEL_5 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR669KQU age=24_year description=ENCSR669KQU_SK_MEL_5_plus_strand_signal_of_unique_reads_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR964EPR_ENCFF304SOR
+	parent immortalized_cell_line_SK_MEL_5 off
+	subGroups age=a24_year assay=RNA-seq donor=ENCDO338AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF304SOR/@@download/ENCFF304SOR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR964EPR SK_MEL_5_nuclear_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR964EPR age=24_year description=ENCSR964EPR_SK_MEL_5_nuclear_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO338AAA sex=female view=bigWig 
+	view bigWig
+

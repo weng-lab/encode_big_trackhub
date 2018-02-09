@@ -1,0 +1,244 @@
+
+track primary_cell_fibroblast_of_skin_of_abdomen
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of ski
+longLabel fibroblast of skin of abdomen (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO442SWC=ENCDO442SWC ENCDO576LXR=ENCDO576LXR 
+subGroup2 age age a22_year=22&#32;year a97_day=97&#32;day 
+subGroup3 view view ENCSR000DPV=ENCSR000DPV ENCSR000DPX=ENCSR000DPX ENCSR176KYD=ENCSR176KYD bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR176KYD_ENCFF029JGS
+	parent primary_cell_fibroblast_of_skin_of_abdomen off
+	subGroups age=a97_day assay=DNase-seq donor=ENCDO576LXR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF029JGS/@@download/ENCFF029JGS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR176KYD fibroblast_of_skin_of_abdomen_male_embryo_97_days_ (read-depth norma
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR176KYD age=97_day description=ENCSR176KYD_fibroblast_of_skin_of_abdomen_male_embryo_97_days_read_depth_normalized_signal_ donor=ENCDO576LXR sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR176KYD
+	parent primary_cell_fibroblast_of_skin_of_abdomen off
+	view ENCSR176KYD
+	visibility dense
+	type bigBed
+
+		track ENCSR176KYD_ENCFF636UDA
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR176KYD off
+		subGroups age=a97_day assay=DNase-seq donor=ENCDO576LXR label=unknown view=ENCSR176KYD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF636UDA/@@download/ENCFF636UDA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR176KYD fibroblast_of_skin_of_abdomen_male_embryo_97_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR176KYD age=97_day description=ENCSR176KYD_fibroblast_of_skin_of_abdomen_male_embryo_97_days_peaks_ donor=ENCDO576LXR sex=male view=ENCSR176KYD 
+		view ENCSR176KYD
+
+		track ENCSR176KYD_ENCFF782RLY
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR176KYD off
+		subGroups age=a97_day assay=DNase-seq donor=ENCDO576LXR label=unknown view=ENCSR176KYD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF782RLY/@@download/ENCFF782RLY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF782RLY 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR176KYD age=97_day description=ENCFF782RLY_9state_DNase_ donor=ENCDO576LXR sex=male view=ENCSR176KYD 
+		view ENCSR176KYD
+
+	track ENCSR000DPX_ENCFF453NKM
+	parent primary_cell_fibroblast_of_skin_of_abdomen off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF453NKM/@@download/ENCFF453NKM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DPX fibroblast_of_skin_of_abdomen_male_adult_22_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPX age=22_year description=ENCSR000DPX_fibroblast_of_skin_of_abdomen_male_adult_22_years_fold_change_over_control_ donor=ENCDO442SWC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPX
+	parent primary_cell_fibroblast_of_skin_of_abdomen off
+	view ENCSR000DPX
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPX_ENCFF320AOU
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPX off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=H3K4me3 view=ENCSR000DPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF320AOU/@@download/ENCFF320AOU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DPX fibroblast_of_skin_of_abdomen_male_adult_22_years_ (replicated peaks
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DPX age=22_year description=ENCSR000DPX_fibroblast_of_skin_of_abdomen_male_adult_22_years_replicated_peaks_ donor=ENCDO442SWC sex=male view=ENCSR000DPX 
+		view ENCSR000DPX
+
+		track ENCSR000DPX_ENCFF986ZOP
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPX off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=H3K4me3 view=ENCSR000DPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF986ZOP/@@download/ENCFF986ZOP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF986ZOP 9state-CTCF H3K4me3 ChIP-seq on human AG10803
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPX age=22_year description=ENCFF986ZOP_9state_CTCF_H3K4me3_ChIP_seq_on_human_AG10803 donor=ENCDO442SWC sex=male view=ENCSR000DPX 
+		view ENCSR000DPX
+
+		track ENCSR000DPX_ENCFF295EZT
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPX off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=H3K4me3 view=ENCSR000DPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF295EZT/@@download/ENCFF295EZT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF295EZT 5group H3K4me3 ChIP-seq on human AG10803
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPX age=22_year description=ENCFF295EZT_5group_H3K4me3_ChIP_seq_on_human_AG10803 donor=ENCDO442SWC sex=male view=ENCSR000DPX 
+		view ENCSR000DPX
+
+		track ENCSR000DPX_ENCFF345QPD
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPX off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=H3K4me3 view=ENCSR000DPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF345QPD/@@download/ENCFF345QPD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF345QPD 9state-H3K4me3 H3K4me3 ChIP-seq on human AG10803
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPX age=22_year description=ENCFF345QPD_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_AG10803 donor=ENCDO442SWC sex=male view=ENCSR000DPX 
+		view ENCSR000DPX
+
+	track ENCSR000DPV_ENCFF908HXT
+	parent primary_cell_fibroblast_of_skin_of_abdomen off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF908HXT/@@download/ENCFF908HXT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DPV fibroblast_of_skin_of_abdomen_male_adult_22_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPV age=22_year description=ENCSR000DPV_fibroblast_of_skin_of_abdomen_male_adult_22_years_fold_change_over_control_ donor=ENCDO442SWC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPV
+	parent primary_cell_fibroblast_of_skin_of_abdomen off
+	view ENCSR000DPV
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPV_ENCFF871THM
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=CTCF view=ENCSR000DPV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF871THM/@@download/ENCFF871THM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DPV fibroblast_of_skin_of_abdomen_male_adult_22_years_ (optimal idr thre
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DPV age=22_year description=ENCSR000DPV_fibroblast_of_skin_of_abdomen_male_adult_22_years_optimal_idr_thresholded_peaks_ donor=ENCDO442SWC sex=male view=ENCSR000DPV 
+		view ENCSR000DPV
+
+		track ENCSR000DPV_ENCFF986ZOP
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=CTCF view=ENCSR000DPV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF986ZOP/@@download/ENCFF986ZOP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF986ZOP 9state-CTCF CTCF ChIP-seq on human AG10803
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPV age=22_year description=ENCFF986ZOP_9state_CTCF_CTCF_ChIP_seq_on_human_AG10803 donor=ENCDO442SWC sex=male view=ENCSR000DPV 
+		view ENCSR000DPV
+
+		track ENCSR000DPV_ENCFF295EZT
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=CTCF view=ENCSR000DPV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF295EZT/@@download/ENCFF295EZT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF295EZT 5group CTCF ChIP-seq on human AG10803
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPV age=22_year description=ENCFF295EZT_5group_CTCF_ChIP_seq_on_human_AG10803 donor=ENCDO442SWC sex=male view=ENCSR000DPV 
+		view ENCSR000DPV
+
+		track ENCSR000DPV_ENCFF345QPD
+		parent primary_cell_fibroblast_of_skin_of_abdomen_view_ENCSR000DPV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO442SWC label=CTCF view=ENCSR000DPV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF345QPD/@@download/ENCFF345QPD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF345QPD 9state-H3K4me3 CTCF ChIP-seq on human AG10803
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPV age=22_year description=ENCFF345QPD_9state_H3K4me3_CTCF_ChIP_seq_on_human_AG10803 donor=ENCDO442SWC sex=male view=ENCSR000DPV 
+		view ENCSR000DPV
+
+	track ENCSR361DRG_ENCFF109IIQ
+	parent primary_cell_fibroblast_of_skin_of_abdomen off
+	subGroups age=a97_day assay=RNA-seq donor=ENCDO576LXR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF109IIQ/@@download/ENCFF109IIQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR361DRG fibroblast_of_skin_of_abdomen_male_embryo_97_days_ (signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR361DRG age=97_day description=ENCSR361DRG_fibroblast_of_skin_of_abdomen_male_embryo_97_days_signal_of_unique_reads_ donor=ENCDO576LXR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR681ALA_ENCFF719ZGW
+	parent primary_cell_fibroblast_of_skin_of_abdomen off
+	subGroups age=a97_day assay=RNA-seq donor=ENCDO576LXR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF719ZGW/@@download/ENCFF719ZGW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR681ALA fibroblast_of_skin_of_abdomen_male_embryo_97_days_ (signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR681ALA age=97_day description=ENCSR681ALA_fibroblast_of_skin_of_abdomen_male_embryo_97_days_signal_of_unique_reads_ donor=ENCDO576LXR sex=male view=bigWig 
+	view bigWig
+

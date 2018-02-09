@@ -1,0 +1,63 @@
+
+track primary_cell_subcutaneous_preadipocyte
+parent super_primary_cell
+compositeTrack on
+shortLabel subcutaneous prea
+longLabel subcutaneous preadipocyte (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO142AAA=ENCDO142AAA ENCDO143AAA=ENCDO143AAA 
+subGroup2 age age a62_year=62&#32;year a65_year=65&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CKQ_ENCFF377GJP
+	parent primary_cell_subcutaneous_preadipocyte off
+	subGroups age=a62_year assay=CAGE donor=ENCDO143AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF377GJP/@@download/ENCFF377GJP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CKQ subcutaneous_preadipocyte_female_adult_62_years_and_male_adult_65_ye
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CKQ age=62_year description=ENCSR000CKQ_subcutaneous_preadipocyte_female_adult_62_years_and_male_adult_65_years_plus_strand_signal_of_unique_reads_ donor=ENCDO143AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000CUM_ENCFF180DKU
+	parent primary_cell_subcutaneous_preadipocyte off
+	subGroups age=a65_year assay=RNA-seq donor=ENCDO142AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF180DKU/@@download/ENCFF180DKU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CUM subcutaneous_preadipocyte_female_adult_62_years_and_male_adult_65_ye
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CUM age=65_year description=ENCSR000CUM_subcutaneous_preadipocyte_female_adult_62_years_and_male_adult_65_years_plus_strand_signal_of_unique_reads_ donor=ENCDO142AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CVJ_ENCFF870IQL
+	parent primary_cell_subcutaneous_preadipocyte off
+	subGroups age=a65_year assay=RNA-seq donor=ENCDO142AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF870IQL/@@download/ENCFF870IQL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CVJ subcutaneous_preadipocyte_female_adult_62_years_and_male_adult_65_ye
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CVJ age=65_year description=ENCSR000CVJ_subcutaneous_preadipocyte_female_adult_62_years_and_male_adult_65_years_plus_strand_signal_of_unique_reads_ donor=ENCDO142AAA sex=male view=bigWig 
+	view bigWig
+

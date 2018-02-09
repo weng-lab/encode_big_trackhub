@@ -1,0 +1,301 @@
+
+track primary_cell_erythroblast
+parent super_primary_cell
+compositeTrack on
+shortLabel erythroblast
+longLabel erythroblast (10 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO083AAA=ENCDO083AAA 
+subGroup2 age age a14_5_day=14&#46;5&#32;day a5_6_week=5-6&#32;week 
+subGroup3 view view ENCSR000DHG=ENCSR000DHG ENCSR000DHK=ENCSR000DHK ENCSR000DHL=ENCSR000DHL ENCSR000DHN=ENCSR000DHN ENCSR000DHP=ENCSR000DHP ENCSR000DIL=ENCSR000DIL bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DHG_ENCFF612WPA
+	parent primary_cell_erythroblast off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF612WPA/@@download/ENCFF612WPA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DHG CD_1_erythroblast_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHG age=14_5_day description=ENCSR000DHG_CD_1_erythroblast_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_erythroblast_view_ENCSR000DHG
+	parent primary_cell_erythroblast off
+	view ENCSR000DHG
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHG_ENCFF388QZV
+		parent primary_cell_erythroblast_view_ENCSR000DHG off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me3 view=ENCSR000DHG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF388QZV/@@download/ENCFF388QZV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DHG CD_1_erythroblast_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DHG age=14_5_day description=ENCSR000DHG_CD_1_erythroblast_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHG 
+		view ENCSR000DHG
+
+		track ENCSR000DHG_ENCFF477ZDD
+		parent primary_cell_erythroblast_view_ENCSR000DHG off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me3 view=ENCSR000DHG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF477ZDD/@@download/ENCFF477ZDD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF477ZDD 5group PSU mouse Erythrobl H3K4me3 ChIP-seq
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DHG age=14_5_day description=ENCFF477ZDD_5group_PSU_mouse_Erythrobl_H3K4me3_ChIP_seq donor=ENCDO083AAA sex=unknown view=ENCSR000DHG 
+		view ENCSR000DHG
+
+	track ENCSR000CHS_ENCFF916MYO
+	parent primary_cell_erythroblast off
+	subGroups age=a14_5_day assay=RNA-seq donor=ENCDO083AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF916MYO/@@download/ENCFF916MYO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CHS CD_1_erythroblast_embryo_14_5_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CHS age=14_5_day description=ENCSR000CHS_CD_1_erythroblast_embryo_14_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR247IMK_ENCFF088HAO
+	parent primary_cell_erythroblast off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF088HAO/@@download/ENCFF088HAO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR247IMK C57BL_6_erythroblast_male_adult_5_6_weeks_ (plus strand signal of un
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR247IMK age=5_6_week description=ENCSR247IMK_C57BL_6_erythroblast_male_adult_5_6_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR661TLW_ENCFF705LUB
+	parent primary_cell_erythroblast off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF705LUB/@@download/ENCFF705LUB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR661TLW C57BL_6_erythroblast_male_adult_5_6_weeks_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR661TLW age=5_6_week description=ENCSR661TLW_C57BL_6_erythroblast_male_adult_5_6_weeks_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR793RAV_ENCFF321OJD
+	parent primary_cell_erythroblast off
+	subGroups age=a5_6_week assay=ATAC-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF321OJD/@@download/ENCFF321OJD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR793RAV C57BL_6_erythroblast_male_adult_5_6_weeks_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR793RAV age=5_6_week description=ENCSR793RAV_C57BL_6_erythroblast_male_adult_5_6_weeks_fold_change_over_control_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000DIL_ENCFF779AOL
+	parent primary_cell_erythroblast off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=GATA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF779AOL/@@download/ENCFF779AOL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA1
+	longLabel ENCSR000DIL CD_1_erythroblast_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIL age=14_5_day description=ENCSR000DIL_CD_1_erythroblast_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_erythroblast_view_ENCSR000DIL
+	parent primary_cell_erythroblast off
+	view ENCSR000DIL
+	visibility dense
+	type bigBed
+
+		track ENCSR000DIL_ENCFF932URR
+		parent primary_cell_erythroblast_view_ENCSR000DIL off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=GATA1 view=ENCSR000DIL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF932URR/@@download/ENCFF932URR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq GATA1
+		longLabel ENCSR000DIL CD_1_erythroblast_embryo_14_5_days_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DIL age=14_5_day description=ENCSR000DIL_CD_1_erythroblast_embryo_14_5_days_optimal_idr_thresholded_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DIL 
+		view ENCSR000DIL
+
+	track ENCSR000DHP_ENCFF220KWG
+	parent primary_cell_erythroblast off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF220KWG/@@download/ENCFF220KWG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DHP CD_1_erythroblast_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHP age=14_5_day description=ENCSR000DHP_CD_1_erythroblast_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_erythroblast_view_ENCSR000DHP
+	parent primary_cell_erythroblast off
+	view ENCSR000DHP
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHP_ENCFF628BNF
+		parent primary_cell_erythroblast_view_ENCSR000DHP off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K27me3 view=ENCSR000DHP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF628BNF/@@download/ENCFF628BNF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DHP CD_1_erythroblast_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DHP age=14_5_day description=ENCSR000DHP_CD_1_erythroblast_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHP 
+		view ENCSR000DHP
+
+	track ENCSR000DHL_ENCFF034FFR
+	parent primary_cell_erythroblast off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF034FFR/@@download/ENCFF034FFR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DHL CD_1_erythroblast_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHL age=14_5_day description=ENCSR000DHL_CD_1_erythroblast_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_erythroblast_view_ENCSR000DHL
+	parent primary_cell_erythroblast off
+	view ENCSR000DHL
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHL_ENCFF152JSK
+		parent primary_cell_erythroblast_view_ENCSR000DHL off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K36me3 view=ENCSR000DHL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF152JSK/@@download/ENCFF152JSK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DHL CD_1_erythroblast_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DHL age=14_5_day description=ENCSR000DHL_CD_1_erythroblast_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHL 
+		view ENCSR000DHL
+
+	track ENCSR000DHK_ENCFF007WLT
+	parent primary_cell_erythroblast off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF007WLT/@@download/ENCFF007WLT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000DHK CD_1_erythroblast_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHK age=14_5_day description=ENCSR000DHK_CD_1_erythroblast_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_erythroblast_view_ENCSR000DHK
+	parent primary_cell_erythroblast off
+	view ENCSR000DHK
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHK_ENCFF803LBL
+		parent primary_cell_erythroblast_view_ENCSR000DHK off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K4me1 view=ENCSR000DHK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF803LBL/@@download/ENCFF803LBL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000DHK CD_1_erythroblast_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000DHK age=14_5_day description=ENCSR000DHK_CD_1_erythroblast_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHK 
+		view ENCSR000DHK
+
+	track ENCSR000DHN_ENCFF277AAJ
+	parent primary_cell_erythroblast off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF277AAJ/@@download/ENCFF277AAJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR000DHN CD_1_erythroblast_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHN age=14_5_day description=ENCSR000DHN_CD_1_erythroblast_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_erythroblast_view_ENCSR000DHN
+	parent primary_cell_erythroblast off
+	view ENCSR000DHN
+	visibility dense
+	type bigBed
+
+		track ENCSR000DHN_ENCFF214HRU
+		parent primary_cell_erythroblast_view_ENCSR000DHN off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO083AAA label=H3K9me3 view=ENCSR000DHN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF214HRU/@@download/ENCFF214HRU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR000DHN CD_1_erythroblast_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR000DHN age=14_5_day description=ENCSR000DHN_CD_1_erythroblast_embryo_14_5_days_replicated_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000DHN 
+		view ENCSR000DHN
+

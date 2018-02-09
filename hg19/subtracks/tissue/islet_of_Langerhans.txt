@@ -1,0 +1,53 @@
+
+track tissue_islet_of_Langerhans
+parent super_tissue
+compositeTrack on
+shortLabel islet of Langerha
+longLabel islet of Langerhans (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000HUM=ENCDO000HUM 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DDA=ENCSR000DDA bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DDA_ENCFF000TPG
+	parent tissue_islet_of_Langerhans off
+	subGroups age=aunknown assay=FAIRE-seq donor=ENCDO000HUM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000TPG/@@download/ENCFF000TPG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel FAIRE-seq
+	longLabel ENCSR000DDA islet_of_Langerhans (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DDA age=unknown description=ENCSR000DDA_islet_of_Langerhans_signal_ donor=ENCDO000HUM sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_islet_of_Langerhans_view_ENCSR000DDA
+	parent tissue_islet_of_Langerhans off
+	view ENCSR000DDA
+	visibility dense
+	type bigBed
+
+		track ENCSR000DDA_ENCFF000TPE
+		parent tissue_islet_of_Langerhans_view_ENCSR000DDA off
+		subGroups age=aunknown assay=FAIRE-seq donor=ENCDO000HUM label=unknown view=ENCSR000DDA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000TPE/@@download/ENCFF000TPE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel FAIRE-seq
+		longLabel ENCSR000DDA islet_of_Langerhans (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DDA age=unknown description=ENCSR000DDA_islet_of_Langerhans_peaks_ donor=ENCDO000HUM sex=unknown view=ENCSR000DDA 
+		view ENCSR000DDA
+

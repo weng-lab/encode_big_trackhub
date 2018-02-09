@@ -1,0 +1,63 @@
+
+track tissue_urinary_bladder
+parent super_tissue
+compositeTrack on
+shortLabel urinary bladder
+longLabel urinary bladder (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a0_day=0&#32;day a8_week=8&#32;week 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000BZQ_ENCFF551YUO
+	parent tissue_urinary_bladder off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF551YUO/@@download/ENCFF551YUO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BZQ C57BL_6_urinary_bladder_adult_8_weeks_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BZQ age=8_week description=ENCSR000BZQ_C57BL_6_urinary_bladder_adult_8_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR694SDO_ENCFF951ZYF
+	parent tissue_urinary_bladder off
+	subGroups age=a0_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF951ZYF/@@download/ENCFF951ZYF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR694SDO C57BL_6_urinary_bladder_postnatal_0_days_ (plus strand signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR694SDO age=0_day description=ENCSR694SDO_C57BL_6_urinary_bladder_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR772FQU_ENCFF305NSG
+	parent tissue_urinary_bladder off
+	subGroups age=a0_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF305NSG/@@download/ENCFF305NSG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR772FQU C57BL_6_urinary_bladder_postnatal_0_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR772FQU age=0_day description=ENCSR772FQU_C57BL_6_urinary_bladder_postnatal_0_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+

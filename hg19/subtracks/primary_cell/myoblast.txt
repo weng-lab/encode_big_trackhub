@@ -1,0 +1,63 @@
+
+track primary_cell_myoblast
+parent super_primary_cell
+compositeTrack on
+shortLabel myoblast
+longLabel myoblast (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO421OUU=ENCDO421OUU ENCDO494DYG=ENCDO494DYG ENCDO864FBQ=ENCDO864FBQ 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR566ZGN_ENCFF076CAB
+	parent primary_cell_myoblast off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO421OUU label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF076CAB/@@download/ENCFF076CAB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR566ZGN myoblast_male (wavelet-smoothed signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR566ZGN age=unknown description=ENCSR566ZGN_myoblast_male_wavelet_smoothed_signal_ donor=ENCDO421OUU sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR700NQK_ENCFF771YZL
+	parent primary_cell_myoblast off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO864FBQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF771YZL/@@download/ENCFF771YZL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR700NQK myoblast_male (wavelet-smoothed signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR700NQK age=unknown description=ENCSR700NQK_myoblast_male_wavelet_smoothed_signal_ donor=ENCDO864FBQ sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR898EGI_ENCFF366RPM
+	parent primary_cell_myoblast off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO494DYG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF366RPM/@@download/ENCFF366RPM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR898EGI myoblast_male (wavelet-smoothed signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR898EGI age=unknown description=ENCSR898EGI_myoblast_male_wavelet_smoothed_signal_ donor=ENCDO494DYG sex=male view=bigWig 
+	view bigWig
+

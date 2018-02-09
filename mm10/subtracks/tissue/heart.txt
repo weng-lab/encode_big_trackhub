@@ -1,0 +1,4191 @@
+
+track tissue_heart
+parent super_tissue
+compositeTrack on
+shortLabel heart
+longLabel heart (110 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO469XMJ=ENCDO469XMJ ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a0_day=0&#32;day a10_50_day=10&#46;50&#32;day a10_5_day=10&#46;5&#32;day a10_week=10&#32;week a11_50_day=11&#46;50&#32;day a11_5_day=11&#46;5&#32;day a12_5_day=12&#46;5&#32;day a13_5_day=13&#46;5&#32;day a14_5_day=14&#46;5&#32;day a15_5_day=15&#46;5&#32;day a16_5_day=16&#46;5&#32;day a8_week=8&#32;week 
+subGroup3 view view ENCSR000CAE=ENCSR000CAE ENCSR000CAM=ENCSR000CAM ENCSR000CBI=ENCSR000CBI ENCSR000CBS=ENCSR000CBS ENCSR000CCA=ENCSR000CCA ENCSR000CDF=ENCSR000CDF ENCSR000CDK=ENCSR000CDK ENCSR000CDL=ENCSR000CDL ENCSR000CDM=ENCSR000CDM ENCSR000CEJ=ENCSR000CEJ ENCSR000CEK=ENCSR000CEK ENCSR000CEL=ENCSR000CEL ENCSR000CEM=ENCSR000CEM ENCSR005WPU=ENCSR005WPU ENCSR007XTC=ENCSR007XTC ENCSR052CDF=ENCSR052CDF ENCSR069XHI=ENCSR069XHI ENCSR071SQK=ENCSR071SQK ENCSR080GQM=ENCSR080GQM ENCSR098USP=ENCSR098USP ENCSR119YTR=ENCSR119YTR ENCSR122CJZ=ENCSR122CJZ ENCSR122HLY=ENCSR122HLY ENCSR123MLY=ENCSR123MLY ENCSR222IHX=ENCSR222IHX ENCSR235JCY=ENCSR235JCY ENCSR239TSZ=ENCSR239TSZ ENCSR251LFV=ENCSR251LFV ENCSR266JQW=ENCSR266JQW ENCSR328WMV=ENCSR328WMV ENCSR339LMJ=ENCSR339LMJ ENCSR345RKE=ENCSR345RKE ENCSR357OED=ENCSR357OED ENCSR360ANE=ENCSR360ANE ENCSR373LNE=ENCSR373LNE ENCSR373OCX=ENCSR373OCX ENCSR377RKW=ENCSR377RKW ENCSR380BBL=ENCSR380BBL ENCSR406KDB=ENCSR406KDB ENCSR437NPG=ENCSR437NPG ENCSR442RYY=ENCSR442RYY ENCSR455REA=ENCSR455REA ENCSR463GJL=ENCSR463GJL ENCSR467UGM=ENCSR467UGM ENCSR488OCA=ENCSR488OCA ENCSR491NUM=ENCSR491NUM ENCSR501GBJ=ENCSR501GBJ ENCSR519DNE=ENCSR519DNE ENCSR534HMF=ENCSR534HMF ENCSR557SVH=ENCSR557SVH ENCSR560CIG=ENCSR560CIG ENCSR574VME=ENCSR574VME ENCSR582SPN=ENCSR582SPN ENCSR592GQI=ENCSR592GQI ENCSR631KAJ=ENCSR631KAJ ENCSR641EME=ENCSR641EME ENCSR647OTD=ENCSR647OTD ENCSR650UAC=ENCSR650UAC ENCSR663VWL=ENCSR663VWL ENCSR675HDX=ENCSR675HDX ENCSR688ZOR=ENCSR688ZOR ENCSR699XHY=ENCSR699XHY ENCSR747VPY=ENCSR747VPY ENCSR748BQH=ENCSR748BQH ENCSR749ILN=ENCSR749ILN ENCSR751HEG=ENCSR751HEG ENCSR777VNA=ENCSR777VNA ENCSR781ORQ=ENCSR781ORQ ENCSR782DEA=ENCSR782DEA ENCSR782DGO=ENCSR782DGO ENCSR790LOX=ENCSR790LOX ENCSR840QFC=ENCSR840QFC ENCSR846PJO=ENCSR846PJO ENCSR875ZAO=ENCSR875ZAO ENCSR886IHN=ENCSR886IHN ENCSR932SBO=ENCSR932SBO ENCSR956ZCG=ENCSR956ZCG ENCSR963OLG=ENCSR963OLG ENCSR965JWF=ENCSR965JWF ENCSR968NPX=ENCSR968NPX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR005WPU_ENCFF513QAB
+	parent tissue_heart off
+	subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF513QAB/@@download/ENCFF513QAB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR005WPU C57BL_6_heart_postnatal_0_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR005WPU age=0_day description=ENCSR005WPU_C57BL_6_heart_postnatal_0_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR005WPU
+	parent tissue_heart off
+	view ENCSR005WPU
+	visibility dense
+	type bigBed
+
+		track ENCSR005WPU_ENCFF351HQO
+		parent tissue_heart_view_ENCSR005WPU off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR005WPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF351HQO/@@download/ENCFF351HQO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR005WPU C57BL_6_heart_postnatal_0_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR005WPU age=0_day description=ENCSR005WPU_C57BL_6_heart_postnatal_0_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR005WPU 
+		view ENCSR005WPU
+
+		track ENCSR005WPU_ENCFF961MRB
+		parent tissue_heart_view_ENCSR005WPU off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR005WPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF961MRB/@@download/ENCFF961MRB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF961MRB 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR005WPU age=0_day description=ENCFF961MRB_9state_DNase_ donor=ENCDO956IXV sex=unknown view=ENCSR005WPU 
+		view ENCSR005WPU
+
+		track ENCSR005WPU_ENCFF062YRO
+		parent tissue_heart_view_ENCSR005WPU off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR005WPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF062YRO/@@download/ENCFF062YRO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF062YRO 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR005WPU age=0_day description=ENCFF062YRO_9state_CTCF_ donor=ENCDO956IXV sex=unknown view=ENCSR005WPU 
+		view ENCSR005WPU
+
+		track ENCSR005WPU_ENCFF018SYF
+		parent tissue_heart_view_ENCSR005WPU off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR005WPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF018SYF/@@download/ENCFF018SYF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF018SYF 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR005WPU age=0_day description=ENCFF018SYF_5group_ donor=ENCDO956IXV sex=unknown view=ENCSR005WPU 
+		view ENCSR005WPU
+
+		track ENCSR005WPU_ENCFF547JIH
+		parent tissue_heart_view_ENCSR005WPU off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR005WPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF547JIH/@@download/ENCFF547JIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF547JIH 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR005WPU age=0_day description=ENCFF547JIH_9state_H3K27ac_ donor=ENCDO956IXV sex=unknown view=ENCSR005WPU 
+		view ENCSR005WPU
+
+		track ENCSR005WPU_ENCFF901HPQ
+		parent tissue_heart_view_ENCSR005WPU off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR005WPU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF901HPQ/@@download/ENCFF901HPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF901HPQ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR005WPU age=0_day description=ENCFF901HPQ_9state_H3K4me3_ donor=ENCDO956IXV sex=unknown view=ENCSR005WPU 
+		view ENCSR005WPU
+
+	track ENCSR749ILN_ENCFF071TLE
+	parent tissue_heart off
+	subGroups age=a10_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF071TLE/@@download/ENCFF071TLE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR749ILN C57BL_6_heart_embryo_10_50_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR749ILN age=10_50_day description=ENCSR749ILN_C57BL_6_heart_embryo_10_50_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR749ILN
+	parent tissue_heart off
+	view ENCSR749ILN
+	visibility dense
+	type bigBed
+
+		track ENCSR749ILN_ENCFF912TCH
+		parent tissue_heart_view_ENCSR749ILN off
+		subGroups age=a10_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR749ILN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF912TCH/@@download/ENCFF912TCH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR749ILN C57BL_6_heart_embryo_10_50_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR749ILN age=10_50_day description=ENCSR749ILN_C57BL_6_heart_embryo_10_50_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR749ILN 
+		view ENCSR749ILN
+
+	track ENCSR932SBO_ENCFF503WJK
+	parent tissue_heart off
+	subGroups age=a11_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF503WJK/@@download/ENCFF503WJK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR932SBO C57BL_6_heart_embryo_11_50_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR932SBO age=11_50_day description=ENCSR932SBO_C57BL_6_heart_embryo_11_50_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR932SBO
+	parent tissue_heart off
+	view ENCSR932SBO
+	visibility dense
+	type bigBed
+
+		track ENCSR932SBO_ENCFF517ZCM
+		parent tissue_heart_view_ENCSR932SBO off
+		subGroups age=a11_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR932SBO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF517ZCM/@@download/ENCFF517ZCM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR932SBO C57BL_6_heart_embryo_11_50_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR932SBO age=11_50_day description=ENCSR932SBO_C57BL_6_heart_embryo_11_50_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR932SBO 
+		view ENCSR932SBO
+
+	track ENCSR000CAM_ENCFF118SXS
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF118SXS/@@download/ENCFF118SXS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000CAM C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CAM age=8_week description=ENCSR000CAM_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CAM
+	parent tissue_heart off
+	view ENCSR000CAM
+	visibility dense
+	type bigBed
+
+		track ENCSR000CAM_ENCFF573DOX
+		parent tissue_heart_view_ENCSR000CAM off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF573DOX/@@download/ENCFF573DOX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000CAM C57BL_6_heart_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000CAM age=8_week description=ENCSR000CAM_C57BL_6_heart_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CAM 
+		view ENCSR000CAM
+
+		track ENCSR000CAM_ENCFF826XMN
+		parent tissue_heart_view_ENCSR000CAM off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF826XMN/@@download/ENCFF826XMN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF826XMN 5group H3K4me3 ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CAM age=8_week description=ENCFF826XMN_5group_H3K4me3_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CAM 
+		view ENCSR000CAM
+
+		track ENCSR000CAM_ENCFF092LJM
+		parent tissue_heart_view_ENCSR000CAM off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF092LJM/@@download/ENCFF092LJM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF092LJM 9state-H3K27ac H3K4me3 ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CAM age=8_week description=ENCFF092LJM_9state_H3K27ac_H3K4me3_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CAM 
+		view ENCSR000CAM
+
+		track ENCSR000CAM_ENCFF145GMD
+		parent tissue_heart_view_ENCSR000CAM off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF145GMD/@@download/ENCFF145GMD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF145GMD 9state-H3K4me3 H3K4me3 ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CAM age=8_week description=ENCFF145GMD_9state_H3K4me3_H3K4me3_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CAM 
+		view ENCSR000CAM
+
+	track ENCSR000CDM_ENCFF227BHG
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF227BHG/@@download/ENCFF227BHG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000CDM C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDM age=14_5_day description=ENCSR000CDM_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CDM
+	parent tissue_heart off
+	view ENCSR000CDM
+	visibility dense
+	type bigBed
+
+		track ENCSR000CDM_ENCFF536XJH
+		parent tissue_heart_view_ENCSR000CDM off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CDM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF536XJH/@@download/ENCFF536XJH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000CDM C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000CDM age=14_5_day description=ENCSR000CDM_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CDM 
+		view ENCSR000CDM
+
+	track ENCSR052CDF_ENCFF774GGS
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF774GGS/@@download/ENCFF774GGS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR052CDF C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR052CDF age=14_5_day description=ENCSR052CDF_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR052CDF
+	parent tissue_heart off
+	view ENCSR052CDF
+	visibility dense
+	type bigBed
+
+		track ENCSR052CDF_ENCFF592CXI
+		parent tissue_heart_view_ENCSR052CDF off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR052CDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF592CXI/@@download/ENCFF592CXI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR052CDF C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR052CDF age=14_5_day description=ENCSR052CDF_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR052CDF 
+		view ENCSR052CDF
+
+		track ENCSR052CDF_ENCFF592QGF
+		parent tissue_heart_view_ENCSR052CDF off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR052CDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF592QGF/@@download/ENCFF592QGF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF592QGF 5group H3K4me3 ChIP-seq on embryonic 14.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR052CDF age=14_5_day description=ENCFF592QGF_5group_H3K4me3_ChIP_seq_on_embryonic_14_5_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR052CDF 
+		view ENCSR052CDF
+
+		track ENCSR052CDF_ENCFF768XPI
+		parent tissue_heart_view_ENCSR052CDF off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR052CDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF768XPI/@@download/ENCFF768XPI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF768XPI 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 14.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR052CDF age=14_5_day description=ENCFF768XPI_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_14_5_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR052CDF 
+		view ENCSR052CDF
+
+		track ENCSR052CDF_ENCFF839AKW
+		parent tissue_heart_view_ENCSR052CDF off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR052CDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF839AKW/@@download/ENCFF839AKW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF839AKW 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 14.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR052CDF age=14_5_day description=ENCFF839AKW_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_14_5_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR052CDF 
+		view ENCSR052CDF
+
+	track ENCSR119YTR_ENCFF808VAT
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF808VAT/@@download/ENCFF808VAT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR119YTR C57BL_6_heart_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR119YTR age=16_5_day description=ENCSR119YTR_C57BL_6_heart_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR119YTR
+	parent tissue_heart off
+	view ENCSR119YTR
+	visibility dense
+	type bigBed
+
+		track ENCSR119YTR_ENCFF381GRK
+		parent tissue_heart_view_ENCSR119YTR off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR119YTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF381GRK/@@download/ENCFF381GRK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR119YTR C57BL_6_heart_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR119YTR age=16_5_day description=ENCSR119YTR_C57BL_6_heart_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR119YTR 
+		view ENCSR119YTR
+
+		track ENCSR119YTR_ENCFF846FZU
+		parent tissue_heart_view_ENCSR119YTR off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR119YTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF846FZU/@@download/ENCFF846FZU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF846FZU 5group H3K4me3 ChIP-seq on embryonic 16.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR119YTR age=16_5_day description=ENCFF846FZU_5group_H3K4me3_ChIP_seq_on_embryonic_16_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR119YTR 
+		view ENCSR119YTR
+
+		track ENCSR119YTR_ENCFF301YHH
+		parent tissue_heart_view_ENCSR119YTR off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR119YTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF301YHH/@@download/ENCFF301YHH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF301YHH 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 16.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR119YTR age=16_5_day description=ENCFF301YHH_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_16_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR119YTR 
+		view ENCSR119YTR
+
+		track ENCSR119YTR_ENCFF047TPN
+		parent tissue_heart_view_ENCSR119YTR off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR119YTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF047TPN/@@download/ENCFF047TPN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF047TPN 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 16.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR119YTR age=16_5_day description=ENCFF047TPN_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_16_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR119YTR 
+		view ENCSR119YTR
+
+	track ENCSR501GBJ_ENCFF054NVM
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF054NVM/@@download/ENCFF054NVM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR501GBJ C57BL_6_heart_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR501GBJ age=13_5_day description=ENCSR501GBJ_C57BL_6_heart_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR501GBJ
+	parent tissue_heart off
+	view ENCSR501GBJ
+	visibility dense
+	type bigBed
+
+		track ENCSR501GBJ_ENCFF624BET
+		parent tissue_heart_view_ENCSR501GBJ off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR501GBJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF624BET/@@download/ENCFF624BET.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR501GBJ C57BL_6_heart_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR501GBJ age=13_5_day description=ENCSR501GBJ_C57BL_6_heart_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR501GBJ 
+		view ENCSR501GBJ
+
+		track ENCSR501GBJ_ENCFF705QZU
+		parent tissue_heart_view_ENCSR501GBJ off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR501GBJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF705QZU/@@download/ENCFF705QZU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF705QZU 5group H3K4me3 ChIP-seq on embryonic 13.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR501GBJ age=13_5_day description=ENCFF705QZU_5group_H3K4me3_ChIP_seq_on_embryonic_13_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR501GBJ 
+		view ENCSR501GBJ
+
+		track ENCSR501GBJ_ENCFF242RRX
+		parent tissue_heart_view_ENCSR501GBJ off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR501GBJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF242RRX/@@download/ENCFF242RRX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF242RRX 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 13.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR501GBJ age=13_5_day description=ENCFF242RRX_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_13_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR501GBJ 
+		view ENCSR501GBJ
+
+		track ENCSR501GBJ_ENCFF652ZPQ
+		parent tissue_heart_view_ENCSR501GBJ off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR501GBJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF652ZPQ/@@download/ENCFF652ZPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF652ZPQ 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 13.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR501GBJ age=13_5_day description=ENCFF652ZPQ_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_13_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR501GBJ 
+		view ENCSR501GBJ
+
+	track ENCSR592GQI_ENCFF564SDZ
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF564SDZ/@@download/ENCFF564SDZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR592GQI C57BL_6_heart_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR592GQI age=11_5_day description=ENCSR592GQI_C57BL_6_heart_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR592GQI
+	parent tissue_heart off
+	view ENCSR592GQI
+	visibility dense
+	type bigBed
+
+		track ENCSR592GQI_ENCFF903YYZ
+		parent tissue_heart_view_ENCSR592GQI off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR592GQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF903YYZ/@@download/ENCFF903YYZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR592GQI C57BL_6_heart_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR592GQI age=11_5_day description=ENCSR592GQI_C57BL_6_heart_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR592GQI 
+		view ENCSR592GQI
+
+		track ENCSR592GQI_ENCFF965QSI
+		parent tissue_heart_view_ENCSR592GQI off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR592GQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF965QSI/@@download/ENCFF965QSI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF965QSI 5group H3K4me3 ChIP-seq on embryonic 11.5 day (e11.5) mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR592GQI age=11_5_day description=ENCFF965QSI_5group_H3K4me3_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR592GQI 
+		view ENCSR592GQI
+
+		track ENCSR592GQI_ENCFF728LBF
+		parent tissue_heart_view_ENCSR592GQI off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR592GQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF728LBF/@@download/ENCFF728LBF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF728LBF 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 11.5 day (e11.5) mouse 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR592GQI age=11_5_day description=ENCFF728LBF_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR592GQI 
+		view ENCSR592GQI
+
+		track ENCSR592GQI_ENCFF702UYE
+		parent tissue_heart_view_ENCSR592GQI off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR592GQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702UYE/@@download/ENCFF702UYE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF702UYE 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 11.5 day (e11.5) mouse 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR592GQI age=11_5_day description=ENCFF702UYE_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR592GQI 
+		view ENCSR592GQI
+
+	track ENCSR647OTD_ENCFF109NPC
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF109NPC/@@download/ENCFF109NPC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR647OTD C57BL_6_heart_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR647OTD age=15_5_day description=ENCSR647OTD_C57BL_6_heart_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR647OTD
+	parent tissue_heart off
+	view ENCSR647OTD
+	visibility dense
+	type bigBed
+
+		track ENCSR647OTD_ENCFF937PCX
+		parent tissue_heart_view_ENCSR647OTD off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR647OTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF937PCX/@@download/ENCFF937PCX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR647OTD C57BL_6_heart_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR647OTD age=15_5_day description=ENCSR647OTD_C57BL_6_heart_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR647OTD 
+		view ENCSR647OTD
+
+		track ENCSR647OTD_ENCFF837KEY
+		parent tissue_heart_view_ENCSR647OTD off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR647OTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF837KEY/@@download/ENCFF837KEY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF837KEY 5group H3K4me3 ChIP-seq on embryonic 15.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR647OTD age=15_5_day description=ENCFF837KEY_5group_H3K4me3_ChIP_seq_on_embryonic_15_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR647OTD 
+		view ENCSR647OTD
+
+		track ENCSR647OTD_ENCFF743XDD
+		parent tissue_heart_view_ENCSR647OTD off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR647OTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF743XDD/@@download/ENCFF743XDD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF743XDD 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 15.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR647OTD age=15_5_day description=ENCFF743XDD_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_15_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR647OTD 
+		view ENCSR647OTD
+
+		track ENCSR647OTD_ENCFF402PXJ
+		parent tissue_heart_view_ENCSR647OTD off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR647OTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF402PXJ/@@download/ENCFF402PXJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF402PXJ 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 15.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR647OTD age=15_5_day description=ENCFF402PXJ_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_15_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR647OTD 
+		view ENCSR647OTD
+
+	track ENCSR688ZOR_ENCFF331OQE
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF331OQE/@@download/ENCFF331OQE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR688ZOR C57BL_6_heart_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR688ZOR age=12_5_day description=ENCSR688ZOR_C57BL_6_heart_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR688ZOR
+	parent tissue_heart off
+	view ENCSR688ZOR
+	visibility dense
+	type bigBed
+
+		track ENCSR688ZOR_ENCFF271WQC
+		parent tissue_heart_view_ENCSR688ZOR off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR688ZOR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF271WQC/@@download/ENCFF271WQC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR688ZOR C57BL_6_heart_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR688ZOR age=12_5_day description=ENCSR688ZOR_C57BL_6_heart_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR688ZOR 
+		view ENCSR688ZOR
+
+		track ENCSR688ZOR_ENCFF957MKL
+		parent tissue_heart_view_ENCSR688ZOR off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR688ZOR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF957MKL/@@download/ENCFF957MKL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF957MKL 5group H3K4me3 ChIP-seq on embryonic 12.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR688ZOR age=12_5_day description=ENCFF957MKL_5group_H3K4me3_ChIP_seq_on_embryonic_12_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR688ZOR 
+		view ENCSR688ZOR
+
+		track ENCSR688ZOR_ENCFF134JGB
+		parent tissue_heart_view_ENCSR688ZOR off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR688ZOR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF134JGB/@@download/ENCFF134JGB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF134JGB 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 12.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR688ZOR age=12_5_day description=ENCFF134JGB_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_12_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR688ZOR 
+		view ENCSR688ZOR
+
+		track ENCSR688ZOR_ENCFF997RDG
+		parent tissue_heart_view_ENCSR688ZOR off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR688ZOR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF997RDG/@@download/ENCFF997RDG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF997RDG 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 12.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR688ZOR age=12_5_day description=ENCFF997RDG_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_12_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR688ZOR 
+		view ENCSR688ZOR
+
+	track ENCSR782DEA_ENCFF889KFS
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF889KFS/@@download/ENCFF889KFS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR782DEA C57BL_6_heart_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR782DEA age=10_5_day description=ENCSR782DEA_C57BL_6_heart_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR782DEA
+	parent tissue_heart off
+	view ENCSR782DEA
+	visibility dense
+	type bigBed
+
+		track ENCSR782DEA_ENCFF870CJG
+		parent tissue_heart_view_ENCSR782DEA off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR782DEA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF870CJG/@@download/ENCFF870CJG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR782DEA C57BL_6_heart_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR782DEA age=10_5_day description=ENCSR782DEA_C57BL_6_heart_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR782DEA 
+		view ENCSR782DEA
+
+		track ENCSR782DEA_ENCFF423NHL
+		parent tissue_heart_view_ENCSR782DEA off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR782DEA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF423NHL/@@download/ENCFF423NHL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF423NHL 5group H3K4me3 ChIP-seq on embryonic 10.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR782DEA age=10_5_day description=ENCFF423NHL_5group_H3K4me3_ChIP_seq_on_embryonic_10_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR782DEA 
+		view ENCSR782DEA
+
+		track ENCSR782DEA_ENCFF959GGZ
+		parent tissue_heart_view_ENCSR782DEA off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR782DEA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF959GGZ/@@download/ENCFF959GGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF959GGZ 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 10.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR782DEA age=10_5_day description=ENCFF959GGZ_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_10_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR782DEA 
+		view ENCSR782DEA
+
+		track ENCSR782DEA_ENCFF756UYC
+		parent tissue_heart_view_ENCSR782DEA off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR782DEA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF756UYC/@@download/ENCFF756UYC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF756UYC 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 10.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR782DEA age=10_5_day description=ENCFF756UYC_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_10_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR782DEA 
+		view ENCSR782DEA
+
+	track ENCSR875ZAO_ENCFF104GKL
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF104GKL/@@download/ENCFF104GKL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR875ZAO C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR875ZAO age=0_day description=ENCSR875ZAO_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR875ZAO
+	parent tissue_heart off
+	view ENCSR875ZAO
+	visibility dense
+	type bigBed
+
+		track ENCSR875ZAO_ENCFF796IWR
+		parent tissue_heart_view_ENCSR875ZAO off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR875ZAO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF796IWR/@@download/ENCFF796IWR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR875ZAO C57BL_6_heart_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR875ZAO age=0_day description=ENCSR875ZAO_C57BL_6_heart_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR875ZAO 
+		view ENCSR875ZAO
+
+		track ENCSR875ZAO_ENCFF961MRB
+		parent tissue_heart_view_ENCSR875ZAO off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR875ZAO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF961MRB/@@download/ENCFF961MRB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF961MRB 9state-DNase H3K4me3 ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR875ZAO age=0_day description=ENCFF961MRB_9state_DNase_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR875ZAO 
+		view ENCSR875ZAO
+
+		track ENCSR875ZAO_ENCFF062YRO
+		parent tissue_heart_view_ENCSR875ZAO off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR875ZAO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF062YRO/@@download/ENCFF062YRO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF062YRO 9state-CTCF H3K4me3 ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR875ZAO age=0_day description=ENCFF062YRO_9state_CTCF_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR875ZAO 
+		view ENCSR875ZAO
+
+		track ENCSR875ZAO_ENCFF018SYF
+		parent tissue_heart_view_ENCSR875ZAO off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR875ZAO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF018SYF/@@download/ENCFF018SYF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF018SYF 5group H3K4me3 ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR875ZAO age=0_day description=ENCFF018SYF_5group_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR875ZAO 
+		view ENCSR875ZAO
+
+		track ENCSR875ZAO_ENCFF547JIH
+		parent tissue_heart_view_ENCSR875ZAO off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR875ZAO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF547JIH/@@download/ENCFF547JIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF547JIH 9state-H3K27ac H3K4me3 ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR875ZAO age=0_day description=ENCFF547JIH_9state_H3K27ac_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR875ZAO 
+		view ENCSR875ZAO
+
+		track ENCSR875ZAO_ENCFF901HPQ
+		parent tissue_heart_view_ENCSR875ZAO off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR875ZAO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF901HPQ/@@download/ENCFF901HPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF901HPQ 9state-H3K4me3 H3K4me3 ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR875ZAO age=0_day description=ENCFF901HPQ_9state_H3K4me3_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR875ZAO 
+		view ENCSR875ZAO
+
+	track ENCSR000CBI_ENCFF639AFA
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF639AFA/@@download/ENCFF639AFA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CBI C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBI age=8_week description=ENCSR000CBI_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CBI
+	parent tissue_heart off
+	view ENCSR000CBI
+	visibility dense
+	type bigBed
+
+		track ENCSR000CBI_ENCFF754RBY
+		parent tissue_heart_view_ENCSR000CBI off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF754RBY/@@download/ENCFF754RBY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000CBI C57BL_6_heart_male_adult_8_weeks_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000CBI age=8_week description=ENCSR000CBI_C57BL_6_heart_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CBI 
+		view ENCSR000CBI
+
+		track ENCSR000CBI_ENCFF826XMN
+		parent tissue_heart_view_ENCSR000CBI off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF826XMN/@@download/ENCFF826XMN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF826XMN 5group CTCF ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CBI age=8_week description=ENCFF826XMN_5group_CTCF_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CBI 
+		view ENCSR000CBI
+
+		track ENCSR000CBI_ENCFF092LJM
+		parent tissue_heart_view_ENCSR000CBI off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF092LJM/@@download/ENCFF092LJM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF092LJM 9state-H3K27ac CTCF ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CBI age=8_week description=ENCFF092LJM_9state_H3K27ac_CTCF_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CBI 
+		view ENCSR000CBI
+
+		track ENCSR000CBI_ENCFF145GMD
+		parent tissue_heart_view_ENCSR000CBI off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF145GMD/@@download/ENCFF145GMD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF145GMD 9state-H3K4me3 CTCF ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CBI age=8_week description=ENCFF145GMD_9state_H3K4me3_CTCF_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CBI 
+		view ENCSR000CBI
+
+	track ENCSR000CDF_ENCFF691YDA
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF691YDA/@@download/ENCFF691YDA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000CDF C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDF age=8_week description=ENCSR000CDF_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CDF
+	parent tissue_heart off
+	view ENCSR000CDF
+	visibility dense
+	type bigBed
+
+		track ENCSR000CDF_ENCFF190XJE
+		parent tissue_heart_view_ENCSR000CDF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF190XJE/@@download/ENCFF190XJE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000CDF C57BL_6_heart_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000CDF age=8_week description=ENCSR000CDF_C57BL_6_heart_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CDF 
+		view ENCSR000CDF
+
+		track ENCSR000CDF_ENCFF826XMN
+		parent tissue_heart_view_ENCSR000CDF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF826XMN/@@download/ENCFF826XMN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF826XMN 5group H3K27ac ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDF age=8_week description=ENCFF826XMN_5group_H3K27ac_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CDF 
+		view ENCSR000CDF
+
+		track ENCSR000CDF_ENCFF092LJM
+		parent tissue_heart_view_ENCSR000CDF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF092LJM/@@download/ENCFF092LJM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF092LJM 9state-H3K27ac H3K27ac ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDF age=8_week description=ENCFF092LJM_9state_H3K27ac_H3K27ac_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CDF 
+		view ENCSR000CDF
+
+		track ENCSR000CDF_ENCFF145GMD
+		parent tissue_heart_view_ENCSR000CDF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF145GMD/@@download/ENCFF145GMD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF145GMD 9state-H3K4me3 H3K27ac ChIP-seq on 8-week mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDF age=8_week description=ENCFF145GMD_9state_H3K4me3_H3K27ac_ChIP_seq_on_8_week_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR000CDF 
+		view ENCSR000CDF
+
+	track ENCSR000CDK_ENCFF034YQZ
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF034YQZ/@@download/ENCFF034YQZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000CDK C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDK age=14_5_day description=ENCSR000CDK_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CDK
+	parent tissue_heart off
+	view ENCSR000CDK
+	visibility dense
+	type bigBed
+
+		track ENCSR000CDK_ENCFF895QGE
+		parent tissue_heart_view_ENCSR000CDK off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF895QGE/@@download/ENCFF895QGE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000CDK C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000CDK age=14_5_day description=ENCSR000CDK_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CDK 
+		view ENCSR000CDK
+
+	track ENCSR123MLY_ENCFF937AXD
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF937AXD/@@download/ENCFF937AXD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR123MLY C57BL_6_heart_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR123MLY age=12_5_day description=ENCSR123MLY_C57BL_6_heart_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR123MLY
+	parent tissue_heart off
+	view ENCSR123MLY
+	visibility dense
+	type bigBed
+
+		track ENCSR123MLY_ENCFF110JUP
+		parent tissue_heart_view_ENCSR123MLY off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR123MLY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF110JUP/@@download/ENCFF110JUP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR123MLY C57BL_6_heart_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR123MLY age=12_5_day description=ENCSR123MLY_C57BL_6_heart_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR123MLY 
+		view ENCSR123MLY
+
+		track ENCSR123MLY_ENCFF957MKL
+		parent tissue_heart_view_ENCSR123MLY off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR123MLY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF957MKL/@@download/ENCFF957MKL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF957MKL 5group H3K27ac ChIP-seq on embryonic 12.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR123MLY age=12_5_day description=ENCFF957MKL_5group_H3K27ac_ChIP_seq_on_embryonic_12_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR123MLY 
+		view ENCSR123MLY
+
+		track ENCSR123MLY_ENCFF134JGB
+		parent tissue_heart_view_ENCSR123MLY off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR123MLY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF134JGB/@@download/ENCFF134JGB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF134JGB 9state-H3K27ac H3K27ac ChIP-seq on embryonic 12.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR123MLY age=12_5_day description=ENCFF134JGB_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_12_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR123MLY 
+		view ENCSR123MLY
+
+		track ENCSR123MLY_ENCFF997RDG
+		parent tissue_heart_view_ENCSR123MLY off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR123MLY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF997RDG/@@download/ENCFF997RDG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF997RDG 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 12.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR123MLY age=12_5_day description=ENCFF997RDG_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_12_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR123MLY 
+		view ENCSR123MLY
+
+	track ENCSR222IHX_ENCFF305IHU
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF305IHU/@@download/ENCFF305IHU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR222IHX C57BL_6_heart_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR222IHX age=11_5_day description=ENCSR222IHX_C57BL_6_heart_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR222IHX
+	parent tissue_heart off
+	view ENCSR222IHX
+	visibility dense
+	type bigBed
+
+		track ENCSR222IHX_ENCFF165PEC
+		parent tissue_heart_view_ENCSR222IHX off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR222IHX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF165PEC/@@download/ENCFF165PEC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR222IHX C57BL_6_heart_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR222IHX age=11_5_day description=ENCSR222IHX_C57BL_6_heart_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR222IHX 
+		view ENCSR222IHX
+
+		track ENCSR222IHX_ENCFF965QSI
+		parent tissue_heart_view_ENCSR222IHX off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR222IHX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF965QSI/@@download/ENCFF965QSI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF965QSI 5group H3K27ac ChIP-seq on embryonic 11.5 day (e11.5) mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR222IHX age=11_5_day description=ENCFF965QSI_5group_H3K27ac_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR222IHX 
+		view ENCSR222IHX
+
+		track ENCSR222IHX_ENCFF728LBF
+		parent tissue_heart_view_ENCSR222IHX off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR222IHX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF728LBF/@@download/ENCFF728LBF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF728LBF 9state-H3K27ac H3K27ac ChIP-seq on embryonic 11.5 day (e11.5) mouse 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR222IHX age=11_5_day description=ENCFF728LBF_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR222IHX 
+		view ENCSR222IHX
+
+		track ENCSR222IHX_ENCFF702UYE
+		parent tissue_heart_view_ENCSR222IHX off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR222IHX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702UYE/@@download/ENCFF702UYE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF702UYE 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 11.5 day (e11.5) mouse 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR222IHX age=11_5_day description=ENCFF702UYE_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR222IHX 
+		view ENCSR222IHX
+
+	track ENCSR360ANE_ENCFF689PCR
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF689PCR/@@download/ENCFF689PCR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR360ANE C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR360ANE age=14_5_day description=ENCSR360ANE_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR360ANE
+	parent tissue_heart off
+	view ENCSR360ANE
+	visibility dense
+	type bigBed
+
+		track ENCSR360ANE_ENCFF872OSV
+		parent tissue_heart_view_ENCSR360ANE off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR360ANE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF872OSV/@@download/ENCFF872OSV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR360ANE C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR360ANE age=14_5_day description=ENCSR360ANE_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR360ANE 
+		view ENCSR360ANE
+
+		track ENCSR360ANE_ENCFF592QGF
+		parent tissue_heart_view_ENCSR360ANE off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR360ANE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF592QGF/@@download/ENCFF592QGF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF592QGF 5group H3K27ac ChIP-seq on embryonic 14.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR360ANE age=14_5_day description=ENCFF592QGF_5group_H3K27ac_ChIP_seq_on_embryonic_14_5_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR360ANE 
+		view ENCSR360ANE
+
+		track ENCSR360ANE_ENCFF768XPI
+		parent tissue_heart_view_ENCSR360ANE off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR360ANE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF768XPI/@@download/ENCFF768XPI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF768XPI 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 14.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR360ANE age=14_5_day description=ENCFF768XPI_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_14_5_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR360ANE 
+		view ENCSR360ANE
+
+		track ENCSR360ANE_ENCFF839AKW
+		parent tissue_heart_view_ENCSR360ANE off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR360ANE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF839AKW/@@download/ENCFF839AKW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF839AKW 9state-H3K27ac H3K27ac ChIP-seq on embryonic 14.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR360ANE age=14_5_day description=ENCFF839AKW_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_14_5_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR360ANE 
+		view ENCSR360ANE
+
+	track ENCSR491NUM_ENCFF278NWO
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF278NWO/@@download/ENCFF278NWO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR491NUM C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR491NUM age=0_day description=ENCSR491NUM_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR491NUM
+	parent tissue_heart off
+	view ENCSR491NUM
+	visibility dense
+	type bigBed
+
+		track ENCSR491NUM_ENCFF568MTS
+		parent tissue_heart_view_ENCSR491NUM off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR491NUM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF568MTS/@@download/ENCFF568MTS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR491NUM C57BL_6_heart_postnatal_0_days_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR491NUM age=0_day description=ENCSR491NUM_C57BL_6_heart_postnatal_0_days_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR491NUM 
+		view ENCSR491NUM
+
+		track ENCSR491NUM_ENCFF961MRB
+		parent tissue_heart_view_ENCSR491NUM off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR491NUM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF961MRB/@@download/ENCFF961MRB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF961MRB 9state-DNase Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR491NUM age=0_day description=ENCFF961MRB_9state_DNase_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR491NUM 
+		view ENCSR491NUM
+
+		track ENCSR491NUM_ENCFF062YRO
+		parent tissue_heart_view_ENCSR491NUM off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR491NUM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF062YRO/@@download/ENCFF062YRO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF062YRO 9state-CTCF Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR491NUM age=0_day description=ENCFF062YRO_9state_CTCF_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR491NUM 
+		view ENCSR491NUM
+
+		track ENCSR491NUM_ENCFF018SYF
+		parent tissue_heart_view_ENCSR491NUM off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR491NUM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF018SYF/@@download/ENCFF018SYF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF018SYF 5group Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR491NUM age=0_day description=ENCFF018SYF_5group_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR491NUM 
+		view ENCSR491NUM
+
+		track ENCSR491NUM_ENCFF547JIH
+		parent tissue_heart_view_ENCSR491NUM off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR491NUM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF547JIH/@@download/ENCFF547JIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF547JIH 9state-H3K27ac Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR491NUM age=0_day description=ENCFF547JIH_9state_H3K27ac_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR491NUM 
+		view ENCSR491NUM
+
+		track ENCSR491NUM_ENCFF901HPQ
+		parent tissue_heart_view_ENCSR491NUM off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR491NUM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF901HPQ/@@download/ENCFF901HPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF901HPQ 9state-H3K4me3 Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR491NUM age=0_day description=ENCFF901HPQ_9state_H3K4me3_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR491NUM 
+		view ENCSR491NUM
+
+	track ENCSR574VME_ENCFF021RTZ
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF021RTZ/@@download/ENCFF021RTZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR574VME C57BL_6_heart_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR574VME age=15_5_day description=ENCSR574VME_C57BL_6_heart_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR574VME
+	parent tissue_heart off
+	view ENCSR574VME
+	visibility dense
+	type bigBed
+
+		track ENCSR574VME_ENCFF289SRI
+		parent tissue_heart_view_ENCSR574VME off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR574VME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF289SRI/@@download/ENCFF289SRI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR574VME C57BL_6_heart_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR574VME age=15_5_day description=ENCSR574VME_C57BL_6_heart_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR574VME 
+		view ENCSR574VME
+
+		track ENCSR574VME_ENCFF837KEY
+		parent tissue_heart_view_ENCSR574VME off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR574VME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF837KEY/@@download/ENCFF837KEY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF837KEY 5group H3K27ac ChIP-seq on embryonic 15.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR574VME age=15_5_day description=ENCFF837KEY_5group_H3K27ac_ChIP_seq_on_embryonic_15_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR574VME 
+		view ENCSR574VME
+
+		track ENCSR574VME_ENCFF743XDD
+		parent tissue_heart_view_ENCSR574VME off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR574VME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF743XDD/@@download/ENCFF743XDD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF743XDD 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 15.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR574VME age=15_5_day description=ENCFF743XDD_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_15_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR574VME 
+		view ENCSR574VME
+
+		track ENCSR574VME_ENCFF402PXJ
+		parent tissue_heart_view_ENCSR574VME off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR574VME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF402PXJ/@@download/ENCFF402PXJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF402PXJ 9state-H3K27ac H3K27ac ChIP-seq on embryonic 15.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR574VME age=15_5_day description=ENCFF402PXJ_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_15_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR574VME 
+		view ENCSR574VME
+
+	track ENCSR582SPN_ENCFF222TEU
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF222TEU/@@download/ENCFF222TEU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR582SPN C57BL_6_heart_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR582SPN age=10_5_day description=ENCSR582SPN_C57BL_6_heart_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR582SPN
+	parent tissue_heart off
+	view ENCSR582SPN
+	visibility dense
+	type bigBed
+
+		track ENCSR582SPN_ENCFF814UMJ
+		parent tissue_heart_view_ENCSR582SPN off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR582SPN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF814UMJ/@@download/ENCFF814UMJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR582SPN C57BL_6_heart_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR582SPN age=10_5_day description=ENCSR582SPN_C57BL_6_heart_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR582SPN 
+		view ENCSR582SPN
+
+		track ENCSR582SPN_ENCFF423NHL
+		parent tissue_heart_view_ENCSR582SPN off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR582SPN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF423NHL/@@download/ENCFF423NHL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF423NHL 5group H3K27ac ChIP-seq on embryonic 10.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR582SPN age=10_5_day description=ENCFF423NHL_5group_H3K27ac_ChIP_seq_on_embryonic_10_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR582SPN 
+		view ENCSR582SPN
+
+		track ENCSR582SPN_ENCFF959GGZ
+		parent tissue_heart_view_ENCSR582SPN off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR582SPN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF959GGZ/@@download/ENCFF959GGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF959GGZ 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 10.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR582SPN age=10_5_day description=ENCFF959GGZ_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_10_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR582SPN 
+		view ENCSR582SPN
+
+		track ENCSR582SPN_ENCFF756UYC
+		parent tissue_heart_view_ENCSR582SPN off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR582SPN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF756UYC/@@download/ENCFF756UYC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF756UYC 9state-H3K27ac H3K27ac ChIP-seq on embryonic 10.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR582SPN age=10_5_day description=ENCFF756UYC_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_10_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR582SPN 
+		view ENCSR582SPN
+
+	track ENCSR675HDX_ENCFF804EYG
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF804EYG/@@download/ENCFF804EYG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR675HDX C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR675HDX age=0_day description=ENCSR675HDX_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR675HDX
+	parent tissue_heart off
+	view ENCSR675HDX
+	visibility dense
+	type bigBed
+
+		track ENCSR675HDX_ENCFF639DPG
+		parent tissue_heart_view_ENCSR675HDX off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR675HDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF639DPG/@@download/ENCFF639DPG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR675HDX C57BL_6_heart_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR675HDX age=0_day description=ENCSR675HDX_C57BL_6_heart_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR675HDX 
+		view ENCSR675HDX
+
+		track ENCSR675HDX_ENCFF961MRB
+		parent tissue_heart_view_ENCSR675HDX off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR675HDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF961MRB/@@download/ENCFF961MRB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF961MRB 9state-DNase H3K27ac ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR675HDX age=0_day description=ENCFF961MRB_9state_DNase_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR675HDX 
+		view ENCSR675HDX
+
+		track ENCSR675HDX_ENCFF062YRO
+		parent tissue_heart_view_ENCSR675HDX off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR675HDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF062YRO/@@download/ENCFF062YRO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF062YRO 9state-CTCF H3K27ac ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR675HDX age=0_day description=ENCFF062YRO_9state_CTCF_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR675HDX 
+		view ENCSR675HDX
+
+		track ENCSR675HDX_ENCFF018SYF
+		parent tissue_heart_view_ENCSR675HDX off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR675HDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF018SYF/@@download/ENCFF018SYF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF018SYF 5group H3K27ac ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR675HDX age=0_day description=ENCFF018SYF_5group_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR675HDX 
+		view ENCSR675HDX
+
+		track ENCSR675HDX_ENCFF547JIH
+		parent tissue_heart_view_ENCSR675HDX off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR675HDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF547JIH/@@download/ENCFF547JIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF547JIH 9state-H3K27ac H3K27ac ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR675HDX age=0_day description=ENCFF547JIH_9state_H3K27ac_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR675HDX 
+		view ENCSR675HDX
+
+		track ENCSR675HDX_ENCFF901HPQ
+		parent tissue_heart_view_ENCSR675HDX off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR675HDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF901HPQ/@@download/ENCFF901HPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF901HPQ 9state-H3K4me3 H3K27ac ChIP-seq on postnatal 0 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR675HDX age=0_day description=ENCFF901HPQ_9state_H3K4me3_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_heart donor=ENCDO469XMJ sex=unknown view=ENCSR675HDX 
+		view ENCSR675HDX
+
+	track ENCSR699XHY_ENCFF870SQY
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF870SQY/@@download/ENCFF870SQY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR699XHY C57BL_6_heart_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR699XHY age=13_5_day description=ENCSR699XHY_C57BL_6_heart_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR699XHY
+	parent tissue_heart off
+	view ENCSR699XHY
+	visibility dense
+	type bigBed
+
+		track ENCSR699XHY_ENCFF179FZV
+		parent tissue_heart_view_ENCSR699XHY off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR699XHY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF179FZV/@@download/ENCFF179FZV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR699XHY C57BL_6_heart_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR699XHY age=13_5_day description=ENCSR699XHY_C57BL_6_heart_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR699XHY 
+		view ENCSR699XHY
+
+		track ENCSR699XHY_ENCFF705QZU
+		parent tissue_heart_view_ENCSR699XHY off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR699XHY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF705QZU/@@download/ENCFF705QZU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF705QZU 5group H3K27ac ChIP-seq on embryonic 13.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR699XHY age=13_5_day description=ENCFF705QZU_5group_H3K27ac_ChIP_seq_on_embryonic_13_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR699XHY 
+		view ENCSR699XHY
+
+		track ENCSR699XHY_ENCFF242RRX
+		parent tissue_heart_view_ENCSR699XHY off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR699XHY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF242RRX/@@download/ENCFF242RRX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF242RRX 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 13.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR699XHY age=13_5_day description=ENCFF242RRX_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_13_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR699XHY 
+		view ENCSR699XHY
+
+		track ENCSR699XHY_ENCFF652ZPQ
+		parent tissue_heart_view_ENCSR699XHY off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR699XHY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF652ZPQ/@@download/ENCFF652ZPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF652ZPQ 9state-H3K27ac H3K27ac ChIP-seq on embryonic 13.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR699XHY age=13_5_day description=ENCFF652ZPQ_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_13_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR699XHY 
+		view ENCSR699XHY
+
+	track ENCSR846PJO_ENCFF801FFG
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF801FFG/@@download/ENCFF801FFG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR846PJO C57BL_6_heart_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR846PJO age=16_5_day description=ENCSR846PJO_C57BL_6_heart_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR846PJO
+	parent tissue_heart off
+	view ENCSR846PJO
+	visibility dense
+	type bigBed
+
+		track ENCSR846PJO_ENCFF243BCA
+		parent tissue_heart_view_ENCSR846PJO off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR846PJO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF243BCA/@@download/ENCFF243BCA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR846PJO C57BL_6_heart_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR846PJO age=16_5_day description=ENCSR846PJO_C57BL_6_heart_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR846PJO 
+		view ENCSR846PJO
+
+		track ENCSR846PJO_ENCFF846FZU
+		parent tissue_heart_view_ENCSR846PJO off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR846PJO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF846FZU/@@download/ENCFF846FZU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF846FZU 5group H3K27ac ChIP-seq on embryonic 16.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR846PJO age=16_5_day description=ENCFF846FZU_5group_H3K27ac_ChIP_seq_on_embryonic_16_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR846PJO 
+		view ENCSR846PJO
+
+		track ENCSR846PJO_ENCFF301YHH
+		parent tissue_heart_view_ENCSR846PJO off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR846PJO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF301YHH/@@download/ENCFF301YHH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF301YHH 9state-H3K27ac H3K27ac ChIP-seq on embryonic 16.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR846PJO age=16_5_day description=ENCFF301YHH_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_16_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR846PJO 
+		view ENCSR846PJO
+
+		track ENCSR846PJO_ENCFF047TPN
+		parent tissue_heart_view_ENCSR846PJO off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR846PJO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF047TPN/@@download/ENCFF047TPN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF047TPN 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 16.5 day mouse heart
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR846PJO age=16_5_day description=ENCFF047TPN_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_16_5_day_mouse_heart donor=ENCDO956IXV sex=unknown view=ENCSR846PJO 
+		view ENCSR846PJO
+
+	track ENCSR000BYQ_ENCFF190XQJ
+	parent tissue_heart off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF190XQJ/@@download/ENCFF190XQJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYQ C57BL_6_heart_adult_8_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYQ age=8_week description=ENCSR000BYQ_C57BL_6_heart_adult_8_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CGZ_ENCFF353RSQ
+	parent tissue_heart off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF353RSQ/@@download/ENCFF353RSQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CGZ C57BL_6_heart_male_adult_8_weeks_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CGZ age=8_week description=ENCSR000CGZ_C57BL_6_heart_male_adult_8_weeks_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CHF_ENCFF108QKW
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF108QKW/@@download/ENCFF108QKW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CHF C57BL_6_heart_embryo_14_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CHF age=14_5_day description=ENCSR000CHF_C57BL_6_heart_embryo_14_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR020DGG_ENCFF527FHQ
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF527FHQ/@@download/ENCFF527FHQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR020DGG C57BL_6_heart_embryo_16_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR020DGG age=16_5_day description=ENCSR020DGG_C57BL_6_heart_embryo_16_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR035DLJ_ENCFF498WYP
+	parent tissue_heart off
+	subGroups age=a0_day assay=RNA-seq donor=ENCDO469XMJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF498WYP/@@download/ENCFF498WYP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR035DLJ C57BL_6_heart_postnatal_0_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR035DLJ age=0_day description=ENCSR035DLJ_C57BL_6_heart_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR049UJU_ENCFF655GAO
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF655GAO/@@download/ENCFF655GAO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR049UJU C57BL_6_heart_embryo_10_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR049UJU age=10_5_day description=ENCSR049UJU_C57BL_6_heart_embryo_10_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR050EXR_ENCFF553JPI
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF553JPI/@@download/ENCFF553JPI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR050EXR C57BL_6_heart_embryo_16_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR050EXR age=16_5_day description=ENCSR050EXR_C57BL_6_heart_embryo_16_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR149GUT_ENCFF916VOT
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF916VOT/@@download/ENCFF916VOT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR149GUT C57BL_6_heart_embryo_13_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR149GUT age=13_5_day description=ENCSR149GUT_C57BL_6_heart_embryo_13_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR150CUE_ENCFF716KQU
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF716KQU/@@download/ENCFF716KQU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR150CUE C57BL_6_heart_embryo_12_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR150CUE age=12_5_day description=ENCSR150CUE_C57BL_6_heart_embryo_12_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR164BAZ_ENCFF338WNL
+	parent tissue_heart off
+	subGroups age=a10_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF338WNL/@@download/ENCFF338WNL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR164BAZ C57BL_6_heart_female_adult_10_weeks_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR164BAZ age=10_week description=ENCSR164BAZ_C57BL_6_heart_female_adult_10_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR246CIO_ENCFF378KTO
+	parent tissue_heart off
+	subGroups age=a0_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF378KTO/@@download/ENCFF378KTO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR246CIO C57BL_6_heart_postnatal_0_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR246CIO age=0_day description=ENCSR246CIO_C57BL_6_heart_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR258MDR_ENCFF789QKI
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF789QKI/@@download/ENCFF789QKI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR258MDR C57BL_6_heart_embryo_12_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR258MDR age=12_5_day description=ENCSR258MDR_C57BL_6_heart_embryo_12_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR265OMO_ENCFF642DUL
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF642DUL/@@download/ENCFF642DUL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR265OMO C57BL_6_heart_embryo_15_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR265OMO age=15_5_day description=ENCSR265OMO_C57BL_6_heart_embryo_15_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR284YKY_ENCFF709XPI
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF709XPI/@@download/ENCFF709XPI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR284YKY C57BL_6_heart_embryo_13_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR284YKY age=13_5_day description=ENCSR284YKY_C57BL_6_heart_embryo_13_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR329THX_ENCFF108LGX
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF108LGX/@@download/ENCFF108LGX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR329THX C57BL_6_heart_embryo_13_5_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR329THX age=13_5_day description=ENCSR329THX_C57BL_6_heart_embryo_13_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR397YEG_ENCFF667GAV
+	parent tissue_heart off
+	subGroups age=a0_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO469XMJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF667GAV/@@download/ENCFF667GAV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR397YEG C57BL_6_heart_postnatal_0_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR397YEG age=0_day description=ENCSR397YEG_C57BL_6_heart_postnatal_0_days_signal_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR481QIP_ENCFF738CTZ
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF738CTZ/@@download/ENCFF738CTZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR481QIP C57BL_6_heart_embryo_16_5_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR481QIP age=16_5_day description=ENCSR481QIP_C57BL_6_heart_embryo_16_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR526SEX_ENCFF081UNH
+	parent tissue_heart off
+	subGroups age=a0_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF081UNH/@@download/ENCFF081UNH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR526SEX C57BL_6_heart_postnatal_0_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR526SEX age=0_day description=ENCSR526SEX_C57BL_6_heart_postnatal_0_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR597UZW_ENCFF457OAN
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF457OAN/@@download/ENCFF457OAN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR597UZW C57BL_6_heart_embryo_15_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR597UZW age=15_5_day description=ENCSR597UZW_C57BL_6_heart_embryo_15_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR609EDL_ENCFF033HEZ
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF033HEZ/@@download/ENCFF033HEZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR609EDL C57BL_6_heart_embryo_14_5_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR609EDL age=14_5_day description=ENCSR609EDL_C57BL_6_heart_embryo_14_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR633CON_ENCFF525RBY
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF525RBY/@@download/ENCFF525RBY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR633CON C57BL_6_heart_embryo_11_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR633CON age=11_5_day description=ENCSR633CON_C57BL_6_heart_embryo_11_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR641SDF_ENCFF485VLN
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO469XMJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF485VLN/@@download/ENCFF485VLN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR641SDF C57BL_6_heart_embryo_14_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR641SDF age=14_5_day description=ENCSR641SDF_C57BL_6_heart_embryo_14_5_days_signal_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR691OPQ_ENCFF276KTU
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF276KTU/@@download/ENCFF276KTU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR691OPQ C57BL_6_heart_embryo_11_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR691OPQ age=11_5_day description=ENCSR691OPQ_C57BL_6_heart_embryo_11_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR727FHP_ENCFF808WIM
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF808WIM/@@download/ENCFF808WIM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR727FHP C57BL_6_heart_embryo_14_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR727FHP age=14_5_day description=ENCSR727FHP_C57BL_6_heart_embryo_14_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR782NFL_ENCFF736VYH
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF736VYH/@@download/ENCFF736VYH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR782NFL C57BL_6_heart_embryo_15_5_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR782NFL age=15_5_day description=ENCSR782NFL_C57BL_6_heart_embryo_15_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR829OXY_ENCFF064ECO
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF064ECO/@@download/ENCFF064ECO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR829OXY C57BL_6_heart_embryo_11_5_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR829OXY age=11_5_day description=ENCSR829OXY_C57BL_6_heart_embryo_11_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR832SAG_ENCFF473VPZ
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF473VPZ/@@download/ENCFF473VPZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR832SAG C57BL_6_heart_embryo_12_5_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR832SAG age=12_5_day description=ENCSR832SAG_C57BL_6_heart_embryo_12_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR834DKI_ENCFF141VSF
+	parent tissue_heart off
+	subGroups age=a0_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF141VSF/@@download/ENCFF141VSF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR834DKI C57BL_6_heart_postnatal_0_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR834DKI age=0_day description=ENCSR834DKI_C57BL_6_heart_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR835OJU_ENCFF578IQQ
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF578IQQ/@@download/ENCFF578IQQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR835OJU C57BL_6_heart_embryo_10_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR835OJU age=10_5_day description=ENCSR835OJU_C57BL_6_heart_embryo_10_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR912ATB_ENCFF283JRT
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF283JRT/@@download/ENCFF283JRT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR912ATB C57BL_6_heart_embryo_10_5_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR912ATB age=10_5_day description=ENCSR912ATB_C57BL_6_heart_embryo_10_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CCA_ENCFF852EDW
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF852EDW/@@download/ENCFF852EDW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR000CCA C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CCA age=8_week description=ENCSR000CCA_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CCA
+	parent tissue_heart off
+	view ENCSR000CCA
+	visibility dense
+	type bigBed
+
+		track ENCSR000CCA_ENCFF675TZC
+		parent tissue_heart_view_ENCSR000CCA off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=EP300 view=ENCSR000CCA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF675TZC/@@download/ENCFF675TZC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR000CCA C57BL_6_heart_male_adult_8_weeks_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CCA age=8_week description=ENCSR000CCA_C57BL_6_heart_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CCA 
+		view ENCSR000CCA
+
+	track ENCSR777VNA_ENCFF338GTZ
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF338GTZ/@@download/ENCFF338GTZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR777VNA C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR777VNA age=0_day description=ENCSR777VNA_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR777VNA
+	parent tissue_heart off
+	view ENCSR777VNA
+	visibility dense
+	type bigBed
+
+		track ENCSR777VNA_ENCFF645JCX
+		parent tissue_heart_view_ENCSR777VNA off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=EP300 view=ENCSR777VNA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF645JCX/@@download/ENCFF645JCX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR777VNA C57BL_6_heart_postnatal_0_days_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR777VNA age=0_day description=ENCSR777VNA_C57BL_6_heart_postnatal_0_days_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR777VNA 
+		view ENCSR777VNA
+
+	track ENCSR000CEJ_ENCFF344SFV
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF344SFV/@@download/ENCFF344SFV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000CEJ C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CEJ age=8_week description=ENCSR000CEJ_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CEJ
+	parent tissue_heart off
+	view ENCSR000CEJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000CEJ_ENCFF963KMF
+		parent tissue_heart_view_ENCSR000CEJ off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR000CEJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF963KMF/@@download/ENCFF963KMF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000CEJ C57BL_6_heart_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000CEJ age=8_week description=ENCSR000CEJ_C57BL_6_heart_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CEJ 
+		view ENCSR000CEJ
+
+	track ENCSR122HLY_ENCFF379MVJ
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF379MVJ/@@download/ENCFF379MVJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR122HLY C57BL_6_heart_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR122HLY age=12_5_day description=ENCSR122HLY_C57BL_6_heart_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR122HLY
+	parent tissue_heart off
+	view ENCSR122HLY
+	visibility dense
+	type bigBed
+
+		track ENCSR122HLY_ENCFF789KPT
+		parent tissue_heart_view_ENCSR122HLY off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR122HLY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF789KPT/@@download/ENCFF789KPT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR122HLY C57BL_6_heart_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR122HLY age=12_5_day description=ENCSR122HLY_C57BL_6_heart_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR122HLY 
+		view ENCSR122HLY
+
+	track ENCSR266JQW_ENCFF046VWN
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF046VWN/@@download/ENCFF046VWN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR266JQW C57BL_6_heart_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR266JQW age=10_5_day description=ENCSR266JQW_C57BL_6_heart_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR266JQW
+	parent tissue_heart off
+	view ENCSR266JQW
+	visibility dense
+	type bigBed
+
+		track ENCSR266JQW_ENCFF248BNK
+		parent tissue_heart_view_ENCSR266JQW off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR266JQW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF248BNK/@@download/ENCFF248BNK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR266JQW C57BL_6_heart_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR266JQW age=10_5_day description=ENCSR266JQW_C57BL_6_heart_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR266JQW 
+		view ENCSR266JQW
+
+	track ENCSR357OED_ENCFF129FZH
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF129FZH/@@download/ENCFF129FZH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR357OED C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR357OED age=14_5_day description=ENCSR357OED_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR357OED
+	parent tissue_heart off
+	view ENCSR357OED
+	visibility dense
+	type bigBed
+
+		track ENCSR357OED_ENCFF794BNQ
+		parent tissue_heart_view_ENCSR357OED off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27me3 view=ENCSR357OED 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF794BNQ/@@download/ENCFF794BNQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR357OED C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR357OED age=14_5_day description=ENCSR357OED_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR357OED 
+		view ENCSR357OED
+
+	track ENCSR380BBL_ENCFF972QDT
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF972QDT/@@download/ENCFF972QDT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR380BBL C57BL_6_heart_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR380BBL age=13_5_day description=ENCSR380BBL_C57BL_6_heart_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR380BBL
+	parent tissue_heart off
+	view ENCSR380BBL
+	visibility dense
+	type bigBed
+
+		track ENCSR380BBL_ENCFF491DGS
+		parent tissue_heart_view_ENCSR380BBL off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR380BBL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF491DGS/@@download/ENCFF491DGS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR380BBL C57BL_6_heart_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR380BBL age=13_5_day description=ENCSR380BBL_C57BL_6_heart_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR380BBL 
+		view ENCSR380BBL
+
+	track ENCSR437NPG_ENCFF044FTG
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF044FTG/@@download/ENCFF044FTG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR437NPG C57BL_6_heart_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR437NPG age=15_5_day description=ENCSR437NPG_C57BL_6_heart_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR437NPG
+	parent tissue_heart off
+	view ENCSR437NPG
+	visibility dense
+	type bigBed
+
+		track ENCSR437NPG_ENCFF251TMX
+		parent tissue_heart_view_ENCSR437NPG off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR437NPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF251TMX/@@download/ENCFF251TMX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR437NPG C57BL_6_heart_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR437NPG age=15_5_day description=ENCSR437NPG_C57BL_6_heart_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR437NPG 
+		view ENCSR437NPG
+
+	track ENCSR781ORQ_ENCFF280UTR
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF280UTR/@@download/ENCFF280UTR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR781ORQ C57BL_6_heart_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR781ORQ age=16_5_day description=ENCSR781ORQ_C57BL_6_heart_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR781ORQ
+	parent tissue_heart off
+	view ENCSR781ORQ
+	visibility dense
+	type bigBed
+
+		track ENCSR781ORQ_ENCFF863JHH
+		parent tissue_heart_view_ENCSR781ORQ off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR781ORQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF863JHH/@@download/ENCFF863JHH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR781ORQ C57BL_6_heart_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR781ORQ age=16_5_day description=ENCSR781ORQ_C57BL_6_heart_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR781ORQ 
+		view ENCSR781ORQ
+
+	track ENCSR790LOX_ENCFF845OXU
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF845OXU/@@download/ENCFF845OXU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR790LOX C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR790LOX age=0_day description=ENCSR790LOX_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR790LOX
+	parent tissue_heart off
+	view ENCSR790LOX
+	visibility dense
+	type bigBed
+
+		track ENCSR790LOX_ENCFF697VMW
+		parent tissue_heart_view_ENCSR790LOX off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27me3 view=ENCSR790LOX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF697VMW/@@download/ENCFF697VMW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR790LOX C57BL_6_heart_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR790LOX age=0_day description=ENCSR790LOX_C57BL_6_heart_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR790LOX 
+		view ENCSR790LOX
+
+	track ENCSR963OLG_ENCFF551QTH
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF551QTH/@@download/ENCFF551QTH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR963OLG C57BL_6_heart_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR963OLG age=11_5_day description=ENCSR963OLG_C57BL_6_heart_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR963OLG
+	parent tissue_heart off
+	view ENCSR963OLG
+	visibility dense
+	type bigBed
+
+		track ENCSR963OLG_ENCFF596FPG
+		parent tissue_heart_view_ENCSR963OLG off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR963OLG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF596FPG/@@download/ENCFF596FPG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR963OLG C57BL_6_heart_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR963OLG age=11_5_day description=ENCSR963OLG_C57BL_6_heart_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR963OLG 
+		view ENCSR963OLG
+
+	track ENCSR000CEK_ENCFF865YFU
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF865YFU/@@download/ENCFF865YFU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000CEK C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CEK age=8_week description=ENCSR000CEK_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CEK
+	parent tissue_heart off
+	view ENCSR000CEK
+	visibility dense
+	type bigBed
+
+		track ENCSR000CEK_ENCFF369IAP
+		parent tissue_heart_view_ENCSR000CEK off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR000CEK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF369IAP/@@download/ENCFF369IAP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000CEK C57BL_6_heart_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000CEK age=8_week description=ENCSR000CEK_C57BL_6_heart_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CEK 
+		view ENCSR000CEK
+
+	track ENCSR235JCY_ENCFF690EIB
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF690EIB/@@download/ENCFF690EIB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR235JCY C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR235JCY age=0_day description=ENCSR235JCY_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR235JCY
+	parent tissue_heart off
+	view ENCSR235JCY
+	visibility dense
+	type bigBed
+
+		track ENCSR235JCY_ENCFF215HIC
+		parent tissue_heart_view_ENCSR235JCY off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K36me3 view=ENCSR235JCY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF215HIC/@@download/ENCFF215HIC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR235JCY C57BL_6_heart_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR235JCY age=0_day description=ENCSR235JCY_C57BL_6_heart_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR235JCY 
+		view ENCSR235JCY
+
+	track ENCSR239TSZ_ENCFF046KVG
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF046KVG/@@download/ENCFF046KVG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR239TSZ C57BL_6_heart_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR239TSZ age=13_5_day description=ENCSR239TSZ_C57BL_6_heart_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR239TSZ
+	parent tissue_heart off
+	view ENCSR239TSZ
+	visibility dense
+	type bigBed
+
+		track ENCSR239TSZ_ENCFF111GIJ
+		parent tissue_heart_view_ENCSR239TSZ off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR239TSZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF111GIJ/@@download/ENCFF111GIJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR239TSZ C57BL_6_heart_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR239TSZ age=13_5_day description=ENCSR239TSZ_C57BL_6_heart_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR239TSZ 
+		view ENCSR239TSZ
+
+	track ENCSR328WMV_ENCFF474PLN
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF474PLN/@@download/ENCFF474PLN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR328WMV C57BL_6_heart_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR328WMV age=10_5_day description=ENCSR328WMV_C57BL_6_heart_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR328WMV
+	parent tissue_heart off
+	view ENCSR328WMV
+	visibility dense
+	type bigBed
+
+		track ENCSR328WMV_ENCFF588WKA
+		parent tissue_heart_view_ENCSR328WMV off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR328WMV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF588WKA/@@download/ENCFF588WKA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR328WMV C57BL_6_heart_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR328WMV age=10_5_day description=ENCSR328WMV_C57BL_6_heart_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR328WMV 
+		view ENCSR328WMV
+
+	track ENCSR467UGM_ENCFF686TFW
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF686TFW/@@download/ENCFF686TFW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR467UGM C57BL_6_heart_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR467UGM age=16_5_day description=ENCSR467UGM_C57BL_6_heart_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR467UGM
+	parent tissue_heart off
+	view ENCSR467UGM
+	visibility dense
+	type bigBed
+
+		track ENCSR467UGM_ENCFF310JEV
+		parent tissue_heart_view_ENCSR467UGM off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR467UGM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF310JEV/@@download/ENCFF310JEV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR467UGM C57BL_6_heart_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR467UGM age=16_5_day description=ENCSR467UGM_C57BL_6_heart_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR467UGM 
+		view ENCSR467UGM
+
+	track ENCSR560CIG_ENCFF309BMY
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF309BMY/@@download/ENCFF309BMY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR560CIG C57BL_6_heart_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR560CIG age=15_5_day description=ENCSR560CIG_C57BL_6_heart_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR560CIG
+	parent tissue_heart off
+	view ENCSR560CIG
+	visibility dense
+	type bigBed
+
+		track ENCSR560CIG_ENCFF207RNF
+		parent tissue_heart_view_ENCSR560CIG off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR560CIG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF207RNF/@@download/ENCFF207RNF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR560CIG C57BL_6_heart_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR560CIG age=15_5_day description=ENCSR560CIG_C57BL_6_heart_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR560CIG 
+		view ENCSR560CIG
+
+	track ENCSR631KAJ_ENCFF477XJO
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF477XJO/@@download/ENCFF477XJO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR631KAJ C57BL_6_heart_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR631KAJ age=11_5_day description=ENCSR631KAJ_C57BL_6_heart_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR631KAJ
+	parent tissue_heart off
+	view ENCSR631KAJ
+	visibility dense
+	type bigBed
+
+		track ENCSR631KAJ_ENCFF654JHH
+		parent tissue_heart_view_ENCSR631KAJ off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR631KAJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF654JHH/@@download/ENCFF654JHH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR631KAJ C57BL_6_heart_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR631KAJ age=11_5_day description=ENCSR631KAJ_C57BL_6_heart_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR631KAJ 
+		view ENCSR631KAJ
+
+	track ENCSR641EME_ENCFF152GZF
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF152GZF/@@download/ENCFF152GZF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR641EME C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR641EME age=14_5_day description=ENCSR641EME_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR641EME
+	parent tissue_heart off
+	view ENCSR641EME
+	visibility dense
+	type bigBed
+
+		track ENCSR641EME_ENCFF111DBY
+		parent tissue_heart_view_ENCSR641EME off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K36me3 view=ENCSR641EME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF111DBY/@@download/ENCFF111DBY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR641EME C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR641EME age=14_5_day description=ENCSR641EME_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR641EME 
+		view ENCSR641EME
+
+	track ENCSR840QFC_ENCFF906TTD
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF906TTD/@@download/ENCFF906TTD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR840QFC C57BL_6_heart_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR840QFC age=12_5_day description=ENCSR840QFC_C57BL_6_heart_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR840QFC
+	parent tissue_heart off
+	view ENCSR840QFC
+	visibility dense
+	type bigBed
+
+		track ENCSR840QFC_ENCFF456KJD
+		parent tissue_heart_view_ENCSR840QFC off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR840QFC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF456KJD/@@download/ENCFF456KJD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR840QFC C57BL_6_heart_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR840QFC age=12_5_day description=ENCSR840QFC_C57BL_6_heart_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR840QFC 
+		view ENCSR840QFC
+
+	track ENCSR000CAE_ENCFF021EDM
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF021EDM/@@download/ENCFF021EDM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000CAE C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CAE age=8_week description=ENCSR000CAE_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CAE
+	parent tissue_heart off
+	view ENCSR000CAE
+	visibility dense
+	type bigBed
+
+		track ENCSR000CAE_ENCFF642LDZ
+		parent tissue_heart_view_ENCSR000CAE off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR000CAE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF642LDZ/@@download/ENCFF642LDZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000CAE C57BL_6_heart_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000CAE age=8_week description=ENCSR000CAE_C57BL_6_heart_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CAE 
+		view ENCSR000CAE
+
+	track ENCSR000CDL_ENCFF415BLI
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF415BLI/@@download/ENCFF415BLI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000CDL C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDL age=14_5_day description=ENCSR000CDL_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CDL
+	parent tissue_heart off
+	view ENCSR000CDL
+	visibility dense
+	type bigBed
+
+		track ENCSR000CDL_ENCFF620KQQ
+		parent tissue_heart_view_ENCSR000CDL off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR000CDL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF620KQQ/@@download/ENCFF620KQQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000CDL C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000CDL age=14_5_day description=ENCSR000CDL_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CDL 
+		view ENCSR000CDL
+
+	track ENCSR080GQM_ENCFF730VFB
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF730VFB/@@download/ENCFF730VFB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR080GQM C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR080GQM age=14_5_day description=ENCSR080GQM_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR080GQM
+	parent tissue_heart off
+	view ENCSR080GQM
+	visibility dense
+	type bigBed
+
+		track ENCSR080GQM_ENCFF805HMA
+		parent tissue_heart_view_ENCSR080GQM off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me1 view=ENCSR080GQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF805HMA/@@download/ENCFF805HMA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR080GQM C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR080GQM age=14_5_day description=ENCSR080GQM_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR080GQM 
+		view ENCSR080GQM
+
+	track ENCSR251LFV_ENCFF746ONG
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF746ONG/@@download/ENCFF746ONG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR251LFV C57BL_6_heart_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR251LFV age=16_5_day description=ENCSR251LFV_C57BL_6_heart_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR251LFV
+	parent tissue_heart off
+	view ENCSR251LFV
+	visibility dense
+	type bigBed
+
+		track ENCSR251LFV_ENCFF593NNL
+		parent tissue_heart_view_ENCSR251LFV off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR251LFV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF593NNL/@@download/ENCFF593NNL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR251LFV C57BL_6_heart_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR251LFV age=16_5_day description=ENCSR251LFV_C57BL_6_heart_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR251LFV 
+		view ENCSR251LFV
+
+	track ENCSR339LMJ_ENCFF816ESX
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF816ESX/@@download/ENCFF816ESX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR339LMJ C57BL_6_heart_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR339LMJ age=15_5_day description=ENCSR339LMJ_C57BL_6_heart_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR339LMJ
+	parent tissue_heart off
+	view ENCSR339LMJ
+	visibility dense
+	type bigBed
+
+		track ENCSR339LMJ_ENCFF410JXD
+		parent tissue_heart_view_ENCSR339LMJ off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR339LMJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF410JXD/@@download/ENCFF410JXD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR339LMJ C57BL_6_heart_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR339LMJ age=15_5_day description=ENCSR339LMJ_C57BL_6_heart_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR339LMJ 
+		view ENCSR339LMJ
+
+	track ENCSR442RYY_ENCFF131MXX
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF131MXX/@@download/ENCFF131MXX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR442RYY C57BL_6_heart_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR442RYY age=12_5_day description=ENCSR442RYY_C57BL_6_heart_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR442RYY
+	parent tissue_heart off
+	view ENCSR442RYY
+	visibility dense
+	type bigBed
+
+		track ENCSR442RYY_ENCFF668ESS
+		parent tissue_heart_view_ENCSR442RYY off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR442RYY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF668ESS/@@download/ENCFF668ESS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR442RYY C57BL_6_heart_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR442RYY age=12_5_day description=ENCSR442RYY_C57BL_6_heart_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR442RYY 
+		view ENCSR442RYY
+
+	track ENCSR488OCA_ENCFF577SJR
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF577SJR/@@download/ENCFF577SJR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR488OCA C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR488OCA age=0_day description=ENCSR488OCA_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR488OCA
+	parent tissue_heart off
+	view ENCSR488OCA
+	visibility dense
+	type bigBed
+
+		track ENCSR488OCA_ENCFF952QAZ
+		parent tissue_heart_view_ENCSR488OCA off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me1 view=ENCSR488OCA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF952QAZ/@@download/ENCFF952QAZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR488OCA C57BL_6_heart_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR488OCA age=0_day description=ENCSR488OCA_C57BL_6_heart_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR488OCA 
+		view ENCSR488OCA
+
+	track ENCSR663VWL_ENCFF673JMS
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF673JMS/@@download/ENCFF673JMS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR663VWL C57BL_6_heart_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR663VWL age=13_5_day description=ENCSR663VWL_C57BL_6_heart_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR663VWL
+	parent tissue_heart off
+	view ENCSR663VWL
+	visibility dense
+	type bigBed
+
+		track ENCSR663VWL_ENCFF209ZUW
+		parent tissue_heart_view_ENCSR663VWL off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR663VWL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF209ZUW/@@download/ENCFF209ZUW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR663VWL C57BL_6_heart_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR663VWL age=13_5_day description=ENCSR663VWL_C57BL_6_heart_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR663VWL 
+		view ENCSR663VWL
+
+	track ENCSR782DGO_ENCFF513MGM
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF513MGM/@@download/ENCFF513MGM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR782DGO C57BL_6_heart_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR782DGO age=10_5_day description=ENCSR782DGO_C57BL_6_heart_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR782DGO
+	parent tissue_heart off
+	view ENCSR782DGO
+	visibility dense
+	type bigBed
+
+		track ENCSR782DGO_ENCFF778ZYF
+		parent tissue_heart_view_ENCSR782DGO off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR782DGO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF778ZYF/@@download/ENCFF778ZYF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR782DGO C57BL_6_heart_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR782DGO age=10_5_day description=ENCSR782DGO_C57BL_6_heart_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR782DGO 
+		view ENCSR782DGO
+
+	track ENCSR886IHN_ENCFF917SXQ
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF917SXQ/@@download/ENCFF917SXQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR886IHN C57BL_6_heart_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR886IHN age=11_5_day description=ENCSR886IHN_C57BL_6_heart_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR886IHN
+	parent tissue_heart off
+	view ENCSR886IHN
+	visibility dense
+	type bigBed
+
+		track ENCSR886IHN_ENCFF497OUN
+		parent tissue_heart_view_ENCSR886IHN off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR886IHN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF497OUN/@@download/ENCFF497OUN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR886IHN C57BL_6_heart_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR886IHN age=11_5_day description=ENCSR886IHN_C57BL_6_heart_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR886IHN 
+		view ENCSR886IHN
+
+	track ENCSR373OCX_ENCFF099OBO
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF099OBO/@@download/ENCFF099OBO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR373OCX C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR373OCX age=0_day description=ENCSR373OCX_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR373OCX
+	parent tissue_heart off
+	view ENCSR373OCX
+	visibility dense
+	type bigBed
+
+		track ENCSR373OCX_ENCFF593OWP
+		parent tissue_heart_view_ENCSR373OCX off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me2 view=ENCSR373OCX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF593OWP/@@download/ENCFF593OWP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR373OCX C57BL_6_heart_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR373OCX age=0_day description=ENCSR373OCX_C57BL_6_heart_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR373OCX 
+		view ENCSR373OCX
+
+	track ENCSR377RKW_ENCFF062SWO
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF062SWO/@@download/ENCFF062SWO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR377RKW C57BL_6_heart_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR377RKW age=15_5_day description=ENCSR377RKW_C57BL_6_heart_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR377RKW
+	parent tissue_heart off
+	view ENCSR377RKW
+	visibility dense
+	type bigBed
+
+		track ENCSR377RKW_ENCFF409HRM
+		parent tissue_heart_view_ENCSR377RKW off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR377RKW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF409HRM/@@download/ENCFF409HRM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR377RKW C57BL_6_heart_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR377RKW age=15_5_day description=ENCSR377RKW_C57BL_6_heart_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR377RKW 
+		view ENCSR377RKW
+
+	track ENCSR406KDB_ENCFF671LRY
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF671LRY/@@download/ENCFF671LRY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR406KDB C57BL_6_heart_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR406KDB age=12_5_day description=ENCSR406KDB_C57BL_6_heart_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR406KDB
+	parent tissue_heart off
+	view ENCSR406KDB
+	visibility dense
+	type bigBed
+
+		track ENCSR406KDB_ENCFF564OTB
+		parent tissue_heart_view_ENCSR406KDB off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR406KDB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF564OTB/@@download/ENCFF564OTB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR406KDB C57BL_6_heart_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR406KDB age=12_5_day description=ENCSR406KDB_C57BL_6_heart_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR406KDB 
+		view ENCSR406KDB
+
+	track ENCSR534HMF_ENCFF159AEV
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF159AEV/@@download/ENCFF159AEV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR534HMF C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR534HMF age=14_5_day description=ENCSR534HMF_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR534HMF
+	parent tissue_heart off
+	view ENCSR534HMF
+	visibility dense
+	type bigBed
+
+		track ENCSR534HMF_ENCFF280OXN
+		parent tissue_heart_view_ENCSR534HMF off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me2 view=ENCSR534HMF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF280OXN/@@download/ENCFF280OXN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR534HMF C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR534HMF age=14_5_day description=ENCSR534HMF_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR534HMF 
+		view ENCSR534HMF
+
+	track ENCSR650UAC_ENCFF019ABU
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF019ABU/@@download/ENCFF019ABU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR650UAC C57BL_6_heart_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR650UAC age=13_5_day description=ENCSR650UAC_C57BL_6_heart_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR650UAC
+	parent tissue_heart off
+	view ENCSR650UAC
+	visibility dense
+	type bigBed
+
+		track ENCSR650UAC_ENCFF528EDD
+		parent tissue_heart_view_ENCSR650UAC off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR650UAC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF528EDD/@@download/ENCFF528EDD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR650UAC C57BL_6_heart_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR650UAC age=13_5_day description=ENCSR650UAC_C57BL_6_heart_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR650UAC 
+		view ENCSR650UAC
+
+	track ENCSR747VPY_ENCFF652SDD
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF652SDD/@@download/ENCFF652SDD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR747VPY C57BL_6_heart_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR747VPY age=16_5_day description=ENCSR747VPY_C57BL_6_heart_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR747VPY
+	parent tissue_heart off
+	view ENCSR747VPY
+	visibility dense
+	type bigBed
+
+		track ENCSR747VPY_ENCFF474TQR
+		parent tissue_heart_view_ENCSR747VPY off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR747VPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF474TQR/@@download/ENCFF474TQR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR747VPY C57BL_6_heart_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR747VPY age=16_5_day description=ENCSR747VPY_C57BL_6_heart_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR747VPY 
+		view ENCSR747VPY
+
+	track ENCSR748BQH_ENCFF311RNJ
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF311RNJ/@@download/ENCFF311RNJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR748BQH C57BL_6_heart_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR748BQH age=11_5_day description=ENCSR748BQH_C57BL_6_heart_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR748BQH
+	parent tissue_heart off
+	view ENCSR748BQH
+	visibility dense
+	type bigBed
+
+		track ENCSR748BQH_ENCFF530CTQ
+		parent tissue_heart_view_ENCSR748BQH off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR748BQH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF530CTQ/@@download/ENCFF530CTQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR748BQH C57BL_6_heart_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR748BQH age=11_5_day description=ENCSR748BQH_C57BL_6_heart_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR748BQH 
+		view ENCSR748BQH
+
+	track ENCSR000CEL_ENCFF042INO
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF042INO/@@download/ENCFF042INO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR000CEL C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CEL age=8_week description=ENCSR000CEL_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CEL
+	parent tissue_heart off
+	view ENCSR000CEL
+	visibility dense
+	type bigBed
+
+		track ENCSR000CEL_ENCFF751GLE
+		parent tissue_heart_view_ENCSR000CEL off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K79me2 view=ENCSR000CEL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF751GLE/@@download/ENCFF751GLE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR000CEL C57BL_6_heart_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CEL age=8_week description=ENCSR000CEL_C57BL_6_heart_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CEL 
+		view ENCSR000CEL
+
+	track ENCSR000CEM_ENCFF421ODL
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF421ODL/@@download/ENCFF421ODL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR000CEM C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CEM age=8_week description=ENCSR000CEM_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CEM
+	parent tissue_heart off
+	view ENCSR000CEM
+	visibility dense
+	type bigBed
+
+		track ENCSR000CEM_ENCFF586DXK
+		parent tissue_heart_view_ENCSR000CEM off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR000CEM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF586DXK/@@download/ENCFF586DXK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR000CEM C57BL_6_heart_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR000CEM age=8_week description=ENCSR000CEM_C57BL_6_heart_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CEM 
+		view ENCSR000CEM
+
+	track ENCSR069XHI_ENCFF045OSV
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF045OSV/@@download/ENCFF045OSV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR069XHI C57BL_6_heart_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR069XHI age=13_5_day description=ENCSR069XHI_C57BL_6_heart_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR069XHI
+	parent tissue_heart off
+	view ENCSR069XHI
+	visibility dense
+	type bigBed
+
+		track ENCSR069XHI_ENCFF953LVF
+		parent tissue_heart_view_ENCSR069XHI off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR069XHI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF953LVF/@@download/ENCFF953LVF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR069XHI C57BL_6_heart_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR069XHI age=13_5_day description=ENCSR069XHI_C57BL_6_heart_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR069XHI 
+		view ENCSR069XHI
+
+	track ENCSR345RKE_ENCFF770FZI
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF770FZI/@@download/ENCFF770FZI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR345RKE C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR345RKE age=14_5_day description=ENCSR345RKE_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR345RKE
+	parent tissue_heart off
+	view ENCSR345RKE
+	visibility dense
+	type bigBed
+
+		track ENCSR345RKE_ENCFF776GNU
+		parent tissue_heart_view_ENCSR345RKE off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9ac view=ENCSR345RKE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF776GNU/@@download/ENCFF776GNU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR345RKE C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR345RKE age=14_5_day description=ENCSR345RKE_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR345RKE 
+		view ENCSR345RKE
+
+	track ENCSR373LNE_ENCFF440SVM
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF440SVM/@@download/ENCFF440SVM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR373LNE C57BL_6_heart_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR373LNE age=16_5_day description=ENCSR373LNE_C57BL_6_heart_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR373LNE
+	parent tissue_heart off
+	view ENCSR373LNE
+	visibility dense
+	type bigBed
+
+		track ENCSR373LNE_ENCFF939LBG
+		parent tissue_heart_view_ENCSR373LNE off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR373LNE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF939LBG/@@download/ENCFF939LBG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR373LNE C57BL_6_heart_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR373LNE age=16_5_day description=ENCSR373LNE_C57BL_6_heart_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR373LNE 
+		view ENCSR373LNE
+
+	track ENCSR519DNE_ENCFF042PHG
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF042PHG/@@download/ENCFF042PHG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR519DNE C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR519DNE age=0_day description=ENCSR519DNE_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR519DNE
+	parent tissue_heart off
+	view ENCSR519DNE
+	visibility dense
+	type bigBed
+
+		track ENCSR519DNE_ENCFF692YJD
+		parent tissue_heart_view_ENCSR519DNE off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9ac view=ENCSR519DNE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF692YJD/@@download/ENCFF692YJD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR519DNE C57BL_6_heart_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR519DNE age=0_day description=ENCSR519DNE_C57BL_6_heart_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR519DNE 
+		view ENCSR519DNE
+
+	track ENCSR751HEG_ENCFF702AEO
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF702AEO/@@download/ENCFF702AEO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR751HEG C57BL_6_heart_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR751HEG age=11_5_day description=ENCSR751HEG_C57BL_6_heart_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR751HEG
+	parent tissue_heart off
+	view ENCSR751HEG
+	visibility dense
+	type bigBed
+
+		track ENCSR751HEG_ENCFF578RST
+		parent tissue_heart_view_ENCSR751HEG off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR751HEG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF578RST/@@download/ENCFF578RST.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR751HEG C57BL_6_heart_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR751HEG age=11_5_day description=ENCSR751HEG_C57BL_6_heart_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR751HEG 
+		view ENCSR751HEG
+
+	track ENCSR956ZCG_ENCFF802SIF
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF802SIF/@@download/ENCFF802SIF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR956ZCG C57BL_6_heart_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR956ZCG age=15_5_day description=ENCSR956ZCG_C57BL_6_heart_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR956ZCG
+	parent tissue_heart off
+	view ENCSR956ZCG
+	visibility dense
+	type bigBed
+
+		track ENCSR956ZCG_ENCFF537HIO
+		parent tissue_heart_view_ENCSR956ZCG off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR956ZCG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF537HIO/@@download/ENCFF537HIO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR956ZCG C57BL_6_heart_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR956ZCG age=15_5_day description=ENCSR956ZCG_C57BL_6_heart_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR956ZCG 
+		view ENCSR956ZCG
+
+	track ENCSR968NPX_ENCFF566GYY
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF566GYY/@@download/ENCFF566GYY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR968NPX C57BL_6_heart_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR968NPX age=12_5_day description=ENCSR968NPX_C57BL_6_heart_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR968NPX
+	parent tissue_heart off
+	view ENCSR968NPX
+	visibility dense
+	type bigBed
+
+		track ENCSR968NPX_ENCFF774XTR
+		parent tissue_heart_view_ENCSR968NPX off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR968NPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF774XTR/@@download/ENCFF774XTR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR968NPX C57BL_6_heart_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR968NPX age=12_5_day description=ENCSR968NPX_C57BL_6_heart_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR968NPX 
+		view ENCSR968NPX
+
+	track ENCSR007XTC_ENCFF409BJZ
+	parent tissue_heart off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF409BJZ/@@download/ENCFF409BJZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR007XTC C57BL_6_heart_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR007XTC age=14_5_day description=ENCSR007XTC_C57BL_6_heart_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR007XTC
+	parent tissue_heart off
+	view ENCSR007XTC
+	visibility dense
+	type bigBed
+
+		track ENCSR007XTC_ENCFF397NBK
+		parent tissue_heart_view_ENCSR007XTC off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9me3 view=ENCSR007XTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF397NBK/@@download/ENCFF397NBK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR007XTC C57BL_6_heart_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR007XTC age=14_5_day description=ENCSR007XTC_C57BL_6_heart_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR007XTC 
+		view ENCSR007XTC
+
+	track ENCSR071SQK_ENCFF921YZN
+	parent tissue_heart off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF921YZN/@@download/ENCFF921YZN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR071SQK C57BL_6_heart_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR071SQK age=15_5_day description=ENCSR071SQK_C57BL_6_heart_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR071SQK
+	parent tissue_heart off
+	view ENCSR071SQK
+	visibility dense
+	type bigBed
+
+		track ENCSR071SQK_ENCFF620VYT
+		parent tissue_heart_view_ENCSR071SQK off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR071SQK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF620VYT/@@download/ENCFF620VYT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR071SQK C57BL_6_heart_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR071SQK age=15_5_day description=ENCSR071SQK_C57BL_6_heart_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR071SQK 
+		view ENCSR071SQK
+
+	track ENCSR098USP_ENCFF637INN
+	parent tissue_heart off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF637INN/@@download/ENCFF637INN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR098USP C57BL_6_heart_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR098USP age=13_5_day description=ENCSR098USP_C57BL_6_heart_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR098USP
+	parent tissue_heart off
+	view ENCSR098USP
+	visibility dense
+	type bigBed
+
+		track ENCSR098USP_ENCFF652ABB
+		parent tissue_heart_view_ENCSR098USP off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR098USP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF652ABB/@@download/ENCFF652ABB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR098USP C57BL_6_heart_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR098USP age=13_5_day description=ENCSR098USP_C57BL_6_heart_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR098USP 
+		view ENCSR098USP
+
+	track ENCSR122CJZ_ENCFF637DCW
+	parent tissue_heart off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF637DCW/@@download/ENCFF637DCW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR122CJZ C57BL_6_heart_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR122CJZ age=16_5_day description=ENCSR122CJZ_C57BL_6_heart_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR122CJZ
+	parent tissue_heart off
+	view ENCSR122CJZ
+	visibility dense
+	type bigBed
+
+		track ENCSR122CJZ_ENCFF296AMX
+		parent tissue_heart_view_ENCSR122CJZ off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR122CJZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF296AMX/@@download/ENCFF296AMX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR122CJZ C57BL_6_heart_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR122CJZ age=16_5_day description=ENCSR122CJZ_C57BL_6_heart_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR122CJZ 
+		view ENCSR122CJZ
+
+	track ENCSR455REA_ENCFF172OCI
+	parent tissue_heart off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF172OCI/@@download/ENCFF172OCI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR455REA C57BL_6_heart_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR455REA age=10_5_day description=ENCSR455REA_C57BL_6_heart_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR455REA
+	parent tissue_heart off
+	view ENCSR455REA
+	visibility dense
+	type bigBed
+
+		track ENCSR455REA_ENCFF605XQS
+		parent tissue_heart_view_ENCSR455REA off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR455REA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF605XQS/@@download/ENCFF605XQS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR455REA C57BL_6_heart_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR455REA age=10_5_day description=ENCSR455REA_C57BL_6_heart_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR455REA 
+		view ENCSR455REA
+
+	track ENCSR463GJL_ENCFF207EPW
+	parent tissue_heart off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF207EPW/@@download/ENCFF207EPW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR463GJL C57BL_6_heart_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR463GJL age=11_5_day description=ENCSR463GJL_C57BL_6_heart_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR463GJL
+	parent tissue_heart off
+	view ENCSR463GJL
+	visibility dense
+	type bigBed
+
+		track ENCSR463GJL_ENCFF265GCY
+		parent tissue_heart_view_ENCSR463GJL off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR463GJL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF265GCY/@@download/ENCFF265GCY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR463GJL C57BL_6_heart_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR463GJL age=11_5_day description=ENCSR463GJL_C57BL_6_heart_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR463GJL 
+		view ENCSR463GJL
+
+	track ENCSR557SVH_ENCFF797OAF
+	parent tissue_heart off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF797OAF/@@download/ENCFF797OAF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR557SVH C57BL_6_heart_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR557SVH age=12_5_day description=ENCSR557SVH_C57BL_6_heart_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR557SVH
+	parent tissue_heart off
+	view ENCSR557SVH
+	visibility dense
+	type bigBed
+
+		track ENCSR557SVH_ENCFF874XAV
+		parent tissue_heart_view_ENCSR557SVH off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR557SVH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF874XAV/@@download/ENCFF874XAV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR557SVH C57BL_6_heart_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR557SVH age=12_5_day description=ENCSR557SVH_C57BL_6_heart_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR557SVH 
+		view ENCSR557SVH
+
+	track ENCSR965JWF_ENCFF046SEF
+	parent tissue_heart off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF046SEF/@@download/ENCFF046SEF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR965JWF C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR965JWF age=0_day description=ENCSR965JWF_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR965JWF
+	parent tissue_heart off
+	view ENCSR965JWF
+	visibility dense
+	type bigBed
+
+		track ENCSR965JWF_ENCFF317TPK
+		parent tissue_heart_view_ENCSR965JWF off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9me3 view=ENCSR965JWF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF317TPK/@@download/ENCFF317TPK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR965JWF C57BL_6_heart_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR965JWF age=0_day description=ENCSR965JWF_C57BL_6_heart_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR965JWF 
+		view ENCSR965JWF
+
+	track ENCSR000CBS_ENCFF868AOT
+	parent tissue_heart off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF868AOT/@@download/ENCFF868AOT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CBS C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBS age=8_week description=ENCSR000CBS_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_heart_view_ENCSR000CBS
+	parent tissue_heart off
+	view ENCSR000CBS
+	visibility dense
+	type bigBed
+
+		track ENCSR000CBS_ENCFF752SPM
+		parent tissue_heart_view_ENCSR000CBS off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=POLR2A view=ENCSR000CBS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF752SPM/@@download/ENCFF752SPM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000CBS C57BL_6_heart_male_adult_8_weeks_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CBS age=8_week description=ENCSR000CBS_C57BL_6_heart_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CBS 
+		view ENCSR000CBS
+

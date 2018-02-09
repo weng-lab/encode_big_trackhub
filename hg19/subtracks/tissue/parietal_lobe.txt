@@ -1,0 +1,63 @@
+
+track tissue_parietal_lobe
+parent super_tissue
+compositeTrack on
+shortLabel parietal lobe
+longLabel parietal lobe (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO065AAA=ENCDO065AAA ENCDO067AAA=ENCDO067AAA 
+subGroup2 age age a22_week=22&#32;week a24_week=24&#32;week 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AFE_ENCFF376TBX
+	parent tissue_parietal_lobe off
+	subGroups age=a24_week assay=RNA-seq donor=ENCDO067AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF376TBX/@@download/ENCFF376TBX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFE parietal_lobe_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFE age=24_week description=ENCSR000AFE_parietal_lobe_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO067AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AFY_ENCFF270JDP
+	parent tissue_parietal_lobe off
+	subGroups age=a22_week assay=RNA-seq donor=ENCDO065AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF270JDP/@@download/ENCFF270JDP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFY parietal_lobe_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFY age=22_week description=ENCSR000AFY_parietal_lobe_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO065AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000AGS_ENCFF890RXP
+	parent tissue_parietal_lobe off
+	subGroups age=a22_week assay=RAMPAGE donor=ENCDO065AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF890RXP/@@download/ENCFF890RXP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR000AGS parietal_lobe_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGS age=22_week description=ENCSR000AGS_parietal_lobe_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO065AAA sex=male view=bigWig 
+	view bigWig
+

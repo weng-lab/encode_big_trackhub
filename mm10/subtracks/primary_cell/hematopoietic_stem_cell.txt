@@ -1,0 +1,53 @@
+
+track primary_cell_hematopoietic_stem_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel hematopoietic ste
+longLabel hematopoietic stem cell (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
+subGroup2 age age a5_6_week=5-6&#32;week 
+subGroup3 view view ENCSR366VBB=ENCSR366VBB bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR366VBB_ENCFF683WEV
+	parent primary_cell_hematopoietic_stem_cell off
+	subGroups age=a5_6_week assay=ATAC-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF683WEV/@@download/ENCFF683WEV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR366VBB C57BL_6_hematopoietic_stem_cell_adult_5_6_weeks_ (signal of all read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR366VBB age=5_6_week description=ENCSR366VBB_C57BL_6_hematopoietic_stem_cell_adult_5_6_weeks_signal_of_all_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_hematopoietic_stem_cell_view_ENCSR366VBB
+	parent primary_cell_hematopoietic_stem_cell off
+	view ENCSR366VBB
+	visibility dense
+	type bigBed
+
+		track ENCSR366VBB_ENCFF643BLM
+		parent primary_cell_hematopoietic_stem_cell_view_ENCSR366VBB off
+		subGroups age=a5_6_week assay=ATAC-seq donor=ENCDO072AAA label=unknown view=ENCSR366VBB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF643BLM/@@download/ENCFF643BLM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ATAC-seq
+		longLabel ENCSR366VBB C57BL_6_hematopoietic_stem_cell_adult_5_6_weeks_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR366VBB age=5_6_week description=ENCSR366VBB_C57BL_6_hematopoietic_stem_cell_adult_5_6_weeks_peaks_ donor=ENCDO072AAA sex=unknown view=ENCSR366VBB 
+		view ENCSR366VBB
+

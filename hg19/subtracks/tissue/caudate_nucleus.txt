@@ -1,0 +1,473 @@
+
+track tissue_caudate_nucleus
+parent super_tissue
+compositeTrack on
+shortLabel caudate nucleus
+longLabel caudate nucleus (13 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO871IWW=ENCDO871IWW ENCDO980BZD=ENCDO980BZD 
+subGroup2 age age a75_year=75&#32;year a81_year=81&#32;year 
+subGroup3 view view ENCSR109NBJ=ENCSR109NBJ ENCSR209WQN=ENCSR209WQN ENCSR264YGM=ENCSR264YGM ENCSR303OIB=ENCSR303OIB ENCSR399SJE=ENCSR399SJE ENCSR486QMV=ENCSR486QMV ENCSR494MDB=ENCSR494MDB ENCSR494OPF=ENCSR494OPF ENCSR552TQB=ENCSR552TQB ENCSR672FMZ=ENCSR672FMZ ENCSR798RTU=ENCSR798RTU ENCSR840KVX=ENCSR840KVX ENCSR893MHU=ENCSR893MHU bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR486QMV_ENCFF433GYN
+	parent tissue_caudate_nucleus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF433GYN/@@download/ENCFF433GYN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR486QMV caudate_nucleus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR486QMV age=75_year description=ENCSR486QMV_caudate_nucleus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR486QMV
+	parent tissue_caudate_nucleus off
+	view ENCSR486QMV
+	visibility dense
+	type bigBed
+
+		track ENCSR486QMV_ENCFF816NXL
+		parent tissue_caudate_nucleus_view_ENCSR486QMV off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=ENCSR486QMV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF816NXL/@@download/ENCFF816NXL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR486QMV caudate_nucleus_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR486QMV age=75_year description=ENCSR486QMV_caudate_nucleus_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR486QMV 
+		view ENCSR486QMV
+
+	track ENCSR840KVX_ENCFF284JOB
+	parent tissue_caudate_nucleus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF284JOB/@@download/ENCFF284JOB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR840KVX caudate_nucleus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR840KVX age=81_year description=ENCSR840KVX_caudate_nucleus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR840KVX
+	parent tissue_caudate_nucleus off
+	view ENCSR840KVX
+	visibility dense
+	type bigBed
+
+		track ENCSR840KVX_ENCFF922OIZ
+		parent tissue_caudate_nucleus_view_ENCSR840KVX off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=ENCSR840KVX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF922OIZ/@@download/ENCFF922OIZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR840KVX caudate_nucleus_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR840KVX age=81_year description=ENCSR840KVX_caudate_nucleus_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR840KVX 
+		view ENCSR840KVX
+
+	track ENCSR494MDB_ENCFF551CRQ
+	parent tissue_caudate_nucleus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF551CRQ/@@download/ENCFF551CRQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR494MDB caudate_nucleus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR494MDB age=81_year description=ENCSR494MDB_caudate_nucleus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR494MDB
+	parent tissue_caudate_nucleus off
+	view ENCSR494MDB
+	visibility dense
+	type bigBed
+
+		track ENCSR494MDB_ENCFF999ELQ
+		parent tissue_caudate_nucleus_view_ENCSR494MDB off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=ENCSR494MDB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF999ELQ/@@download/ENCFF999ELQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR494MDB caudate_nucleus_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR494MDB age=81_year description=ENCSR494MDB_caudate_nucleus_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR494MDB 
+		view ENCSR494MDB
+
+	track ENCSR798RTU_ENCFF500RRP
+	parent tissue_caudate_nucleus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF500RRP/@@download/ENCFF500RRP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR798RTU caudate_nucleus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR798RTU age=75_year description=ENCSR798RTU_caudate_nucleus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR798RTU
+	parent tissue_caudate_nucleus off
+	view ENCSR798RTU
+	visibility dense
+	type bigBed
+
+		track ENCSR798RTU_ENCFF205EFD
+		parent tissue_caudate_nucleus_view_ENCSR798RTU off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27ac view=ENCSR798RTU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF205EFD/@@download/ENCFF205EFD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR798RTU caudate_nucleus_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR798RTU age=75_year description=ENCSR798RTU_caudate_nucleus_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR798RTU 
+		view ENCSR798RTU
+
+	track ENCSR209WQN_ENCFF850TTC
+	parent tissue_caudate_nucleus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF850TTC/@@download/ENCFF850TTC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR209WQN caudate_nucleus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR209WQN age=75_year description=ENCSR209WQN_caudate_nucleus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR209WQN
+	parent tissue_caudate_nucleus off
+	view ENCSR209WQN
+	visibility dense
+	type bigBed
+
+		track ENCSR209WQN_ENCFF219JOK
+		parent tissue_caudate_nucleus_view_ENCSR209WQN off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27me3 view=ENCSR209WQN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF219JOK/@@download/ENCFF219JOK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR209WQN caudate_nucleus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR209WQN age=75_year description=ENCSR209WQN_caudate_nucleus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR209WQN 
+		view ENCSR209WQN
+
+	track ENCSR494OPF_ENCFF514NSO
+	parent tissue_caudate_nucleus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF514NSO/@@download/ENCFF514NSO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR494OPF caudate_nucleus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR494OPF age=81_year description=ENCSR494OPF_caudate_nucleus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR494OPF
+	parent tissue_caudate_nucleus off
+	view ENCSR494OPF
+	visibility dense
+	type bigBed
+
+		track ENCSR494OPF_ENCFF761VTM
+		parent tissue_caudate_nucleus_view_ENCSR494OPF off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=ENCSR494OPF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF761VTM/@@download/ENCFF761VTM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR494OPF caudate_nucleus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR494OPF age=81_year description=ENCSR494OPF_caudate_nucleus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR494OPF 
+		view ENCSR494OPF
+
+	track ENCSR399SJE_ENCFF799UBH
+	parent tissue_caudate_nucleus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF799UBH/@@download/ENCFF799UBH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR399SJE caudate_nucleus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR399SJE age=75_year description=ENCSR399SJE_caudate_nucleus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR399SJE
+	parent tissue_caudate_nucleus off
+	view ENCSR399SJE
+	visibility dense
+	type bigBed
+
+		track ENCSR399SJE_ENCFF589IGE
+		parent tissue_caudate_nucleus_view_ENCSR399SJE off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=ENCSR399SJE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF589IGE/@@download/ENCFF589IGE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR399SJE caudate_nucleus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR399SJE age=75_year description=ENCSR399SJE_caudate_nucleus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR399SJE 
+		view ENCSR399SJE
+
+	track ENCSR893MHU_ENCFF548TSQ
+	parent tissue_caudate_nucleus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF548TSQ/@@download/ENCFF548TSQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR893MHU caudate_nucleus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR893MHU age=81_year description=ENCSR893MHU_caudate_nucleus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR893MHU
+	parent tissue_caudate_nucleus off
+	view ENCSR893MHU
+	visibility dense
+	type bigBed
+
+		track ENCSR893MHU_ENCFF255ZIW
+		parent tissue_caudate_nucleus_view_ENCSR893MHU off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=ENCSR893MHU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF255ZIW/@@download/ENCFF255ZIW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR893MHU caudate_nucleus_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR893MHU age=81_year description=ENCSR893MHU_caudate_nucleus_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR893MHU 
+		view ENCSR893MHU
+
+	track ENCSR264YGM_ENCFF250VLB
+	parent tissue_caudate_nucleus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF250VLB/@@download/ENCFF250VLB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR264YGM caudate_nucleus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR264YGM age=75_year description=ENCSR264YGM_caudate_nucleus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR264YGM
+	parent tissue_caudate_nucleus off
+	view ENCSR264YGM
+	visibility dense
+	type bigBed
+
+		track ENCSR264YGM_ENCFF738AYT
+		parent tissue_caudate_nucleus_view_ENCSR264YGM off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=ENCSR264YGM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF738AYT/@@download/ENCFF738AYT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR264YGM caudate_nucleus_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR264YGM age=75_year description=ENCSR264YGM_caudate_nucleus_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR264YGM 
+		view ENCSR264YGM
+
+	track ENCSR303OIB_ENCFF274TBY
+	parent tissue_caudate_nucleus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF274TBY/@@download/ENCFF274TBY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR303OIB caudate_nucleus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR303OIB age=81_year description=ENCSR303OIB_caudate_nucleus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR303OIB
+	parent tissue_caudate_nucleus off
+	view ENCSR303OIB
+	visibility dense
+	type bigBed
+
+		track ENCSR303OIB_ENCFF746UUZ
+		parent tissue_caudate_nucleus_view_ENCSR303OIB off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=ENCSR303OIB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF746UUZ/@@download/ENCFF746UUZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR303OIB caudate_nucleus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR303OIB age=81_year description=ENCSR303OIB_caudate_nucleus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR303OIB 
+		view ENCSR303OIB
+
+	track ENCSR672FMZ_ENCFF561QUB
+	parent tissue_caudate_nucleus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF561QUB/@@download/ENCFF561QUB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR672FMZ caudate_nucleus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR672FMZ age=75_year description=ENCSR672FMZ_caudate_nucleus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR672FMZ
+	parent tissue_caudate_nucleus off
+	view ENCSR672FMZ
+	visibility dense
+	type bigBed
+
+		track ENCSR672FMZ_ENCFF796ARH
+		parent tissue_caudate_nucleus_view_ENCSR672FMZ off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=ENCSR672FMZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF796ARH/@@download/ENCFF796ARH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR672FMZ caudate_nucleus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR672FMZ age=75_year description=ENCSR672FMZ_caudate_nucleus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR672FMZ 
+		view ENCSR672FMZ
+
+	track ENCSR109NBJ_ENCFF435HOE
+	parent tissue_caudate_nucleus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF435HOE/@@download/ENCFF435HOE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR109NBJ caudate_nucleus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR109NBJ age=81_year description=ENCSR109NBJ_caudate_nucleus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR109NBJ
+	parent tissue_caudate_nucleus off
+	view ENCSR109NBJ
+	visibility dense
+	type bigBed
+
+		track ENCSR109NBJ_ENCFF983VAN
+		parent tissue_caudate_nucleus_view_ENCSR109NBJ off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=ENCSR109NBJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF983VAN/@@download/ENCFF983VAN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR109NBJ caudate_nucleus_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR109NBJ age=81_year description=ENCSR109NBJ_caudate_nucleus_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR109NBJ 
+		view ENCSR109NBJ
+
+	track ENCSR552TQB_ENCFF480GYN
+	parent tissue_caudate_nucleus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF480GYN/@@download/ENCFF480GYN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR552TQB caudate_nucleus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR552TQB age=75_year description=ENCSR552TQB_caudate_nucleus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_caudate_nucleus_view_ENCSR552TQB
+	parent tissue_caudate_nucleus off
+	view ENCSR552TQB
+	visibility dense
+	type bigBed
+
+		track ENCSR552TQB_ENCFF799VTB
+		parent tissue_caudate_nucleus_view_ENCSR552TQB off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=ENCSR552TQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF799VTB/@@download/ENCFF799VTB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR552TQB caudate_nucleus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR552TQB age=75_year description=ENCSR552TQB_caudate_nucleus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR552TQB 
+		view ENCSR552TQB
+

@@ -1,0 +1,489 @@
+
+track immortalized_cell_line_SK_N_MC
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel SK-N-MC
+longLabel SK-N-MC (9 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label EZH2=EZH2 H3K27ac=H3K27ac H3K36me3=H3K36me3 H3K4me1=H3K4me1 H3K4me3=H3K4me3 H3K9ac=H3K9ac H3K9me3=H3K9me3 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq 
+subGroup3 view view ENCSR000DXL=ENCSR000DXL ENCSR000EPY=ENCSR000EPY ENCSR111QAW=ENCSR111QAW ENCSR113GDB=ENCSR113GDB ENCSR152QRE=ENCSR152QRE ENCSR287VPM=ENCSR287VPM ENCSR526PZM=ENCSR526PZM ENCSR679CHH=ENCSR679CHH ENCSR835MMN=ENCSR835MMN bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EPY_ENCFF595ZTK
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=DNase-seq donor=ENCDO000ABC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF595ZTK/@@download/ENCFF595ZTK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EPY SK_N_MC (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EPY age=14_year description=ENCSR000EPY_SK_N_MC_read_depth_normalized_signal_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR000EPY
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR000EPY
+	visibility dense
+	type bigBed
+
+		track ENCSR000EPY_ENCFF497ERP
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR000EPY off
+		subGroups age=a14_year assay=DNase-seq donor=ENCDO000ABC label=unknown view=ENCSR000EPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF497ERP/@@download/ENCFF497ERP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EPY SK_N_MC (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EPY age=14_year description=ENCSR000EPY_SK_N_MC_peaks_ donor=ENCDO000ABC sex=female view=ENCSR000EPY 
+		view ENCSR000EPY
+
+		track ENCSR000EPY_ENCFF699WZP
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR000EPY off
+		subGroups age=a14_year assay=DNase-seq donor=ENCDO000ABC label=unknown view=ENCSR000EPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF699WZP/@@download/ENCFF699WZP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF699WZP 9state-DNase DNase-seq on human SK-N-MC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPY age=14_year description=ENCFF699WZP_9state_DNase_DNase_seq_on_human_SK_N_MC donor=ENCDO000ABC sex=female view=ENCSR000EPY 
+		view ENCSR000EPY
+
+		track ENCSR000EPY_ENCFF394UXW
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR000EPY off
+		subGroups age=a14_year assay=DNase-seq donor=ENCDO000ABC label=unknown view=ENCSR000EPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF394UXW/@@download/ENCFF394UXW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF394UXW 5group DNase-seq on human SK-N-MC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPY age=14_year description=ENCFF394UXW_5group_DNase_seq_on_human_SK_N_MC donor=ENCDO000ABC sex=female view=ENCSR000EPY 
+		view ENCSR000EPY
+
+		track ENCSR000EPY_ENCFF549YRP
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR000EPY off
+		subGroups age=a14_year assay=DNase-seq donor=ENCDO000ABC label=unknown view=ENCSR000EPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549YRP/@@download/ENCFF549YRP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF549YRP 9state-H3K4me3 DNase-seq on human SK-N-MC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPY age=14_year description=ENCFF549YRP_9state_H3K4me3_DNase_seq_on_human_SK_N_MC donor=ENCDO000ABC sex=female view=ENCSR000EPY 
+		view ENCSR000EPY
+
+		track ENCSR000EPY_ENCFF002JNZ
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR000EPY off
+		subGroups age=a14_year assay=DNase-seq donor=ENCDO000ABC label=unknown view=ENCSR000EPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF002JNZ/@@download/ENCFF002JNZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF002JNZ 9state-H3K27ac DNase-seq on human SK-N-MC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPY age=14_year description=ENCFF002JNZ_9state_H3K27ac_DNase_seq_on_human_SK_N_MC donor=ENCDO000ABC sex=female view=ENCSR000EPY 
+		view ENCSR000EPY
+
+	track ENCSR000DXL_ENCFF963TFP
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF963TFP/@@download/ENCFF963TFP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DXL SK_N_MC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DXL age=14_year description=ENCSR000DXL_SK_N_MC_fold_change_over_control_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR000DXL
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR000DXL
+	visibility dense
+	type bigBed
+
+		track ENCSR000DXL_ENCFF997UUN
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR000DXL off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me3 view=ENCSR000DXL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF997UUN/@@download/ENCFF997UUN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DXL SK_N_MC (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DXL age=14_year description=ENCSR000DXL_SK_N_MC_replicated_peaks_ donor=ENCDO000ABC sex=female view=ENCSR000DXL 
+		view ENCSR000DXL
+
+	track ENCSR287VPM_ENCFF825ZBV
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF825ZBV/@@download/ENCFF825ZBV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR287VPM SK_N_MC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR287VPM age=14_year description=ENCSR287VPM_SK_N_MC_fold_change_over_control_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR287VPM
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR287VPM
+	visibility dense
+	type bigBed
+
+		track ENCSR287VPM_ENCFF578OCS
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR287VPM off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me3 view=ENCSR287VPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF578OCS/@@download/ENCFF578OCS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR287VPM SK_N_MC (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR287VPM age=14_year description=ENCSR287VPM_SK_N_MC_replicated_peaks_ donor=ENCDO000ABC sex=female view=ENCSR287VPM 
+		view ENCSR287VPM
+
+		track ENCSR287VPM_ENCFF699WZP
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR287VPM off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me3 view=ENCSR287VPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF699WZP/@@download/ENCFF699WZP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF699WZP 9state-DNase ChIP-seq against H3K4me3 using SK-N-MC cell line which 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR287VPM age=14_year description=ENCFF699WZP_9state_DNase_ChIP_seq_against_H3K4me3_using_SK_N_MC_cell_line_which_was_previously_described_as_a_neuroepithelioma_ATCC_HTB_10_However_recent_evidence_reveals_it_is_Ewing_s_Sarcoma_www_ncbi_nlm_nih_gov_pubmed_15548687_www_ncbi_nlm_nih_gov_biosample_3151999_www_ncbi_nlm_nih_gov_pubmed_25453903_ donor=ENCDO000ABC sex=female view=ENCSR287VPM 
+		view ENCSR287VPM
+
+		track ENCSR287VPM_ENCFF394UXW
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR287VPM off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me3 view=ENCSR287VPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF394UXW/@@download/ENCFF394UXW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF394UXW 5group ChIP-seq against H3K4me3 using SK-N-MC cell line which was pr
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR287VPM age=14_year description=ENCFF394UXW_5group_ChIP_seq_against_H3K4me3_using_SK_N_MC_cell_line_which_was_previously_described_as_a_neuroepithelioma_ATCC_HTB_10_However_recent_evidence_reveals_it_is_Ewing_s_Sarcoma_www_ncbi_nlm_nih_gov_pubmed_15548687_www_ncbi_nlm_nih_gov_biosample_3151999_www_ncbi_nlm_nih_gov_pubmed_25453903_ donor=ENCDO000ABC sex=female view=ENCSR287VPM 
+		view ENCSR287VPM
+
+		track ENCSR287VPM_ENCFF549YRP
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR287VPM off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me3 view=ENCSR287VPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549YRP/@@download/ENCFF549YRP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF549YRP 9state-H3K4me3 ChIP-seq against H3K4me3 using SK-N-MC cell line whic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR287VPM age=14_year description=ENCFF549YRP_9state_H3K4me3_ChIP_seq_against_H3K4me3_using_SK_N_MC_cell_line_which_was_previously_described_as_a_neuroepithelioma_ATCC_HTB_10_However_recent_evidence_reveals_it_is_Ewing_s_Sarcoma_www_ncbi_nlm_nih_gov_pubmed_15548687_www_ncbi_nlm_nih_gov_biosample_3151999_www_ncbi_nlm_nih_gov_pubmed_25453903_ donor=ENCDO000ABC sex=female view=ENCSR287VPM 
+		view ENCSR287VPM
+
+		track ENCSR287VPM_ENCFF002JNZ
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR287VPM off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me3 view=ENCSR287VPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF002JNZ/@@download/ENCFF002JNZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF002JNZ 9state-H3K27ac ChIP-seq against H3K4me3 using SK-N-MC cell line whic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR287VPM age=14_year description=ENCFF002JNZ_9state_H3K27ac_ChIP_seq_against_H3K4me3_using_SK_N_MC_cell_line_which_was_previously_described_as_a_neuroepithelioma_ATCC_HTB_10_However_recent_evidence_reveals_it_is_Ewing_s_Sarcoma_www_ncbi_nlm_nih_gov_pubmed_15548687_www_ncbi_nlm_nih_gov_biosample_3151999_www_ncbi_nlm_nih_gov_pubmed_25453903_ donor=ENCDO000ABC sex=female view=ENCSR287VPM 
+		view ENCSR287VPM
+
+	track ENCSR835MMN_ENCFF921GJR
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF921GJR/@@download/ENCFF921GJR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR835MMN SK_N_MC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR835MMN age=14_year description=ENCSR835MMN_SK_N_MC_fold_change_over_control_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR835MMN
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR835MMN
+	visibility dense
+	type bigBed
+
+		track ENCSR835MMN_ENCFF771VON
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR835MMN off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K27ac view=ENCSR835MMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF771VON/@@download/ENCFF771VON.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR835MMN SK_N_MC (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR835MMN age=14_year description=ENCSR835MMN_SK_N_MC_replicated_peaks_ donor=ENCDO000ABC sex=female view=ENCSR835MMN 
+		view ENCSR835MMN
+
+		track ENCSR835MMN_ENCFF699WZP
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR835MMN off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K27ac view=ENCSR835MMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF699WZP/@@download/ENCFF699WZP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF699WZP 9state-DNase ChIP-seq against H3K27ac using SK-N-MC cell line which 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR835MMN age=14_year description=ENCFF699WZP_9state_DNase_ChIP_seq_against_H3K27ac_using_SK_N_MC_cell_line_which_was_previously_described_as_a_neuroepithelioma_ATCC_HTB_10_However_recent_evidence_reveals_it_is_Ewing_s_Sarcoma_www_ncbi_nlm_nih_gov_pubmed_15548687_www_ncbi_nlm_nih_gov_biosample_3151999_www_ncbi_nlm_nih_gov_pubmed_25453903_ donor=ENCDO000ABC sex=female view=ENCSR835MMN 
+		view ENCSR835MMN
+
+		track ENCSR835MMN_ENCFF394UXW
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR835MMN off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K27ac view=ENCSR835MMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF394UXW/@@download/ENCFF394UXW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF394UXW 5group ChIP-seq against H3K27ac using SK-N-MC cell line which was pr
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR835MMN age=14_year description=ENCFF394UXW_5group_ChIP_seq_against_H3K27ac_using_SK_N_MC_cell_line_which_was_previously_described_as_a_neuroepithelioma_ATCC_HTB_10_However_recent_evidence_reveals_it_is_Ewing_s_Sarcoma_www_ncbi_nlm_nih_gov_pubmed_15548687_www_ncbi_nlm_nih_gov_biosample_3151999_www_ncbi_nlm_nih_gov_pubmed_25453903_ donor=ENCDO000ABC sex=female view=ENCSR835MMN 
+		view ENCSR835MMN
+
+		track ENCSR835MMN_ENCFF549YRP
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR835MMN off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K27ac view=ENCSR835MMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549YRP/@@download/ENCFF549YRP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF549YRP 9state-H3K4me3 ChIP-seq against H3K27ac using SK-N-MC cell line whic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR835MMN age=14_year description=ENCFF549YRP_9state_H3K4me3_ChIP_seq_against_H3K27ac_using_SK_N_MC_cell_line_which_was_previously_described_as_a_neuroepithelioma_ATCC_HTB_10_However_recent_evidence_reveals_it_is_Ewing_s_Sarcoma_www_ncbi_nlm_nih_gov_pubmed_15548687_www_ncbi_nlm_nih_gov_biosample_3151999_www_ncbi_nlm_nih_gov_pubmed_25453903_ donor=ENCDO000ABC sex=female view=ENCSR835MMN 
+		view ENCSR835MMN
+
+		track ENCSR835MMN_ENCFF002JNZ
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR835MMN off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K27ac view=ENCSR835MMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF002JNZ/@@download/ENCFF002JNZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF002JNZ 9state-H3K27ac ChIP-seq against H3K27ac using SK-N-MC cell line whic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR835MMN age=14_year description=ENCFF002JNZ_9state_H3K27ac_ChIP_seq_against_H3K27ac_using_SK_N_MC_cell_line_which_was_previously_described_as_a_neuroepithelioma_ATCC_HTB_10_However_recent_evidence_reveals_it_is_Ewing_s_Sarcoma_www_ncbi_nlm_nih_gov_pubmed_15548687_www_ncbi_nlm_nih_gov_biosample_3151999_www_ncbi_nlm_nih_gov_pubmed_25453903_ donor=ENCDO000ABC sex=female view=ENCSR835MMN 
+		view ENCSR835MMN
+
+	track ENCSR113GDB_ENCFF048DZP
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=EZH2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF048DZP/@@download/ENCFF048DZP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EZH2
+	longLabel ENCSR113GDB SK_N_MC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR113GDB age=14_year description=ENCSR113GDB_SK_N_MC_fold_change_over_control_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR113GDB
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR113GDB
+	visibility dense
+	type bigBed
+
+		track ENCSR113GDB_ENCFF702EFD
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR113GDB off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=EZH2 view=ENCSR113GDB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702EFD/@@download/ENCFF702EFD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EZH2
+		longLabel ENCSR113GDB SK_N_MC (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR113GDB age=14_year description=ENCSR113GDB_SK_N_MC_peaks_ donor=ENCDO000ABC sex=female view=ENCSR113GDB 
+		view ENCSR113GDB
+
+	track ENCSR526PZM_ENCFF932NIV
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF932NIV/@@download/ENCFF932NIV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR526PZM SK_N_MC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR526PZM age=14_year description=ENCSR526PZM_SK_N_MC_fold_change_over_control_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR526PZM
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR526PZM
+	visibility dense
+	type bigBed
+
+		track ENCSR526PZM_ENCFF998ASI
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR526PZM off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K36me3 view=ENCSR526PZM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF998ASI/@@download/ENCFF998ASI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR526PZM SK_N_MC (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR526PZM age=14_year description=ENCSR526PZM_SK_N_MC_replicated_peaks_ donor=ENCDO000ABC sex=female view=ENCSR526PZM 
+		view ENCSR526PZM
+
+	track ENCSR152QRE_ENCFF755LFU
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF755LFU/@@download/ENCFF755LFU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR152QRE SK_N_MC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR152QRE age=14_year description=ENCSR152QRE_SK_N_MC_fold_change_over_control_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR152QRE
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR152QRE
+	visibility dense
+	type bigBed
+
+		track ENCSR152QRE_ENCFF597NED
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR152QRE off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K4me1 view=ENCSR152QRE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF597NED/@@download/ENCFF597NED.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR152QRE SK_N_MC (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR152QRE age=14_year description=ENCSR152QRE_SK_N_MC_replicated_peaks_ donor=ENCDO000ABC sex=female view=ENCSR152QRE 
+		view ENCSR152QRE
+
+	track ENCSR111QAW_ENCFF448SGH
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF448SGH/@@download/ENCFF448SGH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR111QAW SK_N_MC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR111QAW age=14_year description=ENCSR111QAW_SK_N_MC_fold_change_over_control_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR111QAW
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR111QAW
+	visibility dense
+	type bigBed
+
+		track ENCSR111QAW_ENCFF480BZU
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR111QAW off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K9ac view=ENCSR111QAW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF480BZU/@@download/ENCFF480BZU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR111QAW SK_N_MC (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR111QAW age=14_year description=ENCSR111QAW_SK_N_MC_replicated_peaks_ donor=ENCDO000ABC sex=female view=ENCSR111QAW 
+		view ENCSR111QAW
+
+	track ENCSR679CHH_ENCFF344JHJ
+	parent immortalized_cell_line_SK_N_MC off
+	subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF344JHJ/@@download/ENCFF344JHJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR679CHH SK_N_MC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR679CHH age=14_year description=ENCSR679CHH_SK_N_MC_fold_change_over_control_ donor=ENCDO000ABC sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SK_N_MC_view_ENCSR679CHH
+	parent immortalized_cell_line_SK_N_MC off
+	view ENCSR679CHH
+	visibility dense
+	type bigBed
+
+		track ENCSR679CHH_ENCFF213CPV
+		parent immortalized_cell_line_SK_N_MC_view_ENCSR679CHH off
+		subGroups age=a14_year assay=ChIP-seq donor=ENCDO000ABC label=H3K9me3 view=ENCSR679CHH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF213CPV/@@download/ENCFF213CPV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR679CHH SK_N_MC (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR679CHH age=14_year description=ENCSR679CHH_SK_N_MC_replicated_peaks_ donor=ENCDO000ABC sex=female view=ENCSR679CHH 
+		view ENCSR679CHH
+

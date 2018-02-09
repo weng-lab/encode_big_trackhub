@@ -1,0 +1,228 @@
+
+track in_vitro_differentiated_cells_adipocyte
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel adipocyte
+longLabel adipocyte (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO477HWZ=ENCDO477HWZ ENCDO535TMW=ENCDO535TMW 
+subGroup2 age age a41_year=41&#32;year a59_year=59&#32;year 
+subGroup3 view view ENCSR115VDV=ENCSR115VDV ENCSR136ZNV=ENCSR136ZNV ENCSR162VXO=ENCSR162VXO ENCSR201GCJ=ENCSR201GCJ ENCSR367VRA=ENCSR367VRA ENCSR769HUN=ENCSR769HUN bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR367VRA_ENCFF919MUD
+	parent in_vitro_differentiated_cells_adipocyte off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF919MUD/@@download/ENCFF919MUD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR367VRA adipocyte_originated_from_mesenchymal_stem_cell (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR367VRA age=59_year description=ENCSR367VRA_adipocyte_originated_from_mesenchymal_stem_cell_fold_change_over_control_ donor=ENCDO477HWZ sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_adipocyte_view_ENCSR367VRA
+	parent in_vitro_differentiated_cells_adipocyte off
+	view ENCSR367VRA
+	visibility dense
+	type bigBed
+
+		track ENCSR367VRA_ENCFF949DYJ
+		parent in_vitro_differentiated_cells_adipocyte_view_ENCSR367VRA off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K4me3 view=ENCSR367VRA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF949DYJ/@@download/ENCFF949DYJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR367VRA adipocyte_originated_from_mesenchymal_stem_cell (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR367VRA age=59_year description=ENCSR367VRA_adipocyte_originated_from_mesenchymal_stem_cell_replicated_peaks_ donor=ENCDO477HWZ sex=female view=ENCSR367VRA 
+		view ENCSR367VRA
+
+	track ENCSR769HUN_ENCFF662TUO
+	parent in_vitro_differentiated_cells_adipocyte off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF662TUO/@@download/ENCFF662TUO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR769HUN adipocyte_originated_from_mesenchymal_stem_cell (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR769HUN age=59_year description=ENCSR769HUN_adipocyte_originated_from_mesenchymal_stem_cell_fold_change_over_control_ donor=ENCDO477HWZ sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_adipocyte_view_ENCSR769HUN
+	parent in_vitro_differentiated_cells_adipocyte off
+	view ENCSR769HUN
+	visibility dense
+	type bigBed
+
+		track ENCSR769HUN_ENCFF574FVK
+		parent in_vitro_differentiated_cells_adipocyte_view_ENCSR769HUN off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K27me3 view=ENCSR769HUN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF574FVK/@@download/ENCFF574FVK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR769HUN adipocyte_originated_from_mesenchymal_stem_cell (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR769HUN age=59_year description=ENCSR769HUN_adipocyte_originated_from_mesenchymal_stem_cell_replicated_peaks_ donor=ENCDO477HWZ sex=female view=ENCSR769HUN 
+		view ENCSR769HUN
+
+	track ENCSR136ZNV_ENCFF910WZG
+	parent in_vitro_differentiated_cells_adipocyte off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF910WZG/@@download/ENCFF910WZG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR136ZNV adipocyte_originated_from_mesenchymal_stem_cell (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR136ZNV age=59_year description=ENCSR136ZNV_adipocyte_originated_from_mesenchymal_stem_cell_fold_change_over_control_ donor=ENCDO477HWZ sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_adipocyte_view_ENCSR136ZNV
+	parent in_vitro_differentiated_cells_adipocyte off
+	view ENCSR136ZNV
+	visibility dense
+	type bigBed
+
+		track ENCSR136ZNV_ENCFF546TIX
+		parent in_vitro_differentiated_cells_adipocyte_view_ENCSR136ZNV off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K36me3 view=ENCSR136ZNV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF546TIX/@@download/ENCFF546TIX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR136ZNV adipocyte_originated_from_mesenchymal_stem_cell (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR136ZNV age=59_year description=ENCSR136ZNV_adipocyte_originated_from_mesenchymal_stem_cell_replicated_peaks_ donor=ENCDO477HWZ sex=female view=ENCSR136ZNV 
+		view ENCSR136ZNV
+
+	track ENCSR115VDV_ENCFF605YLF
+	parent in_vitro_differentiated_cells_adipocyte off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF605YLF/@@download/ENCFF605YLF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR115VDV adipocyte_originated_from_mesenchymal_stem_cell (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR115VDV age=59_year description=ENCSR115VDV_adipocyte_originated_from_mesenchymal_stem_cell_fold_change_over_control_ donor=ENCDO477HWZ sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_adipocyte_view_ENCSR115VDV
+	parent in_vitro_differentiated_cells_adipocyte off
+	view ENCSR115VDV
+	visibility dense
+	type bigBed
+
+		track ENCSR115VDV_ENCFF923VXK
+		parent in_vitro_differentiated_cells_adipocyte_view_ENCSR115VDV off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K4me1 view=ENCSR115VDV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF923VXK/@@download/ENCFF923VXK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR115VDV adipocyte_originated_from_mesenchymal_stem_cell (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR115VDV age=59_year description=ENCSR115VDV_adipocyte_originated_from_mesenchymal_stem_cell_replicated_peaks_ donor=ENCDO477HWZ sex=female view=ENCSR115VDV 
+		view ENCSR115VDV
+
+	track ENCSR162VXO_ENCFF005AAE
+	parent in_vitro_differentiated_cells_adipocyte off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF005AAE/@@download/ENCFF005AAE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR162VXO adipocyte_originated_from_mesenchymal_stem_cell (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR162VXO age=59_year description=ENCSR162VXO_adipocyte_originated_from_mesenchymal_stem_cell_fold_change_over_control_ donor=ENCDO477HWZ sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_adipocyte_view_ENCSR162VXO
+	parent in_vitro_differentiated_cells_adipocyte off
+	view ENCSR162VXO
+	visibility dense
+	type bigBed
+
+		track ENCSR162VXO_ENCFF550IGR
+		parent in_vitro_differentiated_cells_adipocyte_view_ENCSR162VXO off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO477HWZ label=H3K9ac view=ENCSR162VXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF550IGR/@@download/ENCFF550IGR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR162VXO adipocyte_originated_from_mesenchymal_stem_cell (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR162VXO age=59_year description=ENCSR162VXO_adipocyte_originated_from_mesenchymal_stem_cell_replicated_peaks_ donor=ENCDO477HWZ sex=female view=ENCSR162VXO 
+		view ENCSR162VXO
+
+	track ENCSR201GCJ_ENCFF828QCY
+	parent in_vitro_differentiated_cells_adipocyte off
+	subGroups age=a41_year assay=ChIP-seq donor=ENCDO535TMW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF828QCY/@@download/ENCFF828QCY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR201GCJ adipocyte_originated_from_mesenchymal_stem_cell (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR201GCJ age=41_year description=ENCSR201GCJ_adipocyte_originated_from_mesenchymal_stem_cell_fold_change_over_control_ donor=ENCDO535TMW sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_adipocyte_view_ENCSR201GCJ
+	parent in_vitro_differentiated_cells_adipocyte off
+	view ENCSR201GCJ
+	visibility dense
+	type bigBed
+
+		track ENCSR201GCJ_ENCFF234LVZ
+		parent in_vitro_differentiated_cells_adipocyte_view_ENCSR201GCJ off
+		subGroups age=a41_year assay=ChIP-seq donor=ENCDO535TMW label=H3K9me3 view=ENCSR201GCJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF234LVZ/@@download/ENCFF234LVZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR201GCJ adipocyte_originated_from_mesenchymal_stem_cell (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR201GCJ age=41_year description=ENCSR201GCJ_adipocyte_originated_from_mesenchymal_stem_cell_replicated_peaks_ donor=ENCDO535TMW sex=female view=ENCSR201GCJ 
+		view ENCSR201GCJ
+

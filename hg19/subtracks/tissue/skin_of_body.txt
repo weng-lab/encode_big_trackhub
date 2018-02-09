@@ -1,0 +1,63 @@
+
+track tissue_skin_of_body
+parent super_tissue
+compositeTrack on
+shortLabel skin of body
+longLabel skin of body (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO065AAA=ENCDO065AAA ENCDO067AAA=ENCDO067AAA 
+subGroup2 age age a22_week=22&#32;week a24_week=24&#32;week 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AFG_ENCFF702VLO
+	parent tissue_skin_of_body off
+	subGroups age=a22_week assay=RNA-seq donor=ENCDO065AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF702VLO/@@download/ENCFF702VLO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFG skin_of_body_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFG age=22_week description=ENCSR000AFG_skin_of_body_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO065AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000AGA_ENCFF182HEB
+	parent tissue_skin_of_body off
+	subGroups age=a24_week assay=RNA-seq donor=ENCDO067AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF182HEB/@@download/ENCFF182HEB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AGA skin_of_body_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGA age=24_week description=ENCSR000AGA_skin_of_body_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO067AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGU_ENCFF888ZRY
+	parent tissue_skin_of_body off
+	subGroups age=a24_week assay=RAMPAGE donor=ENCDO067AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF888ZRY/@@download/ENCFF888ZRY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR000AGU skin_of_body_female_embryo_24_weeks_and_male_embryo_22_weeks_ (plus 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGU age=24_week description=ENCSR000AGU_skin_of_body_female_embryo_24_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO067AAA sex=female view=bigWig 
+	view bigWig
+

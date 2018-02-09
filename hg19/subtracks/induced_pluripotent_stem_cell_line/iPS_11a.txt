@@ -1,0 +1,53 @@
+
+track induced_pluripotent_stem_cell_line_iPS_11a
+parent super_induced_pluripotent_stem_cell_line
+compositeTrack on
+shortLabel iPS-11a
+longLabel iPS-11a (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO632AGT=ENCDO632AGT 
+subGroup2 age age a36_year=36&#32;year 
+subGroup3 view view ENCSR941YPY=ENCSR941YPY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR941YPY_ENCFF504SLW
+	parent induced_pluripotent_stem_cell_line_iPS_11a off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO632AGT label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF504SLW/@@download/ENCFF504SLW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR941YPY iPS_11a_male_adult_36_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR941YPY age=36_year description=ENCSR941YPY_iPS_11a_male_adult_36_years_fold_change_over_control_ donor=ENCDO632AGT sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_11a_view_ENCSR941YPY
+	parent induced_pluripotent_stem_cell_line_iPS_11a off
+	view ENCSR941YPY
+	visibility dense
+	type bigBed
+
+		track ENCSR941YPY_ENCFF928QDS
+		parent induced_pluripotent_stem_cell_line_iPS_11a_view_ENCSR941YPY off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO632AGT label=H3K4me3 view=ENCSR941YPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF928QDS/@@download/ENCFF928QDS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR941YPY iPS_11a_male_adult_36_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR941YPY age=36_year description=ENCSR941YPY_iPS_11a_male_adult_36_years_peaks_ donor=ENCDO632AGT sex=male view=ENCSR941YPY 
+		view ENCSR941YPY
+

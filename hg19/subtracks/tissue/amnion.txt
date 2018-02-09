@@ -1,0 +1,396 @@
+
+track tissue_amnion
+parent super_tissue
+compositeTrack on
+shortLabel amnion
+longLabel amnion (12 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO150YZC=ENCDO150YZC ENCDO651ROT=ENCDO651ROT ENCDO918HJM=ENCDO918HJM 
+subGroup2 age age a16_week=16&#32;week a40_week=40&#32;week 
+subGroup3 view view ENCSR144NDE=ENCSR144NDE ENCSR249AWJ=ENCSR249AWJ ENCSR420IOA=ENCSR420IOA ENCSR430RVP=ENCSR430RVP ENCSR495GRN=ENCSR495GRN ENCSR786DQB=ENCSR786DQB bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR420IOA_ENCFF583QTW
+	parent tissue_amnion off
+	subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF583QTW/@@download/ENCFF583QTW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR420IOA amnion_male_embryo_16_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR420IOA age=16_week description=ENCSR420IOA_amnion_male_embryo_16_weeks_fold_change_over_control_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track tissue_amnion_view_ENCSR420IOA
+	parent tissue_amnion off
+	view ENCSR420IOA
+	visibility dense
+	type bigBed
+
+		track ENCSR420IOA_ENCFF624FRT
+		parent tissue_amnion_view_ENCSR420IOA off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K4me3 view=ENCSR420IOA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF624FRT/@@download/ENCFF624FRT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR420IOA amnion_male_embryo_16_weeks_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR420IOA age=16_week description=ENCSR420IOA_amnion_male_embryo_16_weeks_peaks_ donor=ENCDO150YZC sex=male view=ENCSR420IOA 
+		view ENCSR420IOA
+
+		track ENCSR420IOA_ENCFF189SXL
+		parent tissue_amnion_view_ENCSR420IOA off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K4me3 view=ENCSR420IOA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF189SXL/@@download/ENCFF189SXL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF189SXL 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR420IOA age=16_week description=ENCFF189SXL_5group_ donor=ENCDO150YZC sex=male view=ENCSR420IOA 
+		view ENCSR420IOA
+
+		track ENCSR420IOA_ENCFF787FOJ
+		parent tissue_amnion_view_ENCSR420IOA off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K4me3 view=ENCSR420IOA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF787FOJ/@@download/ENCFF787FOJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF787FOJ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR420IOA age=16_week description=ENCFF787FOJ_9state_H3K4me3_ donor=ENCDO150YZC sex=male view=ENCSR420IOA 
+		view ENCSR420IOA
+
+		track ENCSR420IOA_ENCFF882IXP
+		parent tissue_amnion_view_ENCSR420IOA off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K4me3 view=ENCSR420IOA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF882IXP/@@download/ENCFF882IXP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF882IXP 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR420IOA age=16_week description=ENCFF882IXP_9state_H3K27ac_ donor=ENCDO150YZC sex=male view=ENCSR420IOA 
+		view ENCSR420IOA
+
+	track ENCSR430RVP_ENCFF892EFZ
+	parent tissue_amnion off
+	subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF892EFZ/@@download/ENCFF892EFZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR430RVP amnion_male_embryo_16_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR430RVP age=16_week description=ENCSR430RVP_amnion_male_embryo_16_weeks_fold_change_over_control_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track tissue_amnion_view_ENCSR430RVP
+	parent tissue_amnion off
+	view ENCSR430RVP
+	visibility dense
+	type bigBed
+
+		track ENCSR430RVP_ENCFF592VKG
+		parent tissue_amnion_view_ENCSR430RVP off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K27ac view=ENCSR430RVP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF592VKG/@@download/ENCFF592VKG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR430RVP amnion_male_embryo_16_weeks_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR430RVP age=16_week description=ENCSR430RVP_amnion_male_embryo_16_weeks_stable_peaks_ donor=ENCDO150YZC sex=male view=ENCSR430RVP 
+		view ENCSR430RVP
+
+		track ENCSR430RVP_ENCFF189SXL
+		parent tissue_amnion_view_ENCSR430RVP off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K27ac view=ENCSR430RVP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF189SXL/@@download/ENCFF189SXL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF189SXL 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR430RVP age=16_week description=ENCFF189SXL_5group_ donor=ENCDO150YZC sex=male view=ENCSR430RVP 
+		view ENCSR430RVP
+
+		track ENCSR430RVP_ENCFF787FOJ
+		parent tissue_amnion_view_ENCSR430RVP off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K27ac view=ENCSR430RVP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF787FOJ/@@download/ENCFF787FOJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF787FOJ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR430RVP age=16_week description=ENCFF787FOJ_9state_H3K4me3_ donor=ENCDO150YZC sex=male view=ENCSR430RVP 
+		view ENCSR430RVP
+
+		track ENCSR430RVP_ENCFF882IXP
+		parent tissue_amnion_view_ENCSR430RVP off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K27ac view=ENCSR430RVP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF882IXP/@@download/ENCFF882IXP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF882IXP 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR430RVP age=16_week description=ENCFF882IXP_9state_H3K27ac_ donor=ENCDO150YZC sex=male view=ENCSR430RVP 
+		view ENCSR430RVP
+
+	track ENCSR173BQJ_ENCFF394IKM
+	parent tissue_amnion off
+	subGroups age=a16_week assay=microRNA-seq donor=ENCDO150YZC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF394IKM/@@download/ENCFF394IKM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR173BQJ amnion_male_embryo_16_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR173BQJ age=16_week description=ENCSR173BQJ_amnion_male_embryo_16_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR534UXT_ENCFF163TCN
+	parent tissue_amnion off
+	subGroups age=a40_week assay=RNA-seq donor=ENCDO651ROT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF163TCN/@@download/ENCFF163TCN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR534UXT amnion_female_embryo_40_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR534UXT age=40_week description=ENCSR534UXT_amnion_female_embryo_40_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO651ROT sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR557PFL_ENCFF489BUV
+	parent tissue_amnion off
+	subGroups age=a16_week assay=RNA-seq donor=ENCDO918HJM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF489BUV/@@download/ENCFF489BUV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR557PFL amnion_embryo_16_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR557PFL age=16_week description=ENCSR557PFL_amnion_embryo_16_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO918HJM sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR774XDK_ENCFF901XDI
+	parent tissue_amnion off
+	subGroups age=a16_week assay=microRNA-seq donor=ENCDO918HJM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF901XDI/@@download/ENCFF901XDI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR774XDK amnion_embryo_16_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR774XDK age=16_week description=ENCSR774XDK_amnion_embryo_16_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO918HJM sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR784PDN_ENCFF006GBA
+	parent tissue_amnion off
+	subGroups age=a16_week assay=RNA-seq donor=ENCDO150YZC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF006GBA/@@download/ENCFF006GBA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR784PDN amnion_male_embryo_16_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR784PDN age=16_week description=ENCSR784PDN_amnion_male_embryo_16_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR860UDA_ENCFF879YRD
+	parent tissue_amnion off
+	subGroups age=a40_week assay=microRNA-seq donor=ENCDO651ROT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF879YRD/@@download/ENCFF879YRD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR860UDA amnion_female_embryo_40_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR860UDA age=40_week description=ENCSR860UDA_amnion_female_embryo_40_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO651ROT sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR144NDE_ENCFF778EGW
+	parent tissue_amnion off
+	subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF778EGW/@@download/ENCFF778EGW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR144NDE amnion_male_embryo_16_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR144NDE age=16_week description=ENCSR144NDE_amnion_male_embryo_16_weeks_fold_change_over_control_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track tissue_amnion_view_ENCSR144NDE
+	parent tissue_amnion off
+	view ENCSR144NDE
+	visibility dense
+	type bigBed
+
+		track ENCSR144NDE_ENCFF762RBF
+		parent tissue_amnion_view_ENCSR144NDE off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K27me3 view=ENCSR144NDE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF762RBF/@@download/ENCFF762RBF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR144NDE amnion_male_embryo_16_weeks_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR144NDE age=16_week description=ENCSR144NDE_amnion_male_embryo_16_weeks_peaks_ donor=ENCDO150YZC sex=male view=ENCSR144NDE 
+		view ENCSR144NDE
+
+	track ENCSR786DQB_ENCFF885ISM
+	parent tissue_amnion off
+	subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF885ISM/@@download/ENCFF885ISM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR786DQB amnion_male_embryo_16_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR786DQB age=16_week description=ENCSR786DQB_amnion_male_embryo_16_weeks_fold_change_over_control_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track tissue_amnion_view_ENCSR786DQB
+	parent tissue_amnion off
+	view ENCSR786DQB
+	visibility dense
+	type bigBed
+
+		track ENCSR786DQB_ENCFF979BOH
+		parent tissue_amnion_view_ENCSR786DQB off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K36me3 view=ENCSR786DQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF979BOH/@@download/ENCFF979BOH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR786DQB amnion_male_embryo_16_weeks_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR786DQB age=16_week description=ENCSR786DQB_amnion_male_embryo_16_weeks_stable_peaks_ donor=ENCDO150YZC sex=male view=ENCSR786DQB 
+		view ENCSR786DQB
+
+	track ENCSR249AWJ_ENCFF369VGP
+	parent tissue_amnion off
+	subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF369VGP/@@download/ENCFF369VGP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR249AWJ amnion_male_embryo_16_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR249AWJ age=16_week description=ENCSR249AWJ_amnion_male_embryo_16_weeks_fold_change_over_control_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track tissue_amnion_view_ENCSR249AWJ
+	parent tissue_amnion off
+	view ENCSR249AWJ
+	visibility dense
+	type bigBed
+
+		track ENCSR249AWJ_ENCFF244NAI
+		parent tissue_amnion_view_ENCSR249AWJ off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K4me1 view=ENCSR249AWJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF244NAI/@@download/ENCFF244NAI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR249AWJ amnion_male_embryo_16_weeks_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR249AWJ age=16_week description=ENCSR249AWJ_amnion_male_embryo_16_weeks_stable_peaks_ donor=ENCDO150YZC sex=male view=ENCSR249AWJ 
+		view ENCSR249AWJ
+
+	track ENCSR495GRN_ENCFF318SIP
+	parent tissue_amnion off
+	subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF318SIP/@@download/ENCFF318SIP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR495GRN amnion_male_embryo_16_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR495GRN age=16_week description=ENCSR495GRN_amnion_male_embryo_16_weeks_fold_change_over_control_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track tissue_amnion_view_ENCSR495GRN
+	parent tissue_amnion off
+	view ENCSR495GRN
+	visibility dense
+	type bigBed
+
+		track ENCSR495GRN_ENCFF114FQC
+		parent tissue_amnion_view_ENCSR495GRN off
+		subGroups age=a16_week assay=ChIP-seq donor=ENCDO150YZC label=H3K9me3 view=ENCSR495GRN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF114FQC/@@download/ENCFF114FQC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR495GRN amnion_male_embryo_16_weeks_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR495GRN age=16_week description=ENCSR495GRN_amnion_male_embryo_16_weeks_peaks_ donor=ENCDO150YZC sex=male view=ENCSR495GRN 
+		view ENCSR495GRN
+

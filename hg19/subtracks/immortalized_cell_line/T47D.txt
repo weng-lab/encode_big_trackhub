@@ -1,0 +1,371 @@
+
+track immortalized_cell_line_T47D
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel T47D
+longLabel T47D (12 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label CTCF=CTCF ESR1=ESR1 FOXA1=FOXA1 GATA3=GATA3 JUND=JUND unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq RNA-seq=RNA-seq 
+subGroup3 view view ENCSR000BJS=ENCSR000BJS ENCSR000BKY=ENCSR000BKY ENCSR000BLL=ENCSR000BLL ENCSR000BMX=ENCSR000BMX ENCSR000BNO=ENCSR000BNO ENCSR000BQD=ENCSR000BQD ENCSR000BVO=ENCSR000BVO ENCSR000ELS=ENCSR000ELS bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ELS_ENCFF146VXL
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=DNase-seq donor=ENCDO000ABA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF146VXL/@@download/ENCFF146VXL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ELS T47D_treated_with_10_nM_17_estradiol_for_30_minutes (read-depth norm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ELS age=54_year description=ENCSR000ELS_T47D_treated_with_10_nM_17_estradiol_for_30_minutes_read_depth_normalized_signal_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_T47D_view_ENCSR000ELS
+	parent immortalized_cell_line_T47D off
+	view ENCSR000ELS
+	visibility dense
+	type bigBed
+
+		track ENCSR000ELS_ENCFF551FBP
+		parent immortalized_cell_line_T47D_view_ENCSR000ELS off
+		subGroups age=a54_year assay=DNase-seq donor=ENCDO000ABA label=unknown view=ENCSR000ELS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF551FBP/@@download/ENCFF551FBP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ELS T47D_treated_with_10_nM_17_estradiol_for_30_minutes (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ELS age=54_year description=ENCSR000ELS_T47D_treated_with_10_nM_17_estradiol_for_30_minutes_peaks_ donor=ENCDO000ABA sex=female view=ENCSR000ELS 
+		view ENCSR000ELS
+
+	track ENCSR000BNO_ENCFF082BMM
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF082BMM/@@download/ENCFF082BMM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000BNO T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BNO age=54_year description=ENCSR000BNO_T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_fold_change_over_control_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_T47D_view_ENCSR000BNO
+	parent immortalized_cell_line_T47D off
+	view ENCSR000BNO
+	visibility dense
+	type bigBed
+
+		track ENCSR000BNO_ENCFF321MQH
+		parent immortalized_cell_line_T47D_view_ENCSR000BNO off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=CTCF view=ENCSR000BNO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF321MQH/@@download/ENCFF321MQH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000BNO T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (optimal idr th
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000BNO age=54_year description=ENCSR000BNO_T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ABA sex=female view=ENCSR000BNO 
+		view ENCSR000BNO
+
+		track ENCSR000BNO_ENCFF762EFK
+		parent immortalized_cell_line_T47D_view_ENCSR000BNO off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=CTCF view=ENCSR000BNO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF762EFK/@@download/ENCFF762EFK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF762EFK 9state-CTCF CTCF ChIP-seq (protocol v041610.2) on T-47D treated with
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000BNO age=54_year description=ENCFF762EFK_9state_CTCF_CTCF_ChIP_seq_protocol_v041610_2_on_T_47D_treated_with_dimethylsulfoxide_at_0_02_ donor=ENCDO000ABA sex=female view=ENCSR000BNO 
+		view ENCSR000BNO
+
+	track ENCSR000BYD_ENCFF964DML
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO000ABA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF964DML/@@download/ENCFF964DML.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYD T47D_treated_with_100_nM_bisphenol_A_for_4_hours (signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYD age=54_year description=ENCSR000BYD_T47D_treated_with_100_nM_bisphenol_A_for_4_hours_signal_of_unique_reads_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000BYE_ENCFF989VZS
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO000ABA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF989VZS/@@download/ENCFF989VZS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYE T47D_treated_with_0_02_dimethyl_sulfoxide_for_4_hours (signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYE age=54_year description=ENCSR000BYE_T47D_treated_with_0_02_dimethyl_sulfoxide_for_4_hours_signal_of_unique_reads_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000BYF_ENCFF515JFR
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO000ABA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF515JFR/@@download/ENCFF515JFR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYF T47D_treated_with_10_nM_estradiol_for_4_hours (signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYF age=54_year description=ENCSR000BYF_T47D_treated_with_10_nM_estradiol_for_4_hours_signal_of_unique_reads_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000BYG_ENCFF146BOQ
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO000ABA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF146BOQ/@@download/ENCFF146BOQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYG T47D_treated_with_100_nM_genistein_for_4_hours (signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYG age=54_year description=ENCSR000BYG_T47D_treated_with_100_nM_genistein_for_4_hours_signal_of_unique_reads_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000BJS_ENCFF175ZYB
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=ESR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF175ZYB/@@download/ENCFF175ZYB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ESR1
+	longLabel ENCSR000BJS T47D_treated_with_100_nM_genistein_for_1_hour (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BJS age=54_year description=ENCSR000BJS_T47D_treated_with_100_nM_genistein_for_1_hour_fold_change_over_control_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_T47D_view_ENCSR000BJS
+	parent immortalized_cell_line_T47D off
+	view ENCSR000BJS
+	visibility dense
+	type bigBed
+
+		track ENCSR000BJS_ENCFF594XJJ
+		parent immortalized_cell_line_T47D_view_ENCSR000BJS off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=ESR1 view=ENCSR000BJS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF594XJJ/@@download/ENCFF594XJJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ESR1
+		longLabel ENCSR000BJS T47D_treated_with_100_nM_genistein_for_1_hour (optimal idr threshold
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BJS age=54_year description=ENCSR000BJS_T47D_treated_with_100_nM_genistein_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ABA sex=female view=ENCSR000BJS 
+		view ENCSR000BJS
+
+	track ENCSR000BLL_ENCFF898CBF
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=ESR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF898CBF/@@download/ENCFF898CBF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ESR1
+	longLabel ENCSR000BLL T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BLL age=54_year description=ENCSR000BLL_T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_fold_change_over_control_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_T47D_view_ENCSR000BLL
+	parent immortalized_cell_line_T47D off
+	view ENCSR000BLL
+	visibility dense
+	type bigBed
+
+		track ENCSR000BLL_ENCFF368MZI
+		parent immortalized_cell_line_T47D_view_ENCSR000BLL off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=ESR1 view=ENCSR000BLL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF368MZI/@@download/ENCFF368MZI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ESR1
+		longLabel ENCSR000BLL T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (optimal idr th
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BLL age=54_year description=ENCSR000BLL_T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ABA sex=female view=ENCSR000BLL 
+		view ENCSR000BLL
+
+	track ENCSR000BQD_ENCFF313BKW
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=ESR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF313BKW/@@download/ENCFF313BKW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ESR1
+	longLabel ENCSR000BQD T47D_treated_with_100_nM_bisphenol_A_for_30_minutes (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BQD age=54_year description=ENCSR000BQD_T47D_treated_with_100_nM_bisphenol_A_for_30_minutes_fold_change_over_control_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_T47D_view_ENCSR000BQD
+	parent immortalized_cell_line_T47D off
+	view ENCSR000BQD
+	visibility dense
+	type bigBed
+
+		track ENCSR000BQD_ENCFF494WEB
+		parent immortalized_cell_line_T47D_view_ENCSR000BQD off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=ESR1 view=ENCSR000BQD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF494WEB/@@download/ENCFF494WEB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ESR1
+		longLabel ENCSR000BQD T47D_treated_with_100_nM_bisphenol_A_for_30_minutes (optimal idr thr
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BQD age=54_year description=ENCSR000BQD_T47D_treated_with_100_nM_bisphenol_A_for_30_minutes_optimal_idr_thresholded_peaks_ donor=ENCDO000ABA sex=female view=ENCSR000BQD 
+		view ENCSR000BQD
+
+	track ENCSR000BKY_ENCFF275YIF
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=FOXA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF275YIF/@@download/ENCFF275YIF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FOXA1
+	longLabel ENCSR000BKY T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BKY age=54_year description=ENCSR000BKY_T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_fold_change_over_control_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_T47D_view_ENCSR000BKY
+	parent immortalized_cell_line_T47D off
+	view ENCSR000BKY
+	visibility dense
+	type bigBed
+
+		track ENCSR000BKY_ENCFF651UEJ
+		parent immortalized_cell_line_T47D_view_ENCSR000BKY off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=FOXA1 view=ENCSR000BKY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF651UEJ/@@download/ENCFF651UEJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq FOXA1
+		longLabel ENCSR000BKY T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (optimal idr th
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BKY age=54_year description=ENCSR000BKY_T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ABA sex=female view=ENCSR000BKY 
+		view ENCSR000BKY
+
+	track ENCSR000BMX_ENCFF129RJN
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=GATA3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF129RJN/@@download/ENCFF129RJN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA3
+	longLabel ENCSR000BMX T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BMX age=54_year description=ENCSR000BMX_T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_fold_change_over_control_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_T47D_view_ENCSR000BMX
+	parent immortalized_cell_line_T47D off
+	view ENCSR000BMX
+	visibility dense
+	type bigBed
+
+		track ENCSR000BMX_ENCFF627NWT
+		parent immortalized_cell_line_T47D_view_ENCSR000BMX off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=GATA3 view=ENCSR000BMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF627NWT/@@download/ENCFF627NWT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq GATA3
+		longLabel ENCSR000BMX T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (optimal idr th
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BMX age=54_year description=ENCSR000BMX_T47D_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ABA sex=female view=ENCSR000BMX 
+		view ENCSR000BMX
+
+	track ENCSR000BVO_ENCFF215AGB
+	parent immortalized_cell_line_T47D off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=JUND view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF215AGB/@@download/ENCFF215AGB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq JUND
+	longLabel ENCSR000BVO T47D (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BVO age=54_year description=ENCSR000BVO_T47D_fold_change_over_control_ donor=ENCDO000ABA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_T47D_view_ENCSR000BVO
+	parent immortalized_cell_line_T47D off
+	view ENCSR000BVO
+	visibility dense
+	type bigBed
+
+		track ENCSR000BVO_ENCFF005KIN
+		parent immortalized_cell_line_T47D_view_ENCSR000BVO off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO000ABA label=JUND view=ENCSR000BVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF005KIN/@@download/ENCFF005KIN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq JUND
+		longLabel ENCSR000BVO T47D (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BVO age=54_year description=ENCSR000BVO_T47D_optimal_idr_thresholded_peaks_ donor=ENCDO000ABA sex=female view=ENCSR000BVO 
+		view ENCSR000BVO
+

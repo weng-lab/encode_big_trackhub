@@ -1,0 +1,88 @@
+
+track immortalized_cell_line_GM19193
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel GM19193
+longLabel GM19193 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label POLR2A=POLR2A RELA=RELA 
+subGroup2 assay assay ChIP-seq=ChIP-seq 
+subGroup3 view view ENCSR000EBK=ENCSR000EBK ENCSR000EBM=ENCSR000EBM bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EBK_ENCFF000WQE
+	parent immortalized_cell_line_GM19193 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ACK label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000WQE/@@download/ENCFF000WQE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000EBK GM19193 (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EBK age=unknown description=ENCSR000EBK_GM19193_signal_ donor=ENCDO000ACK sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_GM19193_view_ENCSR000EBK
+	parent immortalized_cell_line_GM19193 off
+	view ENCSR000EBK
+	visibility dense
+	type bigBed
+
+		track ENCSR000EBK_ENCFF171LWV
+		parent immortalized_cell_line_GM19193_view_ENCSR000EBK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ACK label=POLR2A view=ENCSR000EBK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF171LWV/@@download/ENCFF171LWV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000EBK GM19193 (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EBK age=unknown description=ENCSR000EBK_GM19193_optimal_idr_thresholded_peaks_ donor=ENCDO000ACK sex=female view=ENCSR000EBK 
+		view ENCSR000EBK
+
+	track ENCSR000EBM_ENCFF000WPU
+	parent immortalized_cell_line_GM19193 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ACK label=RELA view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000WPU/@@download/ENCFF000WPU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RELA
+	longLabel ENCSR000EBM GM19193_treated_with_25_ng_mL_tumor_necrosis_factor_for_6_hours (sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EBM age=unknown description=ENCSR000EBM_GM19193_treated_with_25_ng_mL_tumor_necrosis_factor_for_6_hours_signal_ donor=ENCDO000ACK sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_GM19193_view_ENCSR000EBM
+	parent immortalized_cell_line_GM19193 off
+	view ENCSR000EBM
+	visibility dense
+	type bigBed
+
+		track ENCSR000EBM_ENCFF189FYN
+		parent immortalized_cell_line_GM19193_view_ENCSR000EBM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ACK label=RELA view=ENCSR000EBM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF189FYN/@@download/ENCFF189FYN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq RELA
+		longLabel ENCSR000EBM GM19193_treated_with_25_ng_mL_tumor_necrosis_factor_for_6_hours (opt
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EBM age=unknown description=ENCSR000EBM_GM19193_treated_with_25_ng_mL_tumor_necrosis_factor_for_6_hours_optimal_idr_thresholded_peaks_ donor=ENCDO000ACK sex=female view=ENCSR000EBM 
+		view ENCSR000EBM
+

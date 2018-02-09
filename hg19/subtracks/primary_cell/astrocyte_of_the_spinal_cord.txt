@@ -1,0 +1,166 @@
+
+track primary_cell_astrocyte_of_the_spinal_cord
+parent super_primary_cell
+compositeTrack on
+shortLabel astrocyte of the 
+longLabel astrocyte of the spinal cord (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO224AAA=ENCDO224AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DSU=ENCSR000DSU ENCSR000DSW=ENCSR000DSW bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DSW_ENCFF413IXY
+	parent primary_cell_astrocyte_of_the_spinal_cord off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF413IXY/@@download/ENCFF413IXY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DSW astrocyte_of_the_spinal_cord (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSW age=unknown description=ENCSR000DSW_astrocyte_of_the_spinal_cord_fold_change_over_control_ donor=ENCDO224AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSW
+	parent primary_cell_astrocyte_of_the_spinal_cord off
+	view ENCSR000DSW
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSW_ENCFF946GJX
+		parent primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=H3K4me3 view=ENCSR000DSW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF946GJX/@@download/ENCFF946GJX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DSW astrocyte_of_the_spinal_cord (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DSW age=unknown description=ENCSR000DSW_astrocyte_of_the_spinal_cord_replicated_peaks_ donor=ENCDO224AAA sex=unknown view=ENCSR000DSW 
+		view ENCSR000DSW
+
+		track ENCSR000DSW_ENCFF549LGN
+		parent primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=H3K4me3 view=ENCSR000DSW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549LGN/@@download/ENCFF549LGN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF549LGN 9state-CTCF H3K4me3 ChIP-seq on human HA-sp
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSW age=unknown description=ENCFF549LGN_9state_CTCF_H3K4me3_ChIP_seq_on_human_HA_sp donor=ENCDO224AAA sex=unknown view=ENCSR000DSW 
+		view ENCSR000DSW
+
+		track ENCSR000DSW_ENCFF241SXE
+		parent primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=H3K4me3 view=ENCSR000DSW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF241SXE/@@download/ENCFF241SXE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF241SXE 5group H3K4me3 ChIP-seq on human HA-sp
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSW age=unknown description=ENCFF241SXE_5group_H3K4me3_ChIP_seq_on_human_HA_sp donor=ENCDO224AAA sex=unknown view=ENCSR000DSW 
+		view ENCSR000DSW
+
+		track ENCSR000DSW_ENCFF641TPB
+		parent primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=H3K4me3 view=ENCSR000DSW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF641TPB/@@download/ENCFF641TPB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF641TPB 9state-H3K4me3 H3K4me3 ChIP-seq on human HA-sp
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSW age=unknown description=ENCFF641TPB_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HA_sp donor=ENCDO224AAA sex=unknown view=ENCSR000DSW 
+		view ENCSR000DSW
+
+	track ENCSR000DSU_ENCFF650VXS
+	parent primary_cell_astrocyte_of_the_spinal_cord off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF650VXS/@@download/ENCFF650VXS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DSU astrocyte_of_the_spinal_cord (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSU age=unknown description=ENCSR000DSU_astrocyte_of_the_spinal_cord_fold_change_over_control_ donor=ENCDO224AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSU
+	parent primary_cell_astrocyte_of_the_spinal_cord off
+	view ENCSR000DSU
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSU_ENCFF044YTP
+		parent primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=CTCF view=ENCSR000DSU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF044YTP/@@download/ENCFF044YTP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DSU astrocyte_of_the_spinal_cord (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DSU age=unknown description=ENCSR000DSU_astrocyte_of_the_spinal_cord_optimal_idr_thresholded_peaks_ donor=ENCDO224AAA sex=unknown view=ENCSR000DSU 
+		view ENCSR000DSU
+
+		track ENCSR000DSU_ENCFF549LGN
+		parent primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=CTCF view=ENCSR000DSU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549LGN/@@download/ENCFF549LGN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF549LGN 9state-CTCF CTCF ChIP-seq on human HA-sp
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSU age=unknown description=ENCFF549LGN_9state_CTCF_CTCF_ChIP_seq_on_human_HA_sp donor=ENCDO224AAA sex=unknown view=ENCSR000DSU 
+		view ENCSR000DSU
+
+		track ENCSR000DSU_ENCFF241SXE
+		parent primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=CTCF view=ENCSR000DSU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF241SXE/@@download/ENCFF241SXE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF241SXE 5group CTCF ChIP-seq on human HA-sp
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSU age=unknown description=ENCFF241SXE_5group_CTCF_ChIP_seq_on_human_HA_sp donor=ENCDO224AAA sex=unknown view=ENCSR000DSU 
+		view ENCSR000DSU
+
+		track ENCSR000DSU_ENCFF641TPB
+		parent primary_cell_astrocyte_of_the_spinal_cord_view_ENCSR000DSU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO224AAA label=CTCF view=ENCSR000DSU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF641TPB/@@download/ENCFF641TPB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF641TPB 9state-H3K4me3 CTCF ChIP-seq on human HA-sp
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSU age=unknown description=ENCFF641TPB_9state_H3K4me3_CTCF_ChIP_seq_on_human_HA_sp donor=ENCDO224AAA sex=unknown view=ENCSR000DSU 
+		view ENCSR000DSU
+

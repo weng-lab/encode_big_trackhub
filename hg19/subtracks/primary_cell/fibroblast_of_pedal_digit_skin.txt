@@ -1,0 +1,279 @@
+
+track primary_cell_fibroblast_of_pedal_digit_skin
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of ped
+longLabel fibroblast of pedal digit skin (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO002AAA=ENCDO002AAA 
+subGroup2 age age a21_year=21&#32;year 
+subGroup3 view view ENCSR000DPP=ENCSR000DPP ENCSR000DPR=ENCSR000DPR ENCSR000ELZ=ENCSR000ELZ bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ELZ_ENCFF054LJG
+	parent primary_cell_fibroblast_of_pedal_digit_skin off
+	subGroups age=a21_year assay=DNase-seq donor=ENCDO002AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF054LJG/@@download/ENCFF054LJG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ELZ fibroblast_of_pedal_digit_skin_female_adult_21_year_ (read-depth nor
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ELZ age=21_year description=ENCSR000ELZ_fibroblast_of_pedal_digit_skin_female_adult_21_year_read_depth_normalized_signal_ donor=ENCDO002AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000ELZ
+	parent primary_cell_fibroblast_of_pedal_digit_skin off
+	view ENCSR000ELZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000ELZ_ENCFF988VVU
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000ELZ off
+		subGroups age=a21_year assay=DNase-seq donor=ENCDO002AAA label=unknown view=ENCSR000ELZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF988VVU/@@download/ENCFF988VVU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ELZ fibroblast_of_pedal_digit_skin_female_adult_21_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ELZ age=21_year description=ENCSR000ELZ_fibroblast_of_pedal_digit_skin_female_adult_21_year_peaks_ donor=ENCDO002AAA sex=female view=ENCSR000ELZ 
+		view ENCSR000ELZ
+
+		track ENCSR000ELZ_ENCFF356VLO
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000ELZ off
+		subGroups age=a21_year assay=DNase-seq donor=ENCDO002AAA label=unknown view=ENCSR000ELZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF356VLO/@@download/ENCFF356VLO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF356VLO 9state-DNase DNase-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELZ age=21_year description=ENCFF356VLO_9state_DNase_DNase_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000ELZ 
+		view ENCSR000ELZ
+
+		track ENCSR000ELZ_ENCFF915BNT
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000ELZ off
+		subGroups age=a21_year assay=DNase-seq donor=ENCDO002AAA label=unknown view=ENCSR000ELZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF915BNT/@@download/ENCFF915BNT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF915BNT 9state-CTCF DNase-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELZ age=21_year description=ENCFF915BNT_9state_CTCF_DNase_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000ELZ 
+		view ENCSR000ELZ
+
+		track ENCSR000ELZ_ENCFF066EXA
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000ELZ off
+		subGroups age=a21_year assay=DNase-seq donor=ENCDO002AAA label=unknown view=ENCSR000ELZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF066EXA/@@download/ENCFF066EXA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF066EXA 5group DNase-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELZ age=21_year description=ENCFF066EXA_5group_DNase_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000ELZ 
+		view ENCSR000ELZ
+
+		track ENCSR000ELZ_ENCFF516BFI
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000ELZ off
+		subGroups age=a21_year assay=DNase-seq donor=ENCDO002AAA label=unknown view=ENCSR000ELZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF516BFI/@@download/ENCFF516BFI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF516BFI 9state-H3K4me3 DNase-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELZ age=21_year description=ENCFF516BFI_9state_H3K4me3_DNase_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000ELZ 
+		view ENCSR000ELZ
+
+	track ENCSR000DPR_ENCFF220HJQ
+	parent primary_cell_fibroblast_of_pedal_digit_skin off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF220HJQ/@@download/ENCFF220HJQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DPR fibroblast_of_pedal_digit_skin_female_adult_21_year_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPR age=21_year description=ENCSR000DPR_fibroblast_of_pedal_digit_skin_female_adult_21_year_fold_change_over_control_ donor=ENCDO002AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPR
+	parent primary_cell_fibroblast_of_pedal_digit_skin off
+	view ENCSR000DPR
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPR_ENCFF300NXN
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPR off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=H3K4me3 view=ENCSR000DPR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF300NXN/@@download/ENCFF300NXN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DPR fibroblast_of_pedal_digit_skin_female_adult_21_year_ (replicated pea
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DPR age=21_year description=ENCSR000DPR_fibroblast_of_pedal_digit_skin_female_adult_21_year_replicated_peaks_ donor=ENCDO002AAA sex=female view=ENCSR000DPR 
+		view ENCSR000DPR
+
+		track ENCSR000DPR_ENCFF356VLO
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPR off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=H3K4me3 view=ENCSR000DPR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF356VLO/@@download/ENCFF356VLO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF356VLO 9state-DNase H3K4me3 ChIP-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPR age=21_year description=ENCFF356VLO_9state_DNase_H3K4me3_ChIP_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000DPR 
+		view ENCSR000DPR
+
+		track ENCSR000DPR_ENCFF915BNT
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPR off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=H3K4me3 view=ENCSR000DPR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF915BNT/@@download/ENCFF915BNT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF915BNT 9state-CTCF H3K4me3 ChIP-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPR age=21_year description=ENCFF915BNT_9state_CTCF_H3K4me3_ChIP_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000DPR 
+		view ENCSR000DPR
+
+		track ENCSR000DPR_ENCFF066EXA
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPR off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=H3K4me3 view=ENCSR000DPR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF066EXA/@@download/ENCFF066EXA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF066EXA 5group H3K4me3 ChIP-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPR age=21_year description=ENCFF066EXA_5group_H3K4me3_ChIP_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000DPR 
+		view ENCSR000DPR
+
+		track ENCSR000DPR_ENCFF516BFI
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPR off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=H3K4me3 view=ENCSR000DPR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF516BFI/@@download/ENCFF516BFI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF516BFI 9state-H3K4me3 H3K4me3 ChIP-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPR age=21_year description=ENCFF516BFI_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000DPR 
+		view ENCSR000DPR
+
+	track ENCSR000DPP_ENCFF380POX
+	parent primary_cell_fibroblast_of_pedal_digit_skin off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF380POX/@@download/ENCFF380POX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DPP fibroblast_of_pedal_digit_skin_female_adult_21_year_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPP age=21_year description=ENCSR000DPP_fibroblast_of_pedal_digit_skin_female_adult_21_year_fold_change_over_control_ donor=ENCDO002AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPP
+	parent primary_cell_fibroblast_of_pedal_digit_skin off
+	view ENCSR000DPP
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPP_ENCFF187EXG
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPP off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=CTCF view=ENCSR000DPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF187EXG/@@download/ENCFF187EXG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DPP fibroblast_of_pedal_digit_skin_female_adult_21_year_ (optimal idr th
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DPP age=21_year description=ENCSR000DPP_fibroblast_of_pedal_digit_skin_female_adult_21_year_optimal_idr_thresholded_peaks_ donor=ENCDO002AAA sex=female view=ENCSR000DPP 
+		view ENCSR000DPP
+
+		track ENCSR000DPP_ENCFF356VLO
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPP off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=CTCF view=ENCSR000DPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF356VLO/@@download/ENCFF356VLO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF356VLO 9state-DNase CTCF ChIP-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPP age=21_year description=ENCFF356VLO_9state_DNase_CTCF_ChIP_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000DPP 
+		view ENCSR000DPP
+
+		track ENCSR000DPP_ENCFF915BNT
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPP off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=CTCF view=ENCSR000DPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF915BNT/@@download/ENCFF915BNT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF915BNT 9state-CTCF CTCF ChIP-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPP age=21_year description=ENCFF915BNT_9state_CTCF_CTCF_ChIP_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000DPP 
+		view ENCSR000DPP
+
+		track ENCSR000DPP_ENCFF066EXA
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPP off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=CTCF view=ENCSR000DPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF066EXA/@@download/ENCFF066EXA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF066EXA 5group CTCF ChIP-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPP age=21_year description=ENCFF066EXA_5group_CTCF_ChIP_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000DPP 
+		view ENCSR000DPP
+
+		track ENCSR000DPP_ENCFF516BFI
+		parent primary_cell_fibroblast_of_pedal_digit_skin_view_ENCSR000DPP off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO002AAA label=CTCF view=ENCSR000DPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF516BFI/@@download/ENCFF516BFI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF516BFI 9state-H3K4me3 CTCF ChIP-seq on human AG09309
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPP age=21_year description=ENCFF516BFI_9state_H3K4me3_CTCF_ChIP_seq_on_human_AG09309 donor=ENCDO002AAA sex=female view=ENCSR000DPP 
+		view ENCSR000DPP
+

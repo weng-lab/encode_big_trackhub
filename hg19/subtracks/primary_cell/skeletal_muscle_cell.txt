@@ -1,0 +1,101 @@
+
+track primary_cell_skeletal_muscle_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel skeletal muscle c
+longLabel skeletal muscle cell (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO094AAA=ENCDO094AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DXT=ENCSR000DXT ENCSR000EQA=ENCSR000EQA bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EQA_ENCFF104AHC
+	parent primary_cell_skeletal_muscle_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF104AHC/@@download/ENCFF104AHC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EQA skeletal_muscle_cell (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQA age=unknown description=ENCSR000EQA_skeletal_muscle_cell_read_depth_normalized_signal_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_cell_view_ENCSR000EQA
+	parent primary_cell_skeletal_muscle_cell off
+	view ENCSR000EQA
+	visibility dense
+	type bigBed
+
+		track ENCSR000EQA_ENCFF873CEU
+		parent primary_cell_skeletal_muscle_cell_view_ENCSR000EQA off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=ENCSR000EQA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF873CEU/@@download/ENCFF873CEU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EQA skeletal_muscle_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EQA age=unknown description=ENCSR000EQA_skeletal_muscle_cell_peaks_ donor=ENCDO094AAA sex=unknown view=ENCSR000EQA 
+		view ENCSR000EQA
+
+	track ENCSR000DXT_ENCFF908KCS
+	parent primary_cell_skeletal_muscle_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO094AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF908KCS/@@download/ENCFF908KCS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DXT skeletal_muscle_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DXT age=unknown description=ENCSR000DXT_skeletal_muscle_cell_fold_change_over_control_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_cell_view_ENCSR000DXT
+	parent primary_cell_skeletal_muscle_cell off
+	view ENCSR000DXT
+	visibility dense
+	type bigBed
+
+		track ENCSR000DXT_ENCFF228UMY
+		parent primary_cell_skeletal_muscle_cell_view_ENCSR000DXT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO094AAA label=H3K4me3 view=ENCSR000DXT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF228UMY/@@download/ENCFF228UMY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DXT skeletal_muscle_cell (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DXT age=unknown description=ENCSR000DXT_skeletal_muscle_cell_replicated_peaks_ donor=ENCDO094AAA sex=unknown view=ENCSR000DXT 
+		view ENCSR000DXT
+
+		track ENCSR000DXT_ENCFF852GPA
+		parent primary_cell_skeletal_muscle_cell_view_ENCSR000DXT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO094AAA label=H3K4me3 view=ENCSR000DXT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF852GPA/@@download/ENCFF852GPA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF852GPA 5group H3K4me3 ChIP-seq on human SKMC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXT age=unknown description=ENCFF852GPA_5group_H3K4me3_ChIP_seq_on_human_SKMC donor=ENCDO094AAA sex=unknown view=ENCSR000DXT 
+		view ENCSR000DXT
+

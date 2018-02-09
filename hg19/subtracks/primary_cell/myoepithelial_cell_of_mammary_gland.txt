@@ -1,0 +1,448 @@
+
+track primary_cell_myoepithelial_cell_of_mammary_gland
+parent super_primary_cell
+compositeTrack on
+shortLabel myoepithelial cel
+longLabel myoepithelial cell of mammary gland (14 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO261FUX=ENCDO261FUX ENCDO804MOQ=ENCDO804MOQ ENCDO819SJC=ENCDO819SJC 
+subGroup2 age age a22_year=22&#32;year a33_year=33&#32;year a36_year=36&#32;year 
+subGroup3 view view ENCSR089NBT=ENCSR089NBT ENCSR160CPS=ENCSR160CPS ENCSR175HIV=ENCSR175HIV ENCSR177QXA=ENCSR177QXA ENCSR241PXI=ENCSR241PXI ENCSR287YDU=ENCSR287YDU ENCSR365DWX=ENCSR365DWX ENCSR517CFV=ENCSR517CFV ENCSR557OPY=ENCSR557OPY ENCSR636FCX=ENCSR636FCX ENCSR813ULW=ENCSR813ULW bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR177QXA_ENCFF907IJZ
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF907IJZ/@@download/ENCFF907IJZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR177QXA myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR177QXA age=33_year description=ENCSR177QXA_myoepithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR177QXA
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR177QXA
+	visibility dense
+	type bigBed
+
+		track ENCSR177QXA_ENCFF305QZN
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR177QXA off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K4me3 view=ENCSR177QXA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF305QZN/@@download/ENCFF305QZN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR177QXA myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (stable p
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR177QXA age=33_year description=ENCSR177QXA_myoepithelial_cell_of_mammary_gland_female_adult_33_years_stable_peaks_ donor=ENCDO819SJC sex=female view=ENCSR177QXA 
+		view ENCSR177QXA
+
+	track ENCSR287YDU_ENCFF523EIC
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF523EIC/@@download/ENCFF523EIC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR287YDU myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR287YDU age=36_year description=ENCSR287YDU_myoepithelial_cell_of_mammary_gland_female_adult_36_years_fold_change_over_control_ donor=ENCDO261FUX sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR287YDU
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR287YDU
+	visibility dense
+	type bigBed
+
+		track ENCSR287YDU_ENCFF750TFO
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR287YDU off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K4me3 view=ENCSR287YDU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF750TFO/@@download/ENCFF750TFO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR287YDU myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (stable p
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR287YDU age=36_year description=ENCSR287YDU_myoepithelial_cell_of_mammary_gland_female_adult_36_years_stable_peaks_ donor=ENCDO261FUX sex=female view=ENCSR287YDU 
+		view ENCSR287YDU
+
+	track ENCSR224HFZ_ENCFF655QAH
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a22_year assay=RNA-seq donor=ENCDO804MOQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF655QAH/@@download/ENCFF655QAH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR224HFZ myoepithelial_cell_of_mammary_gland_female_adult_22_years_ (plus str
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR224HFZ age=22_year description=ENCSR224HFZ_myoepithelial_cell_of_mammary_gland_female_adult_22_years_plus_strand_signal_of_unique_reads_ donor=ENCDO804MOQ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR738XPJ_ENCFF251KJB
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=microRNA-seq donor=ENCDO819SJC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF251KJB/@@download/ENCFF251KJB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR738XPJ myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (plus str
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR738XPJ age=33_year description=ENCSR738XPJ_myoepithelial_cell_of_mammary_gland_female_adult_33_years_plus_strand_signal_of_unique_reads_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR962ZLX_ENCFF913ITQ
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a22_year assay=microRNA-seq donor=ENCDO804MOQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF913ITQ/@@download/ENCFF913ITQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR962ZLX myoepithelial_cell_of_mammary_gland_female_adult_22_years_ (plus str
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR962ZLX age=22_year description=ENCSR962ZLX_myoepithelial_cell_of_mammary_gland_female_adult_22_years_plus_strand_signal_of_unique_reads_ donor=ENCDO804MOQ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR517CFV_ENCFF226OFC
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF226OFC/@@download/ENCFF226OFC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR517CFV myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR517CFV age=36_year description=ENCSR517CFV_myoepithelial_cell_of_mammary_gland_female_adult_36_years_fold_change_over_control_ donor=ENCDO261FUX sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR517CFV
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR517CFV
+	visibility dense
+	type bigBed
+
+		track ENCSR517CFV_ENCFF342UBX
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR517CFV off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K27me3 view=ENCSR517CFV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF342UBX/@@download/ENCFF342UBX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR517CFV myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR517CFV age=36_year description=ENCSR517CFV_myoepithelial_cell_of_mammary_gland_female_adult_36_years_peaks_ donor=ENCDO261FUX sex=female view=ENCSR517CFV 
+		view ENCSR517CFV
+
+	track ENCSR636FCX_ENCFF661PML
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF661PML/@@download/ENCFF661PML.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR636FCX myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR636FCX age=33_year description=ENCSR636FCX_myoepithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR636FCX
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR636FCX
+	visibility dense
+	type bigBed
+
+		track ENCSR636FCX_ENCFF806FYK
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR636FCX off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K27me3 view=ENCSR636FCX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF806FYK/@@download/ENCFF806FYK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR636FCX myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR636FCX age=33_year description=ENCSR636FCX_myoepithelial_cell_of_mammary_gland_female_adult_33_years_peaks_ donor=ENCDO819SJC sex=female view=ENCSR636FCX 
+		view ENCSR636FCX
+
+	track ENCSR160CPS_ENCFF098RNQ
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF098RNQ/@@download/ENCFF098RNQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR160CPS myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR160CPS age=36_year description=ENCSR160CPS_myoepithelial_cell_of_mammary_gland_female_adult_36_years_fold_change_over_control_ donor=ENCDO261FUX sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR160CPS
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR160CPS
+	visibility dense
+	type bigBed
+
+		track ENCSR160CPS_ENCFF933LHL
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR160CPS off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K36me3 view=ENCSR160CPS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF933LHL/@@download/ENCFF933LHL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR160CPS myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR160CPS age=36_year description=ENCSR160CPS_myoepithelial_cell_of_mammary_gland_female_adult_36_years_peaks_ donor=ENCDO261FUX sex=female view=ENCSR160CPS 
+		view ENCSR160CPS
+
+	track ENCSR557OPY_ENCFF954EUY
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF954EUY/@@download/ENCFF954EUY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR557OPY myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR557OPY age=33_year description=ENCSR557OPY_myoepithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR557OPY
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR557OPY
+	visibility dense
+	type bigBed
+
+		track ENCSR557OPY_ENCFF496DTN
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR557OPY off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K36me3 view=ENCSR557OPY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF496DTN/@@download/ENCFF496DTN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR557OPY myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR557OPY age=33_year description=ENCSR557OPY_myoepithelial_cell_of_mammary_gland_female_adult_33_years_peaks_ donor=ENCDO819SJC sex=female view=ENCSR557OPY 
+		view ENCSR557OPY
+
+	track ENCSR089NBT_ENCFF060ROC
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF060ROC/@@download/ENCFF060ROC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR089NBT myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR089NBT age=33_year description=ENCSR089NBT_myoepithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR089NBT
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR089NBT
+	visibility dense
+	type bigBed
+
+		track ENCSR089NBT_ENCFF997SOD
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR089NBT off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K4me1 view=ENCSR089NBT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF997SOD/@@download/ENCFF997SOD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR089NBT myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (stable p
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR089NBT age=33_year description=ENCSR089NBT_myoepithelial_cell_of_mammary_gland_female_adult_33_years_stable_peaks_ donor=ENCDO819SJC sex=female view=ENCSR089NBT 
+		view ENCSR089NBT
+
+	track ENCSR813ULW_ENCFF375FPM
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF375FPM/@@download/ENCFF375FPM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR813ULW myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR813ULW age=36_year description=ENCSR813ULW_myoepithelial_cell_of_mammary_gland_female_adult_36_years_fold_change_over_control_ donor=ENCDO261FUX sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR813ULW
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR813ULW
+	visibility dense
+	type bigBed
+
+		track ENCSR813ULW_ENCFF351VOW
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR813ULW off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K4me1 view=ENCSR813ULW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF351VOW/@@download/ENCFF351VOW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR813ULW myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR813ULW age=36_year description=ENCSR813ULW_myoepithelial_cell_of_mammary_gland_female_adult_36_years_peaks_ donor=ENCDO261FUX sex=female view=ENCSR813ULW 
+		view ENCSR813ULW
+
+	track ENCSR175HIV_ENCFF333GTN
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF333GTN/@@download/ENCFF333GTN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR175HIV myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR175HIV age=33_year description=ENCSR175HIV_myoepithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR175HIV
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR175HIV
+	visibility dense
+	type bigBed
+
+		track ENCSR175HIV_ENCFF171JAS
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR175HIV off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K9ac view=ENCSR175HIV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF171JAS/@@download/ENCFF171JAS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR175HIV myoepithelial_cell_of_mammary_gland_female_adult_33_years_ (stable p
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR175HIV age=33_year description=ENCSR175HIV_myoepithelial_cell_of_mammary_gland_female_adult_33_years_stable_peaks_ donor=ENCDO819SJC sex=female view=ENCSR175HIV 
+		view ENCSR175HIV
+
+	track ENCSR365DWX_ENCFF896FCB
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF896FCB/@@download/ENCFF896FCB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR365DWX myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR365DWX age=36_year description=ENCSR365DWX_myoepithelial_cell_of_mammary_gland_female_adult_36_years_fold_change_over_control_ donor=ENCDO261FUX sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR365DWX
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR365DWX
+	visibility dense
+	type bigBed
+
+		track ENCSR365DWX_ENCFF551QWY
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR365DWX off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K9ac view=ENCSR365DWX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF551QWY/@@download/ENCFF551QWY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR365DWX myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (stable p
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR365DWX age=36_year description=ENCSR365DWX_myoepithelial_cell_of_mammary_gland_female_adult_36_years_stable_peaks_ donor=ENCDO261FUX sex=female view=ENCSR365DWX 
+		view ENCSR365DWX
+
+	track ENCSR241PXI_ENCFF266NLG
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF266NLG/@@download/ENCFF266NLG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR241PXI myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (fold cha
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR241PXI age=36_year description=ENCSR241PXI_myoepithelial_cell_of_mammary_gland_female_adult_36_years_fold_change_over_control_ donor=ENCDO261FUX sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR241PXI
+	parent primary_cell_myoepithelial_cell_of_mammary_gland off
+	view ENCSR241PXI
+	visibility dense
+	type bigBed
+
+		track ENCSR241PXI_ENCFF971IRQ
+		parent primary_cell_myoepithelial_cell_of_mammary_gland_view_ENCSR241PXI off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO261FUX label=H3K9me3 view=ENCSR241PXI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF971IRQ/@@download/ENCFF971IRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR241PXI myoepithelial_cell_of_mammary_gland_female_adult_36_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR241PXI age=36_year description=ENCSR241PXI_myoepithelial_cell_of_mammary_gland_female_adult_36_years_peaks_ donor=ENCDO261FUX sex=female view=ENCSR241PXI 
+		view ENCSR241PXI
+

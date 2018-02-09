@@ -1,0 +1,53 @@
+
+track induced_pluripotent_stem_cell_line_iPS_NIHi11
+parent super_induced_pluripotent_stem_cell_line
+compositeTrack on
+shortLabel iPS-NIHi11
+longLabel iPS-NIHi11 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO696YOM=ENCDO696YOM 
+subGroup2 age age a71_year=71&#32;year 
+subGroup3 view view ENCSR000EKJ=ENCSR000EKJ bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EKJ_ENCFF365FJR
+	parent induced_pluripotent_stem_cell_line_iPS_NIHi11 off
+	subGroups age=a71_year assay=DNase-seq donor=ENCDO696YOM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF365FJR/@@download/ENCFF365FJR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EKJ iPS_NIHi11_male_adult_71_year_originated_from_skin_fibroblast (read-
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EKJ age=71_year description=ENCSR000EKJ_iPS_NIHi11_male_adult_71_year_originated_from_skin_fibroblast_read_depth_normalized_signal_ donor=ENCDO696YOM sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_NIHi11_view_ENCSR000EKJ
+	parent induced_pluripotent_stem_cell_line_iPS_NIHi11 off
+	view ENCSR000EKJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000EKJ_ENCFF775UKI
+		parent induced_pluripotent_stem_cell_line_iPS_NIHi11_view_ENCSR000EKJ off
+		subGroups age=a71_year assay=DNase-seq donor=ENCDO696YOM label=unknown view=ENCSR000EKJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF775UKI/@@download/ENCFF775UKI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EKJ iPS_NIHi11_male_adult_71_year_originated_from_skin_fibroblast (peaks
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EKJ age=71_year description=ENCSR000EKJ_iPS_NIHi11_male_adult_71_year_originated_from_skin_fibroblast_peaks_ donor=ENCDO696YOM sex=male view=ENCSR000EKJ 
+		view ENCSR000EKJ
+

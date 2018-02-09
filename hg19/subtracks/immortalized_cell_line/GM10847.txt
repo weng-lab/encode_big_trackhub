@@ -1,0 +1,53 @@
+
+track immortalized_cell_line_GM10847
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel GM10847
+longLabel GM10847 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label POLR2A=POLR2A 
+subGroup2 assay assay ChIP-seq=ChIP-seq 
+subGroup3 view view ENCSR000DYO=ENCSR000DYO bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DYO_ENCFF000VSA
+	parent immortalized_cell_line_GM10847 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABK label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000VSA/@@download/ENCFF000VSA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000DYO GM10847 (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DYO age=unknown description=ENCSR000DYO_GM10847_signal_ donor=ENCDO000ABK sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_GM10847_view_ENCSR000DYO
+	parent immortalized_cell_line_GM10847 off
+	view ENCSR000DYO
+	visibility dense
+	type bigBed
+
+		track ENCSR000DYO_ENCFF561FSY
+		parent immortalized_cell_line_GM10847_view_ENCSR000DYO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABK label=POLR2A view=ENCSR000DYO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF561FSY/@@download/ENCFF561FSY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000DYO GM10847 (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DYO age=unknown description=ENCSR000DYO_GM10847_optimal_idr_thresholded_peaks_ donor=ENCDO000ABK sex=female view=ENCSR000DYO 
+		view ENCSR000DYO
+

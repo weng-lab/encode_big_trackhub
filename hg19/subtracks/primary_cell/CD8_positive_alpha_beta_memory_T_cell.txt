@@ -1,0 +1,254 @@
+
+track primary_cell_CD8_positive_alpha_beta_memory_T_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel CD8-positive, alp
+longLabel CD8-positive, alpha-beta memory T cell (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO688UWB=ENCDO688UWB ENCDO922CEJ=ENCDO922CEJ 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR043SJS=ENCSR043SJS ENCSR372MTE=ENCSR372MTE ENCSR517SMA=ENCSR517SMA ENCSR810EPZ=ENCSR810EPZ ENCSR944RKI=ENCSR944RKI ENCSR962AKF=ENCSR962AKF bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR962AKF_ENCFF089QXD
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF089QXD/@@download/ENCFF089QXD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR962AKF CD8_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR962AKF age=unknown description=ENCSR962AKF_CD8_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR962AKF
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	view ENCSR962AKF
+	visibility dense
+	type bigBed
+
+		track ENCSR962AKF_ENCFF575DSU
+		parent primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR962AKF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K4me3 view=ENCSR962AKF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF575DSU/@@download/ENCFF575DSU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR962AKF CD8_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR962AKF age=unknown description=ENCSR962AKF_CD8_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR962AKF 
+		view ENCSR962AKF
+
+	track ENCSR810EPZ_ENCFF562IDS
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO922CEJ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF562IDS/@@download/ENCFF562IDS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR810EPZ CD8_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR810EPZ age=unknown description=ENCSR810EPZ_CD8_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO922CEJ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR810EPZ
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	view ENCSR810EPZ
+	visibility dense
+	type bigBed
+
+		track ENCSR810EPZ_ENCFF971VFU
+		parent primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR810EPZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO922CEJ label=H3K27ac view=ENCSR810EPZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF971VFU/@@download/ENCFF971VFU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR810EPZ CD8_positive_alpha_beta_memory_T_cell (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR810EPZ age=unknown description=ENCSR810EPZ_CD8_positive_alpha_beta_memory_T_cell_peaks_ donor=ENCDO922CEJ sex=unknown view=ENCSR810EPZ 
+		view ENCSR810EPZ
+
+		track ENCSR810EPZ_ENCFF254NBN
+		parent primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR810EPZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO922CEJ label=H3K27ac view=ENCSR810EPZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF254NBN/@@download/ENCFF254NBN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF254NBN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR810EPZ age=unknown description=ENCFF254NBN_5group_ donor=ENCDO922CEJ sex=unknown view=ENCSR810EPZ 
+		view ENCSR810EPZ
+
+		track ENCSR810EPZ_ENCFF255TWA
+		parent primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR810EPZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO922CEJ label=H3K27ac view=ENCSR810EPZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF255TWA/@@download/ENCFF255TWA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF255TWA 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR810EPZ age=unknown description=ENCFF255TWA_9state_H3K4me3_ donor=ENCDO922CEJ sex=unknown view=ENCSR810EPZ 
+		view ENCSR810EPZ
+
+	track ENCSR517SMA_ENCFF389AEI
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF389AEI/@@download/ENCFF389AEI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR517SMA CD8_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR517SMA age=unknown description=ENCSR517SMA_CD8_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR517SMA
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	view ENCSR517SMA
+	visibility dense
+	type bigBed
+
+		track ENCSR517SMA_ENCFF311VRF
+		parent primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR517SMA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K27me3 view=ENCSR517SMA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF311VRF/@@download/ENCFF311VRF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR517SMA CD8_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR517SMA age=unknown description=ENCSR517SMA_CD8_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR517SMA 
+		view ENCSR517SMA
+
+	track ENCSR944RKI_ENCFF889IDU
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF889IDU/@@download/ENCFF889IDU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR944RKI CD8_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR944RKI age=unknown description=ENCSR944RKI_CD8_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR944RKI
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	view ENCSR944RKI
+	visibility dense
+	type bigBed
+
+		track ENCSR944RKI_ENCFF998PTB
+		parent primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR944RKI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K36me3 view=ENCSR944RKI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF998PTB/@@download/ENCFF998PTB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR944RKI CD8_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR944RKI age=unknown description=ENCSR944RKI_CD8_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR944RKI 
+		view ENCSR944RKI
+
+	track ENCSR372MTE_ENCFF952QRW
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF952QRW/@@download/ENCFF952QRW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR372MTE CD8_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR372MTE age=unknown description=ENCSR372MTE_CD8_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR372MTE
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	view ENCSR372MTE
+	visibility dense
+	type bigBed
+
+		track ENCSR372MTE_ENCFF350AJC
+		parent primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR372MTE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K4me1 view=ENCSR372MTE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF350AJC/@@download/ENCFF350AJC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR372MTE CD8_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR372MTE age=unknown description=ENCSR372MTE_CD8_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR372MTE 
+		view ENCSR372MTE
+
+	track ENCSR043SJS_ENCFF675KAK
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF675KAK/@@download/ENCFF675KAK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR043SJS CD8_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR043SJS age=unknown description=ENCSR043SJS_CD8_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR043SJS
+	parent primary_cell_CD8_positive_alpha_beta_memory_T_cell off
+	view ENCSR043SJS
+	visibility dense
+	type bigBed
+
+		track ENCSR043SJS_ENCFF084KFY
+		parent primary_cell_CD8_positive_alpha_beta_memory_T_cell_view_ENCSR043SJS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K9me3 view=ENCSR043SJS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF084KFY/@@download/ENCFF084KFY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR043SJS CD8_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR043SJS age=unknown description=ENCSR043SJS_CD8_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR043SJS 
+		view ENCSR043SJS
+

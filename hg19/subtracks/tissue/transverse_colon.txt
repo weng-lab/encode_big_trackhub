@@ -1,0 +1,1217 @@
+
+track tissue_transverse_colon
+parent super_tissue
+compositeTrack on
+shortLabel transverse colon
+longLabel transverse colon (40 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR069EGE=ENCSR069EGE ENCSR083DXD=ENCSR083DXD ENCSR101EEJ=ENCSR101EEJ ENCSR102CSD=ENCSR102CSD ENCSR107EUS=ENCSR107EUS ENCSR132XRW=ENCSR132XRW ENCSR208QRN=ENCSR208QRN ENCSR236YGF=ENCSR236YGF ENCSR429JTR=ENCSR429JTR ENCSR504WYA=ENCSR504WYA ENCSR558HTE=ENCSR558HTE ENCSR608WPS=ENCSR608WPS ENCSR640XRV=ENCSR640XRV ENCSR643KID=ENCSR643KID ENCSR704IJM=ENCSR704IJM ENCSR749ABB=ENCSR749ABB ENCSR760QZM=ENCSR760QZM ENCSR761RDB=ENCSR761RDB ENCSR769WKR=ENCSR769WKR ENCSR790FIS=ENCSR790FIS ENCSR791LZY=ENCSR791LZY ENCSR813ZEY=ENCSR813ZEY ENCSR833FWC=ENCSR833FWC ENCSR840VWD=ENCSR840VWD ENCSR907BES=ENCSR907BES ENCSR933BVL=ENCSR933BVL ENCSR974HQI=ENCSR974HQI ENCSR979ZJS=ENCSR979ZJS bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR504WYA_ENCFF517EFF
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF517EFF/@@download/ENCFF517EFF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR504WYA transverse_colon_female_adult_53_years_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR504WYA age=53_year description=ENCSR504WYA_transverse_colon_female_adult_53_years_read_depth_normalized_signal_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR504WYA
+	parent tissue_transverse_colon off
+	view ENCSR504WYA
+	visibility dense
+	type bigBed
+
+		track ENCSR504WYA_ENCFF762HCT
+		parent tissue_transverse_colon_view_ENCSR504WYA off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR504WYA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF762HCT/@@download/ENCFF762HCT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR504WYA transverse_colon_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR504WYA age=53_year description=ENCSR504WYA_transverse_colon_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR504WYA 
+		view ENCSR504WYA
+
+		track ENCSR504WYA_ENCFF013DAM
+		parent tissue_transverse_colon_view_ENCSR504WYA off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR504WYA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF013DAM/@@download/ENCFF013DAM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF013DAM 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR504WYA age=53_year description=ENCFF013DAM_9state_DNase_ donor=ENCDO793LXB sex=female view=ENCSR504WYA 
+		view ENCSR504WYA
+
+	track ENCSR760QZM_ENCFF352QCF
+	parent tissue_transverse_colon off
+	subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF352QCF/@@download/ENCFF352QCF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR760QZM transverse_colon_female_adult_51_year_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR760QZM age=51_year description=ENCSR760QZM_transverse_colon_female_adult_51_year_read_depth_normalized_signal_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR760QZM
+	parent tissue_transverse_colon off
+	view ENCSR760QZM
+	visibility dense
+	type bigBed
+
+		track ENCSR760QZM_ENCFF240QDJ
+		parent tissue_transverse_colon_view_ENCSR760QZM off
+		subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=ENCSR760QZM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF240QDJ/@@download/ENCFF240QDJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR760QZM transverse_colon_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR760QZM age=51_year description=ENCSR760QZM_transverse_colon_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR760QZM 
+		view ENCSR760QZM
+
+	track ENCSR790FIS_ENCFF257VRJ
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=DNase-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF257VRJ/@@download/ENCFF257VRJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR790FIS transverse_colon_male_adult_54_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR790FIS age=54_year description=ENCSR790FIS_transverse_colon_male_adult_54_years_read_depth_normalized_signal_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR790FIS
+	parent tissue_transverse_colon off
+	view ENCSR790FIS
+	visibility dense
+	type bigBed
+
+		track ENCSR790FIS_ENCFF153STU
+		parent tissue_transverse_colon_view_ENCSR790FIS off
+		subGroups age=a54_year assay=DNase-seq donor=ENCDO451RUA label=unknown view=ENCSR790FIS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF153STU/@@download/ENCFF153STU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR790FIS transverse_colon_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR790FIS age=54_year description=ENCSR790FIS_transverse_colon_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR790FIS 
+		view ENCSR790FIS
+
+		track ENCSR790FIS_ENCFF759LOA
+		parent tissue_transverse_colon_view_ENCSR790FIS off
+		subGroups age=a54_year assay=DNase-seq donor=ENCDO451RUA label=unknown view=ENCSR790FIS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF759LOA/@@download/ENCFF759LOA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF759LOA 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR790FIS age=54_year description=ENCFF759LOA_9state_DNase_ donor=ENCDO451RUA sex=male view=ENCSR790FIS 
+		view ENCSR790FIS
+
+	track ENCSR979ZJS_ENCFF634GXE
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF634GXE/@@download/ENCFF634GXE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR979ZJS transverse_colon_male_adult_37_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR979ZJS age=37_year description=ENCSR979ZJS_transverse_colon_male_adult_37_years_read_depth_normalized_signal_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR979ZJS
+	parent tissue_transverse_colon off
+	view ENCSR979ZJS
+	visibility dense
+	type bigBed
+
+		track ENCSR979ZJS_ENCFF527XPL
+		parent tissue_transverse_colon_view_ENCSR979ZJS off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR979ZJS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF527XPL/@@download/ENCFF527XPL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR979ZJS transverse_colon_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR979ZJS age=37_year description=ENCSR979ZJS_transverse_colon_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR979ZJS 
+		view ENCSR979ZJS
+
+		track ENCSR979ZJS_ENCFF953YJN
+		parent tissue_transverse_colon_view_ENCSR979ZJS off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR979ZJS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF953YJN/@@download/ENCFF953YJN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF953YJN 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR979ZJS age=37_year description=ENCFF953YJN_9state_DNase_ donor=ENCDO845WKR sex=male view=ENCSR979ZJS 
+		view ENCSR979ZJS
+
+	track ENCSR813ZEY_ENCFF051OEC
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF051OEC/@@download/ENCFF051OEC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR813ZEY transverse_colon_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR813ZEY age=37_year description=ENCSR813ZEY_transverse_colon_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR813ZEY
+	parent tissue_transverse_colon off
+	view ENCSR813ZEY
+	visibility dense
+	type bigBed
+
+		track ENCSR813ZEY_ENCFF278ENS
+		parent tissue_transverse_colon_view_ENCSR813ZEY off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR813ZEY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF278ENS/@@download/ENCFF278ENS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR813ZEY transverse_colon_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR813ZEY age=37_year description=ENCSR813ZEY_transverse_colon_male_adult_37_years_stable_peaks_ donor=ENCDO845WKR sex=male view=ENCSR813ZEY 
+		view ENCSR813ZEY
+
+	track ENCSR933BVL_ENCFF340PAH
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF340PAH/@@download/ENCFF340PAH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR933BVL transverse_colon_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR933BVL age=53_year description=ENCSR933BVL_transverse_colon_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR933BVL
+	parent tissue_transverse_colon off
+	view ENCSR933BVL
+	visibility dense
+	type bigBed
+
+		track ENCSR933BVL_ENCFF326KKT
+		parent tissue_transverse_colon_view_ENCSR933BVL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR933BVL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF326KKT/@@download/ENCFF326KKT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR933BVL transverse_colon_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR933BVL age=53_year description=ENCSR933BVL_transverse_colon_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR933BVL 
+		view ENCSR933BVL
+
+	track ENCSR069EGE_ENCFF386ZWC
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF386ZWC/@@download/ENCFF386ZWC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR069EGE transverse_colon_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR069EGE age=54_year description=ENCSR069EGE_transverse_colon_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR069EGE
+	parent tissue_transverse_colon off
+	view ENCSR069EGE
+	visibility dense
+	type bigBed
+
+		track ENCSR069EGE_ENCFF683KXB
+		parent tissue_transverse_colon_view_ENCSR069EGE off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR069EGE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF683KXB/@@download/ENCFF683KXB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR069EGE transverse_colon_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR069EGE age=54_year description=ENCSR069EGE_transverse_colon_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR069EGE 
+		view ENCSR069EGE
+
+	track ENCSR102CSD_ENCFF395FCN
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF395FCN/@@download/ENCFF395FCN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR102CSD transverse_colon_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR102CSD age=37_year description=ENCSR102CSD_transverse_colon_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR102CSD
+	parent tissue_transverse_colon off
+	view ENCSR102CSD
+	visibility dense
+	type bigBed
+
+		track ENCSR102CSD_ENCFF850GCY
+		parent tissue_transverse_colon_view_ENCSR102CSD off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR102CSD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF850GCY/@@download/ENCFF850GCY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR102CSD transverse_colon_male_adult_37_years_ (pseudoreplicated idr threshol
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR102CSD age=37_year description=ENCSR102CSD_transverse_colon_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR102CSD 
+		view ENCSR102CSD
+
+	track ENCSR208QRN_ENCFF167VPE
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF167VPE/@@download/ENCFF167VPE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR208QRN transverse_colon_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR208QRN age=53_year description=ENCSR208QRN_transverse_colon_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR208QRN
+	parent tissue_transverse_colon off
+	view ENCSR208QRN
+	visibility dense
+	type bigBed
+
+		track ENCSR208QRN_ENCFF946WHM
+		parent tissue_transverse_colon_view_ENCSR208QRN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR208QRN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF946WHM/@@download/ENCFF946WHM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR208QRN transverse_colon_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR208QRN age=53_year description=ENCSR208QRN_transverse_colon_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR208QRN 
+		view ENCSR208QRN
+
+	track ENCSR236YGF_ENCFF181CLO
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF181CLO/@@download/ENCFF181CLO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR236YGF transverse_colon_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR236YGF age=53_year description=ENCSR236YGF_transverse_colon_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR236YGF
+	parent tissue_transverse_colon off
+	view ENCSR236YGF
+	visibility dense
+	type bigBed
+
+		track ENCSR236YGF_ENCFF527DIX
+		parent tissue_transverse_colon_view_ENCSR236YGF off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR236YGF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF527DIX/@@download/ENCFF527DIX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR236YGF transverse_colon_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR236YGF age=53_year description=ENCSR236YGF_transverse_colon_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR236YGF 
+		view ENCSR236YGF
+
+	track ENCSR558HTE_ENCFF423DFR
+	parent tissue_transverse_colon off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF423DFR/@@download/ENCFF423DFR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR558HTE transverse_colon_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR558HTE age=51_year description=ENCSR558HTE_transverse_colon_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR558HTE
+	parent tissue_transverse_colon off
+	view ENCSR558HTE
+	visibility dense
+	type bigBed
+
+		track ENCSR558HTE_ENCFF628ZLI
+		parent tissue_transverse_colon_view_ENCSR558HTE off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR558HTE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF628ZLI/@@download/ENCFF628ZLI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR558HTE transverse_colon_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR558HTE age=51_year description=ENCSR558HTE_transverse_colon_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR558HTE 
+		view ENCSR558HTE
+
+	track ENCSR608WPS_ENCFF303ULN
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF303ULN/@@download/ENCFF303ULN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR608WPS transverse_colon_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR608WPS age=37_year description=ENCSR608WPS_transverse_colon_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR608WPS
+	parent tissue_transverse_colon off
+	view ENCSR608WPS
+	visibility dense
+	type bigBed
+
+		track ENCSR608WPS_ENCFF866EAU
+		parent tissue_transverse_colon_view_ENCSR608WPS off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR608WPS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF866EAU/@@download/ENCFF866EAU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR608WPS transverse_colon_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR608WPS age=37_year description=ENCSR608WPS_transverse_colon_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR608WPS 
+		view ENCSR608WPS
+
+	track ENCSR640XRV_ENCFF770GPH
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF770GPH/@@download/ENCFF770GPH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR640XRV transverse_colon_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR640XRV age=37_year description=ENCSR640XRV_transverse_colon_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR640XRV
+	parent tissue_transverse_colon off
+	view ENCSR640XRV
+	visibility dense
+	type bigBed
+
+		track ENCSR640XRV_ENCFF342HDL
+		parent tissue_transverse_colon_view_ENCSR640XRV off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR640XRV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF342HDL/@@download/ENCFF342HDL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR640XRV transverse_colon_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR640XRV age=37_year description=ENCSR640XRV_transverse_colon_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR640XRV 
+		view ENCSR640XRV
+
+	track ENCSR769WKR_ENCFF146QSC
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF146QSC/@@download/ENCFF146QSC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR769WKR transverse_colon_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR769WKR age=53_year description=ENCSR769WKR_transverse_colon_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR769WKR
+	parent tissue_transverse_colon off
+	view ENCSR769WKR
+	visibility dense
+	type bigBed
+
+		track ENCSR769WKR_ENCFF685DGA
+		parent tissue_transverse_colon_view_ENCSR769WKR off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR769WKR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF685DGA/@@download/ENCFF685DGA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR769WKR transverse_colon_female_adult_53_years_ (pseudoreplicated idr thresh
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR769WKR age=53_year description=ENCSR769WKR_transverse_colon_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR769WKR 
+		view ENCSR769WKR
+
+	track ENCSR833FWC_ENCFF773FNZ
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF773FNZ/@@download/ENCFF773FNZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR833FWC transverse_colon_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR833FWC age=54_year description=ENCSR833FWC_transverse_colon_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR833FWC
+	parent tissue_transverse_colon off
+	view ENCSR833FWC
+	visibility dense
+	type bigBed
+
+		track ENCSR833FWC_ENCFF565BRK
+		parent tissue_transverse_colon_view_ENCSR833FWC off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR833FWC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF565BRK/@@download/ENCFF565BRK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR833FWC transverse_colon_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR833FWC age=54_year description=ENCSR833FWC_transverse_colon_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR833FWC 
+		view ENCSR833FWC
+
+	track ENCSR907BES_ENCFF509WYM
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF509WYM/@@download/ENCFF509WYM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR907BES transverse_colon_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR907BES age=54_year description=ENCSR907BES_transverse_colon_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR907BES
+	parent tissue_transverse_colon off
+	view ENCSR907BES
+	visibility dense
+	type bigBed
+
+		track ENCSR907BES_ENCFF878LTV
+		parent tissue_transverse_colon_view_ENCSR907BES off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR907BES 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF878LTV/@@download/ENCFF878LTV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR907BES transverse_colon_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR907BES age=54_year description=ENCSR907BES_transverse_colon_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR907BES 
+		view ENCSR907BES
+
+	track ENCSR168XPO_ENCFF782XIM
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF782XIM/@@download/ENCFF782XIM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR168XPO transverse_colon_male_adult_54_years_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR168XPO age=54_year description=ENCSR168XPO_transverse_colon_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR183YQY_ENCFF497IWN
+	parent tissue_transverse_colon off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF497IWN/@@download/ENCFF497IWN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR183YQY transverse_colon_female_adult_51_year_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR183YQY age=51_year description=ENCSR183YQY_transverse_colon_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR297QGC_ENCFF938ISJ
+	parent tissue_transverse_colon off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF938ISJ/@@download/ENCFF938ISJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR297QGC transverse_colon_female_adult_51_year_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR297QGC age=51_year description=ENCSR297QGC_transverse_colon_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR316SXP_ENCFF155YXY
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF155YXY/@@download/ENCFF155YXY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR316SXP transverse_colon_female_adult_53_years_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR316SXP age=53_year description=ENCSR316SXP_transverse_colon_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR403SZN_ENCFF235QWD
+	parent tissue_transverse_colon off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF235QWD/@@download/ENCFF235QWD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR403SZN transverse_colon_female_adult_51_year_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR403SZN age=51_year description=ENCSR403SZN_transverse_colon_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR525WFB_ENCFF130KZE
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF130KZE/@@download/ENCFF130KZE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR525WFB transverse_colon_male_adult_37_years_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR525WFB age=37_year description=ENCSR525WFB_transverse_colon_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR630VJN_ENCFF508STH
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF508STH/@@download/ENCFF508STH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR630VJN transverse_colon_male_adult_54_years_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR630VJN age=54_year description=ENCSR630VJN_transverse_colon_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR649WDK_ENCFF204KPX
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF204KPX/@@download/ENCFF204KPX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR649WDK transverse_colon_male_adult_54_years_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR649WDK age=54_year description=ENCSR649WDK_transverse_colon_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR653ZJF_ENCFF244VUK
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF244VUK/@@download/ENCFF244VUK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR653ZJF transverse_colon_male_adult_37_years_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR653ZJF age=37_year description=ENCSR653ZJF_transverse_colon_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR688YRV_ENCFF425GTV
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF425GTV/@@download/ENCFF425GTV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR688YRV transverse_colon_male_adult_37_years_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR688YRV age=37_year description=ENCSR688YRV_transverse_colon_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR800WIY_ENCFF460HGY
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF460HGY/@@download/ENCFF460HGY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR800WIY transverse_colon_female_adult_53_years_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR800WIY age=53_year description=ENCSR800WIY_transverse_colon_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR855GRG_ENCFF684UOP
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF684UOP/@@download/ENCFF684UOP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR855GRG transverse_colon_female_adult_53_years_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR855GRG age=53_year description=ENCSR855GRG_transverse_colon_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR429JTR_ENCFF348UUV
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF348UUV/@@download/ENCFF348UUV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR429JTR transverse_colon_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR429JTR age=37_year description=ENCSR429JTR_transverse_colon_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR429JTR
+	parent tissue_transverse_colon off
+	view ENCSR429JTR
+	visibility dense
+	type bigBed
+
+		track ENCSR429JTR_ENCFF997RBH
+		parent tissue_transverse_colon_view_ENCSR429JTR off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=ENCSR429JTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF997RBH/@@download/ENCFF997RBH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR429JTR transverse_colon_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR429JTR age=37_year description=ENCSR429JTR_transverse_colon_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR429JTR 
+		view ENCSR429JTR
+
+	track ENCSR704IJM_ENCFF280TSK
+	parent tissue_transverse_colon off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF280TSK/@@download/ENCFF280TSK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR704IJM transverse_colon_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR704IJM age=51_year description=ENCSR704IJM_transverse_colon_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR704IJM
+	parent tissue_transverse_colon off
+	view ENCSR704IJM
+	visibility dense
+	type bigBed
+
+		track ENCSR704IJM_ENCFF744NRV
+		parent tissue_transverse_colon_view_ENCSR704IJM off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR704IJM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF744NRV/@@download/ENCFF744NRV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR704IJM transverse_colon_female_adult_51_year_ (pseudoreplicated idr thresho
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR704IJM age=51_year description=ENCSR704IJM_transverse_colon_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR704IJM 
+		view ENCSR704IJM
+
+	track ENCSR761RDB_ENCFF519TQG
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF519TQG/@@download/ENCFF519TQG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR761RDB transverse_colon_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR761RDB age=53_year description=ENCSR761RDB_transverse_colon_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR761RDB
+	parent tissue_transverse_colon off
+	view ENCSR761RDB
+	visibility dense
+	type bigBed
+
+		track ENCSR761RDB_ENCFF542XWB
+		parent tissue_transverse_colon_view_ENCSR761RDB off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=ENCSR761RDB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF542XWB/@@download/ENCFF542XWB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR761RDB transverse_colon_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR761RDB age=53_year description=ENCSR761RDB_transverse_colon_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR761RDB 
+		view ENCSR761RDB
+
+	track ENCSR643KID_ENCFF292VZK
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF292VZK/@@download/ENCFF292VZK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR643KID transverse_colon_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR643KID age=37_year description=ENCSR643KID_transverse_colon_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR643KID
+	parent tissue_transverse_colon off
+	view ENCSR643KID
+	visibility dense
+	type bigBed
+
+		track ENCSR643KID_ENCFF837CJG
+		parent tissue_transverse_colon_view_ENCSR643KID off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27me3 view=ENCSR643KID 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF837CJG/@@download/ENCFF837CJG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR643KID transverse_colon_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR643KID age=37_year description=ENCSR643KID_transverse_colon_male_adult_37_years_stable_peaks_ donor=ENCDO845WKR sex=male view=ENCSR643KID 
+		view ENCSR643KID
+
+	track ENCSR840VWD_ENCFF261SYX
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF261SYX/@@download/ENCFF261SYX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR840VWD transverse_colon_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR840VWD age=53_year description=ENCSR840VWD_transverse_colon_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR840VWD
+	parent tissue_transverse_colon off
+	view ENCSR840VWD
+	visibility dense
+	type bigBed
+
+		track ENCSR840VWD_ENCFF878THU
+		parent tissue_transverse_colon_view_ENCSR840VWD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=ENCSR840VWD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF878THU/@@download/ENCFF878THU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR840VWD transverse_colon_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR840VWD age=53_year description=ENCSR840VWD_transverse_colon_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR840VWD 
+		view ENCSR840VWD
+
+	track ENCSR101EEJ_ENCFF722RXM
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF722RXM/@@download/ENCFF722RXM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR101EEJ transverse_colon_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR101EEJ age=54_year description=ENCSR101EEJ_transverse_colon_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR101EEJ
+	parent tissue_transverse_colon off
+	view ENCSR101EEJ
+	visibility dense
+	type bigBed
+
+		track ENCSR101EEJ_ENCFF569FWC
+		parent tissue_transverse_colon_view_ENCSR101EEJ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=ENCSR101EEJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF569FWC/@@download/ENCFF569FWC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR101EEJ transverse_colon_male_adult_54_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR101EEJ age=54_year description=ENCSR101EEJ_transverse_colon_male_adult_54_years_stable_peaks_ donor=ENCDO451RUA sex=male view=ENCSR101EEJ 
+		view ENCSR101EEJ
+
+	track ENCSR749ABB_ENCFF846UVF
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF846UVF/@@download/ENCFF846UVF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR749ABB transverse_colon_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR749ABB age=37_year description=ENCSR749ABB_transverse_colon_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR749ABB
+	parent tissue_transverse_colon off
+	view ENCSR749ABB
+	visibility dense
+	type bigBed
+
+		track ENCSR749ABB_ENCFF452OUF
+		parent tissue_transverse_colon_view_ENCSR749ABB off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=ENCSR749ABB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF452OUF/@@download/ENCFF452OUF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR749ABB transverse_colon_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR749ABB age=37_year description=ENCSR749ABB_transverse_colon_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR749ABB 
+		view ENCSR749ABB
+
+	track ENCSR791LZY_ENCFF794VBL
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF794VBL/@@download/ENCFF794VBL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR791LZY transverse_colon_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR791LZY age=53_year description=ENCSR791LZY_transverse_colon_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR791LZY
+	parent tissue_transverse_colon off
+	view ENCSR791LZY
+	visibility dense
+	type bigBed
+
+		track ENCSR791LZY_ENCFF381DCI
+		parent tissue_transverse_colon_view_ENCSR791LZY off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR791LZY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF381DCI/@@download/ENCFF381DCI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR791LZY transverse_colon_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR791LZY age=53_year description=ENCSR791LZY_transverse_colon_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR791LZY 
+		view ENCSR791LZY
+
+	track ENCSR083DXD_ENCFF651MFO
+	parent tissue_transverse_colon off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF651MFO/@@download/ENCFF651MFO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR083DXD transverse_colon_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR083DXD age=37_year description=ENCSR083DXD_transverse_colon_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR083DXD
+	parent tissue_transverse_colon off
+	view ENCSR083DXD
+	visibility dense
+	type bigBed
+
+		track ENCSR083DXD_ENCFF787FBO
+		parent tissue_transverse_colon_view_ENCSR083DXD off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=ENCSR083DXD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF787FBO/@@download/ENCFF787FBO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR083DXD transverse_colon_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR083DXD age=37_year description=ENCSR083DXD_transverse_colon_male_adult_37_years_stable_peaks_ donor=ENCDO845WKR sex=male view=ENCSR083DXD 
+		view ENCSR083DXD
+
+	track ENCSR107EUS_ENCFF202YYG
+	parent tissue_transverse_colon off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF202YYG/@@download/ENCFF202YYG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR107EUS transverse_colon_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR107EUS age=53_year description=ENCSR107EUS_transverse_colon_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR107EUS
+	parent tissue_transverse_colon off
+	view ENCSR107EUS
+	visibility dense
+	type bigBed
+
+		track ENCSR107EUS_ENCFF741QLC
+		parent tissue_transverse_colon_view_ENCSR107EUS off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR107EUS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF741QLC/@@download/ENCFF741QLC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR107EUS transverse_colon_female_adult_53_years_ (pseudoreplicated idr thresh
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR107EUS age=53_year description=ENCSR107EUS_transverse_colon_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR107EUS 
+		view ENCSR107EUS
+
+	track ENCSR132XRW_ENCFF391HIC
+	parent tissue_transverse_colon off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF391HIC/@@download/ENCFF391HIC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR132XRW transverse_colon_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR132XRW age=54_year description=ENCSR132XRW_transverse_colon_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR132XRW
+	parent tissue_transverse_colon off
+	view ENCSR132XRW
+	visibility dense
+	type bigBed
+
+		track ENCSR132XRW_ENCFF750NEU
+		parent tissue_transverse_colon_view_ENCSR132XRW off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=ENCSR132XRW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF750NEU/@@download/ENCFF750NEU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR132XRW transverse_colon_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR132XRW age=54_year description=ENCSR132XRW_transverse_colon_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR132XRW 
+		view ENCSR132XRW
+
+	track ENCSR974HQI_ENCFF261ZGD
+	parent tissue_transverse_colon off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF261ZGD/@@download/ENCFF261ZGD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR974HQI transverse_colon_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR974HQI age=51_year description=ENCSR974HQI_transverse_colon_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_transverse_colon_view_ENCSR974HQI
+	parent tissue_transverse_colon off
+	view ENCSR974HQI
+	visibility dense
+	type bigBed
+
+		track ENCSR974HQI_ENCFF887ZIX
+		parent tissue_transverse_colon_view_ENCSR974HQI off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR974HQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF887ZIX/@@download/ENCFF887ZIX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR974HQI transverse_colon_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR974HQI age=51_year description=ENCSR974HQI_transverse_colon_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR974HQI 
+		view ENCSR974HQI
+

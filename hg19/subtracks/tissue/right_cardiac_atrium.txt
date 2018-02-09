@@ -1,0 +1,286 @@
+
+track tissue_right_cardiac_atrium
+parent super_tissue
+compositeTrack on
+shortLabel right cardiac atr
+longLabel right cardiac atrium (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO058AAA=ENCDO058AAA 
+subGroup2 age age a34_year=34&#32;year 
+subGroup3 view view ENCSR074ECR=ENCSR074ECR ENCSR548LZS=ENCSR548LZS ENCSR596BHN=ENCSR596BHN ENCSR671BOA=ENCSR671BOA ENCSR972RKX=ENCSR972RKX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR548LZS_ENCFF358SLL
+	parent tissue_right_cardiac_atrium off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF358SLL/@@download/ENCFF358SLL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR548LZS right_cardiac_atrium_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR548LZS age=34_year description=ENCSR548LZS_right_cardiac_atrium_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_cardiac_atrium_view_ENCSR548LZS
+	parent tissue_right_cardiac_atrium off
+	view ENCSR548LZS
+	visibility dense
+	type bigBed
+
+		track ENCSR548LZS_ENCFF709ENW
+		parent tissue_right_cardiac_atrium_view_ENCSR548LZS off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR548LZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF709ENW/@@download/ENCFF709ENW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR548LZS right_cardiac_atrium_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR548LZS age=34_year description=ENCSR548LZS_right_cardiac_atrium_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR548LZS 
+		view ENCSR548LZS
+
+		track ENCSR548LZS_ENCFF278RUJ
+		parent tissue_right_cardiac_atrium_view_ENCSR548LZS off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR548LZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF278RUJ/@@download/ENCFF278RUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF278RUJ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR548LZS age=34_year description=ENCFF278RUJ_5group_ donor=ENCDO058AAA sex=male view=ENCSR548LZS 
+		view ENCSR548LZS
+
+		track ENCSR548LZS_ENCFF620TUG
+		parent tissue_right_cardiac_atrium_view_ENCSR548LZS off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR548LZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF620TUG/@@download/ENCFF620TUG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF620TUG 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR548LZS age=34_year description=ENCFF620TUG_9state_H3K4me3_ donor=ENCDO058AAA sex=male view=ENCSR548LZS 
+		view ENCSR548LZS
+
+		track ENCSR548LZS_ENCFF897XWG
+		parent tissue_right_cardiac_atrium_view_ENCSR548LZS off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR548LZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF897XWG/@@download/ENCFF897XWG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF897XWG 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR548LZS age=34_year description=ENCFF897XWG_9state_H3K27ac_ donor=ENCDO058AAA sex=male view=ENCSR548LZS 
+		view ENCSR548LZS
+
+	track ENCSR074ECR_ENCFF456MLR
+	parent tissue_right_cardiac_atrium off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF456MLR/@@download/ENCFF456MLR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR074ECR right_cardiac_atrium_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR074ECR age=34_year description=ENCSR074ECR_right_cardiac_atrium_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_cardiac_atrium_view_ENCSR074ECR
+	parent tissue_right_cardiac_atrium off
+	view ENCSR074ECR
+	visibility dense
+	type bigBed
+
+		track ENCSR074ECR_ENCFF689MQO
+		parent tissue_right_cardiac_atrium_view_ENCSR074ECR off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR074ECR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF689MQO/@@download/ENCFF689MQO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR074ECR right_cardiac_atrium_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR074ECR age=34_year description=ENCSR074ECR_right_cardiac_atrium_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR074ECR 
+		view ENCSR074ECR
+
+		track ENCSR074ECR_ENCFF278RUJ
+		parent tissue_right_cardiac_atrium_view_ENCSR074ECR off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR074ECR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF278RUJ/@@download/ENCFF278RUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF278RUJ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR074ECR age=34_year description=ENCFF278RUJ_5group_ donor=ENCDO058AAA sex=male view=ENCSR074ECR 
+		view ENCSR074ECR
+
+		track ENCSR074ECR_ENCFF620TUG
+		parent tissue_right_cardiac_atrium_view_ENCSR074ECR off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR074ECR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF620TUG/@@download/ENCFF620TUG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF620TUG 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR074ECR age=34_year description=ENCFF620TUG_9state_H3K4me3_ donor=ENCDO058AAA sex=male view=ENCSR074ECR 
+		view ENCSR074ECR
+
+		track ENCSR074ECR_ENCFF897XWG
+		parent tissue_right_cardiac_atrium_view_ENCSR074ECR off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR074ECR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF897XWG/@@download/ENCFF897XWG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF897XWG 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR074ECR age=34_year description=ENCFF897XWG_9state_H3K27ac_ donor=ENCDO058AAA sex=male view=ENCSR074ECR 
+		view ENCSR074ECR
+
+	track ENCSR675YAS_ENCFF097RTG
+	parent tissue_right_cardiac_atrium off
+	subGroups age=a34_year assay=RNA-seq donor=ENCDO058AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF097RTG/@@download/ENCFF097RTG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR675YAS right_cardiac_atrium_male_adult_34_years_ (plus strand signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR675YAS age=34_year description=ENCSR675YAS_right_cardiac_atrium_male_adult_34_years_plus_strand_signal_of_unique_reads_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR972RKX_ENCFF810EZS
+	parent tissue_right_cardiac_atrium off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810EZS/@@download/ENCFF810EZS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR972RKX right_cardiac_atrium_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR972RKX age=34_year description=ENCSR972RKX_right_cardiac_atrium_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_cardiac_atrium_view_ENCSR972RKX
+	parent tissue_right_cardiac_atrium off
+	view ENCSR972RKX
+	visibility dense
+	type bigBed
+
+		track ENCSR972RKX_ENCFF796ZEU
+		parent tissue_right_cardiac_atrium_view_ENCSR972RKX off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=ENCSR972RKX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF796ZEU/@@download/ENCFF796ZEU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR972RKX right_cardiac_atrium_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR972RKX age=34_year description=ENCSR972RKX_right_cardiac_atrium_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR972RKX 
+		view ENCSR972RKX
+
+	track ENCSR671BOA_ENCFF694ZPY
+	parent tissue_right_cardiac_atrium off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF694ZPY/@@download/ENCFF694ZPY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR671BOA right_cardiac_atrium_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR671BOA age=34_year description=ENCSR671BOA_right_cardiac_atrium_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_cardiac_atrium_view_ENCSR671BOA
+	parent tissue_right_cardiac_atrium off
+	view ENCSR671BOA
+	visibility dense
+	type bigBed
+
+		track ENCSR671BOA_ENCFF924RNS
+		parent tissue_right_cardiac_atrium_view_ENCSR671BOA off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=ENCSR671BOA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF924RNS/@@download/ENCFF924RNS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR671BOA right_cardiac_atrium_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR671BOA age=34_year description=ENCSR671BOA_right_cardiac_atrium_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR671BOA 
+		view ENCSR671BOA
+
+	track ENCSR596BHN_ENCFF312RIJ
+	parent tissue_right_cardiac_atrium off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF312RIJ/@@download/ENCFF312RIJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR596BHN right_cardiac_atrium_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR596BHN age=34_year description=ENCSR596BHN_right_cardiac_atrium_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_cardiac_atrium_view_ENCSR596BHN
+	parent tissue_right_cardiac_atrium off
+	view ENCSR596BHN
+	visibility dense
+	type bigBed
+
+		track ENCSR596BHN_ENCFF862PFW
+		parent tissue_right_cardiac_atrium_view_ENCSR596BHN off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K9me3 view=ENCSR596BHN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF862PFW/@@download/ENCFF862PFW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR596BHN right_cardiac_atrium_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR596BHN age=34_year description=ENCSR596BHN_right_cardiac_atrium_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR596BHN 
+		view ENCSR596BHN
+

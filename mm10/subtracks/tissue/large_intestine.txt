@@ -1,0 +1,81 @@
+
+track tissue_large_intestine
+parent super_tissue
+compositeTrack on
+shortLabel large intestine
+longLabel large intestine (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
+subGroup2 age age a8_week=8&#32;week 
+subGroup3 view view ENCSR000CNH=ENCSR000CNH bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CNH_ENCFF650OFZ
+	parent tissue_large_intestine off
+	subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF650OFZ/@@download/ENCFF650OFZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CNH C57BL_6_large_intestine_male_adult_8_weeks_ (read-depth normalized s
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CNH age=8_week description=ENCSR000CNH_C57BL_6_large_intestine_male_adult_8_weeks_read_depth_normalized_signal_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR000CNH
+	parent tissue_large_intestine off
+	view ENCSR000CNH
+	visibility dense
+	type bigBed
+
+		track ENCSR000CNH_ENCFF420ZAN
+		parent tissue_large_intestine_view_ENCSR000CNH off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CNH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420ZAN/@@download/ENCFF420ZAN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CNH C57BL_6_large_intestine_male_adult_8_weeks_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CNH age=8_week description=ENCSR000CNH_C57BL_6_large_intestine_male_adult_8_weeks_peaks_ donor=ENCDO072AAA sex=unknown view=ENCSR000CNH 
+		view ENCSR000CNH
+
+		track ENCSR000CNH_ENCFF029QJR
+		parent tissue_large_intestine_view_ENCSR000CNH off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CNH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF029QJR/@@download/ENCFF029QJR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF029QJR 9state-DNase DNase on 8 week adult mouse large intestine
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CNH age=8_week description=ENCFF029QJR_9state_DNase_DNase_on_8_week_adult_mouse_large_intestine donor=ENCDO072AAA sex=unknown view=ENCSR000CNH 
+		view ENCSR000CNH
+
+	track ENCSR000BZA_ENCFF609UQQ
+	parent tissue_large_intestine off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF609UQQ/@@download/ENCFF609UQQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BZA C57BL_6_large_intestine_adult_8_weeks_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BZA age=8_week description=ENCSR000BZA_C57BL_6_large_intestine_adult_8_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+

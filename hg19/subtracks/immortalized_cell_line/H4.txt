@@ -1,0 +1,48 @@
+
+track immortalized_cell_line_H4
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel H4
+longLabel H4 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR850NOP_ENCFF461ABE
+	parent immortalized_cell_line_H4 off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO337AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF461ABE/@@download/ENCFF461ABE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR850NOP H4 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR850NOP age=37_year description=ENCSR850NOP_H4_plus_strand_signal_of_unique_reads_ donor=ENCDO337AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR919QJT_ENCFF193BIJ
+	parent immortalized_cell_line_H4 off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO337AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF193BIJ/@@download/ENCFF193BIJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR919QJT H4 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR919QJT age=37_year description=ENCSR919QJT_H4_plus_strand_signal_of_unique_reads_ donor=ENCDO337AAA sex=male view=bigWig 
+	view bigWig
+

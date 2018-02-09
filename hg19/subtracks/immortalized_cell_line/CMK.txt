@@ -1,0 +1,66 @@
+
+track immortalized_cell_line_CMK
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel CMK
+longLabel CMK (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
+subGroup3 view view ENCSR000EMN=ENCSR000EMN bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EMN_ENCFF962VFD
+	parent immortalized_cell_line_CMK off
+	subGroups age=a10_month assay=DNase-seq donor=ENCDO000AAH label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF962VFD/@@download/ENCFF962VFD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMN CMK (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMN age=10_month description=ENCSR000EMN_CMK_read_depth_normalized_signal_ donor=ENCDO000AAH sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_CMK_view_ENCSR000EMN
+	parent immortalized_cell_line_CMK off
+	view ENCSR000EMN
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMN_ENCFF451VQP
+		parent immortalized_cell_line_CMK_view_ENCSR000EMN off
+		subGroups age=a10_month assay=DNase-seq donor=ENCDO000AAH label=unknown view=ENCSR000EMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF451VQP/@@download/ENCFF451VQP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMN CMK (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMN age=10_month description=ENCSR000EMN_CMK_peaks_ donor=ENCDO000AAH sex=male view=ENCSR000EMN 
+		view ENCSR000EMN
+
+		track ENCSR000EMN_ENCFF573ZXX
+		parent immortalized_cell_line_CMK_view_ENCSR000EMN off
+		subGroups age=a10_month assay=DNase-seq donor=ENCDO000AAH label=unknown view=ENCSR000EMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF573ZXX/@@download/ENCFF573ZXX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF573ZXX 9state-DNase DNase-seq on human CMK
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMN age=10_month description=ENCFF573ZXX_9state_DNase_DNase_seq_on_human_CMK donor=ENCDO000AAH sex=male view=ENCSR000EMN 
+		view ENCSR000EMN
+

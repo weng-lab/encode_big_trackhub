@@ -1,0 +1,486 @@
+
+track tissue_duodenal_mucosa
+parent super_tissue
+compositeTrack on
+shortLabel duodenal mucosa
+longLabel duodenal mucosa (13 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO874DHL=ENCDO874DHL ENCDO889KES=ENCDO889KES 
+subGroup2 age age a59_year=59&#32;year a76_year=76&#32;year 
+subGroup3 view view ENCSR062ARL=ENCSR062ARL ENCSR149XIH=ENCSR149XIH ENCSR176WAS=ENCSR176WAS ENCSR191OEG=ENCSR191OEG ENCSR203BQB=ENCSR203BQB ENCSR245YZT=ENCSR245YZT ENCSR246ARY=ENCSR246ARY ENCSR405FZE=ENCSR405FZE ENCSR485FST=ENCSR485FST ENCSR513NFT=ENCSR513NFT ENCSR645NLL=ENCSR645NLL ENCSR746QFI=ENCSR746QFI ENCSR799TMR=ENCSR799TMR bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR149XIH_ENCFF206LWL
+	parent tissue_duodenal_mucosa off
+	subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF206LWL/@@download/ENCFF206LWL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR149XIH duodenal_mucosa_male_adult_76_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR149XIH age=76_year description=ENCSR149XIH_duodenal_mucosa_male_adult_76_years_fold_change_over_control_ donor=ENCDO889KES sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR149XIH
+	parent tissue_duodenal_mucosa off
+	view ENCSR149XIH
+	visibility dense
+	type bigBed
+
+		track ENCSR149XIH_ENCFF789QCX
+		parent tissue_duodenal_mucosa_view_ENCSR149XIH off
+		subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K4me3 view=ENCSR149XIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF789QCX/@@download/ENCFF789QCX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR149XIH duodenal_mucosa_male_adult_76_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR149XIH age=76_year description=ENCSR149XIH_duodenal_mucosa_male_adult_76_years_peaks_ donor=ENCDO889KES sex=male view=ENCSR149XIH 
+		view ENCSR149XIH
+
+		track ENCSR149XIH_ENCFF255IEF
+		parent tissue_duodenal_mucosa_view_ENCSR149XIH off
+		subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K4me3 view=ENCSR149XIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF255IEF/@@download/ENCFF255IEF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF255IEF 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR149XIH age=76_year description=ENCFF255IEF_5group_ donor=ENCDO889KES sex=male view=ENCSR149XIH 
+		view ENCSR149XIH
+
+	track ENCSR799TMR_ENCFF432LTK
+	parent tissue_duodenal_mucosa off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF432LTK/@@download/ENCFF432LTK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR799TMR duodenal_mucosa_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR799TMR age=59_year description=ENCSR799TMR_duodenal_mucosa_male_adult_59_years_fold_change_over_control_ donor=ENCDO874DHL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR799TMR
+	parent tissue_duodenal_mucosa off
+	view ENCSR799TMR
+	visibility dense
+	type bigBed
+
+		track ENCSR799TMR_ENCFF846QBY
+		parent tissue_duodenal_mucosa_view_ENCSR799TMR off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K4me3 view=ENCSR799TMR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF846QBY/@@download/ENCFF846QBY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR799TMR duodenal_mucosa_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR799TMR age=59_year description=ENCSR799TMR_duodenal_mucosa_male_adult_59_years_stable_peaks_ donor=ENCDO874DHL sex=male view=ENCSR799TMR 
+		view ENCSR799TMR
+
+	track ENCSR405FZE_ENCFF339EBN
+	parent tissue_duodenal_mucosa off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF339EBN/@@download/ENCFF339EBN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR405FZE duodenal_mucosa_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR405FZE age=59_year description=ENCSR405FZE_duodenal_mucosa_male_adult_59_years_fold_change_over_control_ donor=ENCDO874DHL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR405FZE
+	parent tissue_duodenal_mucosa off
+	view ENCSR405FZE
+	visibility dense
+	type bigBed
+
+		track ENCSR405FZE_ENCFF770OJO
+		parent tissue_duodenal_mucosa_view_ENCSR405FZE off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K27ac view=ENCSR405FZE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF770OJO/@@download/ENCFF770OJO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR405FZE duodenal_mucosa_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR405FZE age=59_year description=ENCSR405FZE_duodenal_mucosa_male_adult_59_years_peaks_ donor=ENCDO874DHL sex=male view=ENCSR405FZE 
+		view ENCSR405FZE
+
+	track ENCSR062ARL_ENCFF945JMM
+	parent tissue_duodenal_mucosa off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF945JMM/@@download/ENCFF945JMM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR062ARL duodenal_mucosa_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR062ARL age=59_year description=ENCSR062ARL_duodenal_mucosa_male_adult_59_years_fold_change_over_control_ donor=ENCDO874DHL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR062ARL
+	parent tissue_duodenal_mucosa off
+	view ENCSR062ARL
+	visibility dense
+	type bigBed
+
+		track ENCSR062ARL_ENCFF552VOD
+		parent tissue_duodenal_mucosa_view_ENCSR062ARL off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K27me3 view=ENCSR062ARL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF552VOD/@@download/ENCFF552VOD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR062ARL duodenal_mucosa_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR062ARL age=59_year description=ENCSR062ARL_duodenal_mucosa_male_adult_59_years_stable_peaks_ donor=ENCDO874DHL sex=male view=ENCSR062ARL 
+		view ENCSR062ARL
+
+	track ENCSR645NLL_ENCFF999JVO
+	parent tissue_duodenal_mucosa off
+	subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF999JVO/@@download/ENCFF999JVO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR645NLL duodenal_mucosa_male_adult_76_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR645NLL age=76_year description=ENCSR645NLL_duodenal_mucosa_male_adult_76_years_fold_change_over_control_ donor=ENCDO889KES sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR645NLL
+	parent tissue_duodenal_mucosa off
+	view ENCSR645NLL
+	visibility dense
+	type bigBed
+
+		track ENCSR645NLL_ENCFF935FPL
+		parent tissue_duodenal_mucosa_view_ENCSR645NLL off
+		subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K27me3 view=ENCSR645NLL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF935FPL/@@download/ENCFF935FPL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR645NLL duodenal_mucosa_male_adult_76_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR645NLL age=76_year description=ENCSR645NLL_duodenal_mucosa_male_adult_76_years_stable_peaks_ donor=ENCDO889KES sex=male view=ENCSR645NLL 
+		view ENCSR645NLL
+
+	track ENCSR176WAS_ENCFF055ZSS
+	parent tissue_duodenal_mucosa off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF055ZSS/@@download/ENCFF055ZSS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR176WAS duodenal_mucosa_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR176WAS age=59_year description=ENCSR176WAS_duodenal_mucosa_male_adult_59_years_fold_change_over_control_ donor=ENCDO874DHL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR176WAS
+	parent tissue_duodenal_mucosa off
+	view ENCSR176WAS
+	visibility dense
+	type bigBed
+
+		track ENCSR176WAS_ENCFF845MKV
+		parent tissue_duodenal_mucosa_view_ENCSR176WAS off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K36me3 view=ENCSR176WAS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF845MKV/@@download/ENCFF845MKV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR176WAS duodenal_mucosa_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR176WAS age=59_year description=ENCSR176WAS_duodenal_mucosa_male_adult_59_years_peaks_ donor=ENCDO874DHL sex=male view=ENCSR176WAS 
+		view ENCSR176WAS
+
+	track ENCSR245YZT_ENCFF421EPC
+	parent tissue_duodenal_mucosa off
+	subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF421EPC/@@download/ENCFF421EPC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR245YZT duodenal_mucosa_male_adult_76_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR245YZT age=76_year description=ENCSR245YZT_duodenal_mucosa_male_adult_76_years_fold_change_over_control_ donor=ENCDO889KES sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR245YZT
+	parent tissue_duodenal_mucosa off
+	view ENCSR245YZT
+	visibility dense
+	type bigBed
+
+		track ENCSR245YZT_ENCFF977TYA
+		parent tissue_duodenal_mucosa_view_ENCSR245YZT off
+		subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K36me3 view=ENCSR245YZT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF977TYA/@@download/ENCFF977TYA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR245YZT duodenal_mucosa_male_adult_76_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR245YZT age=76_year description=ENCSR245YZT_duodenal_mucosa_male_adult_76_years_peaks_ donor=ENCDO889KES sex=male view=ENCSR245YZT 
+		view ENCSR245YZT
+
+	track ENCSR246ARY_ENCFF420ITU
+	parent tissue_duodenal_mucosa off
+	subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF420ITU/@@download/ENCFF420ITU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR246ARY duodenal_mucosa_male_adult_76_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR246ARY age=76_year description=ENCSR246ARY_duodenal_mucosa_male_adult_76_years_fold_change_over_control_ donor=ENCDO889KES sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR246ARY
+	parent tissue_duodenal_mucosa off
+	view ENCSR246ARY
+	visibility dense
+	type bigBed
+
+		track ENCSR246ARY_ENCFF607KCV
+		parent tissue_duodenal_mucosa_view_ENCSR246ARY off
+		subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K4me1 view=ENCSR246ARY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF607KCV/@@download/ENCFF607KCV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR246ARY duodenal_mucosa_male_adult_76_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR246ARY age=76_year description=ENCSR246ARY_duodenal_mucosa_male_adult_76_years_peaks_ donor=ENCDO889KES sex=male view=ENCSR246ARY 
+		view ENCSR246ARY
+
+	track ENCSR513NFT_ENCFF481KYI
+	parent tissue_duodenal_mucosa off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF481KYI/@@download/ENCFF481KYI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR513NFT duodenal_mucosa_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR513NFT age=59_year description=ENCSR513NFT_duodenal_mucosa_male_adult_59_years_fold_change_over_control_ donor=ENCDO874DHL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR513NFT
+	parent tissue_duodenal_mucosa off
+	view ENCSR513NFT
+	visibility dense
+	type bigBed
+
+		track ENCSR513NFT_ENCFF843IYU
+		parent tissue_duodenal_mucosa_view_ENCSR513NFT off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K4me1 view=ENCSR513NFT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF843IYU/@@download/ENCFF843IYU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR513NFT duodenal_mucosa_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR513NFT age=59_year description=ENCSR513NFT_duodenal_mucosa_male_adult_59_years_stable_peaks_ donor=ENCDO874DHL sex=male view=ENCSR513NFT 
+		view ENCSR513NFT
+
+	track ENCSR191OEG_ENCFF210ELG
+	parent tissue_duodenal_mucosa off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF210ELG/@@download/ENCFF210ELG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR191OEG duodenal_mucosa_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR191OEG age=59_year description=ENCSR191OEG_duodenal_mucosa_male_adult_59_years_fold_change_over_control_ donor=ENCDO874DHL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR191OEG
+	parent tissue_duodenal_mucosa off
+	view ENCSR191OEG
+	visibility dense
+	type bigBed
+
+		track ENCSR191OEG_ENCFF714MYM
+		parent tissue_duodenal_mucosa_view_ENCSR191OEG off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K9ac view=ENCSR191OEG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF714MYM/@@download/ENCFF714MYM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR191OEG duodenal_mucosa_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR191OEG age=59_year description=ENCSR191OEG_duodenal_mucosa_male_adult_59_years_peaks_ donor=ENCDO874DHL sex=male view=ENCSR191OEG 
+		view ENCSR191OEG
+
+	track ENCSR485FST_ENCFF450RTM
+	parent tissue_duodenal_mucosa off
+	subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF450RTM/@@download/ENCFF450RTM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR485FST duodenal_mucosa_male_adult_76_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR485FST age=76_year description=ENCSR485FST_duodenal_mucosa_male_adult_76_years_fold_change_over_control_ donor=ENCDO889KES sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR485FST
+	parent tissue_duodenal_mucosa off
+	view ENCSR485FST
+	visibility dense
+	type bigBed
+
+		track ENCSR485FST_ENCFF800WXT
+		parent tissue_duodenal_mucosa_view_ENCSR485FST off
+		subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K9ac view=ENCSR485FST 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF800WXT/@@download/ENCFF800WXT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR485FST duodenal_mucosa_male_adult_76_years_ (stable peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR485FST age=76_year description=ENCSR485FST_duodenal_mucosa_male_adult_76_years_stable_peaks_ donor=ENCDO889KES sex=male view=ENCSR485FST 
+		view ENCSR485FST
+
+	track ENCSR203BQB_ENCFF359UGJ
+	parent tissue_duodenal_mucosa off
+	subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF359UGJ/@@download/ENCFF359UGJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR203BQB duodenal_mucosa_male_adult_76_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR203BQB age=76_year description=ENCSR203BQB_duodenal_mucosa_male_adult_76_years_fold_change_over_control_ donor=ENCDO889KES sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR203BQB
+	parent tissue_duodenal_mucosa off
+	view ENCSR203BQB
+	visibility dense
+	type bigBed
+
+		track ENCSR203BQB_ENCFF271VLR
+		parent tissue_duodenal_mucosa_view_ENCSR203BQB off
+		subGroups age=a76_year assay=ChIP-seq donor=ENCDO889KES label=H3K9me3 view=ENCSR203BQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF271VLR/@@download/ENCFF271VLR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR203BQB duodenal_mucosa_male_adult_76_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR203BQB age=76_year description=ENCSR203BQB_duodenal_mucosa_male_adult_76_years_peaks_ donor=ENCDO889KES sex=male view=ENCSR203BQB 
+		view ENCSR203BQB
+
+	track ENCSR746QFI_ENCFF727MFI
+	parent tissue_duodenal_mucosa off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF727MFI/@@download/ENCFF727MFI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR746QFI duodenal_mucosa_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR746QFI age=59_year description=ENCSR746QFI_duodenal_mucosa_male_adult_59_years_fold_change_over_control_ donor=ENCDO874DHL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_duodenal_mucosa_view_ENCSR746QFI
+	parent tissue_duodenal_mucosa off
+	view ENCSR746QFI
+	visibility dense
+	type bigBed
+
+		track ENCSR746QFI_ENCFF427ACP
+		parent tissue_duodenal_mucosa_view_ENCSR746QFI off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO874DHL label=H3K9me3 view=ENCSR746QFI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF427ACP/@@download/ENCFF427ACP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR746QFI duodenal_mucosa_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR746QFI age=59_year description=ENCSR746QFI_duodenal_mucosa_male_adult_59_years_stable_peaks_ donor=ENCDO874DHL sex=male view=ENCSR746QFI 
+		view ENCSR746QFI
+

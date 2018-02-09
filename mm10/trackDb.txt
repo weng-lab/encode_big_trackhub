@@ -1,0 +1,31 @@
+
+track super_in_vitro_differentiated_cells
+superTrack on show
+shortLabel in vitro differen
+longLabel in vitro differentiated cells (32 experiments)
+
+
+track super_primary_cell
+superTrack on show
+shortLabel primary cell
+longLabel primary cell (114 experiments)
+
+
+track super_immortalized_cell_line
+superTrack on show
+shortLabel immortalized cell
+longLabel immortalized cell line (145 experiments)
+
+
+track super_tissue
+superTrack on show
+shortLabel tissue
+longLabel tissue (1028 experiments)
+
+
+track super_stem_cell
+superTrack on show
+shortLabel stem cell
+longLabel stem cell (74 experiments)
+
+include subtracks.txt

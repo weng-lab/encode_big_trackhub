@@ -1,0 +1,53 @@
+
+track immortalized_cell_line_G401_6
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel G401.6
+longLabel G401.6 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay FAIRE-seq=FAIRE-seq 
+subGroup3 view view ENCSR000DCV=ENCSR000DCV bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DCV_ENCFF000TNQ
+	parent immortalized_cell_line_G401_6 off
+	subGroups age=a3_month assay=FAIRE-seq donor=ENCDO572LRN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000TNQ/@@download/ENCFF000TNQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel FAIRE-seq
+	longLabel ENCSR000DCV G401_6 (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DCV age=3_month description=ENCSR000DCV_G401_6_signal_ donor=ENCDO572LRN sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_G401_6_view_ENCSR000DCV
+	parent immortalized_cell_line_G401_6 off
+	view ENCSR000DCV
+	visibility dense
+	type bigBed
+
+		track ENCSR000DCV_ENCFF000TNO
+		parent immortalized_cell_line_G401_6_view_ENCSR000DCV off
+		subGroups age=a3_month assay=FAIRE-seq donor=ENCDO572LRN label=unknown view=ENCSR000DCV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000TNO/@@download/ENCFF000TNO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel FAIRE-seq
+		longLabel ENCSR000DCV G401_6 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DCV age=3_month description=ENCSR000DCV_G401_6_peaks_ donor=ENCDO572LRN sex=male view=ENCSR000DCV 
+		view ENCSR000DCV
+

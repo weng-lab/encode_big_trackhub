@@ -1,0 +1,292 @@
+
+track in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel hematopoietic mul
+longLabel hematopoietic multipotent progenitor cell (9 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO116AAA=ENCDO116AAA ENCDO494CVK=ENCDO494CVK ENCDO579CCQ=ENCDO579CCQ ENCDO937OUY=ENCDO937OUY 
+subGroup2 age age a25_year=25&#32;year a34_year=34&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000EMK=ENCSR000EMK ENCSR098PTC=ENCSR098PTC ENCSR148VUP=ENCSR148VUP ENCSR328UMC=ENCSR328UMC ENCSR564JUY=ENCSR564JUY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EMK_ENCFF157SRM
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO116AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF157SRM/@@download/ENCFF157SRM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMK hematopoietic_multipotent_progenitor_cell (read-depth normalized sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMK age=unknown description=ENCSR000EMK_hematopoietic_multipotent_progenitor_cell_read_depth_normalized_signal_ donor=ENCDO116AAA sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR000EMK
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	view ENCSR000EMK
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMK_ENCFF213GRT
+		parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR000EMK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO116AAA label=unknown view=ENCSR000EMK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF213GRT/@@download/ENCFF213GRT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMK hematopoietic_multipotent_progenitor_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMK age=unknown description=ENCSR000EMK_hematopoietic_multipotent_progenitor_cell_peaks_ donor=ENCDO116AAA sex=male view=ENCSR000EMK 
+		view ENCSR000EMK
+
+		track ENCSR000EMK_ENCFF714HQC
+		parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR000EMK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO116AAA label=unknown view=ENCSR000EMK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF714HQC/@@download/ENCFF714HQC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF714HQC 9state-DNase DNase-seq on human CD34+ (Mobilized)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMK age=unknown description=ENCFF714HQC_9state_DNase_DNase_seq_on_human_CD34_Mobilized_ donor=ENCDO116AAA sex=male view=ENCSR000EMK 
+		view ENCSR000EMK
+
+	track ENCSR098PTC_ENCFF432KCS
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=a25_year assay=DNase-seq donor=ENCDO937OUY label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF432KCS/@@download/ENCFF432KCS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR098PTC hematopoietic_multipotent_progenitor_cell (read-depth normalized sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR098PTC age=25_year description=ENCSR098PTC_hematopoietic_multipotent_progenitor_cell_read_depth_normalized_signal_ donor=ENCDO937OUY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR098PTC
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	view ENCSR098PTC
+	visibility dense
+	type bigBed
+
+		track ENCSR098PTC_ENCFF302QZA
+		parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR098PTC off
+		subGroups age=a25_year assay=DNase-seq donor=ENCDO937OUY label=unknown view=ENCSR098PTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF302QZA/@@download/ENCFF302QZA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR098PTC hematopoietic_multipotent_progenitor_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR098PTC age=25_year description=ENCSR098PTC_hematopoietic_multipotent_progenitor_cell_peaks_ donor=ENCDO937OUY sex=male view=ENCSR098PTC 
+		view ENCSR098PTC
+
+	track ENCSR148VUP_ENCFF182LJU
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=a25_year assay=DNase-seq donor=ENCDO937OUY label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF182LJU/@@download/ENCFF182LJU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR148VUP hematopoietic_multipotent_progenitor_cell_treated_with_interleukin_3
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR148VUP age=25_year description=ENCSR148VUP_hematopoietic_multipotent_progenitor_cell_treated_with_interleukin_3_for_4_days_kit_ligand_for_4_days_hydrocortisone_succinate_for_4_days_erythropoietin_for_4_days_read_depth_normalized_signal_ donor=ENCDO937OUY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR148VUP
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	view ENCSR148VUP
+	visibility dense
+	type bigBed
+
+		track ENCSR148VUP_ENCFF593FKN
+		parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR148VUP off
+		subGroups age=a25_year assay=DNase-seq donor=ENCDO937OUY label=unknown view=ENCSR148VUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF593FKN/@@download/ENCFF593FKN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR148VUP hematopoietic_multipotent_progenitor_cell_treated_with_interleukin_3
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR148VUP age=25_year description=ENCSR148VUP_hematopoietic_multipotent_progenitor_cell_treated_with_interleukin_3_for_4_days_kit_ligand_for_4_days_hydrocortisone_succinate_for_4_days_erythropoietin_for_4_days_peaks_ donor=ENCDO937OUY sex=male view=ENCSR148VUP 
+		view ENCSR148VUP
+
+	track ENCSR328UMC_ENCFF185WTB
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF185WTB/@@download/ENCFF185WTB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR328UMC hematopoietic_multipotent_progenitor_cell (read-depth normalized sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR328UMC age=34_year description=ENCSR328UMC_hematopoietic_multipotent_progenitor_cell_read_depth_normalized_signal_ donor=ENCDO579CCQ sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR328UMC
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	view ENCSR328UMC
+	visibility dense
+	type bigBed
+
+		track ENCSR328UMC_ENCFF435GYT
+		parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR328UMC off
+		subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=ENCSR328UMC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF435GYT/@@download/ENCFF435GYT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR328UMC hematopoietic_multipotent_progenitor_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR328UMC age=34_year description=ENCSR328UMC_hematopoietic_multipotent_progenitor_cell_peaks_ donor=ENCDO579CCQ sex=female view=ENCSR328UMC 
+		view ENCSR328UMC
+
+		track ENCSR328UMC_ENCFF915JFI
+		parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR328UMC off
+		subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=ENCSR328UMC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF915JFI/@@download/ENCFF915JFI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF915JFI 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR328UMC age=34_year description=ENCFF915JFI_9state_DNase_ donor=ENCDO579CCQ sex=female view=ENCSR328UMC 
+		view ENCSR328UMC
+
+	track ENCSR564JUY_ENCFF266MOH
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=a25_year assay=DNase-seq donor=ENCDO937OUY label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF266MOH/@@download/ENCFF266MOH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR564JUY hematopoietic_multipotent_progenitor_cell_treated_with_interleukin_3
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR564JUY age=25_year description=ENCSR564JUY_hematopoietic_multipotent_progenitor_cell_treated_with_interleukin_3_for_6_days_kit_ligand_for_6_days_hydrocortisone_succinate_for_6_days_erythropoietin_for_6_days_read_depth_normalized_signal_ donor=ENCDO937OUY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR564JUY
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	view ENCSR564JUY
+	visibility dense
+	type bigBed
+
+		track ENCSR564JUY_ENCFF836HIY
+		parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR564JUY off
+		subGroups age=a25_year assay=DNase-seq donor=ENCDO937OUY label=unknown view=ENCSR564JUY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF836HIY/@@download/ENCFF836HIY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR564JUY hematopoietic_multipotent_progenitor_cell_treated_with_interleukin_3
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR564JUY age=25_year description=ENCSR564JUY_hematopoietic_multipotent_progenitor_cell_treated_with_interleukin_3_for_6_days_kit_ligand_for_6_days_hydrocortisone_succinate_for_6_days_erythropoietin_for_6_days_peaks_ donor=ENCDO937OUY sex=male view=ENCSR564JUY 
+		view ENCSR564JUY
+
+		track ENCSR564JUY_ENCFF558ANQ
+		parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell_view_ENCSR564JUY off
+		subGroups age=a25_year assay=DNase-seq donor=ENCDO937OUY label=unknown view=ENCSR564JUY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF558ANQ/@@download/ENCFF558ANQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF558ANQ 9state-DNase DNase-seq on 25 year old human adult male hematopoietic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR564JUY age=25_year description=ENCFF558ANQ_9state_DNase_DNase_seq_on_25_year_old_human_adult_male_hematopoietic_multipotent_progenitor_cell_line donor=ENCDO937OUY sex=male view=ENCSR564JUY 
+		view ENCSR564JUY
+
+	track ENCSR000CKE_ENCFF644XSH
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=aunknown assay=CAGE donor=ENCDO116AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF644XSH/@@download/ENCFF644XSH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CKE hematopoietic_multipotent_progenitor_cell (plus strand signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CKE age=unknown description=ENCSR000CKE_hematopoietic_multipotent_progenitor_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO116AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CSR_ENCFF870XNM
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO116AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF870XNM/@@download/ENCFF870XNM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CSR hematopoietic_multipotent_progenitor_cell (plus strand signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CSR age=unknown description=ENCSR000CSR_hematopoietic_multipotent_progenitor_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO116AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CUA_ENCFF946AOF
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO116AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF946AOF/@@download/ENCFF946AOF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CUA hematopoietic_multipotent_progenitor_cell (plus strand signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CUA age=unknown description=ENCSR000CUA_hematopoietic_multipotent_progenitor_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO116AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR066KKK_ENCFF100XJA
+	parent in_vitro_differentiated_cells_hematopoietic_multipotent_progenitor_cell off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO494CVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF100XJA/@@download/ENCFF100XJA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR066KKK hematopoietic_multipotent_progenitor_cell (wavelet-smoothed signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR066KKK age=unknown description=ENCSR066KKK_hematopoietic_multipotent_progenitor_cell_wavelet_smoothed_signal_ donor=ENCDO494CVK sex=unknown view=bigWig 
+	view bigWig
+

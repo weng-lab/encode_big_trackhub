@@ -1,0 +1,63 @@
+
+track stem_cell_hematopoietic_stem_cell
+parent super_stem_cell
+compositeTrack on
+shortLabel hematopoietic ste
+longLabel hematopoietic stem cell (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
+subGroup2 age age a5_6_week=5-6&#32;week 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR085AJX_ENCFF650JEJ
+	parent stem_cell_hematopoietic_stem_cell off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF650JEJ/@@download/ENCFF650JEJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR085AJX C57BL_6_hematopoietic_stem_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR085AJX age=5_6_week description=ENCSR085AJX_C57BL_6_hematopoietic_stem_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR236ZIE_ENCFF576EFZ
+	parent stem_cell_hematopoietic_stem_cell off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF576EFZ/@@download/ENCFF576EFZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR236ZIE C57BL_6_hematopoietic_stem_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR236ZIE age=5_6_week description=ENCSR236ZIE_C57BL_6_hematopoietic_stem_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR453AWR_ENCFF564GWQ
+	parent stem_cell_hematopoietic_stem_cell off
+	subGroups age=a5_6_week assay=ATAC-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF564GWQ/@@download/ENCFF564GWQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR453AWR C57BL_6_hematopoietic_stem_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR453AWR age=5_6_week description=ENCSR453AWR_C57BL_6_hematopoietic_stem_cell_fold_change_over_control_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+

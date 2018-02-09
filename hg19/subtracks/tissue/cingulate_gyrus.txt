@@ -1,0 +1,438 @@
+
+track tissue_cingulate_gyrus
+parent super_tissue
+compositeTrack on
+shortLabel cingulate gyrus
+longLabel cingulate gyrus (12 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO871IWW=ENCDO871IWW ENCDO980BZD=ENCDO980BZD 
+subGroup2 age age a75_year=75&#32;year a81_year=81&#32;year 
+subGroup3 view view ENCSR022LOH=ENCSR022LOH ENCSR032BMQ=ENCSR032BMQ ENCSR069KYE=ENCSR069KYE ENCSR070GTK=ENCSR070GTK ENCSR117IJB=ENCSR117IJB ENCSR323YPH=ENCSR323YPH ENCSR355UYP=ENCSR355UYP ENCSR443NEP=ENCSR443NEP ENCSR604JDV=ENCSR604JDV ENCSR693GVU=ENCSR693GVU ENCSR736SFP=ENCSR736SFP ENCSR860PEV=ENCSR860PEV bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR032BMQ_ENCFF893IET
+	parent tissue_cingulate_gyrus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF893IET/@@download/ENCFF893IET.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR032BMQ cingulate_gyrus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR032BMQ age=81_year description=ENCSR032BMQ_cingulate_gyrus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR032BMQ
+	parent tissue_cingulate_gyrus off
+	view ENCSR032BMQ
+	visibility dense
+	type bigBed
+
+		track ENCSR032BMQ_ENCFF880ENZ
+		parent tissue_cingulate_gyrus_view_ENCSR032BMQ off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=ENCSR032BMQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF880ENZ/@@download/ENCFF880ENZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR032BMQ cingulate_gyrus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR032BMQ age=81_year description=ENCSR032BMQ_cingulate_gyrus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR032BMQ 
+		view ENCSR032BMQ
+
+	track ENCSR693GVU_ENCFF478BHA
+	parent tissue_cingulate_gyrus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF478BHA/@@download/ENCFF478BHA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR693GVU cingulate_gyrus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR693GVU age=75_year description=ENCSR693GVU_cingulate_gyrus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR693GVU
+	parent tissue_cingulate_gyrus off
+	view ENCSR693GVU
+	visibility dense
+	type bigBed
+
+		track ENCSR693GVU_ENCFF883GXX
+		parent tissue_cingulate_gyrus_view_ENCSR693GVU off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=ENCSR693GVU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF883GXX/@@download/ENCFF883GXX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR693GVU cingulate_gyrus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR693GVU age=75_year description=ENCSR693GVU_cingulate_gyrus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR693GVU 
+		view ENCSR693GVU
+
+	track ENCSR355UYP_ENCFF768QZY
+	parent tissue_cingulate_gyrus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF768QZY/@@download/ENCFF768QZY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR355UYP cingulate_gyrus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR355UYP age=81_year description=ENCSR355UYP_cingulate_gyrus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR355UYP
+	parent tissue_cingulate_gyrus off
+	view ENCSR355UYP
+	visibility dense
+	type bigBed
+
+		track ENCSR355UYP_ENCFF530BVW
+		parent tissue_cingulate_gyrus_view_ENCSR355UYP off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=ENCSR355UYP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF530BVW/@@download/ENCFF530BVW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR355UYP cingulate_gyrus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR355UYP age=81_year description=ENCSR355UYP_cingulate_gyrus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR355UYP 
+		view ENCSR355UYP
+
+	track ENCSR604JDV_ENCFF534YUD
+	parent tissue_cingulate_gyrus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF534YUD/@@download/ENCFF534YUD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR604JDV cingulate_gyrus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR604JDV age=75_year description=ENCSR604JDV_cingulate_gyrus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR604JDV
+	parent tissue_cingulate_gyrus off
+	view ENCSR604JDV
+	visibility dense
+	type bigBed
+
+		track ENCSR604JDV_ENCFF552RBN
+		parent tissue_cingulate_gyrus_view_ENCSR604JDV off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27ac view=ENCSR604JDV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF552RBN/@@download/ENCFF552RBN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR604JDV cingulate_gyrus_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR604JDV age=75_year description=ENCSR604JDV_cingulate_gyrus_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR604JDV 
+		view ENCSR604JDV
+
+	track ENCSR022LOH_ENCFF366HAW
+	parent tissue_cingulate_gyrus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF366HAW/@@download/ENCFF366HAW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR022LOH cingulate_gyrus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR022LOH age=81_year description=ENCSR022LOH_cingulate_gyrus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR022LOH
+	parent tissue_cingulate_gyrus off
+	view ENCSR022LOH
+	visibility dense
+	type bigBed
+
+		track ENCSR022LOH_ENCFF756IHX
+		parent tissue_cingulate_gyrus_view_ENCSR022LOH off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=ENCSR022LOH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF756IHX/@@download/ENCFF756IHX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR022LOH cingulate_gyrus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR022LOH age=81_year description=ENCSR022LOH_cingulate_gyrus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR022LOH 
+		view ENCSR022LOH
+
+	track ENCSR323YPH_ENCFF659GAV
+	parent tissue_cingulate_gyrus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF659GAV/@@download/ENCFF659GAV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR323YPH cingulate_gyrus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR323YPH age=75_year description=ENCSR323YPH_cingulate_gyrus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR323YPH
+	parent tissue_cingulate_gyrus off
+	view ENCSR323YPH
+	visibility dense
+	type bigBed
+
+		track ENCSR323YPH_ENCFF318SZB
+		parent tissue_cingulate_gyrus_view_ENCSR323YPH off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=ENCSR323YPH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF318SZB/@@download/ENCFF318SZB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR323YPH cingulate_gyrus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR323YPH age=75_year description=ENCSR323YPH_cingulate_gyrus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR323YPH 
+		view ENCSR323YPH
+
+	track ENCSR736SFP_ENCFF968GLQ
+	parent tissue_cingulate_gyrus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF968GLQ/@@download/ENCFF968GLQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR736SFP cingulate_gyrus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR736SFP age=81_year description=ENCSR736SFP_cingulate_gyrus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR736SFP
+	parent tissue_cingulate_gyrus off
+	view ENCSR736SFP
+	visibility dense
+	type bigBed
+
+		track ENCSR736SFP_ENCFF641DRW
+		parent tissue_cingulate_gyrus_view_ENCSR736SFP off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=ENCSR736SFP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF641DRW/@@download/ENCFF641DRW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR736SFP cingulate_gyrus_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR736SFP age=81_year description=ENCSR736SFP_cingulate_gyrus_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR736SFP 
+		view ENCSR736SFP
+
+	track ENCSR117IJB_ENCFF052OUF
+	parent tissue_cingulate_gyrus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF052OUF/@@download/ENCFF052OUF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR117IJB cingulate_gyrus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR117IJB age=75_year description=ENCSR117IJB_cingulate_gyrus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR117IJB
+	parent tissue_cingulate_gyrus off
+	view ENCSR117IJB
+	visibility dense
+	type bigBed
+
+		track ENCSR117IJB_ENCFF345WPE
+		parent tissue_cingulate_gyrus_view_ENCSR117IJB off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=ENCSR117IJB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF345WPE/@@download/ENCFF345WPE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR117IJB cingulate_gyrus_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR117IJB age=75_year description=ENCSR117IJB_cingulate_gyrus_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR117IJB 
+		view ENCSR117IJB
+
+	track ENCSR443NEP_ENCFF740FZH
+	parent tissue_cingulate_gyrus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF740FZH/@@download/ENCFF740FZH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR443NEP cingulate_gyrus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR443NEP age=81_year description=ENCSR443NEP_cingulate_gyrus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR443NEP
+	parent tissue_cingulate_gyrus off
+	view ENCSR443NEP
+	visibility dense
+	type bigBed
+
+		track ENCSR443NEP_ENCFF314MPF
+		parent tissue_cingulate_gyrus_view_ENCSR443NEP off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=ENCSR443NEP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF314MPF/@@download/ENCFF314MPF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR443NEP cingulate_gyrus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR443NEP age=81_year description=ENCSR443NEP_cingulate_gyrus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR443NEP 
+		view ENCSR443NEP
+
+	track ENCSR860PEV_ENCFF924NCW
+	parent tissue_cingulate_gyrus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF924NCW/@@download/ENCFF924NCW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR860PEV cingulate_gyrus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR860PEV age=75_year description=ENCSR860PEV_cingulate_gyrus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR860PEV
+	parent tissue_cingulate_gyrus off
+	view ENCSR860PEV
+	visibility dense
+	type bigBed
+
+		track ENCSR860PEV_ENCFF888FKA
+		parent tissue_cingulate_gyrus_view_ENCSR860PEV off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=ENCSR860PEV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF888FKA/@@download/ENCFF888FKA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR860PEV cingulate_gyrus_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR860PEV age=75_year description=ENCSR860PEV_cingulate_gyrus_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR860PEV 
+		view ENCSR860PEV
+
+	track ENCSR069KYE_ENCFF504OOY
+	parent tissue_cingulate_gyrus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF504OOY/@@download/ENCFF504OOY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR069KYE cingulate_gyrus_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR069KYE age=75_year description=ENCSR069KYE_cingulate_gyrus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR069KYE
+	parent tissue_cingulate_gyrus off
+	view ENCSR069KYE
+	visibility dense
+	type bigBed
+
+		track ENCSR069KYE_ENCFF627SSV
+		parent tissue_cingulate_gyrus_view_ENCSR069KYE off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=ENCSR069KYE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF627SSV/@@download/ENCFF627SSV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR069KYE cingulate_gyrus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR069KYE age=75_year description=ENCSR069KYE_cingulate_gyrus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR069KYE 
+		view ENCSR069KYE
+
+	track ENCSR070GTK_ENCFF142QLW
+	parent tissue_cingulate_gyrus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF142QLW/@@download/ENCFF142QLW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR070GTK cingulate_gyrus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR070GTK age=81_year description=ENCSR070GTK_cingulate_gyrus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_cingulate_gyrus_view_ENCSR070GTK
+	parent tissue_cingulate_gyrus off
+	view ENCSR070GTK
+	visibility dense
+	type bigBed
+
+		track ENCSR070GTK_ENCFF962ZIR
+		parent tissue_cingulate_gyrus_view_ENCSR070GTK off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=ENCSR070GTK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF962ZIR/@@download/ENCFF962ZIR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR070GTK cingulate_gyrus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR070GTK age=81_year description=ENCSR070GTK_cingulate_gyrus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR070GTK 
+		view ENCSR070GTK
+

@@ -1,0 +1,88 @@
+
+track immortalized_cell_line_HTR_8_SVneo
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel HTR-8/SVneo
+longLabel HTR-8/SVneo (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq FAIRE-seq=FAIRE-seq 
+subGroup3 view view ENCSR000DCI=ENCSR000DCI ENCSR000EKC=ENCSR000EKC bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EKC_ENCFF164DWM
+	parent immortalized_cell_line_HTR_8_SVneo off
+	subGroups age=a6_12_week assay=DNase-seq donor=ENCDO252AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF164DWM/@@download/ENCFF164DWM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EKC HTR_8_SVneo (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EKC age=6_12_week description=ENCSR000EKC_HTR_8_SVneo_read_depth_normalized_signal_ donor=ENCDO252AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HTR_8_SVneo_view_ENCSR000EKC
+	parent immortalized_cell_line_HTR_8_SVneo off
+	view ENCSR000EKC
+	visibility dense
+	type bigBed
+
+		track ENCSR000EKC_ENCFF898OBF
+		parent immortalized_cell_line_HTR_8_SVneo_view_ENCSR000EKC off
+		subGroups age=a6_12_week assay=DNase-seq donor=ENCDO252AAA label=unknown view=ENCSR000EKC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF898OBF/@@download/ENCFF898OBF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EKC HTR_8_SVneo (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EKC age=6_12_week description=ENCSR000EKC_HTR_8_SVneo_peaks_ donor=ENCDO252AAA sex=unknown view=ENCSR000EKC 
+		view ENCSR000EKC
+
+	track ENCSR000DCI_ENCFF000TKT
+	parent immortalized_cell_line_HTR_8_SVneo off
+	subGroups age=a6_12_week assay=FAIRE-seq donor=ENCDO252AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000TKT/@@download/ENCFF000TKT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel FAIRE-seq
+	longLabel ENCSR000DCI HTR_8_SVneo (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DCI age=6_12_week description=ENCSR000DCI_HTR_8_SVneo_signal_ donor=ENCDO252AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HTR_8_SVneo_view_ENCSR000DCI
+	parent immortalized_cell_line_HTR_8_SVneo off
+	view ENCSR000DCI
+	visibility dense
+	type bigBed
+
+		track ENCSR000DCI_ENCFF000TKS
+		parent immortalized_cell_line_HTR_8_SVneo_view_ENCSR000DCI off
+		subGroups age=a6_12_week assay=FAIRE-seq donor=ENCDO252AAA label=unknown view=ENCSR000DCI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000TKS/@@download/ENCFF000TKS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel FAIRE-seq
+		longLabel ENCSR000DCI HTR_8_SVneo (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DCI age=6_12_week description=ENCSR000DCI_HTR_8_SVneo_peaks_ donor=ENCDO252AAA sex=unknown view=ENCSR000DCI 
+		view ENCSR000DCI
+

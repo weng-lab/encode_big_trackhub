@@ -1,0 +1,66 @@
+
+track primary_cell_brain_pericyte
+parent super_primary_cell
+compositeTrack on
+shortLabel brain pericyte
+longLabel brain pericyte (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO228AAA=ENCDO228AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000ENF=ENCSR000ENF bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ENF_ENCFF212NME
+	parent primary_cell_brain_pericyte off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO228AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF212NME/@@download/ENCFF212NME.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENF brain_pericyte (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENF age=unknown description=ENCSR000ENF_brain_pericyte_read_depth_normalized_signal_ donor=ENCDO228AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_brain_pericyte_view_ENCSR000ENF
+	parent primary_cell_brain_pericyte off
+	view ENCSR000ENF
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENF_ENCFF522XKD
+		parent primary_cell_brain_pericyte_view_ENCSR000ENF off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO228AAA label=unknown view=ENCSR000ENF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF522XKD/@@download/ENCFF522XKD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENF brain_pericyte (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENF age=unknown description=ENCSR000ENF_brain_pericyte_peaks_ donor=ENCDO228AAA sex=unknown view=ENCSR000ENF 
+		view ENCSR000ENF
+
+		track ENCSR000ENF_ENCFF119ARG
+		parent primary_cell_brain_pericyte_view_ENCSR000ENF off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO228AAA label=unknown view=ENCSR000ENF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF119ARG/@@download/ENCFF119ARG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF119ARG 9state-DNase UW human HBVP DNase-seq
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENF age=unknown description=ENCFF119ARG_9state_DNase_UW_human_HBVP_DNase_seq donor=ENCDO228AAA sex=unknown view=ENCSR000ENF 
+		view ENCSR000ENF
+

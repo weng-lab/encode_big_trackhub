@@ -1,0 +1,63 @@
+
+track primary_cell_megakaryocyte_progenitor_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel megakaryocyte pro
+longLabel megakaryocyte progenitor cell (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
+subGroup2 age age a5_6_week=5-6&#32;week 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR027FCH_ENCFF643KVN
+	parent primary_cell_megakaryocyte_progenitor_cell off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF643KVN/@@download/ENCFF643KVN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR027FCH C57BL_6_megakaryocyte_progenitor_cell_male_adult_5_6_weeks_ (plus st
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR027FCH age=5_6_week description=ENCSR027FCH_C57BL_6_megakaryocyte_progenitor_cell_male_adult_5_6_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR229QKB_ENCFF517RIA
+	parent primary_cell_megakaryocyte_progenitor_cell off
+	subGroups age=a5_6_week assay=ATAC-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF517RIA/@@download/ENCFF517RIA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR229QKB C57BL_6_megakaryocyte_progenitor_cell_male_adult_5_6_weeks_ (fold ch
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR229QKB age=5_6_week description=ENCSR229QKB_C57BL_6_megakaryocyte_progenitor_cell_male_adult_5_6_weeks_fold_change_over_control_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR848LXY_ENCFF363MES
+	parent primary_cell_megakaryocyte_progenitor_cell off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF363MES/@@download/ENCFF363MES.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR848LXY C57BL_6_megakaryocyte_progenitor_cell_male_adult_5_6_weeks_ (signal 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR848LXY age=5_6_week description=ENCSR848LXY_C57BL_6_megakaryocyte_progenitor_cell_male_adult_5_6_weeks_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+

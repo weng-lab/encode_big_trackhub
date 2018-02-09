@@ -1,0 +1,308 @@
+
+track primary_cell_skeletal_muscle_satellite_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel skeletal muscle s
+longLabel skeletal muscle satellite cell (10 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO017AAA=ENCDO017AAA ENCDO118AAA=ENCDO118AAA ENCDO243GQK=ENCDO243GQK 
+subGroup2 age age a21_year=21&#32;year a64_year=64&#32;year aunknown=unknown 
+subGroup3 view view ENCSR002EZN=ENCSR002EZN ENCSR023MFG=ENCSR023MFG ENCSR100HGO=ENCSR100HGO ENCSR312CKN=ENCSR312CKN ENCSR525XER=ENCSR525XER ENCSR819HSS=ENCSR819HSS ENCSR995UTR=ENCSR995UTR bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR819HSS_ENCFF507MHI
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF507MHI/@@download/ENCFF507MHI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR819HSS skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR819HSS age=unknown description=ENCSR819HSS_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_fold_change_over_control_ donor=ENCDO243GQK sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_satellite_cell_view_ENCSR819HSS
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	view ENCSR819HSS
+	visibility dense
+	type bigBed
+
+		track ENCSR819HSS_ENCFF841ZHL
+		parent primary_cell_skeletal_muscle_satellite_cell_view_ENCSR819HSS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K4me3 view=ENCSR819HSS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF841ZHL/@@download/ENCFF841ZHL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR819HSS skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR819HSS age=unknown description=ENCSR819HSS_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_replicated_peaks_ donor=ENCDO243GQK sex=female view=ENCSR819HSS 
+		view ENCSR819HSS
+
+	track ENCSR000CLD_ENCFF709JJA
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=a64_year assay=CAGE donor=ENCDO118AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF709JJA/@@download/ENCFF709JJA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CLD skeletal_muscle_satellite_cell_female_adult_64_years_and_male_adult_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CLD age=64_year description=ENCSR000CLD_skeletal_muscle_satellite_cell_female_adult_64_years_and_male_adult_21_year_plus_strand_signal_of_unique_reads_ donor=ENCDO118AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000CUI_ENCFF166SEY
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=a21_year assay=RNA-seq donor=ENCDO017AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF166SEY/@@download/ENCFF166SEY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CUI skeletal_muscle_satellite_cell_female_adult_64_years_and_male_adult_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CUI age=21_year description=ENCSR000CUI_skeletal_muscle_satellite_cell_female_adult_64_years_and_male_adult_21_year_plus_strand_signal_of_unique_reads_ donor=ENCDO017AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CUZ_ENCFF332VIL
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=a21_year assay=RNA-seq donor=ENCDO017AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF332VIL/@@download/ENCFF332VIL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CUZ skeletal_muscle_satellite_cell_female_adult_64_years_and_male_adult_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CUZ age=21_year description=ENCSR000CUZ_skeletal_muscle_satellite_cell_female_adult_64_years_and_male_adult_21_year_plus_strand_signal_of_unique_reads_ donor=ENCDO017AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR312CKN_ENCFF860XQT
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF860XQT/@@download/ENCFF860XQT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR312CKN skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR312CKN age=unknown description=ENCSR312CKN_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_fold_change_over_control_ donor=ENCDO243GQK sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_satellite_cell_view_ENCSR312CKN
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	view ENCSR312CKN
+	visibility dense
+	type bigBed
+
+		track ENCSR312CKN_ENCFF918ZKM
+		parent primary_cell_skeletal_muscle_satellite_cell_view_ENCSR312CKN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K27me3 view=ENCSR312CKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF918ZKM/@@download/ENCFF918ZKM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR312CKN skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR312CKN age=unknown description=ENCSR312CKN_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_replicated_peaks_ donor=ENCDO243GQK sex=female view=ENCSR312CKN 
+		view ENCSR312CKN
+
+	track ENCSR995UTR_ENCFF686FCT
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF686FCT/@@download/ENCFF686FCT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR995UTR skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR995UTR age=unknown description=ENCSR995UTR_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_fold_change_over_control_ donor=ENCDO243GQK sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_satellite_cell_view_ENCSR995UTR
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	view ENCSR995UTR
+	visibility dense
+	type bigBed
+
+		track ENCSR995UTR_ENCFF841TKY
+		parent primary_cell_skeletal_muscle_satellite_cell_view_ENCSR995UTR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K36me3 view=ENCSR995UTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF841TKY/@@download/ENCFF841TKY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR995UTR skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR995UTR age=unknown description=ENCSR995UTR_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_replicated_peaks_ donor=ENCDO243GQK sex=female view=ENCSR995UTR 
+		view ENCSR995UTR
+
+	track ENCSR023MFG_ENCFF820EYD
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF820EYD/@@download/ENCFF820EYD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR023MFG skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR023MFG age=unknown description=ENCSR023MFG_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_fold_change_over_control_ donor=ENCDO243GQK sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_satellite_cell_view_ENCSR023MFG
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	view ENCSR023MFG
+	visibility dense
+	type bigBed
+
+		track ENCSR023MFG_ENCFF040JFJ
+		parent primary_cell_skeletal_muscle_satellite_cell_view_ENCSR023MFG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K4me1 view=ENCSR023MFG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF040JFJ/@@download/ENCFF040JFJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR023MFG skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR023MFG age=unknown description=ENCSR023MFG_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_replicated_peaks_ donor=ENCDO243GQK sex=female view=ENCSR023MFG 
+		view ENCSR023MFG
+
+	track ENCSR002EZN_ENCFF792JUP
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF792JUP/@@download/ENCFF792JUP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR002EZN skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR002EZN age=unknown description=ENCSR002EZN_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_fold_change_over_control_ donor=ENCDO243GQK sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_satellite_cell_view_ENCSR002EZN
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	view ENCSR002EZN
+	visibility dense
+	type bigBed
+
+		track ENCSR002EZN_ENCFF591SJW
+		parent primary_cell_skeletal_muscle_satellite_cell_view_ENCSR002EZN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K4me2 view=ENCSR002EZN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF591SJW/@@download/ENCFF591SJW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR002EZN skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR002EZN age=unknown description=ENCSR002EZN_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_replicated_peaks_ donor=ENCDO243GQK sex=female view=ENCSR002EZN 
+		view ENCSR002EZN
+
+	track ENCSR100HGO_ENCFF425CZZ
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF425CZZ/@@download/ENCFF425CZZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR100HGO skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR100HGO age=unknown description=ENCSR100HGO_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_fold_change_over_control_ donor=ENCDO243GQK sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_satellite_cell_view_ENCSR100HGO
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	view ENCSR100HGO
+	visibility dense
+	type bigBed
+
+		track ENCSR100HGO_ENCFF873TMC
+		parent primary_cell_skeletal_muscle_satellite_cell_view_ENCSR100HGO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K9ac view=ENCSR100HGO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF873TMC/@@download/ENCFF873TMC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR100HGO skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR100HGO age=unknown description=ENCSR100HGO_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_replicated_peaks_ donor=ENCDO243GQK sex=female view=ENCSR100HGO 
+		view ENCSR100HGO
+
+	track ENCSR525XER_ENCFF491PPT
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF491PPT/@@download/ENCFF491PPT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR525XER skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR525XER age=unknown description=ENCSR525XER_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_fold_change_over_control_ donor=ENCDO243GQK sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_satellite_cell_view_ENCSR525XER
+	parent primary_cell_skeletal_muscle_satellite_cell off
+	view ENCSR525XER
+	visibility dense
+	type bigBed
+
+		track ENCSR525XER_ENCFF478VUR
+		parent primary_cell_skeletal_muscle_satellite_cell_view_ENCSR525XER off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO243GQK label=H3K9me3 view=ENCSR525XER 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF478VUR/@@download/ENCFF478VUR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR525XER skeletal_muscle_satellite_cell_female_adult_originated_from_mesoderm
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR525XER age=unknown description=ENCSR525XER_skeletal_muscle_satellite_cell_female_adult_originated_from_mesodermal_cell_replicated_peaks_ donor=ENCDO243GQK sex=female view=ENCSR525XER 
+		view ENCSR525XER
+

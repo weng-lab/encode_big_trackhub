@@ -1,0 +1,294 @@
+
+track immortalized_cell_line_BE2C
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel BE2C
+longLabel BE2C (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label CTCF=CTCF H3K4me3=H3K4me3 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq RNA-seq=RNA-seq 
+subGroup3 view view ENCSR000DQB=ENCSR000DQB ENCSR000DQD=ENCSR000DQD ENCSR000EMD=ENCSR000EMD bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EMD_ENCFF990OIC
+	parent immortalized_cell_line_BE2C off
+	subGroups age=a2_year assay=DNase-seq donor=ENCDO000ACQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF990OIC/@@download/ENCFF990OIC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMD BE2C (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMD age=2_year description=ENCSR000EMD_BE2C_read_depth_normalized_signal_ donor=ENCDO000ACQ sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_BE2C_view_ENCSR000EMD
+	parent immortalized_cell_line_BE2C off
+	view ENCSR000EMD
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMD_ENCFF978HYI
+		parent immortalized_cell_line_BE2C_view_ENCSR000EMD off
+		subGroups age=a2_year assay=DNase-seq donor=ENCDO000ACQ label=unknown view=ENCSR000EMD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF978HYI/@@download/ENCFF978HYI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMD BE2C (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMD age=2_year description=ENCSR000EMD_BE2C_peaks_ donor=ENCDO000ACQ sex=male view=ENCSR000EMD 
+		view ENCSR000EMD
+
+		track ENCSR000EMD_ENCFF683ZSU
+		parent immortalized_cell_line_BE2C_view_ENCSR000EMD off
+		subGroups age=a2_year assay=DNase-seq donor=ENCDO000ACQ label=unknown view=ENCSR000EMD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF683ZSU/@@download/ENCFF683ZSU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF683ZSU 9state-DNase DNase-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMD age=2_year description=ENCFF683ZSU_9state_DNase_DNase_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000EMD 
+		view ENCSR000EMD
+
+		track ENCSR000EMD_ENCFF064CIR
+		parent immortalized_cell_line_BE2C_view_ENCSR000EMD off
+		subGroups age=a2_year assay=DNase-seq donor=ENCDO000ACQ label=unknown view=ENCSR000EMD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF064CIR/@@download/ENCFF064CIR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF064CIR 9state-CTCF DNase-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMD age=2_year description=ENCFF064CIR_9state_CTCF_DNase_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000EMD 
+		view ENCSR000EMD
+
+		track ENCSR000EMD_ENCFF186ORS
+		parent immortalized_cell_line_BE2C_view_ENCSR000EMD off
+		subGroups age=a2_year assay=DNase-seq donor=ENCDO000ACQ label=unknown view=ENCSR000EMD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF186ORS/@@download/ENCFF186ORS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF186ORS 5group DNase-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMD age=2_year description=ENCFF186ORS_5group_DNase_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000EMD 
+		view ENCSR000EMD
+
+		track ENCSR000EMD_ENCFF110CKK
+		parent immortalized_cell_line_BE2C_view_ENCSR000EMD off
+		subGroups age=a2_year assay=DNase-seq donor=ENCDO000ACQ label=unknown view=ENCSR000EMD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF110CKK/@@download/ENCFF110CKK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF110CKK 9state-H3K4me3 DNase-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMD age=2_year description=ENCFF110CKK_9state_H3K4me3_DNase_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000EMD 
+		view ENCSR000EMD
+
+	track ENCSR000DQB_ENCFF690ZQJ
+	parent immortalized_cell_line_BE2C off
+	subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF690ZQJ/@@download/ENCFF690ZQJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DQB BE2C (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQB age=2_year description=ENCSR000DQB_BE2C_fold_change_over_control_ donor=ENCDO000ACQ sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_BE2C_view_ENCSR000DQB
+	parent immortalized_cell_line_BE2C off
+	view ENCSR000DQB
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQB_ENCFF724THV
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQB off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=H3K4me3 view=ENCSR000DQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF724THV/@@download/ENCFF724THV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DQB BE2C (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DQB age=2_year description=ENCSR000DQB_BE2C_replicated_peaks_ donor=ENCDO000ACQ sex=male view=ENCSR000DQB 
+		view ENCSR000DQB
+
+		track ENCSR000DQB_ENCFF683ZSU
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQB off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=H3K4me3 view=ENCSR000DQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF683ZSU/@@download/ENCFF683ZSU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF683ZSU 9state-DNase H3K4me3 ChIP-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQB age=2_year description=ENCFF683ZSU_9state_DNase_H3K4me3_ChIP_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000DQB 
+		view ENCSR000DQB
+
+		track ENCSR000DQB_ENCFF064CIR
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQB off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=H3K4me3 view=ENCSR000DQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF064CIR/@@download/ENCFF064CIR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF064CIR 9state-CTCF H3K4me3 ChIP-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQB age=2_year description=ENCFF064CIR_9state_CTCF_H3K4me3_ChIP_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000DQB 
+		view ENCSR000DQB
+
+		track ENCSR000DQB_ENCFF186ORS
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQB off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=H3K4me3 view=ENCSR000DQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF186ORS/@@download/ENCFF186ORS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF186ORS 5group H3K4me3 ChIP-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQB age=2_year description=ENCFF186ORS_5group_H3K4me3_ChIP_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000DQB 
+		view ENCSR000DQB
+
+		track ENCSR000DQB_ENCFF110CKK
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQB off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=H3K4me3 view=ENCSR000DQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF110CKK/@@download/ENCFF110CKK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF110CKK 9state-H3K4me3 H3K4me3 ChIP-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQB age=2_year description=ENCFF110CKK_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000DQB 
+		view ENCSR000DQB
+
+	track ENCSR000DQD_ENCFF164VOK
+	parent immortalized_cell_line_BE2C off
+	subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF164VOK/@@download/ENCFF164VOK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DQD BE2C (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQD age=2_year description=ENCSR000DQD_BE2C_fold_change_over_control_ donor=ENCDO000ACQ sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_BE2C_view_ENCSR000DQD
+	parent immortalized_cell_line_BE2C off
+	view ENCSR000DQD
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQD_ENCFF340TDI
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQD off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=CTCF view=ENCSR000DQD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF340TDI/@@download/ENCFF340TDI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DQD BE2C (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DQD age=2_year description=ENCSR000DQD_BE2C_optimal_idr_thresholded_peaks_ donor=ENCDO000ACQ sex=male view=ENCSR000DQD 
+		view ENCSR000DQD
+
+		track ENCSR000DQD_ENCFF683ZSU
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQD off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=CTCF view=ENCSR000DQD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF683ZSU/@@download/ENCFF683ZSU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF683ZSU 9state-DNase CTCF ChIP-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQD age=2_year description=ENCFF683ZSU_9state_DNase_CTCF_ChIP_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000DQD 
+		view ENCSR000DQD
+
+		track ENCSR000DQD_ENCFF064CIR
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQD off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=CTCF view=ENCSR000DQD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF064CIR/@@download/ENCFF064CIR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF064CIR 9state-CTCF CTCF ChIP-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQD age=2_year description=ENCFF064CIR_9state_CTCF_CTCF_ChIP_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000DQD 
+		view ENCSR000DQD
+
+		track ENCSR000DQD_ENCFF186ORS
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQD off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=CTCF view=ENCSR000DQD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF186ORS/@@download/ENCFF186ORS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF186ORS 5group CTCF ChIP-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQD age=2_year description=ENCFF186ORS_5group_CTCF_ChIP_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000DQD 
+		view ENCSR000DQD
+
+		track ENCSR000DQD_ENCFF110CKK
+		parent immortalized_cell_line_BE2C_view_ENCSR000DQD off
+		subGroups age=a2_year assay=ChIP-seq donor=ENCDO000ACQ label=CTCF view=ENCSR000DQD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF110CKK/@@download/ENCFF110CKK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF110CKK 9state-H3K4me3 CTCF ChIP-seq on human BE2-C
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQD age=2_year description=ENCFF110CKK_9state_H3K4me3_CTCF_ChIP_seq_on_human_BE2_C donor=ENCDO000ACQ sex=male view=ENCSR000DQD 
+		view ENCSR000DQD
+
+	track ENCSR000BYK_ENCFF152IBY
+	parent immortalized_cell_line_BE2C off
+	subGroups age=a2_year assay=RNA-seq donor=ENCDO000ACQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF152IBY/@@download/ENCFF152IBY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYK BE2C (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYK age=2_year description=ENCSR000BYK_BE2C_signal_of_unique_reads_ donor=ENCDO000ACQ sex=male view=bigWig 
+	view bigWig
+

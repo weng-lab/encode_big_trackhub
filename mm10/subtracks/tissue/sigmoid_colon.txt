@@ -1,0 +1,33 @@
+
+track tissue_sigmoid_colon
+parent super_tissue
+compositeTrack on
+shortLabel sigmoid colon
+longLabel sigmoid colon (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
+subGroup2 age age a10_week=10&#32;week 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR518GDK_ENCFF158QYO
+	parent tissue_sigmoid_colon off
+	subGroups age=a10_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF158QYO/@@download/ENCFF158QYO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR518GDK C57BL_6_sigmoid_colon_female_adult_10_weeks_ (plus strand signal of 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR518GDK age=10_week description=ENCSR518GDK_C57BL_6_sigmoid_colon_female_adult_10_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+

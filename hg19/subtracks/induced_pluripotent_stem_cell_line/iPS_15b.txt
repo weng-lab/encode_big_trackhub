@@ -1,0 +1,241 @@
+
+track induced_pluripotent_stem_cell_line_iPS_15b
+parent super_induced_pluripotent_stem_cell_line
+compositeTrack on
+shortLabel iPS-15b
+longLabel iPS-15b (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO163OST=ENCDO163OST 
+subGroup2 age age a48_year=48&#32;year 
+subGroup3 view view ENCSR236XRR=ENCSR236XRR ENCSR276ZBE=ENCSR276ZBE ENCSR558XOU=ENCSR558XOU ENCSR581YZL=ENCSR581YZL ENCSR619YUY=ENCSR619YUY ENCSR848EZM=ENCSR848EZM bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR236XRR_ENCFF671TPB
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF671TPB/@@download/ENCFF671TPB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR236XRR iPS_15b_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR236XRR age=48_year description=ENCSR236XRR_iPS_15b_female_adult_48_years_fold_change_over_control_ donor=ENCDO163OST sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR236XRR
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	view ENCSR236XRR
+	visibility dense
+	type bigBed
+
+		track ENCSR236XRR_ENCFF862CTE
+		parent induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR236XRR off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K4me3 view=ENCSR236XRR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF862CTE/@@download/ENCFF862CTE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR236XRR iPS_15b_female_adult_48_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR236XRR age=48_year description=ENCSR236XRR_iPS_15b_female_adult_48_years_peaks_ donor=ENCDO163OST sex=female view=ENCSR236XRR 
+		view ENCSR236XRR
+
+		track ENCSR236XRR_ENCFF582KIB
+		parent induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR236XRR off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K4me3 view=ENCSR236XRR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF582KIB/@@download/ENCFF582KIB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF582KIB 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR236XRR age=48_year description=ENCFF582KIB_5group_ donor=ENCDO163OST sex=female view=ENCSR236XRR 
+		view ENCSR236XRR
+
+	track ENCSR581YZL_ENCFF480FJT
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF480FJT/@@download/ENCFF480FJT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR581YZL iPS_15b_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR581YZL age=48_year description=ENCSR581YZL_iPS_15b_female_adult_48_years_fold_change_over_control_ donor=ENCDO163OST sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR581YZL
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	view ENCSR581YZL
+	visibility dense
+	type bigBed
+
+		track ENCSR581YZL_ENCFF741KHS
+		parent induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR581YZL off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K27me3 view=ENCSR581YZL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF741KHS/@@download/ENCFF741KHS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR581YZL iPS_15b_female_adult_48_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR581YZL age=48_year description=ENCSR581YZL_iPS_15b_female_adult_48_years_peaks_ donor=ENCDO163OST sex=female view=ENCSR581YZL 
+		view ENCSR581YZL
+
+	track ENCSR619YUY_ENCFF793KAM
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF793KAM/@@download/ENCFF793KAM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR619YUY iPS_15b_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR619YUY age=48_year description=ENCSR619YUY_iPS_15b_female_adult_48_years_fold_change_over_control_ donor=ENCDO163OST sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR619YUY
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	view ENCSR619YUY
+	visibility dense
+	type bigBed
+
+		track ENCSR619YUY_ENCFF320GLT
+		parent induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR619YUY off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K36me3 view=ENCSR619YUY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF320GLT/@@download/ENCFF320GLT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR619YUY iPS_15b_female_adult_48_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR619YUY age=48_year description=ENCSR619YUY_iPS_15b_female_adult_48_years_peaks_ donor=ENCDO163OST sex=female view=ENCSR619YUY 
+		view ENCSR619YUY
+
+	track ENCSR276ZBE_ENCFF753ALA
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF753ALA/@@download/ENCFF753ALA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR276ZBE iPS_15b_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR276ZBE age=48_year description=ENCSR276ZBE_iPS_15b_female_adult_48_years_fold_change_over_control_ donor=ENCDO163OST sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR276ZBE
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	view ENCSR276ZBE
+	visibility dense
+	type bigBed
+
+		track ENCSR276ZBE_ENCFF843YYZ
+		parent induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR276ZBE off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K4me1 view=ENCSR276ZBE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF843YYZ/@@download/ENCFF843YYZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR276ZBE iPS_15b_female_adult_48_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR276ZBE age=48_year description=ENCSR276ZBE_iPS_15b_female_adult_48_years_stable_peaks_ donor=ENCDO163OST sex=female view=ENCSR276ZBE 
+		view ENCSR276ZBE
+
+	track ENCSR848EZM_ENCFF304DJC
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF304DJC/@@download/ENCFF304DJC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR848EZM iPS_15b_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR848EZM age=48_year description=ENCSR848EZM_iPS_15b_female_adult_48_years_fold_change_over_control_ donor=ENCDO163OST sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR848EZM
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	view ENCSR848EZM
+	visibility dense
+	type bigBed
+
+		track ENCSR848EZM_ENCFF311GCI
+		parent induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR848EZM off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K9ac view=ENCSR848EZM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF311GCI/@@download/ENCFF311GCI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR848EZM iPS_15b_female_adult_48_years_ (stable peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR848EZM age=48_year description=ENCSR848EZM_iPS_15b_female_adult_48_years_stable_peaks_ donor=ENCDO163OST sex=female view=ENCSR848EZM 
+		view ENCSR848EZM
+
+	track ENCSR558XOU_ENCFF032UHG
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF032UHG/@@download/ENCFF032UHG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR558XOU iPS_15b_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR558XOU age=48_year description=ENCSR558XOU_iPS_15b_female_adult_48_years_fold_change_over_control_ donor=ENCDO163OST sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR558XOU
+	parent induced_pluripotent_stem_cell_line_iPS_15b off
+	view ENCSR558XOU
+	visibility dense
+	type bigBed
+
+		track ENCSR558XOU_ENCFF816QXB
+		parent induced_pluripotent_stem_cell_line_iPS_15b_view_ENCSR558XOU off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO163OST label=H3K9me3 view=ENCSR558XOU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF816QXB/@@download/ENCFF816QXB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR558XOU iPS_15b_female_adult_48_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR558XOU age=48_year description=ENCSR558XOU_iPS_15b_female_adult_48_years_stable_peaks_ donor=ENCDO163OST sex=female view=ENCSR558XOU 
+		view ENCSR558XOU
+

@@ -1,0 +1,114 @@
+
+track stem_cell_WW6
+parent super_stem_cell
+compositeTrack on
+shortLabel WW6
+longLabel WW6 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO078AAA=ENCDO078AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000CMX=ENCSR000CMX ENCSR000CMY=ENCSR000CMY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CMX_ENCFF974BRL
+	parent stem_cell_WW6 off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO078AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF974BRL/@@download/ENCFF974BRL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CMX mixed_WW6 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CMX age=unknown description=ENCSR000CMX_mixed_WW6_read_depth_normalized_signal_ donor=ENCDO078AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track stem_cell_WW6_view_ENCSR000CMX
+	parent stem_cell_WW6 off
+	view ENCSR000CMX
+	visibility dense
+	type bigBed
+
+		track ENCSR000CMX_ENCFF097LYB
+		parent stem_cell_WW6_view_ENCSR000CMX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO078AAA label=unknown view=ENCSR000CMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF097LYB/@@download/ENCFF097LYB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CMX mixed_WW6 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CMX age=unknown description=ENCSR000CMX_mixed_WW6_peaks_ donor=ENCDO078AAA sex=unknown view=ENCSR000CMX 
+		view ENCSR000CMX
+
+		track ENCSR000CMX_ENCFF900WTQ
+		parent stem_cell_WW6_view_ENCSR000CMX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO078AAA label=unknown view=ENCSR000CMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF900WTQ/@@download/ENCFF900WTQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF900WTQ 9state-DNase DNase-seq on mouse ES-WW6
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CMX age=unknown description=ENCFF900WTQ_9state_DNase_DNase_seq_on_mouse_ES_WW6 donor=ENCDO078AAA sex=unknown view=ENCSR000CMX 
+		view ENCSR000CMX
+
+	track ENCSR000CMY_ENCFF660XSJ
+	parent stem_cell_WW6 off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO078AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF660XSJ/@@download/ENCFF660XSJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CMY mixed_WW6 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CMY age=unknown description=ENCSR000CMY_mixed_WW6_read_depth_normalized_signal_ donor=ENCDO078AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track stem_cell_WW6_view_ENCSR000CMY
+	parent stem_cell_WW6 off
+	view ENCSR000CMY
+	visibility dense
+	type bigBed
+
+		track ENCSR000CMY_ENCFF724LKW
+		parent stem_cell_WW6_view_ENCSR000CMY off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO078AAA label=unknown view=ENCSR000CMY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF724LKW/@@download/ENCFF724LKW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CMY mixed_WW6 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CMY age=unknown description=ENCSR000CMY_mixed_WW6_peaks_ donor=ENCDO078AAA sex=unknown view=ENCSR000CMY 
+		view ENCSR000CMY
+
+		track ENCSR000CMY_ENCFF725AYP
+		parent stem_cell_WW6_view_ENCSR000CMY off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO078AAA label=unknown view=ENCSR000CMY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF725AYP/@@download/ENCFF725AYP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF725AYP 9state-DNase DNase-seq on mouse ES-WW6 F1KO
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CMY age=unknown description=ENCFF725AYP_9state_DNase_DNase_seq_on_mouse_ES_WW6_F1KO donor=ENCDO078AAA sex=unknown view=ENCSR000CMY 
+		view ENCSR000CMY
+

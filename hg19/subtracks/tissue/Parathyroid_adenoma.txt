@@ -1,0 +1,613 @@
+
+track tissue_Parathyroid_adenoma
+parent super_tissue
+compositeTrack on
+shortLabel Parathyroid adeno
+longLabel Parathyroid adenoma (17 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO371NVV=ENCDO371NVV ENCDO952UGS=ENCDO952UGS 
+subGroup2 age age a62_year=62&#32;year a65_year=65&#32;year 
+subGroup3 view view ENCSR033OKS=ENCSR033OKS ENCSR034RQV=ENCSR034RQV ENCSR086FIZ=ENCSR086FIZ ENCSR106GXJ=ENCSR106GXJ ENCSR249LNW=ENCSR249LNW ENCSR256KRN=ENCSR256KRN ENCSR335LTZ=ENCSR335LTZ ENCSR336PTS=ENCSR336PTS ENCSR370KYM=ENCSR370KYM ENCSR434NUA=ENCSR434NUA ENCSR481IYI=ENCSR481IYI ENCSR486GER=ENCSR486GER ENCSR492DBQ=ENCSR492DBQ ENCSR619AAK=ENCSR619AAK ENCSR688SJY=ENCSR688SJY ENCSR735SLW=ENCSR735SLW ENCSR780OZE=ENCSR780OZE bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR033OKS_ENCFF154PWC
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF154PWC/@@download/ENCFF154PWC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR033OKS Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR033OKS age=62_year description=ENCSR033OKS_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR033OKS
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR033OKS
+	visibility dense
+	type bigBed
+
+		track ENCSR033OKS_ENCFF683MBA
+		parent tissue_Parathyroid_adenoma_view_ENCSR033OKS off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K4me3 view=ENCSR033OKS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF683MBA/@@download/ENCFF683MBA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR033OKS Parathyroid_adenoma_male_adult_62_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR033OKS age=62_year description=ENCSR033OKS_Parathyroid_adenoma_male_adult_62_years_peaks_ donor=ENCDO952UGS sex=male view=ENCSR033OKS 
+		view ENCSR033OKS
+
+	track ENCSR034RQV_ENCFF370JYV
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF370JYV/@@download/ENCFF370JYV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR034RQV Parathyroid_adenoma_male_adult_65_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR034RQV age=65_year description=ENCSR034RQV_Parathyroid_adenoma_male_adult_65_years_fold_change_over_control_ donor=ENCDO371NVV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR034RQV
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR034RQV
+	visibility dense
+	type bigBed
+
+		track ENCSR034RQV_ENCFF831LTN
+		parent tissue_Parathyroid_adenoma_view_ENCSR034RQV off
+		subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H3K27ac view=ENCSR034RQV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF831LTN/@@download/ENCFF831LTN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR034RQV Parathyroid_adenoma_male_adult_65_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR034RQV age=65_year description=ENCSR034RQV_Parathyroid_adenoma_male_adult_65_years_peaks_ donor=ENCDO371NVV sex=male view=ENCSR034RQV 
+		view ENCSR034RQV
+
+	track ENCSR336PTS_ENCFF505RMN
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF505RMN/@@download/ENCFF505RMN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR336PTS Parathyroid_adenoma_male_adult_65_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR336PTS age=65_year description=ENCSR336PTS_Parathyroid_adenoma_male_adult_65_years_fold_change_over_control_ donor=ENCDO371NVV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR336PTS
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR336PTS
+	visibility dense
+	type bigBed
+
+		track ENCSR336PTS_ENCFF964FJP
+		parent tissue_Parathyroid_adenoma_view_ENCSR336PTS off
+		subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=CTCF view=ENCSR336PTS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF964FJP/@@download/ENCFF964FJP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR336PTS Parathyroid_adenoma_male_adult_65_years_ (pseudoreplicated idr thres
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR336PTS age=65_year description=ENCSR336PTS_Parathyroid_adenoma_male_adult_65_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO371NVV sex=male view=ENCSR336PTS 
+		view ENCSR336PTS
+
+	track ENCSR735SLW_ENCFF003ZLW
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF003ZLW/@@download/ENCFF003ZLW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR735SLW Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR735SLW age=62_year description=ENCSR735SLW_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR735SLW
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR735SLW
+	visibility dense
+	type bigBed
+
+		track ENCSR735SLW_ENCFF648QGR
+		parent tissue_Parathyroid_adenoma_view_ENCSR735SLW off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K27ac view=ENCSR735SLW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF648QGR/@@download/ENCFF648QGR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR735SLW Parathyroid_adenoma_male_adult_62_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR735SLW age=62_year description=ENCSR735SLW_Parathyroid_adenoma_male_adult_62_years_peaks_ donor=ENCDO952UGS sex=male view=ENCSR735SLW 
+		view ENCSR735SLW
+
+	track ENCSR780OZE_ENCFF591MSO
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF591MSO/@@download/ENCFF591MSO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR780OZE Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR780OZE age=62_year description=ENCSR780OZE_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR780OZE
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR780OZE
+	visibility dense
+	type bigBed
+
+		track ENCSR780OZE_ENCFF810RPL
+		parent tissue_Parathyroid_adenoma_view_ENCSR780OZE off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=CTCF view=ENCSR780OZE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF810RPL/@@download/ENCFF810RPL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR780OZE Parathyroid_adenoma_male_adult_62_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR780OZE age=62_year description=ENCSR780OZE_Parathyroid_adenoma_male_adult_62_years_peaks_ donor=ENCDO952UGS sex=male view=ENCSR780OZE 
+		view ENCSR780OZE
+
+	track ENCSR249LNW_ENCFF494BXX
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF494BXX/@@download/ENCFF494BXX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR249LNW Parathyroid_adenoma_male_adult_65_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR249LNW age=65_year description=ENCSR249LNW_Parathyroid_adenoma_male_adult_65_years_fold_change_over_control_ donor=ENCDO371NVV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR249LNW
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR249LNW
+	visibility dense
+	type bigBed
+
+		track ENCSR249LNW_ENCFF910IHZ
+		parent tissue_Parathyroid_adenoma_view_ENCSR249LNW off
+		subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H2AFZ view=ENCSR249LNW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF910IHZ/@@download/ENCFF910IHZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR249LNW Parathyroid_adenoma_male_adult_65_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR249LNW age=65_year description=ENCSR249LNW_Parathyroid_adenoma_male_adult_65_years_peaks_ donor=ENCDO371NVV sex=male view=ENCSR249LNW 
+		view ENCSR249LNW
+
+	track ENCSR256KRN_ENCFF261KEW
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF261KEW/@@download/ENCFF261KEW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR256KRN Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR256KRN age=62_year description=ENCSR256KRN_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR256KRN
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR256KRN
+	visibility dense
+	type bigBed
+
+		track ENCSR256KRN_ENCFF598ESD
+		parent tissue_Parathyroid_adenoma_view_ENCSR256KRN off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H2AFZ view=ENCSR256KRN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF598ESD/@@download/ENCFF598ESD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR256KRN Parathyroid_adenoma_male_adult_62_years_ (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR256KRN age=62_year description=ENCSR256KRN_Parathyroid_adenoma_male_adult_62_years_stable_peaks_ donor=ENCDO952UGS sex=male view=ENCSR256KRN 
+		view ENCSR256KRN
+
+	track ENCSR370KYM_ENCFF665JGR
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF665JGR/@@download/ENCFF665JGR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR370KYM Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR370KYM age=62_year description=ENCSR370KYM_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR370KYM
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR370KYM
+	visibility dense
+	type bigBed
+
+		track ENCSR370KYM_ENCFF998MUH
+		parent tissue_Parathyroid_adenoma_view_ENCSR370KYM off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K27me3 view=ENCSR370KYM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF998MUH/@@download/ENCFF998MUH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR370KYM Parathyroid_adenoma_male_adult_62_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR370KYM age=62_year description=ENCSR370KYM_Parathyroid_adenoma_male_adult_62_years_stable_peaks_ donor=ENCDO952UGS sex=male view=ENCSR370KYM 
+		view ENCSR370KYM
+
+	track ENCSR481IYI_ENCFF230OQH
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF230OQH/@@download/ENCFF230OQH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR481IYI Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR481IYI age=62_year description=ENCSR481IYI_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR481IYI
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR481IYI
+	visibility dense
+	type bigBed
+
+		track ENCSR481IYI_ENCFF890QDW
+		parent tissue_Parathyroid_adenoma_view_ENCSR481IYI off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K36me3 view=ENCSR481IYI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF890QDW/@@download/ENCFF890QDW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR481IYI Parathyroid_adenoma_male_adult_62_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR481IYI age=62_year description=ENCSR481IYI_Parathyroid_adenoma_male_adult_62_years_stable_peaks_ donor=ENCDO952UGS sex=male view=ENCSR481IYI 
+		view ENCSR481IYI
+
+	track ENCSR434NUA_ENCFF680LCT
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF680LCT/@@download/ENCFF680LCT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR434NUA Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR434NUA age=62_year description=ENCSR434NUA_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR434NUA
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR434NUA
+	visibility dense
+	type bigBed
+
+		track ENCSR434NUA_ENCFF202DJE
+		parent tissue_Parathyroid_adenoma_view_ENCSR434NUA off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K4me1 view=ENCSR434NUA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF202DJE/@@download/ENCFF202DJE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR434NUA Parathyroid_adenoma_male_adult_62_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR434NUA age=62_year description=ENCSR434NUA_Parathyroid_adenoma_male_adult_62_years_stable_peaks_ donor=ENCDO952UGS sex=male view=ENCSR434NUA 
+		view ENCSR434NUA
+
+	track ENCSR486GER_ENCFF455GGY
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF455GGY/@@download/ENCFF455GGY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR486GER Parathyroid_adenoma_male_adult_65_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR486GER age=65_year description=ENCSR486GER_Parathyroid_adenoma_male_adult_65_years_fold_change_over_control_ donor=ENCDO371NVV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR486GER
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR486GER
+	visibility dense
+	type bigBed
+
+		track ENCSR486GER_ENCFF866YUN
+		parent tissue_Parathyroid_adenoma_view_ENCSR486GER off
+		subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H3K4me1 view=ENCSR486GER 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF866YUN/@@download/ENCFF866YUN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR486GER Parathyroid_adenoma_male_adult_65_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR486GER age=65_year description=ENCSR486GER_Parathyroid_adenoma_male_adult_65_years_peaks_ donor=ENCDO371NVV sex=male view=ENCSR486GER 
+		view ENCSR486GER
+
+	track ENCSR106GXJ_ENCFF773DSZ
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF773DSZ/@@download/ENCFF773DSZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR106GXJ Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR106GXJ age=62_year description=ENCSR106GXJ_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR106GXJ
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR106GXJ
+	visibility dense
+	type bigBed
+
+		track ENCSR106GXJ_ENCFF356AYZ
+		parent tissue_Parathyroid_adenoma_view_ENCSR106GXJ off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K4me2 view=ENCSR106GXJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF356AYZ/@@download/ENCFF356AYZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR106GXJ Parathyroid_adenoma_male_adult_62_years_ (peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR106GXJ age=62_year description=ENCSR106GXJ_Parathyroid_adenoma_male_adult_62_years_peaks_ donor=ENCDO952UGS sex=male view=ENCSR106GXJ 
+		view ENCSR106GXJ
+
+	track ENCSR086FIZ_ENCFF219JIE
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF219JIE/@@download/ENCFF219JIE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR086FIZ Parathyroid_adenoma_male_adult_65_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR086FIZ age=65_year description=ENCSR086FIZ_Parathyroid_adenoma_male_adult_65_years_fold_change_over_control_ donor=ENCDO371NVV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR086FIZ
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR086FIZ
+	visibility dense
+	type bigBed
+
+		track ENCSR086FIZ_ENCFF824MSA
+		parent tissue_Parathyroid_adenoma_view_ENCSR086FIZ off
+		subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H3K79me2 view=ENCSR086FIZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF824MSA/@@download/ENCFF824MSA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR086FIZ Parathyroid_adenoma_male_adult_65_years_ (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR086FIZ age=65_year description=ENCSR086FIZ_Parathyroid_adenoma_male_adult_65_years_stable_peaks_ donor=ENCDO371NVV sex=male view=ENCSR086FIZ 
+		view ENCSR086FIZ
+
+	track ENCSR619AAK_ENCFF157DIA
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF157DIA/@@download/ENCFF157DIA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR619AAK Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR619AAK age=62_year description=ENCSR619AAK_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR619AAK
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR619AAK
+	visibility dense
+	type bigBed
+
+		track ENCSR619AAK_ENCFF940WYR
+		parent tissue_Parathyroid_adenoma_view_ENCSR619AAK off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K79me2 view=ENCSR619AAK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF940WYR/@@download/ENCFF940WYR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR619AAK Parathyroid_adenoma_male_adult_62_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR619AAK age=62_year description=ENCSR619AAK_Parathyroid_adenoma_male_adult_62_years_peaks_ donor=ENCDO952UGS sex=male view=ENCSR619AAK 
+		view ENCSR619AAK
+
+	track ENCSR335LTZ_ENCFF006TEK
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF006TEK/@@download/ENCFF006TEK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR335LTZ Parathyroid_adenoma_male_adult_65_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR335LTZ age=65_year description=ENCSR335LTZ_Parathyroid_adenoma_male_adult_65_years_fold_change_over_control_ donor=ENCDO371NVV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR335LTZ
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR335LTZ
+	visibility dense
+	type bigBed
+
+		track ENCSR335LTZ_ENCFF600WKH
+		parent tissue_Parathyroid_adenoma_view_ENCSR335LTZ off
+		subGroups age=a65_year assay=ChIP-seq donor=ENCDO371NVV label=H3K9ac view=ENCSR335LTZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF600WKH/@@download/ENCFF600WKH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR335LTZ Parathyroid_adenoma_male_adult_65_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR335LTZ age=65_year description=ENCSR335LTZ_Parathyroid_adenoma_male_adult_65_years_peaks_ donor=ENCDO371NVV sex=male view=ENCSR335LTZ 
+		view ENCSR335LTZ
+
+	track ENCSR492DBQ_ENCFF126WXH
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF126WXH/@@download/ENCFF126WXH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR492DBQ Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR492DBQ age=62_year description=ENCSR492DBQ_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR492DBQ
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR492DBQ
+	visibility dense
+	type bigBed
+
+		track ENCSR492DBQ_ENCFF637NWS
+		parent tissue_Parathyroid_adenoma_view_ENCSR492DBQ off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K9ac view=ENCSR492DBQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF637NWS/@@download/ENCFF637NWS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR492DBQ Parathyroid_adenoma_male_adult_62_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR492DBQ age=62_year description=ENCSR492DBQ_Parathyroid_adenoma_male_adult_62_years_peaks_ donor=ENCDO952UGS sex=male view=ENCSR492DBQ 
+		view ENCSR492DBQ
+
+	track ENCSR688SJY_ENCFF890DSF
+	parent tissue_Parathyroid_adenoma off
+	subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF890DSF/@@download/ENCFF890DSF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR688SJY Parathyroid_adenoma_male_adult_62_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR688SJY age=62_year description=ENCSR688SJY_Parathyroid_adenoma_male_adult_62_years_fold_change_over_control_ donor=ENCDO952UGS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Parathyroid_adenoma_view_ENCSR688SJY
+	parent tissue_Parathyroid_adenoma off
+	view ENCSR688SJY
+	visibility dense
+	type bigBed
+
+		track ENCSR688SJY_ENCFF953XPT
+		parent tissue_Parathyroid_adenoma_view_ENCSR688SJY off
+		subGroups age=a62_year assay=ChIP-seq donor=ENCDO952UGS label=H3K9me3 view=ENCSR688SJY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF953XPT/@@download/ENCFF953XPT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR688SJY Parathyroid_adenoma_male_adult_62_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR688SJY age=62_year description=ENCSR688SJY_Parathyroid_adenoma_male_adult_62_years_stable_peaks_ donor=ENCDO952UGS sex=male view=ENCSR688SJY 
+		view ENCSR688SJY
+

@@ -1,0 +1,33 @@
+
+track immortalized_cell_line_G401
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel G401
+longLabel G401 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RNA-seq=RNA-seq 
+subGroup3 view view bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR653DFZ_ENCFF200NVM
+	parent immortalized_cell_line_G401 off
+	subGroups age=a3_month assay=RNA-seq donor=ENCDO572LRN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF200NVM/@@download/ENCFF200NVM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR653DFZ G401 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR653DFZ age=3_month description=ENCSR653DFZ_G401_plus_strand_signal_of_unique_reads_ donor=ENCDO572LRN sex=male view=bigWig 
+	view bigWig
+

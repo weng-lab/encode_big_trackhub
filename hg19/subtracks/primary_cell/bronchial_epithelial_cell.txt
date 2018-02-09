@@ -1,0 +1,447 @@
+
+track primary_cell_bronchial_epithelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel bronchial epithel
+longLabel bronchial epithelial cell (8 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO023AAA=ENCDO023AAA ENCDO099AAA=ENCDO099AAA ENCDO106AAA=ENCDO106AAA 
+subGroup2 age age a68_year=68&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000DCX=ENCSR000DCX ENCSR000DXH=ENCSR000DXH ENCSR000DXI=ENCSR000DXI ENCSR000DXJ=ENCSR000DXJ ENCSR000DXK=ENCSR000DXK ENCSR000EPN=ENCSR000EPN ENCSR000EPX=ENCSR000EPX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EPN_ENCFF497XMK
+	parent primary_cell_bronchial_epithelial_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO099AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF497XMK/@@download/ENCFF497XMK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EPN bronchial_epithelial_cell_female_treated_with_retinoic_acid (read-de
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EPN age=unknown description=ENCSR000EPN_bronchial_epithelial_cell_female_treated_with_retinoic_acid_read_depth_normalized_signal_ donor=ENCDO099AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_bronchial_epithelial_cell_view_ENCSR000EPN
+	parent primary_cell_bronchial_epithelial_cell off
+	view ENCSR000EPN
+	visibility dense
+	type bigBed
+
+		track ENCSR000EPN_ENCFF320EML
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000EPN off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO099AAA label=unknown view=ENCSR000EPN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF320EML/@@download/ENCFF320EML.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EPN bronchial_epithelial_cell_female_treated_with_retinoic_acid (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EPN age=unknown description=ENCSR000EPN_bronchial_epithelial_cell_female_treated_with_retinoic_acid_peaks_ donor=ENCDO099AAA sex=female view=ENCSR000EPN 
+		view ENCSR000EPN
+
+		track ENCSR000EPN_ENCFF279XKB
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000EPN off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO099AAA label=unknown view=ENCSR000EPN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF279XKB/@@download/ENCFF279XKB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF279XKB 9state-DNase DNase-seq on human NHBE treated with 6uM retinoic acid 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPN age=unknown description=ENCFF279XKB_9state_DNase_DNase_seq_on_human_NHBE_treated_with_6uM_retinoic_acid_for_48_hours donor=ENCDO099AAA sex=female view=ENCSR000EPN 
+		view ENCSR000EPN
+
+	track ENCSR000EPX_ENCFF265MFB
+	parent primary_cell_bronchial_epithelial_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO106AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF265MFB/@@download/ENCFF265MFB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EPX bronchial_epithelial_cell (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EPX age=unknown description=ENCSR000EPX_bronchial_epithelial_cell_read_depth_normalized_signal_ donor=ENCDO106AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bronchial_epithelial_cell_view_ENCSR000EPX
+	parent primary_cell_bronchial_epithelial_cell off
+	view ENCSR000EPX
+	visibility dense
+	type bigBed
+
+		track ENCSR000EPX_ENCFF192ZXL
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000EPX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO106AAA label=unknown view=ENCSR000EPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF192ZXL/@@download/ENCFF192ZXL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EPX bronchial_epithelial_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EPX age=unknown description=ENCSR000EPX_bronchial_epithelial_cell_peaks_ donor=ENCDO106AAA sex=unknown view=ENCSR000EPX 
+		view ENCSR000EPX
+
+		track ENCSR000EPX_ENCFF177WLR
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000EPX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO106AAA label=unknown view=ENCSR000EPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF177WLR/@@download/ENCFF177WLR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF177WLR 9state-DNase DNase-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPX age=unknown description=ENCFF177WLR_9state_DNase_DNase_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000EPX 
+		view ENCSR000EPX
+
+		track ENCSR000EPX_ENCFF509APB
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000EPX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO106AAA label=unknown view=ENCSR000EPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF509APB/@@download/ENCFF509APB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF509APB 9state-CTCF DNase-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPX age=unknown description=ENCFF509APB_9state_CTCF_DNase_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000EPX 
+		view ENCSR000EPX
+
+		track ENCSR000EPX_ENCFF112VVJ
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000EPX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO106AAA label=unknown view=ENCSR000EPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF112VVJ/@@download/ENCFF112VVJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF112VVJ 5group DNase-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPX age=unknown description=ENCFF112VVJ_5group_DNase_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000EPX 
+		view ENCSR000EPX
+
+		track ENCSR000EPX_ENCFF705ANK
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000EPX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO106AAA label=unknown view=ENCSR000EPX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF705ANK/@@download/ENCFF705ANK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF705ANK 9state-H3K4me3 DNase-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPX age=unknown description=ENCFF705ANK_9state_H3K4me3_DNase_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000EPX 
+		view ENCSR000EPX
+
+	track ENCSR000DXJ_ENCFF162OAS
+	parent primary_cell_bronchial_epithelial_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF162OAS/@@download/ENCFF162OAS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DXJ bronchial_epithelial_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DXJ age=unknown description=ENCSR000DXJ_bronchial_epithelial_cell_fold_change_over_control_ donor=ENCDO106AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bronchial_epithelial_cell_view_ENCSR000DXJ
+	parent primary_cell_bronchial_epithelial_cell off
+	view ENCSR000DXJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DXJ_ENCFF270GXG
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K4me3 view=ENCSR000DXJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF270GXG/@@download/ENCFF270GXG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DXJ bronchial_epithelial_cell (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DXJ age=unknown description=ENCSR000DXJ_bronchial_epithelial_cell_replicated_peaks_ donor=ENCDO106AAA sex=unknown view=ENCSR000DXJ 
+		view ENCSR000DXJ
+
+		track ENCSR000DXJ_ENCFF177WLR
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K4me3 view=ENCSR000DXJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF177WLR/@@download/ENCFF177WLR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF177WLR 9state-DNase H3K4me3 ChIP-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXJ age=unknown description=ENCFF177WLR_9state_DNase_H3K4me3_ChIP_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000DXJ 
+		view ENCSR000DXJ
+
+		track ENCSR000DXJ_ENCFF509APB
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K4me3 view=ENCSR000DXJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF509APB/@@download/ENCFF509APB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF509APB 9state-CTCF H3K4me3 ChIP-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXJ age=unknown description=ENCFF509APB_9state_CTCF_H3K4me3_ChIP_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000DXJ 
+		view ENCSR000DXJ
+
+		track ENCSR000DXJ_ENCFF112VVJ
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K4me3 view=ENCSR000DXJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF112VVJ/@@download/ENCFF112VVJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF112VVJ 5group H3K4me3 ChIP-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXJ age=unknown description=ENCFF112VVJ_5group_H3K4me3_ChIP_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000DXJ 
+		view ENCSR000DXJ
+
+		track ENCSR000DXJ_ENCFF705ANK
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K4me3 view=ENCSR000DXJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF705ANK/@@download/ENCFF705ANK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF705ANK 9state-H3K4me3 H3K4me3 ChIP-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXJ age=unknown description=ENCFF705ANK_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000DXJ 
+		view ENCSR000DXJ
+
+	track ENCSR000DXI_ENCFF923NZU
+	parent primary_cell_bronchial_epithelial_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF923NZU/@@download/ENCFF923NZU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DXI bronchial_epithelial_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DXI age=unknown description=ENCSR000DXI_bronchial_epithelial_cell_fold_change_over_control_ donor=ENCDO106AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bronchial_epithelial_cell_view_ENCSR000DXI
+	parent primary_cell_bronchial_epithelial_cell off
+	view ENCSR000DXI
+	visibility dense
+	type bigBed
+
+		track ENCSR000DXI_ENCFF866SEH
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=CTCF view=ENCSR000DXI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF866SEH/@@download/ENCFF866SEH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DXI bronchial_epithelial_cell (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DXI age=unknown description=ENCSR000DXI_bronchial_epithelial_cell_optimal_idr_thresholded_peaks_ donor=ENCDO106AAA sex=unknown view=ENCSR000DXI 
+		view ENCSR000DXI
+
+		track ENCSR000DXI_ENCFF177WLR
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=CTCF view=ENCSR000DXI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF177WLR/@@download/ENCFF177WLR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF177WLR 9state-DNase CTCF ChIP-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXI age=unknown description=ENCFF177WLR_9state_DNase_CTCF_ChIP_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000DXI 
+		view ENCSR000DXI
+
+		track ENCSR000DXI_ENCFF509APB
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=CTCF view=ENCSR000DXI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF509APB/@@download/ENCFF509APB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF509APB 9state-CTCF CTCF ChIP-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXI age=unknown description=ENCFF509APB_9state_CTCF_CTCF_ChIP_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000DXI 
+		view ENCSR000DXI
+
+		track ENCSR000DXI_ENCFF112VVJ
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=CTCF view=ENCSR000DXI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF112VVJ/@@download/ENCFF112VVJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF112VVJ 5group CTCF ChIP-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXI age=unknown description=ENCFF112VVJ_5group_CTCF_ChIP_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000DXI 
+		view ENCSR000DXI
+
+		track ENCSR000DXI_ENCFF705ANK
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=CTCF view=ENCSR000DXI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF705ANK/@@download/ENCFF705ANK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF705ANK 9state-H3K4me3 CTCF ChIP-seq on human SAEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXI age=unknown description=ENCFF705ANK_9state_H3K4me3_CTCF_ChIP_seq_on_human_SAEC donor=ENCDO106AAA sex=unknown view=ENCSR000DXI 
+		view ENCSR000DXI
+
+	track ENCSR000AAD_ENCFF170RJS
+	parent primary_cell_bronchial_epithelial_cell off
+	subGroups age=a68_year assay=RNA-seq donor=ENCDO023AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF170RJS/@@download/ENCFF170RJS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAD bronchial_epithelial_cell_female_adult_40_years_and_male_adult_68_ye
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAD age=68_year description=ENCSR000AAD_bronchial_epithelial_cell_female_adult_40_years_and_male_adult_68_years_plus_strand_signal_of_unique_reads_ donor=ENCDO023AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000DCX_ENCFF000TON
+	parent primary_cell_bronchial_epithelial_cell off
+	subGroups age=aunknown assay=FAIRE-seq donor=ENCDO099AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000TON/@@download/ENCFF000TON.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel FAIRE-seq
+	longLabel ENCSR000DCX bronchial_epithelial_cell_female (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DCX age=unknown description=ENCSR000DCX_bronchial_epithelial_cell_female_signal_ donor=ENCDO099AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_bronchial_epithelial_cell_view_ENCSR000DCX
+	parent primary_cell_bronchial_epithelial_cell off
+	view ENCSR000DCX
+	visibility dense
+	type bigBed
+
+		track ENCSR000DCX_ENCFF000TOJ
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DCX off
+		subGroups age=aunknown assay=FAIRE-seq donor=ENCDO099AAA label=unknown view=ENCSR000DCX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000TOJ/@@download/ENCFF000TOJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel FAIRE-seq
+		longLabel ENCSR000DCX bronchial_epithelial_cell_female (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DCX age=unknown description=ENCSR000DCX_bronchial_epithelial_cell_female_peaks_ donor=ENCDO099AAA sex=female view=ENCSR000DCX 
+		view ENCSR000DCX
+
+	track ENCSR000DXK_ENCFF552XSZ
+	parent primary_cell_bronchial_epithelial_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF552XSZ/@@download/ENCFF552XSZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DXK bronchial_epithelial_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DXK age=unknown description=ENCSR000DXK_bronchial_epithelial_cell_fold_change_over_control_ donor=ENCDO106AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bronchial_epithelial_cell_view_ENCSR000DXK
+	parent primary_cell_bronchial_epithelial_cell off
+	view ENCSR000DXK
+	visibility dense
+	type bigBed
+
+		track ENCSR000DXK_ENCFF353BWV
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K27me3 view=ENCSR000DXK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF353BWV/@@download/ENCFF353BWV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DXK bronchial_epithelial_cell (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DXK age=unknown description=ENCSR000DXK_bronchial_epithelial_cell_replicated_peaks_ donor=ENCDO106AAA sex=unknown view=ENCSR000DXK 
+		view ENCSR000DXK
+
+	track ENCSR000DXH_ENCFF209CKL
+	parent primary_cell_bronchial_epithelial_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF209CKL/@@download/ENCFF209CKL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DXH bronchial_epithelial_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DXH age=unknown description=ENCSR000DXH_bronchial_epithelial_cell_fold_change_over_control_ donor=ENCDO106AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bronchial_epithelial_cell_view_ENCSR000DXH
+	parent primary_cell_bronchial_epithelial_cell off
+	view ENCSR000DXH
+	visibility dense
+	type bigBed
+
+		track ENCSR000DXH_ENCFF251IXY
+		parent primary_cell_bronchial_epithelial_cell_view_ENCSR000DXH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO106AAA label=H3K36me3 view=ENCSR000DXH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF251IXY/@@download/ENCFF251IXY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DXH bronchial_epithelial_cell (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DXH age=unknown description=ENCSR000DXH_bronchial_epithelial_cell_replicated_peaks_ donor=ENCDO106AAA sex=unknown view=ENCSR000DXH 
+		view ENCSR000DXH
+

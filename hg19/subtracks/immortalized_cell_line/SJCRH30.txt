@@ -1,0 +1,83 @@
+
+track immortalized_cell_line_SJCRH30
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel SJCRH30
+longLabel SJCRH30 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view ENCSR700ILE=ENCSR700ILE bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR700ILE_ENCFF548ASL
+	parent immortalized_cell_line_SJCRH30 off
+	subGroups age=a17_year assay=DNase-seq donor=ENCDO339AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF548ASL/@@download/ENCFF548ASL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR700ILE SJCRH30 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR700ILE age=17_year description=ENCSR700ILE_SJCRH30_read_depth_normalized_signal_ donor=ENCDO339AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_SJCRH30_view_ENCSR700ILE
+	parent immortalized_cell_line_SJCRH30 off
+	view ENCSR700ILE
+	visibility dense
+	type bigBed
+
+		track ENCSR700ILE_ENCFF774WLK
+		parent immortalized_cell_line_SJCRH30_view_ENCSR700ILE off
+		subGroups age=a17_year assay=DNase-seq donor=ENCDO339AAA label=unknown view=ENCSR700ILE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF774WLK/@@download/ENCFF774WLK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR700ILE SJCRH30 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR700ILE age=17_year description=ENCSR700ILE_SJCRH30_peaks_ donor=ENCDO339AAA sex=male view=ENCSR700ILE 
+		view ENCSR700ILE
+
+	track ENCSR540YVD_ENCFF932WOW
+	parent immortalized_cell_line_SJCRH30 off
+	subGroups age=a17_year assay=RAMPAGE donor=ENCDO339AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF932WOW/@@download/ENCFF932WOW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR540YVD SJCRH30 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR540YVD age=17_year description=ENCSR540YVD_SJCRH30_plus_strand_signal_of_unique_reads_ donor=ENCDO339AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR568YRP_ENCFF010XJQ
+	parent immortalized_cell_line_SJCRH30 off
+	subGroups age=a17_year assay=RNA-seq donor=ENCDO339AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF010XJQ/@@download/ENCFF010XJQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR568YRP SJCRH30 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR568YRP age=17_year description=ENCSR568YRP_SJCRH30_plus_strand_signal_of_unique_reads_ donor=ENCDO339AAA sex=male view=bigWig 
+	view bigWig
+

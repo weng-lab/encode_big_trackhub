@@ -1,0 +1,492 @@
+
+track tissue_right_lobe_of_liver
+parent super_tissue
+compositeTrack on
+shortLabel right lobe of liv
+longLabel right lobe of liver (14 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO793LXB=ENCDO793LXB 
+subGroup2 age age a53_year=53&#32;year 
+subGroup3 view view ENCSR080QVO=ENCSR080QVO ENCSR344TLI=ENCSR344TLI ENCSR415MOW=ENCSR415MOW ENCSR489DUV=ENCSR489DUV ENCSR555QAY=ENCSR555QAY ENCSR614JFD=ENCSR614JFD ENCSR911GFJ=ENCSR911GFJ ENCSR981UJA=ENCSR981UJA bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR555QAY_ENCFF290DFB
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF290DFB/@@download/ENCFF290DFB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR555QAY right_lobe_of_liver_female_adult_53_years_ (read-depth normalized si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR555QAY age=53_year description=ENCSR555QAY_right_lobe_of_liver_female_adult_53_years_read_depth_normalized_signal_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_lobe_of_liver_view_ENCSR555QAY
+	parent tissue_right_lobe_of_liver off
+	view ENCSR555QAY
+	visibility dense
+	type bigBed
+
+		track ENCSR555QAY_ENCFF625LZC
+		parent tissue_right_lobe_of_liver_view_ENCSR555QAY off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR555QAY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF625LZC/@@download/ENCFF625LZC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR555QAY right_lobe_of_liver_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR555QAY age=53_year description=ENCSR555QAY_right_lobe_of_liver_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR555QAY 
+		view ENCSR555QAY
+
+	track ENCSR344TLI_ENCFF249QWR
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF249QWR/@@download/ENCFF249QWR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR344TLI right_lobe_of_liver_female_adult_53_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR344TLI age=53_year description=ENCSR344TLI_right_lobe_of_liver_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_lobe_of_liver_view_ENCSR344TLI
+	parent tissue_right_lobe_of_liver off
+	view ENCSR344TLI
+	visibility dense
+	type bigBed
+
+		track ENCSR344TLI_ENCFF951MMQ
+		parent tissue_right_lobe_of_liver_view_ENCSR344TLI off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR344TLI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF951MMQ/@@download/ENCFF951MMQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR344TLI right_lobe_of_liver_female_adult_53_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR344TLI age=53_year description=ENCSR344TLI_right_lobe_of_liver_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR344TLI 
+		view ENCSR344TLI
+
+		track ENCSR344TLI_ENCFF601HVG
+		parent tissue_right_lobe_of_liver_view_ENCSR344TLI off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR344TLI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF601HVG/@@download/ENCFF601HVG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF601HVG 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR344TLI age=53_year description=ENCFF601HVG_9state_DNase_ donor=ENCDO793LXB sex=female view=ENCSR344TLI 
+		view ENCSR344TLI
+
+		track ENCSR344TLI_ENCFF476MEG
+		parent tissue_right_lobe_of_liver_view_ENCSR344TLI off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR344TLI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF476MEG/@@download/ENCFF476MEG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF476MEG 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR344TLI age=53_year description=ENCFF476MEG_5group_ donor=ENCDO793LXB sex=female view=ENCSR344TLI 
+		view ENCSR344TLI
+
+		track ENCSR344TLI_ENCFF887QMJ
+		parent tissue_right_lobe_of_liver_view_ENCSR344TLI off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR344TLI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF887QMJ/@@download/ENCFF887QMJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF887QMJ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR344TLI age=53_year description=ENCFF887QMJ_9state_H3K27ac_ donor=ENCDO793LXB sex=female view=ENCSR344TLI 
+		view ENCSR344TLI
+
+		track ENCSR344TLI_ENCFF010GPD
+		parent tissue_right_lobe_of_liver_view_ENCSR344TLI off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR344TLI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF010GPD/@@download/ENCFF010GPD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF010GPD 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR344TLI age=53_year description=ENCFF010GPD_9state_H3K4me3_ donor=ENCDO793LXB sex=female view=ENCSR344TLI 
+		view ENCSR344TLI
+
+	track ENCSR911GFJ_ENCFF518QEO
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF518QEO/@@download/ENCFF518QEO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR911GFJ right_lobe_of_liver_female_adult_53_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR911GFJ age=53_year description=ENCSR911GFJ_right_lobe_of_liver_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_lobe_of_liver_view_ENCSR911GFJ
+	parent tissue_right_lobe_of_liver off
+	view ENCSR911GFJ
+	visibility dense
+	type bigBed
+
+		track ENCSR911GFJ_ENCFF625PCT
+		parent tissue_right_lobe_of_liver_view_ENCSR911GFJ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR911GFJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF625PCT/@@download/ENCFF625PCT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR911GFJ right_lobe_of_liver_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR911GFJ age=53_year description=ENCSR911GFJ_right_lobe_of_liver_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR911GFJ 
+		view ENCSR911GFJ
+
+	track ENCSR981UJA_ENCFF599LSB
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF599LSB/@@download/ENCFF599LSB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR981UJA right_lobe_of_liver_female_adult_53_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR981UJA age=53_year description=ENCSR981UJA_right_lobe_of_liver_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_lobe_of_liver_view_ENCSR981UJA
+	parent tissue_right_lobe_of_liver off
+	view ENCSR981UJA
+	visibility dense
+	type bigBed
+
+		track ENCSR981UJA_ENCFF739YNQ
+		parent tissue_right_lobe_of_liver_view_ENCSR981UJA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR981UJA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF739YNQ/@@download/ENCFF739YNQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR981UJA right_lobe_of_liver_female_adult_53_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR981UJA age=53_year description=ENCSR981UJA_right_lobe_of_liver_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR981UJA 
+		view ENCSR981UJA
+
+		track ENCSR981UJA_ENCFF601HVG
+		parent tissue_right_lobe_of_liver_view_ENCSR981UJA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR981UJA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF601HVG/@@download/ENCFF601HVG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF601HVG 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR981UJA age=53_year description=ENCFF601HVG_9state_DNase_ donor=ENCDO793LXB sex=female view=ENCSR981UJA 
+		view ENCSR981UJA
+
+		track ENCSR981UJA_ENCFF476MEG
+		parent tissue_right_lobe_of_liver_view_ENCSR981UJA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR981UJA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF476MEG/@@download/ENCFF476MEG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF476MEG 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR981UJA age=53_year description=ENCFF476MEG_5group_ donor=ENCDO793LXB sex=female view=ENCSR981UJA 
+		view ENCSR981UJA
+
+		track ENCSR981UJA_ENCFF887QMJ
+		parent tissue_right_lobe_of_liver_view_ENCSR981UJA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR981UJA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF887QMJ/@@download/ENCFF887QMJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF887QMJ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR981UJA age=53_year description=ENCFF887QMJ_9state_H3K27ac_ donor=ENCDO793LXB sex=female view=ENCSR981UJA 
+		view ENCSR981UJA
+
+		track ENCSR981UJA_ENCFF010GPD
+		parent tissue_right_lobe_of_liver_view_ENCSR981UJA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR981UJA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF010GPD/@@download/ENCFF010GPD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF010GPD 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR981UJA age=53_year description=ENCFF010GPD_9state_H3K4me3_ donor=ENCDO793LXB sex=female view=ENCSR981UJA 
+		view ENCSR981UJA
+
+	track ENCSR226KML_ENCFF722HIS
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF722HIS/@@download/ENCFF722HIS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR226KML right_lobe_of_liver_female_adult_53_years_ (plus strand signal of un
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR226KML age=53_year description=ENCSR226KML_right_lobe_of_liver_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR504QMK_ENCFF791LAQ
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF791LAQ/@@download/ENCFF791LAQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR504QMK right_lobe_of_liver_female_adult_53_years_ (plus strand signal of un
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR504QMK age=53_year description=ENCSR504QMK_right_lobe_of_liver_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR543DIO_ENCFF431XTC
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF431XTC/@@download/ENCFF431XTC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR543DIO right_lobe_of_liver_female_adult_53_years_ (plus strand signal of un
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR543DIO age=53_year description=ENCSR543DIO_right_lobe_of_liver_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR603XUX_ENCFF352EVJ
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF352EVJ/@@download/ENCFF352EVJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR603XUX right_lobe_of_liver_female_adult_53_years_ (plus strand signal of un
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR603XUX age=53_year description=ENCSR603XUX_right_lobe_of_liver_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR634VLA_ENCFF457YGW
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF457YGW/@@download/ENCFF457YGW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR634VLA right_lobe_of_liver_female_adult_53_years_ (plus strand signal of un
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR634VLA age=53_year description=ENCSR634VLA_right_lobe_of_liver_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR941SAZ_ENCFF031YTT
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF031YTT/@@download/ENCFF031YTT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR941SAZ right_lobe_of_liver_female_adult_53_years_ (plus strand signal of un
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR941SAZ age=53_year description=ENCSR941SAZ_right_lobe_of_liver_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR080QVO_ENCFF587RYG
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF587RYG/@@download/ENCFF587RYG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR080QVO right_lobe_of_liver_female_adult_53_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR080QVO age=53_year description=ENCSR080QVO_right_lobe_of_liver_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_lobe_of_liver_view_ENCSR080QVO
+	parent tissue_right_lobe_of_liver off
+	view ENCSR080QVO
+	visibility dense
+	type bigBed
+
+		track ENCSR080QVO_ENCFF962CJT
+		parent tissue_right_lobe_of_liver_view_ENCSR080QVO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR080QVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF962CJT/@@download/ENCFF962CJT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR080QVO right_lobe_of_liver_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR080QVO age=53_year description=ENCSR080QVO_right_lobe_of_liver_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR080QVO 
+		view ENCSR080QVO
+
+	track ENCSR489DUV_ENCFF518WKA
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF518WKA/@@download/ENCFF518WKA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR489DUV right_lobe_of_liver_female_adult_53_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR489DUV age=53_year description=ENCSR489DUV_right_lobe_of_liver_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_lobe_of_liver_view_ENCSR489DUV
+	parent tissue_right_lobe_of_liver off
+	view ENCSR489DUV
+	visibility dense
+	type bigBed
+
+		track ENCSR489DUV_ENCFF757XGI
+		parent tissue_right_lobe_of_liver_view_ENCSR489DUV off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR489DUV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF757XGI/@@download/ENCFF757XGI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR489DUV right_lobe_of_liver_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR489DUV age=53_year description=ENCSR489DUV_right_lobe_of_liver_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR489DUV 
+		view ENCSR489DUV
+
+	track ENCSR614JFD_ENCFF967XRM
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF967XRM/@@download/ENCFF967XRM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR614JFD right_lobe_of_liver_female_adult_53_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR614JFD age=53_year description=ENCSR614JFD_right_lobe_of_liver_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_lobe_of_liver_view_ENCSR614JFD
+	parent tissue_right_lobe_of_liver off
+	view ENCSR614JFD
+	visibility dense
+	type bigBed
+
+		track ENCSR614JFD_ENCFF959YZJ
+		parent tissue_right_lobe_of_liver_view_ENCSR614JFD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR614JFD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF959YZJ/@@download/ENCFF959YZJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR614JFD right_lobe_of_liver_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR614JFD age=53_year description=ENCSR614JFD_right_lobe_of_liver_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR614JFD 
+		view ENCSR614JFD
+
+	track ENCSR415MOW_ENCFF380ZRN
+	parent tissue_right_lobe_of_liver off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF380ZRN/@@download/ENCFF380ZRN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR415MOW right_lobe_of_liver_female_adult_53_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR415MOW age=53_year description=ENCSR415MOW_right_lobe_of_liver_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_lobe_of_liver_view_ENCSR415MOW
+	parent tissue_right_lobe_of_liver off
+	view ENCSR415MOW
+	visibility dense
+	type bigBed
+
+		track ENCSR415MOW_ENCFF930ARO
+		parent tissue_right_lobe_of_liver_view_ENCSR415MOW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR415MOW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF930ARO/@@download/ENCFF930ARO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR415MOW right_lobe_of_liver_female_adult_53_years_ (pseudoreplicated idr thr
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR415MOW age=53_year description=ENCSR415MOW_right_lobe_of_liver_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR415MOW 
+		view ENCSR415MOW
+

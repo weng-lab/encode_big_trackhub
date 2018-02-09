@@ -1,0 +1,148 @@
+
+track primary_cell_skeletal_muscle_myoblast
+parent super_primary_cell
+compositeTrack on
+shortLabel skeletal muscle m
+longLabel skeletal muscle myoblast (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO094AAA=ENCDO094AAA ENCDO341XKY=ENCDO341XKY 
+subGroup2 age age a22_year=22&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000ARH=ENCSR000ARH ENCSR000EOO=ENCSR000EOO bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EOO_ENCFF700VWH
+	parent primary_cell_skeletal_muscle_myoblast off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF700VWH/@@download/ENCFF700VWH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOO skeletal_muscle_myoblast (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOO age=unknown description=ENCSR000EOO_skeletal_muscle_myoblast_read_depth_normalized_signal_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_myoblast_view_ENCSR000EOO
+	parent primary_cell_skeletal_muscle_myoblast off
+	view ENCSR000EOO
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOO_ENCFF903SUI
+		parent primary_cell_skeletal_muscle_myoblast_view_ENCSR000EOO off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=ENCSR000EOO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF903SUI/@@download/ENCFF903SUI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOO skeletal_muscle_myoblast (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOO age=unknown description=ENCSR000EOO_skeletal_muscle_myoblast_peaks_ donor=ENCDO094AAA sex=unknown view=ENCSR000EOO 
+		view ENCSR000EOO
+
+	track ENCSR000COY_ENCFF468TZD
+	parent primary_cell_skeletal_muscle_myoblast off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF468TZD/@@download/ENCFF468TZD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000COY skeletal_muscle_myoblast (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000COY age=unknown description=ENCSR000COY_skeletal_muscle_myoblast_plus_strand_signal_of_unique_reads_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CPV_ENCFF692ZPA
+	parent primary_cell_skeletal_muscle_myoblast off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF692ZPA/@@download/ENCFF692ZPA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CPV skeletal_muscle_myoblast (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CPV age=unknown description=ENCSR000CPV_skeletal_muscle_myoblast_plus_strand_signal_of_unique_reads_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR444WHQ_ENCFF752XQX
+	parent primary_cell_skeletal_muscle_myoblast off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF752XQX/@@download/ENCFF752XQX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR444WHQ skeletal_muscle_myoblast (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR444WHQ age=unknown description=ENCSR444WHQ_skeletal_muscle_myoblast_plus_strand_signal_of_unique_reads_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR765LMM_ENCFF499WBV
+	parent primary_cell_skeletal_muscle_myoblast off
+	subGroups age=aunknown assay=RAMPAGE donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF499WBV/@@download/ENCFF499WBV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR765LMM skeletal_muscle_myoblast (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR765LMM age=unknown description=ENCSR765LMM_skeletal_muscle_myoblast_plus_strand_signal_of_unique_reads_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000ARH_ENCFF172JBD
+	parent primary_cell_skeletal_muscle_myoblast off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=EZH2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF172JBD/@@download/ENCFF172JBD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EZH2
+	longLabel ENCSR000ARH skeletal_muscle_myoblast_male_adult_22_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ARH age=22_year description=ENCSR000ARH_skeletal_muscle_myoblast_male_adult_22_years_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_skeletal_muscle_myoblast_view_ENCSR000ARH
+	parent primary_cell_skeletal_muscle_myoblast off
+	view ENCSR000ARH
+	visibility dense
+	type bigBed
+
+		track ENCSR000ARH_ENCFF072INK
+		parent primary_cell_skeletal_muscle_myoblast_view_ENCSR000ARH off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=EZH2 view=ENCSR000ARH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF072INK/@@download/ENCFF072INK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EZH2
+		longLabel ENCSR000ARH skeletal_muscle_myoblast_male_adult_22_years_ (optimal idr threshold
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ARH age=22_year description=ENCSR000ARH_skeletal_muscle_myoblast_male_adult_22_years_optimal_idr_thresholded_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ARH 
+		view ENCSR000ARH
+

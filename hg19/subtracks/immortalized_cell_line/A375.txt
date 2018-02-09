@@ -1,0 +1,63 @@
+
+track immortalized_cell_line_A375
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel A375
+longLabel A375 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR080XAB_ENCFF453HBZ
+	parent immortalized_cell_line_A375 off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO348AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF453HBZ/@@download/ENCFF453HBZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR080XAB A375 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR080XAB age=54_year description=ENCSR080XAB_A375_plus_strand_signal_of_unique_reads_ donor=ENCDO348AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR376XXO_ENCFF850SRV
+	parent immortalized_cell_line_A375 off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO348AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF850SRV/@@download/ENCFF850SRV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR376XXO A375 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR376XXO age=54_year description=ENCSR376XXO_A375_plus_strand_signal_of_unique_reads_ donor=ENCDO348AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR504VXC_ENCFF903WWK
+	parent immortalized_cell_line_A375 off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO348AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF903WWK/@@download/ENCFF903WWK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR504VXC A375 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR504VXC age=54_year description=ENCSR504VXC_A375_plus_strand_signal_of_unique_reads_ donor=ENCDO348AAA sex=female view=bigWig 
+	view bigWig
+

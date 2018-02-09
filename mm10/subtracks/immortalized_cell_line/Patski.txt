@@ -1,0 +1,66 @@
+
+track immortalized_cell_line_Patski
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel Patski
+longLabel Patski (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
+subGroup3 view view ENCSR000CNT=ENCSR000CNT bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CNT_ENCFF632WLC
+	parent immortalized_cell_line_Patski off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO350LAJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF632WLC/@@download/ENCFF632WLC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CNT M_spretus_x_C57BL_6J_Patski (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CNT age=unknown description=ENCSR000CNT_M_spretus_x_C57BL_6J_Patski_read_depth_normalized_signal_ donor=ENCDO350LAJ sex=unknown view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Patski_view_ENCSR000CNT
+	parent immortalized_cell_line_Patski off
+	view ENCSR000CNT
+	visibility dense
+	type bigBed
+
+		track ENCSR000CNT_ENCFF769III
+		parent immortalized_cell_line_Patski_view_ENCSR000CNT off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO350LAJ label=unknown view=ENCSR000CNT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF769III/@@download/ENCFF769III.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CNT M_spretus_x_C57BL_6J_Patski (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CNT age=unknown description=ENCSR000CNT_M_spretus_x_C57BL_6J_Patski_peaks_ donor=ENCDO350LAJ sex=unknown view=ENCSR000CNT 
+		view ENCSR000CNT
+
+		track ENCSR000CNT_ENCFF354EEB
+		parent immortalized_cell_line_Patski_view_ENCSR000CNT off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO350LAJ label=unknown view=ENCSR000CNT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF354EEB/@@download/ENCFF354EEB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF354EEB 9state-DNase DNase on mouse Patski cell line
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CNT age=unknown description=ENCFF354EEB_9state_DNase_DNase_on_mouse_Patski_cell_line donor=ENCDO350LAJ sex=unknown view=ENCSR000CNT 
+		view ENCSR000CNT
+

@@ -1,0 +1,254 @@
+
+track primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel CD4-positive, CD2
+longLabel CD4-positive, CD25-positive, alpha-beta regulatory T cell (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO194EHQ=ENCDO194EHQ 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR203GEP=ENCSR203GEP ENCSR435WPP=ENCSR435WPP ENCSR523BMU=ENCSR523BMU ENCSR577GVS=ENCSR577GVS ENCSR579DZQ=ENCSR579DZQ ENCSR860MYX=ENCSR860MYX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR579DZQ_ENCFF190APO
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF190APO/@@download/ENCFF190APO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR579DZQ CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (fold change
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR579DZQ age=unknown description=ENCSR579DZQ_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR579DZQ
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	view ENCSR579DZQ
+	visibility dense
+	type bigBed
+
+		track ENCSR579DZQ_ENCFF444BCQ
+		parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR579DZQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K4me3 view=ENCSR579DZQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF444BCQ/@@download/ENCFF444BCQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR579DZQ CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (replicated 
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR579DZQ age=unknown description=ENCSR579DZQ_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_replicated_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR579DZQ 
+		view ENCSR579DZQ
+
+	track ENCSR577GVS_ENCFF280BOV
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF280BOV/@@download/ENCFF280BOV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR577GVS CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (fold change
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR577GVS age=unknown description=ENCSR577GVS_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR577GVS
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	view ENCSR577GVS
+	visibility dense
+	type bigBed
+
+		track ENCSR577GVS_ENCFF662DIS
+		parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR577GVS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27ac view=ENCSR577GVS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF662DIS/@@download/ENCFF662DIS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR577GVS CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (stable peak
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR577GVS age=unknown description=ENCSR577GVS_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_stable_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR577GVS 
+		view ENCSR577GVS
+
+		track ENCSR577GVS_ENCFF283XEW
+		parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR577GVS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27ac view=ENCSR577GVS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF283XEW/@@download/ENCFF283XEW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF283XEW 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR577GVS age=unknown description=ENCFF283XEW_5group_ donor=ENCDO194EHQ sex=unknown view=ENCSR577GVS 
+		view ENCSR577GVS
+
+		track ENCSR577GVS_ENCFF427ELW
+		parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR577GVS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27ac view=ENCSR577GVS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF427ELW/@@download/ENCFF427ELW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF427ELW 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR577GVS age=unknown description=ENCFF427ELW_9state_H3K4me3_ donor=ENCDO194EHQ sex=unknown view=ENCSR577GVS 
+		view ENCSR577GVS
+
+	track ENCSR203GEP_ENCFF655YMP
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF655YMP/@@download/ENCFF655YMP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR203GEP CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (fold change
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR203GEP age=unknown description=ENCSR203GEP_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR203GEP
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	view ENCSR203GEP
+	visibility dense
+	type bigBed
+
+		track ENCSR203GEP_ENCFF328CDG
+		parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR203GEP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27me3 view=ENCSR203GEP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF328CDG/@@download/ENCFF328CDG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR203GEP CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (replicated 
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR203GEP age=unknown description=ENCSR203GEP_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_replicated_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR203GEP 
+		view ENCSR203GEP
+
+	track ENCSR435WPP_ENCFF478CZJ
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF478CZJ/@@download/ENCFF478CZJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR435WPP CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (fold change
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR435WPP age=unknown description=ENCSR435WPP_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR435WPP
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	view ENCSR435WPP
+	visibility dense
+	type bigBed
+
+		track ENCSR435WPP_ENCFF989KBZ
+		parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR435WPP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K36me3 view=ENCSR435WPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF989KBZ/@@download/ENCFF989KBZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR435WPP CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (replicated 
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR435WPP age=unknown description=ENCSR435WPP_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_replicated_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR435WPP 
+		view ENCSR435WPP
+
+	track ENCSR523BMU_ENCFF927CVO
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF927CVO/@@download/ENCFF927CVO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR523BMU CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (fold change
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR523BMU age=unknown description=ENCSR523BMU_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR523BMU
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	view ENCSR523BMU
+	visibility dense
+	type bigBed
+
+		track ENCSR523BMU_ENCFF505ORG
+		parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR523BMU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K4me1 view=ENCSR523BMU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF505ORG/@@download/ENCFF505ORG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR523BMU CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (replicated 
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR523BMU age=unknown description=ENCSR523BMU_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_replicated_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR523BMU 
+		view ENCSR523BMU
+
+	track ENCSR860MYX_ENCFF119XIX
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF119XIX/@@download/ENCFF119XIX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR860MYX CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (fold change
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR860MYX age=unknown description=ENCSR860MYX_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR860MYX
+	parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell off
+	view ENCSR860MYX
+	visibility dense
+	type bigBed
+
+		track ENCSR860MYX_ENCFF805SJY
+		parent primary_cell_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_view_ENCSR860MYX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K9me3 view=ENCSR860MYX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF805SJY/@@download/ENCFF805SJY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR860MYX CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell (replicated 
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR860MYX age=unknown description=ENCSR860MYX_CD4_positive_CD25_positive_alpha_beta_regulatory_T_cell_replicated_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR860MYX 
+		view ENCSR860MYX
+

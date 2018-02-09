@@ -1,0 +1,48 @@
+
+track primary_cell_airway_epithelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel airway epithelial
+longLabel airway epithelial cell (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO749MBK=ENCDO749MBK 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR582BUX_ENCFF578NQD
+	parent primary_cell_airway_epithelial_cell off
+	subGroups age=aunknown assay=RAMPAGE donor=ENCDO749MBK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF578NQD/@@download/ENCFF578NQD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR582BUX airway_epithelial_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR582BUX age=unknown description=ENCSR582BUX_airway_epithelial_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO749MBK sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR822SUG_ENCFF906EGT
+	parent primary_cell_airway_epithelial_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO749MBK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF906EGT/@@download/ENCFF906EGT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR822SUG airway_epithelial_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR822SUG age=unknown description=ENCSR822SUG_airway_epithelial_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO749MBK sex=unknown view=bigWig 
+	view bigWig
+

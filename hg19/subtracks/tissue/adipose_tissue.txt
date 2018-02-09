@@ -1,0 +1,113 @@
+
+track tissue_adipose_tissue
+parent super_tissue
+compositeTrack on
+shortLabel adipose tissue
+longLabel adipose tissue (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO058AAA=ENCDO058AAA ENCDO424HVB=ENCDO424HVB ENCDO478OMA=ENCDO478OMA ENCDO828UYN=ENCDO828UYN 
+subGroup2 age age a30_year=30&#32;year a34_year=34&#32;year a3_year=3&#32;year a63_year=63&#32;year 
+subGroup3 view view ENCSR082SHT=ENCSR082SHT bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR082SHT_ENCFF083HLK
+	parent tissue_adipose_tissue off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF083HLK/@@download/ENCFF083HLK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR082SHT adipose_tissue_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR082SHT age=34_year description=ENCSR082SHT_adipose_tissue_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adipose_tissue_view_ENCSR082SHT
+	parent tissue_adipose_tissue off
+	view ENCSR082SHT
+	visibility dense
+	type bigBed
+
+		track ENCSR082SHT_ENCFF919MBS
+		parent tissue_adipose_tissue_view_ENCSR082SHT off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR082SHT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF919MBS/@@download/ENCFF919MBS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR082SHT adipose_tissue_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR082SHT age=34_year description=ENCSR082SHT_adipose_tissue_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR082SHT 
+		view ENCSR082SHT
+
+	track ENCSR236OON_ENCFF142UGG
+	parent tissue_adipose_tissue off
+	subGroups age=a63_year assay=RNA-seq donor=ENCDO828UYN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF142UGG/@@download/ENCFF142UGG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR236OON adipose_tissue_female_adult_63_years_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR236OON age=63_year description=ENCSR236OON_adipose_tissue_female_adult_63_years_plus_strand_signal_of_unique_reads_ donor=ENCDO828UYN sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR686JJB_ENCFF373SXA
+	parent tissue_adipose_tissue off
+	subGroups age=a30_year assay=RNA-seq donor=ENCDO424HVB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF373SXA/@@download/ENCFF373SXA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR686JJB adipose_tissue_female_adult_30_years_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR686JJB age=30_year description=ENCSR686JJB_adipose_tissue_female_adult_30_years_plus_strand_signal_of_unique_reads_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR718CDN_ENCFF967TUD
+	parent tissue_adipose_tissue off
+	subGroups age=a3_year assay=RNA-seq donor=ENCDO478OMA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF967TUD/@@download/ENCFF967TUD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR718CDN adipose_tissue_male_child_3_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR718CDN age=3_year description=ENCSR718CDN_adipose_tissue_male_child_3_years_plus_strand_signal_of_unique_reads_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR741QEH_ENCFF378GBI
+	parent tissue_adipose_tissue off
+	subGroups age=a34_year assay=RNA-seq donor=ENCDO058AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF378GBI/@@download/ENCFF378GBI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR741QEH adipose_tissue_male_adult_34_years_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR741QEH age=34_year description=ENCSR741QEH_adipose_tissue_male_adult_34_years_plus_strand_signal_of_unique_reads_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+

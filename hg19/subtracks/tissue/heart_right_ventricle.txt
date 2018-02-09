@@ -1,0 +1,546 @@
+
+track tissue_heart_right_ventricle
+parent super_tissue
+compositeTrack on
+shortLabel heart right ventr
+longLabel heart right ventricle (14 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO058AAA=ENCDO058AAA ENCDO060OTP=ENCDO060OTP ENCDO478OMA=ENCDO478OMA 
+subGroup2 age age a101_day=101&#32;day a34_year=34&#32;year a3_year=3&#32;year 
+subGroup3 view view ENCSR023ALV=ENCSR023ALV ENCSR028NXO=ENCSR028NXO ENCSR068CQX=ENCSR068CQX ENCSR076CZA=ENCSR076CZA ENCSR086JMA=ENCSR086JMA ENCSR107RDP=ENCSR107RDP ENCSR142OBQ=ENCSR142OBQ ENCSR616VTK=ENCSR616VTK ENCSR676LPF=ENCSR676LPF ENCSR746RDJ=ENCSR746RDJ ENCSR791GCO=ENCSR791GCO ENCSR928HSI=ENCSR928HSI bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR746RDJ_ENCFF482HKS
+	parent tissue_heart_right_ventricle off
+	subGroups age=a101_day assay=DNase-seq donor=ENCDO060OTP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF482HKS/@@download/ENCFF482HKS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR746RDJ heart_right_ventricle_female_embryo_101_day_and_female_embryo_103_da
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR746RDJ age=101_day description=ENCSR746RDJ_heart_right_ventricle_female_embryo_101_day_and_female_embryo_103_days_read_depth_normalized_signal_ donor=ENCDO060OTP sex=female view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR746RDJ
+	parent tissue_heart_right_ventricle off
+	view ENCSR746RDJ
+	visibility dense
+	type bigBed
+
+		track ENCSR746RDJ_ENCFF975IVF
+		parent tissue_heart_right_ventricle_view_ENCSR746RDJ off
+		subGroups age=a101_day assay=DNase-seq donor=ENCDO060OTP label=unknown view=ENCSR746RDJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF975IVF/@@download/ENCFF975IVF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR746RDJ heart_right_ventricle_female_embryo_101_day_and_female_embryo_103_da
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR746RDJ age=101_day description=ENCSR746RDJ_heart_right_ventricle_female_embryo_101_day_and_female_embryo_103_days_peaks_ donor=ENCDO060OTP sex=female view=ENCSR746RDJ 
+		view ENCSR746RDJ
+
+	track ENCSR107RDP_ENCFF143BJC
+	parent tissue_heart_right_ventricle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF143BJC/@@download/ENCFF143BJC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR107RDP heart_right_ventricle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR107RDP age=3_year description=ENCSR107RDP_heart_right_ventricle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR107RDP
+	parent tissue_heart_right_ventricle off
+	view ENCSR107RDP
+	visibility dense
+	type bigBed
+
+		track ENCSR107RDP_ENCFF975MDA
+		parent tissue_heart_right_ventricle_view_ENCSR107RDP off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me3 view=ENCSR107RDP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF975MDA/@@download/ENCFF975MDA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR107RDP heart_right_ventricle_male_child_3_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR107RDP age=3_year description=ENCSR107RDP_heart_right_ventricle_male_child_3_years_peaks_ donor=ENCDO478OMA sex=male view=ENCSR107RDP 
+		view ENCSR107RDP
+
+		track ENCSR107RDP_ENCFF905VEJ
+		parent tissue_heart_right_ventricle_view_ENCSR107RDP off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me3 view=ENCSR107RDP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF905VEJ/@@download/ENCFF905VEJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF905VEJ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR107RDP age=3_year description=ENCFF905VEJ_5group_ donor=ENCDO478OMA sex=male view=ENCSR107RDP 
+		view ENCSR107RDP
+
+		track ENCSR107RDP_ENCFF494TJU
+		parent tissue_heart_right_ventricle_view_ENCSR107RDP off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me3 view=ENCSR107RDP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF494TJU/@@download/ENCFF494TJU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF494TJU 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR107RDP age=3_year description=ENCFF494TJU_9state_H3K4me3_ donor=ENCDO478OMA sex=male view=ENCSR107RDP 
+		view ENCSR107RDP
+
+		track ENCSR107RDP_ENCFF162KEU
+		parent tissue_heart_right_ventricle_view_ENCSR107RDP off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me3 view=ENCSR107RDP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF162KEU/@@download/ENCFF162KEU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF162KEU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR107RDP age=3_year description=ENCFF162KEU_9state_H3K27ac_ donor=ENCDO478OMA sex=male view=ENCSR107RDP 
+		view ENCSR107RDP
+
+	track ENCSR791GCO_ENCFF543RWW
+	parent tissue_heart_right_ventricle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF543RWW/@@download/ENCFF543RWW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR791GCO heart_right_ventricle_male_adult_34_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR791GCO age=34_year description=ENCSR791GCO_heart_right_ventricle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR791GCO
+	parent tissue_heart_right_ventricle off
+	view ENCSR791GCO
+	visibility dense
+	type bigBed
+
+		track ENCSR791GCO_ENCFF751LQP
+		parent tissue_heart_right_ventricle_view_ENCSR791GCO off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR791GCO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF751LQP/@@download/ENCFF751LQP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR791GCO heart_right_ventricle_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR791GCO age=34_year description=ENCSR791GCO_heart_right_ventricle_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR791GCO 
+		view ENCSR791GCO
+
+	track ENCSR028NXO_ENCFF951PNB
+	parent tissue_heart_right_ventricle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF951PNB/@@download/ENCFF951PNB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR028NXO heart_right_ventricle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR028NXO age=3_year description=ENCSR028NXO_heart_right_ventricle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR028NXO
+	parent tissue_heart_right_ventricle off
+	view ENCSR028NXO
+	visibility dense
+	type bigBed
+
+		track ENCSR028NXO_ENCFF749PTG
+		parent tissue_heart_right_ventricle_view_ENCSR028NXO off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27ac view=ENCSR028NXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF749PTG/@@download/ENCFF749PTG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR028NXO heart_right_ventricle_male_child_3_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR028NXO age=3_year description=ENCSR028NXO_heart_right_ventricle_male_child_3_years_stable_peaks_ donor=ENCDO478OMA sex=male view=ENCSR028NXO 
+		view ENCSR028NXO
+
+		track ENCSR028NXO_ENCFF905VEJ
+		parent tissue_heart_right_ventricle_view_ENCSR028NXO off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27ac view=ENCSR028NXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF905VEJ/@@download/ENCFF905VEJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF905VEJ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR028NXO age=3_year description=ENCFF905VEJ_5group_ donor=ENCDO478OMA sex=male view=ENCSR028NXO 
+		view ENCSR028NXO
+
+		track ENCSR028NXO_ENCFF494TJU
+		parent tissue_heart_right_ventricle_view_ENCSR028NXO off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27ac view=ENCSR028NXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF494TJU/@@download/ENCFF494TJU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF494TJU 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR028NXO age=3_year description=ENCFF494TJU_9state_H3K4me3_ donor=ENCDO478OMA sex=male view=ENCSR028NXO 
+		view ENCSR028NXO
+
+		track ENCSR028NXO_ENCFF162KEU
+		parent tissue_heart_right_ventricle_view_ENCSR028NXO off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27ac view=ENCSR028NXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF162KEU/@@download/ENCFF162KEU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF162KEU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR028NXO age=3_year description=ENCFF162KEU_9state_H3K27ac_ donor=ENCDO478OMA sex=male view=ENCSR028NXO 
+		view ENCSR028NXO
+
+	track ENCSR928HSI_ENCFF834AET
+	parent tissue_heart_right_ventricle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF834AET/@@download/ENCFF834AET.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR928HSI heart_right_ventricle_male_adult_34_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR928HSI age=34_year description=ENCSR928HSI_heart_right_ventricle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR928HSI
+	parent tissue_heart_right_ventricle off
+	view ENCSR928HSI
+	visibility dense
+	type bigBed
+
+		track ENCSR928HSI_ENCFF337QEI
+		parent tissue_heart_right_ventricle_view_ENCSR928HSI off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR928HSI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF337QEI/@@download/ENCFF337QEI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR928HSI heart_right_ventricle_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR928HSI age=34_year description=ENCSR928HSI_heart_right_ventricle_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR928HSI 
+		view ENCSR928HSI
+
+	track ENCSR433XCV_ENCFF569LHL
+	parent tissue_heart_right_ventricle off
+	subGroups age=a34_year assay=RNA-seq donor=ENCDO058AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF569LHL/@@download/ENCFF569LHL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR433XCV heart_right_ventricle_male_adult_34_years_ (plus strand signal of un
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR433XCV age=34_year description=ENCSR433XCV_heart_right_ventricle_male_adult_34_years_plus_strand_signal_of_unique_reads_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR439SPU_ENCFF509NJV
+	parent tissue_heart_right_ventricle off
+	subGroups age=a3_year assay=RNA-seq donor=ENCDO478OMA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF509NJV/@@download/ENCFF509NJV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR439SPU heart_right_ventricle_male_child_3_years_ (plus strand signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR439SPU age=3_year description=ENCSR439SPU_heart_right_ventricle_male_child_3_years_plus_strand_signal_of_unique_reads_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR068CQX_ENCFF109JSD
+	parent tissue_heart_right_ventricle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF109JSD/@@download/ENCFF109JSD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR068CQX heart_right_ventricle_male_adult_34_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR068CQX age=34_year description=ENCSR068CQX_heart_right_ventricle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR068CQX
+	parent tissue_heart_right_ventricle off
+	view ENCSR068CQX
+	visibility dense
+	type bigBed
+
+		track ENCSR068CQX_ENCFF400HXR
+		parent tissue_heart_right_ventricle_view_ENCSR068CQX off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=ENCSR068CQX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF400HXR/@@download/ENCFF400HXR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR068CQX heart_right_ventricle_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR068CQX age=34_year description=ENCSR068CQX_heart_right_ventricle_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR068CQX 
+		view ENCSR068CQX
+
+	track ENCSR676LPF_ENCFF406TAU
+	parent tissue_heart_right_ventricle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF406TAU/@@download/ENCFF406TAU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR676LPF heart_right_ventricle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR676LPF age=3_year description=ENCSR676LPF_heart_right_ventricle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR676LPF
+	parent tissue_heart_right_ventricle off
+	view ENCSR676LPF
+	visibility dense
+	type bigBed
+
+		track ENCSR676LPF_ENCFF855VDV
+		parent tissue_heart_right_ventricle_view_ENCSR676LPF off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27me3 view=ENCSR676LPF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF855VDV/@@download/ENCFF855VDV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR676LPF heart_right_ventricle_male_child_3_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR676LPF age=3_year description=ENCSR676LPF_heart_right_ventricle_male_child_3_years_stable_peaks_ donor=ENCDO478OMA sex=male view=ENCSR676LPF 
+		view ENCSR676LPF
+
+	track ENCSR142OBQ_ENCFF595ZES
+	parent tissue_heart_right_ventricle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF595ZES/@@download/ENCFF595ZES.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR142OBQ heart_right_ventricle_male_adult_34_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR142OBQ age=34_year description=ENCSR142OBQ_heart_right_ventricle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR142OBQ
+	parent tissue_heart_right_ventricle off
+	view ENCSR142OBQ
+	visibility dense
+	type bigBed
+
+		track ENCSR142OBQ_ENCFF402KEO
+		parent tissue_heart_right_ventricle_view_ENCSR142OBQ off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K36me3 view=ENCSR142OBQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF402KEO/@@download/ENCFF402KEO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR142OBQ heart_right_ventricle_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR142OBQ age=34_year description=ENCSR142OBQ_heart_right_ventricle_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR142OBQ 
+		view ENCSR142OBQ
+
+	track ENCSR616VTK_ENCFF998VZV
+	parent tissue_heart_right_ventricle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF998VZV/@@download/ENCFF998VZV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR616VTK heart_right_ventricle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR616VTK age=3_year description=ENCSR616VTK_heart_right_ventricle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR616VTK
+	parent tissue_heart_right_ventricle off
+	view ENCSR616VTK
+	visibility dense
+	type bigBed
+
+		track ENCSR616VTK_ENCFF874OLE
+		parent tissue_heart_right_ventricle_view_ENCSR616VTK off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K36me3 view=ENCSR616VTK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF874OLE/@@download/ENCFF874OLE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR616VTK heart_right_ventricle_male_child_3_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR616VTK age=3_year description=ENCSR616VTK_heart_right_ventricle_male_child_3_years_peaks_ donor=ENCDO478OMA sex=male view=ENCSR616VTK 
+		view ENCSR616VTK
+
+	track ENCSR023ALV_ENCFF459FRY
+	parent tissue_heart_right_ventricle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF459FRY/@@download/ENCFF459FRY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR023ALV heart_right_ventricle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR023ALV age=3_year description=ENCSR023ALV_heart_right_ventricle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR023ALV
+	parent tissue_heart_right_ventricle off
+	view ENCSR023ALV
+	visibility dense
+	type bigBed
+
+		track ENCSR023ALV_ENCFF489KJH
+		parent tissue_heart_right_ventricle_view_ENCSR023ALV off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me1 view=ENCSR023ALV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF489KJH/@@download/ENCFF489KJH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR023ALV heart_right_ventricle_male_child_3_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR023ALV age=3_year description=ENCSR023ALV_heart_right_ventricle_male_child_3_years_stable_peaks_ donor=ENCDO478OMA sex=male view=ENCSR023ALV 
+		view ENCSR023ALV
+
+	track ENCSR076CZA_ENCFF510SDN
+	parent tissue_heart_right_ventricle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF510SDN/@@download/ENCFF510SDN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR076CZA heart_right_ventricle_male_adult_34_years_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR076CZA age=34_year description=ENCSR076CZA_heart_right_ventricle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR076CZA
+	parent tissue_heart_right_ventricle off
+	view ENCSR076CZA
+	visibility dense
+	type bigBed
+
+		track ENCSR076CZA_ENCFF462VGZ
+		parent tissue_heart_right_ventricle_view_ENCSR076CZA off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=ENCSR076CZA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF462VGZ/@@download/ENCFF462VGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR076CZA heart_right_ventricle_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR076CZA age=34_year description=ENCSR076CZA_heart_right_ventricle_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR076CZA 
+		view ENCSR076CZA
+
+	track ENCSR086JMA_ENCFF220LLB
+	parent tissue_heart_right_ventricle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF220LLB/@@download/ENCFF220LLB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR086JMA heart_right_ventricle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR086JMA age=3_year description=ENCSR086JMA_heart_right_ventricle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_heart_right_ventricle_view_ENCSR086JMA
+	parent tissue_heart_right_ventricle off
+	view ENCSR086JMA
+	visibility dense
+	type bigBed
+
+		track ENCSR086JMA_ENCFF743BOK
+		parent tissue_heart_right_ventricle_view_ENCSR086JMA off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K9me3 view=ENCSR086JMA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF743BOK/@@download/ENCFF743BOK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR086JMA heart_right_ventricle_male_child_3_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR086JMA age=3_year description=ENCSR086JMA_heart_right_ventricle_male_child_3_years_peaks_ donor=ENCDO478OMA sex=male view=ENCSR086JMA 
+		view ENCSR086JMA
+

@@ -1,0 +1,768 @@
+
+track in_vitro_differentiated_cells_myocyte
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel myocyte
+longLabel myocyte (22 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO321TZV=ENCDO321TZV 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000AHM=ENCSR000AHM ENCSR000AHN=ENCSR000AHN ENCSR000AHS=ENCSR000AHS ENCSR000AHT=ENCSR000AHT ENCSR000AHU=ENCSR000AHU ENCSR000AHV=ENCSR000AHV ENCSR000AIB=ENCSR000AIB ENCSR000AIC=ENCSR000AIC ENCSR000AID=ENCSR000AID ENCSR000AIE=ENCSR000AIE ENCSR000AIH=ENCSR000AIH ENCSR000AII=ENCSR000AII ENCSR000AIL=ENCSR000AIL ENCSR000AIM=ENCSR000AIM ENCSR000AIN=ENCSR000AIN ENCSR000AIP=ENCSR000AIP ENCSR000AIR=ENCSR000AIR ENCSR000AIS=ENCSR000AIS ENCSR000AIT=ENCSR000AIT ENCSR000AIW=ENCSR000AIW ENCSR000AIX=ENCSR000AIX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AHT_ENCFF518CXM
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF518CXM/@@download/ENCFF518CXM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000AHT C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AHT age=unknown description=ENCSR000AHT_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AHT
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AHT
+	visibility dense
+	type bigBed
+
+		track ENCSR000AHT_ENCFF677MWE
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AHT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K4me3 view=ENCSR000AHT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF677MWE/@@download/ENCFF677MWE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000AHT C3H_myocyte_originated_from_C2C12 (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000AHT age=unknown description=ENCSR000AHT_C3H_myocyte_originated_from_C2C12_stable_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AHT 
+		view ENCSR000AHT
+
+	track ENCSR000AIA_ENCFF797NBZ
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO321TZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF797NBZ/@@download/ENCFF797NBZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AIA C3H_myocyte_originated_from_C2C12 (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIA age=unknown description=ENCSR000AIA_C3H_myocyte_originated_from_C2C12_signal_of_unique_reads_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000AIB_ENCFF096FAR
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=CEBPB view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF096FAR/@@download/ENCFF096FAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CEBPB
+	longLabel ENCSR000AIB C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIB age=unknown description=ENCSR000AIB_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIB
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIB
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIB_ENCFF495YGU
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=CEBPB view=ENCSR000AIB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF495YGU/@@download/ENCFF495YGU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CEBPB
+		longLabel ENCSR000AIB C3H_myocyte_originated_from_C2C12 (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIB age=unknown description=ENCSR000AIB_C3H_myocyte_originated_from_C2C12_optimal_idr_thresholded_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIB 
+		view ENCSR000AIB
+
+	track ENCSR000AII_ENCFF528UTW
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=E2F4 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF528UTW/@@download/ENCFF528UTW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq E2F4
+	longLabel ENCSR000AII C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AII age=unknown description=ENCSR000AII_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AII
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AII
+	visibility dense
+	type bigBed
+
+		track ENCSR000AII_ENCFF196YJL
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AII off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=E2F4 view=ENCSR000AII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF196YJL/@@download/ENCFF196YJL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq E2F4
+		longLabel ENCSR000AII C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AII age=unknown description=ENCSR000AII_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AII 
+		view ENCSR000AII
+
+	track ENCSR000AHM_ENCFF488BZX
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF488BZX/@@download/ENCFF488BZX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000AHM C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AHM age=unknown description=ENCSR000AHM_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AHM
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AHM
+	visibility dense
+	type bigBed
+
+		track ENCSR000AHM_ENCFF920VJA
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AHM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K27me3 view=ENCSR000AHM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF920VJA/@@download/ENCFF920VJA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000AHM C3H_myocyte_originated_from_C2C12 (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000AHM age=unknown description=ENCSR000AHM_C3H_myocyte_originated_from_C2C12_stable_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AHM 
+		view ENCSR000AHM
+
+	track ENCSR000AHV_ENCFF046UQY
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF046UQY/@@download/ENCFF046UQY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000AHV C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AHV age=unknown description=ENCSR000AHV_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AHV
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AHV
+	visibility dense
+	type bigBed
+
+		track ENCSR000AHV_ENCFF541VCC
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AHV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K36me3 view=ENCSR000AHV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF541VCC/@@download/ENCFF541VCC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000AHV C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000AHV age=unknown description=ENCSR000AHV_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AHV 
+		view ENCSR000AHV
+
+	track ENCSR000AHS_ENCFF245DME
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF245DME/@@download/ENCFF245DME.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR000AHS C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AHS age=unknown description=ENCSR000AHS_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AHS
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AHS
+	visibility dense
+	type bigBed
+
+		track ENCSR000AHS_ENCFF767EEB
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AHS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K4me2 view=ENCSR000AHS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF767EEB/@@download/ENCFF767EEB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR000AHS C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR000AHS age=unknown description=ENCSR000AHS_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AHS 
+		view ENCSR000AHS
+
+	track ENCSR000AHN_ENCFF388RKS
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF388RKS/@@download/ENCFF388RKS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR000AHN C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AHN age=unknown description=ENCSR000AHN_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AHN
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AHN
+	visibility dense
+	type bigBed
+
+		track ENCSR000AHN_ENCFF697FPU
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AHN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3K79me2 view=ENCSR000AHN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF697FPU/@@download/ENCFF697FPU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR000AHN C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AHN age=unknown description=ENCSR000AHN_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AHN 
+		view ENCSR000AHN
+
+	track ENCSR000AHU_ENCFF222EBN
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF222EBN/@@download/ENCFF222EBN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3ac
+	longLabel ENCSR000AHU C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AHU age=unknown description=ENCSR000AHU_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AHU
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AHU
+	visibility dense
+	type bigBed
+
+		track ENCSR000AHU_ENCFF464XEU
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AHU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=H3ac view=ENCSR000AHU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF464XEU/@@download/ENCFF464XEU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3ac
+		longLabel ENCSR000AHU C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AHU age=unknown description=ENCSR000AHU_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AHU 
+		view ENCSR000AHU
+
+	track ENCSR000AIL_ENCFF595PRV
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF595PRV/@@download/ENCFF595PRV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR000AIL C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIL age=unknown description=ENCSR000AIL_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIL
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIL
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIL_ENCFF228VQE
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MAX view=ENCSR000AIL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF228VQE/@@download/ENCFF228VQE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MAX
+		longLabel ENCSR000AIL C3H_myocyte_originated_from_C2C12 (pseudoreplicated idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIL age=unknown description=ENCSR000AIL_C3H_myocyte_originated_from_C2C12_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIL 
+		view ENCSR000AIL
+
+	track ENCSR000AIH_ENCFF779WLW
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF779WLW/@@download/ENCFF779WLW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOD1
+	longLabel ENCSR000AIH C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIH age=unknown description=ENCSR000AIH_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIH
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIH
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIH_ENCFF937RNY
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOD1 view=ENCSR000AIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF937RNY/@@download/ENCFF937RNY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MYOD1
+		longLabel ENCSR000AIH C3H_myocyte_originated_from_C2C12 (pseudoreplicated idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIH age=unknown description=ENCSR000AIH_C3H_myocyte_originated_from_C2C12_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIH 
+		view ENCSR000AIH
+
+	track ENCSR000AIR_ENCFF539PGU
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF539PGU/@@download/ENCFF539PGU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOD1
+	longLabel ENCSR000AIR C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIR age=unknown description=ENCSR000AIR_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIR
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIR
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIR_ENCFF657WKI
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOD1 view=ENCSR000AIR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF657WKI/@@download/ENCFF657WKI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MYOD1
+		longLabel ENCSR000AIR C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIR age=unknown description=ENCSR000AIR_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIR 
+		view ENCSR000AIR
+
+	track ENCSR000AIT_ENCFF122ZAR
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF122ZAR/@@download/ENCFF122ZAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOD1
+	longLabel ENCSR000AIT C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIT age=unknown description=ENCSR000AIT_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIT
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIT
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIT_ENCFF855MMD
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOD1 view=ENCSR000AIT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF855MMD/@@download/ENCFF855MMD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MYOD1
+		longLabel ENCSR000AIT C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIT age=unknown description=ENCSR000AIT_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIT 
+		view ENCSR000AIT
+
+	track ENCSR000AIC_ENCFF059BXG
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOG view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF059BXG/@@download/ENCFF059BXG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOG
+	longLabel ENCSR000AIC C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIC age=unknown description=ENCSR000AIC_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIC
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIC
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIC_ENCFF733GLH
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOG view=ENCSR000AIC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF733GLH/@@download/ENCFF733GLH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MYOG
+		longLabel ENCSR000AIC C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIC age=unknown description=ENCSR000AIC_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIC 
+		view ENCSR000AIC
+
+	track ENCSR000AID_ENCFF891VZV
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOG view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF891VZV/@@download/ENCFF891VZV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOG
+	longLabel ENCSR000AID C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AID age=unknown description=ENCSR000AID_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AID
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AID
+	visibility dense
+	type bigBed
+
+		track ENCSR000AID_ENCFF939QGK
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AID off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOG view=ENCSR000AID 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF939QGK/@@download/ENCFF939QGK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MYOG
+		longLabel ENCSR000AID C3H_myocyte_originated_from_C2C12 (pseudoreplicated idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AID age=unknown description=ENCSR000AID_C3H_myocyte_originated_from_C2C12_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AID 
+		view ENCSR000AID
+
+	track ENCSR000AIW_ENCFF140UCV
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOG view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF140UCV/@@download/ENCFF140UCV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOG
+	longLabel ENCSR000AIW C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIW age=unknown description=ENCSR000AIW_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIW
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIW
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIW_ENCFF485HOT
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=MYOG view=ENCSR000AIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF485HOT/@@download/ENCFF485HOT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MYOG
+		longLabel ENCSR000AIW C3H_myocyte_originated_from_C2C12 (pseudoreplicated idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIW age=unknown description=ENCSR000AIW_C3H_myocyte_originated_from_C2C12_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIW 
+		view ENCSR000AIW
+
+	track ENCSR000AIX_ENCFF680DPI
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF680DPI/@@download/ENCFF680DPI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000AIX C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIX age=unknown description=ENCSR000AIX_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIX
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIX
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIX_ENCFF799XWG
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=POLR2A view=ENCSR000AIX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF799XWG/@@download/ENCFF799XWG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000AIX C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIX age=unknown description=ENCSR000AIX_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIX 
+		view ENCSR000AIX
+
+	track ENCSR000AIS_ENCFF967HVW
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=REST view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF967HVW/@@download/ENCFF967HVW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq REST
+	longLabel ENCSR000AIS C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIS age=unknown description=ENCSR000AIS_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIS
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIS
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIS_ENCFF408CHO
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=REST view=ENCSR000AIS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF408CHO/@@download/ENCFF408CHO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq REST
+		longLabel ENCSR000AIS C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIS age=unknown description=ENCSR000AIS_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIS 
+		view ENCSR000AIS
+
+	track ENCSR000AIM_ENCFF552PFK
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=SRF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF552PFK/@@download/ENCFF552PFK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SRF
+	longLabel ENCSR000AIM C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIM age=unknown description=ENCSR000AIM_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIM
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIM
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIM_ENCFF672IWK
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=SRF view=ENCSR000AIM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF672IWK/@@download/ENCFF672IWK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq SRF
+		longLabel ENCSR000AIM C3H_myocyte_originated_from_C2C12 (pseudoreplicated idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIM age=unknown description=ENCSR000AIM_C3H_myocyte_originated_from_C2C12_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIM 
+		view ENCSR000AIM
+
+	track ENCSR000AIN_ENCFF247PFV
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=TCF12 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF247PFV/@@download/ENCFF247PFV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TCF12
+	longLabel ENCSR000AIN C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIN age=unknown description=ENCSR000AIN_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIN
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIN
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIN_ENCFF410TBI
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=TCF12 view=ENCSR000AIN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF410TBI/@@download/ENCFF410TBI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq TCF12
+		longLabel ENCSR000AIN C3H_myocyte_originated_from_C2C12 (pseudoreplicated idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIN age=unknown description=ENCSR000AIN_C3H_myocyte_originated_from_C2C12_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIN 
+		view ENCSR000AIN
+
+	track ENCSR000AIP_ENCFF565MVR
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=TCF3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF565MVR/@@download/ENCFF565MVR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TCF3
+	longLabel ENCSR000AIP C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIP age=unknown description=ENCSR000AIP_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIP
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIP
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIP_ENCFF786ZJY
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=TCF3 view=ENCSR000AIP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF786ZJY/@@download/ENCFF786ZJY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq TCF3
+		longLabel ENCSR000AIP C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIP age=unknown description=ENCSR000AIP_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIP 
+		view ENCSR000AIP
+
+	track ENCSR000AIE_ENCFF170WKG
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=USF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF170WKG/@@download/ENCFF170WKG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF1
+	longLabel ENCSR000AIE C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIE age=unknown description=ENCSR000AIE_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myocyte_view_ENCSR000AIE
+	parent in_vitro_differentiated_cells_myocyte off
+	view ENCSR000AIE
+	visibility dense
+	type bigBed
+
+		track ENCSR000AIE_ENCFF903SNT
+		parent in_vitro_differentiated_cells_myocyte_view_ENCSR000AIE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO321TZV label=USF1 view=ENCSR000AIE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF903SNT/@@download/ENCFF903SNT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq USF1
+		longLabel ENCSR000AIE C3H_myocyte_originated_from_C2C12 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AIE age=unknown description=ENCSR000AIE_C3H_myocyte_originated_from_C2C12_peaks_ donor=ENCDO321TZV sex=unknown view=ENCSR000AIE 
+		view ENCSR000AIE
+

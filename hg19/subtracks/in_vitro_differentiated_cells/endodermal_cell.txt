@@ -1,0 +1,382 @@
+
+track in_vitro_differentiated_cells_endodermal_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel endodermal cell
+longLabel endodermal cell (11 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO222AAA=ENCDO222AAA ENCDO224OQU=ENCDO224OQU ENCDO424FTP=ENCDO424FTP 
+subGroup2 age age a5_day=5&#32;day aunknown=unknown 
+subGroup3 view view ENCSR037RJI=ENCSR037RJI ENCSR166KPV=ENCSR166KPV ENCSR194TFK=ENCSR194TFK ENCSR200ETW=ENCSR200ETW ENCSR273IYV=ENCSR273IYV ENCSR446ZCY=ENCSR446ZCY ENCSR677EZB=ENCSR677EZB ENCSR823BHO=ENCSR823BHO bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR166KPV_ENCFF358JQH
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=a5_day assay=DNase-seq donor=ENCDO222AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF358JQH/@@download/ENCFF358JQH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR166KPV endodermal_cell (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR166KPV age=5_day description=ENCSR166KPV_endodermal_cell_read_depth_normalized_signal_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_endodermal_cell_view_ENCSR166KPV
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	view ENCSR166KPV
+	visibility dense
+	type bigBed
+
+		track ENCSR166KPV_ENCFF582FBV
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR166KPV off
+		subGroups age=a5_day assay=DNase-seq donor=ENCDO222AAA label=unknown view=ENCSR166KPV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF582FBV/@@download/ENCFF582FBV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR166KPV endodermal_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR166KPV age=5_day description=ENCSR166KPV_endodermal_cell_peaks_ donor=ENCDO222AAA sex=female view=ENCSR166KPV 
+		view ENCSR166KPV
+
+	track ENCSR446ZCY_ENCFF387FFE
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF387FFE/@@download/ENCFF387FFE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR446ZCY endodermal_cell_originated_from_HUES64 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR446ZCY age=unknown description=ENCSR446ZCY_endodermal_cell_originated_from_HUES64_fold_change_over_control_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_endodermal_cell_view_ENCSR446ZCY
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	view ENCSR446ZCY
+	visibility dense
+	type bigBed
+
+		track ENCSR446ZCY_ENCFF383FXL
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR446ZCY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me3 view=ENCSR446ZCY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF383FXL/@@download/ENCFF383FXL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR446ZCY endodermal_cell_originated_from_HUES64 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR446ZCY age=unknown description=ENCSR446ZCY_endodermal_cell_originated_from_HUES64_replicated_peaks_ donor=ENCDO424FTP sex=male view=ENCSR446ZCY 
+		view ENCSR446ZCY
+
+		track ENCSR446ZCY_ENCFF138DOQ
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR446ZCY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me3 view=ENCSR446ZCY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF138DOQ/@@download/ENCFF138DOQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF138DOQ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR446ZCY age=unknown description=ENCFF138DOQ_5group_ donor=ENCDO424FTP sex=male view=ENCSR446ZCY 
+		view ENCSR446ZCY
+
+		track ENCSR446ZCY_ENCFF676ATZ
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR446ZCY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me3 view=ENCSR446ZCY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF676ATZ/@@download/ENCFF676ATZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF676ATZ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR446ZCY age=unknown description=ENCFF676ATZ_9state_H3K27ac_ donor=ENCDO424FTP sex=male view=ENCSR446ZCY 
+		view ENCSR446ZCY
+
+		track ENCSR446ZCY_ENCFF718TRQ
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR446ZCY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me3 view=ENCSR446ZCY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF718TRQ/@@download/ENCFF718TRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF718TRQ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR446ZCY age=unknown description=ENCFF718TRQ_9state_H3K4me3_ donor=ENCDO424FTP sex=male view=ENCSR446ZCY 
+		view ENCSR446ZCY
+
+	track ENCSR200ETW_ENCFF928XPM
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF928XPM/@@download/ENCFF928XPM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR200ETW endodermal_cell_originated_from_HUES64 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR200ETW age=unknown description=ENCSR200ETW_endodermal_cell_originated_from_HUES64_fold_change_over_control_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_endodermal_cell_view_ENCSR200ETW
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	view ENCSR200ETW
+	visibility dense
+	type bigBed
+
+		track ENCSR200ETW_ENCFF664WZZ
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR200ETW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K27ac view=ENCSR200ETW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF664WZZ/@@download/ENCFF664WZZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR200ETW endodermal_cell_originated_from_HUES64 (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR200ETW age=unknown description=ENCSR200ETW_endodermal_cell_originated_from_HUES64_replicated_peaks_ donor=ENCDO424FTP sex=male view=ENCSR200ETW 
+		view ENCSR200ETW
+
+	track ENCSR002CTR_ENCFF498DIW
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO424FTP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF498DIW/@@download/ENCFF498DIW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR002CTR endodermal_cell_originated_from_HUES64 (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR002CTR age=unknown description=ENCSR002CTR_endodermal_cell_originated_from_HUES64_plus_strand_signal_of_unique_reads_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR180HYZ_ENCFF321FPF
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO224OQU label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF321FPF/@@download/ENCFF321FPF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR180HYZ endodermal_cell_originated_from_CyT49 (wavelet-smoothed signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR180HYZ age=unknown description=ENCSR180HYZ_endodermal_cell_originated_from_CyT49_wavelet_smoothed_signal_ donor=ENCDO224OQU sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR472PBS_ENCFF453AGG
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO424FTP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF453AGG/@@download/ENCFF453AGG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR472PBS endodermal_cell_originated_from_HUES64 (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR472PBS age=unknown description=ENCSR472PBS_endodermal_cell_originated_from_HUES64_plus_strand_signal_of_unique_reads_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR273IYV_ENCFF358MFS
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF358MFS/@@download/ENCFF358MFS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR273IYV endodermal_cell_originated_from_HUES64 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR273IYV age=unknown description=ENCSR273IYV_endodermal_cell_originated_from_HUES64_fold_change_over_control_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_endodermal_cell_view_ENCSR273IYV
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	view ENCSR273IYV
+	visibility dense
+	type bigBed
+
+		track ENCSR273IYV_ENCFF891RGY
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR273IYV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K27me3 view=ENCSR273IYV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF891RGY/@@download/ENCFF891RGY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR273IYV endodermal_cell_originated_from_HUES64 (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR273IYV age=unknown description=ENCSR273IYV_endodermal_cell_originated_from_HUES64_replicated_peaks_ donor=ENCDO424FTP sex=male view=ENCSR273IYV 
+		view ENCSR273IYV
+
+	track ENCSR677EZB_ENCFF627LCM
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF627LCM/@@download/ENCFF627LCM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR677EZB endodermal_cell_originated_from_HUES64 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR677EZB age=unknown description=ENCSR677EZB_endodermal_cell_originated_from_HUES64_fold_change_over_control_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_endodermal_cell_view_ENCSR677EZB
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	view ENCSR677EZB
+	visibility dense
+	type bigBed
+
+		track ENCSR677EZB_ENCFF239AMG
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR677EZB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K36me3 view=ENCSR677EZB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF239AMG/@@download/ENCFF239AMG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR677EZB endodermal_cell_originated_from_HUES64 (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR677EZB age=unknown description=ENCSR677EZB_endodermal_cell_originated_from_HUES64_replicated_peaks_ donor=ENCDO424FTP sex=male view=ENCSR677EZB 
+		view ENCSR677EZB
+
+	track ENCSR037RJI_ENCFF324YKT
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF324YKT/@@download/ENCFF324YKT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR037RJI endodermal_cell_originated_from_HUES64 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR037RJI age=unknown description=ENCSR037RJI_endodermal_cell_originated_from_HUES64_fold_change_over_control_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_endodermal_cell_view_ENCSR037RJI
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	view ENCSR037RJI
+	visibility dense
+	type bigBed
+
+		track ENCSR037RJI_ENCFF216VSH
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR037RJI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me1 view=ENCSR037RJI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF216VSH/@@download/ENCFF216VSH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR037RJI endodermal_cell_originated_from_HUES64 (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR037RJI age=unknown description=ENCSR037RJI_endodermal_cell_originated_from_HUES64_replicated_peaks_ donor=ENCDO424FTP sex=male view=ENCSR037RJI 
+		view ENCSR037RJI
+
+	track ENCSR194TFK_ENCFF518YJD
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF518YJD/@@download/ENCFF518YJD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR194TFK endodermal_cell_originated_from_HUES64 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR194TFK age=unknown description=ENCSR194TFK_endodermal_cell_originated_from_HUES64_fold_change_over_control_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_endodermal_cell_view_ENCSR194TFK
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	view ENCSR194TFK
+	visibility dense
+	type bigBed
+
+		track ENCSR194TFK_ENCFF765GPF
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR194TFK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K4me1 view=ENCSR194TFK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF765GPF/@@download/ENCFF765GPF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR194TFK endodermal_cell_originated_from_HUES64 (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR194TFK age=unknown description=ENCSR194TFK_endodermal_cell_originated_from_HUES64_peaks_ donor=ENCDO424FTP sex=male view=ENCSR194TFK 
+		view ENCSR194TFK
+
+	track ENCSR823BHO_ENCFF085BUW
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF085BUW/@@download/ENCFF085BUW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR823BHO endodermal_cell_originated_from_HUES64 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR823BHO age=unknown description=ENCSR823BHO_endodermal_cell_originated_from_HUES64_fold_change_over_control_ donor=ENCDO424FTP sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_endodermal_cell_view_ENCSR823BHO
+	parent in_vitro_differentiated_cells_endodermal_cell off
+	view ENCSR823BHO
+	visibility dense
+	type bigBed
+
+		track ENCSR823BHO_ENCFF717ZKG
+		parent in_vitro_differentiated_cells_endodermal_cell_view_ENCSR823BHO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO424FTP label=H3K9me3 view=ENCSR823BHO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF717ZKG/@@download/ENCFF717ZKG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR823BHO endodermal_cell_originated_from_HUES64 (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR823BHO age=unknown description=ENCSR823BHO_endodermal_cell_originated_from_HUES64_replicated_peaks_ donor=ENCDO424FTP sex=male view=ENCSR823BHO 
+		view ENCSR823BHO
+

@@ -1,0 +1,3760 @@
+
+track tissue_hindbrain
+parent super_tissue
+compositeTrack on
+shortLabel hindbrain
+longLabel hindbrain (96 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO469XMJ=ENCDO469XMJ ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a0_day=0&#32;day a10_50_day=10&#46;50&#32;day a10_5_day=10&#46;5&#32;day a11_5_day=11&#46;5&#32;day a12_5_day=12&#46;5&#32;day a13_5_day=13&#46;5&#32;day a14_5_day=14&#46;5&#32;day a15_5_day=15&#46;5&#32;day a16_5_day=16&#46;5&#32;day 
+subGroup3 view view ENCSR014MXQ=ENCSR014MXQ ENCSR046SWI=ENCSR046SWI ENCSR054JHZ=ENCSR054JHZ ENCSR066XFL=ENCSR066XFL ENCSR066XXZ=ENCSR066XXZ ENCSR110TIW=ENCSR110TIW ENCSR129LAP=ENCSR129LAP ENCSR150RGT=ENCSR150RGT ENCSR158ONM=ENCSR158ONM ENCSR161DAW=ENCSR161DAW ENCSR175QZX=ENCSR175QZX ENCSR179PIH=ENCSR179PIH ENCSR185JBL=ENCSR185JBL ENCSR186PIV=ENCSR186PIV ENCSR190RKJ=ENCSR190RKJ ENCSR234YTN=ENCSR234YTN ENCSR257JSX=ENCSR257JSX ENCSR259KYK=ENCSR259KYK ENCSR289BTM=ENCSR289BTM ENCSR299DRH=ENCSR299DRH ENCSR299NCJ=ENCSR299NCJ ENCSR302HOJ=ENCSR302HOJ ENCSR308TAV=ENCSR308TAV ENCSR315ZEU=ENCSR315ZEU ENCSR323NOC=ENCSR323NOC ENCSR325JLI=ENCSR325JLI ENCSR332JYZ=ENCSR332JYZ ENCSR335TVR=ENCSR335TVR ENCSR344HHI=ENCSR344HHI ENCSR349NIS=ENCSR349NIS ENCSR358ESL=ENCSR358ESL ENCSR365CUP=ENCSR365CUP ENCSR375GSG=ENCSR375GSG ENCSR417TXZ=ENCSR417TXZ ENCSR427ZQB=ENCSR427ZQB ENCSR458PAO=ENCSR458PAO ENCSR469VGZ=ENCSR469VGZ ENCSR472YGQ=ENCSR472YGQ ENCSR508HYL=ENCSR508HYL ENCSR537AKT=ENCSR537AKT ENCSR576XBN=ENCSR576XBN ENCSR594JGI=ENCSR594JGI ENCSR608QBO=ENCSR608QBO ENCSR617VBE=ENCSR617VBE ENCSR639KSW=ENCSR639KSW ENCSR689NXE=ENCSR689NXE ENCSR695FPP=ENCSR695FPP ENCSR703TBR=ENCSR703TBR ENCSR718CAJ=ENCSR718CAJ ENCSR721MSV=ENCSR721MSV ENCSR731KRE=ENCSR731KRE ENCSR734IEL=ENCSR734IEL ENCSR771ILS=ENCSR771ILS ENCSR784TLR=ENCSR784TLR ENCSR797EYS=ENCSR797EYS ENCSR809NWL=ENCSR809NWL ENCSR831EKS=ENCSR831EKS ENCSR837SKW=ENCSR837SKW ENCSR864OWV=ENCSR864OWV ENCSR921ILW=ENCSR921ILW ENCSR928CYU=ENCSR928CYU ENCSR947QOH=ENCSR947QOH ENCSR953LFI=ENCSR953LFI ENCSR962MBB=ENCSR962MBB ENCSR972LUE=ENCSR972LUE ENCSR972MUO=ENCSR972MUO ENCSR984OHL=ENCSR984OHL bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR179PIH_ENCFF107NBQ
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF107NBQ/@@download/ENCFF107NBQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR179PIH C57BL_6_hindbrain_embryo_14_5_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR179PIH age=14_5_day description=ENCSR179PIH_C57BL_6_hindbrain_embryo_14_5_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR179PIH
+	parent tissue_hindbrain off
+	view ENCSR179PIH
+	visibility dense
+	type bigBed
+
+		track ENCSR179PIH_ENCFF809FBH
+		parent tissue_hindbrain_view_ENCSR179PIH off
+		subGroups age=a14_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR179PIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF809FBH/@@download/ENCFF809FBH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR179PIH C57BL_6_hindbrain_embryo_14_5_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR179PIH age=14_5_day description=ENCSR179PIH_C57BL_6_hindbrain_embryo_14_5_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR179PIH 
+		view ENCSR179PIH
+
+		track ENCSR179PIH_ENCFF100QWF
+		parent tissue_hindbrain_view_ENCSR179PIH off
+		subGroups age=a14_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR179PIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF100QWF/@@download/ENCFF100QWF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF100QWF 9state-DNase DNase-seq on 14.5 day embryonic mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR179PIH age=14_5_day description=ENCFF100QWF_9state_DNase_DNase_seq_on_14_5_day_embryonic_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR179PIH 
+		view ENCSR179PIH
+
+		track ENCSR179PIH_ENCFF081YIK
+		parent tissue_hindbrain_view_ENCSR179PIH off
+		subGroups age=a14_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR179PIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF081YIK/@@download/ENCFF081YIK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF081YIK 5group DNase-seq on 14.5 day embryonic mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR179PIH age=14_5_day description=ENCFF081YIK_5group_DNase_seq_on_14_5_day_embryonic_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR179PIH 
+		view ENCSR179PIH
+
+		track ENCSR179PIH_ENCFF703FAU
+		parent tissue_hindbrain_view_ENCSR179PIH off
+		subGroups age=a14_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR179PIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF703FAU/@@download/ENCFF703FAU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF703FAU 9state-H3K4me3 DNase-seq on 14.5 day embryonic mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR179PIH age=14_5_day description=ENCFF703FAU_9state_H3K4me3_DNase_seq_on_14_5_day_embryonic_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR179PIH 
+		view ENCSR179PIH
+
+		track ENCSR179PIH_ENCFF960JOD
+		parent tissue_hindbrain_view_ENCSR179PIH off
+		subGroups age=a14_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR179PIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF960JOD/@@download/ENCFF960JOD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF960JOD 9state-H3K27ac DNase-seq on 14.5 day embryonic mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR179PIH age=14_5_day description=ENCFF960JOD_9state_H3K27ac_DNase_seq_on_14_5_day_embryonic_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR179PIH 
+		view ENCSR179PIH
+
+	track ENCSR289BTM_ENCFF888LAZ
+	parent tissue_hindbrain off
+	subGroups age=a10_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF888LAZ/@@download/ENCFF888LAZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR289BTM C57BL_6_hindbrain_embryo_10_50_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR289BTM age=10_50_day description=ENCSR289BTM_C57BL_6_hindbrain_embryo_10_50_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR289BTM
+	parent tissue_hindbrain off
+	view ENCSR289BTM
+	visibility dense
+	type bigBed
+
+		track ENCSR289BTM_ENCFF429TSU
+		parent tissue_hindbrain_view_ENCSR289BTM off
+		subGroups age=a10_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR289BTM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF429TSU/@@download/ENCFF429TSU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR289BTM C57BL_6_hindbrain_embryo_10_50_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR289BTM age=10_50_day description=ENCSR289BTM_C57BL_6_hindbrain_embryo_10_50_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR289BTM 
+		view ENCSR289BTM
+
+	track ENCSR358ESL_ENCFF943PHW
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF943PHW/@@download/ENCFF943PHW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR358ESL C57BL_6_hindbrain_embryo_11_5_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR358ESL age=11_5_day description=ENCSR358ESL_C57BL_6_hindbrain_embryo_11_5_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR358ESL
+	parent tissue_hindbrain off
+	view ENCSR358ESL
+	visibility dense
+	type bigBed
+
+		track ENCSR358ESL_ENCFF214QWL
+		parent tissue_hindbrain_view_ENCSR358ESL off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR358ESL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF214QWL/@@download/ENCFF214QWL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR358ESL C57BL_6_hindbrain_embryo_11_5_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR358ESL age=11_5_day description=ENCSR358ESL_C57BL_6_hindbrain_embryo_11_5_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR358ESL 
+		view ENCSR358ESL
+
+		track ENCSR358ESL_ENCFF420YLI
+		parent tissue_hindbrain_view_ENCSR358ESL off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR358ESL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420YLI/@@download/ENCFF420YLI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF420YLI 9state-DNase DNase-seq on 11.5 day (e11.5) mixed embryonic mouse hin
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR358ESL age=11_5_day description=ENCFF420YLI_9state_DNase_DNase_seq_on_11_5_day_e11_5_mixed_embryonic_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR358ESL 
+		view ENCSR358ESL
+
+		track ENCSR358ESL_ENCFF982ZYK
+		parent tissue_hindbrain_view_ENCSR358ESL off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR358ESL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982ZYK/@@download/ENCFF982ZYK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF982ZYK 5group DNase-seq on 11.5 day (e11.5) mixed embryonic mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR358ESL age=11_5_day description=ENCFF982ZYK_5group_DNase_seq_on_11_5_day_e11_5_mixed_embryonic_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR358ESL 
+		view ENCSR358ESL
+
+		track ENCSR358ESL_ENCFF507WGY
+		parent tissue_hindbrain_view_ENCSR358ESL off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR358ESL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF507WGY/@@download/ENCFF507WGY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF507WGY 9state-H3K27ac DNase-seq on 11.5 day (e11.5) mixed embryonic mouse h
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR358ESL age=11_5_day description=ENCFF507WGY_9state_H3K27ac_DNase_seq_on_11_5_day_e11_5_mixed_embryonic_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR358ESL 
+		view ENCSR358ESL
+
+		track ENCSR358ESL_ENCFF679FLA
+		parent tissue_hindbrain_view_ENCSR358ESL off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR358ESL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF679FLA/@@download/ENCFF679FLA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF679FLA 9state-H3K4me3 DNase-seq on 11.5 day (e11.5) mixed embryonic mouse h
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR358ESL age=11_5_day description=ENCFF679FLA_9state_H3K4me3_DNase_seq_on_11_5_day_e11_5_mixed_embryonic_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR358ESL 
+		view ENCSR358ESL
+
+	track ENCSR469VGZ_ENCFF283WGI
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF283WGI/@@download/ENCFF283WGI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR469VGZ C57BL_6_hindbrain_postnatal_0_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR469VGZ age=0_day description=ENCSR469VGZ_C57BL_6_hindbrain_postnatal_0_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR469VGZ
+	parent tissue_hindbrain off
+	view ENCSR469VGZ
+	visibility dense
+	type bigBed
+
+		track ENCSR469VGZ_ENCFF880FMI
+		parent tissue_hindbrain_view_ENCSR469VGZ off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR469VGZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF880FMI/@@download/ENCFF880FMI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR469VGZ C57BL_6_hindbrain_postnatal_0_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR469VGZ age=0_day description=ENCSR469VGZ_C57BL_6_hindbrain_postnatal_0_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR469VGZ 
+		view ENCSR469VGZ
+
+		track ENCSR469VGZ_ENCFF702IQE
+		parent tissue_hindbrain_view_ENCSR469VGZ off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR469VGZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702IQE/@@download/ENCFF702IQE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF702IQE 9state-CTCF DNase-seq on postnatal mixed mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR469VGZ age=0_day description=ENCFF702IQE_9state_CTCF_DNase_seq_on_postnatal_mixed_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR469VGZ 
+		view ENCSR469VGZ
+
+		track ENCSR469VGZ_ENCFF559UHE
+		parent tissue_hindbrain_view_ENCSR469VGZ off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR469VGZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF559UHE/@@download/ENCFF559UHE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF559UHE 9state-DNase DNase-seq on postnatal mixed mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR469VGZ age=0_day description=ENCFF559UHE_9state_DNase_DNase_seq_on_postnatal_mixed_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR469VGZ 
+		view ENCSR469VGZ
+
+		track ENCSR469VGZ_ENCFF964ZWH
+		parent tissue_hindbrain_view_ENCSR469VGZ off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR469VGZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF964ZWH/@@download/ENCFF964ZWH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF964ZWH 5group DNase-seq on postnatal mixed mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR469VGZ age=0_day description=ENCFF964ZWH_5group_DNase_seq_on_postnatal_mixed_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR469VGZ 
+		view ENCSR469VGZ
+
+		track ENCSR469VGZ_ENCFF056VCS
+		parent tissue_hindbrain_view_ENCSR469VGZ off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR469VGZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF056VCS/@@download/ENCFF056VCS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF056VCS 9state-H3K4me3 DNase-seq on postnatal mixed mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR469VGZ age=0_day description=ENCFF056VCS_9state_H3K4me3_DNase_seq_on_postnatal_mixed_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR469VGZ 
+		view ENCSR469VGZ
+
+		track ENCSR469VGZ_ENCFF943OLT
+		parent tissue_hindbrain_view_ENCSR469VGZ off
+		subGroups age=a0_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR469VGZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF943OLT/@@download/ENCFF943OLT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF943OLT 9state-H3K27ac DNase-seq on postnatal mixed mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR469VGZ age=0_day description=ENCFF943OLT_9state_H3K27ac_DNase_seq_on_postnatal_mixed_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR469VGZ 
+		view ENCSR469VGZ
+
+	track ENCSR110TIW_ENCFF959NHK
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF959NHK/@@download/ENCFF959NHK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR110TIW C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR110TIW age=16_5_day description=ENCSR110TIW_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR110TIW
+	parent tissue_hindbrain off
+	view ENCSR110TIW
+	visibility dense
+	type bigBed
+
+		track ENCSR110TIW_ENCFF435DOY
+		parent tissue_hindbrain_view_ENCSR110TIW off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR110TIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF435DOY/@@download/ENCFF435DOY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR110TIW C57BL_6_hindbrain_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR110TIW age=16_5_day description=ENCSR110TIW_C57BL_6_hindbrain_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR110TIW 
+		view ENCSR110TIW
+
+		track ENCSR110TIW_ENCFF769TFY
+		parent tissue_hindbrain_view_ENCSR110TIW off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR110TIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF769TFY/@@download/ENCFF769TFY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF769TFY 5group H3K4me3 ChIP-seq on embryonic 16.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR110TIW age=16_5_day description=ENCFF769TFY_5group_H3K4me3_ChIP_seq_on_embryonic_16_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR110TIW 
+		view ENCSR110TIW
+
+		track ENCSR110TIW_ENCFF230ZZF
+		parent tissue_hindbrain_view_ENCSR110TIW off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR110TIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF230ZZF/@@download/ENCFF230ZZF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF230ZZF 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 16.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR110TIW age=16_5_day description=ENCFF230ZZF_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_16_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR110TIW 
+		view ENCSR110TIW
+
+		track ENCSR110TIW_ENCFF127PWF
+		parent tissue_hindbrain_view_ENCSR110TIW off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR110TIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF127PWF/@@download/ENCFF127PWF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF127PWF 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 16.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR110TIW age=16_5_day description=ENCFF127PWF_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_16_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR110TIW 
+		view ENCSR110TIW
+
+	track ENCSR158ONM_ENCFF493WPM
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF493WPM/@@download/ENCFF493WPM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR158ONM C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR158ONM age=12_5_day description=ENCSR158ONM_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR158ONM
+	parent tissue_hindbrain off
+	view ENCSR158ONM
+	visibility dense
+	type bigBed
+
+		track ENCSR158ONM_ENCFF291LWL
+		parent tissue_hindbrain_view_ENCSR158ONM off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR158ONM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF291LWL/@@download/ENCFF291LWL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR158ONM C57BL_6_hindbrain_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR158ONM age=12_5_day description=ENCSR158ONM_C57BL_6_hindbrain_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR158ONM 
+		view ENCSR158ONM
+
+		track ENCSR158ONM_ENCFF873RAO
+		parent tissue_hindbrain_view_ENCSR158ONM off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR158ONM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF873RAO/@@download/ENCFF873RAO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF873RAO 5group H3K4me3 ChIP-seq on embryonic 12.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR158ONM age=12_5_day description=ENCFF873RAO_5group_H3K4me3_ChIP_seq_on_embryonic_12_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR158ONM 
+		view ENCSR158ONM
+
+		track ENCSR158ONM_ENCFF443JAS
+		parent tissue_hindbrain_view_ENCSR158ONM off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR158ONM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF443JAS/@@download/ENCFF443JAS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF443JAS 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 12.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR158ONM age=12_5_day description=ENCFF443JAS_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_12_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR158ONM 
+		view ENCSR158ONM
+
+		track ENCSR158ONM_ENCFF312LRI
+		parent tissue_hindbrain_view_ENCSR158ONM off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR158ONM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF312LRI/@@download/ENCFF312LRI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF312LRI 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 12.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR158ONM age=12_5_day description=ENCFF312LRI_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_12_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR158ONM 
+		view ENCSR158ONM
+
+	track ENCSR185JBL_ENCFF837LYE
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF837LYE/@@download/ENCFF837LYE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR185JBL C57BL_6_hindbrain_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR185JBL age=14_5_day description=ENCSR185JBL_C57BL_6_hindbrain_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR185JBL
+	parent tissue_hindbrain off
+	view ENCSR185JBL
+	visibility dense
+	type bigBed
+
+		track ENCSR185JBL_ENCFF218ZAM
+		parent tissue_hindbrain_view_ENCSR185JBL off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR185JBL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF218ZAM/@@download/ENCFF218ZAM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR185JBL C57BL_6_hindbrain_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR185JBL age=14_5_day description=ENCSR185JBL_C57BL_6_hindbrain_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR185JBL 
+		view ENCSR185JBL
+
+		track ENCSR185JBL_ENCFF100QWF
+		parent tissue_hindbrain_view_ENCSR185JBL off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR185JBL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF100QWF/@@download/ENCFF100QWF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF100QWF 9state-DNase H3K4me3 ChIP-seq on embryonic 14.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR185JBL age=14_5_day description=ENCFF100QWF_9state_DNase_H3K4me3_ChIP_seq_on_embryonic_14_5_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR185JBL 
+		view ENCSR185JBL
+
+		track ENCSR185JBL_ENCFF081YIK
+		parent tissue_hindbrain_view_ENCSR185JBL off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR185JBL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF081YIK/@@download/ENCFF081YIK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF081YIK 5group H3K4me3 ChIP-seq on embryonic 14.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR185JBL age=14_5_day description=ENCFF081YIK_5group_H3K4me3_ChIP_seq_on_embryonic_14_5_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR185JBL 
+		view ENCSR185JBL
+
+		track ENCSR185JBL_ENCFF703FAU
+		parent tissue_hindbrain_view_ENCSR185JBL off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR185JBL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF703FAU/@@download/ENCFF703FAU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF703FAU 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 14.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR185JBL age=14_5_day description=ENCFF703FAU_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_14_5_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR185JBL 
+		view ENCSR185JBL
+
+		track ENCSR185JBL_ENCFF960JOD
+		parent tissue_hindbrain_view_ENCSR185JBL off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR185JBL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF960JOD/@@download/ENCFF960JOD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF960JOD 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 14.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR185JBL age=14_5_day description=ENCFF960JOD_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_14_5_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR185JBL 
+		view ENCSR185JBL
+
+	track ENCSR315ZEU_ENCFF356LUU
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF356LUU/@@download/ENCFF356LUU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR315ZEU C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR315ZEU age=13_5_day description=ENCSR315ZEU_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR315ZEU
+	parent tissue_hindbrain off
+	view ENCSR315ZEU
+	visibility dense
+	type bigBed
+
+		track ENCSR315ZEU_ENCFF953RPU
+		parent tissue_hindbrain_view_ENCSR315ZEU off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR315ZEU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF953RPU/@@download/ENCFF953RPU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR315ZEU C57BL_6_hindbrain_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR315ZEU age=13_5_day description=ENCSR315ZEU_C57BL_6_hindbrain_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR315ZEU 
+		view ENCSR315ZEU
+
+		track ENCSR315ZEU_ENCFF482CMQ
+		parent tissue_hindbrain_view_ENCSR315ZEU off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR315ZEU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF482CMQ/@@download/ENCFF482CMQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF482CMQ 5group H3K4me3 ChIP-seq on embryonic 13.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR315ZEU age=13_5_day description=ENCFF482CMQ_5group_H3K4me3_ChIP_seq_on_embryonic_13_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR315ZEU 
+		view ENCSR315ZEU
+
+		track ENCSR315ZEU_ENCFF746SKJ
+		parent tissue_hindbrain_view_ENCSR315ZEU off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR315ZEU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF746SKJ/@@download/ENCFF746SKJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF746SKJ 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 13.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR315ZEU age=13_5_day description=ENCFF746SKJ_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_13_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR315ZEU 
+		view ENCSR315ZEU
+
+		track ENCSR315ZEU_ENCFF681MRV
+		parent tissue_hindbrain_view_ENCSR315ZEU off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR315ZEU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF681MRV/@@download/ENCFF681MRV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF681MRV 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 13.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR315ZEU age=13_5_day description=ENCFF681MRV_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_13_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR315ZEU 
+		view ENCSR315ZEU
+
+	track ENCSR335TVR_ENCFF576SVQ
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF576SVQ/@@download/ENCFF576SVQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR335TVR C57BL_6_hindbrain_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR335TVR age=15_5_day description=ENCSR335TVR_C57BL_6_hindbrain_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR335TVR
+	parent tissue_hindbrain off
+	view ENCSR335TVR
+	visibility dense
+	type bigBed
+
+		track ENCSR335TVR_ENCFF806JBM
+		parent tissue_hindbrain_view_ENCSR335TVR off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR335TVR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF806JBM/@@download/ENCFF806JBM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR335TVR C57BL_6_hindbrain_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR335TVR age=15_5_day description=ENCSR335TVR_C57BL_6_hindbrain_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR335TVR 
+		view ENCSR335TVR
+
+		track ENCSR335TVR_ENCFF665MEQ
+		parent tissue_hindbrain_view_ENCSR335TVR off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR335TVR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF665MEQ/@@download/ENCFF665MEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF665MEQ 5group H3K4me3 ChIP-seq on embryonic 15.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR335TVR age=15_5_day description=ENCFF665MEQ_5group_H3K4me3_ChIP_seq_on_embryonic_15_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR335TVR 
+		view ENCSR335TVR
+
+		track ENCSR335TVR_ENCFF920HXV
+		parent tissue_hindbrain_view_ENCSR335TVR off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR335TVR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF920HXV/@@download/ENCFF920HXV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF920HXV 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 15.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR335TVR age=15_5_day description=ENCFF920HXV_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_15_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR335TVR 
+		view ENCSR335TVR
+
+		track ENCSR335TVR_ENCFF891HCG
+		parent tissue_hindbrain_view_ENCSR335TVR off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR335TVR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF891HCG/@@download/ENCFF891HCG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF891HCG 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 15.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR335TVR age=15_5_day description=ENCFF891HCG_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_15_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR335TVR 
+		view ENCSR335TVR
+
+	track ENCSR472YGQ_ENCFF669USU
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF669USU/@@download/ENCFF669USU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR472YGQ C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR472YGQ age=0_day description=ENCSR472YGQ_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR472YGQ
+	parent tissue_hindbrain off
+	view ENCSR472YGQ
+	visibility dense
+	type bigBed
+
+		track ENCSR472YGQ_ENCFF169RNW
+		parent tissue_hindbrain_view_ENCSR472YGQ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR472YGQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF169RNW/@@download/ENCFF169RNW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR472YGQ C57BL_6_hindbrain_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR472YGQ age=0_day description=ENCSR472YGQ_C57BL_6_hindbrain_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR472YGQ 
+		view ENCSR472YGQ
+
+		track ENCSR472YGQ_ENCFF702IQE
+		parent tissue_hindbrain_view_ENCSR472YGQ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR472YGQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702IQE/@@download/ENCFF702IQE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF702IQE 9state-CTCF H3K4me3 ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR472YGQ age=0_day description=ENCFF702IQE_9state_CTCF_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR472YGQ 
+		view ENCSR472YGQ
+
+		track ENCSR472YGQ_ENCFF559UHE
+		parent tissue_hindbrain_view_ENCSR472YGQ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR472YGQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF559UHE/@@download/ENCFF559UHE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF559UHE 9state-DNase H3K4me3 ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR472YGQ age=0_day description=ENCFF559UHE_9state_DNase_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR472YGQ 
+		view ENCSR472YGQ
+
+		track ENCSR472YGQ_ENCFF964ZWH
+		parent tissue_hindbrain_view_ENCSR472YGQ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR472YGQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF964ZWH/@@download/ENCFF964ZWH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF964ZWH 5group H3K4me3 ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR472YGQ age=0_day description=ENCFF964ZWH_5group_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR472YGQ 
+		view ENCSR472YGQ
+
+		track ENCSR472YGQ_ENCFF056VCS
+		parent tissue_hindbrain_view_ENCSR472YGQ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR472YGQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF056VCS/@@download/ENCFF056VCS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF056VCS 9state-H3K4me3 H3K4me3 ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR472YGQ age=0_day description=ENCFF056VCS_9state_H3K4me3_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR472YGQ 
+		view ENCSR472YGQ
+
+		track ENCSR472YGQ_ENCFF943OLT
+		parent tissue_hindbrain_view_ENCSR472YGQ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me3 view=ENCSR472YGQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF943OLT/@@download/ENCFF943OLT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF943OLT 9state-H3K27ac H3K4me3 ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR472YGQ age=0_day description=ENCFF943OLT_9state_H3K27ac_H3K4me3_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR472YGQ 
+		view ENCSR472YGQ
+
+	track ENCSR731KRE_ENCFF863DGY
+	parent tissue_hindbrain off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF863DGY/@@download/ENCFF863DGY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR731KRE C57BL_6_hindbrain_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR731KRE age=10_5_day description=ENCSR731KRE_C57BL_6_hindbrain_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR731KRE
+	parent tissue_hindbrain off
+	view ENCSR731KRE
+	visibility dense
+	type bigBed
+
+		track ENCSR731KRE_ENCFF026PRW
+		parent tissue_hindbrain_view_ENCSR731KRE off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR731KRE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF026PRW/@@download/ENCFF026PRW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR731KRE C57BL_6_hindbrain_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR731KRE age=10_5_day description=ENCSR731KRE_C57BL_6_hindbrain_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR731KRE 
+		view ENCSR731KRE
+
+		track ENCSR731KRE_ENCFF218IEG
+		parent tissue_hindbrain_view_ENCSR731KRE off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR731KRE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF218IEG/@@download/ENCFF218IEG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF218IEG 5group H3K4me3 ChIP-seq on embryonic 10.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR731KRE age=10_5_day description=ENCFF218IEG_5group_H3K4me3_ChIP_seq_on_embryonic_10_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR731KRE 
+		view ENCSR731KRE
+
+		track ENCSR731KRE_ENCFF543CMB
+		parent tissue_hindbrain_view_ENCSR731KRE off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR731KRE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF543CMB/@@download/ENCFF543CMB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF543CMB 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 10.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR731KRE age=10_5_day description=ENCFF543CMB_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_10_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR731KRE 
+		view ENCSR731KRE
+
+		track ENCSR731KRE_ENCFF910MRF
+		parent tissue_hindbrain_view_ENCSR731KRE off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR731KRE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF910MRF/@@download/ENCFF910MRF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF910MRF 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 10.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR731KRE age=10_5_day description=ENCFF910MRF_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_10_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR731KRE 
+		view ENCSR731KRE
+
+	track ENCSR928CYU_ENCFF703BHN
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF703BHN/@@download/ENCFF703BHN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR928CYU C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR928CYU age=11_5_day description=ENCSR928CYU_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR928CYU
+	parent tissue_hindbrain off
+	view ENCSR928CYU
+	visibility dense
+	type bigBed
+
+		track ENCSR928CYU_ENCFF651ZNC
+		parent tissue_hindbrain_view_ENCSR928CYU off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR928CYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF651ZNC/@@download/ENCFF651ZNC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR928CYU C57BL_6_hindbrain_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR928CYU age=11_5_day description=ENCSR928CYU_C57BL_6_hindbrain_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR928CYU 
+		view ENCSR928CYU
+
+		track ENCSR928CYU_ENCFF420YLI
+		parent tissue_hindbrain_view_ENCSR928CYU off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR928CYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420YLI/@@download/ENCFF420YLI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF420YLI 9state-DNase H3K4me3 ChIP-seq on embryonic 11.5 day (e11.5) mouse hi
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR928CYU age=11_5_day description=ENCFF420YLI_9state_DNase_H3K4me3_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR928CYU 
+		view ENCSR928CYU
+
+		track ENCSR928CYU_ENCFF982ZYK
+		parent tissue_hindbrain_view_ENCSR928CYU off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR928CYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982ZYK/@@download/ENCFF982ZYK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF982ZYK 5group H3K4me3 ChIP-seq on embryonic 11.5 day (e11.5) mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR928CYU age=11_5_day description=ENCFF982ZYK_5group_H3K4me3_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR928CYU 
+		view ENCSR928CYU
+
+		track ENCSR928CYU_ENCFF507WGY
+		parent tissue_hindbrain_view_ENCSR928CYU off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR928CYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF507WGY/@@download/ENCFF507WGY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF507WGY 9state-H3K27ac H3K4me3 ChIP-seq on embryonic 11.5 day (e11.5) mouse 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR928CYU age=11_5_day description=ENCFF507WGY_9state_H3K27ac_H3K4me3_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR928CYU 
+		view ENCSR928CYU
+
+		track ENCSR928CYU_ENCFF679FLA
+		parent tissue_hindbrain_view_ENCSR928CYU off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR928CYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF679FLA/@@download/ENCFF679FLA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF679FLA 9state-H3K4me3 H3K4me3 ChIP-seq on embryonic 11.5 day (e11.5) mouse 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR928CYU age=11_5_day description=ENCFF679FLA_9state_H3K4me3_H3K4me3_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR928CYU 
+		view ENCSR928CYU
+
+	track ENCSR054JHZ_ENCFF774AQE
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF774AQE/@@download/ENCFF774AQE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR054JHZ C57BL_6_hindbrain_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR054JHZ age=14_5_day description=ENCSR054JHZ_C57BL_6_hindbrain_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR054JHZ
+	parent tissue_hindbrain off
+	view ENCSR054JHZ
+	visibility dense
+	type bigBed
+
+		track ENCSR054JHZ_ENCFF958YGX
+		parent tissue_hindbrain_view_ENCSR054JHZ off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR054JHZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF958YGX/@@download/ENCFF958YGX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR054JHZ C57BL_6_hindbrain_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR054JHZ age=14_5_day description=ENCSR054JHZ_C57BL_6_hindbrain_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR054JHZ 
+		view ENCSR054JHZ
+
+		track ENCSR054JHZ_ENCFF100QWF
+		parent tissue_hindbrain_view_ENCSR054JHZ off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR054JHZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF100QWF/@@download/ENCFF100QWF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF100QWF 9state-DNase H3K27ac ChIP-seq on embryonic 14.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR054JHZ age=14_5_day description=ENCFF100QWF_9state_DNase_H3K27ac_ChIP_seq_on_embryonic_14_5_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR054JHZ 
+		view ENCSR054JHZ
+
+		track ENCSR054JHZ_ENCFF081YIK
+		parent tissue_hindbrain_view_ENCSR054JHZ off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR054JHZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF081YIK/@@download/ENCFF081YIK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF081YIK 5group H3K27ac ChIP-seq on embryonic 14.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR054JHZ age=14_5_day description=ENCFF081YIK_5group_H3K27ac_ChIP_seq_on_embryonic_14_5_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR054JHZ 
+		view ENCSR054JHZ
+
+		track ENCSR054JHZ_ENCFF703FAU
+		parent tissue_hindbrain_view_ENCSR054JHZ off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR054JHZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF703FAU/@@download/ENCFF703FAU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF703FAU 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 14.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR054JHZ age=14_5_day description=ENCFF703FAU_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_14_5_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR054JHZ 
+		view ENCSR054JHZ
+
+		track ENCSR054JHZ_ENCFF960JOD
+		parent tissue_hindbrain_view_ENCSR054JHZ off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR054JHZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF960JOD/@@download/ENCFF960JOD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF960JOD 9state-H3K27ac H3K27ac ChIP-seq on embryonic 14.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR054JHZ age=14_5_day description=ENCFF960JOD_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_14_5_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR054JHZ 
+		view ENCSR054JHZ
+
+	track ENCSR066XFL_ENCFF121XJR
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF121XJR/@@download/ENCFF121XJR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR066XFL C57BL_6_hindbrain_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR066XFL age=15_5_day description=ENCSR066XFL_C57BL_6_hindbrain_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR066XFL
+	parent tissue_hindbrain off
+	view ENCSR066XFL
+	visibility dense
+	type bigBed
+
+		track ENCSR066XFL_ENCFF825MTF
+		parent tissue_hindbrain_view_ENCSR066XFL off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR066XFL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF825MTF/@@download/ENCFF825MTF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR066XFL C57BL_6_hindbrain_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR066XFL age=15_5_day description=ENCSR066XFL_C57BL_6_hindbrain_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR066XFL 
+		view ENCSR066XFL
+
+		track ENCSR066XFL_ENCFF665MEQ
+		parent tissue_hindbrain_view_ENCSR066XFL off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR066XFL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF665MEQ/@@download/ENCFF665MEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF665MEQ 5group H3K27ac ChIP-seq on embryonic 15.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR066XFL age=15_5_day description=ENCFF665MEQ_5group_H3K27ac_ChIP_seq_on_embryonic_15_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR066XFL 
+		view ENCSR066XFL
+
+		track ENCSR066XFL_ENCFF920HXV
+		parent tissue_hindbrain_view_ENCSR066XFL off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR066XFL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF920HXV/@@download/ENCFF920HXV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF920HXV 9state-H3K27ac H3K27ac ChIP-seq on embryonic 15.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR066XFL age=15_5_day description=ENCFF920HXV_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_15_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR066XFL 
+		view ENCSR066XFL
+
+		track ENCSR066XFL_ENCFF891HCG
+		parent tissue_hindbrain_view_ENCSR066XFL off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR066XFL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF891HCG/@@download/ENCFF891HCG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF891HCG 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 15.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR066XFL age=15_5_day description=ENCFF891HCG_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_15_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR066XFL 
+		view ENCSR066XFL
+
+	track ENCSR129LAP_ENCFF177SVC
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF177SVC/@@download/ENCFF177SVC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR129LAP C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR129LAP age=11_5_day description=ENCSR129LAP_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR129LAP
+	parent tissue_hindbrain off
+	view ENCSR129LAP
+	visibility dense
+	type bigBed
+
+		track ENCSR129LAP_ENCFF299SRH
+		parent tissue_hindbrain_view_ENCSR129LAP off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR129LAP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF299SRH/@@download/ENCFF299SRH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR129LAP C57BL_6_hindbrain_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR129LAP age=11_5_day description=ENCSR129LAP_C57BL_6_hindbrain_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR129LAP 
+		view ENCSR129LAP
+
+		track ENCSR129LAP_ENCFF420YLI
+		parent tissue_hindbrain_view_ENCSR129LAP off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR129LAP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420YLI/@@download/ENCFF420YLI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF420YLI 9state-DNase H3K27ac ChIP-seq on embryonic 11.5 day (e11.5) mouse hi
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR129LAP age=11_5_day description=ENCFF420YLI_9state_DNase_H3K27ac_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR129LAP 
+		view ENCSR129LAP
+
+		track ENCSR129LAP_ENCFF982ZYK
+		parent tissue_hindbrain_view_ENCSR129LAP off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR129LAP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982ZYK/@@download/ENCFF982ZYK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF982ZYK 5group H3K27ac ChIP-seq on embryonic 11.5 day (e11.5) mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR129LAP age=11_5_day description=ENCFF982ZYK_5group_H3K27ac_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR129LAP 
+		view ENCSR129LAP
+
+		track ENCSR129LAP_ENCFF507WGY
+		parent tissue_hindbrain_view_ENCSR129LAP off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR129LAP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF507WGY/@@download/ENCFF507WGY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF507WGY 9state-H3K27ac H3K27ac ChIP-seq on embryonic 11.5 day (e11.5) mouse 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR129LAP age=11_5_day description=ENCFF507WGY_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR129LAP 
+		view ENCSR129LAP
+
+		track ENCSR129LAP_ENCFF679FLA
+		parent tissue_hindbrain_view_ENCSR129LAP off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR129LAP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF679FLA/@@download/ENCFF679FLA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF679FLA 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 11.5 day (e11.5) mouse 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR129LAP age=11_5_day description=ENCFF679FLA_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_11_5_day_e11_5_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR129LAP 
+		view ENCSR129LAP
+
+	track ENCSR150RGT_ENCFF251FHP
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF251FHP/@@download/ENCFF251FHP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR150RGT C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR150RGT age=0_day description=ENCSR150RGT_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR150RGT
+	parent tissue_hindbrain off
+	view ENCSR150RGT
+	visibility dense
+	type bigBed
+
+		track ENCSR150RGT_ENCFF868NVS
+		parent tissue_hindbrain_view_ENCSR150RGT off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR150RGT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF868NVS/@@download/ENCFF868NVS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR150RGT C57BL_6_hindbrain_postnatal_0_days_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR150RGT age=0_day description=ENCSR150RGT_C57BL_6_hindbrain_postnatal_0_days_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR150RGT 
+		view ENCSR150RGT
+
+		track ENCSR150RGT_ENCFF702IQE
+		parent tissue_hindbrain_view_ENCSR150RGT off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR150RGT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702IQE/@@download/ENCFF702IQE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF702IQE 9state-CTCF Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR150RGT age=0_day description=ENCFF702IQE_9state_CTCF_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR150RGT 
+		view ENCSR150RGT
+
+		track ENCSR150RGT_ENCFF559UHE
+		parent tissue_hindbrain_view_ENCSR150RGT off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR150RGT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF559UHE/@@download/ENCFF559UHE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF559UHE 9state-DNase Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR150RGT age=0_day description=ENCFF559UHE_9state_DNase_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR150RGT 
+		view ENCSR150RGT
+
+		track ENCSR150RGT_ENCFF964ZWH
+		parent tissue_hindbrain_view_ENCSR150RGT off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR150RGT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF964ZWH/@@download/ENCFF964ZWH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF964ZWH 5group Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR150RGT age=0_day description=ENCFF964ZWH_5group_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR150RGT 
+		view ENCSR150RGT
+
+		track ENCSR150RGT_ENCFF056VCS
+		parent tissue_hindbrain_view_ENCSR150RGT off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR150RGT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF056VCS/@@download/ENCFF056VCS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF056VCS 9state-H3K4me3 Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR150RGT age=0_day description=ENCFF056VCS_9state_H3K4me3_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR150RGT 
+		view ENCSR150RGT
+
+		track ENCSR150RGT_ENCFF943OLT
+		parent tissue_hindbrain_view_ENCSR150RGT off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR150RGT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF943OLT/@@download/ENCFF943OLT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF943OLT 9state-H3K27ac Chip-Seq on CTCF-mouse
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR150RGT age=0_day description=ENCFF943OLT_9state_H3K27ac_Chip_Seq_on_CTCF_mouse donor=ENCDO956IXV sex=unknown view=ENCSR150RGT 
+		view ENCSR150RGT
+
+	track ENCSR332JYZ_ENCFF665WCP
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF665WCP/@@download/ENCFF665WCP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR332JYZ C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR332JYZ age=0_day description=ENCSR332JYZ_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR332JYZ
+	parent tissue_hindbrain off
+	view ENCSR332JYZ
+	visibility dense
+	type bigBed
+
+		track ENCSR332JYZ_ENCFF469QLC
+		parent tissue_hindbrain_view_ENCSR332JYZ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR332JYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF469QLC/@@download/ENCFF469QLC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR332JYZ C57BL_6_hindbrain_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR332JYZ age=0_day description=ENCSR332JYZ_C57BL_6_hindbrain_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR332JYZ 
+		view ENCSR332JYZ
+
+		track ENCSR332JYZ_ENCFF702IQE
+		parent tissue_hindbrain_view_ENCSR332JYZ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR332JYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702IQE/@@download/ENCFF702IQE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF702IQE 9state-CTCF H3K27ac ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR332JYZ age=0_day description=ENCFF702IQE_9state_CTCF_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR332JYZ 
+		view ENCSR332JYZ
+
+		track ENCSR332JYZ_ENCFF559UHE
+		parent tissue_hindbrain_view_ENCSR332JYZ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR332JYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF559UHE/@@download/ENCFF559UHE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF559UHE 9state-DNase H3K27ac ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR332JYZ age=0_day description=ENCFF559UHE_9state_DNase_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR332JYZ 
+		view ENCSR332JYZ
+
+		track ENCSR332JYZ_ENCFF964ZWH
+		parent tissue_hindbrain_view_ENCSR332JYZ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR332JYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF964ZWH/@@download/ENCFF964ZWH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF964ZWH 5group H3K27ac ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR332JYZ age=0_day description=ENCFF964ZWH_5group_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR332JYZ 
+		view ENCSR332JYZ
+
+		track ENCSR332JYZ_ENCFF056VCS
+		parent tissue_hindbrain_view_ENCSR332JYZ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR332JYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF056VCS/@@download/ENCFF056VCS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF056VCS 9state-H3K4me3 H3K27ac ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR332JYZ age=0_day description=ENCFF056VCS_9state_H3K4me3_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR332JYZ 
+		view ENCSR332JYZ
+
+		track ENCSR332JYZ_ENCFF943OLT
+		parent tissue_hindbrain_view_ENCSR332JYZ off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27ac view=ENCSR332JYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF943OLT/@@download/ENCFF943OLT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF943OLT 9state-H3K27ac H3K27ac ChIP-seq on postnatal 0 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR332JYZ age=0_day description=ENCFF943OLT_9state_H3K27ac_H3K27ac_ChIP_seq_on_postnatal_0_day_mouse_hindbrain donor=ENCDO469XMJ sex=unknown view=ENCSR332JYZ 
+		view ENCSR332JYZ
+
+	track ENCSR344HHI_ENCFF923TVC
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF923TVC/@@download/ENCFF923TVC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR344HHI C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR344HHI age=13_5_day description=ENCSR344HHI_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR344HHI
+	parent tissue_hindbrain off
+	view ENCSR344HHI
+	visibility dense
+	type bigBed
+
+		track ENCSR344HHI_ENCFF414QQR
+		parent tissue_hindbrain_view_ENCSR344HHI off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR344HHI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF414QQR/@@download/ENCFF414QQR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR344HHI C57BL_6_hindbrain_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR344HHI age=13_5_day description=ENCSR344HHI_C57BL_6_hindbrain_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR344HHI 
+		view ENCSR344HHI
+
+		track ENCSR344HHI_ENCFF482CMQ
+		parent tissue_hindbrain_view_ENCSR344HHI off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR344HHI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF482CMQ/@@download/ENCFF482CMQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF482CMQ 5group H3K27ac ChIP-seq on embryonic 13.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR344HHI age=13_5_day description=ENCFF482CMQ_5group_H3K27ac_ChIP_seq_on_embryonic_13_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR344HHI 
+		view ENCSR344HHI
+
+		track ENCSR344HHI_ENCFF746SKJ
+		parent tissue_hindbrain_view_ENCSR344HHI off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR344HHI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF746SKJ/@@download/ENCFF746SKJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF746SKJ 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 13.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR344HHI age=13_5_day description=ENCFF746SKJ_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_13_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR344HHI 
+		view ENCSR344HHI
+
+		track ENCSR344HHI_ENCFF681MRV
+		parent tissue_hindbrain_view_ENCSR344HHI off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR344HHI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF681MRV/@@download/ENCFF681MRV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF681MRV 9state-H3K27ac H3K27ac ChIP-seq on embryonic 13.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR344HHI age=13_5_day description=ENCFF681MRV_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_13_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR344HHI 
+		view ENCSR344HHI
+
+	track ENCSR594JGI_ENCFF782RAO
+	parent tissue_hindbrain off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF782RAO/@@download/ENCFF782RAO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR594JGI C57BL_6_hindbrain_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR594JGI age=10_5_day description=ENCSR594JGI_C57BL_6_hindbrain_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR594JGI
+	parent tissue_hindbrain off
+	view ENCSR594JGI
+	visibility dense
+	type bigBed
+
+		track ENCSR594JGI_ENCFF510MLG
+		parent tissue_hindbrain_view_ENCSR594JGI off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR594JGI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF510MLG/@@download/ENCFF510MLG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR594JGI C57BL_6_hindbrain_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR594JGI age=10_5_day description=ENCSR594JGI_C57BL_6_hindbrain_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR594JGI 
+		view ENCSR594JGI
+
+		track ENCSR594JGI_ENCFF218IEG
+		parent tissue_hindbrain_view_ENCSR594JGI off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR594JGI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF218IEG/@@download/ENCFF218IEG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF218IEG 5group H3K27ac ChIP-seq on embryonic 10.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR594JGI age=10_5_day description=ENCFF218IEG_5group_H3K27ac_ChIP_seq_on_embryonic_10_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR594JGI 
+		view ENCSR594JGI
+
+		track ENCSR594JGI_ENCFF543CMB
+		parent tissue_hindbrain_view_ENCSR594JGI off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR594JGI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF543CMB/@@download/ENCFF543CMB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF543CMB 9state-H3K27ac H3K27ac ChIP-seq on embryonic 10.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR594JGI age=10_5_day description=ENCFF543CMB_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_10_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR594JGI 
+		view ENCSR594JGI
+
+		track ENCSR594JGI_ENCFF910MRF
+		parent tissue_hindbrain_view_ENCSR594JGI off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR594JGI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF910MRF/@@download/ENCFF910MRF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF910MRF 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 10.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR594JGI age=10_5_day description=ENCFF910MRF_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_10_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR594JGI 
+		view ENCSR594JGI
+
+	track ENCSR784TLR_ENCFF631JYQ
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF631JYQ/@@download/ENCFF631JYQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR784TLR C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR784TLR age=12_5_day description=ENCSR784TLR_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR784TLR
+	parent tissue_hindbrain off
+	view ENCSR784TLR
+	visibility dense
+	type bigBed
+
+		track ENCSR784TLR_ENCFF869OFE
+		parent tissue_hindbrain_view_ENCSR784TLR off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR784TLR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF869OFE/@@download/ENCFF869OFE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR784TLR C57BL_6_hindbrain_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR784TLR age=12_5_day description=ENCSR784TLR_C57BL_6_hindbrain_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR784TLR 
+		view ENCSR784TLR
+
+		track ENCSR784TLR_ENCFF873RAO
+		parent tissue_hindbrain_view_ENCSR784TLR off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR784TLR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF873RAO/@@download/ENCFF873RAO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF873RAO 5group H3K27ac ChIP-seq on embryonic 12.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR784TLR age=12_5_day description=ENCFF873RAO_5group_H3K27ac_ChIP_seq_on_embryonic_12_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR784TLR 
+		view ENCSR784TLR
+
+		track ENCSR784TLR_ENCFF443JAS
+		parent tissue_hindbrain_view_ENCSR784TLR off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR784TLR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF443JAS/@@download/ENCFF443JAS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF443JAS 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 12.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR784TLR age=12_5_day description=ENCFF443JAS_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_12_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR784TLR 
+		view ENCSR784TLR
+
+		track ENCSR784TLR_ENCFF312LRI
+		parent tissue_hindbrain_view_ENCSR784TLR off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR784TLR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF312LRI/@@download/ENCFF312LRI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF312LRI 9state-H3K27ac H3K27ac ChIP-seq on embryonic 12.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR784TLR age=12_5_day description=ENCFF312LRI_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_12_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR784TLR 
+		view ENCSR784TLR
+
+	track ENCSR797EYS_ENCFF011VMX
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF011VMX/@@download/ENCFF011VMX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR797EYS C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR797EYS age=16_5_day description=ENCSR797EYS_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR797EYS
+	parent tissue_hindbrain off
+	view ENCSR797EYS
+	visibility dense
+	type bigBed
+
+		track ENCSR797EYS_ENCFF883ZKZ
+		parent tissue_hindbrain_view_ENCSR797EYS off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR797EYS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF883ZKZ/@@download/ENCFF883ZKZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR797EYS C57BL_6_hindbrain_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR797EYS age=16_5_day description=ENCSR797EYS_C57BL_6_hindbrain_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR797EYS 
+		view ENCSR797EYS
+
+		track ENCSR797EYS_ENCFF769TFY
+		parent tissue_hindbrain_view_ENCSR797EYS off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR797EYS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF769TFY/@@download/ENCFF769TFY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF769TFY 5group H3K27ac ChIP-seq on embryonic 16.5 day mouse hindbrain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR797EYS age=16_5_day description=ENCFF769TFY_5group_H3K27ac_ChIP_seq_on_embryonic_16_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR797EYS 
+		view ENCSR797EYS
+
+		track ENCSR797EYS_ENCFF230ZZF
+		parent tissue_hindbrain_view_ENCSR797EYS off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR797EYS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF230ZZF/@@download/ENCFF230ZZF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF230ZZF 9state-H3K27ac H3K27ac ChIP-seq on embryonic 16.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR797EYS age=16_5_day description=ENCFF230ZZF_9state_H3K27ac_H3K27ac_ChIP_seq_on_embryonic_16_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR797EYS 
+		view ENCSR797EYS
+
+		track ENCSR797EYS_ENCFF127PWF
+		parent tissue_hindbrain_view_ENCSR797EYS off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR797EYS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF127PWF/@@download/ENCFF127PWF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF127PWF 9state-H3K4me3 H3K27ac ChIP-seq on embryonic 16.5 day mouse hindbrai
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR797EYS age=16_5_day description=ENCFF127PWF_9state_H3K4me3_H3K27ac_ChIP_seq_on_embryonic_16_5_day_mouse_hindbrain donor=ENCDO956IXV sex=unknown view=ENCSR797EYS 
+		view ENCSR797EYS
+
+	track ENCSR012YAB_ENCFF745RFR
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ATAC-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF745RFR/@@download/ENCFF745RFR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR012YAB C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR012YAB age=11_5_day description=ENCSR012YAB_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR017JEG_ENCFF852ZHY
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF852ZHY/@@download/ENCFF852ZHY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR017JEG C57BL_6_hindbrain_postnatal_0_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR017JEG age=0_day description=ENCSR017JEG_C57BL_6_hindbrain_postnatal_0_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR037RNN_ENCFF963JRI
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF963JRI/@@download/ENCFF963JRI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR037RNN C57BL_6_hindbrain_embryo_16_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR037RNN age=16_5_day description=ENCSR037RNN_C57BL_6_hindbrain_embryo_16_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR088UYE_ENCFF860QUH
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ATAC-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF860QUH/@@download/ENCFF860QUH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR088UYE C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR088UYE age=12_5_day description=ENCSR088UYE_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR110GMH_ENCFF693OZZ
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF693OZZ/@@download/ENCFF693OZZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR110GMH C57BL_6_hindbrain_embryo_15_5_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR110GMH age=15_5_day description=ENCSR110GMH_C57BL_6_hindbrain_embryo_15_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR168RTO_ENCFF927KWX
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO469XMJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF927KWX/@@download/ENCFF927KWX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR168RTO C57BL_6_hindbrain_postnatal_0_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR168RTO age=0_day description=ENCSR168RTO_C57BL_6_hindbrain_postnatal_0_days_signal_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR176BYZ_ENCFF321AYT
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ATAC-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF321AYT/@@download/ENCFF321AYT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR176BYZ C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR176BYZ age=13_5_day description=ENCSR176BYZ_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR179ITA_ENCFF365WZL
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF365WZL/@@download/ENCFF365WZL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR179ITA C57BL_6_hindbrain_embryo_13_5_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR179ITA age=13_5_day description=ENCSR179ITA_C57BL_6_hindbrain_embryo_13_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR227RPE_ENCFF636ONX
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF636ONX/@@download/ENCFF636ONX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR227RPE C57BL_6_hindbrain_embryo_15_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR227RPE age=15_5_day description=ENCSR227RPE_C57BL_6_hindbrain_embryo_15_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR285WZV_ENCFF804RYC
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF804RYC/@@download/ENCFF804RYC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR285WZV C57BL_6_hindbrain_embryo_16_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR285WZV age=16_5_day description=ENCSR285WZV_C57BL_6_hindbrain_embryo_16_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR308SIN_ENCFF621QUL
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF621QUL/@@download/ENCFF621QUL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR308SIN C57BL_6_hindbrain_postnatal_0_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR308SIN age=0_day description=ENCSR308SIN_C57BL_6_hindbrain_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR312LQX_ENCFF609BWE
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ATAC-seq donor=ENCDO469XMJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF609BWE/@@download/ENCFF609BWE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR312LQX C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR312LQX age=0_day description=ENCSR312LQX_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR324XQF_ENCFF763MIN
+	parent tissue_hindbrain off
+	subGroups age=a10_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF763MIN/@@download/ENCFF763MIN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR324XQF C57BL_6_hindbrain_embryo_10_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR324XQF age=10_5_day description=ENCSR324XQF_C57BL_6_hindbrain_embryo_10_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR398UCM_ENCFF699ANU
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF699ANU/@@download/ENCFF699ANU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR398UCM C57BL_6_hindbrain_embryo_11_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR398UCM age=11_5_day description=ENCSR398UCM_C57BL_6_hindbrain_embryo_11_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR401BSG_ENCFF215SES
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF215SES/@@download/ENCFF215SES.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR401BSG C57BL_6_hindbrain_embryo_15_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR401BSG age=15_5_day description=ENCSR401BSG_C57BL_6_hindbrain_embryo_15_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR420QTO_ENCFF961UYK
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF961UYK/@@download/ENCFF961UYK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR420QTO C57BL_6_hindbrain_embryo_12_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR420QTO age=12_5_day description=ENCSR420QTO_C57BL_6_hindbrain_embryo_12_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR531LRJ_ENCFF247CUB
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF247CUB/@@download/ENCFF247CUB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR531LRJ C57BL_6_hindbrain_embryo_12_5_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR531LRJ age=12_5_day description=ENCSR531LRJ_C57BL_6_hindbrain_embryo_12_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR559TRB_ENCFF484FNM
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF484FNM/@@download/ENCFF484FNM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR559TRB C57BL_6_hindbrain_embryo_14_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR559TRB age=14_5_day description=ENCSR559TRB_C57BL_6_hindbrain_embryo_14_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR571RHM_ENCFF566IBV
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF566IBV/@@download/ENCFF566IBV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR571RHM C57BL_6_hindbrain_embryo_16_5_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR571RHM age=16_5_day description=ENCSR571RHM_C57BL_6_hindbrain_embryo_16_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR609ZCD_ENCFF946KNJ
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF946KNJ/@@download/ENCFF946KNJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR609ZCD C57BL_6_hindbrain_embryo_12_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR609ZCD age=12_5_day description=ENCSR609ZCD_C57BL_6_hindbrain_embryo_12_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR623GSD_ENCFF956ZAH
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ATAC-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF956ZAH/@@download/ENCFF956ZAH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR623GSD C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR623GSD age=16_5_day description=ENCSR623GSD_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR677GOF_ENCFF119KOW
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF119KOW/@@download/ENCFF119KOW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR677GOF C57BL_6_hindbrain_embryo_14_5_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR677GOF age=14_5_day description=ENCSR677GOF_C57BL_6_hindbrain_embryo_14_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR734GST_ENCFF578QNJ
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF578QNJ/@@download/ENCFF578QNJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR734GST C57BL_6_hindbrain_embryo_13_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR734GST age=13_5_day description=ENCSR734GST_C57BL_6_hindbrain_embryo_13_5_days_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR749BAG_ENCFF559KTA
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=RNA-seq donor=ENCDO469XMJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF559KTA/@@download/ENCFF559KTA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR749BAG C57BL_6_hindbrain_postnatal_0_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR749BAG age=0_day description=ENCSR749BAG_C57BL_6_hindbrain_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR760TOE_ENCFF622NTO
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF622NTO/@@download/ENCFF622NTO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR760TOE C57BL_6_hindbrain_embryo_11_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR760TOE age=11_5_day description=ENCSR760TOE_C57BL_6_hindbrain_embryo_11_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR804EWT_ENCFF959IWF
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=whole-genome shotgun bisulfite sequencing donor=ENCDO469XMJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF959IWF/@@download/ENCFF959IWF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel whole-genome shot
+	longLabel ENCSR804EWT C57BL_6_hindbrain_embryo_14_5_days_ (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR804EWT age=14_5_day description=ENCSR804EWT_C57BL_6_hindbrain_embryo_14_5_days_signal_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR856ZFY_ENCFF971XNG
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=microRNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF971XNG/@@download/ENCFF971XNG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR856ZFY C57BL_6_hindbrain_postnatal_0_days_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR856ZFY age=0_day description=ENCSR856ZFY_C57BL_6_hindbrain_postnatal_0_days_plus_strand_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR921PRX_ENCFF372BPJ
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF372BPJ/@@download/ENCFF372BPJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR921PRX C57BL_6_hindbrain_embryo_13_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR921PRX age=13_5_day description=ENCSR921PRX_C57BL_6_hindbrain_embryo_13_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR943LKA_ENCFF844SJF
+	parent tissue_hindbrain off
+	subGroups age=a10_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF844SJF/@@download/ENCFF844SJF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR943LKA C57BL_6_hindbrain_embryo_10_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR943LKA age=10_5_day description=ENCSR943LKA_C57BL_6_hindbrain_embryo_10_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR046SWI_ENCFF574LGA
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF574LGA/@@download/ENCFF574LGA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR046SWI C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR046SWI age=16_5_day description=ENCSR046SWI_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR046SWI
+	parent tissue_hindbrain off
+	view ENCSR046SWI
+	visibility dense
+	type bigBed
+
+		track ENCSR046SWI_ENCFF458POP
+		parent tissue_hindbrain_view_ENCSR046SWI off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR046SWI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF458POP/@@download/ENCFF458POP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR046SWI C57BL_6_hindbrain_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR046SWI age=16_5_day description=ENCSR046SWI_C57BL_6_hindbrain_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR046SWI 
+		view ENCSR046SWI
+
+	track ENCSR259KYK_ENCFF408PKX
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF408PKX/@@download/ENCFF408PKX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR259KYK C57BL_6_hindbrain_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR259KYK age=15_5_day description=ENCSR259KYK_C57BL_6_hindbrain_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR259KYK
+	parent tissue_hindbrain off
+	view ENCSR259KYK
+	visibility dense
+	type bigBed
+
+		track ENCSR259KYK_ENCFF603EVL
+		parent tissue_hindbrain_view_ENCSR259KYK off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR259KYK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF603EVL/@@download/ENCFF603EVL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR259KYK C57BL_6_hindbrain_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR259KYK age=15_5_day description=ENCSR259KYK_C57BL_6_hindbrain_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR259KYK 
+		view ENCSR259KYK
+
+	track ENCSR302HOJ_ENCFF349EPV
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF349EPV/@@download/ENCFF349EPV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR302HOJ C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR302HOJ age=12_5_day description=ENCSR302HOJ_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR302HOJ
+	parent tissue_hindbrain off
+	view ENCSR302HOJ
+	visibility dense
+	type bigBed
+
+		track ENCSR302HOJ_ENCFF598FRH
+		parent tissue_hindbrain_view_ENCSR302HOJ off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR302HOJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF598FRH/@@download/ENCFF598FRH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR302HOJ C57BL_6_hindbrain_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR302HOJ age=12_5_day description=ENCSR302HOJ_C57BL_6_hindbrain_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR302HOJ 
+		view ENCSR302HOJ
+
+	track ENCSR308TAV_ENCFF156SIF
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF156SIF/@@download/ENCFF156SIF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR308TAV C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR308TAV age=0_day description=ENCSR308TAV_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR308TAV
+	parent tissue_hindbrain off
+	view ENCSR308TAV
+	visibility dense
+	type bigBed
+
+		track ENCSR308TAV_ENCFF634TDI
+		parent tissue_hindbrain_view_ENCSR308TAV off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27me3 view=ENCSR308TAV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF634TDI/@@download/ENCFF634TDI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR308TAV C57BL_6_hindbrain_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR308TAV age=0_day description=ENCSR308TAV_C57BL_6_hindbrain_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR308TAV 
+		view ENCSR308TAV
+
+	track ENCSR375GSG_ENCFF352EVI
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF352EVI/@@download/ENCFF352EVI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR375GSG C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR375GSG age=11_5_day description=ENCSR375GSG_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR375GSG
+	parent tissue_hindbrain off
+	view ENCSR375GSG
+	visibility dense
+	type bigBed
+
+		track ENCSR375GSG_ENCFF085LJL
+		parent tissue_hindbrain_view_ENCSR375GSG off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR375GSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF085LJL/@@download/ENCFF085LJL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR375GSG C57BL_6_hindbrain_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR375GSG age=11_5_day description=ENCSR375GSG_C57BL_6_hindbrain_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR375GSG 
+		view ENCSR375GSG
+
+	track ENCSR837SKW_ENCFF637PDW
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF637PDW/@@download/ENCFF637PDW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR837SKW C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR837SKW age=13_5_day description=ENCSR837SKW_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR837SKW
+	parent tissue_hindbrain off
+	view ENCSR837SKW
+	visibility dense
+	type bigBed
+
+		track ENCSR837SKW_ENCFF364JYX
+		parent tissue_hindbrain_view_ENCSR837SKW off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR837SKW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF364JYX/@@download/ENCFF364JYX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR837SKW C57BL_6_hindbrain_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR837SKW age=13_5_day description=ENCSR837SKW_C57BL_6_hindbrain_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR837SKW 
+		view ENCSR837SKW
+
+	track ENCSR953LFI_ENCFF787DNX
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF787DNX/@@download/ENCFF787DNX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR953LFI C57BL_6_hindbrain_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR953LFI age=14_5_day description=ENCSR953LFI_C57BL_6_hindbrain_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR953LFI
+	parent tissue_hindbrain off
+	view ENCSR953LFI
+	visibility dense
+	type bigBed
+
+		track ENCSR953LFI_ENCFF584ZTN
+		parent tissue_hindbrain_view_ENCSR953LFI off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K27me3 view=ENCSR953LFI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF584ZTN/@@download/ENCFF584ZTN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR953LFI C57BL_6_hindbrain_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR953LFI age=14_5_day description=ENCSR953LFI_C57BL_6_hindbrain_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR953LFI 
+		view ENCSR953LFI
+
+	track ENCSR984OHL_ENCFF898VDV
+	parent tissue_hindbrain off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF898VDV/@@download/ENCFF898VDV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR984OHL C57BL_6_hindbrain_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR984OHL age=10_5_day description=ENCSR984OHL_C57BL_6_hindbrain_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR984OHL
+	parent tissue_hindbrain off
+	view ENCSR984OHL
+	visibility dense
+	type bigBed
+
+		track ENCSR984OHL_ENCFF889QDX
+		parent tissue_hindbrain_view_ENCSR984OHL off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR984OHL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF889QDX/@@download/ENCFF889QDX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR984OHL C57BL_6_hindbrain_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR984OHL age=10_5_day description=ENCSR984OHL_C57BL_6_hindbrain_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR984OHL 
+		view ENCSR984OHL
+
+	track ENCSR066XXZ_ENCFF371WPS
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF371WPS/@@download/ENCFF371WPS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR066XXZ C57BL_6_hindbrain_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR066XXZ age=14_5_day description=ENCSR066XXZ_C57BL_6_hindbrain_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR066XXZ
+	parent tissue_hindbrain off
+	view ENCSR066XXZ
+	visibility dense
+	type bigBed
+
+		track ENCSR066XXZ_ENCFF341MTI
+		parent tissue_hindbrain_view_ENCSR066XXZ off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K36me3 view=ENCSR066XXZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF341MTI/@@download/ENCFF341MTI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR066XXZ C57BL_6_hindbrain_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR066XXZ age=14_5_day description=ENCSR066XXZ_C57BL_6_hindbrain_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR066XXZ 
+		view ENCSR066XXZ
+
+	track ENCSR175QZX_ENCFF480NZE
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF480NZE/@@download/ENCFF480NZE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR175QZX C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR175QZX age=11_5_day description=ENCSR175QZX_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR175QZX
+	parent tissue_hindbrain off
+	view ENCSR175QZX
+	visibility dense
+	type bigBed
+
+		track ENCSR175QZX_ENCFF847WNU
+		parent tissue_hindbrain_view_ENCSR175QZX off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR175QZX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF847WNU/@@download/ENCFF847WNU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR175QZX C57BL_6_hindbrain_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR175QZX age=11_5_day description=ENCSR175QZX_C57BL_6_hindbrain_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR175QZX 
+		view ENCSR175QZX
+
+	track ENCSR458PAO_ENCFF562BME
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF562BME/@@download/ENCFF562BME.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR458PAO C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR458PAO age=0_day description=ENCSR458PAO_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR458PAO
+	parent tissue_hindbrain off
+	view ENCSR458PAO
+	visibility dense
+	type bigBed
+
+		track ENCSR458PAO_ENCFF381FKU
+		parent tissue_hindbrain_view_ENCSR458PAO off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K36me3 view=ENCSR458PAO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF381FKU/@@download/ENCFF381FKU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR458PAO C57BL_6_hindbrain_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR458PAO age=0_day description=ENCSR458PAO_C57BL_6_hindbrain_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR458PAO 
+		view ENCSR458PAO
+
+	track ENCSR508HYL_ENCFF073JCW
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF073JCW/@@download/ENCFF073JCW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR508HYL C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR508HYL age=12_5_day description=ENCSR508HYL_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR508HYL
+	parent tissue_hindbrain off
+	view ENCSR508HYL
+	visibility dense
+	type bigBed
+
+		track ENCSR508HYL_ENCFF549CYB
+		parent tissue_hindbrain_view_ENCSR508HYL off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR508HYL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF549CYB/@@download/ENCFF549CYB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR508HYL C57BL_6_hindbrain_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR508HYL age=12_5_day description=ENCSR508HYL_C57BL_6_hindbrain_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR508HYL 
+		view ENCSR508HYL
+
+	track ENCSR809NWL_ENCFF032RGE
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF032RGE/@@download/ENCFF032RGE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR809NWL C57BL_6_hindbrain_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR809NWL age=15_5_day description=ENCSR809NWL_C57BL_6_hindbrain_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR809NWL
+	parent tissue_hindbrain off
+	view ENCSR809NWL
+	visibility dense
+	type bigBed
+
+		track ENCSR809NWL_ENCFF869EUF
+		parent tissue_hindbrain_view_ENCSR809NWL off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR809NWL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF869EUF/@@download/ENCFF869EUF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR809NWL C57BL_6_hindbrain_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR809NWL age=15_5_day description=ENCSR809NWL_C57BL_6_hindbrain_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR809NWL 
+		view ENCSR809NWL
+
+	track ENCSR864OWV_ENCFF462IYV
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF462IYV/@@download/ENCFF462IYV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR864OWV C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR864OWV age=16_5_day description=ENCSR864OWV_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR864OWV
+	parent tissue_hindbrain off
+	view ENCSR864OWV
+	visibility dense
+	type bigBed
+
+		track ENCSR864OWV_ENCFF125UNA
+		parent tissue_hindbrain_view_ENCSR864OWV off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR864OWV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF125UNA/@@download/ENCFF125UNA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR864OWV C57BL_6_hindbrain_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR864OWV age=16_5_day description=ENCSR864OWV_C57BL_6_hindbrain_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR864OWV 
+		view ENCSR864OWV
+
+	track ENCSR962MBB_ENCFF996XRG
+	parent tissue_hindbrain off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF996XRG/@@download/ENCFF996XRG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR962MBB C57BL_6_hindbrain_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR962MBB age=10_5_day description=ENCSR962MBB_C57BL_6_hindbrain_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR962MBB
+	parent tissue_hindbrain off
+	view ENCSR962MBB
+	visibility dense
+	type bigBed
+
+		track ENCSR962MBB_ENCFF649GJT
+		parent tissue_hindbrain_view_ENCSR962MBB off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR962MBB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF649GJT/@@download/ENCFF649GJT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR962MBB C57BL_6_hindbrain_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR962MBB age=10_5_day description=ENCSR962MBB_C57BL_6_hindbrain_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR962MBB 
+		view ENCSR962MBB
+
+	track ENCSR972MUO_ENCFF330KGP
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF330KGP/@@download/ENCFF330KGP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR972MUO C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR972MUO age=13_5_day description=ENCSR972MUO_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR972MUO
+	parent tissue_hindbrain off
+	view ENCSR972MUO
+	visibility dense
+	type bigBed
+
+		track ENCSR972MUO_ENCFF310RUW
+		parent tissue_hindbrain_view_ENCSR972MUO off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K36me3 view=ENCSR972MUO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF310RUW/@@download/ENCFF310RUW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR972MUO C57BL_6_hindbrain_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR972MUO age=13_5_day description=ENCSR972MUO_C57BL_6_hindbrain_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR972MUO 
+		view ENCSR972MUO
+
+	track ENCSR014MXQ_ENCFF774BPM
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF774BPM/@@download/ENCFF774BPM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR014MXQ C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR014MXQ age=12_5_day description=ENCSR014MXQ_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR014MXQ
+	parent tissue_hindbrain off
+	view ENCSR014MXQ
+	visibility dense
+	type bigBed
+
+		track ENCSR014MXQ_ENCFF385MWK
+		parent tissue_hindbrain_view_ENCSR014MXQ off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR014MXQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF385MWK/@@download/ENCFF385MWK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR014MXQ C57BL_6_hindbrain_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR014MXQ age=12_5_day description=ENCSR014MXQ_C57BL_6_hindbrain_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR014MXQ 
+		view ENCSR014MXQ
+
+	track ENCSR257JSX_ENCFF667NCZ
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF667NCZ/@@download/ENCFF667NCZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR257JSX C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR257JSX age=16_5_day description=ENCSR257JSX_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR257JSX
+	parent tissue_hindbrain off
+	view ENCSR257JSX
+	visibility dense
+	type bigBed
+
+		track ENCSR257JSX_ENCFF919VWP
+		parent tissue_hindbrain_view_ENCSR257JSX off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR257JSX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF919VWP/@@download/ENCFF919VWP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR257JSX C57BL_6_hindbrain_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR257JSX age=16_5_day description=ENCSR257JSX_C57BL_6_hindbrain_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR257JSX 
+		view ENCSR257JSX
+
+	track ENCSR349NIS_ENCFF429OYS
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF429OYS/@@download/ENCFF429OYS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR349NIS C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR349NIS age=13_5_day description=ENCSR349NIS_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR349NIS
+	parent tissue_hindbrain off
+	view ENCSR349NIS
+	visibility dense
+	type bigBed
+
+		track ENCSR349NIS_ENCFF808SGI
+		parent tissue_hindbrain_view_ENCSR349NIS off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR349NIS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF808SGI/@@download/ENCFF808SGI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR349NIS C57BL_6_hindbrain_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR349NIS age=13_5_day description=ENCSR349NIS_C57BL_6_hindbrain_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR349NIS 
+		view ENCSR349NIS
+
+	track ENCSR417TXZ_ENCFF056IYN
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF056IYN/@@download/ENCFF056IYN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR417TXZ C57BL_6_hindbrain_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR417TXZ age=14_5_day description=ENCSR417TXZ_C57BL_6_hindbrain_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR417TXZ
+	parent tissue_hindbrain off
+	view ENCSR417TXZ
+	visibility dense
+	type bigBed
+
+		track ENCSR417TXZ_ENCFF708YHC
+		parent tissue_hindbrain_view_ENCSR417TXZ off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me1 view=ENCSR417TXZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF708YHC/@@download/ENCFF708YHC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR417TXZ C57BL_6_hindbrain_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR417TXZ age=14_5_day description=ENCSR417TXZ_C57BL_6_hindbrain_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR417TXZ 
+		view ENCSR417TXZ
+
+	track ENCSR608QBO_ENCFF894YHQ
+	parent tissue_hindbrain off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF894YHQ/@@download/ENCFF894YHQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR608QBO C57BL_6_hindbrain_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR608QBO age=10_5_day description=ENCSR608QBO_C57BL_6_hindbrain_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR608QBO
+	parent tissue_hindbrain off
+	view ENCSR608QBO
+	visibility dense
+	type bigBed
+
+		track ENCSR608QBO_ENCFF570EEN
+		parent tissue_hindbrain_view_ENCSR608QBO off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR608QBO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF570EEN/@@download/ENCFF570EEN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR608QBO C57BL_6_hindbrain_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR608QBO age=10_5_day description=ENCSR608QBO_C57BL_6_hindbrain_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR608QBO 
+		view ENCSR608QBO
+
+	track ENCSR617VBE_ENCFF925YTU
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF925YTU/@@download/ENCFF925YTU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR617VBE C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR617VBE age=0_day description=ENCSR617VBE_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR617VBE
+	parent tissue_hindbrain off
+	view ENCSR617VBE
+	visibility dense
+	type bigBed
+
+		track ENCSR617VBE_ENCFF738TSR
+		parent tissue_hindbrain_view_ENCSR617VBE off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me1 view=ENCSR617VBE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF738TSR/@@download/ENCFF738TSR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR617VBE C57BL_6_hindbrain_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR617VBE age=0_day description=ENCSR617VBE_C57BL_6_hindbrain_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR617VBE 
+		view ENCSR617VBE
+
+	track ENCSR695FPP_ENCFF124AFN
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF124AFN/@@download/ENCFF124AFN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR695FPP C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR695FPP age=11_5_day description=ENCSR695FPP_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR695FPP
+	parent tissue_hindbrain off
+	view ENCSR695FPP
+	visibility dense
+	type bigBed
+
+		track ENCSR695FPP_ENCFF062LZU
+		parent tissue_hindbrain_view_ENCSR695FPP off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR695FPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF062LZU/@@download/ENCFF062LZU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR695FPP C57BL_6_hindbrain_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR695FPP age=11_5_day description=ENCSR695FPP_C57BL_6_hindbrain_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR695FPP 
+		view ENCSR695FPP
+
+	track ENCSR921ILW_ENCFF632RYE
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF632RYE/@@download/ENCFF632RYE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR921ILW C57BL_6_hindbrain_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR921ILW age=15_5_day description=ENCSR921ILW_C57BL_6_hindbrain_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR921ILW
+	parent tissue_hindbrain off
+	view ENCSR921ILW
+	visibility dense
+	type bigBed
+
+		track ENCSR921ILW_ENCFF427MDD
+		parent tissue_hindbrain_view_ENCSR921ILW off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR921ILW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF427MDD/@@download/ENCFF427MDD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR921ILW C57BL_6_hindbrain_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR921ILW age=15_5_day description=ENCSR921ILW_C57BL_6_hindbrain_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR921ILW 
+		view ENCSR921ILW
+
+	track ENCSR161DAW_ENCFF087LVF
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF087LVF/@@download/ENCFF087LVF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR161DAW C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR161DAW age=16_5_day description=ENCSR161DAW_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR161DAW
+	parent tissue_hindbrain off
+	view ENCSR161DAW
+	visibility dense
+	type bigBed
+
+		track ENCSR161DAW_ENCFF511QSW
+		parent tissue_hindbrain_view_ENCSR161DAW off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR161DAW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF511QSW/@@download/ENCFF511QSW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR161DAW C57BL_6_hindbrain_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR161DAW age=16_5_day description=ENCSR161DAW_C57BL_6_hindbrain_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR161DAW 
+		view ENCSR161DAW
+
+	track ENCSR234YTN_ENCFF791DCG
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF791DCG/@@download/ENCFF791DCG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR234YTN C57BL_6_hindbrain_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR234YTN age=14_5_day description=ENCSR234YTN_C57BL_6_hindbrain_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR234YTN
+	parent tissue_hindbrain off
+	view ENCSR234YTN
+	visibility dense
+	type bigBed
+
+		track ENCSR234YTN_ENCFF187KCH
+		parent tissue_hindbrain_view_ENCSR234YTN off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me2 view=ENCSR234YTN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF187KCH/@@download/ENCFF187KCH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR234YTN C57BL_6_hindbrain_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR234YTN age=14_5_day description=ENCSR234YTN_C57BL_6_hindbrain_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR234YTN 
+		view ENCSR234YTN
+
+	track ENCSR323NOC_ENCFF768DOK
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF768DOK/@@download/ENCFF768DOK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR323NOC C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR323NOC age=11_5_day description=ENCSR323NOC_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR323NOC
+	parent tissue_hindbrain off
+	view ENCSR323NOC
+	visibility dense
+	type bigBed
+
+		track ENCSR323NOC_ENCFF053HBC
+		parent tissue_hindbrain_view_ENCSR323NOC off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR323NOC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF053HBC/@@download/ENCFF053HBC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR323NOC C57BL_6_hindbrain_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR323NOC age=11_5_day description=ENCSR323NOC_C57BL_6_hindbrain_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR323NOC 
+		view ENCSR323NOC
+
+	track ENCSR537AKT_ENCFF323VNT
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF323VNT/@@download/ENCFF323VNT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR537AKT C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR537AKT age=12_5_day description=ENCSR537AKT_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR537AKT
+	parent tissue_hindbrain off
+	view ENCSR537AKT
+	visibility dense
+	type bigBed
+
+		track ENCSR537AKT_ENCFF794LMG
+		parent tissue_hindbrain_view_ENCSR537AKT off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR537AKT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF794LMG/@@download/ENCFF794LMG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR537AKT C57BL_6_hindbrain_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR537AKT age=12_5_day description=ENCSR537AKT_C57BL_6_hindbrain_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR537AKT 
+		view ENCSR537AKT
+
+	track ENCSR771ILS_ENCFF035FHN
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF035FHN/@@download/ENCFF035FHN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR771ILS C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR771ILS age=0_day description=ENCSR771ILS_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR771ILS
+	parent tissue_hindbrain off
+	view ENCSR771ILS
+	visibility dense
+	type bigBed
+
+		track ENCSR771ILS_ENCFF009ZLI
+		parent tissue_hindbrain_view_ENCSR771ILS off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K4me2 view=ENCSR771ILS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF009ZLI/@@download/ENCFF009ZLI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR771ILS C57BL_6_hindbrain_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR771ILS age=0_day description=ENCSR771ILS_C57BL_6_hindbrain_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR771ILS 
+		view ENCSR771ILS
+
+	track ENCSR831EKS_ENCFF074EMQ
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF074EMQ/@@download/ENCFF074EMQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR831EKS C57BL_6_hindbrain_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR831EKS age=15_5_day description=ENCSR831EKS_C57BL_6_hindbrain_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR831EKS
+	parent tissue_hindbrain off
+	view ENCSR831EKS
+	visibility dense
+	type bigBed
+
+		track ENCSR831EKS_ENCFF595IXK
+		parent tissue_hindbrain_view_ENCSR831EKS off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR831EKS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF595IXK/@@download/ENCFF595IXK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR831EKS C57BL_6_hindbrain_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR831EKS age=15_5_day description=ENCSR831EKS_C57BL_6_hindbrain_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR831EKS 
+		view ENCSR831EKS
+
+	track ENCSR947QOH_ENCFF672TTE
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF672TTE/@@download/ENCFF672TTE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR947QOH C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR947QOH age=13_5_day description=ENCSR947QOH_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR947QOH
+	parent tissue_hindbrain off
+	view ENCSR947QOH
+	visibility dense
+	type bigBed
+
+		track ENCSR947QOH_ENCFF046NDM
+		parent tissue_hindbrain_view_ENCSR947QOH off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K4me2 view=ENCSR947QOH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF046NDM/@@download/ENCFF046NDM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR947QOH C57BL_6_hindbrain_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR947QOH age=13_5_day description=ENCSR947QOH_C57BL_6_hindbrain_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR947QOH 
+		view ENCSR947QOH
+
+	track ENCSR186PIV_ENCFF361RBA
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF361RBA/@@download/ENCFF361RBA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR186PIV C57BL_6_hindbrain_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR186PIV age=14_5_day description=ENCSR186PIV_C57BL_6_hindbrain_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR186PIV
+	parent tissue_hindbrain off
+	view ENCSR186PIV
+	visibility dense
+	type bigBed
+
+		track ENCSR186PIV_ENCFF883VLI
+		parent tissue_hindbrain_view_ENCSR186PIV off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9ac view=ENCSR186PIV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF883VLI/@@download/ENCFF883VLI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR186PIV C57BL_6_hindbrain_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR186PIV age=14_5_day description=ENCSR186PIV_C57BL_6_hindbrain_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR186PIV 
+		view ENCSR186PIV
+
+	track ENCSR190RKJ_ENCFF768XVB
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF768XVB/@@download/ENCFF768XVB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR190RKJ C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR190RKJ age=13_5_day description=ENCSR190RKJ_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR190RKJ
+	parent tissue_hindbrain off
+	view ENCSR190RKJ
+	visibility dense
+	type bigBed
+
+		track ENCSR190RKJ_ENCFF338IHF
+		parent tissue_hindbrain_view_ENCSR190RKJ off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR190RKJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF338IHF/@@download/ENCFF338IHF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR190RKJ C57BL_6_hindbrain_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR190RKJ age=13_5_day description=ENCSR190RKJ_C57BL_6_hindbrain_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR190RKJ 
+		view ENCSR190RKJ
+
+	track ENCSR576XBN_ENCFF017FCI
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF017FCI/@@download/ENCFF017FCI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR576XBN C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR576XBN age=12_5_day description=ENCSR576XBN_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR576XBN
+	parent tissue_hindbrain off
+	view ENCSR576XBN
+	visibility dense
+	type bigBed
+
+		track ENCSR576XBN_ENCFF538FRT
+		parent tissue_hindbrain_view_ENCSR576XBN off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR576XBN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF538FRT/@@download/ENCFF538FRT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR576XBN C57BL_6_hindbrain_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR576XBN age=12_5_day description=ENCSR576XBN_C57BL_6_hindbrain_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR576XBN 
+		view ENCSR576XBN
+
+	track ENCSR639KSW_ENCFF758CLJ
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF758CLJ/@@download/ENCFF758CLJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR639KSW C57BL_6_hindbrain_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR639KSW age=15_5_day description=ENCSR639KSW_C57BL_6_hindbrain_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR639KSW
+	parent tissue_hindbrain off
+	view ENCSR639KSW
+	visibility dense
+	type bigBed
+
+		track ENCSR639KSW_ENCFF163FNT
+		parent tissue_hindbrain_view_ENCSR639KSW off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR639KSW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF163FNT/@@download/ENCFF163FNT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR639KSW C57BL_6_hindbrain_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR639KSW age=15_5_day description=ENCSR639KSW_C57BL_6_hindbrain_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR639KSW 
+		view ENCSR639KSW
+
+	track ENCSR718CAJ_ENCFF810BQP
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810BQP/@@download/ENCFF810BQP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR718CAJ C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR718CAJ age=16_5_day description=ENCSR718CAJ_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR718CAJ
+	parent tissue_hindbrain off
+	view ENCSR718CAJ
+	visibility dense
+	type bigBed
+
+		track ENCSR718CAJ_ENCFF903ETK
+		parent tissue_hindbrain_view_ENCSR718CAJ off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR718CAJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF903ETK/@@download/ENCFF903ETK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR718CAJ C57BL_6_hindbrain_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR718CAJ age=16_5_day description=ENCSR718CAJ_C57BL_6_hindbrain_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR718CAJ 
+		view ENCSR718CAJ
+
+	track ENCSR721MSV_ENCFF638WTR
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF638WTR/@@download/ENCFF638WTR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR721MSV C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR721MSV age=0_day description=ENCSR721MSV_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR721MSV
+	parent tissue_hindbrain off
+	view ENCSR721MSV
+	visibility dense
+	type bigBed
+
+		track ENCSR721MSV_ENCFF857PUK
+		parent tissue_hindbrain_view_ENCSR721MSV off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9ac view=ENCSR721MSV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF857PUK/@@download/ENCFF857PUK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR721MSV C57BL_6_hindbrain_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR721MSV age=0_day description=ENCSR721MSV_C57BL_6_hindbrain_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR721MSV 
+		view ENCSR721MSV
+
+	track ENCSR734IEL_ENCFF923XEA
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF923XEA/@@download/ENCFF923XEA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR734IEL C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR734IEL age=11_5_day description=ENCSR734IEL_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR734IEL
+	parent tissue_hindbrain off
+	view ENCSR734IEL
+	visibility dense
+	type bigBed
+
+		track ENCSR734IEL_ENCFF981SLM
+		parent tissue_hindbrain_view_ENCSR734IEL off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9ac view=ENCSR734IEL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF981SLM/@@download/ENCFF981SLM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR734IEL C57BL_6_hindbrain_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR734IEL age=11_5_day description=ENCSR734IEL_C57BL_6_hindbrain_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR734IEL 
+		view ENCSR734IEL
+
+	track ENCSR299DRH_ENCFF499LUF
+	parent tissue_hindbrain off
+	subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF499LUF/@@download/ENCFF499LUF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR299DRH C57BL_6_hindbrain_embryo_15_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR299DRH age=15_5_day description=ENCSR299DRH_C57BL_6_hindbrain_embryo_15_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR299DRH
+	parent tissue_hindbrain off
+	view ENCSR299DRH
+	visibility dense
+	type bigBed
+
+		track ENCSR299DRH_ENCFF457IBV
+		parent tissue_hindbrain_view_ENCSR299DRH off
+		subGroups age=a15_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR299DRH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF457IBV/@@download/ENCFF457IBV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR299DRH C57BL_6_hindbrain_embryo_15_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR299DRH age=15_5_day description=ENCSR299DRH_C57BL_6_hindbrain_embryo_15_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR299DRH 
+		view ENCSR299DRH
+
+	track ENCSR299NCJ_ENCFF570FAF
+	parent tissue_hindbrain off
+	subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF570FAF/@@download/ENCFF570FAF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR299NCJ C57BL_6_hindbrain_embryo_11_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR299NCJ age=11_5_day description=ENCSR299NCJ_C57BL_6_hindbrain_embryo_11_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR299NCJ
+	parent tissue_hindbrain off
+	view ENCSR299NCJ
+	visibility dense
+	type bigBed
+
+		track ENCSR299NCJ_ENCFF654CYJ
+		parent tissue_hindbrain_view_ENCSR299NCJ off
+		subGroups age=a11_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR299NCJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF654CYJ/@@download/ENCFF654CYJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR299NCJ C57BL_6_hindbrain_embryo_11_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR299NCJ age=11_5_day description=ENCSR299NCJ_C57BL_6_hindbrain_embryo_11_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR299NCJ 
+		view ENCSR299NCJ
+
+	track ENCSR325JLI_ENCFF779TQD
+	parent tissue_hindbrain off
+	subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF779TQD/@@download/ENCFF779TQD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR325JLI C57BL_6_hindbrain_embryo_13_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR325JLI age=13_5_day description=ENCSR325JLI_C57BL_6_hindbrain_embryo_13_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR325JLI
+	parent tissue_hindbrain off
+	view ENCSR325JLI
+	visibility dense
+	type bigBed
+
+		track ENCSR325JLI_ENCFF228ASD
+		parent tissue_hindbrain_view_ENCSR325JLI off
+		subGroups age=a13_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR325JLI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF228ASD/@@download/ENCFF228ASD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR325JLI C57BL_6_hindbrain_embryo_13_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR325JLI age=13_5_day description=ENCSR325JLI_C57BL_6_hindbrain_embryo_13_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR325JLI 
+		view ENCSR325JLI
+
+	track ENCSR365CUP_ENCFF919CSS
+	parent tissue_hindbrain off
+	subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF919CSS/@@download/ENCFF919CSS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR365CUP C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR365CUP age=0_day description=ENCSR365CUP_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR365CUP
+	parent tissue_hindbrain off
+	view ENCSR365CUP
+	visibility dense
+	type bigBed
+
+		track ENCSR365CUP_ENCFF198WAI
+		parent tissue_hindbrain_view_ENCSR365CUP off
+		subGroups age=a0_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9me3 view=ENCSR365CUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF198WAI/@@download/ENCFF198WAI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR365CUP C57BL_6_hindbrain_postnatal_0_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR365CUP age=0_day description=ENCSR365CUP_C57BL_6_hindbrain_postnatal_0_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR365CUP 
+		view ENCSR365CUP
+
+	track ENCSR427ZQB_ENCFF637BYB
+	parent tissue_hindbrain off
+	subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF637BYB/@@download/ENCFF637BYB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR427ZQB C57BL_6_hindbrain_embryo_16_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR427ZQB age=16_5_day description=ENCSR427ZQB_C57BL_6_hindbrain_embryo_16_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR427ZQB
+	parent tissue_hindbrain off
+	view ENCSR427ZQB
+	visibility dense
+	type bigBed
+
+		track ENCSR427ZQB_ENCFF907AFM
+		parent tissue_hindbrain_view_ENCSR427ZQB off
+		subGroups age=a16_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR427ZQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF907AFM/@@download/ENCFF907AFM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR427ZQB C57BL_6_hindbrain_embryo_16_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR427ZQB age=16_5_day description=ENCSR427ZQB_C57BL_6_hindbrain_embryo_16_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR427ZQB 
+		view ENCSR427ZQB
+
+	track ENCSR689NXE_ENCFF463QJN
+	parent tissue_hindbrain off
+	subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF463QJN/@@download/ENCFF463QJN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR689NXE C57BL_6_hindbrain_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR689NXE age=14_5_day description=ENCSR689NXE_C57BL_6_hindbrain_embryo_14_5_days_fold_change_over_control_ donor=ENCDO469XMJ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR689NXE
+	parent tissue_hindbrain off
+	view ENCSR689NXE
+	visibility dense
+	type bigBed
+
+		track ENCSR689NXE_ENCFF188NSS
+		parent tissue_hindbrain_view_ENCSR689NXE off
+		subGroups age=a14_5_day assay=ChIP-seq donor=ENCDO469XMJ label=H3K9me3 view=ENCSR689NXE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF188NSS/@@download/ENCFF188NSS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR689NXE C57BL_6_hindbrain_embryo_14_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR689NXE age=14_5_day description=ENCSR689NXE_C57BL_6_hindbrain_embryo_14_5_days_replicated_peaks_ donor=ENCDO469XMJ sex=unknown view=ENCSR689NXE 
+		view ENCSR689NXE
+
+	track ENCSR703TBR_ENCFF672EXE
+	parent tissue_hindbrain off
+	subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF672EXE/@@download/ENCFF672EXE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR703TBR C57BL_6_hindbrain_embryo_10_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR703TBR age=10_5_day description=ENCSR703TBR_C57BL_6_hindbrain_embryo_10_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR703TBR
+	parent tissue_hindbrain off
+	view ENCSR703TBR
+	visibility dense
+	type bigBed
+
+		track ENCSR703TBR_ENCFF321YPC
+		parent tissue_hindbrain_view_ENCSR703TBR off
+		subGroups age=a10_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR703TBR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF321YPC/@@download/ENCFF321YPC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR703TBR C57BL_6_hindbrain_embryo_10_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR703TBR age=10_5_day description=ENCSR703TBR_C57BL_6_hindbrain_embryo_10_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR703TBR 
+		view ENCSR703TBR
+
+	track ENCSR972LUE_ENCFF063VTT
+	parent tissue_hindbrain off
+	subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF063VTT/@@download/ENCFF063VTT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR972LUE C57BL_6_hindbrain_embryo_12_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR972LUE age=12_5_day description=ENCSR972LUE_C57BL_6_hindbrain_embryo_12_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindbrain_view_ENCSR972LUE
+	parent tissue_hindbrain off
+	view ENCSR972LUE
+	visibility dense
+	type bigBed
+
+		track ENCSR972LUE_ENCFF888GMD
+		parent tissue_hindbrain_view_ENCSR972LUE off
+		subGroups age=a12_5_day assay=ChIP-seq donor=ENCDO956IXV label=H3K9me3 view=ENCSR972LUE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF888GMD/@@download/ENCFF888GMD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR972LUE C57BL_6_hindbrain_embryo_12_5_days_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR972LUE age=12_5_day description=ENCSR972LUE_C57BL_6_hindbrain_embryo_12_5_days_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR972LUE 
+		view ENCSR972LUE
+

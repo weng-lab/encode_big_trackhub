@@ -1,0 +1,797 @@
+
+track tissue_esophagus_squamous_epithelium
+parent super_tissue
+compositeTrack on
+shortLabel esophagus squamou
+longLabel esophagus squamous epithelium (28 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR003SZZ=ENCSR003SZZ ENCSR057BFO=ENCSR057BFO ENCSR057YVO=ENCSR057YVO ENCSR078ZGC=ENCSR078ZGC ENCSR121RSS=ENCSR121RSS ENCSR147PYL=ENCSR147PYL ENCSR156UQO=ENCSR156UQO ENCSR450FRI=ENCSR450FRI ENCSR508UPW=ENCSR508UPW ENCSR734ZOZ=ENCSR734ZOZ ENCSR756URL=ENCSR756URL ENCSR773JBP=ENCSR773JBP ENCSR783OCW=ENCSR783OCW ENCSR838RUX=ENCSR838RUX ENCSR877OYD=ENCSR877OYD ENCSR909UAG=ENCSR909UAG bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR783OCW_ENCFF921KFZ
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF921KFZ/@@download/ENCFF921KFZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR783OCW esophagus_squamous_epithelium_male_adult_37_years_ (read-depth norma
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR783OCW age=37_year description=ENCSR783OCW_esophagus_squamous_epithelium_male_adult_37_years_read_depth_normalized_signal_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR783OCW
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR783OCW
+	visibility dense
+	type bigBed
+
+		track ENCSR783OCW_ENCFF057RQF
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR783OCW off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR783OCW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF057RQF/@@download/ENCFF057RQF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR783OCW esophagus_squamous_epithelium_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR783OCW age=37_year description=ENCSR783OCW_esophagus_squamous_epithelium_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR783OCW 
+		view ENCSR783OCW
+
+	track ENCSR508UPW_ENCFF787FLH
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF787FLH/@@download/ENCFF787FLH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR508UPW esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR508UPW age=53_year description=ENCSR508UPW_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR508UPW
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR508UPW
+	visibility dense
+	type bigBed
+
+		track ENCSR508UPW_ENCFF155YOD
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR508UPW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR508UPW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF155YOD/@@download/ENCFF155YOD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR508UPW esophagus_squamous_epithelium_female_adult_53_years_ (replicated pea
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR508UPW age=53_year description=ENCSR508UPW_esophagus_squamous_epithelium_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR508UPW 
+		view ENCSR508UPW
+
+		track ENCSR508UPW_ENCFF494IDL
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR508UPW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR508UPW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF494IDL/@@download/ENCFF494IDL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF494IDL 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR508UPW age=53_year description=ENCFF494IDL_9state_DNase_ donor=ENCDO793LXB sex=female view=ENCSR508UPW 
+		view ENCSR508UPW
+
+		track ENCSR508UPW_ENCFF829ZRY
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR508UPW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR508UPW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF829ZRY/@@download/ENCFF829ZRY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF829ZRY 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR508UPW age=53_year description=ENCFF829ZRY_5group_ donor=ENCDO793LXB sex=female view=ENCSR508UPW 
+		view ENCSR508UPW
+
+		track ENCSR508UPW_ENCFF415FGZ
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR508UPW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR508UPW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF415FGZ/@@download/ENCFF415FGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF415FGZ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR508UPW age=53_year description=ENCFF415FGZ_9state_H3K4me3_ donor=ENCDO793LXB sex=female view=ENCSR508UPW 
+		view ENCSR508UPW
+
+	track ENCSR003SZZ_ENCFF269QCG
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF269QCG/@@download/ENCFF269QCG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR003SZZ esophagus_squamous_epithelium_female_adult_51_year_ (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR003SZZ age=51_year description=ENCSR003SZZ_esophagus_squamous_epithelium_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR003SZZ
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR003SZZ
+	visibility dense
+	type bigBed
+
+		track ENCSR003SZZ_ENCFF752DHH
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR003SZZ off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR003SZZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF752DHH/@@download/ENCFF752DHH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR003SZZ esophagus_squamous_epithelium_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR003SZZ age=51_year description=ENCSR003SZZ_esophagus_squamous_epithelium_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR003SZZ 
+		view ENCSR003SZZ
+
+	track ENCSR450FRI_ENCFF291VPI
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF291VPI/@@download/ENCFF291VPI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR450FRI esophagus_squamous_epithelium_male_adult_54_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR450FRI age=54_year description=ENCSR450FRI_esophagus_squamous_epithelium_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR450FRI
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR450FRI
+	visibility dense
+	type bigBed
+
+		track ENCSR450FRI_ENCFF671HZE
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR450FRI off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR450FRI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF671HZE/@@download/ENCFF671HZE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR450FRI esophagus_squamous_epithelium_male_adult_54_years_ (pseudoreplicated
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR450FRI age=54_year description=ENCSR450FRI_esophagus_squamous_epithelium_male_adult_54_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO451RUA sex=male view=ENCSR450FRI 
+		view ENCSR450FRI
+
+	track ENCSR756URL_ENCFF493QSR
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF493QSR/@@download/ENCFF493QSR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR756URL esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR756URL age=53_year description=ENCSR756URL_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR756URL
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR756URL
+	visibility dense
+	type bigBed
+
+		track ENCSR756URL_ENCFF921LJC
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR756URL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR756URL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF921LJC/@@download/ENCFF921LJC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR756URL esophagus_squamous_epithelium_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR756URL age=53_year description=ENCSR756URL_esophagus_squamous_epithelium_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR756URL 
+		view ENCSR756URL
+
+	track ENCSR773JBP_ENCFF428MRB
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF428MRB/@@download/ENCFF428MRB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR773JBP esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR773JBP age=53_year description=ENCSR773JBP_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR773JBP
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR773JBP
+	visibility dense
+	type bigBed
+
+		track ENCSR773JBP_ENCFF649ZPE
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR773JBP off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR773JBP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF649ZPE/@@download/ENCFF649ZPE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR773JBP esophagus_squamous_epithelium_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR773JBP age=53_year description=ENCSR773JBP_esophagus_squamous_epithelium_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR773JBP 
+		view ENCSR773JBP
+
+	track ENCSR838RUX_ENCFF439YBZ
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF439YBZ/@@download/ENCFF439YBZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR838RUX esophagus_squamous_epithelium_male_adult_37_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR838RUX age=37_year description=ENCSR838RUX_esophagus_squamous_epithelium_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR838RUX
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR838RUX
+	visibility dense
+	type bigBed
+
+		track ENCSR838RUX_ENCFF668DIE
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR838RUX off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR838RUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF668DIE/@@download/ENCFF668DIE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR838RUX esophagus_squamous_epithelium_male_adult_37_years_ (pseudoreplicated
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR838RUX age=37_year description=ENCSR838RUX_esophagus_squamous_epithelium_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR838RUX 
+		view ENCSR838RUX
+
+	track ENCSR909UAG_ENCFF093YZS
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF093YZS/@@download/ENCFF093YZS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR909UAG esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR909UAG age=53_year description=ENCSR909UAG_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR909UAG
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR909UAG
+	visibility dense
+	type bigBed
+
+		track ENCSR909UAG_ENCFF588QNH
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR909UAG off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR909UAG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF588QNH/@@download/ENCFF588QNH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR909UAG esophagus_squamous_epithelium_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR909UAG age=53_year description=ENCSR909UAG_esophagus_squamous_epithelium_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR909UAG 
+		view ENCSR909UAG
+
+	track ENCSR102OEK_ENCFF706GEN
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF706GEN/@@download/ENCFF706GEN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR102OEK esophagus_squamous_epithelium_male_adult_54_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR102OEK age=54_year description=ENCSR102OEK_esophagus_squamous_epithelium_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR161GPD_ENCFF993EJV
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF993EJV/@@download/ENCFF993EJV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR161GPD esophagus_squamous_epithelium_male_adult_37_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR161GPD age=37_year description=ENCSR161GPD_esophagus_squamous_epithelium_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR201ARN_ENCFF947YUK
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF947YUK/@@download/ENCFF947YUK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR201ARN esophagus_squamous_epithelium_female_adult_51_year_ (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR201ARN age=51_year description=ENCSR201ARN_esophagus_squamous_epithelium_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR262TBN_ENCFF166FJU
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF166FJU/@@download/ENCFF166FJU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR262TBN esophagus_squamous_epithelium_male_adult_54_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR262TBN age=54_year description=ENCSR262TBN_esophagus_squamous_epithelium_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR289GGY_ENCFF621LLS
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF621LLS/@@download/ENCFF621LLS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR289GGY esophagus_squamous_epithelium_male_adult_37_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR289GGY age=37_year description=ENCSR289GGY_esophagus_squamous_epithelium_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR351OTL_ENCFF601GLL
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF601GLL/@@download/ENCFF601GLL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR351OTL esophagus_squamous_epithelium_female_adult_53_years_ (plus strand si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR351OTL age=53_year description=ENCSR351OTL_esophagus_squamous_epithelium_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR354QPN_ENCFF035XWP
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF035XWP/@@download/ENCFF035XWP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR354QPN esophagus_squamous_epithelium_male_adult_37_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR354QPN age=37_year description=ENCSR354QPN_esophagus_squamous_epithelium_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR379GPS_ENCFF632KHX
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF632KHX/@@download/ENCFF632KHX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR379GPS esophagus_squamous_epithelium_female_adult_53_years_ (plus strand si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR379GPS age=53_year description=ENCSR379GPS_esophagus_squamous_epithelium_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR474TRG_ENCFF372NSU
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF372NSU/@@download/ENCFF372NSU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR474TRG esophagus_squamous_epithelium_male_adult_54_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR474TRG age=54_year description=ENCSR474TRG_esophagus_squamous_epithelium_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR510MIA_ENCFF902LXW
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF902LXW/@@download/ENCFF902LXW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR510MIA esophagus_squamous_epithelium_female_adult_51_year_ (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR510MIA age=51_year description=ENCSR510MIA_esophagus_squamous_epithelium_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR779BVZ_ENCFF649ABP
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF649ABP/@@download/ENCFF649ABP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR779BVZ esophagus_squamous_epithelium_female_adult_51_year_ (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR779BVZ age=51_year description=ENCSR779BVZ_esophagus_squamous_epithelium_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR930RDW_ENCFF819UIY
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF819UIY/@@download/ENCFF819UIY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR930RDW esophagus_squamous_epithelium_female_adult_53_years_ (plus strand si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR930RDW age=53_year description=ENCSR930RDW_esophagus_squamous_epithelium_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR057BFO_ENCFF687TNR
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF687TNR/@@download/ENCFF687TNR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR057BFO esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR057BFO age=53_year description=ENCSR057BFO_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR057BFO
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR057BFO
+	visibility dense
+	type bigBed
+
+		track ENCSR057BFO_ENCFF803RMT
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR057BFO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=ENCSR057BFO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF803RMT/@@download/ENCFF803RMT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR057BFO esophagus_squamous_epithelium_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR057BFO age=53_year description=ENCSR057BFO_esophagus_squamous_epithelium_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR057BFO 
+		view ENCSR057BFO
+
+	track ENCSR078ZGC_ENCFF279WBC
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF279WBC/@@download/ENCFF279WBC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR078ZGC esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR078ZGC age=53_year description=ENCSR078ZGC_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR078ZGC
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR078ZGC
+	visibility dense
+	type bigBed
+
+		track ENCSR078ZGC_ENCFF215XBK
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR078ZGC off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR078ZGC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF215XBK/@@download/ENCFF215XBK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR078ZGC esophagus_squamous_epithelium_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR078ZGC age=53_year description=ENCSR078ZGC_esophagus_squamous_epithelium_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR078ZGC 
+		view ENCSR078ZGC
+
+	track ENCSR121RSS_ENCFF235HVB
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF235HVB/@@download/ENCFF235HVB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR121RSS esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR121RSS age=53_year description=ENCSR121RSS_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR121RSS
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR121RSS
+	visibility dense
+	type bigBed
+
+		track ENCSR121RSS_ENCFF358RVA
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR121RSS off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR121RSS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF358RVA/@@download/ENCFF358RVA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR121RSS esophagus_squamous_epithelium_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR121RSS age=53_year description=ENCSR121RSS_esophagus_squamous_epithelium_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR121RSS 
+		view ENCSR121RSS
+
+	track ENCSR057YVO_ENCFF930QNO
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF930QNO/@@download/ENCFF930QNO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR057YVO esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR057YVO age=53_year description=ENCSR057YVO_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR057YVO
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR057YVO
+	visibility dense
+	type bigBed
+
+		track ENCSR057YVO_ENCFF828AZL
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR057YVO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR057YVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF828AZL/@@download/ENCFF828AZL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR057YVO esophagus_squamous_epithelium_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR057YVO age=53_year description=ENCSR057YVO_esophagus_squamous_epithelium_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR057YVO 
+		view ENCSR057YVO
+
+	track ENCSR147PYL_ENCFF606CVJ
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF606CVJ/@@download/ENCFF606CVJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR147PYL esophagus_squamous_epithelium_female_adult_53_years_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR147PYL age=53_year description=ENCSR147PYL_esophagus_squamous_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR147PYL
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR147PYL
+	visibility dense
+	type bigBed
+
+		track ENCSR147PYL_ENCFF965OMG
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR147PYL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR147PYL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF965OMG/@@download/ENCFF965OMG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR147PYL esophagus_squamous_epithelium_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR147PYL age=53_year description=ENCSR147PYL_esophagus_squamous_epithelium_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR147PYL 
+		view ENCSR147PYL
+
+	track ENCSR156UQO_ENCFF418EYD
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF418EYD/@@download/ENCFF418EYD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR156UQO esophagus_squamous_epithelium_male_adult_37_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR156UQO age=37_year description=ENCSR156UQO_esophagus_squamous_epithelium_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR156UQO
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR156UQO
+	visibility dense
+	type bigBed
+
+		track ENCSR156UQO_ENCFF814VTW
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR156UQO off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=POLR2A view=ENCSR156UQO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF814VTW/@@download/ENCFF814VTW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR156UQO esophagus_squamous_epithelium_male_adult_37_years_ (pseudoreplicated
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR156UQO age=37_year description=ENCSR156UQO_esophagus_squamous_epithelium_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR156UQO 
+		view ENCSR156UQO
+
+	track ENCSR734ZOZ_ENCFF576LRL
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF576LRL/@@download/ENCFF576LRL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR734ZOZ esophagus_squamous_epithelium_male_adult_54_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR734ZOZ age=54_year description=ENCSR734ZOZ_esophagus_squamous_epithelium_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR734ZOZ
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR734ZOZ
+	visibility dense
+	type bigBed
+
+		track ENCSR734ZOZ_ENCFF498UKG
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR734ZOZ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=ENCSR734ZOZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF498UKG/@@download/ENCFF498UKG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR734ZOZ esophagus_squamous_epithelium_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR734ZOZ age=54_year description=ENCSR734ZOZ_esophagus_squamous_epithelium_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR734ZOZ 
+		view ENCSR734ZOZ
+
+	track ENCSR877OYD_ENCFF158JDH
+	parent tissue_esophagus_squamous_epithelium off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF158JDH/@@download/ENCFF158JDH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR877OYD esophagus_squamous_epithelium_female_adult_51_year_ (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR877OYD age=51_year description=ENCSR877OYD_esophagus_squamous_epithelium_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_squamous_epithelium_view_ENCSR877OYD
+	parent tissue_esophagus_squamous_epithelium off
+	view ENCSR877OYD
+	visibility dense
+	type bigBed
+
+		track ENCSR877OYD_ENCFF506AKW
+		parent tissue_esophagus_squamous_epithelium_view_ENCSR877OYD off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR877OYD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF506AKW/@@download/ENCFF506AKW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR877OYD esophagus_squamous_epithelium_female_adult_51_year_ (pseudoreplicate
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR877OYD age=51_year description=ENCSR877OYD_esophagus_squamous_epithelium_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR877OYD 
+		view ENCSR877OYD
+

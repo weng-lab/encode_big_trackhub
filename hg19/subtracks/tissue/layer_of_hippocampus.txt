@@ -1,0 +1,698 @@
+
+track tissue_layer_of_hippocampus
+parent super_tissue
+compositeTrack on
+shortLabel layer of hippocam
+longLabel layer of hippocampus (20 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO636RDE=ENCDO636RDE ENCDO871IWW=ENCDO871IWW ENCDO980BZD=ENCDO980BZD 
+subGroup2 age age a73_year=73&#32;year a75_year=75&#32;year a81_year=81&#32;year 
+subGroup3 view view ENCSR040TUS=ENCSR040TUS ENCSR076STK=ENCSR076STK ENCSR085KRD=ENCSR085KRD ENCSR123HEE=ENCSR123HEE ENCSR126FJY=ENCSR126FJY ENCSR286VMZ=ENCSR286VMZ ENCSR321LKT=ENCSR321LKT ENCSR383AEO=ENCSR383AEO ENCSR418JIS=ENCSR418JIS ENCSR431FZZ=ENCSR431FZZ ENCSR638HSG=ENCSR638HSG ENCSR691IZA=ENCSR691IZA ENCSR713HJS=ENCSR713HJS ENCSR797IXN=ENCSR797IXN ENCSR804RMP=ENCSR804RMP ENCSR892RZN=ENCSR892RZN ENCSR912TVO=ENCSR912TVO ENCSR953HJN=ENCSR953HJN ENCSR956CFX=ENCSR956CFX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR383AEO_ENCFF080XAQ
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF080XAQ/@@download/ENCFF080XAQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR383AEO layer_of_hippocampus_male_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR383AEO age=73_year description=ENCSR383AEO_layer_of_hippocampus_male_adult_73_years_fold_change_over_control_ donor=ENCDO636RDE sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR383AEO
+	parent tissue_layer_of_hippocampus off
+	view ENCSR383AEO
+	visibility dense
+	type bigBed
+
+		track ENCSR383AEO_ENCFF146NAD
+		parent tissue_layer_of_hippocampus_view_ENCSR383AEO off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K4me3 view=ENCSR383AEO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF146NAD/@@download/ENCFF146NAD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR383AEO layer_of_hippocampus_male_adult_73_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR383AEO age=73_year description=ENCSR383AEO_layer_of_hippocampus_male_adult_73_years_peaks_ donor=ENCDO636RDE sex=male view=ENCSR383AEO 
+		view ENCSR383AEO
+
+	track ENCSR418JIS_ENCFF226DRF
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF226DRF/@@download/ENCFF226DRF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR418JIS layer_of_hippocampus_female_adult_75_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR418JIS age=75_year description=ENCSR418JIS_layer_of_hippocampus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR418JIS
+	parent tissue_layer_of_hippocampus off
+	view ENCSR418JIS
+	visibility dense
+	type bigBed
+
+		track ENCSR418JIS_ENCFF764ZYN
+		parent tissue_layer_of_hippocampus_view_ENCSR418JIS off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=ENCSR418JIS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF764ZYN/@@download/ENCFF764ZYN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR418JIS layer_of_hippocampus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR418JIS age=75_year description=ENCSR418JIS_layer_of_hippocampus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR418JIS 
+		view ENCSR418JIS
+
+	track ENCSR956CFX_ENCFF266RWF
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF266RWF/@@download/ENCFF266RWF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR956CFX layer_of_hippocampus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR956CFX age=81_year description=ENCSR956CFX_layer_of_hippocampus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR956CFX
+	parent tissue_layer_of_hippocampus off
+	view ENCSR956CFX
+	visibility dense
+	type bigBed
+
+		track ENCSR956CFX_ENCFF630BUC
+		parent tissue_layer_of_hippocampus_view_ENCSR956CFX off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=ENCSR956CFX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF630BUC/@@download/ENCFF630BUC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR956CFX layer_of_hippocampus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR956CFX age=81_year description=ENCSR956CFX_layer_of_hippocampus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR956CFX 
+		view ENCSR956CFX
+
+	track ENCSR123HEE_ENCFF103SFW
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF103SFW/@@download/ENCFF103SFW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR123HEE layer_of_hippocampus_female_adult_75_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR123HEE age=75_year description=ENCSR123HEE_layer_of_hippocampus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR123HEE
+	parent tissue_layer_of_hippocampus off
+	view ENCSR123HEE
+	visibility dense
+	type bigBed
+
+		track ENCSR123HEE_ENCFF846BPS
+		parent tissue_layer_of_hippocampus_view_ENCSR123HEE off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27ac view=ENCSR123HEE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF846BPS/@@download/ENCFF846BPS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR123HEE layer_of_hippocampus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR123HEE age=75_year description=ENCSR123HEE_layer_of_hippocampus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR123HEE 
+		view ENCSR123HEE
+
+	track ENCSR321LKT_ENCFF082UUP
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF082UUP/@@download/ENCFF082UUP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR321LKT layer_of_hippocampus_male_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR321LKT age=73_year description=ENCSR321LKT_layer_of_hippocampus_male_adult_73_years_fold_change_over_control_ donor=ENCDO636RDE sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR321LKT
+	parent tissue_layer_of_hippocampus off
+	view ENCSR321LKT
+	visibility dense
+	type bigBed
+
+		track ENCSR321LKT_ENCFF599EWB
+		parent tissue_layer_of_hippocampus_view_ENCSR321LKT off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K27ac view=ENCSR321LKT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF599EWB/@@download/ENCFF599EWB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR321LKT layer_of_hippocampus_male_adult_73_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR321LKT age=73_year description=ENCSR321LKT_layer_of_hippocampus_male_adult_73_years_peaks_ donor=ENCDO636RDE sex=male view=ENCSR321LKT 
+		view ENCSR321LKT
+
+	track ENCSR912TVO_ENCFF950KYW
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF950KYW/@@download/ENCFF950KYW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR912TVO layer_of_hippocampus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR912TVO age=81_year description=ENCSR912TVO_layer_of_hippocampus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR912TVO
+	parent tissue_layer_of_hippocampus off
+	view ENCSR912TVO
+	visibility dense
+	type bigBed
+
+		track ENCSR912TVO_ENCFF436JAV
+		parent tissue_layer_of_hippocampus_view_ENCSR912TVO off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=ENCSR912TVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF436JAV/@@download/ENCFF436JAV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR912TVO layer_of_hippocampus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR912TVO age=81_year description=ENCSR912TVO_layer_of_hippocampus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR912TVO 
+		view ENCSR912TVO
+
+	track ENCSR239GFM_ENCFF909JFJ
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a81_year assay=RNA-seq donor=ENCDO980BZD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF909JFJ/@@download/ENCFF909JFJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR239GFM layer_of_hippocampus_male_adult_81_year_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR239GFM age=81_year description=ENCSR239GFM_layer_of_hippocampus_male_adult_81_year_signal_of_unique_reads_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR076STK_ENCFF360ZFC
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF360ZFC/@@download/ENCFF360ZFC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR076STK layer_of_hippocampus_male_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR076STK age=73_year description=ENCSR076STK_layer_of_hippocampus_male_adult_73_years_fold_change_over_control_ donor=ENCDO636RDE sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR076STK
+	parent tissue_layer_of_hippocampus off
+	view ENCSR076STK
+	visibility dense
+	type bigBed
+
+		track ENCSR076STK_ENCFF192CIR
+		parent tissue_layer_of_hippocampus_view_ENCSR076STK off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K27me3 view=ENCSR076STK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF192CIR/@@download/ENCFF192CIR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR076STK layer_of_hippocampus_male_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR076STK age=73_year description=ENCSR076STK_layer_of_hippocampus_male_adult_73_years_stable_peaks_ donor=ENCDO636RDE sex=male view=ENCSR076STK 
+		view ENCSR076STK
+
+	track ENCSR713HJS_ENCFF200FLS
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF200FLS/@@download/ENCFF200FLS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR713HJS layer_of_hippocampus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR713HJS age=81_year description=ENCSR713HJS_layer_of_hippocampus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR713HJS
+	parent tissue_layer_of_hippocampus off
+	view ENCSR713HJS
+	visibility dense
+	type bigBed
+
+		track ENCSR713HJS_ENCFF615JOG
+		parent tissue_layer_of_hippocampus_view_ENCSR713HJS off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=ENCSR713HJS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF615JOG/@@download/ENCFF615JOG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR713HJS layer_of_hippocampus_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR713HJS age=81_year description=ENCSR713HJS_layer_of_hippocampus_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR713HJS 
+		view ENCSR713HJS
+
+	track ENCSR804RMP_ENCFF080WXZ
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF080WXZ/@@download/ENCFF080WXZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR804RMP layer_of_hippocampus_female_adult_75_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR804RMP age=75_year description=ENCSR804RMP_layer_of_hippocampus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR804RMP
+	parent tissue_layer_of_hippocampus off
+	view ENCSR804RMP
+	visibility dense
+	type bigBed
+
+		track ENCSR804RMP_ENCFF500WCF
+		parent tissue_layer_of_hippocampus_view_ENCSR804RMP off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27me3 view=ENCSR804RMP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF500WCF/@@download/ENCFF500WCF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR804RMP layer_of_hippocampus_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR804RMP age=75_year description=ENCSR804RMP_layer_of_hippocampus_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR804RMP 
+		view ENCSR804RMP
+
+	track ENCSR126FJY_ENCFF418LAY
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF418LAY/@@download/ENCFF418LAY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR126FJY layer_of_hippocampus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR126FJY age=81_year description=ENCSR126FJY_layer_of_hippocampus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR126FJY
+	parent tissue_layer_of_hippocampus off
+	view ENCSR126FJY
+	visibility dense
+	type bigBed
+
+		track ENCSR126FJY_ENCFF559UZT
+		parent tissue_layer_of_hippocampus_view_ENCSR126FJY off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=ENCSR126FJY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF559UZT/@@download/ENCFF559UZT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR126FJY layer_of_hippocampus_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR126FJY age=81_year description=ENCSR126FJY_layer_of_hippocampus_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR126FJY 
+		view ENCSR126FJY
+
+	track ENCSR286VMZ_ENCFF526FWE
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF526FWE/@@download/ENCFF526FWE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR286VMZ layer_of_hippocampus_female_adult_75_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR286VMZ age=75_year description=ENCSR286VMZ_layer_of_hippocampus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR286VMZ
+	parent tissue_layer_of_hippocampus off
+	view ENCSR286VMZ
+	visibility dense
+	type bigBed
+
+		track ENCSR286VMZ_ENCFF664OGB
+		parent tissue_layer_of_hippocampus_view_ENCSR286VMZ off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=ENCSR286VMZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF664OGB/@@download/ENCFF664OGB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR286VMZ layer_of_hippocampus_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR286VMZ age=75_year description=ENCSR286VMZ_layer_of_hippocampus_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR286VMZ 
+		view ENCSR286VMZ
+
+	track ENCSR691IZA_ENCFF021JJJ
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF021JJJ/@@download/ENCFF021JJJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR691IZA layer_of_hippocampus_male_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR691IZA age=73_year description=ENCSR691IZA_layer_of_hippocampus_male_adult_73_years_fold_change_over_control_ donor=ENCDO636RDE sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR691IZA
+	parent tissue_layer_of_hippocampus off
+	view ENCSR691IZA
+	visibility dense
+	type bigBed
+
+		track ENCSR691IZA_ENCFF809HNB
+		parent tissue_layer_of_hippocampus_view_ENCSR691IZA off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K36me3 view=ENCSR691IZA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF809HNB/@@download/ENCFF809HNB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR691IZA layer_of_hippocampus_male_adult_73_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR691IZA age=73_year description=ENCSR691IZA_layer_of_hippocampus_male_adult_73_years_peaks_ donor=ENCDO636RDE sex=male view=ENCSR691IZA 
+		view ENCSR691IZA
+
+	track ENCSR040TUS_ENCFF982MYH
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF982MYH/@@download/ENCFF982MYH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR040TUS layer_of_hippocampus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR040TUS age=81_year description=ENCSR040TUS_layer_of_hippocampus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR040TUS
+	parent tissue_layer_of_hippocampus off
+	view ENCSR040TUS
+	visibility dense
+	type bigBed
+
+		track ENCSR040TUS_ENCFF656DMH
+		parent tissue_layer_of_hippocampus_view_ENCSR040TUS off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=ENCSR040TUS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF656DMH/@@download/ENCFF656DMH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR040TUS layer_of_hippocampus_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR040TUS age=81_year description=ENCSR040TUS_layer_of_hippocampus_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR040TUS 
+		view ENCSR040TUS
+
+	track ENCSR638HSG_ENCFF966SRK
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF966SRK/@@download/ENCFF966SRK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR638HSG layer_of_hippocampus_female_adult_75_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR638HSG age=75_year description=ENCSR638HSG_layer_of_hippocampus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR638HSG
+	parent tissue_layer_of_hippocampus off
+	view ENCSR638HSG
+	visibility dense
+	type bigBed
+
+		track ENCSR638HSG_ENCFF431QZU
+		parent tissue_layer_of_hippocampus_view_ENCSR638HSG off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=ENCSR638HSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF431QZU/@@download/ENCFF431QZU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR638HSG layer_of_hippocampus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR638HSG age=75_year description=ENCSR638HSG_layer_of_hippocampus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR638HSG 
+		view ENCSR638HSG
+
+	track ENCSR797IXN_ENCFF427QBU
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF427QBU/@@download/ENCFF427QBU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR797IXN layer_of_hippocampus_male_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR797IXN age=73_year description=ENCSR797IXN_layer_of_hippocampus_male_adult_73_years_fold_change_over_control_ donor=ENCDO636RDE sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR797IXN
+	parent tissue_layer_of_hippocampus off
+	view ENCSR797IXN
+	visibility dense
+	type bigBed
+
+		track ENCSR797IXN_ENCFF893ELF
+		parent tissue_layer_of_hippocampus_view_ENCSR797IXN off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K4me1 view=ENCSR797IXN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF893ELF/@@download/ENCFF893ELF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR797IXN layer_of_hippocampus_male_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR797IXN age=73_year description=ENCSR797IXN_layer_of_hippocampus_male_adult_73_years_stable_peaks_ donor=ENCDO636RDE sex=male view=ENCSR797IXN 
+		view ENCSR797IXN
+
+	track ENCSR892RZN_ENCFF805JXV
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF805JXV/@@download/ENCFF805JXV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR892RZN layer_of_hippocampus_female_adult_75_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR892RZN age=75_year description=ENCSR892RZN_layer_of_hippocampus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR892RZN
+	parent tissue_layer_of_hippocampus off
+	view ENCSR892RZN
+	visibility dense
+	type bigBed
+
+		track ENCSR892RZN_ENCFF510EUY
+		parent tissue_layer_of_hippocampus_view_ENCSR892RZN off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=ENCSR892RZN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF510EUY/@@download/ENCFF510EUY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR892RZN layer_of_hippocampus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR892RZN age=75_year description=ENCSR892RZN_layer_of_hippocampus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR892RZN 
+		view ENCSR892RZN
+
+	track ENCSR085KRD_ENCFF549KSA
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF549KSA/@@download/ENCFF549KSA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR085KRD layer_of_hippocampus_male_adult_73_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR085KRD age=73_year description=ENCSR085KRD_layer_of_hippocampus_male_adult_73_years_fold_change_over_control_ donor=ENCDO636RDE sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR085KRD
+	parent tissue_layer_of_hippocampus off
+	view ENCSR085KRD
+	visibility dense
+	type bigBed
+
+		track ENCSR085KRD_ENCFF860NGZ
+		parent tissue_layer_of_hippocampus_view_ENCSR085KRD off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO636RDE label=H3K9me3 view=ENCSR085KRD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF860NGZ/@@download/ENCFF860NGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR085KRD layer_of_hippocampus_male_adult_73_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR085KRD age=73_year description=ENCSR085KRD_layer_of_hippocampus_male_adult_73_years_peaks_ donor=ENCDO636RDE sex=male view=ENCSR085KRD 
+		view ENCSR085KRD
+
+	track ENCSR431FZZ_ENCFF033EMY
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF033EMY/@@download/ENCFF033EMY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR431FZZ layer_of_hippocampus_female_adult_75_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR431FZZ age=75_year description=ENCSR431FZZ_layer_of_hippocampus_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR431FZZ
+	parent tissue_layer_of_hippocampus off
+	view ENCSR431FZZ
+	visibility dense
+	type bigBed
+
+		track ENCSR431FZZ_ENCFF598BQO
+		parent tissue_layer_of_hippocampus_view_ENCSR431FZZ off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=ENCSR431FZZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF598BQO/@@download/ENCFF598BQO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR431FZZ layer_of_hippocampus_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR431FZZ age=75_year description=ENCSR431FZZ_layer_of_hippocampus_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR431FZZ 
+		view ENCSR431FZZ
+
+	track ENCSR953HJN_ENCFF700ZSD
+	parent tissue_layer_of_hippocampus off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF700ZSD/@@download/ENCFF700ZSD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR953HJN layer_of_hippocampus_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR953HJN age=81_year description=ENCSR953HJN_layer_of_hippocampus_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_layer_of_hippocampus_view_ENCSR953HJN
+	parent tissue_layer_of_hippocampus off
+	view ENCSR953HJN
+	visibility dense
+	type bigBed
+
+		track ENCSR953HJN_ENCFF391IIK
+		parent tissue_layer_of_hippocampus_view_ENCSR953HJN off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=ENCSR953HJN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF391IIK/@@download/ENCFF391IIK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR953HJN layer_of_hippocampus_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR953HJN age=81_year description=ENCSR953HJN_layer_of_hippocampus_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR953HJN 
+		view ENCSR953HJN
+

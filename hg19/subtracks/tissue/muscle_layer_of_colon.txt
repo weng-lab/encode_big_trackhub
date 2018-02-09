@@ -1,0 +1,403 @@
+
+track tissue_muscle_layer_of_colon
+parent super_tissue
+compositeTrack on
+shortLabel muscle layer of c
+longLabel muscle layer of colon (11 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO266YSK=ENCDO266YSK ENCDO731PNE=ENCDO731PNE 
+subGroup2 age age a56_year=56&#32;year a77_year=77&#32;year 
+subGroup3 view view ENCSR004EKY=ENCSR004EKY ENCSR011GVU=ENCSR011GVU ENCSR048JDL=ENCSR048JDL ENCSR170VSJ=ENCSR170VSJ ENCSR328CWP=ENCSR328CWP ENCSR381EFC=ENCSR381EFC ENCSR385NUC=ENCSR385NUC ENCSR576YAD=ENCSR576YAD ENCSR756RGW=ENCSR756RGW ENCSR858LJY=ENCSR858LJY ENCSR943PIR=ENCSR943PIR bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR170VSJ_ENCFF165XWZ
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF165XWZ/@@download/ENCFF165XWZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR170VSJ muscle_layer_of_colon_female_adult_56_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR170VSJ age=56_year description=ENCSR170VSJ_muscle_layer_of_colon_female_adult_56_years_fold_change_over_control_ donor=ENCDO266YSK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR170VSJ
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR170VSJ
+	visibility dense
+	type bigBed
+
+		track ENCSR170VSJ_ENCFF341GSG
+		parent tissue_muscle_layer_of_colon_view_ENCSR170VSJ off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K4me3 view=ENCSR170VSJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF341GSG/@@download/ENCFF341GSG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR170VSJ muscle_layer_of_colon_female_adult_56_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR170VSJ age=56_year description=ENCSR170VSJ_muscle_layer_of_colon_female_adult_56_years_stable_peaks_ donor=ENCDO266YSK sex=female view=ENCSR170VSJ 
+		view ENCSR170VSJ
+
+	track ENCSR943PIR_ENCFF381END
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF381END/@@download/ENCFF381END.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR943PIR muscle_layer_of_colon_female_adult_77_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR943PIR age=77_year description=ENCSR943PIR_muscle_layer_of_colon_female_adult_77_years_fold_change_over_control_ donor=ENCDO731PNE sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR943PIR
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR943PIR
+	visibility dense
+	type bigBed
+
+		track ENCSR943PIR_ENCFF498RSK
+		parent tissue_muscle_layer_of_colon_view_ENCSR943PIR off
+		subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K4me3 view=ENCSR943PIR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF498RSK/@@download/ENCFF498RSK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR943PIR muscle_layer_of_colon_female_adult_77_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR943PIR age=77_year description=ENCSR943PIR_muscle_layer_of_colon_female_adult_77_years_stable_peaks_ donor=ENCDO731PNE sex=female view=ENCSR943PIR 
+		view ENCSR943PIR
+
+	track ENCSR004EKY_ENCFF526QHY
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF526QHY/@@download/ENCFF526QHY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR004EKY muscle_layer_of_colon_female_adult_56_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR004EKY age=56_year description=ENCSR004EKY_muscle_layer_of_colon_female_adult_56_years_fold_change_over_control_ donor=ENCDO266YSK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR004EKY
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR004EKY
+	visibility dense
+	type bigBed
+
+		track ENCSR004EKY_ENCFF966ZZY
+		parent tissue_muscle_layer_of_colon_view_ENCSR004EKY off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K27ac view=ENCSR004EKY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF966ZZY/@@download/ENCFF966ZZY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR004EKY muscle_layer_of_colon_female_adult_56_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR004EKY age=56_year description=ENCSR004EKY_muscle_layer_of_colon_female_adult_56_years_stable_peaks_ donor=ENCDO266YSK sex=female view=ENCSR004EKY 
+		view ENCSR004EKY
+
+	track ENCSR381EFC_ENCFF665PIN
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF665PIN/@@download/ENCFF665PIN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR381EFC muscle_layer_of_colon_female_adult_77_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR381EFC age=77_year description=ENCSR381EFC_muscle_layer_of_colon_female_adult_77_years_fold_change_over_control_ donor=ENCDO731PNE sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR381EFC
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR381EFC
+	visibility dense
+	type bigBed
+
+		track ENCSR381EFC_ENCFF602ECQ
+		parent tissue_muscle_layer_of_colon_view_ENCSR381EFC off
+		subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K27me3 view=ENCSR381EFC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF602ECQ/@@download/ENCFF602ECQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR381EFC muscle_layer_of_colon_female_adult_77_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR381EFC age=77_year description=ENCSR381EFC_muscle_layer_of_colon_female_adult_77_years_peaks_ donor=ENCDO731PNE sex=female view=ENCSR381EFC 
+		view ENCSR381EFC
+
+	track ENCSR858LJY_ENCFF624DLR
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF624DLR/@@download/ENCFF624DLR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR858LJY muscle_layer_of_colon_female_adult_56_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR858LJY age=56_year description=ENCSR858LJY_muscle_layer_of_colon_female_adult_56_years_fold_change_over_control_ donor=ENCDO266YSK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR858LJY
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR858LJY
+	visibility dense
+	type bigBed
+
+		track ENCSR858LJY_ENCFF916AHZ
+		parent tissue_muscle_layer_of_colon_view_ENCSR858LJY off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K27me3 view=ENCSR858LJY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF916AHZ/@@download/ENCFF916AHZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR858LJY muscle_layer_of_colon_female_adult_56_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR858LJY age=56_year description=ENCSR858LJY_muscle_layer_of_colon_female_adult_56_years_peaks_ donor=ENCDO266YSK sex=female view=ENCSR858LJY 
+		view ENCSR858LJY
+
+	track ENCSR011GVU_ENCFF819YQK
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF819YQK/@@download/ENCFF819YQK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR011GVU muscle_layer_of_colon_female_adult_56_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR011GVU age=56_year description=ENCSR011GVU_muscle_layer_of_colon_female_adult_56_years_fold_change_over_control_ donor=ENCDO266YSK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR011GVU
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR011GVU
+	visibility dense
+	type bigBed
+
+		track ENCSR011GVU_ENCFF676WXE
+		parent tissue_muscle_layer_of_colon_view_ENCSR011GVU off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K36me3 view=ENCSR011GVU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF676WXE/@@download/ENCFF676WXE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR011GVU muscle_layer_of_colon_female_adult_56_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR011GVU age=56_year description=ENCSR011GVU_muscle_layer_of_colon_female_adult_56_years_stable_peaks_ donor=ENCDO266YSK sex=female view=ENCSR011GVU 
+		view ENCSR011GVU
+
+	track ENCSR048JDL_ENCFF002TMN
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF002TMN/@@download/ENCFF002TMN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR048JDL muscle_layer_of_colon_female_adult_77_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR048JDL age=77_year description=ENCSR048JDL_muscle_layer_of_colon_female_adult_77_years_fold_change_over_control_ donor=ENCDO731PNE sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR048JDL
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR048JDL
+	visibility dense
+	type bigBed
+
+		track ENCSR048JDL_ENCFF783YGU
+		parent tissue_muscle_layer_of_colon_view_ENCSR048JDL off
+		subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K36me3 view=ENCSR048JDL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF783YGU/@@download/ENCFF783YGU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR048JDL muscle_layer_of_colon_female_adult_77_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR048JDL age=77_year description=ENCSR048JDL_muscle_layer_of_colon_female_adult_77_years_stable_peaks_ donor=ENCDO731PNE sex=female view=ENCSR048JDL 
+		view ENCSR048JDL
+
+	track ENCSR385NUC_ENCFF816KMY
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF816KMY/@@download/ENCFF816KMY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR385NUC muscle_layer_of_colon_female_adult_77_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR385NUC age=77_year description=ENCSR385NUC_muscle_layer_of_colon_female_adult_77_years_fold_change_over_control_ donor=ENCDO731PNE sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR385NUC
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR385NUC
+	visibility dense
+	type bigBed
+
+		track ENCSR385NUC_ENCFF916PLY
+		parent tissue_muscle_layer_of_colon_view_ENCSR385NUC off
+		subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K4me1 view=ENCSR385NUC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF916PLY/@@download/ENCFF916PLY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR385NUC muscle_layer_of_colon_female_adult_77_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR385NUC age=77_year description=ENCSR385NUC_muscle_layer_of_colon_female_adult_77_years_stable_peaks_ donor=ENCDO731PNE sex=female view=ENCSR385NUC 
+		view ENCSR385NUC
+
+	track ENCSR756RGW_ENCFF068CAL
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF068CAL/@@download/ENCFF068CAL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR756RGW muscle_layer_of_colon_female_adult_77_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR756RGW age=77_year description=ENCSR756RGW_muscle_layer_of_colon_female_adult_77_years_fold_change_over_control_ donor=ENCDO731PNE sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR756RGW
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR756RGW
+	visibility dense
+	type bigBed
+
+		track ENCSR756RGW_ENCFF554CQJ
+		parent tissue_muscle_layer_of_colon_view_ENCSR756RGW off
+		subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K9ac view=ENCSR756RGW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF554CQJ/@@download/ENCFF554CQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR756RGW muscle_layer_of_colon_female_adult_77_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR756RGW age=77_year description=ENCSR756RGW_muscle_layer_of_colon_female_adult_77_years_peaks_ donor=ENCDO731PNE sex=female view=ENCSR756RGW 
+		view ENCSR756RGW
+
+	track ENCSR328CWP_ENCFF132XLL
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF132XLL/@@download/ENCFF132XLL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR328CWP muscle_layer_of_colon_female_adult_77_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR328CWP age=77_year description=ENCSR328CWP_muscle_layer_of_colon_female_adult_77_years_fold_change_over_control_ donor=ENCDO731PNE sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR328CWP
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR328CWP
+	visibility dense
+	type bigBed
+
+		track ENCSR328CWP_ENCFF940NDQ
+		parent tissue_muscle_layer_of_colon_view_ENCSR328CWP off
+		subGroups age=a77_year assay=ChIP-seq donor=ENCDO731PNE label=H3K9me3 view=ENCSR328CWP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF940NDQ/@@download/ENCFF940NDQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR328CWP muscle_layer_of_colon_female_adult_77_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR328CWP age=77_year description=ENCSR328CWP_muscle_layer_of_colon_female_adult_77_years_peaks_ donor=ENCDO731PNE sex=female view=ENCSR328CWP 
+		view ENCSR328CWP
+
+	track ENCSR576YAD_ENCFF810LWA
+	parent tissue_muscle_layer_of_colon off
+	subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810LWA/@@download/ENCFF810LWA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR576YAD muscle_layer_of_colon_female_adult_56_years_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR576YAD age=56_year description=ENCSR576YAD_muscle_layer_of_colon_female_adult_56_years_fold_change_over_control_ donor=ENCDO266YSK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_colon_view_ENCSR576YAD
+	parent tissue_muscle_layer_of_colon off
+	view ENCSR576YAD
+	visibility dense
+	type bigBed
+
+		track ENCSR576YAD_ENCFF374NSM
+		parent tissue_muscle_layer_of_colon_view_ENCSR576YAD off
+		subGroups age=a56_year assay=ChIP-seq donor=ENCDO266YSK label=H3K9me3 view=ENCSR576YAD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF374NSM/@@download/ENCFF374NSM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR576YAD muscle_layer_of_colon_female_adult_56_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR576YAD age=56_year description=ENCSR576YAD_muscle_layer_of_colon_female_adult_56_years_peaks_ donor=ENCDO266YSK sex=female view=ENCSR576YAD 
+		view ENCSR576YAD
+

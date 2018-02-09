@@ -1,0 +1,66 @@
+
+track immortalized_cell_line_GM12873
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel GM12873
+longLabel GM12873 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label CTCF=CTCF 
+subGroup2 assay assay ChIP-seq=ChIP-seq 
+subGroup3 view view ENCSR000DRP=ENCSR000DRP bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DRP_ENCFF716XXF
+	parent immortalized_cell_line_GM12873 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABX label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF716XXF/@@download/ENCFF716XXF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DRP GM12873 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DRP age=unknown description=ENCSR000DRP_GM12873_fold_change_over_control_ donor=ENCDO000ABX sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_GM12873_view_ENCSR000DRP
+	parent immortalized_cell_line_GM12873 off
+	view ENCSR000DRP
+	visibility dense
+	type bigBed
+
+		track ENCSR000DRP_ENCFF854KRK
+		parent immortalized_cell_line_GM12873_view_ENCSR000DRP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABX label=CTCF view=ENCSR000DRP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF854KRK/@@download/ENCFF854KRK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DRP GM12873 (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DRP age=unknown description=ENCSR000DRP_GM12873_optimal_idr_thresholded_peaks_ donor=ENCDO000ABX sex=female view=ENCSR000DRP 
+		view ENCSR000DRP
+
+		track ENCSR000DRP_ENCFF579BRE
+		parent immortalized_cell_line_GM12873_view_ENCSR000DRP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABX label=CTCF view=ENCSR000DRP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF579BRE/@@download/ENCFF579BRE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF579BRE 9state-CTCF CTCF ChIP-seq on human GM12873
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DRP age=unknown description=ENCFF579BRE_9state_CTCF_CTCF_ChIP_seq_on_human_GM12873 donor=ENCDO000ABX sex=female view=ENCSR000DRP 
+		view ENCSR000DRP
+

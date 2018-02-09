@@ -1,0 +1,66 @@
+
+track tissue_hindlimb_bud
+parent super_tissue
+compositeTrack on
+shortLabel hindlimb bud
+longLabel hindlimb bud (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO083AAA=ENCDO083AAA 
+subGroup2 age age a11_5_day=11&#46;5&#32;day 
+subGroup3 view view ENCSR000CNF=ENCSR000CNF bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CNF_ENCFF037VPV
+	parent tissue_hindlimb_bud off
+	subGroups age=a11_5_day assay=DNase-seq donor=ENCDO083AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF037VPV/@@download/ENCFF037VPV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CNF CD_1_hindlimb_bud_male_embryo_11_5_days_ (read-depth normalized sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CNF age=11_5_day description=ENCSR000CNF_CD_1_hindlimb_bud_male_embryo_11_5_days_read_depth_normalized_signal_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_hindlimb_bud_view_ENCSR000CNF
+	parent tissue_hindlimb_bud off
+	view ENCSR000CNF
+	visibility dense
+	type bigBed
+
+		track ENCSR000CNF_ENCFF499MNV
+		parent tissue_hindlimb_bud_view_ENCSR000CNF off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO083AAA label=unknown view=ENCSR000CNF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF499MNV/@@download/ENCFF499MNV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CNF CD_1_hindlimb_bud_male_embryo_11_5_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CNF age=11_5_day description=ENCSR000CNF_CD_1_hindlimb_bud_male_embryo_11_5_days_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000CNF 
+		view ENCSR000CNF
+
+		track ENCSR000CNF_ENCFF122OST
+		parent tissue_hindlimb_bud_view_ENCSR000CNF off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO083AAA label=unknown view=ENCSR000CNF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF122OST/@@download/ENCFF122OST.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF122OST 9state-DNase DNase on 11.5 day (e11.5) embryonic mouse hindlimb buds
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CNF age=11_5_day description=ENCFF122OST_9state_DNase_DNase_on_11_5_day_e11_5_embryonic_mouse_hindlimb_buds donor=ENCDO083AAA sex=unknown view=ENCSR000CNF 
+		view ENCSR000CNF
+

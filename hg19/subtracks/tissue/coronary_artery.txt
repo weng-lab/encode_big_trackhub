@@ -1,0 +1,136 @@
+
+track tissue_coronary_artery
+parent super_tissue
+compositeTrack on
+shortLabel coronary artery
+longLabel coronary artery (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO793LXB=ENCDO793LXB 
+subGroup2 age age a53_year=53&#32;year 
+subGroup3 view view ENCSR060HPL=ENCSR060HPL ENCSR343ZOV=ENCSR343ZOV ENCSR443UYU=ENCSR443UYU bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR060HPL_ENCFF614LLS
+	parent tissue_coronary_artery off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF614LLS/@@download/ENCFF614LLS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR060HPL coronary_artery_female_adult_53_years_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR060HPL age=53_year description=ENCSR060HPL_coronary_artery_female_adult_53_years_read_depth_normalized_signal_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_coronary_artery_view_ENCSR060HPL
+	parent tissue_coronary_artery off
+	view ENCSR060HPL
+	visibility dense
+	type bigBed
+
+		track ENCSR060HPL_ENCFF507HUV
+		parent tissue_coronary_artery_view_ENCSR060HPL off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR060HPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF507HUV/@@download/ENCFF507HUV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR060HPL coronary_artery_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR060HPL age=53_year description=ENCSR060HPL_coronary_artery_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR060HPL 
+		view ENCSR060HPL
+
+	track ENCSR343ZOV_ENCFF297RMA
+	parent tissue_coronary_artery off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF297RMA/@@download/ENCFF297RMA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR343ZOV coronary_artery_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR343ZOV age=53_year description=ENCSR343ZOV_coronary_artery_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_coronary_artery_view_ENCSR343ZOV
+	parent tissue_coronary_artery off
+	view ENCSR343ZOV
+	visibility dense
+	type bigBed
+
+		track ENCSR343ZOV_ENCFF009TGN
+		parent tissue_coronary_artery_view_ENCSR343ZOV off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR343ZOV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF009TGN/@@download/ENCFF009TGN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR343ZOV coronary_artery_female_adult_53_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR343ZOV age=53_year description=ENCSR343ZOV_coronary_artery_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR343ZOV 
+		view ENCSR343ZOV
+
+		track ENCSR343ZOV_ENCFF831CMX
+		parent tissue_coronary_artery_view_ENCSR343ZOV off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR343ZOV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF831CMX/@@download/ENCFF831CMX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF831CMX 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR343ZOV age=53_year description=ENCFF831CMX_5group_ donor=ENCDO793LXB sex=female view=ENCSR343ZOV 
+		view ENCSR343ZOV
+
+	track ENCSR443UYU_ENCFF172MCO
+	parent tissue_coronary_artery off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF172MCO/@@download/ENCFF172MCO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR443UYU coronary_artery_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR443UYU age=53_year description=ENCSR443UYU_coronary_artery_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_coronary_artery_view_ENCSR443UYU
+	parent tissue_coronary_artery off
+	view ENCSR443UYU
+	visibility dense
+	type bigBed
+
+		track ENCSR443UYU_ENCFF118JDC
+		parent tissue_coronary_artery_view_ENCSR443UYU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR443UYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF118JDC/@@download/ENCFF118JDC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR443UYU coronary_artery_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR443UYU age=53_year description=ENCSR443UYU_coronary_artery_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR443UYU 
+		view ENCSR443UYU
+

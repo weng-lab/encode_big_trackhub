@@ -1,0 +1,479 @@
+
+track primary_cell_CD4_positive_alpha_beta_memory_T_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel CD4-positive, alp
+longLabel CD4-positive, alpha-beta memory T cell (13 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO194EHQ=ENCDO194EHQ ENCDO678FLL=ENCDO678FLL ENCDO688UWB=ENCDO688UWB ENCDO922CEJ=ENCDO922CEJ 
+subGroup2 age age a29_year=29&#32;year aunknown=unknown 
+subGroup3 view view ENCSR012KUR=ENCSR012KUR ENCSR077FZT=ENCSR077FZT ENCSR117IQD=ENCSR117IQD ENCSR223APP=ENCSR223APP ENCSR239SNR=ENCSR239SNR ENCSR314BEX=ENCSR314BEX ENCSR333VFQ=ENCSR333VFQ ENCSR580WRV=ENCSR580WRV ENCSR660WQO=ENCSR660WQO ENCSR702RZM=ENCSR702RZM ENCSR724GUS=ENCSR724GUS ENCSR887ESB=ENCSR887ESB bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR077FZT_ENCFF258XEC
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO922CEJ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF258XEC/@@download/ENCFF258XEC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR077FZT CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR077FZT age=unknown description=ENCSR077FZT_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO922CEJ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR077FZT
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR077FZT
+	visibility dense
+	type bigBed
+
+		track ENCSR077FZT_ENCFF220CCO
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR077FZT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO922CEJ label=H3K4me3 view=ENCSR077FZT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF220CCO/@@download/ENCFF220CCO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR077FZT CD4_positive_alpha_beta_memory_T_cell (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR077FZT age=unknown description=ENCSR077FZT_CD4_positive_alpha_beta_memory_T_cell_peaks_ donor=ENCDO922CEJ sex=unknown view=ENCSR077FZT 
+		view ENCSR077FZT
+
+	track ENCSR223APP_ENCFF968WTJ
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF968WTJ/@@download/ENCFF968WTJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR223APP CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR223APP age=unknown description=ENCSR223APP_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR223APP
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR223APP
+	visibility dense
+	type bigBed
+
+		track ENCSR223APP_ENCFF976SWU
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR223APP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K4me3 view=ENCSR223APP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF976SWU/@@download/ENCFF976SWU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR223APP CD4_positive_alpha_beta_memory_T_cell (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR223APP age=unknown description=ENCSR223APP_CD4_positive_alpha_beta_memory_T_cell_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR223APP 
+		view ENCSR223APP
+
+	track ENCSR314BEX_ENCFF915TJB
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF915TJB/@@download/ENCFF915TJB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR314BEX CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR314BEX age=unknown description=ENCSR314BEX_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR314BEX
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR314BEX
+	visibility dense
+	type bigBed
+
+		track ENCSR314BEX_ENCFF580TEZ
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR314BEX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27ac view=ENCSR314BEX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF580TEZ/@@download/ENCFF580TEZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR314BEX CD4_positive_alpha_beta_memory_T_cell (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR314BEX age=unknown description=ENCSR314BEX_CD4_positive_alpha_beta_memory_T_cell_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR314BEX 
+		view ENCSR314BEX
+
+		track ENCSR314BEX_ENCFF399UCT
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR314BEX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27ac view=ENCSR314BEX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF399UCT/@@download/ENCFF399UCT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF399UCT 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR314BEX age=unknown description=ENCFF399UCT_5group_ donor=ENCDO194EHQ sex=unknown view=ENCSR314BEX 
+		view ENCSR314BEX
+
+		track ENCSR314BEX_ENCFF205LKO
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR314BEX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27ac view=ENCSR314BEX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF205LKO/@@download/ENCFF205LKO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF205LKO 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR314BEX age=unknown description=ENCFF205LKO_9state_H3K4me3_ donor=ENCDO194EHQ sex=unknown view=ENCSR314BEX 
+		view ENCSR314BEX
+
+	track ENCSR724GUS_ENCFF278YMX
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF278YMX/@@download/ENCFF278YMX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR724GUS CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR724GUS age=unknown description=ENCSR724GUS_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR724GUS
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR724GUS
+	visibility dense
+	type bigBed
+
+		track ENCSR724GUS_ENCFF650HIO
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR724GUS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K27ac view=ENCSR724GUS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF650HIO/@@download/ENCFF650HIO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR724GUS CD4_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR724GUS age=unknown description=ENCSR724GUS_CD4_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR724GUS 
+		view ENCSR724GUS
+
+	track ENCSR199AQA_ENCFF852ATO
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=a29_year assay=microRNA-seq donor=ENCDO678FLL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF852ATO/@@download/ENCFF852ATO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR199AQA CD4_positive_alpha_beta_memory_T_cell_male_adult_29_years_ (plus str
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR199AQA age=29_year description=ENCSR199AQA_CD4_positive_alpha_beta_memory_T_cell_male_adult_29_years_plus_strand_signal_of_unique_reads_ donor=ENCDO678FLL sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR012KUR_ENCFF764UNT
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF764UNT/@@download/ENCFF764UNT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR012KUR CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR012KUR age=unknown description=ENCSR012KUR_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR012KUR
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR012KUR
+	visibility dense
+	type bigBed
+
+		track ENCSR012KUR_ENCFF860TTS
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR012KUR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K27me3 view=ENCSR012KUR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF860TTS/@@download/ENCFF860TTS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR012KUR CD4_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR012KUR age=unknown description=ENCSR012KUR_CD4_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR012KUR 
+		view ENCSR012KUR
+
+	track ENCSR702RZM_ENCFF098SDH
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF098SDH/@@download/ENCFF098SDH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR702RZM CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR702RZM age=unknown description=ENCSR702RZM_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR702RZM
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR702RZM
+	visibility dense
+	type bigBed
+
+		track ENCSR702RZM_ENCFF285UMG
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR702RZM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K27me3 view=ENCSR702RZM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF285UMG/@@download/ENCFF285UMG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR702RZM CD4_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR702RZM age=unknown description=ENCSR702RZM_CD4_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR702RZM 
+		view ENCSR702RZM
+
+	track ENCSR580WRV_ENCFF017TYU
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF017TYU/@@download/ENCFF017TYU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR580WRV CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR580WRV age=unknown description=ENCSR580WRV_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR580WRV
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR580WRV
+	visibility dense
+	type bigBed
+
+		track ENCSR580WRV_ENCFF633EDQ
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR580WRV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K36me3 view=ENCSR580WRV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF633EDQ/@@download/ENCFF633EDQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR580WRV CD4_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR580WRV age=unknown description=ENCSR580WRV_CD4_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR580WRV 
+		view ENCSR580WRV
+
+	track ENCSR660WQO_ENCFF785WJM
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF785WJM/@@download/ENCFF785WJM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR660WQO CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR660WQO age=unknown description=ENCSR660WQO_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR660WQO
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR660WQO
+	visibility dense
+	type bigBed
+
+		track ENCSR660WQO_ENCFF160IOS
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR660WQO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K4me1 view=ENCSR660WQO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF160IOS/@@download/ENCFF160IOS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR660WQO CD4_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR660WQO age=unknown description=ENCSR660WQO_CD4_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR660WQO 
+		view ENCSR660WQO
+
+	track ENCSR887ESB_ENCFF628BPH
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF628BPH/@@download/ENCFF628BPH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR887ESB CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR887ESB age=unknown description=ENCSR887ESB_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR887ESB
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR887ESB
+	visibility dense
+	type bigBed
+
+		track ENCSR887ESB_ENCFF343GSI
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR887ESB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K4me1 view=ENCSR887ESB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF343GSI/@@download/ENCFF343GSI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR887ESB CD4_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR887ESB age=unknown description=ENCSR887ESB_CD4_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR887ESB 
+		view ENCSR887ESB
+
+	track ENCSR117IQD_ENCFF397IRE
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF397IRE/@@download/ENCFF397IRE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR117IQD CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR117IQD age=unknown description=ENCSR117IQD_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO194EHQ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR117IQD
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR117IQD
+	visibility dense
+	type bigBed
+
+		track ENCSR117IQD_ENCFF138YRU
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR117IQD off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO194EHQ label=H3K9me3 view=ENCSR117IQD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF138YRU/@@download/ENCFF138YRU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR117IQD CD4_positive_alpha_beta_memory_T_cell (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR117IQD age=unknown description=ENCSR117IQD_CD4_positive_alpha_beta_memory_T_cell_replicated_peaks_ donor=ENCDO194EHQ sex=unknown view=ENCSR117IQD 
+		view ENCSR117IQD
+
+	track ENCSR239SNR_ENCFF504FTA
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO922CEJ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF504FTA/@@download/ENCFF504FTA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR239SNR CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR239SNR age=unknown description=ENCSR239SNR_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO922CEJ sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR239SNR
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR239SNR
+	visibility dense
+	type bigBed
+
+		track ENCSR239SNR_ENCFF944ALW
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR239SNR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO922CEJ label=H3K9me3 view=ENCSR239SNR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF944ALW/@@download/ENCFF944ALW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR239SNR CD4_positive_alpha_beta_memory_T_cell (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR239SNR age=unknown description=ENCSR239SNR_CD4_positive_alpha_beta_memory_T_cell_peaks_ donor=ENCDO922CEJ sex=unknown view=ENCSR239SNR 
+		view ENCSR239SNR
+
+	track ENCSR333VFQ_ENCFF857PLS
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF857PLS/@@download/ENCFF857PLS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR333VFQ CD4_positive_alpha_beta_memory_T_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR333VFQ age=unknown description=ENCSR333VFQ_CD4_positive_alpha_beta_memory_T_cell_fold_change_over_control_ donor=ENCDO688UWB sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR333VFQ
+	parent primary_cell_CD4_positive_alpha_beta_memory_T_cell off
+	view ENCSR333VFQ
+	visibility dense
+	type bigBed
+
+		track ENCSR333VFQ_ENCFF440XYW
+		parent primary_cell_CD4_positive_alpha_beta_memory_T_cell_view_ENCSR333VFQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO688UWB label=H3K9me3 view=ENCSR333VFQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF440XYW/@@download/ENCFF440XYW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR333VFQ CD4_positive_alpha_beta_memory_T_cell (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR333VFQ age=unknown description=ENCSR333VFQ_CD4_positive_alpha_beta_memory_T_cell_peaks_ donor=ENCDO688UWB sex=unknown view=ENCSR333VFQ 
+		view ENCSR333VFQ
+

@@ -1,0 +1,666 @@
+
+track tissue_breast_epithelium
+parent super_tissue
+compositeTrack on
+shortLabel breast epithelium
+longLabel breast epithelium (21 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR034ZKE=ENCSR034ZKE ENCSR299CAV=ENCSR299CAV ENCSR304IVU=ENCSR304IVU ENCSR304XUZ=ENCSR304XUZ ENCSR346DKN=ENCSR346DKN ENCSR403UOU=ENCSR403UOU ENCSR416AUW=ENCSR416AUW ENCSR432OIW=ENCSR432OIW ENCSR501LEH=ENCSR501LEH ENCSR528UBJ=ENCSR528UBJ ENCSR543YQF=ENCSR543YQF ENCSR553IAW=ENCSR553IAW ENCSR600KUR=ENCSR600KUR ENCSR661NXJ=ENCSR661NXJ ENCSR697YIN=ENCSR697YIN ENCSR770WSE=ENCSR770WSE bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR600KUR_ENCFF163KNI
+	parent tissue_breast_epithelium off
+	subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF163KNI/@@download/ENCFF163KNI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR600KUR breast_epithelium_female_adult_51_year_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR600KUR age=51_year description=ENCSR600KUR_breast_epithelium_female_adult_51_year_read_depth_normalized_signal_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR600KUR
+	parent tissue_breast_epithelium off
+	view ENCSR600KUR
+	visibility dense
+	type bigBed
+
+		track ENCSR600KUR_ENCFF275HFZ
+		parent tissue_breast_epithelium_view_ENCSR600KUR off
+		subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=ENCSR600KUR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF275HFZ/@@download/ENCFF275HFZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR600KUR breast_epithelium_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR600KUR age=51_year description=ENCSR600KUR_breast_epithelium_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR600KUR 
+		view ENCSR600KUR
+
+	track ENCSR416AUW_ENCFF216DKX
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF216DKX/@@download/ENCFF216DKX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR416AUW breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR416AUW age=53_year description=ENCSR416AUW_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR416AUW
+	parent tissue_breast_epithelium off
+	view ENCSR416AUW
+	visibility dense
+	type bigBed
+
+		track ENCSR416AUW_ENCFF176TDW
+		parent tissue_breast_epithelium_view_ENCSR416AUW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR416AUW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF176TDW/@@download/ENCFF176TDW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR416AUW breast_epithelium_female_adult_53_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR416AUW age=53_year description=ENCSR416AUW_breast_epithelium_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR416AUW 
+		view ENCSR416AUW
+
+		track ENCSR416AUW_ENCFF812GTX
+		parent tissue_breast_epithelium_view_ENCSR416AUW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR416AUW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF812GTX/@@download/ENCFF812GTX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF812GTX 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR416AUW age=53_year description=ENCFF812GTX_5group_ donor=ENCDO793LXB sex=female view=ENCSR416AUW 
+		view ENCSR416AUW
+
+	track ENCSR034ZKE_ENCFF984VUL
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF984VUL/@@download/ENCFF984VUL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR034ZKE breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR034ZKE age=53_year description=ENCSR034ZKE_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR034ZKE
+	parent tissue_breast_epithelium off
+	view ENCSR034ZKE
+	visibility dense
+	type bigBed
+
+		track ENCSR034ZKE_ENCFF529IMA
+		parent tissue_breast_epithelium_view_ENCSR034ZKE off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR034ZKE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF529IMA/@@download/ENCFF529IMA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR034ZKE breast_epithelium_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR034ZKE age=53_year description=ENCSR034ZKE_breast_epithelium_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR034ZKE 
+		view ENCSR034ZKE
+
+	track ENCSR304XUZ_ENCFF663JVM
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF663JVM/@@download/ENCFF663JVM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR304XUZ breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR304XUZ age=53_year description=ENCSR304XUZ_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR304XUZ
+	parent tissue_breast_epithelium off
+	view ENCSR304XUZ
+	visibility dense
+	type bigBed
+
+		track ENCSR304XUZ_ENCFF566EID
+		parent tissue_breast_epithelium_view_ENCSR304XUZ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR304XUZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF566EID/@@download/ENCFF566EID.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR304XUZ breast_epithelium_female_adult_53_years_ (pseudoreplicated idr thres
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR304XUZ age=53_year description=ENCSR304XUZ_breast_epithelium_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR304XUZ 
+		view ENCSR304XUZ
+
+	track ENCSR661NXJ_ENCFF143AFG
+	parent tissue_breast_epithelium off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF143AFG/@@download/ENCFF143AFG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR661NXJ breast_epithelium_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR661NXJ age=51_year description=ENCSR661NXJ_breast_epithelium_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR661NXJ
+	parent tissue_breast_epithelium off
+	view ENCSR661NXJ
+	visibility dense
+	type bigBed
+
+		track ENCSR661NXJ_ENCFF681BQF
+		parent tissue_breast_epithelium_view_ENCSR661NXJ off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR661NXJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF681BQF/@@download/ENCFF681BQF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR661NXJ breast_epithelium_female_adult_51_year_ (pseudoreplicated idr thresh
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR661NXJ age=51_year description=ENCSR661NXJ_breast_epithelium_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR661NXJ 
+		view ENCSR661NXJ
+
+	track ENCSR697YIN_ENCFF796EDX
+	parent tissue_breast_epithelium off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF796EDX/@@download/ENCFF796EDX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR697YIN breast_epithelium_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR697YIN age=54_year description=ENCSR697YIN_breast_epithelium_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR697YIN
+	parent tissue_breast_epithelium off
+	view ENCSR697YIN
+	visibility dense
+	type bigBed
+
+		track ENCSR697YIN_ENCFF772MTJ
+		parent tissue_breast_epithelium_view_ENCSR697YIN off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR697YIN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF772MTJ/@@download/ENCFF772MTJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR697YIN breast_epithelium_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR697YIN age=54_year description=ENCSR697YIN_breast_epithelium_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR697YIN 
+		view ENCSR697YIN
+
+	track ENCSR094VRQ_ENCFF296CQI
+	parent tissue_breast_epithelium off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF296CQI/@@download/ENCFF296CQI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR094VRQ breast_epithelium_male_adult_37_years_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR094VRQ age=37_year description=ENCSR094VRQ_breast_epithelium_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR434TEU_ENCFF285AFO
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF285AFO/@@download/ENCFF285AFO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR434TEU breast_epithelium_female_adult_53_years_ (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR434TEU age=53_year description=ENCSR434TEU_breast_epithelium_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR438YPF_ENCFF154WCI
+	parent tissue_breast_epithelium off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF154WCI/@@download/ENCFF154WCI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR438YPF breast_epithelium_female_adult_51_year_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR438YPF age=51_year description=ENCSR438YPF_breast_epithelium_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR598TAK_ENCFF692QLK
+	parent tissue_breast_epithelium off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF692QLK/@@download/ENCFF692QLK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR598TAK breast_epithelium_female_adult_51_year_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR598TAK age=51_year description=ENCSR598TAK_breast_epithelium_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR909QWB_ENCFF390WYD
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF390WYD/@@download/ENCFF390WYD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR909QWB breast_epithelium_female_adult_53_years_ (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR909QWB age=53_year description=ENCSR909QWB_breast_epithelium_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR346DKN_ENCFF364KDX
+	parent tissue_breast_epithelium off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF364KDX/@@download/ENCFF364KDX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR346DKN breast_epithelium_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR346DKN age=37_year description=ENCSR346DKN_breast_epithelium_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR346DKN
+	parent tissue_breast_epithelium off
+	view ENCSR346DKN
+	visibility dense
+	type bigBed
+
+		track ENCSR346DKN_ENCFF359IIT
+		parent tissue_breast_epithelium_view_ENCSR346DKN off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=ENCSR346DKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF359IIT/@@download/ENCFF359IIT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR346DKN breast_epithelium_male_adult_37_years_ (pseudoreplicated idr thresho
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR346DKN age=37_year description=ENCSR346DKN_breast_epithelium_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR346DKN 
+		view ENCSR346DKN
+
+	track ENCSR432OIW_ENCFF249NBL
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF249NBL/@@download/ENCFF249NBL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR432OIW breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR432OIW age=53_year description=ENCSR432OIW_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR432OIW
+	parent tissue_breast_epithelium off
+	view ENCSR432OIW
+	visibility dense
+	type bigBed
+
+		track ENCSR432OIW_ENCFF666CBK
+		parent tissue_breast_epithelium_view_ENCSR432OIW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=ENCSR432OIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF666CBK/@@download/ENCFF666CBK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR432OIW breast_epithelium_female_adult_53_years_ (pseudoreplicated idr thres
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR432OIW age=53_year description=ENCSR432OIW_breast_epithelium_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR432OIW 
+		view ENCSR432OIW
+
+	track ENCSR501LEH_ENCFF638AYW
+	parent tissue_breast_epithelium off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF638AYW/@@download/ENCFF638AYW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR501LEH breast_epithelium_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR501LEH age=54_year description=ENCSR501LEH_breast_epithelium_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR501LEH
+	parent tissue_breast_epithelium off
+	view ENCSR501LEH
+	visibility dense
+	type bigBed
+
+		track ENCSR501LEH_ENCFF897LRG
+		parent tissue_breast_epithelium_view_ENCSR501LEH off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=ENCSR501LEH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF897LRG/@@download/ENCFF897LRG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR501LEH breast_epithelium_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR501LEH age=54_year description=ENCSR501LEH_breast_epithelium_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR501LEH 
+		view ENCSR501LEH
+
+	track ENCSR528UBJ_ENCFF020NZV
+	parent tissue_breast_epithelium off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF020NZV/@@download/ENCFF020NZV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR528UBJ breast_epithelium_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR528UBJ age=51_year description=ENCSR528UBJ_breast_epithelium_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR528UBJ
+	parent tissue_breast_epithelium off
+	view ENCSR528UBJ
+	visibility dense
+	type bigBed
+
+		track ENCSR528UBJ_ENCFF407HSE
+		parent tissue_breast_epithelium_view_ENCSR528UBJ off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR528UBJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF407HSE/@@download/ENCFF407HSE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR528UBJ breast_epithelium_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR528UBJ age=51_year description=ENCSR528UBJ_breast_epithelium_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR528UBJ 
+		view ENCSR528UBJ
+
+	track ENCSR770WSE_ENCFF715TWI
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF715TWI/@@download/ENCFF715TWI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR770WSE breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR770WSE age=53_year description=ENCSR770WSE_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR770WSE
+	parent tissue_breast_epithelium off
+	view ENCSR770WSE
+	visibility dense
+	type bigBed
+
+		track ENCSR770WSE_ENCFF576VKS
+		parent tissue_breast_epithelium_view_ENCSR770WSE off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=ENCSR770WSE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF576VKS/@@download/ENCFF576VKS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR770WSE breast_epithelium_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR770WSE age=53_year description=ENCSR770WSE_breast_epithelium_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR770WSE 
+		view ENCSR770WSE
+
+	track ENCSR543YQF_ENCFF529OVO
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF529OVO/@@download/ENCFF529OVO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR543YQF breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR543YQF age=53_year description=ENCSR543YQF_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR543YQF
+	parent tissue_breast_epithelium off
+	view ENCSR543YQF
+	visibility dense
+	type bigBed
+
+		track ENCSR543YQF_ENCFF634DXF
+		parent tissue_breast_epithelium_view_ENCSR543YQF off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR543YQF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF634DXF/@@download/ENCFF634DXF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR543YQF breast_epithelium_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR543YQF age=53_year description=ENCSR543YQF_breast_epithelium_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR543YQF 
+		view ENCSR543YQF
+
+	track ENCSR553IAW_ENCFF969XYE
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF969XYE/@@download/ENCFF969XYE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR553IAW breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR553IAW age=53_year description=ENCSR553IAW_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR553IAW
+	parent tissue_breast_epithelium off
+	view ENCSR553IAW
+	visibility dense
+	type bigBed
+
+		track ENCSR553IAW_ENCFF682XFE
+		parent tissue_breast_epithelium_view_ENCSR553IAW off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR553IAW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF682XFE/@@download/ENCFF682XFE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR553IAW breast_epithelium_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR553IAW age=53_year description=ENCSR553IAW_breast_epithelium_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR553IAW 
+		view ENCSR553IAW
+
+	track ENCSR403UOU_ENCFF850RQA
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF850RQA/@@download/ENCFF850RQA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR403UOU breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR403UOU age=53_year description=ENCSR403UOU_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR403UOU
+	parent tissue_breast_epithelium off
+	view ENCSR403UOU
+	visibility dense
+	type bigBed
+
+		track ENCSR403UOU_ENCFF266NLM
+		parent tissue_breast_epithelium_view_ENCSR403UOU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR403UOU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF266NLM/@@download/ENCFF266NLM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR403UOU breast_epithelium_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR403UOU age=53_year description=ENCSR403UOU_breast_epithelium_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR403UOU 
+		view ENCSR403UOU
+
+	track ENCSR299CAV_ENCFF728WWJ
+	parent tissue_breast_epithelium off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF728WWJ/@@download/ENCFF728WWJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR299CAV breast_epithelium_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR299CAV age=53_year description=ENCSR299CAV_breast_epithelium_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR299CAV
+	parent tissue_breast_epithelium off
+	view ENCSR299CAV
+	visibility dense
+	type bigBed
+
+		track ENCSR299CAV_ENCFF952LSC
+		parent tissue_breast_epithelium_view_ENCSR299CAV off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR299CAV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF952LSC/@@download/ENCFF952LSC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR299CAV breast_epithelium_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR299CAV age=53_year description=ENCSR299CAV_breast_epithelium_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR299CAV 
+		view ENCSR299CAV
+
+	track ENCSR304IVU_ENCFF839CVW
+	parent tissue_breast_epithelium off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF839CVW/@@download/ENCFF839CVW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR304IVU breast_epithelium_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR304IVU age=51_year description=ENCSR304IVU_breast_epithelium_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_breast_epithelium_view_ENCSR304IVU
+	parent tissue_breast_epithelium off
+	view ENCSR304IVU
+	visibility dense
+	type bigBed
+
+		track ENCSR304IVU_ENCFF935HKA
+		parent tissue_breast_epithelium_view_ENCSR304IVU off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR304IVU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF935HKA/@@download/ENCFF935HKA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR304IVU breast_epithelium_female_adult_51_year_ (pseudoreplicated idr thresh
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR304IVU age=51_year description=ENCSR304IVU_breast_epithelium_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR304IVU 
+		view ENCSR304IVU
+

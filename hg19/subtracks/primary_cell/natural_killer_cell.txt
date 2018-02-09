@@ -1,0 +1,430 @@
+
+track primary_cell_natural_killer_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel natural killer ce
+longLabel natural killer cell (9 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO028NGF=ENCDO028NGF ENCDO190HXC=ENCDO190HXC ENCDO579CCQ=ENCDO579CCQ 
+subGroup2 age age a21_year=21&#32;year a34_year=34&#32;year a37_year=37&#32;year 
+subGroup3 view view ENCSR021FSY=ENCSR021FSY ENCSR391EQV=ENCSR391EQV ENCSR519SOC=ENCSR519SOC ENCSR570AUC=ENCSR570AUC ENCSR704HNG=ENCSR704HNG ENCSR723JLG=ENCSR723JLG ENCSR939JZW=ENCSR939JZW ENCSR963TKB=ENCSR963TKB bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR704HNG_ENCFF448RXA
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a21_year assay=DNase-seq donor=ENCDO190HXC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF448RXA/@@download/ENCFF448RXA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR704HNG natural_killer_cell_male_adult_21_year_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR704HNG age=21_year description=ENCSR704HNG_natural_killer_cell_male_adult_21_year_read_depth_normalized_signal_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_natural_killer_cell_view_ENCSR704HNG
+	parent primary_cell_natural_killer_cell off
+	view ENCSR704HNG
+	visibility dense
+	type bigBed
+
+		track ENCSR704HNG_ENCFF576QLL
+		parent primary_cell_natural_killer_cell_view_ENCSR704HNG off
+		subGroups age=a21_year assay=DNase-seq donor=ENCDO190HXC label=unknown view=ENCSR704HNG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF576QLL/@@download/ENCFF576QLL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR704HNG natural_killer_cell_male_adult_21_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR704HNG age=21_year description=ENCSR704HNG_natural_killer_cell_male_adult_21_year_peaks_ donor=ENCDO190HXC sex=male view=ENCSR704HNG 
+		view ENCSR704HNG
+
+	track ENCSR723JLG_ENCFF544OID
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF544OID/@@download/ENCFF544OID.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR723JLG natural_killer_cell_female_adult_34_years_ (read-depth normalized si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR723JLG age=34_year description=ENCSR723JLG_natural_killer_cell_female_adult_34_years_read_depth_normalized_signal_ donor=ENCDO579CCQ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_natural_killer_cell_view_ENCSR723JLG
+	parent primary_cell_natural_killer_cell off
+	view ENCSR723JLG
+	visibility dense
+	type bigBed
+
+		track ENCSR723JLG_ENCFF399IXJ
+		parent primary_cell_natural_killer_cell_view_ENCSR723JLG off
+		subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=ENCSR723JLG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF399IXJ/@@download/ENCFF399IXJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR723JLG natural_killer_cell_female_adult_34_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR723JLG age=34_year description=ENCSR723JLG_natural_killer_cell_female_adult_34_years_peaks_ donor=ENCDO579CCQ sex=female view=ENCSR723JLG 
+		view ENCSR723JLG
+
+		track ENCSR723JLG_ENCFF623KLE
+		parent primary_cell_natural_killer_cell_view_ENCSR723JLG off
+		subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=ENCSR723JLG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF623KLE/@@download/ENCFF623KLE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF623KLE 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR723JLG age=34_year description=ENCFF623KLE_9state_DNase_ donor=ENCDO579CCQ sex=female view=ENCSR723JLG 
+		view ENCSR723JLG
+
+	track ENCSR570AUC_ENCFF428SHV
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF428SHV/@@download/ENCFF428SHV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR570AUC natural_killer_cell_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR570AUC age=37_year description=ENCSR570AUC_natural_killer_cell_male_adult_37_years_fold_change_over_control_ donor=ENCDO028NGF sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_natural_killer_cell_view_ENCSR570AUC
+	parent primary_cell_natural_killer_cell off
+	view ENCSR570AUC
+	visibility dense
+	type bigBed
+
+		track ENCSR570AUC_ENCFF876VUG
+		parent primary_cell_natural_killer_cell_view_ENCSR570AUC off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR570AUC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF876VUG/@@download/ENCFF876VUG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR570AUC natural_killer_cell_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR570AUC age=37_year description=ENCSR570AUC_natural_killer_cell_male_adult_37_years_stable_peaks_ donor=ENCDO028NGF sex=male view=ENCSR570AUC 
+		view ENCSR570AUC
+
+		track ENCSR570AUC_ENCFF881OTM
+		parent primary_cell_natural_killer_cell_view_ENCSR570AUC off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR570AUC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF881OTM/@@download/ENCFF881OTM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF881OTM 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR570AUC age=37_year description=ENCFF881OTM_9state_DNase_ donor=ENCDO028NGF sex=male view=ENCSR570AUC 
+		view ENCSR570AUC
+
+		track ENCSR570AUC_ENCFF529UWB
+		parent primary_cell_natural_killer_cell_view_ENCSR570AUC off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR570AUC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF529UWB/@@download/ENCFF529UWB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF529UWB 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR570AUC age=37_year description=ENCFF529UWB_5group_ donor=ENCDO028NGF sex=male view=ENCSR570AUC 
+		view ENCSR570AUC
+
+		track ENCSR570AUC_ENCFF438CBN
+		parent primary_cell_natural_killer_cell_view_ENCSR570AUC off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR570AUC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF438CBN/@@download/ENCFF438CBN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF438CBN 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR570AUC age=37_year description=ENCFF438CBN_9state_H3K4me3_ donor=ENCDO028NGF sex=male view=ENCSR570AUC 
+		view ENCSR570AUC
+
+		track ENCSR570AUC_ENCFF272GAM
+		parent primary_cell_natural_killer_cell_view_ENCSR570AUC off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR570AUC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF272GAM/@@download/ENCFF272GAM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF272GAM 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR570AUC age=37_year description=ENCFF272GAM_9state_H3K27ac_ donor=ENCDO028NGF sex=male view=ENCSR570AUC 
+		view ENCSR570AUC
+
+	track ENCSR391EQV_ENCFF238EMY
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF238EMY/@@download/ENCFF238EMY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR391EQV natural_killer_cell_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR391EQV age=37_year description=ENCSR391EQV_natural_killer_cell_male_adult_37_years_fold_change_over_control_ donor=ENCDO028NGF sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_natural_killer_cell_view_ENCSR391EQV
+	parent primary_cell_natural_killer_cell off
+	view ENCSR391EQV
+	visibility dense
+	type bigBed
+
+		track ENCSR391EQV_ENCFF324PZA
+		parent primary_cell_natural_killer_cell_view_ENCSR391EQV off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K27ac view=ENCSR391EQV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF324PZA/@@download/ENCFF324PZA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR391EQV natural_killer_cell_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR391EQV age=37_year description=ENCSR391EQV_natural_killer_cell_male_adult_37_years_stable_peaks_ donor=ENCDO028NGF sex=male view=ENCSR391EQV 
+		view ENCSR391EQV
+
+		track ENCSR391EQV_ENCFF881OTM
+		parent primary_cell_natural_killer_cell_view_ENCSR391EQV off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K27ac view=ENCSR391EQV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF881OTM/@@download/ENCFF881OTM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF881OTM 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR391EQV age=37_year description=ENCFF881OTM_9state_DNase_ donor=ENCDO028NGF sex=male view=ENCSR391EQV 
+		view ENCSR391EQV
+
+		track ENCSR391EQV_ENCFF529UWB
+		parent primary_cell_natural_killer_cell_view_ENCSR391EQV off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K27ac view=ENCSR391EQV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF529UWB/@@download/ENCFF529UWB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF529UWB 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR391EQV age=37_year description=ENCFF529UWB_5group_ donor=ENCDO028NGF sex=male view=ENCSR391EQV 
+		view ENCSR391EQV
+
+		track ENCSR391EQV_ENCFF438CBN
+		parent primary_cell_natural_killer_cell_view_ENCSR391EQV off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K27ac view=ENCSR391EQV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF438CBN/@@download/ENCFF438CBN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF438CBN 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR391EQV age=37_year description=ENCFF438CBN_9state_H3K4me3_ donor=ENCDO028NGF sex=male view=ENCSR391EQV 
+		view ENCSR391EQV
+
+		track ENCSR391EQV_ENCFF272GAM
+		parent primary_cell_natural_killer_cell_view_ENCSR391EQV off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K27ac view=ENCSR391EQV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF272GAM/@@download/ENCFF272GAM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF272GAM 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR391EQV age=37_year description=ENCFF272GAM_9state_H3K27ac_ donor=ENCDO028NGF sex=male view=ENCSR391EQV 
+		view ENCSR391EQV
+
+	track ENCSR357XTU_ENCFF471XMJ
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO028NGF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF471XMJ/@@download/ENCFF471XMJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR357XTU natural_killer_cell_male_adult_37_years_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR357XTU age=37_year description=ENCSR357XTU_natural_killer_cell_male_adult_37_years_signal_of_unique_reads_ donor=ENCDO028NGF sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR939JZW_ENCFF269TUJ
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF269TUJ/@@download/ENCFF269TUJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR939JZW natural_killer_cell_male_adult_21_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR939JZW age=21_year description=ENCSR939JZW_natural_killer_cell_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_natural_killer_cell_view_ENCSR939JZW
+	parent primary_cell_natural_killer_cell off
+	view ENCSR939JZW
+	visibility dense
+	type bigBed
+
+		track ENCSR939JZW_ENCFF949OXF
+		parent primary_cell_natural_killer_cell_view_ENCSR939JZW off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27me3 view=ENCSR939JZW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF949OXF/@@download/ENCFF949OXF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR939JZW natural_killer_cell_male_adult_21_year_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR939JZW age=21_year description=ENCSR939JZW_natural_killer_cell_male_adult_21_year_stable_peaks_ donor=ENCDO190HXC sex=male view=ENCSR939JZW 
+		view ENCSR939JZW
+
+	track ENCSR519SOC_ENCFF090VWS
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF090VWS/@@download/ENCFF090VWS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR519SOC natural_killer_cell_male_adult_21_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR519SOC age=21_year description=ENCSR519SOC_natural_killer_cell_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_natural_killer_cell_view_ENCSR519SOC
+	parent primary_cell_natural_killer_cell off
+	view ENCSR519SOC
+	visibility dense
+	type bigBed
+
+		track ENCSR519SOC_ENCFF582VFP
+		parent primary_cell_natural_killer_cell_view_ENCSR519SOC off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K36me3 view=ENCSR519SOC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF582VFP/@@download/ENCFF582VFP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR519SOC natural_killer_cell_male_adult_21_year_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR519SOC age=21_year description=ENCSR519SOC_natural_killer_cell_male_adult_21_year_stable_peaks_ donor=ENCDO190HXC sex=male view=ENCSR519SOC 
+		view ENCSR519SOC
+
+	track ENCSR963TKB_ENCFF204KCP
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF204KCP/@@download/ENCFF204KCP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR963TKB natural_killer_cell_male_adult_21_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR963TKB age=21_year description=ENCSR963TKB_natural_killer_cell_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_natural_killer_cell_view_ENCSR963TKB
+	parent primary_cell_natural_killer_cell off
+	view ENCSR963TKB
+	visibility dense
+	type bigBed
+
+		track ENCSR963TKB_ENCFF212OUH
+		parent primary_cell_natural_killer_cell_view_ENCSR963TKB off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K4me1 view=ENCSR963TKB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF212OUH/@@download/ENCFF212OUH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR963TKB natural_killer_cell_male_adult_21_year_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR963TKB age=21_year description=ENCSR963TKB_natural_killer_cell_male_adult_21_year_stable_peaks_ donor=ENCDO190HXC sex=male view=ENCSR963TKB 
+		view ENCSR963TKB
+
+	track ENCSR021FSY_ENCFF292VWV
+	parent primary_cell_natural_killer_cell off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF292VWV/@@download/ENCFF292VWV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR021FSY natural_killer_cell_male_adult_21_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR021FSY age=21_year description=ENCSR021FSY_natural_killer_cell_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_natural_killer_cell_view_ENCSR021FSY
+	parent primary_cell_natural_killer_cell off
+	view ENCSR021FSY
+	visibility dense
+	type bigBed
+
+		track ENCSR021FSY_ENCFF412EMX
+		parent primary_cell_natural_killer_cell_view_ENCSR021FSY off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K9me3 view=ENCSR021FSY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF412EMX/@@download/ENCFF412EMX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR021FSY natural_killer_cell_male_adult_21_year_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR021FSY age=21_year description=ENCSR021FSY_natural_killer_cell_male_adult_21_year_peaks_ donor=ENCDO190HXC sex=male view=ENCSR021FSY 
+		view ENCSR021FSY
+

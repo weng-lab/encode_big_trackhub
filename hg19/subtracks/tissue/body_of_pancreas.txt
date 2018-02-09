@@ -1,0 +1,1161 @@
+
+track tissue_body_of_pancreas
+parent super_tissue
+compositeTrack on
+shortLabel body of pancreas
+longLabel body of pancreas (32 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR055WBT=ENCSR055WBT ENCSR265PFQ=ENCSR265PFQ ENCSR307PFP=ENCSR307PFP ENCSR348TQM=ENCSR348TQM ENCSR408XTO=ENCSR408XTO ENCSR429XBU=ENCSR429XBU ENCSR484DDO=ENCSR484DDO ENCSR517FVL=ENCSR517FVL ENCSR520BIM=ENCSR520BIM ENCSR523JCB=ENCSR523JCB ENCSR524OCB=ENCSR524OCB ENCSR554RQQ=ENCSR554RQQ ENCSR572DUJ=ENCSR572DUJ ENCSR596PFU=ENCSR596PFU ENCSR610EFT=ENCSR610EFT ENCSR689SFJ=ENCSR689SFJ ENCSR719COF=ENCSR719COF ENCSR748TFF=ENCSR748TFF ENCSR760EGQ=ENCSR760EGQ ENCSR774CFO=ENCSR774CFO ENCSR827NKO=ENCSR827NKO ENCSR863TAL=ENCSR863TAL ENCSR876DCP=ENCSR876DCP ENCSR903GLL=ENCSR903GLL ENCSR977CEC=ENCSR977CEC ENCSR979DMN=ENCSR979DMN bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR524OCB_ENCFF625VDG
+	parent tissue_body_of_pancreas off
+	subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF625VDG/@@download/ENCFF625VDG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR524OCB body_of_pancreas_female_adult_51_year_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR524OCB age=51_year description=ENCSR524OCB_body_of_pancreas_female_adult_51_year_read_depth_normalized_signal_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR524OCB
+	parent tissue_body_of_pancreas off
+	view ENCSR524OCB
+	visibility dense
+	type bigBed
+
+		track ENCSR524OCB_ENCFF643YQD
+		parent tissue_body_of_pancreas_view_ENCSR524OCB off
+		subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=ENCSR524OCB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF643YQD/@@download/ENCFF643YQD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR524OCB body_of_pancreas_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR524OCB age=51_year description=ENCSR524OCB_body_of_pancreas_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR524OCB 
+		view ENCSR524OCB
+
+	track ENCSR554RQQ_ENCFF982WVN
+	parent tissue_body_of_pancreas off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF982WVN/@@download/ENCFF982WVN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR554RQQ body_of_pancreas_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR554RQQ age=54_year description=ENCSR554RQQ_body_of_pancreas_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR554RQQ
+	parent tissue_body_of_pancreas off
+	view ENCSR554RQQ
+	visibility dense
+	type bigBed
+
+		track ENCSR554RQQ_ENCFF485WGE
+		parent tissue_body_of_pancreas_view_ENCSR554RQQ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR554RQQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF485WGE/@@download/ENCFF485WGE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR554RQQ body_of_pancreas_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR554RQQ age=54_year description=ENCSR554RQQ_body_of_pancreas_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR554RQQ 
+		view ENCSR554RQQ
+
+		track ENCSR554RQQ_ENCFF145ZWI
+		parent tissue_body_of_pancreas_view_ENCSR554RQQ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR554RQQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF145ZWI/@@download/ENCFF145ZWI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF145ZWI 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR554RQQ age=54_year description=ENCFF145ZWI_9state_DNase_ donor=ENCDO451RUA sex=male view=ENCSR554RQQ 
+		view ENCSR554RQQ
+
+		track ENCSR554RQQ_ENCFF883LWA
+		parent tissue_body_of_pancreas_view_ENCSR554RQQ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR554RQQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF883LWA/@@download/ENCFF883LWA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF883LWA 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR554RQQ age=54_year description=ENCFF883LWA_5group_ donor=ENCDO451RUA sex=male view=ENCSR554RQQ 
+		view ENCSR554RQQ
+
+		track ENCSR554RQQ_ENCFF653VHM
+		parent tissue_body_of_pancreas_view_ENCSR554RQQ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR554RQQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF653VHM/@@download/ENCFF653VHM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF653VHM 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR554RQQ age=54_year description=ENCFF653VHM_9state_H3K4me3_ donor=ENCDO451RUA sex=male view=ENCSR554RQQ 
+		view ENCSR554RQQ
+
+	track ENCSR876DCP_ENCFF527JEF
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF527JEF/@@download/ENCFF527JEF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR876DCP body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR876DCP age=37_year description=ENCSR876DCP_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR876DCP
+	parent tissue_body_of_pancreas off
+	view ENCSR876DCP
+	visibility dense
+	type bigBed
+
+		track ENCSR876DCP_ENCFF102LZH
+		parent tissue_body_of_pancreas_view_ENCSR876DCP off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR876DCP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF102LZH/@@download/ENCFF102LZH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR876DCP body_of_pancreas_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR876DCP age=37_year description=ENCSR876DCP_body_of_pancreas_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR876DCP 
+		view ENCSR876DCP
+
+		track ENCSR876DCP_ENCFF831XUQ
+		parent tissue_body_of_pancreas_view_ENCSR876DCP off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR876DCP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF831XUQ/@@download/ENCFF831XUQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF831XUQ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR876DCP age=37_year description=ENCFF831XUQ_9state_DNase_ donor=ENCDO845WKR sex=male view=ENCSR876DCP 
+		view ENCSR876DCP
+
+		track ENCSR876DCP_ENCFF768JUC
+		parent tissue_body_of_pancreas_view_ENCSR876DCP off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR876DCP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF768JUC/@@download/ENCFF768JUC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF768JUC 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR876DCP age=37_year description=ENCFF768JUC_5group_ donor=ENCDO845WKR sex=male view=ENCSR876DCP 
+		view ENCSR876DCP
+
+		track ENCSR876DCP_ENCFF710OMC
+		parent tissue_body_of_pancreas_view_ENCSR876DCP off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR876DCP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF710OMC/@@download/ENCFF710OMC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF710OMC 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR876DCP age=37_year description=ENCFF710OMC_9state_H3K27ac_ donor=ENCDO845WKR sex=male view=ENCSR876DCP 
+		view ENCSR876DCP
+
+		track ENCSR876DCP_ENCFF125HAZ
+		parent tissue_body_of_pancreas_view_ENCSR876DCP off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR876DCP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF125HAZ/@@download/ENCFF125HAZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF125HAZ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR876DCP age=37_year description=ENCFF125HAZ_9state_H3K4me3_ donor=ENCDO845WKR sex=male view=ENCSR876DCP 
+		view ENCSR876DCP
+
+	track ENCSR265PFQ_ENCFF963ZQQ
+	parent tissue_body_of_pancreas off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF963ZQQ/@@download/ENCFF963ZQQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR265PFQ body_of_pancreas_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR265PFQ age=54_year description=ENCSR265PFQ_body_of_pancreas_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR265PFQ
+	parent tissue_body_of_pancreas off
+	view ENCSR265PFQ
+	visibility dense
+	type bigBed
+
+		track ENCSR265PFQ_ENCFF533KRA
+		parent tissue_body_of_pancreas_view_ENCSR265PFQ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR265PFQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF533KRA/@@download/ENCFF533KRA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR265PFQ body_of_pancreas_male_adult_54_years_ (pseudoreplicated idr threshol
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR265PFQ age=54_year description=ENCSR265PFQ_body_of_pancreas_male_adult_54_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO451RUA sex=male view=ENCSR265PFQ 
+		view ENCSR265PFQ
+
+	track ENCSR307PFP_ENCFF186ZHF
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF186ZHF/@@download/ENCFF186ZHF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR307PFP body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR307PFP age=37_year description=ENCSR307PFP_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR307PFP
+	parent tissue_body_of_pancreas off
+	view ENCSR307PFP
+	visibility dense
+	type bigBed
+
+		track ENCSR307PFP_ENCFF730BBV
+		parent tissue_body_of_pancreas_view_ENCSR307PFP off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR307PFP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF730BBV/@@download/ENCFF730BBV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR307PFP body_of_pancreas_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR307PFP age=37_year description=ENCSR307PFP_body_of_pancreas_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR307PFP 
+		view ENCSR307PFP
+
+	track ENCSR408XTO_ENCFF519LVF
+	parent tissue_body_of_pancreas off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF519LVF/@@download/ENCFF519LVF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR408XTO body_of_pancreas_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR408XTO age=51_year description=ENCSR408XTO_body_of_pancreas_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR408XTO
+	parent tissue_body_of_pancreas off
+	view ENCSR408XTO
+	visibility dense
+	type bigBed
+
+		track ENCSR408XTO_ENCFF916PHB
+		parent tissue_body_of_pancreas_view_ENCSR408XTO off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR408XTO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF916PHB/@@download/ENCFF916PHB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR408XTO body_of_pancreas_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR408XTO age=51_year description=ENCSR408XTO_body_of_pancreas_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR408XTO 
+		view ENCSR408XTO
+
+	track ENCSR484DDO_ENCFF040FDV
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF040FDV/@@download/ENCFF040FDV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR484DDO body_of_pancreas_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR484DDO age=53_year description=ENCSR484DDO_body_of_pancreas_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR484DDO
+	parent tissue_body_of_pancreas off
+	view ENCSR484DDO
+	visibility dense
+	type bigBed
+
+		track ENCSR484DDO_ENCFF804WSY
+		parent tissue_body_of_pancreas_view_ENCSR484DDO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR484DDO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF804WSY/@@download/ENCFF804WSY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR484DDO body_of_pancreas_female_adult_53_years_ (pseudoreplicated idr thresh
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR484DDO age=53_year description=ENCSR484DDO_body_of_pancreas_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR484DDO 
+		view ENCSR484DDO
+
+	track ENCSR520BIM_ENCFF011ZFZ
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF011ZFZ/@@download/ENCFF011ZFZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR520BIM body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR520BIM age=37_year description=ENCSR520BIM_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR520BIM
+	parent tissue_body_of_pancreas off
+	view ENCSR520BIM
+	visibility dense
+	type bigBed
+
+		track ENCSR520BIM_ENCFF980LZX
+		parent tissue_body_of_pancreas_view_ENCSR520BIM off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR520BIM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF980LZX/@@download/ENCFF980LZX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR520BIM body_of_pancreas_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR520BIM age=37_year description=ENCSR520BIM_body_of_pancreas_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR520BIM 
+		view ENCSR520BIM
+
+		track ENCSR520BIM_ENCFF831XUQ
+		parent tissue_body_of_pancreas_view_ENCSR520BIM off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR520BIM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF831XUQ/@@download/ENCFF831XUQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF831XUQ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR520BIM age=37_year description=ENCFF831XUQ_9state_DNase_ donor=ENCDO845WKR sex=male view=ENCSR520BIM 
+		view ENCSR520BIM
+
+		track ENCSR520BIM_ENCFF768JUC
+		parent tissue_body_of_pancreas_view_ENCSR520BIM off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR520BIM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF768JUC/@@download/ENCFF768JUC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF768JUC 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR520BIM age=37_year description=ENCFF768JUC_5group_ donor=ENCDO845WKR sex=male view=ENCSR520BIM 
+		view ENCSR520BIM
+
+		track ENCSR520BIM_ENCFF710OMC
+		parent tissue_body_of_pancreas_view_ENCSR520BIM off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR520BIM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF710OMC/@@download/ENCFF710OMC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF710OMC 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR520BIM age=37_year description=ENCFF710OMC_9state_H3K27ac_ donor=ENCDO845WKR sex=male view=ENCSR520BIM 
+		view ENCSR520BIM
+
+		track ENCSR520BIM_ENCFF125HAZ
+		parent tissue_body_of_pancreas_view_ENCSR520BIM off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR520BIM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF125HAZ/@@download/ENCFF125HAZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF125HAZ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR520BIM age=37_year description=ENCFF125HAZ_9state_H3K4me3_ donor=ENCDO845WKR sex=male view=ENCSR520BIM 
+		view ENCSR520BIM
+
+	track ENCSR572DUJ_ENCFF735OVI
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF735OVI/@@download/ENCFF735OVI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR572DUJ body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR572DUJ age=37_year description=ENCSR572DUJ_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR572DUJ
+	parent tissue_body_of_pancreas off
+	view ENCSR572DUJ
+	visibility dense
+	type bigBed
+
+		track ENCSR572DUJ_ENCFF648DRQ
+		parent tissue_body_of_pancreas_view_ENCSR572DUJ off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR572DUJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF648DRQ/@@download/ENCFF648DRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR572DUJ body_of_pancreas_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR572DUJ age=37_year description=ENCSR572DUJ_body_of_pancreas_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR572DUJ 
+		view ENCSR572DUJ
+
+	track ENCSR596PFU_ENCFF090XYL
+	parent tissue_body_of_pancreas off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF090XYL/@@download/ENCFF090XYL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR596PFU body_of_pancreas_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR596PFU age=54_year description=ENCSR596PFU_body_of_pancreas_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR596PFU
+	parent tissue_body_of_pancreas off
+	view ENCSR596PFU
+	visibility dense
+	type bigBed
+
+		track ENCSR596PFU_ENCFF186FLZ
+		parent tissue_body_of_pancreas_view_ENCSR596PFU off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR596PFU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF186FLZ/@@download/ENCFF186FLZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR596PFU body_of_pancreas_male_adult_54_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR596PFU age=54_year description=ENCSR596PFU_body_of_pancreas_male_adult_54_years_stable_peaks_ donor=ENCDO451RUA sex=male view=ENCSR596PFU 
+		view ENCSR596PFU
+
+	track ENCSR748TFF_ENCFF075NHE
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF075NHE/@@download/ENCFF075NHE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR748TFF body_of_pancreas_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR748TFF age=53_year description=ENCSR748TFF_body_of_pancreas_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR748TFF
+	parent tissue_body_of_pancreas off
+	view ENCSR748TFF
+	visibility dense
+	type bigBed
+
+		track ENCSR748TFF_ENCFF710XAY
+		parent tissue_body_of_pancreas_view_ENCSR748TFF off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR748TFF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF710XAY/@@download/ENCFF710XAY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR748TFF body_of_pancreas_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR748TFF age=53_year description=ENCSR748TFF_body_of_pancreas_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR748TFF 
+		view ENCSR748TFF
+
+	track ENCSR033TKS_ENCFF138IWE
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF138IWE/@@download/ENCFF138IWE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR033TKS body_of_pancreas_female_adult_53_years_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR033TKS age=53_year description=ENCSR033TKS_body_of_pancreas_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR099ACU_ENCFF024GTQ
+	parent tissue_body_of_pancreas off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF024GTQ/@@download/ENCFF024GTQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR099ACU body_of_pancreas_female_adult_51_year_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR099ACU age=51_year description=ENCSR099ACU_body_of_pancreas_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR366BLN_ENCFF535YFC
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF535YFC/@@download/ENCFF535YFC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR366BLN body_of_pancreas_female_adult_53_years_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR366BLN age=53_year description=ENCSR366BLN_body_of_pancreas_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR586SYA_ENCFF941CFC
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF941CFC/@@download/ENCFF941CFC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR586SYA body_of_pancreas_female_adult_53_years_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR586SYA age=53_year description=ENCSR586SYA_body_of_pancreas_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR671IYC_ENCFF766TBG
+	parent tissue_body_of_pancreas off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF766TBG/@@download/ENCFF766TBG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR671IYC body_of_pancreas_female_adult_51_year_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR671IYC age=51_year description=ENCSR671IYC_body_of_pancreas_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR918MVG_ENCFF454CAV
+	parent tissue_body_of_pancreas off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF454CAV/@@download/ENCFF454CAV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR918MVG body_of_pancreas_female_adult_51_year_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR918MVG age=51_year description=ENCSR918MVG_body_of_pancreas_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR774CFO_ENCFF824VYR
+	parent tissue_body_of_pancreas off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF824VYR/@@download/ENCFF824VYR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR774CFO body_of_pancreas_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR774CFO age=54_year description=ENCSR774CFO_body_of_pancreas_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR774CFO
+	parent tissue_body_of_pancreas off
+	view ENCSR774CFO
+	visibility dense
+	type bigBed
+
+		track ENCSR774CFO_ENCFF993QAI
+		parent tissue_body_of_pancreas_view_ENCSR774CFO off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27me3 view=ENCSR774CFO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF993QAI/@@download/ENCFF993QAI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR774CFO body_of_pancreas_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR774CFO age=54_year description=ENCSR774CFO_body_of_pancreas_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR774CFO 
+		view ENCSR774CFO
+
+	track ENCSR903GLL_ENCFF771SOT
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF771SOT/@@download/ENCFF771SOT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR903GLL body_of_pancreas_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR903GLL age=53_year description=ENCSR903GLL_body_of_pancreas_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR903GLL
+	parent tissue_body_of_pancreas off
+	view ENCSR903GLL
+	visibility dense
+	type bigBed
+
+		track ENCSR903GLL_ENCFF949UFB
+		parent tissue_body_of_pancreas_view_ENCSR903GLL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=ENCSR903GLL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF949UFB/@@download/ENCFF949UFB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR903GLL body_of_pancreas_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR903GLL age=53_year description=ENCSR903GLL_body_of_pancreas_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR903GLL 
+		view ENCSR903GLL
+
+	track ENCSR977CEC_ENCFF148SAH
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF148SAH/@@download/ENCFF148SAH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR977CEC body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR977CEC age=37_year description=ENCSR977CEC_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR977CEC
+	parent tissue_body_of_pancreas off
+	view ENCSR977CEC
+	visibility dense
+	type bigBed
+
+		track ENCSR977CEC_ENCFF728IPJ
+		parent tissue_body_of_pancreas_view_ENCSR977CEC off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27me3 view=ENCSR977CEC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF728IPJ/@@download/ENCFF728IPJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR977CEC body_of_pancreas_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR977CEC age=37_year description=ENCSR977CEC_body_of_pancreas_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR977CEC 
+		view ENCSR977CEC
+
+	track ENCSR523JCB_ENCFF152AJR
+	parent tissue_body_of_pancreas off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF152AJR/@@download/ENCFF152AJR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR523JCB body_of_pancreas_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR523JCB age=54_year description=ENCSR523JCB_body_of_pancreas_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR523JCB
+	parent tissue_body_of_pancreas off
+	view ENCSR523JCB
+	visibility dense
+	type bigBed
+
+		track ENCSR523JCB_ENCFF584MDG
+		parent tissue_body_of_pancreas_view_ENCSR523JCB off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=ENCSR523JCB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF584MDG/@@download/ENCFF584MDG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR523JCB body_of_pancreas_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR523JCB age=54_year description=ENCSR523JCB_body_of_pancreas_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR523JCB 
+		view ENCSR523JCB
+
+	track ENCSR689SFJ_ENCFF998DTL
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF998DTL/@@download/ENCFF998DTL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR689SFJ body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR689SFJ age=37_year description=ENCSR689SFJ_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR689SFJ
+	parent tissue_body_of_pancreas off
+	view ENCSR689SFJ
+	visibility dense
+	type bigBed
+
+		track ENCSR689SFJ_ENCFF121TTW
+		parent tissue_body_of_pancreas_view_ENCSR689SFJ off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=ENCSR689SFJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF121TTW/@@download/ENCFF121TTW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR689SFJ body_of_pancreas_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR689SFJ age=37_year description=ENCSR689SFJ_body_of_pancreas_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR689SFJ 
+		view ENCSR689SFJ
+
+	track ENCSR348TQM_ENCFF197VED
+	parent tissue_body_of_pancreas off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF197VED/@@download/ENCFF197VED.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR348TQM body_of_pancreas_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR348TQM age=54_year description=ENCSR348TQM_body_of_pancreas_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR348TQM
+	parent tissue_body_of_pancreas off
+	view ENCSR348TQM
+	visibility dense
+	type bigBed
+
+		track ENCSR348TQM_ENCFF617QRZ
+		parent tissue_body_of_pancreas_view_ENCSR348TQM off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me1 view=ENCSR348TQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF617QRZ/@@download/ENCFF617QRZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR348TQM body_of_pancreas_male_adult_54_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR348TQM age=54_year description=ENCSR348TQM_body_of_pancreas_male_adult_54_years_stable_peaks_ donor=ENCDO451RUA sex=male view=ENCSR348TQM 
+		view ENCSR348TQM
+
+	track ENCSR429XBU_ENCFF313WGN
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF313WGN/@@download/ENCFF313WGN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR429XBU body_of_pancreas_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR429XBU age=53_year description=ENCSR429XBU_body_of_pancreas_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR429XBU
+	parent tissue_body_of_pancreas off
+	view ENCSR429XBU
+	visibility dense
+	type bigBed
+
+		track ENCSR429XBU_ENCFF451VAZ
+		parent tissue_body_of_pancreas_view_ENCSR429XBU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR429XBU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF451VAZ/@@download/ENCFF451VAZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR429XBU body_of_pancreas_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR429XBU age=53_year description=ENCSR429XBU_body_of_pancreas_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR429XBU 
+		view ENCSR429XBU
+
+	track ENCSR827NKO_ENCFF452ETW
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF452ETW/@@download/ENCFF452ETW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR827NKO body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR827NKO age=37_year description=ENCSR827NKO_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR827NKO
+	parent tissue_body_of_pancreas off
+	view ENCSR827NKO
+	visibility dense
+	type bigBed
+
+		track ENCSR827NKO_ENCFF782LVR
+		parent tissue_body_of_pancreas_view_ENCSR827NKO off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me1 view=ENCSR827NKO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF782LVR/@@download/ENCFF782LVR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR827NKO body_of_pancreas_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR827NKO age=37_year description=ENCSR827NKO_body_of_pancreas_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR827NKO 
+		view ENCSR827NKO
+
+	track ENCSR719COF_ENCFF797GJG
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF797GJG/@@download/ENCFF797GJG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR719COF body_of_pancreas_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR719COF age=53_year description=ENCSR719COF_body_of_pancreas_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR719COF
+	parent tissue_body_of_pancreas off
+	view ENCSR719COF
+	visibility dense
+	type bigBed
+
+		track ENCSR719COF_ENCFF982DNS
+		parent tissue_body_of_pancreas_view_ENCSR719COF off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR719COF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982DNS/@@download/ENCFF982DNS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR719COF body_of_pancreas_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR719COF age=53_year description=ENCSR719COF_body_of_pancreas_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR719COF 
+		view ENCSR719COF
+
+	track ENCSR760EGQ_ENCFF256LVM
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF256LVM/@@download/ENCFF256LVM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR760EGQ body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR760EGQ age=37_year description=ENCSR760EGQ_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR760EGQ
+	parent tissue_body_of_pancreas off
+	view ENCSR760EGQ
+	visibility dense
+	type bigBed
+
+		track ENCSR760EGQ_ENCFF396WFR
+		parent tissue_body_of_pancreas_view_ENCSR760EGQ off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=ENCSR760EGQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF396WFR/@@download/ENCFF396WFR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR760EGQ body_of_pancreas_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR760EGQ age=37_year description=ENCSR760EGQ_body_of_pancreas_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR760EGQ 
+		view ENCSR760EGQ
+
+	track ENCSR863TAL_ENCFF317XSC
+	parent tissue_body_of_pancreas off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF317XSC/@@download/ENCFF317XSC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR863TAL body_of_pancreas_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR863TAL age=54_year description=ENCSR863TAL_body_of_pancreas_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR863TAL
+	parent tissue_body_of_pancreas off
+	view ENCSR863TAL
+	visibility dense
+	type bigBed
+
+		track ENCSR863TAL_ENCFF779CEN
+		parent tissue_body_of_pancreas_view_ENCSR863TAL off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K9me3 view=ENCSR863TAL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF779CEN/@@download/ENCFF779CEN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR863TAL body_of_pancreas_male_adult_54_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR863TAL age=54_year description=ENCSR863TAL_body_of_pancreas_male_adult_54_years_stable_peaks_ donor=ENCDO451RUA sex=male view=ENCSR863TAL 
+		view ENCSR863TAL
+
+	track ENCSR055WBT_ENCFF576AFZ
+	parent tissue_body_of_pancreas off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF576AFZ/@@download/ENCFF576AFZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR055WBT body_of_pancreas_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR055WBT age=37_year description=ENCSR055WBT_body_of_pancreas_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR055WBT
+	parent tissue_body_of_pancreas off
+	view ENCSR055WBT
+	visibility dense
+	type bigBed
+
+		track ENCSR055WBT_ENCFF503WYG
+		parent tissue_body_of_pancreas_view_ENCSR055WBT off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=POLR2A view=ENCSR055WBT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF503WYG/@@download/ENCFF503WYG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR055WBT body_of_pancreas_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR055WBT age=37_year description=ENCSR055WBT_body_of_pancreas_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR055WBT 
+		view ENCSR055WBT
+
+	track ENCSR517FVL_ENCFF604WTQ
+	parent tissue_body_of_pancreas off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF604WTQ/@@download/ENCFF604WTQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR517FVL body_of_pancreas_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR517FVL age=54_year description=ENCSR517FVL_body_of_pancreas_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR517FVL
+	parent tissue_body_of_pancreas off
+	view ENCSR517FVL
+	visibility dense
+	type bigBed
+
+		track ENCSR517FVL_ENCFF889ZWT
+		parent tissue_body_of_pancreas_view_ENCSR517FVL off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=ENCSR517FVL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF889ZWT/@@download/ENCFF889ZWT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR517FVL body_of_pancreas_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR517FVL age=54_year description=ENCSR517FVL_body_of_pancreas_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR517FVL 
+		view ENCSR517FVL
+
+	track ENCSR610EFT_ENCFF501FUQ
+	parent tissue_body_of_pancreas off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF501FUQ/@@download/ENCFF501FUQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR610EFT body_of_pancreas_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR610EFT age=51_year description=ENCSR610EFT_body_of_pancreas_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR610EFT
+	parent tissue_body_of_pancreas off
+	view ENCSR610EFT
+	visibility dense
+	type bigBed
+
+		track ENCSR610EFT_ENCFF801LJI
+		parent tissue_body_of_pancreas_view_ENCSR610EFT off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR610EFT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF801LJI/@@download/ENCFF801LJI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR610EFT body_of_pancreas_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR610EFT age=51_year description=ENCSR610EFT_body_of_pancreas_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR610EFT 
+		view ENCSR610EFT
+
+	track ENCSR979DMN_ENCFF755SZN
+	parent tissue_body_of_pancreas off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF755SZN/@@download/ENCFF755SZN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR979DMN body_of_pancreas_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR979DMN age=53_year description=ENCSR979DMN_body_of_pancreas_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_body_of_pancreas_view_ENCSR979DMN
+	parent tissue_body_of_pancreas off
+	view ENCSR979DMN
+	visibility dense
+	type bigBed
+
+		track ENCSR979DMN_ENCFF436DTD
+		parent tissue_body_of_pancreas_view_ENCSR979DMN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR979DMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF436DTD/@@download/ENCFF436DTD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR979DMN body_of_pancreas_female_adult_53_years_ (pseudoreplicated idr thresh
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR979DMN age=53_year description=ENCSR979DMN_body_of_pancreas_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR979DMN 
+		view ENCSR979DMN
+

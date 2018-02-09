@@ -1,0 +1,159 @@
+
+track primary_cell_trophoblast_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel trophoblast cell
+longLabel trophoblast cell (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000AAW=ENCDO000AAW ENCDO096FKE=ENCDO096FKE ENCDO623MQT=ENCDO623MQT ENCDO646NBP=ENCDO646NBP 
+subGroup2 age age a21_week=21&#32;week a22_week=22&#32;week a23_week=23&#32;week aunknown=unknown 
+subGroup3 view view ENCSR121ZSL=ENCSR121ZSL ENCSR809LCE=ENCSR809LCE bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR121ZSL_ENCFF585BJI
+	parent primary_cell_trophoblast_cell off
+	subGroups age=a21_week assay=DNase-seq donor=ENCDO096FKE label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF585BJI/@@download/ENCFF585BJI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR121ZSL trophoblast_cell_embryo_21_week_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR121ZSL age=21_week description=ENCSR121ZSL_trophoblast_cell_embryo_21_week_read_depth_normalized_signal_ donor=ENCDO096FKE sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_trophoblast_cell_view_ENCSR121ZSL
+	parent primary_cell_trophoblast_cell off
+	view ENCSR121ZSL
+	visibility dense
+	type bigBed
+
+		track ENCSR121ZSL_ENCFF226EPY
+		parent primary_cell_trophoblast_cell_view_ENCSR121ZSL off
+		subGroups age=a21_week assay=DNase-seq donor=ENCDO096FKE label=unknown view=ENCSR121ZSL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF226EPY/@@download/ENCFF226EPY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR121ZSL trophoblast_cell_embryo_21_week_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR121ZSL age=21_week description=ENCSR121ZSL_trophoblast_cell_embryo_21_week_peaks_ donor=ENCDO096FKE sex=unknown view=ENCSR121ZSL 
+		view ENCSR121ZSL
+
+		track ENCSR121ZSL_ENCFF544QKF
+		parent primary_cell_trophoblast_cell_view_ENCSR121ZSL off
+		subGroups age=a21_week assay=DNase-seq donor=ENCDO096FKE label=unknown view=ENCSR121ZSL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF544QKF/@@download/ENCFF544QKF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF544QKF 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR121ZSL age=21_week description=ENCFF544QKF_9state_DNase_ donor=ENCDO096FKE sex=unknown view=ENCSR121ZSL 
+		view ENCSR121ZSL
+
+	track ENCSR809LCE_ENCFF279GVL
+	parent primary_cell_trophoblast_cell off
+	subGroups age=a23_week assay=DNase-seq donor=ENCDO623MQT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF279GVL/@@download/ENCFF279GVL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR809LCE trophoblast_cell_embryo_23_weeks_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR809LCE age=23_week description=ENCSR809LCE_trophoblast_cell_embryo_23_weeks_read_depth_normalized_signal_ donor=ENCDO623MQT sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_trophoblast_cell_view_ENCSR809LCE
+	parent primary_cell_trophoblast_cell off
+	view ENCSR809LCE
+	visibility dense
+	type bigBed
+
+		track ENCSR809LCE_ENCFF957LJF
+		parent primary_cell_trophoblast_cell_view_ENCSR809LCE off
+		subGroups age=a23_week assay=DNase-seq donor=ENCDO623MQT label=unknown view=ENCSR809LCE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF957LJF/@@download/ENCFF957LJF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR809LCE trophoblast_cell_embryo_23_weeks_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR809LCE age=23_week description=ENCSR809LCE_trophoblast_cell_embryo_23_weeks_peaks_ donor=ENCDO623MQT sex=unknown view=ENCSR809LCE 
+		view ENCSR809LCE
+
+		track ENCSR809LCE_ENCFF244MXA
+		parent primary_cell_trophoblast_cell_view_ENCSR809LCE off
+		subGroups age=a23_week assay=DNase-seq donor=ENCDO623MQT label=unknown view=ENCSR809LCE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF244MXA/@@download/ENCFF244MXA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF244MXA 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR809LCE age=23_week description=ENCFF244MXA_9state_DNase_ donor=ENCDO623MQT sex=unknown view=ENCSR809LCE 
+		view ENCSR809LCE
+
+	track ENCSR083HYC_ENCFF612PGC
+	parent primary_cell_trophoblast_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF612PGC/@@download/ENCFF612PGC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR083HYC trophoblast_cell_male_embryo_originated_from_H1_hESC (plus strand si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR083HYC age=unknown description=ENCSR083HYC_trophoblast_cell_male_embryo_originated_from_H1_hESC_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR564OWB_ENCFF302TFR
+	parent primary_cell_trophoblast_cell off
+	subGroups age=a22_week assay=microRNA-seq donor=ENCDO646NBP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF302TFR/@@download/ENCFF302TFR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR564OWB trophoblast_cell_embryo_22_weeks_ (plus strand signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR564OWB age=22_week description=ENCSR564OWB_trophoblast_cell_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO646NBP sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR762CJN_ENCFF211VXZ
+	parent primary_cell_trophoblast_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF211VXZ/@@download/ENCFF211VXZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR762CJN trophoblast_cell_male_embryo_originated_from_H1_hESC (plus strand si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR762CJN age=unknown description=ENCSR762CJN_trophoblast_cell_male_embryo_originated_from_H1_hESC_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+

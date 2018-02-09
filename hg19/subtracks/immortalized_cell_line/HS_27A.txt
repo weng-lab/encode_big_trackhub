@@ -1,0 +1,66 @@
+
+track immortalized_cell_line_HS_27A
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel HS-27A
+longLabel HS-27A (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
+subGroup3 view view ENCSR000EMF=ENCSR000EMF bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EMF_ENCFF815JLG
+	parent immortalized_cell_line_HS_27A off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF815JLG/@@download/ENCFF815JLG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMF HS_27A (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMF age=unknown description=ENCSR000EMF_HS_27A_read_depth_normalized_signal_ donor=ENCDO000AAT sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HS_27A_view_ENCSR000EMF
+	parent immortalized_cell_line_HS_27A off
+	view ENCSR000EMF
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMF_ENCFF494MVU
+		parent immortalized_cell_line_HS_27A_view_ENCSR000EMF off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAT label=unknown view=ENCSR000EMF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF494MVU/@@download/ENCFF494MVU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMF HS_27A (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMF age=unknown description=ENCSR000EMF_HS_27A_peaks_ donor=ENCDO000AAT sex=male view=ENCSR000EMF 
+		view ENCSR000EMF
+
+		track ENCSR000EMF_ENCFF317YON
+		parent immortalized_cell_line_HS_27A_view_ENCSR000EMF off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAT label=unknown view=ENCSR000EMF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF317YON/@@download/ENCFF317YON.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF317YON 9state-DNase DNase-seq on human bone marrow HS27a
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMF age=unknown description=ENCFF317YON_9state_DNase_DNase_seq_on_human_bone_marrow_HS27a donor=ENCDO000AAT sex=male view=ENCSR000EMF 
+		view ENCSR000EMF
+

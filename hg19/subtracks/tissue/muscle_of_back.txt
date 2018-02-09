@@ -1,0 +1,862 @@
+
+track tissue_muscle_of_back
+parent super_tissue
+compositeTrack on
+shortLabel muscle of back
+longLabel muscle of back (25 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO024JHT=ENCDO024JHT ENCDO119ASK=ENCDO119ASK ENCDO148CGW=ENCDO148CGW ENCDO171HMD=ENCDO171HMD ENCDO220PYT=ENCDO220PYT ENCDO375VTO=ENCDO375VTO ENCDO527XLA=ENCDO527XLA ENCDO594VTA=ENCDO594VTA ENCDO597UXW=ENCDO597UXW ENCDO676JUB=ENCDO676JUB ENCDO766MZV=ENCDO766MZV ENCDO817EKT=ENCDO817EKT ENCDO837QWL=ENCDO837QWL ENCDO859GXV=ENCDO859GXV ENCDO863KZW=ENCDO863KZW 
+subGroup2 age age a101_day=101&#32;day a104_day=104&#32;day a105_day=105&#32;day a108_day=108&#32;day a113_day=113&#32;day a115_day=115&#32;day a127_day=127&#32;day a85_day=85&#32;day a91_day=91&#32;day a96_day=96&#32;day a97_day=97&#32;day a98_day=98&#32;day 
+subGroup3 view view ENCSR010ZMK=ENCSR010ZMK ENCSR033STL=ENCSR033STL ENCSR072NBR=ENCSR072NBR ENCSR106RBR=ENCSR106RBR ENCSR141NSQ=ENCSR141NSQ ENCSR174GXG=ENCSR174GXG ENCSR193LYA=ENCSR193LYA ENCSR295ELC=ENCSR295ELC ENCSR317SIH=ENCSR317SIH ENCSR357RED=ENCSR357RED ENCSR438TWI=ENCSR438TWI ENCSR476SDZ=ENCSR476SDZ ENCSR585CGU=ENCSR585CGU ENCSR698CUE=ENCSR698CUE ENCSR786FWF=ENCSR786FWF bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR010ZMK_ENCFF409GXO
+	parent tissue_muscle_of_back off
+	subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF409GXO/@@download/ENCFF409GXO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR010ZMK muscle_of_back_female_embryo_113_days_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR010ZMK age=113_day description=ENCSR010ZMK_muscle_of_back_female_embryo_113_days_read_depth_normalized_signal_ donor=ENCDO676JUB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR010ZMK
+	parent tissue_muscle_of_back off
+	view ENCSR010ZMK
+	visibility dense
+	type bigBed
+
+		track ENCSR010ZMK_ENCFF373EEX
+		parent tissue_muscle_of_back_view_ENCSR010ZMK off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR010ZMK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF373EEX/@@download/ENCFF373EEX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR010ZMK muscle_of_back_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR010ZMK age=113_day description=ENCSR010ZMK_muscle_of_back_female_embryo_113_days_peaks_ donor=ENCDO676JUB sex=female view=ENCSR010ZMK 
+		view ENCSR010ZMK
+
+		track ENCSR010ZMK_ENCFF298UHT
+		parent tissue_muscle_of_back_view_ENCSR010ZMK off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR010ZMK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF298UHT/@@download/ENCFF298UHT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF298UHT 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR010ZMK age=113_day description=ENCFF298UHT_9state_DNase_ donor=ENCDO676JUB sex=female view=ENCSR010ZMK 
+		view ENCSR010ZMK
+
+	track ENCSR033STL_ENCFF770WVR
+	parent tissue_muscle_of_back off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO766MZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF770WVR/@@download/ENCFF770WVR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR033STL muscle_of_back_female_embryo_105_days_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR033STL age=105_day description=ENCSR033STL_muscle_of_back_female_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO766MZV sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR033STL
+	parent tissue_muscle_of_back off
+	view ENCSR033STL
+	visibility dense
+	type bigBed
+
+		track ENCSR033STL_ENCFF894KEI
+		parent tissue_muscle_of_back_view_ENCSR033STL off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO766MZV label=unknown view=ENCSR033STL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF894KEI/@@download/ENCFF894KEI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR033STL muscle_of_back_female_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR033STL age=105_day description=ENCSR033STL_muscle_of_back_female_embryo_105_days_peaks_ donor=ENCDO766MZV sex=female view=ENCSR033STL 
+		view ENCSR033STL
+
+	track ENCSR072NBR_ENCFF789ISN
+	parent tissue_muscle_of_back off
+	subGroups age=a98_day assay=DNase-seq donor=ENCDO837QWL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF789ISN/@@download/ENCFF789ISN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR072NBR muscle_of_back_female_embryo_98_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR072NBR age=98_day description=ENCSR072NBR_muscle_of_back_female_embryo_98_days_read_depth_normalized_signal_ donor=ENCDO837QWL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR072NBR
+	parent tissue_muscle_of_back off
+	view ENCSR072NBR
+	visibility dense
+	type bigBed
+
+		track ENCSR072NBR_ENCFF403GSV
+		parent tissue_muscle_of_back_view_ENCSR072NBR off
+		subGroups age=a98_day assay=DNase-seq donor=ENCDO837QWL label=unknown view=ENCSR072NBR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF403GSV/@@download/ENCFF403GSV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR072NBR muscle_of_back_female_embryo_98_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR072NBR age=98_day description=ENCSR072NBR_muscle_of_back_female_embryo_98_days_peaks_ donor=ENCDO837QWL sex=female view=ENCSR072NBR 
+		view ENCSR072NBR
+
+		track ENCSR072NBR_ENCFF751CCZ
+		parent tissue_muscle_of_back_view_ENCSR072NBR off
+		subGroups age=a98_day assay=DNase-seq donor=ENCDO837QWL label=unknown view=ENCSR072NBR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF751CCZ/@@download/ENCFF751CCZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF751CCZ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR072NBR age=98_day description=ENCFF751CCZ_9state_DNase_ donor=ENCDO837QWL sex=female view=ENCSR072NBR 
+		view ENCSR072NBR
+
+	track ENCSR106RBR_ENCFF646ZEH
+	parent tissue_muscle_of_back off
+	subGroups age=a115_day assay=DNase-seq donor=ENCDO594VTA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF646ZEH/@@download/ENCFF646ZEH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR106RBR muscle_of_back_female_embryo_115_days_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR106RBR age=115_day description=ENCSR106RBR_muscle_of_back_female_embryo_115_days_read_depth_normalized_signal_ donor=ENCDO594VTA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR106RBR
+	parent tissue_muscle_of_back off
+	view ENCSR106RBR
+	visibility dense
+	type bigBed
+
+		track ENCSR106RBR_ENCFF098KIV
+		parent tissue_muscle_of_back_view_ENCSR106RBR off
+		subGroups age=a115_day assay=DNase-seq donor=ENCDO594VTA label=unknown view=ENCSR106RBR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF098KIV/@@download/ENCFF098KIV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR106RBR muscle_of_back_female_embryo_115_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR106RBR age=115_day description=ENCSR106RBR_muscle_of_back_female_embryo_115_days_peaks_ donor=ENCDO594VTA sex=female view=ENCSR106RBR 
+		view ENCSR106RBR
+
+		track ENCSR106RBR_ENCFF220UFR
+		parent tissue_muscle_of_back_view_ENCSR106RBR off
+		subGroups age=a115_day assay=DNase-seq donor=ENCDO594VTA label=unknown view=ENCSR106RBR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF220UFR/@@download/ENCFF220UFR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF220UFR 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR106RBR age=115_day description=ENCFF220UFR_9state_DNase_ donor=ENCDO594VTA sex=female view=ENCSR106RBR 
+		view ENCSR106RBR
+
+	track ENCSR141NSQ_ENCFF290NNN
+	parent tissue_muscle_of_back off
+	subGroups age=a104_day assay=DNase-seq donor=ENCDO024JHT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF290NNN/@@download/ENCFF290NNN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR141NSQ muscle_of_back_male_embryo_104_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR141NSQ age=104_day description=ENCSR141NSQ_muscle_of_back_male_embryo_104_days_read_depth_normalized_signal_ donor=ENCDO024JHT sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR141NSQ
+	parent tissue_muscle_of_back off
+	view ENCSR141NSQ
+	visibility dense
+	type bigBed
+
+		track ENCSR141NSQ_ENCFF490TME
+		parent tissue_muscle_of_back_view_ENCSR141NSQ off
+		subGroups age=a104_day assay=DNase-seq donor=ENCDO024JHT label=unknown view=ENCSR141NSQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF490TME/@@download/ENCFF490TME.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR141NSQ muscle_of_back_male_embryo_104_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR141NSQ age=104_day description=ENCSR141NSQ_muscle_of_back_male_embryo_104_days_peaks_ donor=ENCDO024JHT sex=male view=ENCSR141NSQ 
+		view ENCSR141NSQ
+
+		track ENCSR141NSQ_ENCFF683YMU
+		parent tissue_muscle_of_back_view_ENCSR141NSQ off
+		subGroups age=a104_day assay=DNase-seq donor=ENCDO024JHT label=unknown view=ENCSR141NSQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF683YMU/@@download/ENCFF683YMU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF683YMU 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR141NSQ age=104_day description=ENCFF683YMU_9state_DNase_ donor=ENCDO024JHT sex=male view=ENCSR141NSQ 
+		view ENCSR141NSQ
+
+	track ENCSR174GXG_ENCFF250WPU
+	parent tissue_muscle_of_back off
+	subGroups age=a101_day assay=DNase-seq donor=ENCDO148CGW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF250WPU/@@download/ENCFF250WPU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR174GXG muscle_of_back_male_embryo_101_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR174GXG age=101_day description=ENCSR174GXG_muscle_of_back_male_embryo_101_day_read_depth_normalized_signal_ donor=ENCDO148CGW sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR174GXG
+	parent tissue_muscle_of_back off
+	view ENCSR174GXG
+	visibility dense
+	type bigBed
+
+		track ENCSR174GXG_ENCFF721LMC
+		parent tissue_muscle_of_back_view_ENCSR174GXG off
+		subGroups age=a101_day assay=DNase-seq donor=ENCDO148CGW label=unknown view=ENCSR174GXG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF721LMC/@@download/ENCFF721LMC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR174GXG muscle_of_back_male_embryo_101_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR174GXG age=101_day description=ENCSR174GXG_muscle_of_back_male_embryo_101_day_peaks_ donor=ENCDO148CGW sex=male view=ENCSR174GXG 
+		view ENCSR174GXG
+
+		track ENCSR174GXG_ENCFF953RWV
+		parent tissue_muscle_of_back_view_ENCSR174GXG off
+		subGroups age=a101_day assay=DNase-seq donor=ENCDO148CGW label=unknown view=ENCSR174GXG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF953RWV/@@download/ENCFF953RWV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF953RWV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR174GXG age=101_day description=ENCFF953RWV_9state_DNase_ donor=ENCDO148CGW sex=male view=ENCSR174GXG 
+		view ENCSR174GXG
+
+	track ENCSR193LYA_ENCFF524KOF
+	parent tissue_muscle_of_back off
+	subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF524KOF/@@download/ENCFF524KOF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR193LYA muscle_of_back_female_embryo_85_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR193LYA age=85_day description=ENCSR193LYA_muscle_of_back_female_embryo_85_days_read_depth_normalized_signal_ donor=ENCDO527XLA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR193LYA
+	parent tissue_muscle_of_back off
+	view ENCSR193LYA
+	visibility dense
+	type bigBed
+
+		track ENCSR193LYA_ENCFF454NEH
+		parent tissue_muscle_of_back_view_ENCSR193LYA off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=ENCSR193LYA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF454NEH/@@download/ENCFF454NEH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR193LYA muscle_of_back_female_embryo_85_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR193LYA age=85_day description=ENCSR193LYA_muscle_of_back_female_embryo_85_days_peaks_ donor=ENCDO527XLA sex=female view=ENCSR193LYA 
+		view ENCSR193LYA
+
+		track ENCSR193LYA_ENCFF039TKU
+		parent tissue_muscle_of_back_view_ENCSR193LYA off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=ENCSR193LYA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF039TKU/@@download/ENCFF039TKU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF039TKU 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR193LYA age=85_day description=ENCFF039TKU_9state_DNase_ donor=ENCDO527XLA sex=female view=ENCSR193LYA 
+		view ENCSR193LYA
+
+	track ENCSR295ELC_ENCFF919LYG
+	parent tissue_muscle_of_back off
+	subGroups age=a97_day assay=DNase-seq donor=ENCDO597UXW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF919LYG/@@download/ENCFF919LYG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR295ELC muscle_of_back_male_embryo_97_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR295ELC age=97_day description=ENCSR295ELC_muscle_of_back_male_embryo_97_days_read_depth_normalized_signal_ donor=ENCDO597UXW sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR295ELC
+	parent tissue_muscle_of_back off
+	view ENCSR295ELC
+	visibility dense
+	type bigBed
+
+		track ENCSR295ELC_ENCFF892INC
+		parent tissue_muscle_of_back_view_ENCSR295ELC off
+		subGroups age=a97_day assay=DNase-seq donor=ENCDO597UXW label=unknown view=ENCSR295ELC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF892INC/@@download/ENCFF892INC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR295ELC muscle_of_back_male_embryo_97_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR295ELC age=97_day description=ENCSR295ELC_muscle_of_back_male_embryo_97_days_peaks_ donor=ENCDO597UXW sex=male view=ENCSR295ELC 
+		view ENCSR295ELC
+
+		track ENCSR295ELC_ENCFF721KCY
+		parent tissue_muscle_of_back_view_ENCSR295ELC off
+		subGroups age=a97_day assay=DNase-seq donor=ENCDO597UXW label=unknown view=ENCSR295ELC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF721KCY/@@download/ENCFF721KCY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF721KCY 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR295ELC age=97_day description=ENCFF721KCY_9state_DNase_ donor=ENCDO597UXW sex=male view=ENCSR295ELC 
+		view ENCSR295ELC
+
+	track ENCSR317SIH_ENCFF797LEK
+	parent tissue_muscle_of_back off
+	subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF797LEK/@@download/ENCFF797LEK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR317SIH muscle_of_back_male_embryo_91_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR317SIH age=91_day description=ENCSR317SIH_muscle_of_back_male_embryo_91_day_read_depth_normalized_signal_ donor=ENCDO375VTO sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR317SIH
+	parent tissue_muscle_of_back off
+	view ENCSR317SIH
+	visibility dense
+	type bigBed
+
+		track ENCSR317SIH_ENCFF382ARQ
+		parent tissue_muscle_of_back_view_ENCSR317SIH off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=ENCSR317SIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF382ARQ/@@download/ENCFF382ARQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR317SIH muscle_of_back_male_embryo_91_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR317SIH age=91_day description=ENCSR317SIH_muscle_of_back_male_embryo_91_day_peaks_ donor=ENCDO375VTO sex=male view=ENCSR317SIH 
+		view ENCSR317SIH
+
+		track ENCSR317SIH_ENCFF669LFS
+		parent tissue_muscle_of_back_view_ENCSR317SIH off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=ENCSR317SIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF669LFS/@@download/ENCFF669LFS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF669LFS 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR317SIH age=91_day description=ENCFF669LFS_9state_DNase_ donor=ENCDO375VTO sex=male view=ENCSR317SIH 
+		view ENCSR317SIH
+
+	track ENCSR357RED_ENCFF197HFA
+	parent tissue_muscle_of_back off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF197HFA/@@download/ENCFF197HFA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR357RED muscle_of_back_male_embryo_105_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR357RED age=105_day description=ENCSR357RED_muscle_of_back_male_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO171HMD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR357RED
+	parent tissue_muscle_of_back off
+	view ENCSR357RED
+	visibility dense
+	type bigBed
+
+		track ENCSR357RED_ENCFF244EPE
+		parent tissue_muscle_of_back_view_ENCSR357RED off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=ENCSR357RED 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF244EPE/@@download/ENCFF244EPE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR357RED muscle_of_back_male_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR357RED age=105_day description=ENCSR357RED_muscle_of_back_male_embryo_105_days_peaks_ donor=ENCDO171HMD sex=male view=ENCSR357RED 
+		view ENCSR357RED
+
+		track ENCSR357RED_ENCFF073EXW
+		parent tissue_muscle_of_back_view_ENCSR357RED off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=ENCSR357RED 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF073EXW/@@download/ENCFF073EXW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF073EXW 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR357RED age=105_day description=ENCFF073EXW_9state_DNase_ donor=ENCDO171HMD sex=male view=ENCSR357RED 
+		view ENCSR357RED
+
+	track ENCSR438TWI_ENCFF571ETJ
+	parent tissue_muscle_of_back off
+	subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF571ETJ/@@download/ENCFF571ETJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR438TWI muscle_of_back_male_embryo_96_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR438TWI age=96_day description=ENCSR438TWI_muscle_of_back_male_embryo_96_days_read_depth_normalized_signal_ donor=ENCDO817EKT sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR438TWI
+	parent tissue_muscle_of_back off
+	view ENCSR438TWI
+	visibility dense
+	type bigBed
+
+		track ENCSR438TWI_ENCFF153IMX
+		parent tissue_muscle_of_back_view_ENCSR438TWI off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=ENCSR438TWI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF153IMX/@@download/ENCFF153IMX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR438TWI muscle_of_back_male_embryo_96_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR438TWI age=96_day description=ENCSR438TWI_muscle_of_back_male_embryo_96_days_peaks_ donor=ENCDO817EKT sex=male view=ENCSR438TWI 
+		view ENCSR438TWI
+
+		track ENCSR438TWI_ENCFF707SIJ
+		parent tissue_muscle_of_back_view_ENCSR438TWI off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=ENCSR438TWI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF707SIJ/@@download/ENCFF707SIJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF707SIJ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR438TWI age=96_day description=ENCFF707SIJ_9state_DNase_ donor=ENCDO817EKT sex=male view=ENCSR438TWI 
+		view ENCSR438TWI
+
+	track ENCSR476SDZ_ENCFF676VSI
+	parent tissue_muscle_of_back off
+	subGroups age=a108_day assay=DNase-seq donor=ENCDO119ASK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF676VSI/@@download/ENCFF676VSI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR476SDZ muscle_of_back_male_embryo_108_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR476SDZ age=108_day description=ENCSR476SDZ_muscle_of_back_male_embryo_108_days_read_depth_normalized_signal_ donor=ENCDO119ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR476SDZ
+	parent tissue_muscle_of_back off
+	view ENCSR476SDZ
+	visibility dense
+	type bigBed
+
+		track ENCSR476SDZ_ENCFF134WPJ
+		parent tissue_muscle_of_back_view_ENCSR476SDZ off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO119ASK label=unknown view=ENCSR476SDZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF134WPJ/@@download/ENCFF134WPJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR476SDZ muscle_of_back_male_embryo_108_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR476SDZ age=108_day description=ENCSR476SDZ_muscle_of_back_male_embryo_108_days_peaks_ donor=ENCDO119ASK sex=male view=ENCSR476SDZ 
+		view ENCSR476SDZ
+
+		track ENCSR476SDZ_ENCFF203BYO
+		parent tissue_muscle_of_back_view_ENCSR476SDZ off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO119ASK label=unknown view=ENCSR476SDZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF203BYO/@@download/ENCFF203BYO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF203BYO 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR476SDZ age=108_day description=ENCFF203BYO_9state_DNase_ donor=ENCDO119ASK sex=male view=ENCSR476SDZ 
+		view ENCSR476SDZ
+
+	track ENCSR585CGU_ENCFF224OAL
+	parent tissue_muscle_of_back off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO863KZW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF224OAL/@@download/ENCFF224OAL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR585CGU muscle_of_back_female_embryo_105_days_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR585CGU age=105_day description=ENCSR585CGU_muscle_of_back_female_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO863KZW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR585CGU
+	parent tissue_muscle_of_back off
+	view ENCSR585CGU
+	visibility dense
+	type bigBed
+
+		track ENCSR585CGU_ENCFF142WQE
+		parent tissue_muscle_of_back_view_ENCSR585CGU off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO863KZW label=unknown view=ENCSR585CGU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF142WQE/@@download/ENCFF142WQE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR585CGU muscle_of_back_female_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR585CGU age=105_day description=ENCSR585CGU_muscle_of_back_female_embryo_105_days_peaks_ donor=ENCDO863KZW sex=female view=ENCSR585CGU 
+		view ENCSR585CGU
+
+		track ENCSR585CGU_ENCFF621BDL
+		parent tissue_muscle_of_back_view_ENCSR585CGU off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO863KZW label=unknown view=ENCSR585CGU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF621BDL/@@download/ENCFF621BDL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF621BDL 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR585CGU age=105_day description=ENCFF621BDL_9state_DNase_ donor=ENCDO863KZW sex=female view=ENCSR585CGU 
+		view ENCSR585CGU
+
+	track ENCSR698CUE_ENCFF296QDC
+	parent tissue_muscle_of_back off
+	subGroups age=a96_day assay=DNase-seq donor=ENCDO220PYT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF296QDC/@@download/ENCFF296QDC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR698CUE muscle_of_back_male_embryo_96_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR698CUE age=96_day description=ENCSR698CUE_muscle_of_back_male_embryo_96_days_read_depth_normalized_signal_ donor=ENCDO220PYT sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR698CUE
+	parent tissue_muscle_of_back off
+	view ENCSR698CUE
+	visibility dense
+	type bigBed
+
+		track ENCSR698CUE_ENCFF357GGP
+		parent tissue_muscle_of_back_view_ENCSR698CUE off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO220PYT label=unknown view=ENCSR698CUE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF357GGP/@@download/ENCFF357GGP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR698CUE muscle_of_back_male_embryo_96_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR698CUE age=96_day description=ENCSR698CUE_muscle_of_back_male_embryo_96_days_peaks_ donor=ENCDO220PYT sex=male view=ENCSR698CUE 
+		view ENCSR698CUE
+
+	track ENCSR786FWF_ENCFF019VTZ
+	parent tissue_muscle_of_back off
+	subGroups age=a127_day assay=DNase-seq donor=ENCDO859GXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF019VTZ/@@download/ENCFF019VTZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR786FWF muscle_of_back_male_embryo_127_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR786FWF age=127_day description=ENCSR786FWF_muscle_of_back_male_embryo_127_days_read_depth_normalized_signal_ donor=ENCDO859GXV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_of_back_view_ENCSR786FWF
+	parent tissue_muscle_of_back off
+	view ENCSR786FWF
+	visibility dense
+	type bigBed
+
+		track ENCSR786FWF_ENCFF573ZZT
+		parent tissue_muscle_of_back_view_ENCSR786FWF off
+		subGroups age=a127_day assay=DNase-seq donor=ENCDO859GXV label=unknown view=ENCSR786FWF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF573ZZT/@@download/ENCFF573ZZT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR786FWF muscle_of_back_male_embryo_127_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR786FWF age=127_day description=ENCSR786FWF_muscle_of_back_male_embryo_127_days_peaks_ donor=ENCDO859GXV sex=male view=ENCSR786FWF 
+		view ENCSR786FWF
+
+		track ENCSR786FWF_ENCFF809OAP
+		parent tissue_muscle_of_back_view_ENCSR786FWF off
+		subGroups age=a127_day assay=DNase-seq donor=ENCDO859GXV label=unknown view=ENCSR786FWF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF809OAP/@@download/ENCFF809OAP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF809OAP 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR786FWF age=127_day description=ENCFF809OAP_9state_DNase_ donor=ENCDO859GXV sex=male view=ENCSR786FWF 
+		view ENCSR786FWF
+
+	track ENCSR027EJD_ENCFF845TNE
+	parent tissue_muscle_of_back off
+	subGroups age=a115_day assay=RNA-seq donor=ENCDO594VTA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF845TNE/@@download/ENCFF845TNE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR027EJD muscle_of_back_female_embryo_115_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR027EJD age=115_day description=ENCSR027EJD_muscle_of_back_female_embryo_115_days_signal_of_unique_reads_ donor=ENCDO594VTA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR094RGI_ENCFF978MXI
+	parent tissue_muscle_of_back off
+	subGroups age=a96_day assay=RNA-seq donor=ENCDO220PYT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF978MXI/@@download/ENCFF978MXI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR094RGI muscle_of_back_male_embryo_96_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR094RGI age=96_day description=ENCSR094RGI_muscle_of_back_male_embryo_96_days_signal_of_unique_reads_ donor=ENCDO220PYT sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR239BBI_ENCFF356QAZ
+	parent tissue_muscle_of_back off
+	subGroups age=a85_day assay=RNA-seq donor=ENCDO527XLA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF356QAZ/@@download/ENCFF356QAZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR239BBI muscle_of_back_female_embryo_85_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR239BBI age=85_day description=ENCSR239BBI_muscle_of_back_female_embryo_85_days_signal_of_unique_reads_ donor=ENCDO527XLA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR522XTV_ENCFF718SYX
+	parent tissue_muscle_of_back off
+	subGroups age=a101_day assay=RNA-seq donor=ENCDO148CGW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF718SYX/@@download/ENCFF718SYX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR522XTV muscle_of_back_male_embryo_101_day_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR522XTV age=101_day description=ENCSR522XTV_muscle_of_back_male_embryo_101_day_signal_of_unique_reads_ donor=ENCDO148CGW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR576UKA_ENCFF039JAX
+	parent tissue_muscle_of_back off
+	subGroups age=a97_day assay=RNA-seq donor=ENCDO597UXW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF039JAX/@@download/ENCFF039JAX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR576UKA muscle_of_back_male_embryo_97_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR576UKA age=97_day description=ENCSR576UKA_muscle_of_back_male_embryo_97_days_signal_of_unique_reads_ donor=ENCDO597UXW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR652AWW_ENCFF481PAZ
+	parent tissue_muscle_of_back off
+	subGroups age=a105_day assay=RNA-seq donor=ENCDO171HMD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF481PAZ/@@download/ENCFF481PAZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR652AWW muscle_of_back_male_embryo_105_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR652AWW age=105_day description=ENCSR652AWW_muscle_of_back_male_embryo_105_days_signal_of_unique_reads_ donor=ENCDO171HMD sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR729ZII_ENCFF556WPM
+	parent tissue_muscle_of_back off
+	subGroups age=a91_day assay=RNA-seq donor=ENCDO375VTO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF556WPM/@@download/ENCFF556WPM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR729ZII muscle_of_back_male_embryo_91_day_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR729ZII age=91_day description=ENCSR729ZII_muscle_of_back_male_embryo_91_day_signal_of_unique_reads_ donor=ENCDO375VTO sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR806ESH_ENCFF208TZH
+	parent tissue_muscle_of_back off
+	subGroups age=a98_day assay=RNA-seq donor=ENCDO837QWL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF208TZH/@@download/ENCFF208TZH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR806ESH muscle_of_back_female_embryo_98_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR806ESH age=98_day description=ENCSR806ESH_muscle_of_back_female_embryo_98_days_signal_of_unique_reads_ donor=ENCDO837QWL sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR891JVD_ENCFF942CWS
+	parent tissue_muscle_of_back off
+	subGroups age=a127_day assay=RNA-seq donor=ENCDO859GXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF942CWS/@@download/ENCFF942CWS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR891JVD muscle_of_back_male_embryo_127_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR891JVD age=127_day description=ENCSR891JVD_muscle_of_back_male_embryo_127_days_signal_of_unique_reads_ donor=ENCDO859GXV sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR995ORR_ENCFF499SBN
+	parent tissue_muscle_of_back off
+	subGroups age=a105_day assay=RNA-seq donor=ENCDO766MZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF499SBN/@@download/ENCFF499SBN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR995ORR muscle_of_back_female_embryo_105_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR995ORR age=105_day description=ENCSR995ORR_muscle_of_back_female_embryo_105_days_signal_of_unique_reads_ donor=ENCDO766MZV sex=female view=bigWig 
+	view bigWig
+

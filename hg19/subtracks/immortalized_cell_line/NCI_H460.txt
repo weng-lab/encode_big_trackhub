@@ -1,0 +1,138 @@
+
+track immortalized_cell_line_NCI_H460
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel NCI-H460
+longLabel NCI-H460 (8 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR093UPQ_ENCFF008RHO
+	parent immortalized_cell_line_NCI_H460 off
+	subGroups age=aunknown assay=RAMPAGE donor=ENCDO267PTG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF008RHO/@@download/ENCFF008RHO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR093UPQ NCI_H460 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR093UPQ age=unknown description=ENCSR093UPQ_NCI_H460_plus_strand_signal_of_unique_reads_ donor=ENCDO267PTG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR164OCT_ENCFF423KKZ
+	parent immortalized_cell_line_NCI_H460 off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO267PTG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF423KKZ/@@download/ENCFF423KKZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR164OCT NCI_H460 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR164OCT age=unknown description=ENCSR164OCT_NCI_H460_plus_strand_signal_of_unique_reads_ donor=ENCDO267PTG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR211PJW_ENCFF061TAS
+	parent immortalized_cell_line_NCI_H460 off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO267PTG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF061TAS/@@download/ENCFF061TAS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR211PJW NCI_H460_nuclear_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR211PJW age=unknown description=ENCSR211PJW_NCI_H460_nuclear_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO267PTG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR239ZQA_ENCFF705GSB
+	parent immortalized_cell_line_NCI_H460 off
+	subGroups age=aunknown assay=RAMPAGE donor=ENCDO267PTG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF705GSB/@@download/ENCFF705GSB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR239ZQA NCI_H460_nuclear_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR239ZQA age=unknown description=ENCSR239ZQA_NCI_H460_nuclear_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO267PTG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR586SEE_ENCFF519BIK
+	parent immortalized_cell_line_NCI_H460 off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO267PTG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF519BIK/@@download/ENCFF519BIK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR586SEE NCI_H460_cytosolic_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR586SEE age=unknown description=ENCSR586SEE_NCI_H460_cytosolic_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO267PTG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR625QJI_ENCFF161HYS
+	parent immortalized_cell_line_NCI_H460 off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO267PTG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF161HYS/@@download/ENCFF161HYS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR625QJI NCI_H460_nuclear_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR625QJI age=unknown description=ENCSR625QJI_NCI_H460_nuclear_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO267PTG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR824YLV_ENCFF216QLQ
+	parent immortalized_cell_line_NCI_H460 off
+	subGroups age=aunknown assay=RAMPAGE donor=ENCDO267PTG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF216QLQ/@@download/ENCFF216QLQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR824YLV NCI_H460_cytosolic_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR824YLV age=unknown description=ENCSR824YLV_NCI_H460_cytosolic_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO267PTG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR968YZV_ENCFF683BDG
+	parent immortalized_cell_line_NCI_H460 off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO267PTG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF683BDG/@@download/ENCFF683BDG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR968YZV NCI_H460_cytosolic_fraction (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR968YZV age=unknown description=ENCSR968YZV_NCI_H460_cytosolic_fraction_plus_strand_signal_of_unique_reads_ donor=ENCDO267PTG sex=male view=bigWig 
+	view bigWig
+

@@ -1,0 +1,1158 @@
+
+track tissue_gastrocnemius_medialis
+parent super_tissue
+compositeTrack on
+shortLabel gastrocnemius med
+longLabel gastrocnemius medialis (31 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR071XWO=ENCSR071XWO ENCSR101NFY=ENCSR101NFY ENCSR103UPR=ENCSR103UPR ENCSR105YNJ=ENCSR105YNJ ENCSR148FWR=ENCSR148FWR ENCSR161HZJ=ENCSR161HZJ ENCSR201OSX=ENCSR201OSX ENCSR206STN=ENCSR206STN ENCSR236SFP=ENCSR236SFP ENCSR380KNE=ENCSR380KNE ENCSR414SWG=ENCSR414SWG ENCSR423LXQ=ENCSR423LXQ ENCSR428BKN=ENCSR428BKN ENCSR519WQH=ENCSR519WQH ENCSR697RIW=ENCSR697RIW ENCSR736ALU=ENCSR736ALU ENCSR776EAH=ENCSR776EAH ENCSR785DJD=ENCSR785DJD ENCSR801IPH=ENCSR801IPH ENCSR899TDF=ENCSR899TDF ENCSR922OXX=ENCSR922OXX ENCSR948YYZ=ENCSR948YYZ ENCSR972ETR=ENCSR972ETR ENCSR998NQG=ENCSR998NQG bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR236SFP_ENCFF745UHH
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF745UHH/@@download/ENCFF745UHH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR236SFP gastrocnemius_medialis_female_adult_51_year_ (read-depth normalized 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR236SFP age=51_year description=ENCSR236SFP_gastrocnemius_medialis_female_adult_51_year_read_depth_normalized_signal_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR236SFP
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR236SFP
+	visibility dense
+	type bigBed
+
+		track ENCSR236SFP_ENCFF693MSI
+		parent tissue_gastrocnemius_medialis_view_ENCSR236SFP off
+		subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=ENCSR236SFP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF693MSI/@@download/ENCFF693MSI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR236SFP gastrocnemius_medialis_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR236SFP age=51_year description=ENCSR236SFP_gastrocnemius_medialis_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR236SFP 
+		view ENCSR236SFP
+
+	track ENCSR206STN_ENCFF074GLQ
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF074GLQ/@@download/ENCFF074GLQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR206STN gastrocnemius_medialis_male_adult_37_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR206STN age=37_year description=ENCSR206STN_gastrocnemius_medialis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR206STN
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR206STN
+	visibility dense
+	type bigBed
+
+		track ENCSR206STN_ENCFF182VGO
+		parent tissue_gastrocnemius_medialis_view_ENCSR206STN off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR206STN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF182VGO/@@download/ENCFF182VGO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR206STN gastrocnemius_medialis_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR206STN age=37_year description=ENCSR206STN_gastrocnemius_medialis_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR206STN 
+		view ENCSR206STN
+
+		track ENCSR206STN_ENCFF863OGG
+		parent tissue_gastrocnemius_medialis_view_ENCSR206STN off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR206STN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF863OGG/@@download/ENCFF863OGG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF863OGG 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR206STN age=37_year description=ENCFF863OGG_5group_ donor=ENCDO845WKR sex=male view=ENCSR206STN 
+		view ENCSR206STN
+
+		track ENCSR206STN_ENCFF669ZKS
+		parent tissue_gastrocnemius_medialis_view_ENCSR206STN off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR206STN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF669ZKS/@@download/ENCFF669ZKS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF669ZKS 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR206STN age=37_year description=ENCFF669ZKS_9state_H3K27ac_ donor=ENCDO845WKR sex=male view=ENCSR206STN 
+		view ENCSR206STN
+
+		track ENCSR206STN_ENCFF918QIH
+		parent tissue_gastrocnemius_medialis_view_ENCSR206STN off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR206STN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF918QIH/@@download/ENCFF918QIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF918QIH 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR206STN age=37_year description=ENCFF918QIH_9state_H3K4me3_ donor=ENCDO845WKR sex=male view=ENCSR206STN 
+		view ENCSR206STN
+
+	track ENCSR785DJD_ENCFF995MET
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF995MET/@@download/ENCFF995MET.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR785DJD gastrocnemius_medialis_female_adult_53_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR785DJD age=53_year description=ENCSR785DJD_gastrocnemius_medialis_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR785DJD
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR785DJD
+	visibility dense
+	type bigBed
+
+		track ENCSR785DJD_ENCFF801JCZ
+		parent tissue_gastrocnemius_medialis_view_ENCSR785DJD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR785DJD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF801JCZ/@@download/ENCFF801JCZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR785DJD gastrocnemius_medialis_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR785DJD age=53_year description=ENCSR785DJD_gastrocnemius_medialis_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR785DJD 
+		view ENCSR785DJD
+
+	track ENCSR972ETR_ENCFF596MDR
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF596MDR/@@download/ENCFF596MDR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR972ETR gastrocnemius_medialis_male_adult_54_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR972ETR age=54_year description=ENCSR972ETR_gastrocnemius_medialis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR972ETR
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR972ETR
+	visibility dense
+	type bigBed
+
+		track ENCSR972ETR_ENCFF828XLK
+		parent tissue_gastrocnemius_medialis_view_ENCSR972ETR off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR972ETR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF828XLK/@@download/ENCFF828XLK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR972ETR gastrocnemius_medialis_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR972ETR age=54_year description=ENCSR972ETR_gastrocnemius_medialis_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR972ETR 
+		view ENCSR972ETR
+
+		track ENCSR972ETR_ENCFF513RCX
+		parent tissue_gastrocnemius_medialis_view_ENCSR972ETR off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR972ETR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF513RCX/@@download/ENCFF513RCX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF513RCX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR972ETR age=54_year description=ENCFF513RCX_9state_DNase_ donor=ENCDO451RUA sex=male view=ENCSR972ETR 
+		view ENCSR972ETR
+
+		track ENCSR972ETR_ENCFF322RAX
+		parent tissue_gastrocnemius_medialis_view_ENCSR972ETR off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR972ETR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF322RAX/@@download/ENCFF322RAX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF322RAX 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR972ETR age=54_year description=ENCFF322RAX_5group_ donor=ENCDO451RUA sex=male view=ENCSR972ETR 
+		view ENCSR972ETR
+
+		track ENCSR972ETR_ENCFF030HHH
+		parent tissue_gastrocnemius_medialis_view_ENCSR972ETR off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR972ETR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF030HHH/@@download/ENCFF030HHH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF030HHH 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR972ETR age=54_year description=ENCFF030HHH_9state_H3K27ac_ donor=ENCDO451RUA sex=male view=ENCSR972ETR 
+		view ENCSR972ETR
+
+		track ENCSR972ETR_ENCFF847SLG
+		parent tissue_gastrocnemius_medialis_view_ENCSR972ETR off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR972ETR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF847SLG/@@download/ENCFF847SLG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF847SLG 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR972ETR age=54_year description=ENCFF847SLG_9state_H3K4me3_ donor=ENCDO451RUA sex=male view=ENCSR972ETR 
+		view ENCSR972ETR
+
+	track ENCSR071XWO_ENCFF840VVY
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF840VVY/@@download/ENCFF840VVY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR071XWO gastrocnemius_medialis_female_adult_51_year_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR071XWO age=51_year description=ENCSR071XWO_gastrocnemius_medialis_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR071XWO
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR071XWO
+	visibility dense
+	type bigBed
+
+		track ENCSR071XWO_ENCFF484DFL
+		parent tissue_gastrocnemius_medialis_view_ENCSR071XWO off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR071XWO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF484DFL/@@download/ENCFF484DFL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR071XWO gastrocnemius_medialis_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR071XWO age=51_year description=ENCSR071XWO_gastrocnemius_medialis_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR071XWO 
+		view ENCSR071XWO
+
+	track ENCSR428BKN_ENCFF719PVG
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF719PVG/@@download/ENCFF719PVG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR428BKN gastrocnemius_medialis_female_adult_53_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR428BKN age=53_year description=ENCSR428BKN_gastrocnemius_medialis_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR428BKN
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR428BKN
+	visibility dense
+	type bigBed
+
+		track ENCSR428BKN_ENCFF852YGC
+		parent tissue_gastrocnemius_medialis_view_ENCSR428BKN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR428BKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF852YGC/@@download/ENCFF852YGC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR428BKN gastrocnemius_medialis_female_adult_53_years_ (pseudoreplicated idr 
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR428BKN age=53_year description=ENCSR428BKN_gastrocnemius_medialis_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR428BKN 
+		view ENCSR428BKN
+
+	track ENCSR736ALU_ENCFF431JXN
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF431JXN/@@download/ENCFF431JXN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR736ALU gastrocnemius_medialis_female_adult_53_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR736ALU age=53_year description=ENCSR736ALU_gastrocnemius_medialis_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR736ALU
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR736ALU
+	visibility dense
+	type bigBed
+
+		track ENCSR736ALU_ENCFF335CHK
+		parent tissue_gastrocnemius_medialis_view_ENCSR736ALU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR736ALU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF335CHK/@@download/ENCFF335CHK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR736ALU gastrocnemius_medialis_female_adult_53_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR736ALU age=53_year description=ENCSR736ALU_gastrocnemius_medialis_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR736ALU 
+		view ENCSR736ALU
+
+		track ENCSR736ALU_ENCFF775TZL
+		parent tissue_gastrocnemius_medialis_view_ENCSR736ALU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR736ALU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF775TZL/@@download/ENCFF775TZL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF775TZL 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR736ALU age=53_year description=ENCFF775TZL_5group_ donor=ENCDO793LXB sex=female view=ENCSR736ALU 
+		view ENCSR736ALU
+
+	track ENCSR801IPH_ENCFF508MKG
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF508MKG/@@download/ENCFF508MKG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR801IPH gastrocnemius_medialis_male_adult_37_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR801IPH age=37_year description=ENCSR801IPH_gastrocnemius_medialis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR801IPH
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR801IPH
+	visibility dense
+	type bigBed
+
+		track ENCSR801IPH_ENCFF665GOT
+		parent tissue_gastrocnemius_medialis_view_ENCSR801IPH off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR801IPH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF665GOT/@@download/ENCFF665GOT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR801IPH gastrocnemius_medialis_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR801IPH age=37_year description=ENCSR801IPH_gastrocnemius_medialis_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR801IPH 
+		view ENCSR801IPH
+
+		track ENCSR801IPH_ENCFF863OGG
+		parent tissue_gastrocnemius_medialis_view_ENCSR801IPH off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR801IPH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF863OGG/@@download/ENCFF863OGG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF863OGG 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR801IPH age=37_year description=ENCFF863OGG_5group_ donor=ENCDO845WKR sex=male view=ENCSR801IPH 
+		view ENCSR801IPH
+
+		track ENCSR801IPH_ENCFF669ZKS
+		parent tissue_gastrocnemius_medialis_view_ENCSR801IPH off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR801IPH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF669ZKS/@@download/ENCFF669ZKS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF669ZKS 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR801IPH age=37_year description=ENCFF669ZKS_9state_H3K27ac_ donor=ENCDO845WKR sex=male view=ENCSR801IPH 
+		view ENCSR801IPH
+
+		track ENCSR801IPH_ENCFF918QIH
+		parent tissue_gastrocnemius_medialis_view_ENCSR801IPH off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR801IPH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF918QIH/@@download/ENCFF918QIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF918QIH 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR801IPH age=37_year description=ENCFF918QIH_9state_H3K4me3_ donor=ENCDO845WKR sex=male view=ENCSR801IPH 
+		view ENCSR801IPH
+
+	track ENCSR948YYZ_ENCFF195KTA
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF195KTA/@@download/ENCFF195KTA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR948YYZ gastrocnemius_medialis_male_adult_54_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR948YYZ age=54_year description=ENCSR948YYZ_gastrocnemius_medialis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR948YYZ
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR948YYZ
+	visibility dense
+	type bigBed
+
+		track ENCSR948YYZ_ENCFF461TFY
+		parent tissue_gastrocnemius_medialis_view_ENCSR948YYZ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR948YYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF461TFY/@@download/ENCFF461TFY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR948YYZ gastrocnemius_medialis_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR948YYZ age=54_year description=ENCSR948YYZ_gastrocnemius_medialis_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR948YYZ 
+		view ENCSR948YYZ
+
+		track ENCSR948YYZ_ENCFF513RCX
+		parent tissue_gastrocnemius_medialis_view_ENCSR948YYZ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR948YYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF513RCX/@@download/ENCFF513RCX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF513RCX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR948YYZ age=54_year description=ENCFF513RCX_9state_DNase_ donor=ENCDO451RUA sex=male view=ENCSR948YYZ 
+		view ENCSR948YYZ
+
+		track ENCSR948YYZ_ENCFF322RAX
+		parent tissue_gastrocnemius_medialis_view_ENCSR948YYZ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR948YYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF322RAX/@@download/ENCFF322RAX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF322RAX 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR948YYZ age=54_year description=ENCFF322RAX_5group_ donor=ENCDO451RUA sex=male view=ENCSR948YYZ 
+		view ENCSR948YYZ
+
+		track ENCSR948YYZ_ENCFF030HHH
+		parent tissue_gastrocnemius_medialis_view_ENCSR948YYZ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR948YYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF030HHH/@@download/ENCFF030HHH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF030HHH 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR948YYZ age=54_year description=ENCFF030HHH_9state_H3K27ac_ donor=ENCDO451RUA sex=male view=ENCSR948YYZ 
+		view ENCSR948YYZ
+
+		track ENCSR948YYZ_ENCFF847SLG
+		parent tissue_gastrocnemius_medialis_view_ENCSR948YYZ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR948YYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF847SLG/@@download/ENCFF847SLG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF847SLG 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR948YYZ age=54_year description=ENCFF847SLG_9state_H3K4me3_ donor=ENCDO451RUA sex=male view=ENCSR948YYZ 
+		view ENCSR948YYZ
+
+	track ENCSR998NQG_ENCFF849XXE
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF849XXE/@@download/ENCFF849XXE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR998NQG gastrocnemius_medialis_male_adult_54_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR998NQG age=54_year description=ENCSR998NQG_gastrocnemius_medialis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR998NQG
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR998NQG
+	visibility dense
+	type bigBed
+
+		track ENCSR998NQG_ENCFF770OUZ
+		parent tissue_gastrocnemius_medialis_view_ENCSR998NQG off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR998NQG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF770OUZ/@@download/ENCFF770OUZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR998NQG gastrocnemius_medialis_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR998NQG age=54_year description=ENCSR998NQG_gastrocnemius_medialis_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR998NQG 
+		view ENCSR998NQG
+
+	track ENCSR024MNP_ENCFF415CMN
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF415CMN/@@download/ENCFF415CMN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR024MNP gastrocnemius_medialis_female_adult_51_year_ (plus strand signal of 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR024MNP age=51_year description=ENCSR024MNP_gastrocnemius_medialis_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR458JVO_ENCFF156QPJ
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF156QPJ/@@download/ENCFF156QPJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR458JVO gastrocnemius_medialis_male_adult_37_years_ (plus strand signal of u
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR458JVO age=37_year description=ENCSR458JVO_gastrocnemius_medialis_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR609NZM_ENCFF068BQH
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF068BQH/@@download/ENCFF068BQH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR609NZM gastrocnemius_medialis_female_adult_51_year_ (plus strand signal of 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR609NZM age=51_year description=ENCSR609NZM_gastrocnemius_medialis_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR678TMV_ENCFF579KBU
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF579KBU/@@download/ENCFF579KBU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR678TMV gastrocnemius_medialis_female_adult_53_years_ (plus strand signal of
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR678TMV age=53_year description=ENCSR678TMV_gastrocnemius_medialis_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR710LGT_ENCFF536PTA
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF536PTA/@@download/ENCFF536PTA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR710LGT gastrocnemius_medialis_female_adult_53_years_ (plus strand signal of
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR710LGT age=53_year description=ENCSR710LGT_gastrocnemius_medialis_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR853BNH_ENCFF284YDB
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF284YDB/@@download/ENCFF284YDB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR853BNH gastrocnemius_medialis_male_adult_37_years_ (plus strand signal of u
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR853BNH age=37_year description=ENCSR853BNH_gastrocnemius_medialis_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR967JPI_ENCFF344TMK
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF344TMK/@@download/ENCFF344TMK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR967JPI gastrocnemius_medialis_male_adult_54_years_ (plus strand signal of u
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR967JPI age=54_year description=ENCSR967JPI_gastrocnemius_medialis_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR201OSX_ENCFF210EKH
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF210EKH/@@download/ENCFF210EKH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR201OSX gastrocnemius_medialis_female_adult_53_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR201OSX age=53_year description=ENCSR201OSX_gastrocnemius_medialis_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR201OSX
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR201OSX
+	visibility dense
+	type bigBed
+
+		track ENCSR201OSX_ENCFF826FAG
+		parent tissue_gastrocnemius_medialis_view_ENCSR201OSX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=ENCSR201OSX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF826FAG/@@download/ENCFF826FAG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR201OSX gastrocnemius_medialis_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR201OSX age=53_year description=ENCSR201OSX_gastrocnemius_medialis_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR201OSX 
+		view ENCSR201OSX
+
+	track ENCSR423LXQ_ENCFF815RDF
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF815RDF/@@download/ENCFF815RDF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR423LXQ gastrocnemius_medialis_male_adult_54_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR423LXQ age=54_year description=ENCSR423LXQ_gastrocnemius_medialis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR423LXQ
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR423LXQ
+	visibility dense
+	type bigBed
+
+		track ENCSR423LXQ_ENCFF636PSM
+		parent tissue_gastrocnemius_medialis_view_ENCSR423LXQ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27me3 view=ENCSR423LXQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF636PSM/@@download/ENCFF636PSM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR423LXQ gastrocnemius_medialis_male_adult_54_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR423LXQ age=54_year description=ENCSR423LXQ_gastrocnemius_medialis_male_adult_54_years_stable_peaks_ donor=ENCDO451RUA sex=male view=ENCSR423LXQ 
+		view ENCSR423LXQ
+
+	track ENCSR519WQH_ENCFF235SUS
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF235SUS/@@download/ENCFF235SUS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR519WQH gastrocnemius_medialis_male_adult_37_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR519WQH age=37_year description=ENCSR519WQH_gastrocnemius_medialis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR519WQH
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR519WQH
+	visibility dense
+	type bigBed
+
+		track ENCSR519WQH_ENCFF365SNE
+		parent tissue_gastrocnemius_medialis_view_ENCSR519WQH off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27me3 view=ENCSR519WQH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF365SNE/@@download/ENCFF365SNE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR519WQH gastrocnemius_medialis_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR519WQH age=37_year description=ENCSR519WQH_gastrocnemius_medialis_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR519WQH 
+		view ENCSR519WQH
+
+	track ENCSR101NFY_ENCFF352QSA
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF352QSA/@@download/ENCFF352QSA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR101NFY gastrocnemius_medialis_female_adult_53_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR101NFY age=53_year description=ENCSR101NFY_gastrocnemius_medialis_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR101NFY
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR101NFY
+	visibility dense
+	type bigBed
+
+		track ENCSR101NFY_ENCFF824ZKN
+		parent tissue_gastrocnemius_medialis_view_ENCSR101NFY off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR101NFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF824ZKN/@@download/ENCFF824ZKN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR101NFY gastrocnemius_medialis_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR101NFY age=53_year description=ENCSR101NFY_gastrocnemius_medialis_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR101NFY 
+		view ENCSR101NFY
+
+	track ENCSR105YNJ_ENCFF653NPA
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF653NPA/@@download/ENCFF653NPA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR105YNJ gastrocnemius_medialis_male_adult_54_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR105YNJ age=54_year description=ENCSR105YNJ_gastrocnemius_medialis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR105YNJ
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR105YNJ
+	visibility dense
+	type bigBed
+
+		track ENCSR105YNJ_ENCFF653RRI
+		parent tissue_gastrocnemius_medialis_view_ENCSR105YNJ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=ENCSR105YNJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF653RRI/@@download/ENCFF653RRI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR105YNJ gastrocnemius_medialis_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR105YNJ age=54_year description=ENCSR105YNJ_gastrocnemius_medialis_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR105YNJ 
+		view ENCSR105YNJ
+
+	track ENCSR380KNE_ENCFF016NRT
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF016NRT/@@download/ENCFF016NRT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR380KNE gastrocnemius_medialis_male_adult_37_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR380KNE age=37_year description=ENCSR380KNE_gastrocnemius_medialis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR380KNE
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR380KNE
+	visibility dense
+	type bigBed
+
+		track ENCSR380KNE_ENCFF491QGA
+		parent tissue_gastrocnemius_medialis_view_ENCSR380KNE off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=ENCSR380KNE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF491QGA/@@download/ENCFF491QGA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR380KNE gastrocnemius_medialis_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR380KNE age=37_year description=ENCSR380KNE_gastrocnemius_medialis_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR380KNE 
+		view ENCSR380KNE
+
+	track ENCSR148FWR_ENCFF017BHP
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF017BHP/@@download/ENCFF017BHP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR148FWR gastrocnemius_medialis_male_adult_37_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR148FWR age=37_year description=ENCSR148FWR_gastrocnemius_medialis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR148FWR
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR148FWR
+	visibility dense
+	type bigBed
+
+		track ENCSR148FWR_ENCFF263PCB
+		parent tissue_gastrocnemius_medialis_view_ENCSR148FWR off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me1 view=ENCSR148FWR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF263PCB/@@download/ENCFF263PCB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR148FWR gastrocnemius_medialis_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR148FWR age=37_year description=ENCSR148FWR_gastrocnemius_medialis_male_adult_37_years_stable_peaks_ donor=ENCDO845WKR sex=male view=ENCSR148FWR 
+		view ENCSR148FWR
+
+	track ENCSR161HZJ_ENCFF236ZAR
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF236ZAR/@@download/ENCFF236ZAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR161HZJ gastrocnemius_medialis_male_adult_54_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR161HZJ age=54_year description=ENCSR161HZJ_gastrocnemius_medialis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR161HZJ
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR161HZJ
+	visibility dense
+	type bigBed
+
+		track ENCSR161HZJ_ENCFF909LVC
+		parent tissue_gastrocnemius_medialis_view_ENCSR161HZJ off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me1 view=ENCSR161HZJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF909LVC/@@download/ENCFF909LVC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR161HZJ gastrocnemius_medialis_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR161HZJ age=54_year description=ENCSR161HZJ_gastrocnemius_medialis_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR161HZJ 
+		view ENCSR161HZJ
+
+	track ENCSR776EAH_ENCFF655EAU
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF655EAU/@@download/ENCFF655EAU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR776EAH gastrocnemius_medialis_female_adult_53_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR776EAH age=53_year description=ENCSR776EAH_gastrocnemius_medialis_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR776EAH
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR776EAH
+	visibility dense
+	type bigBed
+
+		track ENCSR776EAH_ENCFF470ESH
+		parent tissue_gastrocnemius_medialis_view_ENCSR776EAH off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR776EAH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF470ESH/@@download/ENCFF470ESH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR776EAH gastrocnemius_medialis_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR776EAH age=53_year description=ENCSR776EAH_gastrocnemius_medialis_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR776EAH 
+		view ENCSR776EAH
+
+	track ENCSR697RIW_ENCFF880ZTJ
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF880ZTJ/@@download/ENCFF880ZTJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR697RIW gastrocnemius_medialis_male_adult_54_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR697RIW age=54_year description=ENCSR697RIW_gastrocnemius_medialis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR697RIW
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR697RIW
+	visibility dense
+	type bigBed
+
+		track ENCSR697RIW_ENCFF320DOZ
+		parent tissue_gastrocnemius_medialis_view_ENCSR697RIW off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K9me3 view=ENCSR697RIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF320DOZ/@@download/ENCFF320DOZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR697RIW gastrocnemius_medialis_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR697RIW age=54_year description=ENCSR697RIW_gastrocnemius_medialis_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR697RIW 
+		view ENCSR697RIW
+
+	track ENCSR899TDF_ENCFF413OAR
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF413OAR/@@download/ENCFF413OAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR899TDF gastrocnemius_medialis_female_adult_53_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR899TDF age=53_year description=ENCSR899TDF_gastrocnemius_medialis_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR899TDF
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR899TDF
+	visibility dense
+	type bigBed
+
+		track ENCSR899TDF_ENCFF463SSK
+		parent tissue_gastrocnemius_medialis_view_ENCSR899TDF off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR899TDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF463SSK/@@download/ENCFF463SSK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR899TDF gastrocnemius_medialis_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR899TDF age=53_year description=ENCSR899TDF_gastrocnemius_medialis_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR899TDF 
+		view ENCSR899TDF
+
+	track ENCSR922OXX_ENCFF767RMV
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF767RMV/@@download/ENCFF767RMV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR922OXX gastrocnemius_medialis_male_adult_37_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR922OXX age=37_year description=ENCSR922OXX_gastrocnemius_medialis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR922OXX
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR922OXX
+	visibility dense
+	type bigBed
+
+		track ENCSR922OXX_ENCFF608ZJO
+		parent tissue_gastrocnemius_medialis_view_ENCSR922OXX off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=ENCSR922OXX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF608ZJO/@@download/ENCFF608ZJO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR922OXX gastrocnemius_medialis_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR922OXX age=37_year description=ENCSR922OXX_gastrocnemius_medialis_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR922OXX 
+		view ENCSR922OXX
+
+	track ENCSR103UPR_ENCFF172EHB
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF172EHB/@@download/ENCFF172EHB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR103UPR gastrocnemius_medialis_female_adult_53_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR103UPR age=53_year description=ENCSR103UPR_gastrocnemius_medialis_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR103UPR
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR103UPR
+	visibility dense
+	type bigBed
+
+		track ENCSR103UPR_ENCFF956RBB
+		parent tissue_gastrocnemius_medialis_view_ENCSR103UPR off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR103UPR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF956RBB/@@download/ENCFF956RBB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR103UPR gastrocnemius_medialis_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR103UPR age=53_year description=ENCSR103UPR_gastrocnemius_medialis_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR103UPR 
+		view ENCSR103UPR
+
+	track ENCSR414SWG_ENCFF026EAA
+	parent tissue_gastrocnemius_medialis off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF026EAA/@@download/ENCFF026EAA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR414SWG gastrocnemius_medialis_female_adult_51_year_ (fold change over contr
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR414SWG age=51_year description=ENCSR414SWG_gastrocnemius_medialis_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_gastrocnemius_medialis_view_ENCSR414SWG
+	parent tissue_gastrocnemius_medialis off
+	view ENCSR414SWG
+	visibility dense
+	type bigBed
+
+		track ENCSR414SWG_ENCFF868GZU
+		parent tissue_gastrocnemius_medialis_view_ENCSR414SWG off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR414SWG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF868GZU/@@download/ENCFF868GZU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR414SWG gastrocnemius_medialis_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR414SWG age=51_year description=ENCSR414SWG_gastrocnemius_medialis_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR414SWG 
+		view ENCSR414SWG
+

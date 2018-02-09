@@ -1,0 +1,364 @@
+
+track tissue_olfactory_bulb
+parent super_tissue
+compositeTrack on
+shortLabel olfactory bulb
+longLabel olfactory bulb (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a8_week=8&#32;week 
+subGroup3 view view ENCSR000CCE=ENCSR000CCE ENCSR000CCF=ENCSR000CCF ENCSR000CDS=ENCSR000CDS ENCSR000CDX=ENCSR000CDX ENCSR000CDY=ENCSR000CDY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CDS_ENCFF069XTE
+	parent tissue_olfactory_bulb off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF069XTE/@@download/ENCFF069XTE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000CDS C57BL_6_olfactory_bulb_male_adult_8_weeks_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDS age=8_week description=ENCSR000CDS_C57BL_6_olfactory_bulb_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_olfactory_bulb_view_ENCSR000CDS
+	parent tissue_olfactory_bulb off
+	view ENCSR000CDS
+	visibility dense
+	type bigBed
+
+		track ENCSR000CDS_ENCFF820PKM
+		parent tissue_olfactory_bulb_view_ENCSR000CDS off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CDS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF820PKM/@@download/ENCFF820PKM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000CDS C57BL_6_olfactory_bulb_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000CDS age=8_week description=ENCSR000CDS_C57BL_6_olfactory_bulb_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CDS 
+		view ENCSR000CDS
+
+		track ENCSR000CDS_ENCFF420WCG
+		parent tissue_olfactory_bulb_view_ENCSR000CDS off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CDS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420WCG/@@download/ENCFF420WCG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF420WCG 9state-CTCF H3K4me3 ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDS age=8_week description=ENCFF420WCG_9state_CTCF_H3K4me3_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CDS 
+		view ENCSR000CDS
+
+		track ENCSR000CDS_ENCFF163RNC
+		parent tissue_olfactory_bulb_view_ENCSR000CDS off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CDS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF163RNC/@@download/ENCFF163RNC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF163RNC 5group H3K4me3 ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDS age=8_week description=ENCFF163RNC_5group_H3K4me3_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CDS 
+		view ENCSR000CDS
+
+		track ENCSR000CDS_ENCFF017FGZ
+		parent tissue_olfactory_bulb_view_ENCSR000CDS off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CDS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017FGZ/@@download/ENCFF017FGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF017FGZ 9state-H3K4me3 H3K4me3 ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDS age=8_week description=ENCFF017FGZ_9state_H3K4me3_H3K4me3_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CDS 
+		view ENCSR000CDS
+
+		track ENCSR000CDS_ENCFF305CEJ
+		parent tissue_olfactory_bulb_view_ENCSR000CDS off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CDS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF305CEJ/@@download/ENCFF305CEJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF305CEJ 9state-H3K27ac H3K4me3 ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDS age=8_week description=ENCFF305CEJ_9state_H3K27ac_H3K4me3_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CDS 
+		view ENCSR000CDS
+
+	track ENCSR000CCE_ENCFF669DNL
+	parent tissue_olfactory_bulb off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF669DNL/@@download/ENCFF669DNL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000CCE C57BL_6_olfactory_bulb_male_adult_8_weeks_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CCE age=8_week description=ENCSR000CCE_C57BL_6_olfactory_bulb_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_olfactory_bulb_view_ENCSR000CCE
+	parent tissue_olfactory_bulb off
+	view ENCSR000CCE
+	visibility dense
+	type bigBed
+
+		track ENCSR000CCE_ENCFF651FKI
+		parent tissue_olfactory_bulb_view_ENCSR000CCE off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CCE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF651FKI/@@download/ENCFF651FKI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000CCE C57BL_6_olfactory_bulb_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000CCE age=8_week description=ENCSR000CCE_C57BL_6_olfactory_bulb_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CCE 
+		view ENCSR000CCE
+
+		track ENCSR000CCE_ENCFF420WCG
+		parent tissue_olfactory_bulb_view_ENCSR000CCE off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CCE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420WCG/@@download/ENCFF420WCG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF420WCG 9state-CTCF H3K27ac ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CCE age=8_week description=ENCFF420WCG_9state_CTCF_H3K27ac_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CCE 
+		view ENCSR000CCE
+
+		track ENCSR000CCE_ENCFF163RNC
+		parent tissue_olfactory_bulb_view_ENCSR000CCE off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CCE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF163RNC/@@download/ENCFF163RNC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF163RNC 5group H3K27ac ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CCE age=8_week description=ENCFF163RNC_5group_H3K27ac_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CCE 
+		view ENCSR000CCE
+
+		track ENCSR000CCE_ENCFF017FGZ
+		parent tissue_olfactory_bulb_view_ENCSR000CCE off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CCE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017FGZ/@@download/ENCFF017FGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF017FGZ 9state-H3K4me3 H3K27ac ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CCE age=8_week description=ENCFF017FGZ_9state_H3K4me3_H3K27ac_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CCE 
+		view ENCSR000CCE
+
+		track ENCSR000CCE_ENCFF305CEJ
+		parent tissue_olfactory_bulb_view_ENCSR000CCE off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CCE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF305CEJ/@@download/ENCFF305CEJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF305CEJ 9state-H3K27ac H3K27ac ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CCE age=8_week description=ENCFF305CEJ_9state_H3K27ac_H3K27ac_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CCE 
+		view ENCSR000CCE
+
+	track ENCSR000CDX_ENCFF331JEE
+	parent tissue_olfactory_bulb off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF331JEE/@@download/ENCFF331JEE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CDX C57BL_6_olfactory_bulb_male_adult_8_weeks_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDX age=8_week description=ENCSR000CDX_C57BL_6_olfactory_bulb_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_olfactory_bulb_view_ENCSR000CDX
+	parent tissue_olfactory_bulb off
+	view ENCSR000CDX
+	visibility dense
+	type bigBed
+
+		track ENCSR000CDX_ENCFF687MGE
+		parent tissue_olfactory_bulb_view_ENCSR000CDX off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF687MGE/@@download/ENCFF687MGE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000CDX C57BL_6_olfactory_bulb_male_adult_8_weeks_ (optimal idr thresholded 
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000CDX age=8_week description=ENCSR000CDX_C57BL_6_olfactory_bulb_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CDX 
+		view ENCSR000CDX
+
+		track ENCSR000CDX_ENCFF420WCG
+		parent tissue_olfactory_bulb_view_ENCSR000CDX off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420WCG/@@download/ENCFF420WCG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF420WCG 9state-CTCF CTCF ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDX age=8_week description=ENCFF420WCG_9state_CTCF_CTCF_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CDX 
+		view ENCSR000CDX
+
+		track ENCSR000CDX_ENCFF163RNC
+		parent tissue_olfactory_bulb_view_ENCSR000CDX off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF163RNC/@@download/ENCFF163RNC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF163RNC 5group CTCF ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDX age=8_week description=ENCFF163RNC_5group_CTCF_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CDX 
+		view ENCSR000CDX
+
+		track ENCSR000CDX_ENCFF017FGZ
+		parent tissue_olfactory_bulb_view_ENCSR000CDX off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017FGZ/@@download/ENCFF017FGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF017FGZ 9state-H3K4me3 CTCF ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDX age=8_week description=ENCFF017FGZ_9state_H3K4me3_CTCF_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CDX 
+		view ENCSR000CDX
+
+		track ENCSR000CDX_ENCFF305CEJ
+		parent tissue_olfactory_bulb_view_ENCSR000CDX off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF305CEJ/@@download/ENCFF305CEJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF305CEJ 9state-H3K27ac CTCF ChIP-seq on 8-week mouse olfactory bulb
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDX age=8_week description=ENCFF305CEJ_9state_H3K27ac_CTCF_ChIP_seq_on_8_week_mouse_olfactory_bulb donor=ENCDO956IXV sex=unknown view=ENCSR000CDX 
+		view ENCSR000CDX
+
+	track ENCSR000CHL_ENCFF869SXC
+	parent tissue_olfactory_bulb off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF869SXC/@@download/ENCFF869SXC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CHL C57BL_6_olfactory_bulb_male_adult_8_weeks_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CHL age=8_week description=ENCSR000CHL_C57BL_6_olfactory_bulb_male_adult_8_weeks_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CCF_ENCFF733KTU
+	parent tissue_olfactory_bulb off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF733KTU/@@download/ENCFF733KTU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000CCF C57BL_6_olfactory_bulb_male_adult_8_weeks_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CCF age=8_week description=ENCSR000CCF_C57BL_6_olfactory_bulb_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_olfactory_bulb_view_ENCSR000CCF
+	parent tissue_olfactory_bulb off
+	view ENCSR000CCF
+	visibility dense
+	type bigBed
+
+		track ENCSR000CCF_ENCFF787SFY
+		parent tissue_olfactory_bulb_view_ENCSR000CCF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR000CCF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF787SFY/@@download/ENCFF787SFY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000CCF C57BL_6_olfactory_bulb_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000CCF age=8_week description=ENCSR000CCF_C57BL_6_olfactory_bulb_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CCF 
+		view ENCSR000CCF
+
+	track ENCSR000CDY_ENCFF193PLE
+	parent tissue_olfactory_bulb off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF193PLE/@@download/ENCFF193PLE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CDY C57BL_6_olfactory_bulb_male_adult_8_weeks_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDY age=8_week description=ENCSR000CDY_C57BL_6_olfactory_bulb_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_olfactory_bulb_view_ENCSR000CDY
+	parent tissue_olfactory_bulb off
+	view ENCSR000CDY
+	visibility dense
+	type bigBed
+
+		track ENCSR000CDY_ENCFF548OFL
+		parent tissue_olfactory_bulb_view_ENCSR000CDY off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=POLR2A view=ENCSR000CDY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF548OFL/@@download/ENCFF548OFL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000CDY C57BL_6_olfactory_bulb_male_adult_8_weeks_ (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CDY age=8_week description=ENCSR000CDY_C57BL_6_olfactory_bulb_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CDY 
+		view ENCSR000CDY
+

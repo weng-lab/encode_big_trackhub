@@ -1,0 +1,63 @@
+
+track tissue_central_nervous_system
+parent super_tissue
+compositeTrack on
+shortLabel central nervous s
+longLabel central nervous system (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
+subGroup2 age age a11_5_day=11&#46;5&#32;day a14_day=14&#32;day a18_day=18&#32;day 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000BZG_ENCFF337ZQB
+	parent tissue_central_nervous_system off
+	subGroups age=a11_5_day assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF337ZQB/@@download/ENCFF337ZQB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BZG C57BL_6_central_nervous_system_embryo_11_5_days_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BZG age=11_5_day description=ENCSR000BZG_C57BL_6_central_nervous_system_embryo_11_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000BZK_ENCFF156LIY
+	parent tissue_central_nervous_system off
+	subGroups age=a14_day assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF156LIY/@@download/ENCFF156LIY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BZK C57BL_6_central_nervous_system_embryo_14_days_ (plus strand signal o
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BZK age=14_day description=ENCSR000BZK_C57BL_6_central_nervous_system_embryo_14_days_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000BZL_ENCFF094TEA
+	parent tissue_central_nervous_system off
+	subGroups age=a18_day assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF094TEA/@@download/ENCFF094TEA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BZL C57BL_6_central_nervous_system_embryo_18_days_ (plus strand signal o
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BZL age=18_day description=ENCSR000BZL_C57BL_6_central_nervous_system_embryo_18_days_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+

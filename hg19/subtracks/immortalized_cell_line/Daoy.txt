@@ -1,0 +1,96 @@
+
+track immortalized_cell_line_Daoy
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel Daoy
+longLabel Daoy (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view ENCSR346IHH=ENCSR346IHH bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR346IHH_ENCFF199NDX
+	parent immortalized_cell_line_Daoy off
+	subGroups age=a4_year assay=DNase-seq donor=ENCDO735HIP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF199NDX/@@download/ENCFF199NDX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR346IHH Daoy (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR346IHH age=4_year description=ENCSR346IHH_Daoy_read_depth_normalized_signal_ donor=ENCDO735HIP sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Daoy_view_ENCSR346IHH
+	parent immortalized_cell_line_Daoy off
+	view ENCSR346IHH
+	visibility dense
+	type bigBed
+
+		track ENCSR346IHH_ENCFF128GKU
+		parent immortalized_cell_line_Daoy_view_ENCSR346IHH off
+		subGroups age=a4_year assay=DNase-seq donor=ENCDO735HIP label=unknown view=ENCSR346IHH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF128GKU/@@download/ENCFF128GKU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR346IHH Daoy (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR346IHH age=4_year description=ENCSR346IHH_Daoy_peaks_ donor=ENCDO735HIP sex=male view=ENCSR346IHH 
+		view ENCSR346IHH
+
+		track ENCSR346IHH_ENCFF598IDI
+		parent immortalized_cell_line_Daoy_view_ENCSR346IHH off
+		subGroups age=a4_year assay=DNase-seq donor=ENCDO735HIP label=unknown view=ENCSR346IHH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF598IDI/@@download/ENCFF598IDI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF598IDI 9state-DNase DNase-seq on cell line Daoy (polygonal cell from 4 year
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR346IHH age=4_year description=ENCFF598IDI_9state_DNase_DNase_seq_on_cell_line_Daoy_polygonal_cell_from_4_year_old_male_human_cerebellum_desmoplastic_cerebellar_medulloblastoma_ donor=ENCDO735HIP sex=male view=ENCSR346IHH 
+		view ENCSR346IHH
+
+	track ENCSR254JJM_ENCFF266CTA
+	parent immortalized_cell_line_Daoy off
+	subGroups age=a4_year assay=RNA-seq donor=ENCDO735HIP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF266CTA/@@download/ENCFF266CTA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR254JJM Daoy (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR254JJM age=4_year description=ENCSR254JJM_Daoy_plus_strand_signal_of_unique_reads_ donor=ENCDO735HIP sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR700NMZ_ENCFF737XTG
+	parent immortalized_cell_line_Daoy off
+	subGroups age=a4_year assay=RAMPAGE donor=ENCDO735HIP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF737XTG/@@download/ENCFF737XTG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR700NMZ Daoy (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR700NMZ age=4_year description=ENCSR700NMZ_Daoy_plus_strand_signal_of_unique_reads_ donor=ENCDO735HIP sex=male view=bigWig 
+	view bigWig
+

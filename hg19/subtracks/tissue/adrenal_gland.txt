@@ -1,0 +1,2061 @@
+
+track tissue_adrenal_gland
+parent super_tissue
+compositeTrack on
+shortLabel adrenal gland
+longLabel adrenal gland (62 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO012PVK=ENCDO012PVK ENCDO058AAA=ENCDO058AAA ENCDO132ASK=ENCDO132ASK ENCDO148CGW=ENCDO148CGW ENCDO226BUZ=ENCDO226BUZ ENCDO271OUW=ENCDO271OUW ENCDO355UBP=ENCDO355UBP ENCDO424HVB=ENCDO424HVB ENCDO451RUA=ENCDO451RUA ENCDO527XLA=ENCDO527XLA ENCDO637AUB=ENCDO637AUB ENCDO676JUB=ENCDO676JUB ENCDO793LXB=ENCDO793LXB ENCDO826VAK=ENCDO826VAK ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a101_day=101&#32;day a108_day=108&#32;day a113_day=113&#32;day a21_year=21&#32;year a30_year=30&#32;year a34_year=34&#32;year a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year a85_day=85&#32;day a96_day=96&#32;day a97_day=97&#32;day 
+subGroup3 view view ENCSR014GSQ=ENCSR014GSQ ENCSR031KWR=ENCSR031KWR ENCSR053PIY=ENCSR053PIY ENCSR060BFU=ENCSR060BFU ENCSR080PZL=ENCSR080PZL ENCSR094VJC=ENCSR094VJC ENCSR177QFY=ENCSR177QFY ENCSR181JFC=ENCSR181JFC ENCSR189QAD=ENCSR189QAD ENCSR204DMS=ENCSR204DMS ENCSR207ZIA=ENCSR207ZIA ENCSR218BPG=ENCSR218BPG ENCSR234YIU=ENCSR234YIU ENCSR333ZAR=ENCSR333ZAR ENCSR405ESP=ENCSR405ESP ENCSR406PCK=ENCSR406PCK ENCSR408ZEW=ENCSR408ZEW ENCSR412QGD=ENCSR412QGD ENCSR419MZH=ENCSR419MZH ENCSR425NQT=ENCSR425NQT ENCSR450BLH=ENCSR450BLH ENCSR455JUO=ENCSR455JUO ENCSR511GOF=ENCSR511GOF ENCSR597NVK=ENCSR597NVK ENCSR605QAV=ENCSR605QAV ENCSR620TXL=ENCSR620TXL ENCSR642HHF=ENCSR642HHF ENCSR651IVN=ENCSR651IVN ENCSR696XSJ=ENCSR696XSJ ENCSR715KGX=ENCSR715KGX ENCSR728BAD=ENCSR728BAD ENCSR760LFY=ENCSR760LFY ENCSR770IWO=ENCSR770IWO ENCSR847AIA=ENCSR847AIA ENCSR856QJX=ENCSR856QJX ENCSR857XRG=ENCSR857XRG ENCSR866RCY=ENCSR866RCY ENCSR899JSO=ENCSR899JSO ENCSR899MFS=ENCSR899MFS ENCSR926NMC=ENCSR926NMC ENCSR942XCE=ENCSR942XCE ENCSR992VZG=ENCSR992VZG bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR060BFU_ENCFF748BIL
+	parent tissue_adrenal_gland off
+	subGroups age=a96_day assay=DNase-seq donor=ENCDO226BUZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF748BIL/@@download/ENCFF748BIL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR060BFU adrenal_gland_embryo_96_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR060BFU age=96_day description=ENCSR060BFU_adrenal_gland_embryo_96_days_read_depth_normalized_signal_ donor=ENCDO226BUZ sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR060BFU
+	parent tissue_adrenal_gland off
+	view ENCSR060BFU
+	visibility dense
+	type bigBed
+
+		track ENCSR060BFU_ENCFF232JLE
+		parent tissue_adrenal_gland_view_ENCSR060BFU off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO226BUZ label=unknown view=ENCSR060BFU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF232JLE/@@download/ENCFF232JLE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR060BFU adrenal_gland_embryo_96_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR060BFU age=96_day description=ENCSR060BFU_adrenal_gland_embryo_96_days_peaks_ donor=ENCDO226BUZ sex=unknown view=ENCSR060BFU 
+		view ENCSR060BFU
+
+		track ENCSR060BFU_ENCFF555RXV
+		parent tissue_adrenal_gland_view_ENCSR060BFU off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO226BUZ label=unknown view=ENCSR060BFU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF555RXV/@@download/ENCFF555RXV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF555RXV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR060BFU age=96_day description=ENCFF555RXV_9state_DNase_ donor=ENCDO226BUZ sex=unknown view=ENCSR060BFU 
+		view ENCSR060BFU
+
+		track ENCSR060BFU_ENCFF840ANN
+		parent tissue_adrenal_gland_view_ENCSR060BFU off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO226BUZ label=unknown view=ENCSR060BFU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF840ANN/@@download/ENCFF840ANN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF840ANN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR060BFU age=96_day description=ENCFF840ANN_5group_ donor=ENCDO226BUZ sex=unknown view=ENCSR060BFU 
+		view ENCSR060BFU
+
+		track ENCSR060BFU_ENCFF160IEC
+		parent tissue_adrenal_gland_view_ENCSR060BFU off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO226BUZ label=unknown view=ENCSR060BFU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF160IEC/@@download/ENCFF160IEC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF160IEC 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR060BFU age=96_day description=ENCFF160IEC_9state_H3K4me3_ donor=ENCDO226BUZ sex=unknown view=ENCSR060BFU 
+		view ENCSR060BFU
+
+		track ENCSR060BFU_ENCFF757DTY
+		parent tissue_adrenal_gland_view_ENCSR060BFU off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO226BUZ label=unknown view=ENCSR060BFU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF757DTY/@@download/ENCFF757DTY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF757DTY 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR060BFU age=96_day description=ENCFF757DTY_9state_H3K27ac_ donor=ENCDO226BUZ sex=unknown view=ENCSR060BFU 
+		view ENCSR060BFU
+
+	track ENCSR080PZL_ENCFF615AXC
+	parent tissue_adrenal_gland off
+	subGroups age=a101_day assay=DNase-seq donor=ENCDO148CGW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF615AXC/@@download/ENCFF615AXC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR080PZL adrenal_gland_male_embryo_101_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR080PZL age=101_day description=ENCSR080PZL_adrenal_gland_male_embryo_101_day_read_depth_normalized_signal_ donor=ENCDO148CGW sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR080PZL
+	parent tissue_adrenal_gland off
+	view ENCSR080PZL
+	visibility dense
+	type bigBed
+
+		track ENCSR080PZL_ENCFF191RAM
+		parent tissue_adrenal_gland_view_ENCSR080PZL off
+		subGroups age=a101_day assay=DNase-seq donor=ENCDO148CGW label=unknown view=ENCSR080PZL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF191RAM/@@download/ENCFF191RAM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR080PZL adrenal_gland_male_embryo_101_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR080PZL age=101_day description=ENCSR080PZL_adrenal_gland_male_embryo_101_day_peaks_ donor=ENCDO148CGW sex=male view=ENCSR080PZL 
+		view ENCSR080PZL
+
+		track ENCSR080PZL_ENCFF575XWL
+		parent tissue_adrenal_gland_view_ENCSR080PZL off
+		subGroups age=a101_day assay=DNase-seq donor=ENCDO148CGW label=unknown view=ENCSR080PZL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF575XWL/@@download/ENCFF575XWL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF575XWL 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR080PZL age=101_day description=ENCFF575XWL_9state_DNase_ donor=ENCDO148CGW sex=male view=ENCSR080PZL 
+		view ENCSR080PZL
+
+	track ENCSR419MZH_ENCFF428UYW
+	parent tissue_adrenal_gland off
+	subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF428UYW/@@download/ENCFF428UYW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR419MZH adrenal_gland_female_embryo_108_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR419MZH age=108_day description=ENCSR419MZH_adrenal_gland_female_embryo_108_days_read_depth_normalized_signal_ donor=ENCDO012PVK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR419MZH
+	parent tissue_adrenal_gland off
+	view ENCSR419MZH
+	visibility dense
+	type bigBed
+
+		track ENCSR419MZH_ENCFF770NRP
+		parent tissue_adrenal_gland_view_ENCSR419MZH off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR419MZH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF770NRP/@@download/ENCFF770NRP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR419MZH adrenal_gland_female_embryo_108_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR419MZH age=108_day description=ENCSR419MZH_adrenal_gland_female_embryo_108_days_peaks_ donor=ENCDO012PVK sex=female view=ENCSR419MZH 
+		view ENCSR419MZH
+
+		track ENCSR419MZH_ENCFF935PCF
+		parent tissue_adrenal_gland_view_ENCSR419MZH off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR419MZH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF935PCF/@@download/ENCFF935PCF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF935PCF 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR419MZH age=108_day description=ENCFF935PCF_9state_DNase_ donor=ENCDO012PVK sex=female view=ENCSR419MZH 
+		view ENCSR419MZH
+
+	track ENCSR597NVK_ENCFF342ZQV
+	parent tissue_adrenal_gland off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF342ZQV/@@download/ENCFF342ZQV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR597NVK adrenal_gland_female_adult_53_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR597NVK age=53_year description=ENCSR597NVK_adrenal_gland_female_adult_53_years_read_depth_normalized_signal_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR597NVK
+	parent tissue_adrenal_gland off
+	view ENCSR597NVK
+	visibility dense
+	type bigBed
+
+		track ENCSR597NVK_ENCFF024YKR
+		parent tissue_adrenal_gland_view_ENCSR597NVK off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR597NVK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF024YKR/@@download/ENCFF024YKR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR597NVK adrenal_gland_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR597NVK age=53_year description=ENCSR597NVK_adrenal_gland_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR597NVK 
+		view ENCSR597NVK
+
+	track ENCSR696XSJ_ENCFF765KEV
+	parent tissue_adrenal_gland off
+	subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF765KEV/@@download/ENCFF765KEV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR696XSJ adrenal_gland_female_embryo_113_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR696XSJ age=113_day description=ENCSR696XSJ_adrenal_gland_female_embryo_113_days_read_depth_normalized_signal_ donor=ENCDO676JUB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR696XSJ
+	parent tissue_adrenal_gland off
+	view ENCSR696XSJ
+	visibility dense
+	type bigBed
+
+		track ENCSR696XSJ_ENCFF934FEQ
+		parent tissue_adrenal_gland_view_ENCSR696XSJ off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR696XSJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF934FEQ/@@download/ENCFF934FEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR696XSJ adrenal_gland_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR696XSJ age=113_day description=ENCSR696XSJ_adrenal_gland_female_embryo_113_days_peaks_ donor=ENCDO676JUB sex=female view=ENCSR696XSJ 
+		view ENCSR696XSJ
+
+		track ENCSR696XSJ_ENCFF392EIR
+		parent tissue_adrenal_gland_view_ENCSR696XSJ off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR696XSJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF392EIR/@@download/ENCFF392EIR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF392EIR 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR696XSJ age=113_day description=ENCFF392EIR_9state_DNase_ donor=ENCDO676JUB sex=female view=ENCSR696XSJ 
+		view ENCSR696XSJ
+
+	track ENCSR728BAD_ENCFF359VRR
+	parent tissue_adrenal_gland off
+	subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF359VRR/@@download/ENCFF359VRR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR728BAD adrenal_gland_male_embryo_108_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR728BAD age=108_day description=ENCSR728BAD_adrenal_gland_male_embryo_108_days_read_depth_normalized_signal_ donor=ENCDO132ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR728BAD
+	parent tissue_adrenal_gland off
+	view ENCSR728BAD
+	visibility dense
+	type bigBed
+
+		track ENCSR728BAD_ENCFF173MBO
+		parent tissue_adrenal_gland_view_ENCSR728BAD off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=ENCSR728BAD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF173MBO/@@download/ENCFF173MBO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR728BAD adrenal_gland_male_embryo_108_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR728BAD age=108_day description=ENCSR728BAD_adrenal_gland_male_embryo_108_days_peaks_ donor=ENCDO132ASK sex=male view=ENCSR728BAD 
+		view ENCSR728BAD
+
+		track ENCSR728BAD_ENCFF497NQR
+		parent tissue_adrenal_gland_view_ENCSR728BAD off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=ENCSR728BAD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF497NQR/@@download/ENCFF497NQR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF497NQR 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR728BAD age=108_day description=ENCFF497NQR_9state_DNase_ donor=ENCDO132ASK sex=male view=ENCSR728BAD 
+		view ENCSR728BAD
+
+	track ENCSR856QJX_ENCFF723CGG
+	parent tissue_adrenal_gland off
+	subGroups age=a85_day assay=DNase-seq donor=ENCDO355UBP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF723CGG/@@download/ENCFF723CGG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR856QJX adrenal_gland_male_embryo_85_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR856QJX age=85_day description=ENCSR856QJX_adrenal_gland_male_embryo_85_days_read_depth_normalized_signal_ donor=ENCDO355UBP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR856QJX
+	parent tissue_adrenal_gland off
+	view ENCSR856QJX
+	visibility dense
+	type bigBed
+
+		track ENCSR856QJX_ENCFF200VAX
+		parent tissue_adrenal_gland_view_ENCSR856QJX off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO355UBP label=unknown view=ENCSR856QJX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF200VAX/@@download/ENCFF200VAX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR856QJX adrenal_gland_male_embryo_85_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR856QJX age=85_day description=ENCSR856QJX_adrenal_gland_male_embryo_85_days_peaks_ donor=ENCDO355UBP sex=male view=ENCSR856QJX 
+		view ENCSR856QJX
+
+		track ENCSR856QJX_ENCFF627IDZ
+		parent tissue_adrenal_gland_view_ENCSR856QJX off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO355UBP label=unknown view=ENCSR856QJX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF627IDZ/@@download/ENCFF627IDZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF627IDZ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR856QJX age=85_day description=ENCFF627IDZ_9state_DNase_ donor=ENCDO355UBP sex=male view=ENCSR856QJX 
+		view ENCSR856QJX
+
+	track ENCSR866RCY_ENCFF298ZRN
+	parent tissue_adrenal_gland off
+	subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF298ZRN/@@download/ENCFF298ZRN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR866RCY adrenal_gland_female_embryo_85_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR866RCY age=85_day description=ENCSR866RCY_adrenal_gland_female_embryo_85_days_read_depth_normalized_signal_ donor=ENCDO527XLA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR866RCY
+	parent tissue_adrenal_gland off
+	view ENCSR866RCY
+	visibility dense
+	type bigBed
+
+		track ENCSR866RCY_ENCFF092AIX
+		parent tissue_adrenal_gland_view_ENCSR866RCY off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=ENCSR866RCY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF092AIX/@@download/ENCFF092AIX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR866RCY adrenal_gland_female_embryo_85_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR866RCY age=85_day description=ENCSR866RCY_adrenal_gland_female_embryo_85_days_peaks_ donor=ENCDO527XLA sex=female view=ENCSR866RCY 
+		view ENCSR866RCY
+
+		track ENCSR866RCY_ENCFF498LCJ
+		parent tissue_adrenal_gland_view_ENCSR866RCY off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=ENCSR866RCY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF498LCJ/@@download/ENCFF498LCJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF498LCJ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR866RCY age=85_day description=ENCFF498LCJ_9state_DNase_ donor=ENCDO527XLA sex=female view=ENCSR866RCY 
+		view ENCSR866RCY
+
+	track ENCSR234YIU_ENCFF285IHM
+	parent tissue_adrenal_gland off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF285IHM/@@download/ENCFF285IHM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR234YIU adrenal_gland_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR234YIU age=34_year description=ENCSR234YIU_adrenal_gland_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR234YIU
+	parent tissue_adrenal_gland off
+	view ENCSR234YIU
+	visibility dense
+	type bigBed
+
+		track ENCSR234YIU_ENCFF304RFL
+		parent tissue_adrenal_gland_view_ENCSR234YIU off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR234YIU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF304RFL/@@download/ENCFF304RFL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR234YIU adrenal_gland_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR234YIU age=34_year description=ENCSR234YIU_adrenal_gland_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR234YIU 
+		view ENCSR234YIU
+
+	track ENCSR425NQT_ENCFF164UIS
+	parent tissue_adrenal_gland off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF164UIS/@@download/ENCFF164UIS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR425NQT adrenal_gland_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR425NQT age=30_year description=ENCSR425NQT_adrenal_gland_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR425NQT
+	parent tissue_adrenal_gland off
+	view ENCSR425NQT
+	visibility dense
+	type bigBed
+
+		track ENCSR425NQT_ENCFF603KAP
+		parent tissue_adrenal_gland_view_ENCSR425NQT off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=ENCSR425NQT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF603KAP/@@download/ENCFF603KAP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR425NQT adrenal_gland_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR425NQT age=30_year description=ENCSR425NQT_adrenal_gland_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR425NQT 
+		view ENCSR425NQT
+
+	track ENCSR605QAV_ENCFF570YBH
+	parent tissue_adrenal_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF570YBH/@@download/ENCFF570YBH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR605QAV adrenal_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR605QAV age=53_year description=ENCSR605QAV_adrenal_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR605QAV
+	parent tissue_adrenal_gland off
+	view ENCSR605QAV
+	visibility dense
+	type bigBed
+
+		track ENCSR605QAV_ENCFF919VPF
+		parent tissue_adrenal_gland_view_ENCSR605QAV off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR605QAV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF919VPF/@@download/ENCFF919VPF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR605QAV adrenal_gland_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR605QAV age=53_year description=ENCSR605QAV_adrenal_gland_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR605QAV 
+		view ENCSR605QAV
+
+	track ENCSR620TXL_ENCFF173GQB
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF173GQB/@@download/ENCFF173GQB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR620TXL adrenal_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR620TXL age=37_year description=ENCSR620TXL_adrenal_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR620TXL
+	parent tissue_adrenal_gland off
+	view ENCSR620TXL
+	visibility dense
+	type bigBed
+
+		track ENCSR620TXL_ENCFF619RMC
+		parent tissue_adrenal_gland_view_ENCSR620TXL off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR620TXL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF619RMC/@@download/ENCFF619RMC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR620TXL adrenal_gland_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR620TXL age=37_year description=ENCSR620TXL_adrenal_gland_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR620TXL 
+		view ENCSR620TXL
+
+	track ENCSR715KGX_ENCFF493TPV
+	parent tissue_adrenal_gland off
+	subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF493TPV/@@download/ENCFF493TPV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR715KGX adrenal_gland_male_embryo_97_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR715KGX age=97_day description=ENCSR715KGX_adrenal_gland_male_embryo_97_days_fold_change_over_control_ donor=ENCDO826VAK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR715KGX
+	parent tissue_adrenal_gland off
+	view ENCSR715KGX
+	visibility dense
+	type bigBed
+
+		track ENCSR715KGX_ENCFF727VCL
+		parent tissue_adrenal_gland_view_ENCSR715KGX off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K4me3 view=ENCSR715KGX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF727VCL/@@download/ENCFF727VCL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR715KGX adrenal_gland_male_embryo_97_days_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR715KGX age=97_day description=ENCSR715KGX_adrenal_gland_male_embryo_97_days_peaks_ donor=ENCDO826VAK sex=male view=ENCSR715KGX 
+		view ENCSR715KGX
+
+		track ENCSR715KGX_ENCFF555RXV
+		parent tissue_adrenal_gland_view_ENCSR715KGX off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K4me3 view=ENCSR715KGX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF555RXV/@@download/ENCFF555RXV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF555RXV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR715KGX age=97_day description=ENCFF555RXV_9state_DNase_ donor=ENCDO826VAK sex=male view=ENCSR715KGX 
+		view ENCSR715KGX
+
+		track ENCSR715KGX_ENCFF840ANN
+		parent tissue_adrenal_gland_view_ENCSR715KGX off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K4me3 view=ENCSR715KGX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF840ANN/@@download/ENCFF840ANN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF840ANN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR715KGX age=97_day description=ENCFF840ANN_5group_ donor=ENCDO826VAK sex=male view=ENCSR715KGX 
+		view ENCSR715KGX
+
+		track ENCSR715KGX_ENCFF160IEC
+		parent tissue_adrenal_gland_view_ENCSR715KGX off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K4me3 view=ENCSR715KGX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF160IEC/@@download/ENCFF160IEC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF160IEC 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR715KGX age=97_day description=ENCFF160IEC_9state_H3K4me3_ donor=ENCDO826VAK sex=male view=ENCSR715KGX 
+		view ENCSR715KGX
+
+		track ENCSR715KGX_ENCFF757DTY
+		parent tissue_adrenal_gland_view_ENCSR715KGX off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K4me3 view=ENCSR715KGX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF757DTY/@@download/ENCFF757DTY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF757DTY 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR715KGX age=97_day description=ENCFF757DTY_9state_H3K27ac_ donor=ENCDO826VAK sex=male view=ENCSR715KGX 
+		view ENCSR715KGX
+
+	track ENCSR926NMC_ENCFF394DMA
+	parent tissue_adrenal_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF394DMA/@@download/ENCFF394DMA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR926NMC adrenal_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR926NMC age=54_year description=ENCSR926NMC_adrenal_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR926NMC
+	parent tissue_adrenal_gland off
+	view ENCSR926NMC
+	visibility dense
+	type bigBed
+
+		track ENCSR926NMC_ENCFF883MWF
+		parent tissue_adrenal_gland_view_ENCSR926NMC off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR926NMC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF883MWF/@@download/ENCFF883MWF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR926NMC adrenal_gland_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR926NMC age=54_year description=ENCSR926NMC_adrenal_gland_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR926NMC 
+		view ENCSR926NMC
+
+	track ENCSR014GSQ_ENCFF233CJY
+	parent tissue_adrenal_gland off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF233CJY/@@download/ENCFF233CJY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR014GSQ adrenal_gland_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR014GSQ age=51_year description=ENCSR014GSQ_adrenal_gland_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR014GSQ
+	parent tissue_adrenal_gland off
+	view ENCSR014GSQ
+	visibility dense
+	type bigBed
+
+		track ENCSR014GSQ_ENCFF997SLK
+		parent tissue_adrenal_gland_view_ENCSR014GSQ off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR014GSQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF997SLK/@@download/ENCFF997SLK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR014GSQ adrenal_gland_female_adult_51_year_ (pseudoreplicated idr thresholde
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR014GSQ age=51_year description=ENCSR014GSQ_adrenal_gland_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR014GSQ 
+		view ENCSR014GSQ
+
+	track ENCSR094VJC_ENCFF920LOD
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF920LOD/@@download/ENCFF920LOD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR094VJC adrenal_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR094VJC age=37_year description=ENCSR094VJC_adrenal_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR094VJC
+	parent tissue_adrenal_gland off
+	view ENCSR094VJC
+	visibility dense
+	type bigBed
+
+		track ENCSR094VJC_ENCFF524TZF
+		parent tissue_adrenal_gland_view_ENCSR094VJC off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR094VJC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF524TZF/@@download/ENCFF524TZF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR094VJC adrenal_gland_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR094VJC age=37_year description=ENCSR094VJC_adrenal_gland_male_adult_37_years_stable_peaks_ donor=ENCDO845WKR sex=male view=ENCSR094VJC 
+		view ENCSR094VJC
+
+	track ENCSR177QFY_ENCFF104OUW
+	parent tissue_adrenal_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF104OUW/@@download/ENCFF104OUW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR177QFY adrenal_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR177QFY age=54_year description=ENCSR177QFY_adrenal_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR177QFY
+	parent tissue_adrenal_gland off
+	view ENCSR177QFY
+	visibility dense
+	type bigBed
+
+		track ENCSR177QFY_ENCFF557HRQ
+		parent tissue_adrenal_gland_view_ENCSR177QFY off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR177QFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF557HRQ/@@download/ENCFF557HRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR177QFY adrenal_gland_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR177QFY age=54_year description=ENCSR177QFY_adrenal_gland_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR177QFY 
+		view ENCSR177QFY
+
+		track ENCSR177QFY_ENCFF343SZN
+		parent tissue_adrenal_gland_view_ENCSR177QFY off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR177QFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF343SZN/@@download/ENCFF343SZN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF343SZN 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR177QFY age=54_year description=ENCFF343SZN_9state_DNase_ donor=ENCDO451RUA sex=male view=ENCSR177QFY 
+		view ENCSR177QFY
+
+		track ENCSR177QFY_ENCFF375ODC
+		parent tissue_adrenal_gland_view_ENCSR177QFY off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR177QFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF375ODC/@@download/ENCFF375ODC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF375ODC 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR177QFY age=54_year description=ENCFF375ODC_5group_ donor=ENCDO451RUA sex=male view=ENCSR177QFY 
+		view ENCSR177QFY
+
+		track ENCSR177QFY_ENCFF938HVM
+		parent tissue_adrenal_gland_view_ENCSR177QFY off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR177QFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF938HVM/@@download/ENCFF938HVM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF938HVM 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR177QFY age=54_year description=ENCFF938HVM_9state_H3K27ac_ donor=ENCDO451RUA sex=male view=ENCSR177QFY 
+		view ENCSR177QFY
+
+	track ENCSR189QAD_ENCFF570YOK
+	parent tissue_adrenal_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF570YOK/@@download/ENCFF570YOK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR189QAD adrenal_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR189QAD age=53_year description=ENCSR189QAD_adrenal_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR189QAD
+	parent tissue_adrenal_gland off
+	view ENCSR189QAD
+	visibility dense
+	type bigBed
+
+		track ENCSR189QAD_ENCFF797XWK
+		parent tissue_adrenal_gland_view_ENCSR189QAD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR189QAD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF797XWK/@@download/ENCFF797XWK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR189QAD adrenal_gland_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR189QAD age=53_year description=ENCSR189QAD_adrenal_gland_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR189QAD 
+		view ENCSR189QAD
+
+	track ENCSR405ESP_ENCFF498TAM
+	parent tissue_adrenal_gland off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF498TAM/@@download/ENCFF498TAM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR405ESP adrenal_gland_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR405ESP age=34_year description=ENCSR405ESP_adrenal_gland_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR405ESP
+	parent tissue_adrenal_gland off
+	view ENCSR405ESP
+	visibility dense
+	type bigBed
+
+		track ENCSR405ESP_ENCFF746WQJ
+		parent tissue_adrenal_gland_view_ENCSR405ESP off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR405ESP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF746WQJ/@@download/ENCFF746WQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR405ESP adrenal_gland_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR405ESP age=34_year description=ENCSR405ESP_adrenal_gland_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR405ESP 
+		view ENCSR405ESP
+
+	track ENCSR450BLH_ENCFF978NVC
+	parent tissue_adrenal_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF978NVC/@@download/ENCFF978NVC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR450BLH adrenal_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR450BLH age=54_year description=ENCSR450BLH_adrenal_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR450BLH
+	parent tissue_adrenal_gland off
+	view ENCSR450BLH
+	visibility dense
+	type bigBed
+
+		track ENCSR450BLH_ENCFF772TUY
+		parent tissue_adrenal_gland_view_ENCSR450BLH off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR450BLH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF772TUY/@@download/ENCFF772TUY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR450BLH adrenal_gland_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR450BLH age=54_year description=ENCSR450BLH_adrenal_gland_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR450BLH 
+		view ENCSR450BLH
+
+	track ENCSR642HHF_ENCFF363HXA
+	parent tissue_adrenal_gland off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF363HXA/@@download/ENCFF363HXA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR642HHF adrenal_gland_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR642HHF age=30_year description=ENCSR642HHF_adrenal_gland_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR642HHF
+	parent tissue_adrenal_gland off
+	view ENCSR642HHF
+	visibility dense
+	type bigBed
+
+		track ENCSR642HHF_ENCFF966QJO
+		parent tissue_adrenal_gland_view_ENCSR642HHF off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=ENCSR642HHF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF966QJO/@@download/ENCFF966QJO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR642HHF adrenal_gland_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR642HHF age=30_year description=ENCSR642HHF_adrenal_gland_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR642HHF 
+		view ENCSR642HHF
+
+	track ENCSR770IWO_ENCFF610WYQ
+	parent tissue_adrenal_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF610WYQ/@@download/ENCFF610WYQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR770IWO adrenal_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR770IWO age=53_year description=ENCSR770IWO_adrenal_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR770IWO
+	parent tissue_adrenal_gland off
+	view ENCSR770IWO
+	visibility dense
+	type bigBed
+
+		track ENCSR770IWO_ENCFF539JDZ
+		parent tissue_adrenal_gland_view_ENCSR770IWO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR770IWO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF539JDZ/@@download/ENCFF539JDZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR770IWO adrenal_gland_female_adult_53_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR770IWO age=53_year description=ENCSR770IWO_adrenal_gland_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR770IWO 
+		view ENCSR770IWO
+
+	track ENCSR847AIA_ENCFF143GNK
+	parent tissue_adrenal_gland off
+	subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF143GNK/@@download/ENCFF143GNK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR847AIA adrenal_gland_male_embryo_97_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR847AIA age=97_day description=ENCSR847AIA_adrenal_gland_male_embryo_97_days_fold_change_over_control_ donor=ENCDO826VAK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR847AIA
+	parent tissue_adrenal_gland off
+	view ENCSR847AIA
+	visibility dense
+	type bigBed
+
+		track ENCSR847AIA_ENCFF755ZOL
+		parent tissue_adrenal_gland_view_ENCSR847AIA off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K27ac view=ENCSR847AIA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF755ZOL/@@download/ENCFF755ZOL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR847AIA adrenal_gland_male_embryo_97_days_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR847AIA age=97_day description=ENCSR847AIA_adrenal_gland_male_embryo_97_days_peaks_ donor=ENCDO826VAK sex=male view=ENCSR847AIA 
+		view ENCSR847AIA
+
+		track ENCSR847AIA_ENCFF555RXV
+		parent tissue_adrenal_gland_view_ENCSR847AIA off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K27ac view=ENCSR847AIA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF555RXV/@@download/ENCFF555RXV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF555RXV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR847AIA age=97_day description=ENCFF555RXV_9state_DNase_ donor=ENCDO826VAK sex=male view=ENCSR847AIA 
+		view ENCSR847AIA
+
+		track ENCSR847AIA_ENCFF840ANN
+		parent tissue_adrenal_gland_view_ENCSR847AIA off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K27ac view=ENCSR847AIA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF840ANN/@@download/ENCFF840ANN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF840ANN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR847AIA age=97_day description=ENCFF840ANN_5group_ donor=ENCDO826VAK sex=male view=ENCSR847AIA 
+		view ENCSR847AIA
+
+		track ENCSR847AIA_ENCFF160IEC
+		parent tissue_adrenal_gland_view_ENCSR847AIA off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K27ac view=ENCSR847AIA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF160IEC/@@download/ENCFF160IEC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF160IEC 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR847AIA age=97_day description=ENCFF160IEC_9state_H3K4me3_ donor=ENCDO826VAK sex=male view=ENCSR847AIA 
+		view ENCSR847AIA
+
+		track ENCSR847AIA_ENCFF757DTY
+		parent tissue_adrenal_gland_view_ENCSR847AIA off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K27ac view=ENCSR847AIA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF757DTY/@@download/ENCFF757DTY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF757DTY 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR847AIA age=97_day description=ENCFF757DTY_9state_H3K27ac_ donor=ENCDO826VAK sex=male view=ENCSR847AIA 
+		view ENCSR847AIA
+
+	track ENCSR899JSO_ENCFF006LTS
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF006LTS/@@download/ENCFF006LTS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR899JSO adrenal_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR899JSO age=37_year description=ENCSR899JSO_adrenal_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR899JSO
+	parent tissue_adrenal_gland off
+	view ENCSR899JSO
+	visibility dense
+	type bigBed
+
+		track ENCSR899JSO_ENCFF567ZNZ
+		parent tissue_adrenal_gland_view_ENCSR899JSO off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR899JSO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF567ZNZ/@@download/ENCFF567ZNZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR899JSO adrenal_gland_male_adult_37_years_ (pseudoreplicated idr thresholded
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR899JSO age=37_year description=ENCSR899JSO_adrenal_gland_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR899JSO 
+		view ENCSR899JSO
+
+	track ENCSR120NEA_ENCFF328RRN
+	parent tissue_adrenal_gland off
+	subGroups age=a85_day assay=RNA-seq donor=ENCDO527XLA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF328RRN/@@download/ENCFF328RRN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR120NEA adrenal_gland_female_embryo_85_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR120NEA age=85_day description=ENCSR120NEA_adrenal_gland_female_embryo_85_days_signal_of_unique_reads_ donor=ENCDO527XLA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR146ZKR_ENCFF943MVS
+	parent tissue_adrenal_gland off
+	subGroups age=a30_year assay=RNA-seq donor=ENCDO424HVB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF943MVS/@@download/ENCFF943MVS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR146ZKR adrenal_gland_female_adult_30_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR146ZKR age=30_year description=ENCSR146ZKR_adrenal_gland_female_adult_30_years_plus_strand_signal_of_unique_reads_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR264COY_ENCFF943RQM
+	parent tissue_adrenal_gland off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF943RQM/@@download/ENCFF943RQM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR264COY adrenal_gland_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR264COY age=53_year description=ENCSR264COY_adrenal_gland_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR276MMH_ENCFF107GAN
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF107GAN/@@download/ENCFF107GAN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR276MMH adrenal_gland_male_adult_37_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR276MMH age=37_year description=ENCSR276MMH_adrenal_gland_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR335GET_ENCFF066CUN
+	parent tissue_adrenal_gland off
+	subGroups age=a101_day assay=RNA-seq donor=ENCDO148CGW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF066CUN/@@download/ENCFF066CUN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR335GET adrenal_gland_male_embryo_101_day_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR335GET age=101_day description=ENCSR335GET_adrenal_gland_male_embryo_101_day_signal_of_unique_reads_ donor=ENCDO148CGW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR555BCP_ENCFF788MPH
+	parent tissue_adrenal_gland off
+	subGroups age=a96_day assay=RNA-seq donor=ENCDO226BUZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF788MPH/@@download/ENCFF788MPH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR555BCP adrenal_gland_embryo_96_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR555BCP age=96_day description=ENCSR555BCP_adrenal_gland_embryo_96_days_signal_of_unique_reads_ donor=ENCDO226BUZ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR598KJX_ENCFF938FNW
+	parent tissue_adrenal_gland off
+	subGroups age=a34_year assay=RNA-seq donor=ENCDO058AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF938FNW/@@download/ENCFF938FNW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR598KJX adrenal_gland_male_adult_34_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR598KJX age=34_year description=ENCSR598KJX_adrenal_gland_male_adult_34_years_plus_strand_signal_of_unique_reads_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR612WDT_ENCFF900CRM
+	parent tissue_adrenal_gland off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF900CRM/@@download/ENCFF900CRM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR612WDT adrenal_gland_female_adult_51_year_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR612WDT age=51_year description=ENCSR612WDT_adrenal_gland_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR680AAZ_ENCFF247FOV
+	parent tissue_adrenal_gland off
+	subGroups age=a21_year assay=RNA-seq donor=ENCDO637AUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF247FOV/@@download/ENCFF247FOV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR680AAZ adrenal_gland_male_adult_21_year_ (plus strand signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR680AAZ age=21_year description=ENCSR680AAZ_adrenal_gland_male_adult_21_year_plus_strand_signal_of_unique_reads_ donor=ENCDO637AUB sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR688YOZ_ENCFF091QCL
+	parent tissue_adrenal_gland off
+	subGroups age=a108_day assay=RNA-seq donor=ENCDO132ASK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF091QCL/@@download/ENCFF091QCL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR688YOZ adrenal_gland_male_embryo_108_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR688YOZ age=108_day description=ENCSR688YOZ_adrenal_gland_male_embryo_108_days_signal_of_unique_reads_ donor=ENCDO132ASK sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR740OPV_ENCFF277ZGE
+	parent tissue_adrenal_gland off
+	subGroups age=a108_day assay=RNA-seq donor=ENCDO012PVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF277ZGE/@@download/ENCFF277ZGE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR740OPV adrenal_gland_female_embryo_108_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR740OPV age=108_day description=ENCSR740OPV_adrenal_gland_female_embryo_108_days_signal_of_unique_reads_ donor=ENCDO012PVK sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR743LXD_ENCFF686CAC
+	parent tissue_adrenal_gland off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF686CAC/@@download/ENCFF686CAC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR743LXD adrenal_gland_female_adult_51_year_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR743LXD age=51_year description=ENCSR743LXD_adrenal_gland_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR754WLW_ENCFF989FRQ
+	parent tissue_adrenal_gland off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF989FRQ/@@download/ENCFF989FRQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR754WLW adrenal_gland_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR754WLW age=53_year description=ENCSR754WLW_adrenal_gland_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR801MKV_ENCFF820KQI
+	parent tissue_adrenal_gland off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF820KQI/@@download/ENCFF820KQI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR801MKV adrenal_gland_female_adult_51_year_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR801MKV age=51_year description=ENCSR801MKV_adrenal_gland_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR880BIV_ENCFF448HAQ
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF448HAQ/@@download/ENCFF448HAQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR880BIV adrenal_gland_male_adult_37_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR880BIV age=37_year description=ENCSR880BIV_adrenal_gland_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR930XIH_ENCFF227HQY
+	parent tissue_adrenal_gland off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF227HQY/@@download/ENCFF227HQY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR930XIH adrenal_gland_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR930XIH age=53_year description=ENCSR930XIH_adrenal_gland_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR954PZB_ENCFF409WTZ
+	parent tissue_adrenal_gland off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF409WTZ/@@download/ENCFF409WTZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR954PZB adrenal_gland_male_adult_54_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR954PZB age=54_year description=ENCSR954PZB_adrenal_gland_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR970OWZ_ENCFF009SDS
+	parent tissue_adrenal_gland off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF009SDS/@@download/ENCFF009SDS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR970OWZ adrenal_gland_male_adult_54_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR970OWZ age=54_year description=ENCSR970OWZ_adrenal_gland_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR634MFO_ENCFF792SBH
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=eCLIP donor=ENCDO845WKR label=DGCR8 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF792SBH/@@download/ENCFF792SBH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel eCLIP DGCR8
+	longLabel ENCSR634MFO adrenal_gland_male_adult_37_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR634MFO age=37_year description=ENCSR634MFO_adrenal_gland_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR181JFC_ENCFF731UKS
+	parent tissue_adrenal_gland off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF731UKS/@@download/ENCFF731UKS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR181JFC adrenal_gland_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR181JFC age=34_year description=ENCSR181JFC_adrenal_gland_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR181JFC
+	parent tissue_adrenal_gland off
+	view ENCSR181JFC
+	visibility dense
+	type bigBed
+
+		track ENCSR181JFC_ENCFF285ZXV
+		parent tissue_adrenal_gland_view_ENCSR181JFC off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=ENCSR181JFC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF285ZXV/@@download/ENCFF285ZXV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR181JFC adrenal_gland_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR181JFC age=34_year description=ENCSR181JFC_adrenal_gland_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR181JFC 
+		view ENCSR181JFC
+
+	track ENCSR218BPG_ENCFF756TYC
+	parent tissue_adrenal_gland off
+	subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF756TYC/@@download/ENCFF756TYC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR218BPG adrenal_gland_male_embryo_97_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR218BPG age=97_day description=ENCSR218BPG_adrenal_gland_male_embryo_97_days_fold_change_over_control_ donor=ENCDO826VAK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR218BPG
+	parent tissue_adrenal_gland off
+	view ENCSR218BPG
+	visibility dense
+	type bigBed
+
+		track ENCSR218BPG_ENCFF059SLI
+		parent tissue_adrenal_gland_view_ENCSR218BPG off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K27me3 view=ENCSR218BPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF059SLI/@@download/ENCFF059SLI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR218BPG adrenal_gland_male_embryo_97_days_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR218BPG age=97_day description=ENCSR218BPG_adrenal_gland_male_embryo_97_days_peaks_ donor=ENCDO826VAK sex=male view=ENCSR218BPG 
+		view ENCSR218BPG
+
+	track ENCSR204DMS_ENCFF881WVU
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF881WVU/@@download/ENCFF881WVU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR204DMS adrenal_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR204DMS age=37_year description=ENCSR204DMS_adrenal_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR204DMS
+	parent tissue_adrenal_gland off
+	view ENCSR204DMS
+	visibility dense
+	type bigBed
+
+		track ENCSR204DMS_ENCFF176ZAA
+		parent tissue_adrenal_gland_view_ENCSR204DMS off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=ENCSR204DMS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF176ZAA/@@download/ENCFF176ZAA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR204DMS adrenal_gland_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR204DMS age=37_year description=ENCSR204DMS_adrenal_gland_male_adult_37_years_stable_peaks_ donor=ENCDO845WKR sex=male view=ENCSR204DMS 
+		view ENCSR204DMS
+
+	track ENCSR760LFY_ENCFF359MPS
+	parent tissue_adrenal_gland off
+	subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF359MPS/@@download/ENCFF359MPS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR760LFY adrenal_gland_male_embryo_97_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR760LFY age=97_day description=ENCSR760LFY_adrenal_gland_male_embryo_97_days_fold_change_over_control_ donor=ENCDO826VAK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR760LFY
+	parent tissue_adrenal_gland off
+	view ENCSR760LFY
+	visibility dense
+	type bigBed
+
+		track ENCSR760LFY_ENCFF946FGJ
+		parent tissue_adrenal_gland_view_ENCSR760LFY off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K36me3 view=ENCSR760LFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF946FGJ/@@download/ENCFF946FGJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR760LFY adrenal_gland_male_embryo_97_days_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR760LFY age=97_day description=ENCSR760LFY_adrenal_gland_male_embryo_97_days_stable_peaks_ donor=ENCDO826VAK sex=male view=ENCSR760LFY 
+		view ENCSR760LFY
+
+	track ENCSR857XRG_ENCFF408MRR
+	parent tissue_adrenal_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF408MRR/@@download/ENCFF408MRR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR857XRG adrenal_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR857XRG age=54_year description=ENCSR857XRG_adrenal_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR857XRG
+	parent tissue_adrenal_gland off
+	view ENCSR857XRG
+	visibility dense
+	type bigBed
+
+		track ENCSR857XRG_ENCFF626BLE
+		parent tissue_adrenal_gland_view_ENCSR857XRG off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=ENCSR857XRG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF626BLE/@@download/ENCFF626BLE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR857XRG adrenal_gland_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR857XRG age=54_year description=ENCSR857XRG_adrenal_gland_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR857XRG 
+		view ENCSR857XRG
+
+	track ENCSR899MFS_ENCFF512CAK
+	parent tissue_adrenal_gland off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF512CAK/@@download/ENCFF512CAK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR899MFS adrenal_gland_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR899MFS age=30_year description=ENCSR899MFS_adrenal_gland_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR899MFS
+	parent tissue_adrenal_gland off
+	view ENCSR899MFS
+	visibility dense
+	type bigBed
+
+		track ENCSR899MFS_ENCFF803DZO
+		parent tissue_adrenal_gland_view_ENCSR899MFS off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K36me3 view=ENCSR899MFS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF803DZO/@@download/ENCFF803DZO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR899MFS adrenal_gland_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR899MFS age=30_year description=ENCSR899MFS_adrenal_gland_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR899MFS 
+		view ENCSR899MFS
+
+	track ENCSR942XCE_ENCFF415OBX
+	parent tissue_adrenal_gland off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF415OBX/@@download/ENCFF415OBX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR942XCE adrenal_gland_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR942XCE age=34_year description=ENCSR942XCE_adrenal_gland_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR942XCE
+	parent tissue_adrenal_gland off
+	view ENCSR942XCE
+	visibility dense
+	type bigBed
+
+		track ENCSR942XCE_ENCFF901NED
+		parent tissue_adrenal_gland_view_ENCSR942XCE off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K36me3 view=ENCSR942XCE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF901NED/@@download/ENCFF901NED.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR942XCE adrenal_gland_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR942XCE age=34_year description=ENCSR942XCE_adrenal_gland_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR942XCE 
+		view ENCSR942XCE
+
+	track ENCSR207ZIA_ENCFF670HYX
+	parent tissue_adrenal_gland off
+	subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF670HYX/@@download/ENCFF670HYX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR207ZIA adrenal_gland_male_embryo_97_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR207ZIA age=97_day description=ENCSR207ZIA_adrenal_gland_male_embryo_97_days_fold_change_over_control_ donor=ENCDO826VAK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR207ZIA
+	parent tissue_adrenal_gland off
+	view ENCSR207ZIA
+	visibility dense
+	type bigBed
+
+		track ENCSR207ZIA_ENCFF732ADB
+		parent tissue_adrenal_gland_view_ENCSR207ZIA off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K4me1 view=ENCSR207ZIA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF732ADB/@@download/ENCFF732ADB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR207ZIA adrenal_gland_male_embryo_97_days_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR207ZIA age=97_day description=ENCSR207ZIA_adrenal_gland_male_embryo_97_days_peaks_ donor=ENCDO826VAK sex=male view=ENCSR207ZIA 
+		view ENCSR207ZIA
+
+	track ENCSR333ZAR_ENCFF345AVW
+	parent tissue_adrenal_gland off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF345AVW/@@download/ENCFF345AVW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR333ZAR adrenal_gland_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR333ZAR age=30_year description=ENCSR333ZAR_adrenal_gland_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR333ZAR
+	parent tissue_adrenal_gland off
+	view ENCSR333ZAR
+	visibility dense
+	type bigBed
+
+		track ENCSR333ZAR_ENCFF829EYF
+		parent tissue_adrenal_gland_view_ENCSR333ZAR off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me1 view=ENCSR333ZAR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF829EYF/@@download/ENCFF829EYF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR333ZAR adrenal_gland_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR333ZAR age=30_year description=ENCSR333ZAR_adrenal_gland_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR333ZAR 
+		view ENCSR333ZAR
+
+	track ENCSR406PCK_ENCFF316WOM
+	parent tissue_adrenal_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF316WOM/@@download/ENCFF316WOM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR406PCK adrenal_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR406PCK age=54_year description=ENCSR406PCK_adrenal_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR406PCK
+	parent tissue_adrenal_gland off
+	view ENCSR406PCK
+	visibility dense
+	type bigBed
+
+		track ENCSR406PCK_ENCFF434EMB
+		parent tissue_adrenal_gland_view_ENCSR406PCK off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me1 view=ENCSR406PCK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF434EMB/@@download/ENCFF434EMB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR406PCK adrenal_gland_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR406PCK age=54_year description=ENCSR406PCK_adrenal_gland_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR406PCK 
+		view ENCSR406PCK
+
+	track ENCSR455JUO_ENCFF467KJK
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF467KJK/@@download/ENCFF467KJK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR455JUO adrenal_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR455JUO age=37_year description=ENCSR455JUO_adrenal_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR455JUO
+	parent tissue_adrenal_gland off
+	view ENCSR455JUO
+	visibility dense
+	type bigBed
+
+		track ENCSR455JUO_ENCFF208WTS
+		parent tissue_adrenal_gland_view_ENCSR455JUO off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me1 view=ENCSR455JUO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF208WTS/@@download/ENCFF208WTS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR455JUO adrenal_gland_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR455JUO age=37_year description=ENCSR455JUO_adrenal_gland_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR455JUO 
+		view ENCSR455JUO
+
+	track ENCSR511GOF_ENCFF126OAE
+	parent tissue_adrenal_gland off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF126OAE/@@download/ENCFF126OAE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR511GOF adrenal_gland_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR511GOF age=34_year description=ENCSR511GOF_adrenal_gland_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR511GOF
+	parent tissue_adrenal_gland off
+	view ENCSR511GOF
+	visibility dense
+	type bigBed
+
+		track ENCSR511GOF_ENCFF721OEO
+		parent tissue_adrenal_gland_view_ENCSR511GOF off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=ENCSR511GOF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF721OEO/@@download/ENCFF721OEO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR511GOF adrenal_gland_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR511GOF age=34_year description=ENCSR511GOF_adrenal_gland_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR511GOF 
+		view ENCSR511GOF
+
+	track ENCSR053PIY_ENCFF588NLH
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF588NLH/@@download/ENCFF588NLH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR053PIY adrenal_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR053PIY age=37_year description=ENCSR053PIY_adrenal_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR053PIY
+	parent tissue_adrenal_gland off
+	view ENCSR053PIY
+	visibility dense
+	type bigBed
+
+		track ENCSR053PIY_ENCFF819KEQ
+		parent tissue_adrenal_gland_view_ENCSR053PIY off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=ENCSR053PIY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF819KEQ/@@download/ENCFF819KEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR053PIY adrenal_gland_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR053PIY age=37_year description=ENCSR053PIY_adrenal_gland_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR053PIY 
+		view ENCSR053PIY
+
+	track ENCSR408ZEW_ENCFF735UQI
+	parent tissue_adrenal_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF735UQI/@@download/ENCFF735UQI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR408ZEW adrenal_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR408ZEW age=54_year description=ENCSR408ZEW_adrenal_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR408ZEW
+	parent tissue_adrenal_gland off
+	view ENCSR408ZEW
+	visibility dense
+	type bigBed
+
+		track ENCSR408ZEW_ENCFF433GBY
+		parent tissue_adrenal_gland_view_ENCSR408ZEW off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K9me3 view=ENCSR408ZEW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF433GBY/@@download/ENCFF433GBY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR408ZEW adrenal_gland_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR408ZEW age=54_year description=ENCSR408ZEW_adrenal_gland_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR408ZEW 
+		view ENCSR408ZEW
+
+	track ENCSR651IVN_ENCFF317EXG
+	parent tissue_adrenal_gland off
+	subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF317EXG/@@download/ENCFF317EXG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR651IVN adrenal_gland_male_embryo_97_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR651IVN age=97_day description=ENCSR651IVN_adrenal_gland_male_embryo_97_days_fold_change_over_control_ donor=ENCDO826VAK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR651IVN
+	parent tissue_adrenal_gland off
+	view ENCSR651IVN
+	visibility dense
+	type bigBed
+
+		track ENCSR651IVN_ENCFF771KQO
+		parent tissue_adrenal_gland_view_ENCSR651IVN off
+		subGroups age=a97_day assay=ChIP-seq donor=ENCDO826VAK label=H3K9me3 view=ENCSR651IVN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF771KQO/@@download/ENCFF771KQO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR651IVN adrenal_gland_male_embryo_97_days_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR651IVN age=97_day description=ENCSR651IVN_adrenal_gland_male_embryo_97_days_stable_peaks_ donor=ENCDO826VAK sex=male view=ENCSR651IVN 
+		view ENCSR651IVN
+
+	track ENCSR992VZG_ENCFF831VVB
+	parent tissue_adrenal_gland off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF831VVB/@@download/ENCFF831VVB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR992VZG adrenal_gland_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR992VZG age=34_year description=ENCSR992VZG_adrenal_gland_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR992VZG
+	parent tissue_adrenal_gland off
+	view ENCSR992VZG
+	visibility dense
+	type bigBed
+
+		track ENCSR992VZG_ENCFF742CSU
+		parent tissue_adrenal_gland_view_ENCSR992VZG off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K9me3 view=ENCSR992VZG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF742CSU/@@download/ENCFF742CSU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR992VZG adrenal_gland_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR992VZG age=34_year description=ENCSR992VZG_adrenal_gland_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR992VZG 
+		view ENCSR992VZG
+
+	track ENCSR368GER_ENCFF087ZEV
+	parent tissue_adrenal_gland off
+	subGroups age=a37_year assay=eCLIP donor=ENCDO845WKR label=HNRNPU view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF087ZEV/@@download/ENCFF087ZEV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel eCLIP HNRNPU
+	longLabel ENCSR368GER adrenal_gland_male_adult_37_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR368GER age=37_year description=ENCSR368GER_adrenal_gland_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR031KWR_ENCFF659PWI
+	parent tissue_adrenal_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF659PWI/@@download/ENCFF659PWI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR031KWR adrenal_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR031KWR age=53_year description=ENCSR031KWR_adrenal_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR031KWR
+	parent tissue_adrenal_gland off
+	view ENCSR031KWR
+	visibility dense
+	type bigBed
+
+		track ENCSR031KWR_ENCFF971JQT
+		parent tissue_adrenal_gland_view_ENCSR031KWR off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR031KWR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF971JQT/@@download/ENCFF971JQT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR031KWR adrenal_gland_female_adult_53_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR031KWR age=53_year description=ENCSR031KWR_adrenal_gland_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR031KWR 
+		view ENCSR031KWR
+
+	track ENCSR412QGD_ENCFF083XYK
+	parent tissue_adrenal_gland off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF083XYK/@@download/ENCFF083XYK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR412QGD adrenal_gland_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR412QGD age=51_year description=ENCSR412QGD_adrenal_gland_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_adrenal_gland_view_ENCSR412QGD
+	parent tissue_adrenal_gland off
+	view ENCSR412QGD
+	visibility dense
+	type bigBed
+
+		track ENCSR412QGD_ENCFF762XOO
+		parent tissue_adrenal_gland_view_ENCSR412QGD off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR412QGD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF762XOO/@@download/ENCFF762XOO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR412QGD adrenal_gland_female_adult_51_year_ (pseudoreplicated idr thresholde
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR412QGD age=51_year description=ENCSR412QGD_adrenal_gland_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR412QGD 
+		view ENCSR412QGD
+

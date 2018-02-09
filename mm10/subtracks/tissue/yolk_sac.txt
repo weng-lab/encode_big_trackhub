@@ -1,0 +1,53 @@
+
+track tissue_yolk_sac
+parent super_tissue
+compositeTrack on
+shortLabel yolk sac
+longLabel yolk sac (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a10_50_day=10&#46;50&#32;day 
+subGroup3 view view ENCSR894HWV=ENCSR894HWV bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR894HWV_ENCFF353HPD
+	parent tissue_yolk_sac off
+	subGroups age=a10_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF353HPD/@@download/ENCFF353HPD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR894HWV C57BL_6_yolk_sac_embryo_10_50_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR894HWV age=10_50_day description=ENCSR894HWV_C57BL_6_yolk_sac_embryo_10_50_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_yolk_sac_view_ENCSR894HWV
+	parent tissue_yolk_sac off
+	view ENCSR894HWV
+	visibility dense
+	type bigBed
+
+		track ENCSR894HWV_ENCFF132GGL
+		parent tissue_yolk_sac_view_ENCSR894HWV off
+		subGroups age=a10_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR894HWV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF132GGL/@@download/ENCFF132GGL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR894HWV C57BL_6_yolk_sac_embryo_10_50_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR894HWV age=10_50_day description=ENCSR894HWV_C57BL_6_yolk_sac_embryo_10_50_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR894HWV 
+		view ENCSR894HWV
+

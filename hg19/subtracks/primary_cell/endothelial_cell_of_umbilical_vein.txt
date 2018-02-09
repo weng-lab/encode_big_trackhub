@@ -1,0 +1,1294 @@
+
+track primary_cell_endothelial_cell_of_umbilical_vein
+parent super_primary_cell
+compositeTrack on
+shortLabel endothelial cell 
+longLabel endothelial cell of umbilical vein (44 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000AAS=ENCDO000AAS ENCDO341AAA=ENCDO341AAA ENCDO342AAA=ENCDO342AAA ENCDO551FXN=ENCDO551FXN 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000AKK=ENCSR000AKK ENCSR000AKM=ENCSR000AKM ENCSR000AKN=ENCSR000AKN ENCSR000ALA=ENCSR000ALA ENCSR000ALB=ENCSR000ALB ENCSR000ASC=ENCSR000ASC ENCSR000ASD=ENCSR000ASD ENCSR000ATB=ENCSR000ATB ENCSR000BQB=ENCSR000BQB ENCSR000DCJ=ENCSR000DCJ ENCSR000DLU=ENCSR000DLU ENCSR000DLV=ENCSR000DLV ENCSR000DLW=ENCSR000DLW ENCSR000DVM=ENCSR000DVM ENCSR000DVN=ENCSR000DVN ENCSR000DVO=ENCSR000DVO ENCSR000EEZ=ENCSR000EEZ ENCSR000EFA=ENCSR000EFA ENCSR000EFB=ENCSR000EFB ENCSR000EKF=ENCSR000EKF ENCSR000EVU=ENCSR000EVU ENCSR000EVW=ENCSR000EVW ENCSR578QSO=ENCSR578QSO bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EKF_ENCFF573RVO
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF573RVO/@@download/ENCFF573RVO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EKF endothelial_cell_of_umbilical_vein_newborn (read-depth normalized si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EKF age=unknown description=ENCSR000EKF_endothelial_cell_of_umbilical_vein_newborn_read_depth_normalized_signal_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EKF
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000EKF
+	visibility dense
+	type bigBed
+
+		track ENCSR000EKF_ENCFF042FLF
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EKF off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAS label=unknown view=ENCSR000EKF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF042FLF/@@download/ENCFF042FLF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EKF endothelial_cell_of_umbilical_vein_newborn (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EKF age=unknown description=ENCSR000EKF_endothelial_cell_of_umbilical_vein_newborn_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000EKF 
+		view ENCSR000EKF
+
+	track ENCSR000AKN_ENCFF203KHF
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF203KHF/@@download/ENCFF203KHF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000AKN endothelial_cell_of_umbilical_vein_newborn (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AKN age=unknown description=ENCSR000AKN_endothelial_cell_of_umbilical_vein_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKN
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000AKN
+	visibility dense
+	type bigBed
+
+		track ENCSR000AKN_ENCFF573BDO
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K4me3 view=ENCSR000AKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF573BDO/@@download/ENCFF573BDO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000AKN endothelial_cell_of_umbilical_vein_newborn (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000AKN age=unknown description=ENCSR000AKN_endothelial_cell_of_umbilical_vein_newborn_replicated_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000AKN 
+		view ENCSR000AKN
+
+		track ENCSR000AKN_ENCFF745QGV
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K4me3 view=ENCSR000AKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF745QGV/@@download/ENCFF745QGV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF745QGV 9state-CTCF H3K4me3 ChIP-seq on human endothelial cell of umbilical 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000AKN age=unknown description=ENCFF745QGV_9state_CTCF_H3K4me3_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000AKN 
+		view ENCSR000AKN
+
+		track ENCSR000AKN_ENCFF530GZB
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K4me3 view=ENCSR000AKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF530GZB/@@download/ENCFF530GZB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF530GZB 5group H3K4me3 ChIP-seq on human endothelial cell of umbilical vein
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000AKN age=unknown description=ENCFF530GZB_5group_H3K4me3_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000AKN 
+		view ENCSR000AKN
+
+		track ENCSR000AKN_ENCFF327NYF
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K4me3 view=ENCSR000AKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF327NYF/@@download/ENCFF327NYF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF327NYF 9state-H3K27ac H3K4me3 ChIP-seq on human endothelial cell of umbilic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000AKN age=unknown description=ENCFF327NYF_9state_H3K27ac_H3K4me3_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000AKN 
+		view ENCSR000AKN
+
+		track ENCSR000AKN_ENCFF212PQF
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K4me3 view=ENCSR000AKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF212PQF/@@download/ENCFF212PQF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF212PQF 9state-H3K4me3 H3K4me3 ChIP-seq on human endothelial cell of umbilic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000AKN age=unknown description=ENCFF212PQF_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000AKN 
+		view ENCSR000AKN
+
+	track ENCSR000DVN_ENCFF633KHE
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO342AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF633KHE/@@download/ENCFF633KHE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DVN endothelial_cell_of_umbilical_vein_male_newborn (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DVN age=unknown description=ENCSR000DVN_endothelial_cell_of_umbilical_vein_male_newborn_fold_change_over_control_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DVN
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000DVN
+	visibility dense
+	type bigBed
+
+		track ENCSR000DVN_ENCFF723ZPO
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DVN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO342AAA label=H3K4me3 view=ENCSR000DVN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF723ZPO/@@download/ENCFF723ZPO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DVN endothelial_cell_of_umbilical_vein_male_newborn (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DVN age=unknown description=ENCSR000DVN_endothelial_cell_of_umbilical_vein_male_newborn_replicated_peaks_ donor=ENCDO342AAA sex=male view=ENCSR000DVN 
+		view ENCSR000DVN
+
+	track ENCSR578QSO_ENCFF576CBL
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO551FXN label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF576CBL/@@download/ENCFF576CBL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR578QSO endothelial_cell_of_umbilical_vein_male_newborn (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR578QSO age=unknown description=ENCSR578QSO_endothelial_cell_of_umbilical_vein_male_newborn_fold_change_over_control_ donor=ENCDO551FXN sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR578QSO
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR578QSO
+	visibility dense
+	type bigBed
+
+		track ENCSR578QSO_ENCFF818COM
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR578QSO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO551FXN label=H3K4me3 view=ENCSR578QSO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF818COM/@@download/ENCFF818COM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR578QSO endothelial_cell_of_umbilical_vein_male_newborn (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR578QSO age=unknown description=ENCSR578QSO_endothelial_cell_of_umbilical_vein_male_newborn_replicated_peaks_ donor=ENCDO551FXN sex=male view=ENCSR578QSO 
+		view ENCSR578QSO
+
+	track ENCSR000ALA_ENCFF810DGE
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810DGE/@@download/ENCFF810DGE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000ALA endothelial_cell_of_umbilical_vein_newborn (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ALA age=unknown description=ENCSR000ALA_endothelial_cell_of_umbilical_vein_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALA
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000ALA
+	visibility dense
+	type bigBed
+
+		track ENCSR000ALA_ENCFF136CCV
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=CTCF view=ENCSR000ALA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF136CCV/@@download/ENCFF136CCV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000ALA endothelial_cell_of_umbilical_vein_newborn (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000ALA age=unknown description=ENCSR000ALA_endothelial_cell_of_umbilical_vein_newborn_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000ALA 
+		view ENCSR000ALA
+
+		track ENCSR000ALA_ENCFF745QGV
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=CTCF view=ENCSR000ALA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF745QGV/@@download/ENCFF745QGV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF745QGV 9state-CTCF CTCF ChIP-seq on human endothelial cell of umbilical vei
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ALA age=unknown description=ENCFF745QGV_9state_CTCF_CTCF_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000ALA 
+		view ENCSR000ALA
+
+		track ENCSR000ALA_ENCFF530GZB
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=CTCF view=ENCSR000ALA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF530GZB/@@download/ENCFF530GZB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF530GZB 5group CTCF ChIP-seq on human endothelial cell of umbilical vein
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ALA age=unknown description=ENCFF530GZB_5group_CTCF_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000ALA 
+		view ENCSR000ALA
+
+		track ENCSR000ALA_ENCFF327NYF
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=CTCF view=ENCSR000ALA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF327NYF/@@download/ENCFF327NYF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF327NYF 9state-H3K27ac CTCF ChIP-seq on human endothelial cell of umbilical 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ALA age=unknown description=ENCFF327NYF_9state_H3K27ac_CTCF_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000ALA 
+		view ENCSR000ALA
+
+		track ENCSR000ALA_ENCFF212PQF
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=CTCF view=ENCSR000ALA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF212PQF/@@download/ENCFF212PQF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF212PQF 9state-H3K4me3 CTCF ChIP-seq on human endothelial cell of umbilical 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ALA age=unknown description=ENCFF212PQF_9state_H3K4me3_CTCF_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000ALA 
+		view ENCSR000ALA
+
+	track ENCSR000ALB_ENCFF038HNR
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF038HNR/@@download/ENCFF038HNR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000ALB endothelial_cell_of_umbilical_vein_newborn (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ALB age=unknown description=ENCSR000ALB_endothelial_cell_of_umbilical_vein_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALB
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000ALB
+	visibility dense
+	type bigBed
+
+		track ENCSR000ALB_ENCFF663HHV
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K27ac view=ENCSR000ALB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663HHV/@@download/ENCFF663HHV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000ALB endothelial_cell_of_umbilical_vein_newborn (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000ALB age=unknown description=ENCSR000ALB_endothelial_cell_of_umbilical_vein_newborn_replicated_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000ALB 
+		view ENCSR000ALB
+
+		track ENCSR000ALB_ENCFF745QGV
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K27ac view=ENCSR000ALB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF745QGV/@@download/ENCFF745QGV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF745QGV 9state-CTCF H3K27ac ChIP-seq on human endothelial cell of umbilical 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ALB age=unknown description=ENCFF745QGV_9state_CTCF_H3K27ac_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000ALB 
+		view ENCSR000ALB
+
+		track ENCSR000ALB_ENCFF530GZB
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K27ac view=ENCSR000ALB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF530GZB/@@download/ENCFF530GZB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF530GZB 5group H3K27ac ChIP-seq on human endothelial cell of umbilical vein
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ALB age=unknown description=ENCFF530GZB_5group_H3K27ac_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000ALB 
+		view ENCSR000ALB
+
+		track ENCSR000ALB_ENCFF327NYF
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K27ac view=ENCSR000ALB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF327NYF/@@download/ENCFF327NYF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF327NYF 9state-H3K27ac H3K27ac ChIP-seq on human endothelial cell of umbilic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ALB age=unknown description=ENCFF327NYF_9state_H3K27ac_H3K27ac_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000ALB 
+		view ENCSR000ALB
+
+		track ENCSR000ALB_ENCFF212PQF
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ALB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K27ac view=ENCSR000ALB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF212PQF/@@download/ENCFF212PQF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF212PQF 9state-H3K4me3 H3K27ac ChIP-seq on human endothelial cell of umbilic
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ALB age=unknown description=ENCFF212PQF_9state_H3K4me3_H3K27ac_ChIP_seq_on_human_endothelial_cell_of_umbilical_vein donor=ENCDO000AAS sex=unknown view=ENCSR000ALB 
+		view ENCSR000ALB
+
+	track ENCSR000DLW_ENCFF000RVD
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000RVD/@@download/ENCFF000RVD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DLW endothelial_cell_of_umbilical_vein_newborn (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DLW age=unknown description=ENCSR000DLW_endothelial_cell_of_umbilical_vein_newborn_signal_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DLW
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000DLW
+	visibility dense
+	type bigBed
+
+		track ENCSR000DLW_ENCFF316WEG
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DLW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=CTCF view=ENCSR000DLW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF316WEG/@@download/ENCFF316WEG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DLW endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DLW age=unknown description=ENCSR000DLW_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000DLW 
+		view ENCSR000DLW
+
+	track ENCSR000BCD_ENCFF000LGK
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-PET donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000LGK/@@download/ENCFF000LGK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-PET
+	longLabel ENCSR000BCD endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BCD age=unknown description=ENCSR000BCD_endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn_plus_strand_signal_of_all_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000BCP_ENCFF000LGD
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-PET donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000LGD/@@download/ENCFF000LGD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-PET
+	longLabel ENCSR000BCP endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BCP age=unknown description=ENCSR000BCP_endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn_plus_strand_signal_of_all_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CIV_ENCFF591AGW
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=CAGE donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF591AGW/@@download/ENCFF591AGW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CIV endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CIV age=unknown description=ENCSR000CIV_endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CJE_ENCFF179CRC
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=CAGE donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF179CRC/@@download/ENCFF179CRC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CJE endothelial_cell_of_umbilical_vein_male_newborn (plus strand signal 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CJE age=unknown description=ENCSR000CJE_endothelial_cell_of_umbilical_vein_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CJF_ENCFF231IIR
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=CAGE donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF231IIR/@@download/ENCFF231IIR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CJF endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CJF age=unknown description=ENCSR000CJF_endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CJG_ENCFF943LND
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=CAGE donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF943LND/@@download/ENCFF943LND.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CJG endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CJG age=unknown description=ENCSR000CJG_endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CKO_ENCFF042CYH
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=CAGE donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF042CYH/@@download/ENCFF042CYH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CKO endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CKO age=unknown description=ENCSR000CKO_endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000COZ_ENCFF335SIT
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF335SIT/@@download/ENCFF335SIT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000COZ endothelial_cell_of_umbilical_vein_male_newborn (plus strand signal 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000COZ age=unknown description=ENCSR000COZ_endothelial_cell_of_umbilical_vein_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CPA_ENCFF497NZF
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF497NZF/@@download/ENCFF497NZF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CPA endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CPA age=unknown description=ENCSR000CPA_endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CPB_ENCFF257OWQ
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF257OWQ/@@download/ENCFF257OWQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CPB endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CPB age=unknown description=ENCSR000CPB_endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CQG_ENCFF874NOV
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF874NOV/@@download/ENCFF874NOV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CQG endothelial_cell_of_umbilical_vein_male_newborn (plus strand signal 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CQG age=unknown description=ENCSR000CQG_endothelial_cell_of_umbilical_vein_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CQH_ENCFF780BMC
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF780BMC/@@download/ENCFF780BMC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CQH endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CQH age=unknown description=ENCSR000CQH_endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CQS_ENCFF431AYO
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF431AYO/@@download/ENCFF431AYO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CQS endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CQS age=unknown description=ENCSR000CQS_endothelial_cell_of_umbilical_vein_cytosolic_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CRH_ENCFF544NFJ
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO341AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF544NFJ/@@download/ENCFF544NFJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CRH endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CRH age=unknown description=ENCSR000CRH_endothelial_cell_of_umbilical_vein_nuclear_fraction_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO341AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CXI_ENCFF001GQE
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO342AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GQE/@@download/ENCFF001GQE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR000CXI endothelial_cell_of_umbilical_vein_G1b_phase_male_newborn (percentag
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CXI age=unknown description=ENCSR000CXI_endothelial_cell_of_umbilical_vein_G1b_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000DCJ_ENCFF000TKY
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=FAIRE-seq donor=ENCDO000AAS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000TKY/@@download/ENCFF000TKY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel FAIRE-seq
+	longLabel ENCSR000DCJ endothelial_cell_of_umbilical_vein_newborn (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DCJ age=unknown description=ENCSR000DCJ_endothelial_cell_of_umbilical_vein_newborn_signal_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DCJ
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000DCJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DCJ_ENCFF000TKX
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DCJ off
+		subGroups age=aunknown assay=FAIRE-seq donor=ENCDO000AAS label=unknown view=ENCSR000DCJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000TKX/@@download/ENCFF000TKX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel FAIRE-seq
+		longLabel ENCSR000DCJ endothelial_cell_of_umbilical_vein_newborn (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DCJ age=unknown description=ENCSR000DCJ_endothelial_cell_of_umbilical_vein_newborn_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000DCJ 
+		view ENCSR000DCJ
+
+	track ENCSR193NLV_ENCFF001GQT
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO342AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GQT/@@download/ENCFF001GQT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR193NLV endothelial_cell_of_umbilical_vein_S4_phase_male_newborn (percentage
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR193NLV age=unknown description=ENCSR193NLV_endothelial_cell_of_umbilical_vein_S4_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR331IKA_ENCFF001GQH
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO342AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GQH/@@download/ENCFF001GQH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR331IKA endothelial_cell_of_umbilical_vein_G2_phase_male_newborn (percentage
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR331IKA age=unknown description=ENCSR331IKA_endothelial_cell_of_umbilical_vein_G2_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR420LJO_ENCFF001GQM
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO342AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GQM/@@download/ENCFF001GQM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR420LJO endothelial_cell_of_umbilical_vein_S1_phase_male_newborn (percentage
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR420LJO age=unknown description=ENCSR420LJO_endothelial_cell_of_umbilical_vein_S1_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR654UPQ_ENCFF710YMY
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF710YMY/@@download/ENCFF710YMY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR654UPQ endothelial_cell_of_umbilical_vein_newborn (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR654UPQ age=unknown description=ENCSR654UPQ_endothelial_cell_of_umbilical_vein_newborn_signal_of_unique_reads_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR738PPH_ENCFF001GQR
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO342AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GQR/@@download/ENCFF001GQR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR738PPH endothelial_cell_of_umbilical_vein_S3_phase_male_newborn (percentage
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR738PPH age=unknown description=ENCSR738PPH_endothelial_cell_of_umbilical_vein_S3_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR772AGI_ENCFF001GQO
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO342AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GQO/@@download/ENCFF001GQO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR772AGI endothelial_cell_of_umbilical_vein_S2_phase_male_newborn (percentage
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR772AGI age=unknown description=ENCSR772AGI_endothelial_cell_of_umbilical_vein_S2_phase_male_newborn_percentage_normalized_signal_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000EVU_ENCFF652CIH
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=FOS view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF652CIH/@@download/ENCFF652CIH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FOS
+	longLabel ENCSR000EVU endothelial_cell_of_umbilical_vein_newborn (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EVU age=unknown description=ENCSR000EVU_endothelial_cell_of_umbilical_vein_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EVU
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000EVU
+	visibility dense
+	type bigBed
+
+		track ENCSR000EVU_ENCFF149XMW
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EVU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=FOS view=ENCSR000EVU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF149XMW/@@download/ENCFF149XMW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq FOS
+		longLabel ENCSR000EVU endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EVU age=unknown description=ENCSR000EVU_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000EVU 
+		view ENCSR000EVU
+
+	track ENCSR000EVW_ENCFF525GVK
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=GATA2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF525GVK/@@download/ENCFF525GVK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA2
+	longLabel ENCSR000EVW endothelial_cell_of_umbilical_vein_newborn (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EVW age=unknown description=ENCSR000EVW_endothelial_cell_of_umbilical_vein_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EVW
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000EVW
+	visibility dense
+	type bigBed
+
+		track ENCSR000EVW_ENCFF179JTN
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EVW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=GATA2 view=ENCSR000EVW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF179JTN/@@download/ENCFF179JTN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq GATA2
+		longLabel ENCSR000EVW endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EVW age=unknown description=ENCSR000EVW_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000EVW 
+		view ENCSR000EVW
+
+	track ENCSR000ASC_ENCFF104GFP
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF104GFP/@@download/ENCFF104GFP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR000ASC endothelial_cell_of_umbilical_vein_male_newborn_and_newborn (fold ch
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASC age=unknown description=ENCSR000ASC_endothelial_cell_of_umbilical_vein_male_newborn_and_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ASC
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000ASC
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASC_ENCFF414GKN
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ASC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H2AFZ view=ENCSR000ASC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF414GKN/@@download/ENCFF414GKN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR000ASC endothelial_cell_of_umbilical_vein_male_newborn_and_newborn (replica
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ASC age=unknown description=ENCSR000ASC_endothelial_cell_of_umbilical_vein_male_newborn_and_newborn_replicated_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000ASC 
+		view ENCSR000ASC
+
+	track ENCSR000AKK_ENCFF420DLT
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF420DLT/@@download/ENCFF420DLT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000AKK endothelial_cell_of_umbilical_vein_newborn (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AKK age=unknown description=ENCSR000AKK_endothelial_cell_of_umbilical_vein_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKK
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000AKK
+	visibility dense
+	type bigBed
+
+		track ENCSR000AKK_ENCFF216CHQ
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K27me3 view=ENCSR000AKK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF216CHQ/@@download/ENCFF216CHQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000AKK endothelial_cell_of_umbilical_vein_newborn (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000AKK age=unknown description=ENCSR000AKK_endothelial_cell_of_umbilical_vein_newborn_replicated_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000AKK 
+		view ENCSR000AKK
+
+	track ENCSR000DVO_ENCFF905MMU
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO342AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF905MMU/@@download/ENCFF905MMU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DVO endothelial_cell_of_umbilical_vein_male_newborn (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DVO age=unknown description=ENCSR000DVO_endothelial_cell_of_umbilical_vein_male_newborn_fold_change_over_control_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DVO
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000DVO
+	visibility dense
+	type bigBed
+
+		track ENCSR000DVO_ENCFF917VOZ
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DVO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO342AAA label=H3K27me3 view=ENCSR000DVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF917VOZ/@@download/ENCFF917VOZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DVO endothelial_cell_of_umbilical_vein_male_newborn (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DVO age=unknown description=ENCSR000DVO_endothelial_cell_of_umbilical_vein_male_newborn_replicated_peaks_ donor=ENCDO342AAA sex=male view=ENCSR000DVO 
+		view ENCSR000DVO
+
+	track ENCSR000DVM_ENCFF448MHL
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO342AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF448MHL/@@download/ENCFF448MHL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DVM endothelial_cell_of_umbilical_vein_male_newborn (fold change over co
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DVM age=unknown description=ENCSR000DVM_endothelial_cell_of_umbilical_vein_male_newborn_fold_change_over_control_ donor=ENCDO342AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DVM
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000DVM
+	visibility dense
+	type bigBed
+
+		track ENCSR000DVM_ENCFF015UNP
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DVM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO342AAA label=H3K36me3 view=ENCSR000DVM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF015UNP/@@download/ENCFF015UNP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DVM endothelial_cell_of_umbilical_vein_male_newborn (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DVM age=unknown description=ENCSR000DVM_endothelial_cell_of_umbilical_vein_male_newborn_replicated_peaks_ donor=ENCDO342AAA sex=male view=ENCSR000DVM 
+		view ENCSR000DVM
+
+	track ENCSR000AKM_ENCFF790BNV
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF790BNV/@@download/ENCFF790BNV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR000AKM endothelial_cell_of_umbilical_vein_newborn (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AKM age=unknown description=ENCSR000AKM_endothelial_cell_of_umbilical_vein_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKM
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000AKM
+	visibility dense
+	type bigBed
+
+		track ENCSR000AKM_ENCFF142RNP
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000AKM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K4me2 view=ENCSR000AKM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF142RNP/@@download/ENCFF142RNP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR000AKM endothelial_cell_of_umbilical_vein_newborn (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR000AKM age=unknown description=ENCSR000AKM_endothelial_cell_of_umbilical_vein_newborn_replicated_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000AKM 
+		view ENCSR000AKM
+
+	track ENCSR000ASD_ENCFF198ONW
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF198ONW/@@download/ENCFF198ONW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR000ASD endothelial_cell_of_umbilical_vein_male_newborn_and_newborn (fold ch
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASD age=unknown description=ENCSR000ASD_endothelial_cell_of_umbilical_vein_male_newborn_and_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ASD
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000ASD
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASD_ENCFF312IJI
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ASD off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K79me2 view=ENCSR000ASD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF312IJI/@@download/ENCFF312IJI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR000ASD endothelial_cell_of_umbilical_vein_male_newborn_and_newborn (replica
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ASD age=unknown description=ENCSR000ASD_endothelial_cell_of_umbilical_vein_male_newborn_and_newborn_replicated_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000ASD 
+		view ENCSR000ASD
+
+	track ENCSR000ATB_ENCFF167TFD
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF167TFD/@@download/ENCFF167TFD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR000ATB endothelial_cell_of_umbilical_vein_male_newborn_and_newborn (fold ch
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ATB age=unknown description=ENCSR000ATB_endothelial_cell_of_umbilical_vein_male_newborn_and_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ATB
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000ATB
+	visibility dense
+	type bigBed
+
+		track ENCSR000ATB_ENCFF636GGB
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000ATB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=H3K9me3 view=ENCSR000ATB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF636GGB/@@download/ENCFF636GGB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR000ATB endothelial_cell_of_umbilical_vein_male_newborn_and_newborn (replica
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR000ATB age=unknown description=ENCSR000ATB_endothelial_cell_of_umbilical_vein_male_newborn_and_newborn_replicated_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000ATB 
+		view ENCSR000ATB
+
+	track ENCSR000EFA_ENCFF000YAC
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=JUN view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000YAC/@@download/ENCFF000YAC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq JUN
+	longLabel ENCSR000EFA endothelial_cell_of_umbilical_vein_newborn (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EFA age=unknown description=ENCSR000EFA_endothelial_cell_of_umbilical_vein_newborn_signal_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EFA
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000EFA
+	visibility dense
+	type bigBed
+
+		track ENCSR000EFA_ENCFF526FCV
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EFA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=JUN view=ENCSR000EFA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF526FCV/@@download/ENCFF526FCV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq JUN
+		longLabel ENCSR000EFA endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EFA age=unknown description=ENCSR000EFA_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000EFA 
+		view ENCSR000EFA
+
+	track ENCSR000EEZ_ENCFF000YAY
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000YAY/@@download/ENCFF000YAY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR000EEZ endothelial_cell_of_umbilical_vein_newborn (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EEZ age=unknown description=ENCSR000EEZ_endothelial_cell_of_umbilical_vein_newborn_signal_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EEZ
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000EEZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000EEZ_ENCFF127FNA
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EEZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=MAX view=ENCSR000EEZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF127FNA/@@download/ENCFF127FNA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MAX
+		longLabel ENCSR000EEZ endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EEZ age=unknown description=ENCSR000EEZ_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000EEZ 
+		view ENCSR000EEZ
+
+	track ENCSR000DLU_ENCFF000RUX
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=MYC view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000RUX/@@download/ENCFF000RUX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYC
+	longLabel ENCSR000DLU endothelial_cell_of_umbilical_vein_newborn (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DLU age=unknown description=ENCSR000DLU_endothelial_cell_of_umbilical_vein_newborn_signal_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DLU
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000DLU
+	visibility dense
+	type bigBed
+
+		track ENCSR000DLU_ENCFF650GDC
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DLU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=MYC view=ENCSR000DLU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF650GDC/@@download/ENCFF650GDC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MYC
+		longLabel ENCSR000DLU endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DLU age=unknown description=ENCSR000DLU_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000DLU 
+		view ENCSR000DLU
+
+	track ENCSR000BQB_ENCFF768HRH
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF768HRH/@@download/ENCFF768HRH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000BQB endothelial_cell_of_umbilical_vein_newborn (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BQB age=unknown description=ENCSR000BQB_endothelial_cell_of_umbilical_vein_newborn_fold_change_over_control_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000BQB
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000BQB
+	visibility dense
+	type bigBed
+
+		track ENCSR000BQB_ENCFF628OGY
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000BQB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=POLR2A view=ENCSR000BQB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF628OGY/@@download/ENCFF628OGY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000BQB endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BQB age=unknown description=ENCSR000BQB_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000BQB 
+		view ENCSR000BQB
+
+	track ENCSR000DLV_ENCFF000RVP
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000RVP/@@download/ENCFF000RVP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000DLV endothelial_cell_of_umbilical_vein_newborn (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DLV age=unknown description=ENCSR000DLV_endothelial_cell_of_umbilical_vein_newborn_signal_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DLV
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000DLV
+	visibility dense
+	type bigBed
+
+		track ENCSR000DLV_ENCFF518XDD
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000DLV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=POLR2A view=ENCSR000DLV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF518XDD/@@download/ENCFF518XDD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000DLV endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DLV age=unknown description=ENCSR000DLV_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000DLV 
+		view ENCSR000DLV
+
+	track ENCSR000EFB_ENCFF000YBH
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000YBH/@@download/ENCFF000YBH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000EFB endothelial_cell_of_umbilical_vein_newborn (signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EFB age=unknown description=ENCSR000EFB_endothelial_cell_of_umbilical_vein_newborn_signal_ donor=ENCDO000AAS sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EFB
+	parent primary_cell_endothelial_cell_of_umbilical_vein off
+	view ENCSR000EFB
+	visibility dense
+	type bigBed
+
+		track ENCSR000EFB_ENCFF476GWR
+		parent primary_cell_endothelial_cell_of_umbilical_vein_view_ENCSR000EFB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAS label=POLR2A view=ENCSR000EFB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF476GWR/@@download/ENCFF476GWR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000EFB endothelial_cell_of_umbilical_vein_newborn (optimal idr thresholded 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EFB age=unknown description=ENCSR000EFB_endothelial_cell_of_umbilical_vein_newborn_optimal_idr_thresholded_peaks_ donor=ENCDO000AAS sex=unknown view=ENCSR000EFB 
+		view ENCSR000EFB
+

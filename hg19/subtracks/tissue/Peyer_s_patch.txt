@@ -1,0 +1,671 @@
+
+track tissue_Peyer_s_patch
+parent super_tissue
+compositeTrack on
+shortLabel Peyer's patch
+longLabel Peyer's patch (24 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR005UXZ=ENCSR005UXZ ENCSR322UXF=ENCSR322UXF ENCSR363CJF=ENCSR363CJF ENCSR375VXU=ENCSR375VXU ENCSR391ZKN=ENCSR391ZKN ENCSR419ANE=ENCSR419ANE ENCSR576PII=ENCSR576PII ENCSR621BZD=ENCSR621BZD ENCSR799WDT=ENCSR799WDT ENCSR837SGJ=ENCSR837SGJ ENCSR878KIY=ENCSR878KIY ENCSR954AJK=ENCSR954AJK ENCSR982PLJ=ENCSR982PLJ ENCSR995QNB=ENCSR995QNB bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR322UXF_ENCFF049KPP
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF049KPP/@@download/ENCFF049KPP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR322UXF Peyer_s_patch_female_adult_53_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR322UXF age=53_year description=ENCSR322UXF_Peyer_s_patch_female_adult_53_years_read_depth_normalized_signal_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR322UXF
+	parent tissue_Peyer_s_patch off
+	view ENCSR322UXF
+	visibility dense
+	type bigBed
+
+		track ENCSR322UXF_ENCFF372RHF
+		parent tissue_Peyer_s_patch_view_ENCSR322UXF off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR322UXF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF372RHF/@@download/ENCFF372RHF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR322UXF Peyer_s_patch_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR322UXF age=53_year description=ENCSR322UXF_Peyer_s_patch_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR322UXF 
+		view ENCSR322UXF
+
+	track ENCSR954AJK_ENCFF760INX
+	parent tissue_Peyer_s_patch off
+	subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF760INX/@@download/ENCFF760INX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR954AJK Peyer_s_patch_male_adult_37_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR954AJK age=37_year description=ENCSR954AJK_Peyer_s_patch_male_adult_37_years_read_depth_normalized_signal_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR954AJK
+	parent tissue_Peyer_s_patch off
+	view ENCSR954AJK
+	visibility dense
+	type bigBed
+
+		track ENCSR954AJK_ENCFF202KSJ
+		parent tissue_Peyer_s_patch_view_ENCSR954AJK off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR954AJK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF202KSJ/@@download/ENCFF202KSJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR954AJK Peyer_s_patch_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR954AJK age=37_year description=ENCSR954AJK_Peyer_s_patch_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR954AJK 
+		view ENCSR954AJK
+
+	track ENCSR878KIY_ENCFF184XML
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF184XML/@@download/ENCFF184XML.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR878KIY Peyer_s_patch_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR878KIY age=53_year description=ENCSR878KIY_Peyer_s_patch_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR878KIY
+	parent tissue_Peyer_s_patch off
+	view ENCSR878KIY
+	visibility dense
+	type bigBed
+
+		track ENCSR878KIY_ENCFF652HGM
+		parent tissue_Peyer_s_patch_view_ENCSR878KIY off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR878KIY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF652HGM/@@download/ENCFF652HGM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR878KIY Peyer_s_patch_female_adult_53_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR878KIY age=53_year description=ENCSR878KIY_Peyer_s_patch_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR878KIY 
+		view ENCSR878KIY
+
+		track ENCSR878KIY_ENCFF451MZN
+		parent tissue_Peyer_s_patch_view_ENCSR878KIY off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR878KIY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF451MZN/@@download/ENCFF451MZN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF451MZN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR878KIY age=53_year description=ENCFF451MZN_5group_ donor=ENCDO793LXB sex=female view=ENCSR878KIY 
+		view ENCSR878KIY
+
+	track ENCSR375VXU_ENCFF385IIG
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF385IIG/@@download/ENCFF385IIG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR375VXU Peyer_s_patch_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR375VXU age=53_year description=ENCSR375VXU_Peyer_s_patch_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR375VXU
+	parent tissue_Peyer_s_patch off
+	view ENCSR375VXU
+	visibility dense
+	type bigBed
+
+		track ENCSR375VXU_ENCFF747PAI
+		parent tissue_Peyer_s_patch_view_ENCSR375VXU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR375VXU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF747PAI/@@download/ENCFF747PAI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR375VXU Peyer_s_patch_female_adult_53_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR375VXU age=53_year description=ENCSR375VXU_Peyer_s_patch_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR375VXU 
+		view ENCSR375VXU
+
+	track ENCSR391ZKN_ENCFF706BTR
+	parent tissue_Peyer_s_patch off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF706BTR/@@download/ENCFF706BTR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR391ZKN Peyer_s_patch_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR391ZKN age=51_year description=ENCSR391ZKN_Peyer_s_patch_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR391ZKN
+	parent tissue_Peyer_s_patch off
+	view ENCSR391ZKN
+	visibility dense
+	type bigBed
+
+		track ENCSR391ZKN_ENCFF349PQM
+		parent tissue_Peyer_s_patch_view_ENCSR391ZKN off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR391ZKN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF349PQM/@@download/ENCFF349PQM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR391ZKN Peyer_s_patch_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR391ZKN age=51_year description=ENCSR391ZKN_Peyer_s_patch_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR391ZKN 
+		view ENCSR391ZKN
+
+	track ENCSR419ANE_ENCFF679NCQ
+	parent tissue_Peyer_s_patch off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF679NCQ/@@download/ENCFF679NCQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR419ANE Peyer_s_patch_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR419ANE age=37_year description=ENCSR419ANE_Peyer_s_patch_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR419ANE
+	parent tissue_Peyer_s_patch off
+	view ENCSR419ANE
+	visibility dense
+	type bigBed
+
+		track ENCSR419ANE_ENCFF621SVY
+		parent tissue_Peyer_s_patch_view_ENCSR419ANE off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR419ANE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF621SVY/@@download/ENCFF621SVY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR419ANE Peyer_s_patch_male_adult_37_years_ (pseudoreplicated idr thresholded
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR419ANE age=37_year description=ENCSR419ANE_Peyer_s_patch_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR419ANE 
+		view ENCSR419ANE
+
+	track ENCSR799WDT_ENCFF643PXH
+	parent tissue_Peyer_s_patch off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF643PXH/@@download/ENCFF643PXH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR799WDT Peyer_s_patch_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR799WDT age=54_year description=ENCSR799WDT_Peyer_s_patch_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR799WDT
+	parent tissue_Peyer_s_patch off
+	view ENCSR799WDT
+	visibility dense
+	type bigBed
+
+		track ENCSR799WDT_ENCFF781UJS
+		parent tissue_Peyer_s_patch_view_ENCSR799WDT off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR799WDT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF781UJS/@@download/ENCFF781UJS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR799WDT Peyer_s_patch_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR799WDT age=54_year description=ENCSR799WDT_Peyer_s_patch_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR799WDT 
+		view ENCSR799WDT
+
+	track ENCSR837SGJ_ENCFF664RTR
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF664RTR/@@download/ENCFF664RTR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR837SGJ Peyer_s_patch_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR837SGJ age=53_year description=ENCSR837SGJ_Peyer_s_patch_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR837SGJ
+	parent tissue_Peyer_s_patch off
+	view ENCSR837SGJ
+	visibility dense
+	type bigBed
+
+		track ENCSR837SGJ_ENCFF642WKY
+		parent tissue_Peyer_s_patch_view_ENCSR837SGJ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR837SGJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF642WKY/@@download/ENCFF642WKY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR837SGJ Peyer_s_patch_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR837SGJ age=53_year description=ENCSR837SGJ_Peyer_s_patch_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR837SGJ 
+		view ENCSR837SGJ
+
+	track ENCSR091JNF_ENCFF044FYT
+	parent tissue_Peyer_s_patch off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF044FYT/@@download/ENCFF044FYT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR091JNF Peyer_s_patch_male_adult_54_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR091JNF age=54_year description=ENCSR091JNF_Peyer_s_patch_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR199XGY_ENCFF497VUO
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF497VUO/@@download/ENCFF497VUO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR199XGY Peyer_s_patch_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR199XGY age=53_year description=ENCSR199XGY_Peyer_s_patch_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR257NIR_ENCFF022RLX
+	parent tissue_Peyer_s_patch off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF022RLX/@@download/ENCFF022RLX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR257NIR Peyer_s_patch_male_adult_54_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR257NIR age=54_year description=ENCSR257NIR_Peyer_s_patch_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR450BNZ_ENCFF922PZP
+	parent tissue_Peyer_s_patch off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF922PZP/@@download/ENCFF922PZP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR450BNZ Peyer_s_patch_female_adult_51_year_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR450BNZ age=51_year description=ENCSR450BNZ_Peyer_s_patch_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR514XCC_ENCFF641FJG
+	parent tissue_Peyer_s_patch off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF641FJG/@@download/ENCFF641FJG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR514XCC Peyer_s_patch_female_adult_51_year_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR514XCC age=51_year description=ENCSR514XCC_Peyer_s_patch_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR544SAU_ENCFF323TDW
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF323TDW/@@download/ENCFF323TDW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR544SAU Peyer_s_patch_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR544SAU age=53_year description=ENCSR544SAU_Peyer_s_patch_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR713KWE_ENCFF243TGI
+	parent tissue_Peyer_s_patch off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF243TGI/@@download/ENCFF243TGI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR713KWE Peyer_s_patch_male_adult_37_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR713KWE age=37_year description=ENCSR713KWE_Peyer_s_patch_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR718AXQ_ENCFF056CXH
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF056CXH/@@download/ENCFF056CXH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR718AXQ Peyer_s_patch_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR718AXQ age=53_year description=ENCSR718AXQ_Peyer_s_patch_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR802HPM_ENCFF129CWI
+	parent tissue_Peyer_s_patch off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF129CWI/@@download/ENCFF129CWI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR802HPM Peyer_s_patch_male_adult_37_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR802HPM age=37_year description=ENCSR802HPM_Peyer_s_patch_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR954YVZ_ENCFF588RVD
+	parent tissue_Peyer_s_patch off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF588RVD/@@download/ENCFF588RVD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR954YVZ Peyer_s_patch_male_adult_54_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR954YVZ age=54_year description=ENCSR954YVZ_Peyer_s_patch_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR982PLJ_ENCFF172KNT
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF172KNT/@@download/ENCFF172KNT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR982PLJ Peyer_s_patch_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR982PLJ age=53_year description=ENCSR982PLJ_Peyer_s_patch_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR982PLJ
+	parent tissue_Peyer_s_patch off
+	view ENCSR982PLJ
+	visibility dense
+	type bigBed
+
+		track ENCSR982PLJ_ENCFF668TNZ
+		parent tissue_Peyer_s_patch_view_ENCSR982PLJ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=ENCSR982PLJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF668TNZ/@@download/ENCFF668TNZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR982PLJ Peyer_s_patch_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR982PLJ age=53_year description=ENCSR982PLJ_Peyer_s_patch_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR982PLJ 
+		view ENCSR982PLJ
+
+	track ENCSR363CJF_ENCFF562ZKD
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF562ZKD/@@download/ENCFF562ZKD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR363CJF Peyer_s_patch_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR363CJF age=53_year description=ENCSR363CJF_Peyer_s_patch_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR363CJF
+	parent tissue_Peyer_s_patch off
+	view ENCSR363CJF
+	visibility dense
+	type bigBed
+
+		track ENCSR363CJF_ENCFF979LMA
+		parent tissue_Peyer_s_patch_view_ENCSR363CJF off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR363CJF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF979LMA/@@download/ENCFF979LMA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR363CJF Peyer_s_patch_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR363CJF age=53_year description=ENCSR363CJF_Peyer_s_patch_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR363CJF 
+		view ENCSR363CJF
+
+	track ENCSR621BZD_ENCFF206XGL
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF206XGL/@@download/ENCFF206XGL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR621BZD Peyer_s_patch_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR621BZD age=53_year description=ENCSR621BZD_Peyer_s_patch_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR621BZD
+	parent tissue_Peyer_s_patch off
+	view ENCSR621BZD
+	visibility dense
+	type bigBed
+
+		track ENCSR621BZD_ENCFF565JAH
+		parent tissue_Peyer_s_patch_view_ENCSR621BZD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR621BZD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF565JAH/@@download/ENCFF565JAH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR621BZD Peyer_s_patch_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR621BZD age=53_year description=ENCSR621BZD_Peyer_s_patch_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR621BZD 
+		view ENCSR621BZD
+
+	track ENCSR005UXZ_ENCFF430STY
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF430STY/@@download/ENCFF430STY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR005UXZ Peyer_s_patch_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR005UXZ age=53_year description=ENCSR005UXZ_Peyer_s_patch_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR005UXZ
+	parent tissue_Peyer_s_patch off
+	view ENCSR005UXZ
+	visibility dense
+	type bigBed
+
+		track ENCSR005UXZ_ENCFF815TBY
+		parent tissue_Peyer_s_patch_view_ENCSR005UXZ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR005UXZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF815TBY/@@download/ENCFF815TBY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR005UXZ Peyer_s_patch_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR005UXZ age=53_year description=ENCSR005UXZ_Peyer_s_patch_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR005UXZ 
+		view ENCSR005UXZ
+
+	track ENCSR576PII_ENCFF192SIL
+	parent tissue_Peyer_s_patch off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF192SIL/@@download/ENCFF192SIL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR576PII Peyer_s_patch_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR576PII age=54_year description=ENCSR576PII_Peyer_s_patch_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR576PII
+	parent tissue_Peyer_s_patch off
+	view ENCSR576PII
+	visibility dense
+	type bigBed
+
+		track ENCSR576PII_ENCFF231QST
+		parent tissue_Peyer_s_patch_view_ENCSR576PII off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=ENCSR576PII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF231QST/@@download/ENCFF231QST.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR576PII Peyer_s_patch_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR576PII age=54_year description=ENCSR576PII_Peyer_s_patch_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR576PII 
+		view ENCSR576PII
+
+	track ENCSR995QNB_ENCFF874VTY
+	parent tissue_Peyer_s_patch off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF874VTY/@@download/ENCFF874VTY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR995QNB Peyer_s_patch_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR995QNB age=53_year description=ENCSR995QNB_Peyer_s_patch_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_Peyer_s_patch_view_ENCSR995QNB
+	parent tissue_Peyer_s_patch off
+	view ENCSR995QNB
+	visibility dense
+	type bigBed
+
+		track ENCSR995QNB_ENCFF348CWF
+		parent tissue_Peyer_s_patch_view_ENCSR995QNB off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR995QNB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF348CWF/@@download/ENCFF348CWF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR995QNB Peyer_s_patch_female_adult_53_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR995QNB age=53_year description=ENCSR995QNB_Peyer_s_patch_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR995QNB 
+		view ENCSR995QNB
+

@@ -1,0 +1,146 @@
+
+track tissue_brain
+parent super_tissue
+compositeTrack on
+shortLabel brain
+longLabel brain (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a10_week=10&#32;week a14_5_day=14&#46;5&#32;day a18_5_day=18&#46;5&#32;day a8_week=8&#32;week 
+subGroup3 view view ENCSR000COF=ENCSR000COF ENCSR000COG=ENCSR000COG bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000COF_ENCFF257BKZ
+	parent tissue_brain off
+	subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF257BKZ/@@download/ENCFF257BKZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000COF C57BL_6_brain_male_adult_8_weeks_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000COF age=8_week description=ENCSR000COF_C57BL_6_brain_male_adult_8_weeks_read_depth_normalized_signal_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_brain_view_ENCSR000COF
+	parent tissue_brain off
+	view ENCSR000COF
+	visibility dense
+	type bigBed
+
+		track ENCSR000COF_ENCFF588FCQ
+		parent tissue_brain_view_ENCSR000COF off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000COF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF588FCQ/@@download/ENCFF588FCQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000COF C57BL_6_brain_male_adult_8_weeks_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000COF age=8_week description=ENCSR000COF_C57BL_6_brain_male_adult_8_weeks_peaks_ donor=ENCDO072AAA sex=unknown view=ENCSR000COF 
+		view ENCSR000COF
+
+	track ENCSR000COG_ENCFF333MPS
+	parent tissue_brain off
+	subGroups age=a18_5_day assay=DNase-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF333MPS/@@download/ENCFF333MPS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000COG C57BL_6_brain_male_embryo_18_5_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000COG age=18_5_day description=ENCSR000COG_C57BL_6_brain_male_embryo_18_5_days_read_depth_normalized_signal_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_brain_view_ENCSR000COG
+	parent tissue_brain off
+	view ENCSR000COG
+	visibility dense
+	type bigBed
+
+		track ENCSR000COG_ENCFF325OXB
+		parent tissue_brain_view_ENCSR000COG off
+		subGroups age=a18_5_day assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000COG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF325OXB/@@download/ENCFF325OXB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000COG C57BL_6_brain_male_embryo_18_5_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000COG age=18_5_day description=ENCSR000COG_C57BL_6_brain_male_embryo_18_5_days_peaks_ donor=ENCDO072AAA sex=unknown view=ENCSR000COG 
+		view ENCSR000COG
+
+		track ENCSR000COG_ENCFF858HFU
+		parent tissue_brain_view_ENCSR000COG off
+		subGroups age=a18_5_day assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000COG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF858HFU/@@download/ENCFF858HFU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF858HFU 9state-DNase DNase on 18.5 day embryonic mouse whole brain
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000COG age=18_5_day description=ENCFF858HFU_9state_DNase_DNase_on_18_5_day_embryonic_mouse_whole_brain donor=ENCDO072AAA sex=unknown view=ENCSR000COG 
+		view ENCSR000COG
+
+	track ENCSR000BZJ_ENCFF959NCB
+	parent tissue_brain off
+	subGroups age=a14_5_day assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF959NCB/@@download/ENCFF959NCB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BZJ C57BL_6_brain_embryo_14_5_days_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BZJ age=14_5_day description=ENCSR000BZJ_C57BL_6_brain_embryo_14_5_days_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CHG_ENCFF729BNP
+	parent tissue_brain off
+	subGroups age=a14_5_day assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF729BNP/@@download/ENCFF729BNP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CHG C57BL_6_brain_embryo_14_5_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CHG age=14_5_day description=ENCSR000CHG_C57BL_6_brain_embryo_14_5_days_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR554PHF_ENCFF814QVU
+	parent tissue_brain off
+	subGroups age=a10_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF814QVU/@@download/ENCFF814QVU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR554PHF C57BL_6_brain_male_adult_10_weeks_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR554PHF age=10_week description=ENCSR554PHF_C57BL_6_brain_male_adult_10_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+

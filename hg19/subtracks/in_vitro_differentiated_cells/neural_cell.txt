@@ -1,0 +1,816 @@
+
+track in_vitro_differentiated_cells_neural_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel neural cell
+longLabel neural cell (24 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000AAW=ENCDO000AAW 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000BTV=ENCSR000BTV ENCSR000BTX=ENCSR000BTX ENCSR045HLL=ENCSR045HLL ENCSR124VOE=ENCSR124VOE ENCSR198ZYJ=ENCSR198ZYJ ENCSR397HSO=ENCSR397HSO ENCSR404BPV=ENCSR404BPV ENCSR405NQJ=ENCSR405NQJ ENCSR531QHM=ENCSR531QHM ENCSR608VNA=ENCSR608VNA ENCSR654VRX=ENCSR654VRX ENCSR714KGG=ENCSR714KGG ENCSR816JBG=ENCSR816JBG ENCSR822CEA=ENCSR822CEA ENCSR843ZUP=ENCSR843ZUP ENCSR873EIA=ENCSR873EIA ENCSR934NHU=ENCSR934NHU ENCSR958ZMM=ENCSR958ZMM bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR608VNA_ENCFF379BNK
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF379BNK/@@download/ENCFF379BNK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR608VNA neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR608VNA age=unknown description=ENCSR608VNA_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR608VNA
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR608VNA
+	visibility dense
+	type bigBed
+
+		track ENCSR608VNA_ENCFF123NTR
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR608VNA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=ENCSR608VNA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF123NTR/@@download/ENCFF123NTR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR608VNA neural_cell (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR608VNA age=unknown description=ENCSR608VNA_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR608VNA 
+		view ENCSR608VNA
+
+		track ENCSR608VNA_ENCFF477EUQ
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR608VNA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=ENCSR608VNA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF477EUQ/@@download/ENCFF477EUQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF477EUQ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR608VNA age=unknown description=ENCFF477EUQ_5group_ donor=ENCDO000AAW sex=male view=ENCSR608VNA 
+		view ENCSR608VNA
+
+		track ENCSR608VNA_ENCFF589DTU
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR608VNA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=ENCSR608VNA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF589DTU/@@download/ENCFF589DTU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF589DTU 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR608VNA age=unknown description=ENCFF589DTU_9state_H3K4me3_ donor=ENCDO000AAW sex=male view=ENCSR608VNA 
+		view ENCSR608VNA
+
+		track ENCSR608VNA_ENCFF061ZZZ
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR608VNA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=ENCSR608VNA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF061ZZZ/@@download/ENCFF061ZZZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF061ZZZ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR608VNA age=unknown description=ENCFF061ZZZ_9state_H3K27ac_ donor=ENCDO000AAW sex=male view=ENCSR608VNA 
+		view ENCSR608VNA
+
+	track ENCSR124VOE_ENCFF516KKW
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF516KKW/@@download/ENCFF516KKW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR124VOE neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR124VOE age=unknown description=ENCSR124VOE_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR124VOE
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR124VOE
+	visibility dense
+	type bigBed
+
+		track ENCSR124VOE_ENCFF957OAC
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR124VOE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=ENCSR124VOE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF957OAC/@@download/ENCFF957OAC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR124VOE neural_cell (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR124VOE age=unknown description=ENCSR124VOE_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR124VOE 
+		view ENCSR124VOE
+
+		track ENCSR124VOE_ENCFF477EUQ
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR124VOE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=ENCSR124VOE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF477EUQ/@@download/ENCFF477EUQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF477EUQ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR124VOE age=unknown description=ENCFF477EUQ_5group_ donor=ENCDO000AAW sex=male view=ENCSR124VOE 
+		view ENCSR124VOE
+
+		track ENCSR124VOE_ENCFF589DTU
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR124VOE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=ENCSR124VOE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF589DTU/@@download/ENCFF589DTU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF589DTU 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR124VOE age=unknown description=ENCFF589DTU_9state_H3K4me3_ donor=ENCDO000AAW sex=male view=ENCSR124VOE 
+		view ENCSR124VOE
+
+		track ENCSR124VOE_ENCFF061ZZZ
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR124VOE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=ENCSR124VOE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF061ZZZ/@@download/ENCFF061ZZZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF061ZZZ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR124VOE age=unknown description=ENCFF061ZZZ_9state_H3K27ac_ donor=ENCDO000AAW sex=male view=ENCSR124VOE 
+		view ENCSR124VOE
+
+	track ENCSR822CEA_ENCFF051SGA
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF051SGA/@@download/ENCFF051SGA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR822CEA neural_cell_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR822CEA age=unknown description=ENCSR822CEA_neural_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR822CEA
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR822CEA
+	visibility dense
+	type bigBed
+
+		track ENCSR822CEA_ENCFF660CRB
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR822CEA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=CTCF view=ENCSR822CEA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF660CRB/@@download/ENCFF660CRB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR822CEA neural_cell_originated_from_H1_hESC (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR822CEA age=unknown description=ENCSR822CEA_neural_cell_originated_from_H1_hESC_optimal_idr_thresholded_peaks_ donor=ENCDO000AAW sex=male view=ENCSR822CEA 
+		view ENCSR822CEA
+
+	track ENCSR000CVP_ENCFF187TMM
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF187TMM/@@download/ENCFF187TMM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CVP neural_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CVP age=unknown description=ENCSR000CVP_neural_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CVQ_ENCFF833IJJ
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF833IJJ/@@download/ENCFF833IJJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CVQ neural_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CVQ age=unknown description=ENCSR000CVQ_neural_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CVR_ENCFF876RSI
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF876RSI/@@download/ENCFF876RSI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CVR neural_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CVR age=unknown description=ENCSR000CVR_neural_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR292TAP_ENCFF824GFV
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF824GFV/@@download/ENCFF824GFV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR292TAP neural_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR292TAP age=unknown description=ENCSR292TAP_neural_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR612EAO_ENCFF336AXG
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=RAMPAGE donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF336AXG/@@download/ENCFF336AXG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR612EAO neural_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR612EAO age=unknown description=ENCSR612EAO_neural_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR995JXE_ENCFF831NED
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF831NED/@@download/ENCFF831NED.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR995JXE neural_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR995JXE age=unknown description=ENCSR995JXE_neural_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR843ZUP_ENCFF068YGC
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF068YGC/@@download/ENCFF068YGC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR843ZUP neural_cell_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR843ZUP age=unknown description=ENCSR843ZUP_neural_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR843ZUP
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR843ZUP
+	visibility dense
+	type bigBed
+
+		track ENCSR843ZUP_ENCFF184JSJ
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR843ZUP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=EP300 view=ENCSR843ZUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF184JSJ/@@download/ENCFF184JSJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR843ZUP neural_cell_originated_from_H1_hESC (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR843ZUP age=unknown description=ENCSR843ZUP_neural_cell_originated_from_H1_hESC_optimal_idr_thresholded_peaks_ donor=ENCDO000AAW sex=male view=ENCSR843ZUP 
+		view ENCSR843ZUP
+
+	track ENCSR816JBG_ENCFF510GYB
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF510GYB/@@download/ENCFF510GYB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR816JBG neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR816JBG age=unknown description=ENCSR816JBG_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR816JBG
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR816JBG
+	visibility dense
+	type bigBed
+
+		track ENCSR816JBG_ENCFF887NVU
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR816JBG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2AFZ view=ENCSR816JBG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF887NVU/@@download/ENCFF887NVU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR816JBG neural_cell (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR816JBG age=unknown description=ENCSR816JBG_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR816JBG 
+		view ENCSR816JBG
+
+	track ENCSR873EIA_ENCFF664VNL
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3F3A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF664VNL/@@download/ENCFF664VNL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3F3A
+	longLabel ENCSR873EIA neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR873EIA age=unknown description=ENCSR873EIA_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR873EIA
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR873EIA
+	visibility dense
+	type bigBed
+
+		track ENCSR873EIA_ENCFF488AYO
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR873EIA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3F3A view=ENCSR873EIA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF488AYO/@@download/ENCFF488AYO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3F3A
+		longLabel ENCSR873EIA neural_cell (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR873EIA age=unknown description=ENCSR873EIA_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR873EIA 
+		view ENCSR873EIA
+
+	track ENCSR654VRX_ENCFF694XAJ
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF694XAJ/@@download/ENCFF694XAJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR654VRX neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR654VRX age=unknown description=ENCSR654VRX_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR654VRX
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR654VRX
+	visibility dense
+	type bigBed
+
+		track ENCSR654VRX_ENCFF776YBA
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR654VRX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27me3 view=ENCSR654VRX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF776YBA/@@download/ENCFF776YBA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR654VRX neural_cell (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR654VRX age=unknown description=ENCSR654VRX_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR654VRX 
+		view ENCSR654VRX
+
+	track ENCSR714KGG_ENCFF396HCR
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF396HCR/@@download/ENCFF396HCR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR714KGG neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR714KGG age=unknown description=ENCSR714KGG_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR714KGG
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR714KGG
+	visibility dense
+	type bigBed
+
+		track ENCSR714KGG_ENCFF350WCZ
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR714KGG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K36me3 view=ENCSR714KGG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF350WCZ/@@download/ENCFF350WCZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR714KGG neural_cell (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR714KGG age=unknown description=ENCSR714KGG_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR714KGG 
+		view ENCSR714KGG
+
+	track ENCSR045HLL_ENCFF159MRG
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF159MRG/@@download/ENCFF159MRG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR045HLL neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR045HLL age=unknown description=ENCSR045HLL_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR045HLL
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR045HLL
+	visibility dense
+	type bigBed
+
+		track ENCSR045HLL_ENCFF982IVP
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR045HLL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me2 view=ENCSR045HLL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982IVP/@@download/ENCFF982IVP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR045HLL neural_cell (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR045HLL age=unknown description=ENCSR045HLL_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR045HLL 
+		view ENCSR045HLL
+
+	track ENCSR531QHM_ENCFF473CVP
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF473CVP/@@download/ENCFF473CVP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR531QHM neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR531QHM age=unknown description=ENCSR531QHM_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR531QHM
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR531QHM
+	visibility dense
+	type bigBed
+
+		track ENCSR531QHM_ENCFF383PGC
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR531QHM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9ac view=ENCSR531QHM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF383PGC/@@download/ENCFF383PGC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR531QHM neural_cell (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR531QHM age=unknown description=ENCSR531QHM_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR531QHM 
+		view ENCSR531QHM
+
+	track ENCSR397HSO_ENCFF192ELE
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF192ELE/@@download/ENCFF192ELE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me2
+	longLabel ENCSR397HSO neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR397HSO age=unknown description=ENCSR397HSO_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR397HSO
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR397HSO
+	visibility dense
+	type bigBed
+
+		track ENCSR397HSO_ENCFF347DSH
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR397HSO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9me2 view=ENCSR397HSO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF347DSH/@@download/ENCFF347DSH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me2
+		longLabel ENCSR397HSO neural_cell (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR397HSO age=unknown description=ENCSR397HSO_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR397HSO 
+		view ENCSR397HSO
+
+	track ENCSR405NQJ_ENCFF581KEW
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF581KEW/@@download/ENCFF581KEW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR405NQJ neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR405NQJ age=unknown description=ENCSR405NQJ_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR405NQJ
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR405NQJ
+	visibility dense
+	type bigBed
+
+		track ENCSR405NQJ_ENCFF150UYM
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR405NQJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9me3 view=ENCSR405NQJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF150UYM/@@download/ENCFF150UYM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR405NQJ neural_cell (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR405NQJ age=unknown description=ENCSR405NQJ_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR405NQJ 
+		view ENCSR405NQJ
+
+	track ENCSR958ZMM_ENCFF108HZH
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K20me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF108HZH/@@download/ENCFF108HZH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K20me1
+	longLabel ENCSR958ZMM neural_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR958ZMM age=unknown description=ENCSR958ZMM_neural_cell_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR958ZMM
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR958ZMM
+	visibility dense
+	type bigBed
+
+		track ENCSR958ZMM_ENCFF960CTP
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR958ZMM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K20me1 view=ENCSR958ZMM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF960CTP/@@download/ENCFF960CTP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K20me1
+		longLabel ENCSR958ZMM neural_cell (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR958ZMM age=unknown description=ENCSR958ZMM_neural_cell_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR958ZMM 
+		view ENCSR958ZMM
+
+	track ENCSR934NHU_ENCFF020FWW
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=MXI1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF020FWW/@@download/ENCFF020FWW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MXI1
+	longLabel ENCSR934NHU neural_cell_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR934NHU age=unknown description=ENCSR934NHU_neural_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR934NHU
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR934NHU
+	visibility dense
+	type bigBed
+
+		track ENCSR934NHU_ENCFF736BQH
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR934NHU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=MXI1 view=ENCSR934NHU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF736BQH/@@download/ENCFF736BQH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MXI1
+		longLabel ENCSR934NHU neural_cell_originated_from_H1_hESC (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR934NHU age=unknown description=ENCSR934NHU_neural_cell_originated_from_H1_hESC_optimal_idr_thresholded_peaks_ donor=ENCDO000AAW sex=male view=ENCSR934NHU 
+		view ENCSR934NHU
+
+	track ENCSR198ZYJ_ENCFF818XWW
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=RAD21 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF818XWW/@@download/ENCFF818XWW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RAD21
+	longLabel ENCSR198ZYJ neural_cell_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR198ZYJ age=unknown description=ENCSR198ZYJ_neural_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR198ZYJ
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR198ZYJ
+	visibility dense
+	type bigBed
+
+		track ENCSR198ZYJ_ENCFF188LNL
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR198ZYJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=RAD21 view=ENCSR198ZYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF188LNL/@@download/ENCFF188LNL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq RAD21
+		longLabel ENCSR198ZYJ neural_cell_originated_from_H1_hESC (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR198ZYJ age=unknown description=ENCSR198ZYJ_neural_cell_originated_from_H1_hESC_optimal_idr_thresholded_peaks_ donor=ENCDO000AAW sex=male view=ENCSR198ZYJ 
+		view ENCSR198ZYJ
+
+	track ENCSR000BTV_ENCFF000OWR
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=REST view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000OWR/@@download/ENCFF000OWR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq REST
+	longLabel ENCSR000BTV neural_cell (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTV age=unknown description=ENCSR000BTV_neural_cell_raw_signal_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR000BTV
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR000BTV
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTV_ENCFF000OWP
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR000BTV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=REST view=ENCSR000BTV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000OWP/@@download/ENCFF000OWP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq REST
+		longLabel ENCSR000BTV neural_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTV age=unknown description=ENCSR000BTV_neural_cell_peaks_ donor=ENCDO000AAW sex=male view=ENCSR000BTV 
+		view ENCSR000BTV
+
+	track ENCSR404BPV_ENCFF091TAB
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=SMC3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF091TAB/@@download/ENCFF091TAB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SMC3
+	longLabel ENCSR404BPV neural_cell_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR404BPV age=unknown description=ENCSR404BPV_neural_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR404BPV
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR404BPV
+	visibility dense
+	type bigBed
+
+		track ENCSR404BPV_ENCFF377BNE
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR404BPV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=SMC3 view=ENCSR404BPV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF377BNE/@@download/ENCFF377BNE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq SMC3
+		longLabel ENCSR404BPV neural_cell_originated_from_H1_hESC (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR404BPV age=unknown description=ENCSR404BPV_neural_cell_originated_from_H1_hESC_optimal_idr_thresholded_peaks_ donor=ENCDO000AAW sex=male view=ENCSR404BPV 
+		view ENCSR404BPV
+
+	track ENCSR000BTX_ENCFF000OXM
+	parent in_vitro_differentiated_cells_neural_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=TAF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000OXM/@@download/ENCFF000OXM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TAF1
+	longLabel ENCSR000BTX neural_cell (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTX age=unknown description=ENCSR000BTX_neural_cell_raw_signal_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_cell_view_ENCSR000BTX
+	parent in_vitro_differentiated_cells_neural_cell off
+	view ENCSR000BTX
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTX_ENCFF000OXK
+		parent in_vitro_differentiated_cells_neural_cell_view_ENCSR000BTX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=TAF1 view=ENCSR000BTX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000OXK/@@download/ENCFF000OXK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq TAF1
+		longLabel ENCSR000BTX neural_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTX age=unknown description=ENCSR000BTX_neural_cell_peaks_ donor=ENCDO000AAW sex=male view=ENCSR000BTX 
+		view ENCSR000BTX
+

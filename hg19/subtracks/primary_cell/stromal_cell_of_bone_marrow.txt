@@ -1,0 +1,66 @@
+
+track primary_cell_stromal_cell_of_bone_marrow
+parent super_primary_cell
+compositeTrack on
+shortLabel stromal cell of b
+longLabel stromal cell of bone marrow (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000AAV=ENCDO000AAV 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000EMH=ENCSR000EMH bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EMH_ENCFF715MKG
+	parent primary_cell_stromal_cell_of_bone_marrow off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF715MKG/@@download/ENCFF715MKG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMH stromal_cell_of_bone_marrow_male (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMH age=unknown description=ENCSR000EMH_stromal_cell_of_bone_marrow_male_read_depth_normalized_signal_ donor=ENCDO000AAV sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_stromal_cell_of_bone_marrow_view_ENCSR000EMH
+	parent primary_cell_stromal_cell_of_bone_marrow off
+	view ENCSR000EMH
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMH_ENCFF026VBY
+		parent primary_cell_stromal_cell_of_bone_marrow_view_ENCSR000EMH off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAV label=unknown view=ENCSR000EMH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF026VBY/@@download/ENCFF026VBY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMH stromal_cell_of_bone_marrow_male (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMH age=unknown description=ENCSR000EMH_stromal_cell_of_bone_marrow_male_peaks_ donor=ENCDO000AAV sex=male view=ENCSR000EMH 
+		view ENCSR000EMH
+
+		track ENCSR000EMH_ENCFF226UZW
+		parent primary_cell_stromal_cell_of_bone_marrow_view_ENCSR000EMH off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAV label=unknown view=ENCSR000EMH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF226UZW/@@download/ENCFF226UZW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF226UZW 9state-DNase DNase-seq on human bone marrow MSC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMH age=unknown description=ENCFF226UZW_9state_DNase_DNase_seq_on_human_bone_marrow_MSC donor=ENCDO000AAV sex=male view=ENCSR000EMH 
+		view ENCSR000EMH
+

@@ -1,0 +1,429 @@
+
+track tissue_muscle_layer_of_duodenum
+parent super_tissue
+compositeTrack on
+shortLabel muscle layer of d
+longLabel muscle layer of duodenum (11 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO024FMB=ENCDO024FMB ENCDO858AJQ=ENCDO858AJQ 
+subGroup2 age age a59_year=59&#32;year a73_year=73&#32;year 
+subGroup3 view view ENCSR054PMB=ENCSR054PMB ENCSR057XPL=ENCSR057XPL ENCSR075PTL=ENCSR075PTL ENCSR168WTY=ENCSR168WTY ENCSR264APD=ENCSR264APD ENCSR287UQG=ENCSR287UQG ENCSR297YOC=ENCSR297YOC ENCSR628CTX=ENCSR628CTX ENCSR694RCH=ENCSR694RCH ENCSR805OWG=ENCSR805OWG ENCSR929AXP=ENCSR929AXP bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR075PTL_ENCFF679MIG
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF679MIG/@@download/ENCFF679MIG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR075PTL muscle_layer_of_duodenum_male_adult_73_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR075PTL age=73_year description=ENCSR075PTL_muscle_layer_of_duodenum_male_adult_73_years_fold_change_over_control_ donor=ENCDO024FMB sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR075PTL
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR075PTL
+	visibility dense
+	type bigBed
+
+		track ENCSR075PTL_ENCFF837GDT
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR075PTL off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K4me3 view=ENCSR075PTL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF837GDT/@@download/ENCFF837GDT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR075PTL muscle_layer_of_duodenum_male_adult_73_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR075PTL age=73_year description=ENCSR075PTL_muscle_layer_of_duodenum_male_adult_73_years_peaks_ donor=ENCDO024FMB sex=male view=ENCSR075PTL 
+		view ENCSR075PTL
+
+	track ENCSR264APD_ENCFF180UOM
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF180UOM/@@download/ENCFF180UOM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR264APD muscle_layer_of_duodenum_male_adult_59_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR264APD age=59_year description=ENCSR264APD_muscle_layer_of_duodenum_male_adult_59_years_fold_change_over_control_ donor=ENCDO858AJQ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR264APD
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR264APD
+	visibility dense
+	type bigBed
+
+		track ENCSR264APD_ENCFF997ISM
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR264APD off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K4me3 view=ENCSR264APD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF997ISM/@@download/ENCFF997ISM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR264APD muscle_layer_of_duodenum_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR264APD age=59_year description=ENCSR264APD_muscle_layer_of_duodenum_male_adult_59_years_stable_peaks_ donor=ENCDO858AJQ sex=male view=ENCSR264APD 
+		view ENCSR264APD
+
+	track ENCSR694RCH_ENCFF219OVJ
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF219OVJ/@@download/ENCFF219OVJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR694RCH muscle_layer_of_duodenum_male_adult_59_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR694RCH age=59_year description=ENCSR694RCH_muscle_layer_of_duodenum_male_adult_59_years_fold_change_over_control_ donor=ENCDO858AJQ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR694RCH
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR694RCH
+	visibility dense
+	type bigBed
+
+		track ENCSR694RCH_ENCFF639SGN
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR694RCH off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K27ac view=ENCSR694RCH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF639SGN/@@download/ENCFF639SGN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR694RCH muscle_layer_of_duodenum_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR694RCH age=59_year description=ENCSR694RCH_muscle_layer_of_duodenum_male_adult_59_years_peaks_ donor=ENCDO858AJQ sex=male view=ENCSR694RCH 
+		view ENCSR694RCH
+
+		track ENCSR694RCH_ENCFF862BGI
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR694RCH off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K27ac view=ENCSR694RCH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF862BGI/@@download/ENCFF862BGI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF862BGI 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR694RCH age=59_year description=ENCFF862BGI_5group_ donor=ENCDO858AJQ sex=male view=ENCSR694RCH 
+		view ENCSR694RCH
+
+		track ENCSR694RCH_ENCFF112EFQ
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR694RCH off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K27ac view=ENCSR694RCH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF112EFQ/@@download/ENCFF112EFQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF112EFQ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR694RCH age=59_year description=ENCFF112EFQ_9state_H3K4me3_ donor=ENCDO858AJQ sex=male view=ENCSR694RCH 
+		view ENCSR694RCH
+
+	track ENCSR805OWG_ENCFF922OBI
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF922OBI/@@download/ENCFF922OBI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR805OWG muscle_layer_of_duodenum_male_adult_73_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR805OWG age=73_year description=ENCSR805OWG_muscle_layer_of_duodenum_male_adult_73_years_fold_change_over_control_ donor=ENCDO024FMB sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR805OWG
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR805OWG
+	visibility dense
+	type bigBed
+
+		track ENCSR805OWG_ENCFF484QQF
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR805OWG off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K27me3 view=ENCSR805OWG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF484QQF/@@download/ENCFF484QQF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR805OWG muscle_layer_of_duodenum_male_adult_73_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR805OWG age=73_year description=ENCSR805OWG_muscle_layer_of_duodenum_male_adult_73_years_peaks_ donor=ENCDO024FMB sex=male view=ENCSR805OWG 
+		view ENCSR805OWG
+
+	track ENCSR929AXP_ENCFF823OQE
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF823OQE/@@download/ENCFF823OQE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR929AXP muscle_layer_of_duodenum_male_adult_59_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR929AXP age=59_year description=ENCSR929AXP_muscle_layer_of_duodenum_male_adult_59_years_fold_change_over_control_ donor=ENCDO858AJQ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR929AXP
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR929AXP
+	visibility dense
+	type bigBed
+
+		track ENCSR929AXP_ENCFF924PSY
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR929AXP off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K27me3 view=ENCSR929AXP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF924PSY/@@download/ENCFF924PSY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR929AXP muscle_layer_of_duodenum_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR929AXP age=59_year description=ENCSR929AXP_muscle_layer_of_duodenum_male_adult_59_years_stable_peaks_ donor=ENCDO858AJQ sex=male view=ENCSR929AXP 
+		view ENCSR929AXP
+
+	track ENCSR287UQG_ENCFF480WBR
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF480WBR/@@download/ENCFF480WBR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR287UQG muscle_layer_of_duodenum_male_adult_73_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR287UQG age=73_year description=ENCSR287UQG_muscle_layer_of_duodenum_male_adult_73_years_fold_change_over_control_ donor=ENCDO024FMB sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR287UQG
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR287UQG
+	visibility dense
+	type bigBed
+
+		track ENCSR287UQG_ENCFF631MHU
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR287UQG off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K36me3 view=ENCSR287UQG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF631MHU/@@download/ENCFF631MHU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR287UQG muscle_layer_of_duodenum_male_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR287UQG age=73_year description=ENCSR287UQG_muscle_layer_of_duodenum_male_adult_73_years_stable_peaks_ donor=ENCDO024FMB sex=male view=ENCSR287UQG 
+		view ENCSR287UQG
+
+	track ENCSR297YOC_ENCFF760JYC
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF760JYC/@@download/ENCFF760JYC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR297YOC muscle_layer_of_duodenum_male_adult_59_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR297YOC age=59_year description=ENCSR297YOC_muscle_layer_of_duodenum_male_adult_59_years_fold_change_over_control_ donor=ENCDO858AJQ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR297YOC
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR297YOC
+	visibility dense
+	type bigBed
+
+		track ENCSR297YOC_ENCFF903XHU
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR297YOC off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K36me3 view=ENCSR297YOC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF903XHU/@@download/ENCFF903XHU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR297YOC muscle_layer_of_duodenum_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR297YOC age=59_year description=ENCSR297YOC_muscle_layer_of_duodenum_male_adult_59_years_peaks_ donor=ENCDO858AJQ sex=male view=ENCSR297YOC 
+		view ENCSR297YOC
+
+	track ENCSR054PMB_ENCFF871MSK
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF871MSK/@@download/ENCFF871MSK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR054PMB muscle_layer_of_duodenum_male_adult_73_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR054PMB age=73_year description=ENCSR054PMB_muscle_layer_of_duodenum_male_adult_73_years_fold_change_over_control_ donor=ENCDO024FMB sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR054PMB
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR054PMB
+	visibility dense
+	type bigBed
+
+		track ENCSR054PMB_ENCFF542AOM
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR054PMB off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K4me1 view=ENCSR054PMB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF542AOM/@@download/ENCFF542AOM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR054PMB muscle_layer_of_duodenum_male_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR054PMB age=73_year description=ENCSR054PMB_muscle_layer_of_duodenum_male_adult_73_years_stable_peaks_ donor=ENCDO024FMB sex=male view=ENCSR054PMB 
+		view ENCSR054PMB
+
+	track ENCSR628CTX_ENCFF559YAR
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF559YAR/@@download/ENCFF559YAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR628CTX muscle_layer_of_duodenum_male_adult_59_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR628CTX age=59_year description=ENCSR628CTX_muscle_layer_of_duodenum_male_adult_59_years_fold_change_over_control_ donor=ENCDO858AJQ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR628CTX
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR628CTX
+	visibility dense
+	type bigBed
+
+		track ENCSR628CTX_ENCFF761MOP
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR628CTX off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K4me1 view=ENCSR628CTX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF761MOP/@@download/ENCFF761MOP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR628CTX muscle_layer_of_duodenum_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR628CTX age=59_year description=ENCSR628CTX_muscle_layer_of_duodenum_male_adult_59_years_peaks_ donor=ENCDO858AJQ sex=male view=ENCSR628CTX 
+		view ENCSR628CTX
+
+	track ENCSR057XPL_ENCFF751ODS
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF751ODS/@@download/ENCFF751ODS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR057XPL muscle_layer_of_duodenum_male_adult_59_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR057XPL age=59_year description=ENCSR057XPL_muscle_layer_of_duodenum_male_adult_59_years_fold_change_over_control_ donor=ENCDO858AJQ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR057XPL
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR057XPL
+	visibility dense
+	type bigBed
+
+		track ENCSR057XPL_ENCFF367FHS
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR057XPL off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO858AJQ label=H3K9me3 view=ENCSR057XPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF367FHS/@@download/ENCFF367FHS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR057XPL muscle_layer_of_duodenum_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR057XPL age=59_year description=ENCSR057XPL_muscle_layer_of_duodenum_male_adult_59_years_stable_peaks_ donor=ENCDO858AJQ sex=male view=ENCSR057XPL 
+		view ENCSR057XPL
+
+	track ENCSR168WTY_ENCFF110ISC
+	parent tissue_muscle_layer_of_duodenum off
+	subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF110ISC/@@download/ENCFF110ISC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR168WTY muscle_layer_of_duodenum_male_adult_73_years_ (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR168WTY age=73_year description=ENCSR168WTY_muscle_layer_of_duodenum_male_adult_73_years_fold_change_over_control_ donor=ENCDO024FMB sex=male view=bigWig 
+	view bigWig
+
+	track tissue_muscle_layer_of_duodenum_view_ENCSR168WTY
+	parent tissue_muscle_layer_of_duodenum off
+	view ENCSR168WTY
+	visibility dense
+	type bigBed
+
+		track ENCSR168WTY_ENCFF224YJI
+		parent tissue_muscle_layer_of_duodenum_view_ENCSR168WTY off
+		subGroups age=a73_year assay=ChIP-seq donor=ENCDO024FMB label=H3K9me3 view=ENCSR168WTY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF224YJI/@@download/ENCFF224YJI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR168WTY muscle_layer_of_duodenum_male_adult_73_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR168WTY age=73_year description=ENCSR168WTY_muscle_layer_of_duodenum_male_adult_73_years_stable_peaks_ donor=ENCDO024FMB sex=male view=ENCSR168WTY 
+		view ENCSR168WTY
+

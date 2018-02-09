@@ -1,0 +1,463 @@
+
+track primary_cell_fibroblast_of_breast
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of bre
+longLabel fibroblast of breast (15 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO881IIS=ENCDO881IIS ENCDO967GTN=ENCDO967GTN 
+subGroup2 age age a17_year=17&#32;year a26_year=26&#32;year 
+subGroup3 view view ENCSR136VLK=ENCSR136VLK ENCSR311XVL=ENCSR311XVL ENCSR324VZT=ENCSR324VZT ENCSR347HBG=ENCSR347HBG ENCSR403KAA=ENCSR403KAA ENCSR579YLO=ENCSR579YLO ENCSR595FWR=ENCSR595FWR ENCSR728GTL=ENCSR728GTL ENCSR902QIJ=ENCSR902QIJ ENCSR912IDH=ENCSR912IDH ENCSR953ULK=ENCSR953ULK bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR403KAA_ENCFF662HSA
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF662HSA/@@download/ENCFF662HSA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR403KAA fibroblast_of_breast_female_adult_17_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR403KAA age=17_year description=ENCSR403KAA_fibroblast_of_breast_female_adult_17_years_fold_change_over_control_ donor=ENCDO967GTN sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR403KAA
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR403KAA
+	visibility dense
+	type bigBed
+
+		track ENCSR403KAA_ENCFF872VQF
+		parent primary_cell_fibroblast_of_breast_view_ENCSR403KAA off
+		subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K4me3 view=ENCSR403KAA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF872VQF/@@download/ENCFF872VQF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR403KAA fibroblast_of_breast_female_adult_17_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR403KAA age=17_year description=ENCSR403KAA_fibroblast_of_breast_female_adult_17_years_peaks_ donor=ENCDO967GTN sex=female view=ENCSR403KAA 
+		view ENCSR403KAA
+
+	track ENCSR902QIJ_ENCFF118FLS
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF118FLS/@@download/ENCFF118FLS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR902QIJ fibroblast_of_breast_female_adult_26_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR902QIJ age=26_year description=ENCSR902QIJ_fibroblast_of_breast_female_adult_26_years_fold_change_over_control_ donor=ENCDO881IIS sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR902QIJ
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR902QIJ
+	visibility dense
+	type bigBed
+
+		track ENCSR902QIJ_ENCFF614VXQ
+		parent primary_cell_fibroblast_of_breast_view_ENCSR902QIJ off
+		subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K4me3 view=ENCSR902QIJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF614VXQ/@@download/ENCFF614VXQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR902QIJ fibroblast_of_breast_female_adult_26_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR902QIJ age=26_year description=ENCSR902QIJ_fibroblast_of_breast_female_adult_26_years_stable_peaks_ donor=ENCDO881IIS sex=female view=ENCSR902QIJ 
+		view ENCSR902QIJ
+
+	track ENCSR347HBG_ENCFF810ENL
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810ENL/@@download/ENCFF810ENL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR347HBG fibroblast_of_breast_female_adult_26_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR347HBG age=26_year description=ENCSR347HBG_fibroblast_of_breast_female_adult_26_years_fold_change_over_control_ donor=ENCDO881IIS sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR347HBG
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR347HBG
+	visibility dense
+	type bigBed
+
+		track ENCSR347HBG_ENCFF399DRG
+		parent primary_cell_fibroblast_of_breast_view_ENCSR347HBG off
+		subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K27ac view=ENCSR347HBG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF399DRG/@@download/ENCFF399DRG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR347HBG fibroblast_of_breast_female_adult_26_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR347HBG age=26_year description=ENCSR347HBG_fibroblast_of_breast_female_adult_26_years_stable_peaks_ donor=ENCDO881IIS sex=female view=ENCSR347HBG 
+		view ENCSR347HBG
+
+	track ENCSR579YLO_ENCFF485NZV
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF485NZV/@@download/ENCFF485NZV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR579YLO fibroblast_of_breast_female_adult_17_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR579YLO age=17_year description=ENCSR579YLO_fibroblast_of_breast_female_adult_17_years_fold_change_over_control_ donor=ENCDO967GTN sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR579YLO
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR579YLO
+	visibility dense
+	type bigBed
+
+		track ENCSR579YLO_ENCFF987HER
+		parent primary_cell_fibroblast_of_breast_view_ENCSR579YLO off
+		subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K27ac view=ENCSR579YLO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF987HER/@@download/ENCFF987HER.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR579YLO fibroblast_of_breast_female_adult_17_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR579YLO age=17_year description=ENCSR579YLO_fibroblast_of_breast_female_adult_17_years_stable_peaks_ donor=ENCDO967GTN sex=female view=ENCSR579YLO 
+		view ENCSR579YLO
+
+	track ENCSR192NBO_ENCFF110URZ
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a17_year assay=RNA-seq donor=ENCDO967GTN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF110URZ/@@download/ENCFF110URZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR192NBO fibroblast_of_breast_female_adult_17_years_ (plus strand signal of u
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR192NBO age=17_year description=ENCSR192NBO_fibroblast_of_breast_female_adult_17_years_plus_strand_signal_of_unique_reads_ donor=ENCDO967GTN sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR196ARY_ENCFF246CAR
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a26_year assay=RNA-seq donor=ENCDO881IIS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF246CAR/@@download/ENCFF246CAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR196ARY fibroblast_of_breast_female_adult_26_years_ (plus strand signal of u
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR196ARY age=26_year description=ENCSR196ARY_fibroblast_of_breast_female_adult_26_years_plus_strand_signal_of_unique_reads_ donor=ENCDO881IIS sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR804CXG_ENCFF635ALZ
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a17_year assay=microRNA-seq donor=ENCDO967GTN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF635ALZ/@@download/ENCFF635ALZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR804CXG fibroblast_of_breast_female_adult_17_years_ (plus strand signal of u
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR804CXG age=17_year description=ENCSR804CXG_fibroblast_of_breast_female_adult_17_years_plus_strand_signal_of_unique_reads_ donor=ENCDO967GTN sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR990ASU_ENCFF221ZFB
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a26_year assay=microRNA-seq donor=ENCDO881IIS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF221ZFB/@@download/ENCFF221ZFB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR990ASU fibroblast_of_breast_female_adult_26_years_ (plus strand signal of u
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR990ASU age=26_year description=ENCSR990ASU_fibroblast_of_breast_female_adult_26_years_plus_strand_signal_of_unique_reads_ donor=ENCDO881IIS sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR136VLK_ENCFF122OWB
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF122OWB/@@download/ENCFF122OWB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR136VLK fibroblast_of_breast_female_adult_26_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR136VLK age=26_year description=ENCSR136VLK_fibroblast_of_breast_female_adult_26_years_fold_change_over_control_ donor=ENCDO881IIS sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR136VLK
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR136VLK
+	visibility dense
+	type bigBed
+
+		track ENCSR136VLK_ENCFF837QRU
+		parent primary_cell_fibroblast_of_breast_view_ENCSR136VLK off
+		subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K27me3 view=ENCSR136VLK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF837QRU/@@download/ENCFF837QRU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR136VLK fibroblast_of_breast_female_adult_26_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR136VLK age=26_year description=ENCSR136VLK_fibroblast_of_breast_female_adult_26_years_stable_peaks_ donor=ENCDO881IIS sex=female view=ENCSR136VLK 
+		view ENCSR136VLK
+
+	track ENCSR595FWR_ENCFF921JMQ
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF921JMQ/@@download/ENCFF921JMQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR595FWR fibroblast_of_breast_female_adult_17_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR595FWR age=17_year description=ENCSR595FWR_fibroblast_of_breast_female_adult_17_years_fold_change_over_control_ donor=ENCDO967GTN sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR595FWR
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR595FWR
+	visibility dense
+	type bigBed
+
+		track ENCSR595FWR_ENCFF963MUI
+		parent primary_cell_fibroblast_of_breast_view_ENCSR595FWR off
+		subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K27me3 view=ENCSR595FWR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF963MUI/@@download/ENCFF963MUI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR595FWR fibroblast_of_breast_female_adult_17_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR595FWR age=17_year description=ENCSR595FWR_fibroblast_of_breast_female_adult_17_years_peaks_ donor=ENCDO967GTN sex=female view=ENCSR595FWR 
+		view ENCSR595FWR
+
+	track ENCSR728GTL_ENCFF549BOJ
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF549BOJ/@@download/ENCFF549BOJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR728GTL fibroblast_of_breast_female_adult_17_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR728GTL age=17_year description=ENCSR728GTL_fibroblast_of_breast_female_adult_17_years_fold_change_over_control_ donor=ENCDO967GTN sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR728GTL
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR728GTL
+	visibility dense
+	type bigBed
+
+		track ENCSR728GTL_ENCFF952NYL
+		parent primary_cell_fibroblast_of_breast_view_ENCSR728GTL off
+		subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K36me3 view=ENCSR728GTL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF952NYL/@@download/ENCFF952NYL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR728GTL fibroblast_of_breast_female_adult_17_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR728GTL age=17_year description=ENCSR728GTL_fibroblast_of_breast_female_adult_17_years_peaks_ donor=ENCDO967GTN sex=female view=ENCSR728GTL 
+		view ENCSR728GTL
+
+	track ENCSR953ULK_ENCFF323HMR
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF323HMR/@@download/ENCFF323HMR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR953ULK fibroblast_of_breast_female_adult_26_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR953ULK age=26_year description=ENCSR953ULK_fibroblast_of_breast_female_adult_26_years_fold_change_over_control_ donor=ENCDO881IIS sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR953ULK
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR953ULK
+	visibility dense
+	type bigBed
+
+		track ENCSR953ULK_ENCFF294MXD
+		parent primary_cell_fibroblast_of_breast_view_ENCSR953ULK off
+		subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K36me3 view=ENCSR953ULK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF294MXD/@@download/ENCFF294MXD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR953ULK fibroblast_of_breast_female_adult_26_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR953ULK age=26_year description=ENCSR953ULK_fibroblast_of_breast_female_adult_26_years_peaks_ donor=ENCDO881IIS sex=female view=ENCSR953ULK 
+		view ENCSR953ULK
+
+	track ENCSR324VZT_ENCFF944YKQ
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF944YKQ/@@download/ENCFF944YKQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR324VZT fibroblast_of_breast_female_adult_17_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR324VZT age=17_year description=ENCSR324VZT_fibroblast_of_breast_female_adult_17_years_fold_change_over_control_ donor=ENCDO967GTN sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR324VZT
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR324VZT
+	visibility dense
+	type bigBed
+
+		track ENCSR324VZT_ENCFF495XCX
+		parent primary_cell_fibroblast_of_breast_view_ENCSR324VZT off
+		subGroups age=a17_year assay=ChIP-seq donor=ENCDO967GTN label=H3K4me1 view=ENCSR324VZT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF495XCX/@@download/ENCFF495XCX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR324VZT fibroblast_of_breast_female_adult_17_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR324VZT age=17_year description=ENCSR324VZT_fibroblast_of_breast_female_adult_17_years_peaks_ donor=ENCDO967GTN sex=female view=ENCSR324VZT 
+		view ENCSR324VZT
+
+	track ENCSR912IDH_ENCFF731ETN
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF731ETN/@@download/ENCFF731ETN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR912IDH fibroblast_of_breast_female_adult_26_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR912IDH age=26_year description=ENCSR912IDH_fibroblast_of_breast_female_adult_26_years_fold_change_over_control_ donor=ENCDO881IIS sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR912IDH
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR912IDH
+	visibility dense
+	type bigBed
+
+		track ENCSR912IDH_ENCFF323XTX
+		parent primary_cell_fibroblast_of_breast_view_ENCSR912IDH off
+		subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K4me1 view=ENCSR912IDH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF323XTX/@@download/ENCFF323XTX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR912IDH fibroblast_of_breast_female_adult_26_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR912IDH age=26_year description=ENCSR912IDH_fibroblast_of_breast_female_adult_26_years_stable_peaks_ donor=ENCDO881IIS sex=female view=ENCSR912IDH 
+		view ENCSR912IDH
+
+	track ENCSR311XVL_ENCFF897WRE
+	parent primary_cell_fibroblast_of_breast off
+	subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF897WRE/@@download/ENCFF897WRE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR311XVL fibroblast_of_breast_female_adult_26_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR311XVL age=26_year description=ENCSR311XVL_fibroblast_of_breast_female_adult_26_years_fold_change_over_control_ donor=ENCDO881IIS sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_breast_view_ENCSR311XVL
+	parent primary_cell_fibroblast_of_breast off
+	view ENCSR311XVL
+	visibility dense
+	type bigBed
+
+		track ENCSR311XVL_ENCFF925GQJ
+		parent primary_cell_fibroblast_of_breast_view_ENCSR311XVL off
+		subGroups age=a26_year assay=ChIP-seq donor=ENCDO881IIS label=H3K9me3 view=ENCSR311XVL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF925GQJ/@@download/ENCFF925GQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR311XVL fibroblast_of_breast_female_adult_26_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR311XVL age=26_year description=ENCSR311XVL_fibroblast_of_breast_female_adult_26_years_peaks_ donor=ENCDO881IIS sex=female view=ENCSR311XVL 
+		view ENCSR311XVL
+

@@ -1,0 +1,159 @@
+
+track tissue_tongue
+parent super_tissue
+compositeTrack on
+shortLabel tongue
+longLabel tongue (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO064AAA=ENCDO064AAA ENCDO237NAG=ENCDO237NAG ENCDO300THQ=ENCDO300THQ 
+subGroup2 age age a20_week=20&#32;week a72_day=72&#32;day a76_day=76&#32;day 
+subGroup3 view view ENCSR559WMK=ENCSR559WMK ENCSR759UNY=ENCSR759UNY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR559WMK_ENCFF606QTD
+	parent tissue_tongue off
+	subGroups age=a72_day assay=DNase-seq donor=ENCDO300THQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF606QTD/@@download/ENCFF606QTD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR559WMK tongue_male_embryo_72_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR559WMK age=72_day description=ENCSR559WMK_tongue_male_embryo_72_days_read_depth_normalized_signal_ donor=ENCDO300THQ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_tongue_view_ENCSR559WMK
+	parent tissue_tongue off
+	view ENCSR559WMK
+	visibility dense
+	type bigBed
+
+		track ENCSR559WMK_ENCFF724NQP
+		parent tissue_tongue_view_ENCSR559WMK off
+		subGroups age=a72_day assay=DNase-seq donor=ENCDO300THQ label=unknown view=ENCSR559WMK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF724NQP/@@download/ENCFF724NQP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR559WMK tongue_male_embryo_72_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR559WMK age=72_day description=ENCSR559WMK_tongue_male_embryo_72_days_peaks_ donor=ENCDO300THQ sex=male view=ENCSR559WMK 
+		view ENCSR559WMK
+
+		track ENCSR559WMK_ENCFF024PHK
+		parent tissue_tongue_view_ENCSR559WMK off
+		subGroups age=a72_day assay=DNase-seq donor=ENCDO300THQ label=unknown view=ENCSR559WMK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF024PHK/@@download/ENCFF024PHK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF024PHK 9state-DNase DNase-seq on 72 day old male human fetal tongue tissue
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR559WMK age=72_day description=ENCFF024PHK_9state_DNase_DNase_seq_on_72_day_old_male_human_fetal_tongue_tissue donor=ENCDO300THQ sex=male view=ENCSR559WMK 
+		view ENCSR559WMK
+
+	track ENCSR759UNY_ENCFF676XJL
+	parent tissue_tongue off
+	subGroups age=a76_day assay=DNase-seq donor=ENCDO237NAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF676XJL/@@download/ENCFF676XJL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR759UNY tongue_female_embryo_59_days_and_female_embryo_76_days_ (read-depth 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR759UNY age=76_day description=ENCSR759UNY_tongue_female_embryo_59_days_and_female_embryo_76_days_read_depth_normalized_signal_ donor=ENCDO237NAG sex=female view=bigWig 
+	view bigWig
+
+	track tissue_tongue_view_ENCSR759UNY
+	parent tissue_tongue off
+	view ENCSR759UNY
+	visibility dense
+	type bigBed
+
+		track ENCSR759UNY_ENCFF733FKD
+		parent tissue_tongue_view_ENCSR759UNY off
+		subGroups age=a76_day assay=DNase-seq donor=ENCDO237NAG label=unknown view=ENCSR759UNY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF733FKD/@@download/ENCFF733FKD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR759UNY tongue_female_embryo_59_days_and_female_embryo_76_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR759UNY age=76_day description=ENCSR759UNY_tongue_female_embryo_59_days_and_female_embryo_76_days_peaks_ donor=ENCDO237NAG sex=female view=ENCSR759UNY 
+		view ENCSR759UNY
+
+		track ENCSR759UNY_ENCFF909EMZ
+		parent tissue_tongue_view_ENCSR759UNY off
+		subGroups age=a76_day assay=DNase-seq donor=ENCDO237NAG label=unknown view=ENCSR759UNY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF909EMZ/@@download/ENCFF909EMZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF909EMZ 9state-DNase DNase-seq on 76 day old fetal female human tongue tissu
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR759UNY age=76_day description=ENCFF909EMZ_9state_DNase_DNase_seq_on_76_day_old_fetal_female_human_tongue_tissue donor=ENCDO237NAG sex=female view=ENCSR759UNY 
+		view ENCSR759UNY
+
+	track ENCSR000AFL_ENCFF953NFJ
+	parent tissue_tongue off
+	subGroups age=a20_week assay=RNA-seq donor=ENCDO064AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF953NFJ/@@download/ENCFF953NFJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFL tongue_female_embryo_20_weeks_and_female_embryo_24_weeks_ (plus stra
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFL age=20_week description=ENCSR000AFL_tongue_female_embryo_20_weeks_and_female_embryo_24_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO064AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGF_ENCFF157YKG
+	parent tissue_tongue off
+	subGroups age=a20_week assay=RNA-seq donor=ENCDO064AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF157YKG/@@download/ENCFF157YKG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AGF tongue_female_embryo_20_weeks_and_female_embryo_24_weeks_ (plus stra
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGF age=20_week description=ENCSR000AGF_tongue_female_embryo_20_weeks_and_female_embryo_24_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO064AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGZ_ENCFF672FAW
+	parent tissue_tongue off
+	subGroups age=a20_week assay=RAMPAGE donor=ENCDO064AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF672FAW/@@download/ENCFF672FAW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR000AGZ tongue_female_embryo_20_weeks_and_female_embryo_24_weeks_ (plus stra
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGZ age=20_week description=ENCSR000AGZ_tongue_female_embryo_20_weeks_and_female_embryo_24_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO064AAA sex=female view=bigWig 
+	view bigWig
+

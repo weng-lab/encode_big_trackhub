@@ -1,0 +1,136 @@
+
+track primary_cell_T_helper_1_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel T-helper 1 cell
+longLabel T-helper 1 cell (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO285AAA=ENCDO285AAA ENCDO286AAA=ENCDO286AAA ENCDO334AAA=ENCDO334AAA 
+subGroup2 age age a26_year=26&#32;year a33_year=33&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000EQC=ENCSR000EQC ENCSR000EQD=ENCSR000EQD ENCSR000EQE=ENCSR000EQE bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EQC_ENCFF131JYF
+	parent primary_cell_T_helper_1_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO334AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF131JYF/@@download/ENCFF131JYF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EQC T_helper_1_cell (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQC age=unknown description=ENCSR000EQC_T_helper_1_cell_read_depth_normalized_signal_ donor=ENCDO334AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_T_helper_1_cell_view_ENCSR000EQC
+	parent primary_cell_T_helper_1_cell off
+	view ENCSR000EQC
+	visibility dense
+	type bigBed
+
+		track ENCSR000EQC_ENCFF870SXH
+		parent primary_cell_T_helper_1_cell_view_ENCSR000EQC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO334AAA label=unknown view=ENCSR000EQC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF870SXH/@@download/ENCFF870SXH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EQC T_helper_1_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EQC age=unknown description=ENCSR000EQC_T_helper_1_cell_peaks_ donor=ENCDO334AAA sex=unknown view=ENCSR000EQC 
+		view ENCSR000EQC
+
+	track ENCSR000EQD_ENCFF666AGV
+	parent primary_cell_T_helper_1_cell off
+	subGroups age=a26_year assay=DNase-seq donor=ENCDO285AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF666AGV/@@download/ENCFF666AGV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EQD T_helper_1_cell_female_adult_26_years_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQD age=26_year description=ENCSR000EQD_T_helper_1_cell_female_adult_26_years_read_depth_normalized_signal_ donor=ENCDO285AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_T_helper_1_cell_view_ENCSR000EQD
+	parent primary_cell_T_helper_1_cell off
+	view ENCSR000EQD
+	visibility dense
+	type bigBed
+
+		track ENCSR000EQD_ENCFF267QDE
+		parent primary_cell_T_helper_1_cell_view_ENCSR000EQD off
+		subGroups age=a26_year assay=DNase-seq donor=ENCDO285AAA label=unknown view=ENCSR000EQD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF267QDE/@@download/ENCFF267QDE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EQD T_helper_1_cell_female_adult_26_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EQD age=26_year description=ENCSR000EQD_T_helper_1_cell_female_adult_26_years_peaks_ donor=ENCDO285AAA sex=female view=ENCSR000EQD 
+		view ENCSR000EQD
+
+	track ENCSR000EQE_ENCFF425FRE
+	parent primary_cell_T_helper_1_cell off
+	subGroups age=a33_year assay=DNase-seq donor=ENCDO286AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF425FRE/@@download/ENCFF425FRE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EQE T_helper_1_cell_male_adult_33_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQE age=33_year description=ENCSR000EQE_T_helper_1_cell_male_adult_33_years_read_depth_normalized_signal_ donor=ENCDO286AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_T_helper_1_cell_view_ENCSR000EQE
+	parent primary_cell_T_helper_1_cell off
+	view ENCSR000EQE
+	visibility dense
+	type bigBed
+
+		track ENCSR000EQE_ENCFF771HWA
+		parent primary_cell_T_helper_1_cell_view_ENCSR000EQE off
+		subGroups age=a33_year assay=DNase-seq donor=ENCDO286AAA label=unknown view=ENCSR000EQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF771HWA/@@download/ENCFF771HWA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EQE T_helper_1_cell_male_adult_33_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EQE age=33_year description=ENCSR000EQE_T_helper_1_cell_male_adult_33_years_peaks_ donor=ENCDO286AAA sex=male view=ENCSR000EQE 
+		view ENCSR000EQE
+
+		track ENCSR000EQE_ENCFF995WEQ
+		parent primary_cell_T_helper_1_cell_view_ENCSR000EQE off
+		subGroups age=a33_year assay=DNase-seq donor=ENCDO286AAA label=unknown view=ENCSR000EQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF995WEQ/@@download/ENCFF995WEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF995WEQ 9state-DNase DNase-seq on human Th1 (Wb54553204)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EQE age=33_year description=ENCFF995WEQ_9state_DNase_DNase_seq_on_human_Th1_Wb54553204_ donor=ENCDO286AAA sex=male view=ENCSR000EQE 
+		view ENCSR000EQE
+

@@ -1,0 +1,48 @@
+
+track in_vitro_differentiated_cells_erythroid_progenitor_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel erythroid progeni
+longLabel erythroid progenitor cell (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO494CVK=ENCDO494CVK 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR464YWK_ENCFF015AJC
+	parent in_vitro_differentiated_cells_erythroid_progenitor_cell off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO494CVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF015AJC/@@download/ENCFF015AJC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR464YWK erythroid_progenitor_cell_originated_from_hematopoietic_multipotent_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR464YWK age=unknown description=ENCSR464YWK_erythroid_progenitor_cell_originated_from_hematopoietic_multipotent_progenitor_cell_wavelet_smoothed_signal_ donor=ENCDO494CVK sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR598WKC_ENCFF380HLO
+	parent in_vitro_differentiated_cells_erythroid_progenitor_cell off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO494CVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF380HLO/@@download/ENCFF380HLO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR598WKC erythroid_progenitor_cell_originated_from_hematopoietic_multipotent_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR598WKC age=unknown description=ENCSR598WKC_erythroid_progenitor_cell_originated_from_hematopoietic_multipotent_progenitor_cell_wavelet_smoothed_signal_ donor=ENCDO494CVK sex=unknown view=bigWig 
+	view bigWig
+

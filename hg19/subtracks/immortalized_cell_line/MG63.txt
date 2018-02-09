@@ -1,0 +1,33 @@
+
+track immortalized_cell_line_MG63
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel MG63
+longLabel MG63 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RNA-seq=RNA-seq 
+subGroup3 view view bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR971KNW_ENCFF791BKZ
+	parent immortalized_cell_line_MG63 off
+	subGroups age=a14_year assay=RNA-seq donor=ENCDO987OSE label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF791BKZ/@@download/ENCFF791BKZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR971KNW MG63 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR971KNW age=14_year description=ENCSR971KNW_MG63_plus_strand_signal_of_unique_reads_ donor=ENCDO987OSE sex=male view=bigWig 
+	view bigWig
+

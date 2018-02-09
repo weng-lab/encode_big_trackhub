@@ -1,0 +1,1135 @@
+
+track tissue_large_intestine
+parent super_tissue
+compositeTrack on
+shortLabel large intestine
+longLabel large intestine (27 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO012PVK=ENCDO012PVK ENCDO087TLK=ENCDO087TLK ENCDO119ASK=ENCDO119ASK ENCDO132ASK=ENCDO132ASK ENCDO165PKL=ENCDO165PKL ENCDO171HMD=ENCDO171HMD ENCDO350ZUK=ENCDO350ZUK ENCDO375VTO=ENCDO375VTO ENCDO555CMC=ENCDO555CMC ENCDO605ZCF=ENCDO605ZCF ENCDO607LOS=ENCDO607LOS ENCDO608XKS=ENCDO608XKS ENCDO623IAT=ENCDO623IAT ENCDO766MZV=ENCDO766MZV ENCDO837QWL=ENCDO837QWL ENCDO999JZG=ENCDO999JZG 
+subGroup2 age age a103_day=103&#32;day a105_day=105&#32;day a107_day=107&#32;day a108_day=108&#32;day a110_day=110&#32;day a113_day=113&#32;day a115_day=115&#32;day a120_day=120&#32;day a85_day=85&#32;day a91_day=91&#32;day a98_day=98&#32;day 
+subGroup3 view view ENCSR047FNH=ENCSR047FNH ENCSR133SPH=ENCSR133SPH ENCSR154YPL=ENCSR154YPL ENCSR157FDN=ENCSR157FDN ENCSR214QEO=ENCSR214QEO ENCSR366EQH=ENCSR366EQH ENCSR413QXO=ENCSR413QXO ENCSR444VTC=ENCSR444VTC ENCSR530LYV=ENCSR530LYV ENCSR531HPD=ENCSR531HPD ENCSR563XRP=ENCSR563XRP ENCSR591JZS=ENCSR591JZS ENCSR659RHV=ENCSR659RHV ENCSR666YVE=ENCSR666YVE ENCSR762FCX=ENCSR762FCX ENCSR796SJV=ENCSR796SJV ENCSR800QGE=ENCSR800QGE ENCSR857AEB=ENCSR857AEB ENCSR874CAK=ENCSR874CAK ENCSR998ZWM=ENCSR998ZWM bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR047FNH_ENCFF862TKX
+	parent tissue_large_intestine off
+	subGroups age=a113_day assay=DNase-seq donor=ENCDO608XKS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF862TKX/@@download/ENCFF862TKX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR047FNH large_intestine_male_embryo_113_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR047FNH age=113_day description=ENCSR047FNH_large_intestine_male_embryo_113_days_read_depth_normalized_signal_ donor=ENCDO608XKS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR047FNH
+	parent tissue_large_intestine off
+	view ENCSR047FNH
+	visibility dense
+	type bigBed
+
+		track ENCSR047FNH_ENCFF936OOU
+		parent tissue_large_intestine_view_ENCSR047FNH off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO608XKS label=unknown view=ENCSR047FNH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF936OOU/@@download/ENCFF936OOU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR047FNH large_intestine_male_embryo_113_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR047FNH age=113_day description=ENCSR047FNH_large_intestine_male_embryo_113_days_peaks_ donor=ENCDO608XKS sex=male view=ENCSR047FNH 
+		view ENCSR047FNH
+
+		track ENCSR047FNH_ENCFF446WAB
+		parent tissue_large_intestine_view_ENCSR047FNH off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO608XKS label=unknown view=ENCSR047FNH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF446WAB/@@download/ENCFF446WAB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF446WAB 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR047FNH age=113_day description=ENCFF446WAB_9state_DNase_ donor=ENCDO608XKS sex=male view=ENCSR047FNH 
+		view ENCSR047FNH
+
+	track ENCSR133SPH_ENCFF163JWB
+	parent tissue_large_intestine off
+	subGroups age=a120_day assay=DNase-seq donor=ENCDO555CMC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF163JWB/@@download/ENCFF163JWB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR133SPH large_intestine_female_embryo_120_days_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR133SPH age=120_day description=ENCSR133SPH_large_intestine_female_embryo_120_days_read_depth_normalized_signal_ donor=ENCDO555CMC sex=female view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR133SPH
+	parent tissue_large_intestine off
+	view ENCSR133SPH
+	visibility dense
+	type bigBed
+
+		track ENCSR133SPH_ENCFF105UYN
+		parent tissue_large_intestine_view_ENCSR133SPH off
+		subGroups age=a120_day assay=DNase-seq donor=ENCDO555CMC label=unknown view=ENCSR133SPH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF105UYN/@@download/ENCFF105UYN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR133SPH large_intestine_female_embryo_120_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR133SPH age=120_day description=ENCSR133SPH_large_intestine_female_embryo_120_days_peaks_ donor=ENCDO555CMC sex=female view=ENCSR133SPH 
+		view ENCSR133SPH
+
+		track ENCSR133SPH_ENCFF547PKP
+		parent tissue_large_intestine_view_ENCSR133SPH off
+		subGroups age=a120_day assay=DNase-seq donor=ENCDO555CMC label=unknown view=ENCSR133SPH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF547PKP/@@download/ENCFF547PKP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF547PKP 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR133SPH age=120_day description=ENCFF547PKP_9state_DNase_ donor=ENCDO555CMC sex=female view=ENCSR133SPH 
+		view ENCSR133SPH
+
+	track ENCSR154YPL_ENCFF508HMC
+	parent tissue_large_intestine off
+	subGroups age=a110_day assay=DNase-seq donor=ENCDO087TLK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF508HMC/@@download/ENCFF508HMC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR154YPL large_intestine_female_embryo_110_days_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR154YPL age=110_day description=ENCSR154YPL_large_intestine_female_embryo_110_days_read_depth_normalized_signal_ donor=ENCDO087TLK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR154YPL
+	parent tissue_large_intestine off
+	view ENCSR154YPL
+	visibility dense
+	type bigBed
+
+		track ENCSR154YPL_ENCFF704GAG
+		parent tissue_large_intestine_view_ENCSR154YPL off
+		subGroups age=a110_day assay=DNase-seq donor=ENCDO087TLK label=unknown view=ENCSR154YPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF704GAG/@@download/ENCFF704GAG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR154YPL large_intestine_female_embryo_110_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR154YPL age=110_day description=ENCSR154YPL_large_intestine_female_embryo_110_days_peaks_ donor=ENCDO087TLK sex=female view=ENCSR154YPL 
+		view ENCSR154YPL
+
+		track ENCSR154YPL_ENCFF493QCA
+		parent tissue_large_intestine_view_ENCSR154YPL off
+		subGroups age=a110_day assay=DNase-seq donor=ENCDO087TLK label=unknown view=ENCSR154YPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF493QCA/@@download/ENCFF493QCA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF493QCA 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR154YPL age=110_day description=ENCFF493QCA_9state_DNase_ donor=ENCDO087TLK sex=female view=ENCSR154YPL 
+		view ENCSR154YPL
+
+	track ENCSR214QEO_ENCFF957RXO
+	parent tissue_large_intestine off
+	subGroups age=a91_day assay=DNase-seq donor=ENCDO605ZCF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF957RXO/@@download/ENCFF957RXO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR214QEO large_intestine_female_embryo_91_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR214QEO age=91_day description=ENCSR214QEO_large_intestine_female_embryo_91_day_read_depth_normalized_signal_ donor=ENCDO605ZCF sex=female view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR214QEO
+	parent tissue_large_intestine off
+	view ENCSR214QEO
+	visibility dense
+	type bigBed
+
+		track ENCSR214QEO_ENCFF753YNO
+		parent tissue_large_intestine_view_ENCSR214QEO off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO605ZCF label=unknown view=ENCSR214QEO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF753YNO/@@download/ENCFF753YNO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR214QEO large_intestine_female_embryo_91_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR214QEO age=91_day description=ENCSR214QEO_large_intestine_female_embryo_91_day_peaks_ donor=ENCDO605ZCF sex=female view=ENCSR214QEO 
+		view ENCSR214QEO
+
+		track ENCSR214QEO_ENCFF418THE
+		parent tissue_large_intestine_view_ENCSR214QEO off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO605ZCF label=unknown view=ENCSR214QEO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF418THE/@@download/ENCFF418THE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF418THE 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR214QEO age=91_day description=ENCFF418THE_9state_DNase_ donor=ENCDO605ZCF sex=female view=ENCSR214QEO 
+		view ENCSR214QEO
+
+	track ENCSR366EQH_ENCFF860DPC
+	parent tissue_large_intestine off
+	subGroups age=a115_day assay=DNase-seq donor=ENCDO999JZG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF860DPC/@@download/ENCFF860DPC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR366EQH large_intestine_male_embryo_115_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR366EQH age=115_day description=ENCSR366EQH_large_intestine_male_embryo_115_days_read_depth_normalized_signal_ donor=ENCDO999JZG sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR366EQH
+	parent tissue_large_intestine off
+	view ENCSR366EQH
+	visibility dense
+	type bigBed
+
+		track ENCSR366EQH_ENCFF494YBM
+		parent tissue_large_intestine_view_ENCSR366EQH off
+		subGroups age=a115_day assay=DNase-seq donor=ENCDO999JZG label=unknown view=ENCSR366EQH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF494YBM/@@download/ENCFF494YBM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR366EQH large_intestine_male_embryo_115_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR366EQH age=115_day description=ENCSR366EQH_large_intestine_male_embryo_115_days_peaks_ donor=ENCDO999JZG sex=male view=ENCSR366EQH 
+		view ENCSR366EQH
+
+		track ENCSR366EQH_ENCFF265IGY
+		parent tissue_large_intestine_view_ENCSR366EQH off
+		subGroups age=a115_day assay=DNase-seq donor=ENCDO999JZG label=unknown view=ENCSR366EQH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF265IGY/@@download/ENCFF265IGY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF265IGY 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR366EQH age=115_day description=ENCFF265IGY_9state_DNase_ donor=ENCDO999JZG sex=male view=ENCSR366EQH 
+		view ENCSR366EQH
+
+	track ENCSR444VTC_ENCFF856CDF
+	parent tissue_large_intestine off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO766MZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF856CDF/@@download/ENCFF856CDF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR444VTC large_intestine_female_embryo_105_days_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR444VTC age=105_day description=ENCSR444VTC_large_intestine_female_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO766MZV sex=female view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR444VTC
+	parent tissue_large_intestine off
+	view ENCSR444VTC
+	visibility dense
+	type bigBed
+
+		track ENCSR444VTC_ENCFF114WWJ
+		parent tissue_large_intestine_view_ENCSR444VTC off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO766MZV label=unknown view=ENCSR444VTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF114WWJ/@@download/ENCFF114WWJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR444VTC large_intestine_female_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR444VTC age=105_day description=ENCSR444VTC_large_intestine_female_embryo_105_days_peaks_ donor=ENCDO766MZV sex=female view=ENCSR444VTC 
+		view ENCSR444VTC
+
+		track ENCSR444VTC_ENCFF205YMJ
+		parent tissue_large_intestine_view_ENCSR444VTC off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO766MZV label=unknown view=ENCSR444VTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF205YMJ/@@download/ENCFF205YMJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF205YMJ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR444VTC age=105_day description=ENCFF205YMJ_9state_DNase_ donor=ENCDO766MZV sex=female view=ENCSR444VTC 
+		view ENCSR444VTC
+
+	track ENCSR531HPD_ENCFF796FBZ
+	parent tissue_large_intestine off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO350ZUK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF796FBZ/@@download/ENCFF796FBZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR531HPD large_intestine_male_embryo_105_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR531HPD age=105_day description=ENCSR531HPD_large_intestine_male_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO350ZUK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR531HPD
+	parent tissue_large_intestine off
+	view ENCSR531HPD
+	visibility dense
+	type bigBed
+
+		track ENCSR531HPD_ENCFF171QTA
+		parent tissue_large_intestine_view_ENCSR531HPD off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO350ZUK label=unknown view=ENCSR531HPD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF171QTA/@@download/ENCFF171QTA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR531HPD large_intestine_male_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR531HPD age=105_day description=ENCSR531HPD_large_intestine_male_embryo_105_days_peaks_ donor=ENCDO350ZUK sex=male view=ENCSR531HPD 
+		view ENCSR531HPD
+
+		track ENCSR531HPD_ENCFF179NIU
+		parent tissue_large_intestine_view_ENCSR531HPD off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO350ZUK label=unknown view=ENCSR531HPD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF179NIU/@@download/ENCFF179NIU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF179NIU 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR531HPD age=105_day description=ENCFF179NIU_9state_DNase_ donor=ENCDO350ZUK sex=male view=ENCSR531HPD 
+		view ENCSR531HPD
+
+	track ENCSR563XRP_ENCFF732YJE
+	parent tissue_large_intestine off
+	subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF732YJE/@@download/ENCFF732YJE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR563XRP large_intestine_female_embryo_107_days_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR563XRP age=107_day description=ENCSR563XRP_large_intestine_female_embryo_107_days_read_depth_normalized_signal_ donor=ENCDO607LOS sex=female view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR563XRP
+	parent tissue_large_intestine off
+	view ENCSR563XRP
+	visibility dense
+	type bigBed
+
+		track ENCSR563XRP_ENCFF161QFQ
+		parent tissue_large_intestine_view_ENCSR563XRP off
+		subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=ENCSR563XRP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF161QFQ/@@download/ENCFF161QFQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR563XRP large_intestine_female_embryo_107_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR563XRP age=107_day description=ENCSR563XRP_large_intestine_female_embryo_107_days_peaks_ donor=ENCDO607LOS sex=female view=ENCSR563XRP 
+		view ENCSR563XRP
+
+		track ENCSR563XRP_ENCFF264OYS
+		parent tissue_large_intestine_view_ENCSR563XRP off
+		subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=ENCSR563XRP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF264OYS/@@download/ENCFF264OYS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF264OYS 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR563XRP age=107_day description=ENCFF264OYS_9state_DNase_ donor=ENCDO607LOS sex=female view=ENCSR563XRP 
+		view ENCSR563XRP
+
+	track ENCSR666YVE_ENCFF783BSV
+	parent tissue_large_intestine off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF783BSV/@@download/ENCFF783BSV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR666YVE large_intestine_male_embryo_105_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR666YVE age=105_day description=ENCSR666YVE_large_intestine_male_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO171HMD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR666YVE
+	parent tissue_large_intestine off
+	view ENCSR666YVE
+	visibility dense
+	type bigBed
+
+		track ENCSR666YVE_ENCFF652FUF
+		parent tissue_large_intestine_view_ENCSR666YVE off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=ENCSR666YVE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF652FUF/@@download/ENCFF652FUF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR666YVE large_intestine_male_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR666YVE age=105_day description=ENCSR666YVE_large_intestine_male_embryo_105_days_peaks_ donor=ENCDO171HMD sex=male view=ENCSR666YVE 
+		view ENCSR666YVE
+
+	track ENCSR762FCX_ENCFF973BVL
+	parent tissue_large_intestine off
+	subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF973BVL/@@download/ENCFF973BVL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR762FCX large_intestine_male_embryo_91_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR762FCX age=91_day description=ENCSR762FCX_large_intestine_male_embryo_91_day_read_depth_normalized_signal_ donor=ENCDO375VTO sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR762FCX
+	parent tissue_large_intestine off
+	view ENCSR762FCX
+	visibility dense
+	type bigBed
+
+		track ENCSR762FCX_ENCFF755VGN
+		parent tissue_large_intestine_view_ENCSR762FCX off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=ENCSR762FCX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF755VGN/@@download/ENCFF755VGN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR762FCX large_intestine_male_embryo_91_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR762FCX age=91_day description=ENCSR762FCX_large_intestine_male_embryo_91_day_peaks_ donor=ENCDO375VTO sex=male view=ENCSR762FCX 
+		view ENCSR762FCX
+
+		track ENCSR762FCX_ENCFF399YCU
+		parent tissue_large_intestine_view_ENCSR762FCX off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=ENCSR762FCX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF399YCU/@@download/ENCFF399YCU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF399YCU 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR762FCX age=91_day description=ENCFF399YCU_9state_DNase_ donor=ENCDO375VTO sex=male view=ENCSR762FCX 
+		view ENCSR762FCX
+
+	track ENCSR796SJV_ENCFF655UNN
+	parent tissue_large_intestine off
+	subGroups age=a98_day assay=DNase-seq donor=ENCDO837QWL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF655UNN/@@download/ENCFF655UNN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR796SJV large_intestine_female_embryo_98_days_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR796SJV age=98_day description=ENCSR796SJV_large_intestine_female_embryo_98_days_read_depth_normalized_signal_ donor=ENCDO837QWL sex=female view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR796SJV
+	parent tissue_large_intestine off
+	view ENCSR796SJV
+	visibility dense
+	type bigBed
+
+		track ENCSR796SJV_ENCFF746NUV
+		parent tissue_large_intestine_view_ENCSR796SJV off
+		subGroups age=a98_day assay=DNase-seq donor=ENCDO837QWL label=unknown view=ENCSR796SJV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF746NUV/@@download/ENCFF746NUV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR796SJV large_intestine_female_embryo_98_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR796SJV age=98_day description=ENCSR796SJV_large_intestine_female_embryo_98_days_peaks_ donor=ENCDO837QWL sex=female view=ENCSR796SJV 
+		view ENCSR796SJV
+
+		track ENCSR796SJV_ENCFF613ORM
+		parent tissue_large_intestine_view_ENCSR796SJV off
+		subGroups age=a98_day assay=DNase-seq donor=ENCDO837QWL label=unknown view=ENCSR796SJV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF613ORM/@@download/ENCFF613ORM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF613ORM 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR796SJV age=98_day description=ENCFF613ORM_9state_DNase_ donor=ENCDO837QWL sex=female view=ENCSR796SJV 
+		view ENCSR796SJV
+
+	track ENCSR800QGE_ENCFF389LOQ
+	parent tissue_large_intestine off
+	subGroups age=a103_day assay=DNase-seq donor=ENCDO623IAT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF389LOQ/@@download/ENCFF389LOQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR800QGE large_intestine_female_embryo_103_days_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR800QGE age=103_day description=ENCSR800QGE_large_intestine_female_embryo_103_days_read_depth_normalized_signal_ donor=ENCDO623IAT sex=female view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR800QGE
+	parent tissue_large_intestine off
+	view ENCSR800QGE
+	visibility dense
+	type bigBed
+
+		track ENCSR800QGE_ENCFF322KGL
+		parent tissue_large_intestine_view_ENCSR800QGE off
+		subGroups age=a103_day assay=DNase-seq donor=ENCDO623IAT label=unknown view=ENCSR800QGE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF322KGL/@@download/ENCFF322KGL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR800QGE large_intestine_female_embryo_103_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR800QGE age=103_day description=ENCSR800QGE_large_intestine_female_embryo_103_days_peaks_ donor=ENCDO623IAT sex=female view=ENCSR800QGE 
+		view ENCSR800QGE
+
+		track ENCSR800QGE_ENCFF585MPQ
+		parent tissue_large_intestine_view_ENCSR800QGE off
+		subGroups age=a103_day assay=DNase-seq donor=ENCDO623IAT label=unknown view=ENCSR800QGE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF585MPQ/@@download/ENCFF585MPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF585MPQ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR800QGE age=103_day description=ENCFF585MPQ_9state_DNase_ donor=ENCDO623IAT sex=female view=ENCSR800QGE 
+		view ENCSR800QGE
+
+	track ENCSR857AEB_ENCFF555WOU
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF555WOU/@@download/ENCFF555WOU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR857AEB large_intestine_male_embryo_108_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR857AEB age=108_day description=ENCSR857AEB_large_intestine_male_embryo_108_days_read_depth_normalized_signal_ donor=ENCDO132ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR857AEB
+	parent tissue_large_intestine off
+	view ENCSR857AEB
+	visibility dense
+	type bigBed
+
+		track ENCSR857AEB_ENCFF566MOI
+		parent tissue_large_intestine_view_ENCSR857AEB off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=ENCSR857AEB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF566MOI/@@download/ENCFF566MOI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR857AEB large_intestine_male_embryo_108_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR857AEB age=108_day description=ENCSR857AEB_large_intestine_male_embryo_108_days_peaks_ donor=ENCDO132ASK sex=male view=ENCSR857AEB 
+		view ENCSR857AEB
+
+		track ENCSR857AEB_ENCFF377THB
+		parent tissue_large_intestine_view_ENCSR857AEB off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=ENCSR857AEB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF377THB/@@download/ENCFF377THB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF377THB 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR857AEB age=108_day description=ENCFF377THB_9state_DNase_ donor=ENCDO132ASK sex=male view=ENCSR857AEB 
+		view ENCSR857AEB
+
+		track ENCSR857AEB_ENCFF903RGX
+		parent tissue_large_intestine_view_ENCSR857AEB off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=ENCSR857AEB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF903RGX/@@download/ENCFF903RGX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF903RGX 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR857AEB age=108_day description=ENCFF903RGX_5group_ donor=ENCDO132ASK sex=male view=ENCSR857AEB 
+		view ENCSR857AEB
+
+		track ENCSR857AEB_ENCFF150JXQ
+		parent tissue_large_intestine_view_ENCSR857AEB off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=ENCSR857AEB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF150JXQ/@@download/ENCFF150JXQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF150JXQ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR857AEB age=108_day description=ENCFF150JXQ_9state_H3K27ac_ donor=ENCDO132ASK sex=male view=ENCSR857AEB 
+		view ENCSR857AEB
+
+		track ENCSR857AEB_ENCFF501SDR
+		parent tissue_large_intestine_view_ENCSR857AEB off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO132ASK label=unknown view=ENCSR857AEB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF501SDR/@@download/ENCFF501SDR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF501SDR 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR857AEB age=108_day description=ENCFF501SDR_9state_H3K4me3_ donor=ENCDO132ASK sex=male view=ENCSR857AEB 
+		view ENCSR857AEB
+
+	track ENCSR874CAK_ENCFF180PJW
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF180PJW/@@download/ENCFF180PJW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR874CAK large_intestine_female_embryo_108_days_ (read-depth normalized signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR874CAK age=108_day description=ENCSR874CAK_large_intestine_female_embryo_108_days_read_depth_normalized_signal_ donor=ENCDO012PVK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR874CAK
+	parent tissue_large_intestine off
+	view ENCSR874CAK
+	visibility dense
+	type bigBed
+
+		track ENCSR874CAK_ENCFF300AJK
+		parent tissue_large_intestine_view_ENCSR874CAK off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR874CAK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF300AJK/@@download/ENCFF300AJK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR874CAK large_intestine_female_embryo_108_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR874CAK age=108_day description=ENCSR874CAK_large_intestine_female_embryo_108_days_peaks_ donor=ENCDO012PVK sex=female view=ENCSR874CAK 
+		view ENCSR874CAK
+
+		track ENCSR874CAK_ENCFF290OFM
+		parent tissue_large_intestine_view_ENCSR874CAK off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR874CAK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF290OFM/@@download/ENCFF290OFM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF290OFM 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR874CAK age=108_day description=ENCFF290OFM_9state_DNase_ donor=ENCDO012PVK sex=female view=ENCSR874CAK 
+		view ENCSR874CAK
+
+	track ENCSR413QXO_ENCFF191CFV
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF191CFV/@@download/ENCFF191CFV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR413QXO large_intestine_male_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR413QXO age=108_day description=ENCSR413QXO_large_intestine_male_embryo_108_days_fold_change_over_control_ donor=ENCDO119ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR413QXO
+	parent tissue_large_intestine off
+	view ENCSR413QXO
+	visibility dense
+	type bigBed
+
+		track ENCSR413QXO_ENCFF864UJT
+		parent tissue_large_intestine_view_ENCSR413QXO off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K4me3 view=ENCSR413QXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF864UJT/@@download/ENCFF864UJT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR413QXO large_intestine_male_embryo_108_days_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR413QXO age=108_day description=ENCSR413QXO_large_intestine_male_embryo_108_days_peaks_ donor=ENCDO119ASK sex=male view=ENCSR413QXO 
+		view ENCSR413QXO
+
+		track ENCSR413QXO_ENCFF377THB
+		parent tissue_large_intestine_view_ENCSR413QXO off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K4me3 view=ENCSR413QXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF377THB/@@download/ENCFF377THB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF377THB 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR413QXO age=108_day description=ENCFF377THB_9state_DNase_ donor=ENCDO119ASK sex=male view=ENCSR413QXO 
+		view ENCSR413QXO
+
+		track ENCSR413QXO_ENCFF903RGX
+		parent tissue_large_intestine_view_ENCSR413QXO off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K4me3 view=ENCSR413QXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF903RGX/@@download/ENCFF903RGX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF903RGX 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR413QXO age=108_day description=ENCFF903RGX_5group_ donor=ENCDO119ASK sex=male view=ENCSR413QXO 
+		view ENCSR413QXO
+
+		track ENCSR413QXO_ENCFF150JXQ
+		parent tissue_large_intestine_view_ENCSR413QXO off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K4me3 view=ENCSR413QXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF150JXQ/@@download/ENCFF150JXQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF150JXQ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR413QXO age=108_day description=ENCFF150JXQ_9state_H3K27ac_ donor=ENCDO119ASK sex=male view=ENCSR413QXO 
+		view ENCSR413QXO
+
+		track ENCSR413QXO_ENCFF501SDR
+		parent tissue_large_intestine_view_ENCSR413QXO off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K4me3 view=ENCSR413QXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF501SDR/@@download/ENCFF501SDR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF501SDR 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR413QXO age=108_day description=ENCFF501SDR_9state_H3K4me3_ donor=ENCDO119ASK sex=male view=ENCSR413QXO 
+		view ENCSR413QXO
+
+	track ENCSR659RHV_ENCFF203GNW
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF203GNW/@@download/ENCFF203GNW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR659RHV large_intestine_male_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR659RHV age=108_day description=ENCSR659RHV_large_intestine_male_embryo_108_days_fold_change_over_control_ donor=ENCDO119ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR659RHV
+	parent tissue_large_intestine off
+	view ENCSR659RHV
+	visibility dense
+	type bigBed
+
+		track ENCSR659RHV_ENCFF525LFL
+		parent tissue_large_intestine_view_ENCSR659RHV off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K27ac view=ENCSR659RHV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF525LFL/@@download/ENCFF525LFL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR659RHV large_intestine_male_embryo_108_days_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR659RHV age=108_day description=ENCSR659RHV_large_intestine_male_embryo_108_days_peaks_ donor=ENCDO119ASK sex=male view=ENCSR659RHV 
+		view ENCSR659RHV
+
+		track ENCSR659RHV_ENCFF377THB
+		parent tissue_large_intestine_view_ENCSR659RHV off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K27ac view=ENCSR659RHV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF377THB/@@download/ENCFF377THB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF377THB 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR659RHV age=108_day description=ENCFF377THB_9state_DNase_ donor=ENCDO119ASK sex=male view=ENCSR659RHV 
+		view ENCSR659RHV
+
+		track ENCSR659RHV_ENCFF903RGX
+		parent tissue_large_intestine_view_ENCSR659RHV off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K27ac view=ENCSR659RHV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF903RGX/@@download/ENCFF903RGX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF903RGX 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR659RHV age=108_day description=ENCFF903RGX_5group_ donor=ENCDO119ASK sex=male view=ENCSR659RHV 
+		view ENCSR659RHV
+
+		track ENCSR659RHV_ENCFF150JXQ
+		parent tissue_large_intestine_view_ENCSR659RHV off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K27ac view=ENCSR659RHV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF150JXQ/@@download/ENCFF150JXQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF150JXQ 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR659RHV age=108_day description=ENCFF150JXQ_9state_H3K27ac_ donor=ENCDO119ASK sex=male view=ENCSR659RHV 
+		view ENCSR659RHV
+
+		track ENCSR659RHV_ENCFF501SDR
+		parent tissue_large_intestine_view_ENCSR659RHV off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K27ac view=ENCSR659RHV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF501SDR/@@download/ENCFF501SDR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF501SDR 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR659RHV age=108_day description=ENCFF501SDR_9state_H3K4me3_ donor=ENCDO119ASK sex=male view=ENCSR659RHV 
+		view ENCSR659RHV
+
+	track ENCSR066FZL_ENCFF272RZA
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=RNA-seq donor=ENCDO132ASK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF272RZA/@@download/ENCFF272RZA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR066FZL large_intestine_male_embryo_108_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR066FZL age=108_day description=ENCSR066FZL_large_intestine_male_embryo_108_days_signal_of_unique_reads_ donor=ENCDO132ASK sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR286KWP_ENCFF423FBI
+	parent tissue_large_intestine off
+	subGroups age=a115_day assay=RNA-seq donor=ENCDO999JZG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF423FBI/@@download/ENCFF423FBI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR286KWP large_intestine_male_embryo_115_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR286KWP age=115_day description=ENCSR286KWP_large_intestine_male_embryo_115_days_signal_of_unique_reads_ donor=ENCDO999JZG sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR363BVC_ENCFF185CMN
+	parent tissue_large_intestine off
+	subGroups age=a105_day assay=RNA-seq donor=ENCDO766MZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF185CMN/@@download/ENCFF185CMN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR363BVC large_intestine_female_embryo_105_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR363BVC age=105_day description=ENCSR363BVC_large_intestine_female_embryo_105_days_signal_of_unique_reads_ donor=ENCDO766MZV sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR777ONH_ENCFF956NDS
+	parent tissue_large_intestine off
+	subGroups age=a91_day assay=RNA-seq donor=ENCDO375VTO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF956NDS/@@download/ENCFF956NDS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR777ONH large_intestine_male_embryo_91_day_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR777ONH age=91_day description=ENCSR777ONH_large_intestine_male_embryo_91_day_signal_of_unique_reads_ donor=ENCDO375VTO sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR857VKL_ENCFF133BHB
+	parent tissue_large_intestine off
+	subGroups age=a98_day assay=RNA-seq donor=ENCDO837QWL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF133BHB/@@download/ENCFF133BHB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR857VKL large_intestine_female_embryo_98_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR857VKL age=98_day description=ENCSR857VKL_large_intestine_female_embryo_98_days_signal_of_unique_reads_ donor=ENCDO837QWL sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR859KGW_ENCFF280KCF
+	parent tissue_large_intestine off
+	subGroups age=a85_day assay=RNA-seq donor=ENCDO165PKL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF280KCF/@@download/ENCFF280KCF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR859KGW large_intestine_female_embryo_85_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR859KGW age=85_day description=ENCSR859KGW_large_intestine_female_embryo_85_days_signal_of_unique_reads_ donor=ENCDO165PKL sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR930URM_ENCFF693IZU
+	parent tissue_large_intestine off
+	subGroups age=a120_day assay=RNA-seq donor=ENCDO555CMC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF693IZU/@@download/ENCFF693IZU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR930URM large_intestine_female_embryo_120_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR930URM age=120_day description=ENCSR930URM_large_intestine_female_embryo_120_days_signal_of_unique_reads_ donor=ENCDO555CMC sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR157FDN_ENCFF259POL
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF259POL/@@download/ENCFF259POL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR157FDN large_intestine_male_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR157FDN age=108_day description=ENCSR157FDN_large_intestine_male_embryo_108_days_fold_change_over_control_ donor=ENCDO119ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR157FDN
+	parent tissue_large_intestine off
+	view ENCSR157FDN
+	visibility dense
+	type bigBed
+
+		track ENCSR157FDN_ENCFF544VDJ
+		parent tissue_large_intestine_view_ENCSR157FDN off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K27me3 view=ENCSR157FDN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF544VDJ/@@download/ENCFF544VDJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR157FDN large_intestine_male_embryo_108_days_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR157FDN age=108_day description=ENCSR157FDN_large_intestine_male_embryo_108_days_replicated_peaks_ donor=ENCDO119ASK sex=male view=ENCSR157FDN 
+		view ENCSR157FDN
+
+	track ENCSR530LYV_ENCFF990SRU
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF990SRU/@@download/ENCFF990SRU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR530LYV large_intestine_male_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR530LYV age=108_day description=ENCSR530LYV_large_intestine_male_embryo_108_days_fold_change_over_control_ donor=ENCDO119ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR530LYV
+	parent tissue_large_intestine off
+	view ENCSR530LYV
+	visibility dense
+	type bigBed
+
+		track ENCSR530LYV_ENCFF969OEG
+		parent tissue_large_intestine_view_ENCSR530LYV off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K36me3 view=ENCSR530LYV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF969OEG/@@download/ENCFF969OEG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR530LYV large_intestine_male_embryo_108_days_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR530LYV age=108_day description=ENCSR530LYV_large_intestine_male_embryo_108_days_replicated_peaks_ donor=ENCDO119ASK sex=male view=ENCSR530LYV 
+		view ENCSR530LYV
+
+	track ENCSR998ZWM_ENCFF335ZOP
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF335ZOP/@@download/ENCFF335ZOP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR998ZWM large_intestine_male_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR998ZWM age=108_day description=ENCSR998ZWM_large_intestine_male_embryo_108_days_fold_change_over_control_ donor=ENCDO119ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR998ZWM
+	parent tissue_large_intestine off
+	view ENCSR998ZWM
+	visibility dense
+	type bigBed
+
+		track ENCSR998ZWM_ENCFF493LKQ
+		parent tissue_large_intestine_view_ENCSR998ZWM off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K4me1 view=ENCSR998ZWM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF493LKQ/@@download/ENCFF493LKQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR998ZWM large_intestine_male_embryo_108_days_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR998ZWM age=108_day description=ENCSR998ZWM_large_intestine_male_embryo_108_days_stable_peaks_ donor=ENCDO119ASK sex=male view=ENCSR998ZWM 
+		view ENCSR998ZWM
+
+	track ENCSR591JZS_ENCFF203ONF
+	parent tissue_large_intestine off
+	subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF203ONF/@@download/ENCFF203ONF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR591JZS large_intestine_male_embryo_108_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR591JZS age=108_day description=ENCSR591JZS_large_intestine_male_embryo_108_days_fold_change_over_control_ donor=ENCDO119ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_large_intestine_view_ENCSR591JZS
+	parent tissue_large_intestine off
+	view ENCSR591JZS
+	visibility dense
+	type bigBed
+
+		track ENCSR591JZS_ENCFF942YCW
+		parent tissue_large_intestine_view_ENCSR591JZS off
+		subGroups age=a108_day assay=ChIP-seq donor=ENCDO119ASK label=H3K9me3 view=ENCSR591JZS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF942YCW/@@download/ENCFF942YCW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR591JZS large_intestine_male_embryo_108_days_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR591JZS age=108_day description=ENCSR591JZS_large_intestine_male_embryo_108_days_peaks_ donor=ENCDO119ASK sex=male view=ENCSR591JZS 
+		view ENCSR591JZS
+

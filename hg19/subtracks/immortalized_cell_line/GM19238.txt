@@ -1,0 +1,53 @@
+
+track immortalized_cell_line_GM19238
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel GM19238
+longLabel GM19238 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
+subGroup3 view view ENCSR000EJJ=ENCSR000EJJ bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EJJ_ENCFF539AMW
+	parent immortalized_cell_line_GM19238 off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO000ACL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF539AMW/@@download/ENCFF539AMW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EJJ GM19238 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EJJ age=unknown description=ENCSR000EJJ_GM19238_read_depth_normalized_signal_ donor=ENCDO000ACL sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_GM19238_view_ENCSR000EJJ
+	parent immortalized_cell_line_GM19238 off
+	view ENCSR000EJJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000EJJ_ENCFF416OFP
+		parent immortalized_cell_line_GM19238_view_ENCSR000EJJ off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000ACL label=unknown view=ENCSR000EJJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF416OFP/@@download/ENCFF416OFP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EJJ GM19238 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EJJ age=unknown description=ENCSR000EJJ_GM19238_peaks_ donor=ENCDO000ACL sex=female view=ENCSR000EJJ 
+		view ENCSR000EJJ
+

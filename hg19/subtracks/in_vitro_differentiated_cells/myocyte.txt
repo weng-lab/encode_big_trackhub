@@ -1,0 +1,33 @@
+
+track in_vitro_differentiated_cells_myocyte
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel myocyte
+longLabel myocyte (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000ACW=ENCDO000ACW 
+subGroup2 age age a41_year=41&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR894WMQ_ENCFF860VLU
+	parent in_vitro_differentiated_cells_myocyte off
+	subGroups age=a41_year assay=RNA-seq donor=ENCDO000ACW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF860VLU/@@download/ENCFF860VLU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR894WMQ myocyte_originated_from_LHCN_M2 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR894WMQ age=41_year description=ENCSR894WMQ_myocyte_originated_from_LHCN_M2_plus_strand_signal_of_unique_reads_ donor=ENCDO000ACW sex=male view=bigWig 
+	view bigWig
+

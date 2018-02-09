@@ -1,0 +1,48 @@
+
+track in_vitro_differentiated_cells_mesothelial_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel mesothelial cell
+longLabel mesothelial cell (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO222AAA=ENCDO222AAA ENCDO224OQU=ENCDO224OQU 
+subGroup2 age age a5_day=5&#32;day aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR326SZT_ENCFF336VSK
+	parent in_vitro_differentiated_cells_mesothelial_cell off
+	subGroups age=a5_day assay=Repli-chip donor=ENCDO222AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF336VSK/@@download/ENCFF336VSK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR326SZT mesothelial_cell_originated_from_splanchnic_mesodermal_cell (wavelet
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR326SZT age=5_day description=ENCSR326SZT_mesothelial_cell_originated_from_splanchnic_mesodermal_cell_wavelet_smoothed_signal_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR401KWO_ENCFF151OSN
+	parent in_vitro_differentiated_cells_mesothelial_cell off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO224OQU label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF151OSN/@@download/ENCFF151OSN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR401KWO mesothelial_cell_originated_from_splanchnic_mesodermal_cell (wavelet
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR401KWO age=unknown description=ENCSR401KWO_mesothelial_cell_originated_from_splanchnic_mesodermal_cell_wavelet_smoothed_signal_ donor=ENCDO224OQU sex=unknown view=bigWig 
+	view bigWig
+

@@ -1,0 +1,498 @@
+
+track tissue_right_kidney
+parent super_tissue
+compositeTrack on
+shortLabel right kidney
+longLabel right kidney (10 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO119ASK=ENCDO119ASK ENCDO126IGB=ENCDO126IGB ENCDO245RIZ=ENCDO245RIZ ENCDO453STB=ENCDO453STB ENCDO607LOS=ENCDO607LOS ENCDO633IHH=ENCDO633IHH ENCDO814BQX=ENCDO814BQX ENCDO816OTW=ENCDO816OTW ENCDO817EKT=ENCDO817EKT ENCDO863JOG=ENCDO863JOG 
+subGroup2 age age a107_day=107&#32;day a108_day=108&#32;day a115_day=115&#32;day a117_day=117&#32;day a147_day=147&#32;day a87_day=87&#32;day a91_day=91&#32;day a96_day=96&#32;day a98_day=98&#32;day 
+subGroup3 view view ENCSR017TFH=ENCSR017TFH ENCSR036VRV=ENCSR036VRV ENCSR332BSB=ENCSR332BSB ENCSR414ZUA=ENCSR414ZUA ENCSR670ZSA=ENCSR670ZSA ENCSR765BSU=ENCSR765BSU ENCSR768OLL=ENCSR768OLL ENCSR871APX=ENCSR871APX ENCSR884MCZ=ENCSR884MCZ ENCSR990XXC=ENCSR990XXC bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR017TFH_ENCFF880VRJ
+	parent tissue_right_kidney off
+	subGroups age=a87_day assay=DNase-seq donor=ENCDO814BQX label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF880VRJ/@@download/ENCFF880VRJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR017TFH right_kidney_female_embryo_87_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR017TFH age=87_day description=ENCSR017TFH_right_kidney_female_embryo_87_days_read_depth_normalized_signal_ donor=ENCDO814BQX sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR017TFH
+	parent tissue_right_kidney off
+	view ENCSR017TFH
+	visibility dense
+	type bigBed
+
+		track ENCSR017TFH_ENCFF262OWE
+		parent tissue_right_kidney_view_ENCSR017TFH off
+		subGroups age=a87_day assay=DNase-seq donor=ENCDO814BQX label=unknown view=ENCSR017TFH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF262OWE/@@download/ENCFF262OWE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR017TFH right_kidney_female_embryo_87_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR017TFH age=87_day description=ENCSR017TFH_right_kidney_female_embryo_87_days_peaks_ donor=ENCDO814BQX sex=female view=ENCSR017TFH 
+		view ENCSR017TFH
+
+		track ENCSR017TFH_ENCFF464SXS
+		parent tissue_right_kidney_view_ENCSR017TFH off
+		subGroups age=a87_day assay=DNase-seq donor=ENCDO814BQX label=unknown view=ENCSR017TFH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF464SXS/@@download/ENCFF464SXS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF464SXS 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR017TFH age=87_day description=ENCFF464SXS_9state_DNase_ donor=ENCDO814BQX sex=female view=ENCSR017TFH 
+		view ENCSR017TFH
+
+	track ENCSR036VRV_ENCFF806WZY
+	parent tissue_right_kidney off
+	subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF806WZY/@@download/ENCFF806WZY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR036VRV right_kidney_female_embryo_107_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR036VRV age=107_day description=ENCSR036VRV_right_kidney_female_embryo_107_days_read_depth_normalized_signal_ donor=ENCDO607LOS sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR036VRV
+	parent tissue_right_kidney off
+	view ENCSR036VRV
+	visibility dense
+	type bigBed
+
+		track ENCSR036VRV_ENCFF333FCH
+		parent tissue_right_kidney_view_ENCSR036VRV off
+		subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=ENCSR036VRV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF333FCH/@@download/ENCFF333FCH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR036VRV right_kidney_female_embryo_107_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR036VRV age=107_day description=ENCSR036VRV_right_kidney_female_embryo_107_days_peaks_ donor=ENCDO607LOS sex=female view=ENCSR036VRV 
+		view ENCSR036VRV
+
+		track ENCSR036VRV_ENCFF330YIP
+		parent tissue_right_kidney_view_ENCSR036VRV off
+		subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=ENCSR036VRV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF330YIP/@@download/ENCFF330YIP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF330YIP 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR036VRV age=107_day description=ENCFF330YIP_9state_DNase_ donor=ENCDO607LOS sex=female view=ENCSR036VRV 
+		view ENCSR036VRV
+
+	track ENCSR332BSB_ENCFF631JPZ
+	parent tissue_right_kidney off
+	subGroups age=a87_day assay=DNase-seq donor=ENCDO126IGB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF631JPZ/@@download/ENCFF631JPZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR332BSB right_kidney_male_embryo_87_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR332BSB age=87_day description=ENCSR332BSB_right_kidney_male_embryo_87_days_read_depth_normalized_signal_ donor=ENCDO126IGB sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR332BSB
+	parent tissue_right_kidney off
+	view ENCSR332BSB
+	visibility dense
+	type bigBed
+
+		track ENCSR332BSB_ENCFF983LWL
+		parent tissue_right_kidney_view_ENCSR332BSB off
+		subGroups age=a87_day assay=DNase-seq donor=ENCDO126IGB label=unknown view=ENCSR332BSB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF983LWL/@@download/ENCFF983LWL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR332BSB right_kidney_male_embryo_87_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR332BSB age=87_day description=ENCSR332BSB_right_kidney_male_embryo_87_days_peaks_ donor=ENCDO126IGB sex=male view=ENCSR332BSB 
+		view ENCSR332BSB
+
+		track ENCSR332BSB_ENCFF727BWZ
+		parent tissue_right_kidney_view_ENCSR332BSB off
+		subGroups age=a87_day assay=DNase-seq donor=ENCDO126IGB label=unknown view=ENCSR332BSB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF727BWZ/@@download/ENCFF727BWZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF727BWZ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR332BSB age=87_day description=ENCFF727BWZ_9state_DNase_ donor=ENCDO126IGB sex=male view=ENCSR332BSB 
+		view ENCSR332BSB
+
+	track ENCSR414ZUA_ENCFF276BNY
+	parent tissue_right_kidney off
+	subGroups age=a108_day assay=DNase-seq donor=ENCDO119ASK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF276BNY/@@download/ENCFF276BNY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR414ZUA right_kidney_male_embryo_108_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR414ZUA age=108_day description=ENCSR414ZUA_right_kidney_male_embryo_108_days_read_depth_normalized_signal_ donor=ENCDO119ASK sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR414ZUA
+	parent tissue_right_kidney off
+	view ENCSR414ZUA
+	visibility dense
+	type bigBed
+
+		track ENCSR414ZUA_ENCFF939ZQR
+		parent tissue_right_kidney_view_ENCSR414ZUA off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO119ASK label=unknown view=ENCSR414ZUA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF939ZQR/@@download/ENCFF939ZQR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR414ZUA right_kidney_male_embryo_108_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR414ZUA age=108_day description=ENCSR414ZUA_right_kidney_male_embryo_108_days_peaks_ donor=ENCDO119ASK sex=male view=ENCSR414ZUA 
+		view ENCSR414ZUA
+
+		track ENCSR414ZUA_ENCFF913EEV
+		parent tissue_right_kidney_view_ENCSR414ZUA off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO119ASK label=unknown view=ENCSR414ZUA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF913EEV/@@download/ENCFF913EEV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF913EEV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR414ZUA age=108_day description=ENCFF913EEV_9state_DNase_ donor=ENCDO119ASK sex=male view=ENCSR414ZUA 
+		view ENCSR414ZUA
+
+	track ENCSR670ZSA_ENCFF037NDN
+	parent tissue_right_kidney off
+	subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF037NDN/@@download/ENCFF037NDN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR670ZSA right_kidney_male_embryo_96_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR670ZSA age=96_day description=ENCSR670ZSA_right_kidney_male_embryo_96_days_read_depth_normalized_signal_ donor=ENCDO817EKT sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR670ZSA
+	parent tissue_right_kidney off
+	view ENCSR670ZSA
+	visibility dense
+	type bigBed
+
+		track ENCSR670ZSA_ENCFF241TVS
+		parent tissue_right_kidney_view_ENCSR670ZSA off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=ENCSR670ZSA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF241TVS/@@download/ENCFF241TVS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR670ZSA right_kidney_male_embryo_96_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR670ZSA age=96_day description=ENCSR670ZSA_right_kidney_male_embryo_96_days_peaks_ donor=ENCDO817EKT sex=male view=ENCSR670ZSA 
+		view ENCSR670ZSA
+
+		track ENCSR670ZSA_ENCFF330VQI
+		parent tissue_right_kidney_view_ENCSR670ZSA off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=ENCSR670ZSA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF330VQI/@@download/ENCFF330VQI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF330VQI 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR670ZSA age=96_day description=ENCFF330VQI_9state_DNase_ donor=ENCDO817EKT sex=male view=ENCSR670ZSA 
+		view ENCSR670ZSA
+
+	track ENCSR765BSU_ENCFF263FHY
+	parent tissue_right_kidney off
+	subGroups age=a117_day assay=DNase-seq donor=ENCDO453STB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF263FHY/@@download/ENCFF263FHY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR765BSU right_kidney_female_embryo_117_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR765BSU age=117_day description=ENCSR765BSU_right_kidney_female_embryo_117_days_read_depth_normalized_signal_ donor=ENCDO453STB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR765BSU
+	parent tissue_right_kidney off
+	view ENCSR765BSU
+	visibility dense
+	type bigBed
+
+		track ENCSR765BSU_ENCFF073WTP
+		parent tissue_right_kidney_view_ENCSR765BSU off
+		subGroups age=a117_day assay=DNase-seq donor=ENCDO453STB label=unknown view=ENCSR765BSU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF073WTP/@@download/ENCFF073WTP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR765BSU right_kidney_female_embryo_117_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR765BSU age=117_day description=ENCSR765BSU_right_kidney_female_embryo_117_days_peaks_ donor=ENCDO453STB sex=female view=ENCSR765BSU 
+		view ENCSR765BSU
+
+		track ENCSR765BSU_ENCFF005MFL
+		parent tissue_right_kidney_view_ENCSR765BSU off
+		subGroups age=a117_day assay=DNase-seq donor=ENCDO453STB label=unknown view=ENCSR765BSU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF005MFL/@@download/ENCFF005MFL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF005MFL 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR765BSU age=117_day description=ENCFF005MFL_9state_DNase_ donor=ENCDO453STB sex=female view=ENCSR765BSU 
+		view ENCSR765BSU
+
+	track ENCSR768OLL_ENCFF630ITO
+	parent tissue_right_kidney off
+	subGroups age=a91_day assay=DNase-seq donor=ENCDO245RIZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF630ITO/@@download/ENCFF630ITO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR768OLL right_kidney_male_embryo_91_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR768OLL age=91_day description=ENCSR768OLL_right_kidney_male_embryo_91_day_read_depth_normalized_signal_ donor=ENCDO245RIZ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR768OLL
+	parent tissue_right_kidney off
+	view ENCSR768OLL
+	visibility dense
+	type bigBed
+
+		track ENCSR768OLL_ENCFF380JOE
+		parent tissue_right_kidney_view_ENCSR768OLL off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO245RIZ label=unknown view=ENCSR768OLL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF380JOE/@@download/ENCFF380JOE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR768OLL right_kidney_male_embryo_91_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR768OLL age=91_day description=ENCSR768OLL_right_kidney_male_embryo_91_day_peaks_ donor=ENCDO245RIZ sex=male view=ENCSR768OLL 
+		view ENCSR768OLL
+
+		track ENCSR768OLL_ENCFF158KVT
+		parent tissue_right_kidney_view_ENCSR768OLL off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO245RIZ label=unknown view=ENCSR768OLL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF158KVT/@@download/ENCFF158KVT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF158KVT 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR768OLL age=91_day description=ENCFF158KVT_9state_DNase_ donor=ENCDO245RIZ sex=male view=ENCSR768OLL 
+		view ENCSR768OLL
+
+	track ENCSR871APX_ENCFF512TAB
+	parent tissue_right_kidney off
+	subGroups age=a147_day assay=DNase-seq donor=ENCDO863JOG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF512TAB/@@download/ENCFF512TAB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR871APX right_kidney_female_embryo_147_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR871APX age=147_day description=ENCSR871APX_right_kidney_female_embryo_147_days_read_depth_normalized_signal_ donor=ENCDO863JOG sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR871APX
+	parent tissue_right_kidney off
+	view ENCSR871APX
+	visibility dense
+	type bigBed
+
+		track ENCSR871APX_ENCFF129YKB
+		parent tissue_right_kidney_view_ENCSR871APX off
+		subGroups age=a147_day assay=DNase-seq donor=ENCDO863JOG label=unknown view=ENCSR871APX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF129YKB/@@download/ENCFF129YKB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR871APX right_kidney_female_embryo_147_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR871APX age=147_day description=ENCSR871APX_right_kidney_female_embryo_147_days_peaks_ donor=ENCDO863JOG sex=female view=ENCSR871APX 
+		view ENCSR871APX
+
+		track ENCSR871APX_ENCFF354HMB
+		parent tissue_right_kidney_view_ENCSR871APX off
+		subGroups age=a147_day assay=DNase-seq donor=ENCDO863JOG label=unknown view=ENCSR871APX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF354HMB/@@download/ENCFF354HMB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF354HMB 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR871APX age=147_day description=ENCFF354HMB_9state_DNase_ donor=ENCDO863JOG sex=female view=ENCSR871APX 
+		view ENCSR871APX
+
+	track ENCSR884MCZ_ENCFF297BCO
+	parent tissue_right_kidney off
+	subGroups age=a98_day assay=DNase-seq donor=ENCDO633IHH label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF297BCO/@@download/ENCFF297BCO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR884MCZ right_kidney_female_embryo_98_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR884MCZ age=98_day description=ENCSR884MCZ_right_kidney_female_embryo_98_days_read_depth_normalized_signal_ donor=ENCDO633IHH sex=female view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR884MCZ
+	parent tissue_right_kidney off
+	view ENCSR884MCZ
+	visibility dense
+	type bigBed
+
+		track ENCSR884MCZ_ENCFF485GGF
+		parent tissue_right_kidney_view_ENCSR884MCZ off
+		subGroups age=a98_day assay=DNase-seq donor=ENCDO633IHH label=unknown view=ENCSR884MCZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF485GGF/@@download/ENCFF485GGF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR884MCZ right_kidney_female_embryo_98_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR884MCZ age=98_day description=ENCSR884MCZ_right_kidney_female_embryo_98_days_peaks_ donor=ENCDO633IHH sex=female view=ENCSR884MCZ 
+		view ENCSR884MCZ
+
+		track ENCSR884MCZ_ENCFF442GZN
+		parent tissue_right_kidney_view_ENCSR884MCZ off
+		subGroups age=a98_day assay=DNase-seq donor=ENCDO633IHH label=unknown view=ENCSR884MCZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF442GZN/@@download/ENCFF442GZN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF442GZN 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR884MCZ age=98_day description=ENCFF442GZN_9state_DNase_ donor=ENCDO633IHH sex=female view=ENCSR884MCZ 
+		view ENCSR884MCZ
+
+	track ENCSR990XXC_ENCFF009YWN
+	parent tissue_right_kidney off
+	subGroups age=a115_day assay=DNase-seq donor=ENCDO816OTW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF009YWN/@@download/ENCFF009YWN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR990XXC right_kidney_male_embryo_115_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR990XXC age=115_day description=ENCSR990XXC_right_kidney_male_embryo_115_days_read_depth_normalized_signal_ donor=ENCDO816OTW sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_kidney_view_ENCSR990XXC
+	parent tissue_right_kidney off
+	view ENCSR990XXC
+	visibility dense
+	type bigBed
+
+		track ENCSR990XXC_ENCFF622SMB
+		parent tissue_right_kidney_view_ENCSR990XXC off
+		subGroups age=a115_day assay=DNase-seq donor=ENCDO816OTW label=unknown view=ENCSR990XXC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF622SMB/@@download/ENCFF622SMB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR990XXC right_kidney_male_embryo_115_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR990XXC age=115_day description=ENCSR990XXC_right_kidney_male_embryo_115_days_peaks_ donor=ENCDO816OTW sex=male view=ENCSR990XXC 
+		view ENCSR990XXC
+
+		track ENCSR990XXC_ENCFF303JFX
+		parent tissue_right_kidney_view_ENCSR990XXC off
+		subGroups age=a115_day assay=DNase-seq donor=ENCDO816OTW label=unknown view=ENCSR990XXC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF303JFX/@@download/ENCFF303JFX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF303JFX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR990XXC age=115_day description=ENCFF303JFX_9state_DNase_ donor=ENCDO816OTW sex=male view=ENCSR990XXC 
+		view ENCSR990XXC
+

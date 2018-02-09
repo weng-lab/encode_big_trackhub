@@ -1,0 +1,1147 @@
+
+track in_vitro_differentiated_cells_neural_stem_progenitor_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel neural stem proge
+longLabel neural stem progenitor cell (31 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000AAW=ENCDO000AAW ENCDO222AAA=ENCDO222AAA 
+subGroup2 age age a5_day=5&#32;day aunknown=unknown 
+subGroup3 view view ENCSR021HLX=ENCSR021HLX ENCSR123JZO=ENCSR123JZO ENCSR169BGF=ENCSR169BGF ENCSR182XTG=ENCSR182XTG ENCSR238WMO=ENCSR238WMO ENCSR254NLC=ENCSR254NLC ENCSR256ESY=ENCSR256ESY ENCSR260CXF=ENCSR260CXF ENCSR277JAU=ENCSR277JAU ENCSR278FVO=ENCSR278FVO ENCSR354XWM=ENCSR354XWM ENCSR361LIU=ENCSR361LIU ENCSR391WDE=ENCSR391WDE ENCSR476FBL=ENCSR476FBL ENCSR486GWT=ENCSR486GWT ENCSR550XZG=ENCSR550XZG ENCSR570POG=ENCSR570POG ENCSR626UPW=ENCSR626UPW ENCSR651SVZ=ENCSR651SVZ ENCSR687EBF=ENCSR687EBF ENCSR692CTK=ENCSR692CTK ENCSR694LBI=ENCSR694LBI ENCSR732NFR=ENCSR732NFR ENCSR799SRL=ENCSR799SRL ENCSR800IIW=ENCSR800IIW ENCSR811NNT=ENCSR811NNT ENCSR940RIU=ENCSR940RIU ENCSR956CTX=ENCSR956CTX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR278FVO_ENCFF495MWO
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF495MWO/@@download/ENCFF495MWO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR278FVO neural_stem_progenitor_cell_originated_from_H1_hESC (read-depth norm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR278FVO age=unknown description=ENCSR278FVO_neural_stem_progenitor_cell_originated_from_H1_hESC_read_depth_normalized_signal_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR278FVO
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR278FVO
+	visibility dense
+	type bigBed
+
+		track ENCSR278FVO_ENCFF798FAX
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR278FVO off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAW label=unknown view=ENCSR278FVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF798FAX/@@download/ENCFF798FAX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR278FVO neural_stem_progenitor_cell_originated_from_H1_hESC (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR278FVO age=unknown description=ENCSR278FVO_neural_stem_progenitor_cell_originated_from_H1_hESC_peaks_ donor=ENCDO000AAW sex=male view=ENCSR278FVO 
+		view ENCSR278FVO
+
+		track ENCSR278FVO_ENCFF243ZMR
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR278FVO off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAW label=unknown view=ENCSR278FVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF243ZMR/@@download/ENCFF243ZMR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF243ZMR 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR278FVO age=unknown description=ENCFF243ZMR_9state_DNase_ donor=ENCDO000AAW sex=male view=ENCSR278FVO 
+		view ENCSR278FVO
+
+		track ENCSR278FVO_ENCFF455CQW
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR278FVO off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAW label=unknown view=ENCSR278FVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF455CQW/@@download/ENCFF455CQW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF455CQW 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR278FVO age=unknown description=ENCFF455CQW_5group_ donor=ENCDO000AAW sex=male view=ENCSR278FVO 
+		view ENCSR278FVO
+
+		track ENCSR278FVO_ENCFF597QVU
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR278FVO off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAW label=unknown view=ENCSR278FVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF597QVU/@@download/ENCFF597QVU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF597QVU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR278FVO age=unknown description=ENCFF597QVU_9state_H3K27ac_ donor=ENCDO000AAW sex=male view=ENCSR278FVO 
+		view ENCSR278FVO
+
+		track ENCSR278FVO_ENCFF475BRQ
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR278FVO off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000AAW label=unknown view=ENCSR278FVO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF475BRQ/@@download/ENCFF475BRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF475BRQ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR278FVO age=unknown description=ENCFF475BRQ_9state_H3K4me3_ donor=ENCDO000AAW sex=male view=ENCSR278FVO 
+		view ENCSR278FVO
+
+	track ENCSR354XWM_ENCFF023TOV
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF023TOV/@@download/ENCFF023TOV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR354XWM neural_stem_progenitor_cell_originated_from_H9 (fold change over con
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR354XWM age=5_day description=ENCSR354XWM_neural_stem_progenitor_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR354XWM
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR354XWM
+	visibility dense
+	type bigBed
+
+		track ENCSR354XWM_ENCFF858OLD
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR354XWM off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR354XWM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF858OLD/@@download/ENCFF858OLD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR354XWM neural_stem_progenitor_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR354XWM age=5_day description=ENCSR354XWM_neural_stem_progenitor_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR354XWM 
+		view ENCSR354XWM
+
+		track ENCSR354XWM_ENCFF243ZMR
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR354XWM off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR354XWM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF243ZMR/@@download/ENCFF243ZMR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF243ZMR 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR354XWM age=5_day description=ENCFF243ZMR_9state_DNase_ donor=ENCDO222AAA sex=female view=ENCSR354XWM 
+		view ENCSR354XWM
+
+		track ENCSR354XWM_ENCFF455CQW
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR354XWM off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR354XWM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF455CQW/@@download/ENCFF455CQW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF455CQW 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR354XWM age=5_day description=ENCFF455CQW_5group_ donor=ENCDO222AAA sex=female view=ENCSR354XWM 
+		view ENCSR354XWM
+
+		track ENCSR354XWM_ENCFF597QVU
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR354XWM off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR354XWM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF597QVU/@@download/ENCFF597QVU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF597QVU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR354XWM age=5_day description=ENCFF597QVU_9state_H3K27ac_ donor=ENCDO222AAA sex=female view=ENCSR354XWM 
+		view ENCSR354XWM
+
+		track ENCSR354XWM_ENCFF475BRQ
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR354XWM off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR354XWM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF475BRQ/@@download/ENCFF475BRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF475BRQ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR354XWM age=5_day description=ENCFF475BRQ_9state_H3K4me3_ donor=ENCDO222AAA sex=female view=ENCSR354XWM 
+		view ENCSR354XWM
+
+	track ENCSR956CTX_ENCFF721PFP
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF721PFP/@@download/ENCFF721PFP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR956CTX neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR956CTX age=unknown description=ENCSR956CTX_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR956CTX
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR956CTX
+	visibility dense
+	type bigBed
+
+		track ENCSR956CTX_ENCFF560BGB
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR956CTX off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=ENCSR956CTX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF560BGB/@@download/ENCFF560BGB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR956CTX neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR956CTX age=unknown description=ENCSR956CTX_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR956CTX 
+		view ENCSR956CTX
+
+	track ENCSR799SRL_ENCFF306NQW
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF306NQW/@@download/ENCFF306NQW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR799SRL neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR799SRL age=unknown description=ENCSR799SRL_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR799SRL
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR799SRL
+	visibility dense
+	type bigBed
+
+		track ENCSR799SRL_ENCFF271YKT
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR799SRL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=ENCSR799SRL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF271YKT/@@download/ENCFF271YKT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR799SRL neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR799SRL age=unknown description=ENCSR799SRL_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR799SRL 
+		view ENCSR799SRL
+
+	track ENCSR291IZK_ENCFF507OMO
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF507OMO/@@download/ENCFF507OMO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR291IZK neural_stem_progenitor_cell_originated_from_H1_hESC (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR291IZK age=unknown description=ENCSR291IZK_neural_stem_progenitor_cell_originated_from_H1_hESC_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR572EET_ENCFF836OYL
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF836OYL/@@download/ENCFF836OYL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR572EET neural_stem_progenitor_cell_originated_from_H1_hESC (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR572EET age=unknown description=ENCSR572EET_neural_stem_progenitor_cell_originated_from_H1_hESC_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR977XUX_ENCFF332DLU
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF332DLU/@@download/ENCFF332DLU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR977XUX neural_stem_progenitor_cell_originated_from_H1_hESC (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR977XUX age=unknown description=ENCSR977XUX_neural_stem_progenitor_cell_originated_from_H1_hESC_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR021HLX_ENCFF261YVU
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF261YVU/@@download/ENCFF261YVU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR021HLX neural_stem_progenitor_cell_originated_from_H9 (fold change over con
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR021HLX age=5_day description=ENCSR021HLX_neural_stem_progenitor_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR021HLX
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR021HLX
+	visibility dense
+	type bigBed
+
+		track ENCSR021HLX_ENCFF448FFD
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR021HLX off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H2AFZ view=ENCSR021HLX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF448FFD/@@download/ENCFF448FFD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR021HLX neural_stem_progenitor_cell_originated_from_H9 (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR021HLX age=5_day description=ENCSR021HLX_neural_stem_progenitor_cell_originated_from_H9_stable_peaks_ donor=ENCDO222AAA sex=female view=ENCSR021HLX 
+		view ENCSR021HLX
+
+	track ENCSR732NFR_ENCFF423JZB
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2AK5ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF423JZB/@@download/ENCFF423JZB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AK5ac
+	longLabel ENCSR732NFR neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR732NFR age=unknown description=ENCSR732NFR_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR732NFR
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR732NFR
+	visibility dense
+	type bigBed
+
+		track ENCSR732NFR_ENCFF157JET
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR732NFR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2AK5ac view=ENCSR732NFR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF157JET/@@download/ENCFF157JET.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AK5ac
+		longLabel ENCSR732NFR neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR732NFR age=unknown description=ENCSR732NFR_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR732NFR 
+		view ENCSR732NFR
+
+	track ENCSR811NNT_ENCFF810KCR
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK120ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810KCR/@@download/ENCFF810KCR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2BK120a
+	longLabel ENCSR811NNT neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR811NNT age=unknown description=ENCSR811NNT_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR811NNT
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR811NNT
+	visibility dense
+	type bigBed
+
+		track ENCSR811NNT_ENCFF308OLU
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR811NNT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK120ac view=ENCSR811NNT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF308OLU/@@download/ENCFF308OLU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2BK120a
+		longLabel ENCSR811NNT neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR811NNT age=unknown description=ENCSR811NNT_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR811NNT 
+		view ENCSR811NNT
+
+	track ENCSR940RIU_ENCFF690AWR
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK12ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF690AWR/@@download/ENCFF690AWR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2BK12ac
+	longLabel ENCSR940RIU neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR940RIU age=unknown description=ENCSR940RIU_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR940RIU
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR940RIU
+	visibility dense
+	type bigBed
+
+		track ENCSR940RIU_ENCFF361IJI
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR940RIU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK12ac view=ENCSR940RIU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF361IJI/@@download/ENCFF361IJI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2BK12ac
+		longLabel ENCSR940RIU neural_stem_progenitor_cell_originated_from_H1_hESC (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR940RIU age=unknown description=ENCSR940RIU_neural_stem_progenitor_cell_originated_from_H1_hESC_stable_peaks_ donor=ENCDO000AAW sex=male view=ENCSR940RIU 
+		view ENCSR940RIU
+
+	track ENCSR123JZO_ENCFF026VSV
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK15ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF026VSV/@@download/ENCFF026VSV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2BK15ac
+	longLabel ENCSR123JZO neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR123JZO age=unknown description=ENCSR123JZO_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR123JZO
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR123JZO
+	visibility dense
+	type bigBed
+
+		track ENCSR123JZO_ENCFF523OWO
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR123JZO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK15ac view=ENCSR123JZO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF523OWO/@@download/ENCFF523OWO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2BK15ac
+		longLabel ENCSR123JZO neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR123JZO age=unknown description=ENCSR123JZO_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR123JZO 
+		view ENCSR123JZO
+
+	track ENCSR651SVZ_ENCFF275RTQ
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK5ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF275RTQ/@@download/ENCFF275RTQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2BK5ac
+	longLabel ENCSR651SVZ neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR651SVZ age=unknown description=ENCSR651SVZ_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR651SVZ
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR651SVZ
+	visibility dense
+	type bigBed
+
+		track ENCSR651SVZ_ENCFF358KGQ
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR651SVZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK5ac view=ENCSR651SVZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF358KGQ/@@download/ENCFF358KGQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2BK5ac
+		longLabel ENCSR651SVZ neural_stem_progenitor_cell_originated_from_H1_hESC (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR651SVZ age=unknown description=ENCSR651SVZ_neural_stem_progenitor_cell_originated_from_H1_hESC_peaks_ donor=ENCDO000AAW sex=male view=ENCSR651SVZ 
+		view ENCSR651SVZ
+
+	track ENCSR687EBF_ENCFF556NUA
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K14ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF556NUA/@@download/ENCFF556NUA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K14ac
+	longLabel ENCSR687EBF neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR687EBF age=unknown description=ENCSR687EBF_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR687EBF
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR687EBF
+	visibility dense
+	type bigBed
+
+		track ENCSR687EBF_ENCFF256DIK
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR687EBF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K14ac view=ENCSR687EBF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF256DIK/@@download/ENCFF256DIK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K14ac
+		longLabel ENCSR687EBF neural_stem_progenitor_cell_originated_from_H1_hESC (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR687EBF age=unknown description=ENCSR687EBF_neural_stem_progenitor_cell_originated_from_H1_hESC_peaks_ donor=ENCDO000AAW sex=male view=ENCSR687EBF 
+		view ENCSR687EBF
+
+	track ENCSR182XTG_ENCFF647XLU
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K18ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF647XLU/@@download/ENCFF647XLU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K18ac
+	longLabel ENCSR182XTG neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR182XTG age=unknown description=ENCSR182XTG_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR182XTG
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR182XTG
+	visibility dense
+	type bigBed
+
+		track ENCSR182XTG_ENCFF988ZCO
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR182XTG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K18ac view=ENCSR182XTG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF988ZCO/@@download/ENCFF988ZCO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K18ac
+		longLabel ENCSR182XTG neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR182XTG age=unknown description=ENCSR182XTG_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR182XTG 
+		view ENCSR182XTG
+
+	track ENCSR361LIU_ENCFF717IQJ
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K23ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF717IQJ/@@download/ENCFF717IQJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K23ac
+	longLabel ENCSR361LIU neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR361LIU age=unknown description=ENCSR361LIU_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR361LIU
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR361LIU
+	visibility dense
+	type bigBed
+
+		track ENCSR361LIU_ENCFF916CCU
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR361LIU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K23ac view=ENCSR361LIU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF916CCU/@@download/ENCFF916CCU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K23ac
+		longLabel ENCSR361LIU neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR361LIU age=unknown description=ENCSR361LIU_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR361LIU 
+		view ENCSR361LIU
+
+	track ENCSR550XZG_ENCFF539DQK
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF539DQK/@@download/ENCFF539DQK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR550XZG neural_stem_progenitor_cell_originated_from_H9 (fold change over con
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR550XZG age=5_day description=ENCSR550XZG_neural_stem_progenitor_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR550XZG
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR550XZG
+	visibility dense
+	type bigBed
+
+		track ENCSR550XZG_ENCFF617CRP
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR550XZG off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27me3 view=ENCSR550XZG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF617CRP/@@download/ENCFF617CRP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR550XZG neural_stem_progenitor_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR550XZG age=5_day description=ENCSR550XZG_neural_stem_progenitor_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR550XZG 
+		view ENCSR550XZG
+
+	track ENCSR692CTK_ENCFF108AUI
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF108AUI/@@download/ENCFF108AUI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR692CTK neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR692CTK age=unknown description=ENCSR692CTK_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR692CTK
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR692CTK
+	visibility dense
+	type bigBed
+
+		track ENCSR692CTK_ENCFF061ENL
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR692CTK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27me3 view=ENCSR692CTK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF061ENL/@@download/ENCFF061ENL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR692CTK neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR692CTK age=unknown description=ENCSR692CTK_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR692CTK 
+		view ENCSR692CTK
+
+	track ENCSR694LBI_ENCFF472BVM
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF472BVM/@@download/ENCFF472BVM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR694LBI neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR694LBI age=unknown description=ENCSR694LBI_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR694LBI
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR694LBI
+	visibility dense
+	type bigBed
+
+		track ENCSR694LBI_ENCFF437AQJ
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR694LBI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27me3 view=ENCSR694LBI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF437AQJ/@@download/ENCFF437AQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR694LBI neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR694LBI age=unknown description=ENCSR694LBI_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR694LBI 
+		view ENCSR694LBI
+
+	track ENCSR238WMO_ENCFF828YBX
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF828YBX/@@download/ENCFF828YBX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR238WMO neural_stem_progenitor_cell_originated_from_H9 (fold change over con
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR238WMO age=5_day description=ENCSR238WMO_neural_stem_progenitor_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR238WMO
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR238WMO
+	visibility dense
+	type bigBed
+
+		track ENCSR238WMO_ENCFF681GZZ
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR238WMO off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K36me3 view=ENCSR238WMO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF681GZZ/@@download/ENCFF681GZZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR238WMO neural_stem_progenitor_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR238WMO age=5_day description=ENCSR238WMO_neural_stem_progenitor_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR238WMO 
+		view ENCSR238WMO
+
+	track ENCSR256ESY_ENCFF116SQI
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF116SQI/@@download/ENCFF116SQI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR256ESY neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR256ESY age=unknown description=ENCSR256ESY_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR256ESY
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR256ESY
+	visibility dense
+	type bigBed
+
+		track ENCSR256ESY_ENCFF807ZFW
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR256ESY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K36me3 view=ENCSR256ESY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF807ZFW/@@download/ENCFF807ZFW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR256ESY neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR256ESY age=unknown description=ENCSR256ESY_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR256ESY 
+		view ENCSR256ESY
+
+	track ENCSR476FBL_ENCFF722CMV
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF722CMV/@@download/ENCFF722CMV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4ac
+	longLabel ENCSR476FBL neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR476FBL age=unknown description=ENCSR476FBL_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR476FBL
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR476FBL
+	visibility dense
+	type bigBed
+
+		track ENCSR476FBL_ENCFF893YML
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR476FBL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4ac view=ENCSR476FBL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF893YML/@@download/ENCFF893YML.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4ac
+		longLabel ENCSR476FBL neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR476FBL age=unknown description=ENCSR476FBL_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR476FBL 
+		view ENCSR476FBL
+
+	track ENCSR169BGF_ENCFF193OMM
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF193OMM/@@download/ENCFF193OMM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR169BGF neural_stem_progenitor_cell_originated_from_H9 (fold change over con
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR169BGF age=5_day description=ENCSR169BGF_neural_stem_progenitor_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR169BGF
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR169BGF
+	visibility dense
+	type bigBed
+
+		track ENCSR169BGF_ENCFF752XQJ
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR169BGF off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me1 view=ENCSR169BGF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF752XQJ/@@download/ENCFF752XQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR169BGF neural_stem_progenitor_cell_originated_from_H9 (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR169BGF age=5_day description=ENCSR169BGF_neural_stem_progenitor_cell_originated_from_H9_peaks_ donor=ENCDO222AAA sex=female view=ENCSR169BGF 
+		view ENCSR169BGF
+
+	track ENCSR254NLC_ENCFF264MMC
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF264MMC/@@download/ENCFF264MMC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR254NLC neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR254NLC age=unknown description=ENCSR254NLC_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR254NLC
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR254NLC
+	visibility dense
+	type bigBed
+
+		track ENCSR254NLC_ENCFF930KRL
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR254NLC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me1 view=ENCSR254NLC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF930KRL/@@download/ENCFF930KRL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR254NLC neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR254NLC age=unknown description=ENCSR254NLC_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR254NLC 
+		view ENCSR254NLC
+
+	track ENCSR486GWT_ENCFF787ICV
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF787ICV/@@download/ENCFF787ICV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR486GWT neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR486GWT age=unknown description=ENCSR486GWT_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR486GWT
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR486GWT
+	visibility dense
+	type bigBed
+
+		track ENCSR486GWT_ENCFF451WZM
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR486GWT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me2 view=ENCSR486GWT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF451WZM/@@download/ENCFF451WZM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR486GWT neural_stem_progenitor_cell_originated_from_H1_hESC (peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR486GWT age=unknown description=ENCSR486GWT_neural_stem_progenitor_cell_originated_from_H1_hESC_peaks_ donor=ENCDO000AAW sex=male view=ENCSR486GWT 
+		view ENCSR486GWT
+
+	track ENCSR570POG_ENCFF903UCL
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K79me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF903UCL/@@download/ENCFF903UCL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me1
+	longLabel ENCSR570POG neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR570POG age=unknown description=ENCSR570POG_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR570POG
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR570POG
+	visibility dense
+	type bigBed
+
+		track ENCSR570POG_ENCFF952JSL
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR570POG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K79me1 view=ENCSR570POG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF952JSL/@@download/ENCFF952JSL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me1
+		longLabel ENCSR570POG neural_stem_progenitor_cell_originated_from_H1_hESC (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR570POG age=unknown description=ENCSR570POG_neural_stem_progenitor_cell_originated_from_H1_hESC_stable_peaks_ donor=ENCDO000AAW sex=male view=ENCSR570POG 
+		view ENCSR570POG
+
+	track ENCSR626UPW_ENCFF935NQZ
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF935NQZ/@@download/ENCFF935NQZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR626UPW neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR626UPW age=unknown description=ENCSR626UPW_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR626UPW
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR626UPW
+	visibility dense
+	type bigBed
+
+		track ENCSR626UPW_ENCFF433XJO
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR626UPW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9ac view=ENCSR626UPW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF433XJO/@@download/ENCFF433XJO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR626UPW neural_stem_progenitor_cell_originated_from_H1_hESC (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR626UPW age=unknown description=ENCSR626UPW_neural_stem_progenitor_cell_originated_from_H1_hESC_peaks_ donor=ENCDO000AAW sex=male view=ENCSR626UPW 
+		view ENCSR626UPW
+
+	track ENCSR391WDE_ENCFF411RWM
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF411RWM/@@download/ENCFF411RWM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR391WDE neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR391WDE age=unknown description=ENCSR391WDE_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR391WDE
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR391WDE
+	visibility dense
+	type bigBed
+
+		track ENCSR391WDE_ENCFF844WWW
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR391WDE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9me3 view=ENCSR391WDE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF844WWW/@@download/ENCFF844WWW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR391WDE neural_stem_progenitor_cell_originated_from_H1_hESC (replicated peak
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR391WDE age=unknown description=ENCSR391WDE_neural_stem_progenitor_cell_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR391WDE 
+		view ENCSR391WDE
+
+	track ENCSR800IIW_ENCFF957UVG
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF957UVG/@@download/ENCFF957UVG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR800IIW neural_stem_progenitor_cell_originated_from_H9 (fold change over con
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR800IIW age=5_day description=ENCSR800IIW_neural_stem_progenitor_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR800IIW
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR800IIW
+	visibility dense
+	type bigBed
+
+		track ENCSR800IIW_ENCFF248GCQ
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR800IIW off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K9me3 view=ENCSR800IIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF248GCQ/@@download/ENCFF248GCQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR800IIW neural_stem_progenitor_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR800IIW age=5_day description=ENCSR800IIW_neural_stem_progenitor_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR800IIW 
+		view ENCSR800IIW
+
+	track ENCSR277JAU_ENCFF909ICQ
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K8ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF909ICQ/@@download/ENCFF909ICQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K8ac
+	longLabel ENCSR277JAU neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR277JAU age=unknown description=ENCSR277JAU_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR277JAU
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR277JAU
+	visibility dense
+	type bigBed
+
+		track ENCSR277JAU_ENCFF586KLK
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR277JAU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K8ac view=ENCSR277JAU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF586KLK/@@download/ENCFF586KLK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K8ac
+		longLabel ENCSR277JAU neural_stem_progenitor_cell_originated_from_H1_hESC (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR277JAU age=unknown description=ENCSR277JAU_neural_stem_progenitor_cell_originated_from_H1_hESC_stable_peaks_ donor=ENCDO000AAW sex=male view=ENCSR277JAU 
+		view ENCSR277JAU
+
+	track ENCSR260CXF_ENCFF132BQQ
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K91ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF132BQQ/@@download/ENCFF132BQQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K91ac
+	longLabel ENCSR260CXF neural_stem_progenitor_cell_originated_from_H1_hESC (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR260CXF age=unknown description=ENCSR260CXF_neural_stem_progenitor_cell_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR260CXF
+	parent in_vitro_differentiated_cells_neural_stem_progenitor_cell off
+	view ENCSR260CXF
+	visibility dense
+	type bigBed
+
+		track ENCSR260CXF_ENCFF810GUO
+		parent in_vitro_differentiated_cells_neural_stem_progenitor_cell_view_ENCSR260CXF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K91ac view=ENCSR260CXF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF810GUO/@@download/ENCFF810GUO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K91ac
+		longLabel ENCSR260CXF neural_stem_progenitor_cell_originated_from_H1_hESC (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR260CXF age=unknown description=ENCSR260CXF_neural_stem_progenitor_cell_originated_from_H1_hESC_peaks_ donor=ENCDO000AAW sex=male view=ENCSR260CXF 
+		view ENCSR260CXF
+

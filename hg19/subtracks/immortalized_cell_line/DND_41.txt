@@ -1,0 +1,507 @@
+
+track immortalized_cell_line_DND_41
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel DND-41
+longLabel DND-41 (11 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label H2AFZ=H2AFZ H3K27ac=H3K27ac H3K27me3=H3K27me3 H3K36me3=H3K36me3 H3K4me1=H3K4me1 H3K4me3=H3K4me3 H3K79me2=H3K79me2 H3K9ac=H3K9ac H3K9me3=H3K9me3 H4K20me1=H4K20me1 
+subGroup2 assay assay ChIP-seq=ChIP-seq 
+subGroup3 view view ENCSR000AQV=ENCSR000AQV ENCSR000AQW=ENCSR000AQW ENCSR000AQX=ENCSR000AQX ENCSR000AQY=ENCSR000AQY ENCSR000ARA=ENCSR000ARA ENCSR000ARB=ENCSR000ARB ENCSR000ARC=ENCSR000ARC ENCSR000ARY=ENCSR000ARY ENCSR000ARZ=ENCSR000ARZ ENCSR000ASX=ENCSR000ASX ENCSR564VIX=ENCSR564VIX bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ARA_ENCFF656EGO
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF656EGO/@@download/ENCFF656EGO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000ARA DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ARA age=13_year description=ENCSR000ARA_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000ARA
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000ARA
+	visibility dense
+	type bigBed
+
+		track ENCSR000ARA_ENCFF667ZKX
+		parent immortalized_cell_line_DND_41_view_ENCSR000ARA off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me3 view=ENCSR000ARA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF667ZKX/@@download/ENCFF667ZKX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000ARA DND_41 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000ARA age=13_year description=ENCSR000ARA_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000ARA 
+		view ENCSR000ARA
+
+	track ENCSR564VIX_ENCFF420KFC
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF420KFC/@@download/ENCFF420KFC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR564VIX DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR564VIX age=13_year description=ENCSR564VIX_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR564VIX
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR564VIX
+	visibility dense
+	type bigBed
+
+		track ENCSR564VIX_ENCFF701RQK
+		parent immortalized_cell_line_DND_41_view_ENCSR564VIX off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me3 view=ENCSR564VIX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF701RQK/@@download/ENCFF701RQK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR564VIX DND_41 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR564VIX age=13_year description=ENCSR564VIX_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR564VIX 
+		view ENCSR564VIX
+
+		track ENCSR564VIX_ENCFF034XZC
+		parent immortalized_cell_line_DND_41_view_ENCSR564VIX off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me3 view=ENCSR564VIX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF034XZC/@@download/ENCFF034XZC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF034XZC 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR564VIX age=13_year description=ENCFF034XZC_9state_CTCF_ donor=ENCDO183AAA sex=male view=ENCSR564VIX 
+		view ENCSR564VIX
+
+		track ENCSR564VIX_ENCFF374RUZ
+		parent immortalized_cell_line_DND_41_view_ENCSR564VIX off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me3 view=ENCSR564VIX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF374RUZ/@@download/ENCFF374RUZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF374RUZ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR564VIX age=13_year description=ENCFF374RUZ_5group_ donor=ENCDO183AAA sex=male view=ENCSR564VIX 
+		view ENCSR564VIX
+
+		track ENCSR564VIX_ENCFF402TPK
+		parent immortalized_cell_line_DND_41_view_ENCSR564VIX off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me3 view=ENCSR564VIX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF402TPK/@@download/ENCFF402TPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF402TPK 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR564VIX age=13_year description=ENCFF402TPK_9state_H3K4me3_ donor=ENCDO183AAA sex=male view=ENCSR564VIX 
+		view ENCSR564VIX
+
+		track ENCSR564VIX_ENCFF999LFW
+		parent immortalized_cell_line_DND_41_view_ENCSR564VIX off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me3 view=ENCSR564VIX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF999LFW/@@download/ENCFF999LFW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF999LFW 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR564VIX age=13_year description=ENCFF999LFW_9state_H3K27ac_ donor=ENCDO183AAA sex=male view=ENCSR564VIX 
+		view ENCSR564VIX
+
+	track ENCSR000AQW_ENCFF467ZIF
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF467ZIF/@@download/ENCFF467ZIF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000AQW DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AQW age=13_year description=ENCSR000AQW_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000AQW
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000AQW
+	visibility dense
+	type bigBed
+
+		track ENCSR000AQW_ENCFF539OVG
+		parent immortalized_cell_line_DND_41_view_ENCSR000AQW off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K27ac view=ENCSR000AQW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF539OVG/@@download/ENCFF539OVG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000AQW DND_41 (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000AQW age=13_year description=ENCSR000AQW_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000AQW 
+		view ENCSR000AQW
+
+		track ENCSR000AQW_ENCFF034XZC
+		parent immortalized_cell_line_DND_41_view_ENCSR000AQW off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K27ac view=ENCSR000AQW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF034XZC/@@download/ENCFF034XZC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF034XZC 9state-CTCF ChIP-seq on human Dnd41 H3K27ac
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000AQW age=13_year description=ENCFF034XZC_9state_CTCF_ChIP_seq_on_human_Dnd41_H3K27ac donor=ENCDO183AAA sex=male view=ENCSR000AQW 
+		view ENCSR000AQW
+
+		track ENCSR000AQW_ENCFF374RUZ
+		parent immortalized_cell_line_DND_41_view_ENCSR000AQW off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K27ac view=ENCSR000AQW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF374RUZ/@@download/ENCFF374RUZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF374RUZ 5group ChIP-seq on human Dnd41 H3K27ac
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000AQW age=13_year description=ENCFF374RUZ_5group_ChIP_seq_on_human_Dnd41_H3K27ac donor=ENCDO183AAA sex=male view=ENCSR000AQW 
+		view ENCSR000AQW
+
+		track ENCSR000AQW_ENCFF402TPK
+		parent immortalized_cell_line_DND_41_view_ENCSR000AQW off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K27ac view=ENCSR000AQW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF402TPK/@@download/ENCFF402TPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF402TPK 9state-H3K4me3 ChIP-seq on human Dnd41 H3K27ac
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000AQW age=13_year description=ENCFF402TPK_9state_H3K4me3_ChIP_seq_on_human_Dnd41_H3K27ac donor=ENCDO183AAA sex=male view=ENCSR000AQW 
+		view ENCSR000AQW
+
+		track ENCSR000AQW_ENCFF999LFW
+		parent immortalized_cell_line_DND_41_view_ENCSR000AQW off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K27ac view=ENCSR000AQW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF999LFW/@@download/ENCFF999LFW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF999LFW 9state-H3K27ac ChIP-seq on human Dnd41 H3K27ac
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000AQW age=13_year description=ENCFF999LFW_9state_H3K27ac_ChIP_seq_on_human_Dnd41_H3K27ac donor=ENCDO183AAA sex=male view=ENCSR000AQW 
+		view ENCSR000AQW
+
+	track ENCSR000AQV_ENCFF284WGX
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF284WGX/@@download/ENCFF284WGX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR000AQV DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AQV age=13_year description=ENCSR000AQV_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000AQV
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000AQV
+	visibility dense
+	type bigBed
+
+		track ENCSR000AQV_ENCFF794QVP
+		parent immortalized_cell_line_DND_41_view_ENCSR000AQV off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H2AFZ view=ENCSR000AQV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF794QVP/@@download/ENCFF794QVP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR000AQV DND_41 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AQV age=13_year description=ENCSR000AQV_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000AQV 
+		view ENCSR000AQV
+
+	track ENCSR000ASX_ENCFF352UKG
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF352UKG/@@download/ENCFF352UKG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000ASX DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASX age=13_year description=ENCSR000ASX_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000ASX
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000ASX
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASX_ENCFF896EQH
+		parent immortalized_cell_line_DND_41_view_ENCSR000ASX off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K27me3 view=ENCSR000ASX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF896EQH/@@download/ENCFF896EQH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000ASX DND_41 (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000ASX age=13_year description=ENCSR000ASX_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000ASX 
+		view ENCSR000ASX
+
+	track ENCSR000AQX_ENCFF142OVC
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF142OVC/@@download/ENCFF142OVC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000AQX DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AQX age=13_year description=ENCSR000AQX_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000AQX
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000AQX
+	visibility dense
+	type bigBed
+
+		track ENCSR000AQX_ENCFF815CDH
+		parent immortalized_cell_line_DND_41_view_ENCSR000AQX off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K36me3 view=ENCSR000AQX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF815CDH/@@download/ENCFF815CDH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000AQX DND_41 (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000AQX age=13_year description=ENCSR000AQX_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000AQX 
+		view ENCSR000AQX
+
+	track ENCSR000AQY_ENCFF742TQP
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF742TQP/@@download/ENCFF742TQP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000AQY DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AQY age=13_year description=ENCSR000AQY_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000AQY
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000AQY
+	visibility dense
+	type bigBed
+
+		track ENCSR000AQY_ENCFF218OFU
+		parent immortalized_cell_line_DND_41_view_ENCSR000AQY off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K4me1 view=ENCSR000AQY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF218OFU/@@download/ENCFF218OFU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000AQY DND_41 (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000AQY age=13_year description=ENCSR000AQY_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000AQY 
+		view ENCSR000AQY
+
+	track ENCSR000ARB_ENCFF250QUW
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF250QUW/@@download/ENCFF250QUW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR000ARB DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ARB age=13_year description=ENCSR000ARB_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000ARB
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000ARB
+	visibility dense
+	type bigBed
+
+		track ENCSR000ARB_ENCFF075WYJ
+		parent immortalized_cell_line_DND_41_view_ENCSR000ARB off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K79me2 view=ENCSR000ARB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF075WYJ/@@download/ENCFF075WYJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR000ARB DND_41 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ARB age=13_year description=ENCSR000ARB_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000ARB 
+		view ENCSR000ARB
+
+	track ENCSR000ARY_ENCFF158RDX
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF158RDX/@@download/ENCFF158RDX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR000ARY DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ARY age=13_year description=ENCSR000ARY_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000ARY
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000ARY
+	visibility dense
+	type bigBed
+
+		track ENCSR000ARY_ENCFF510SDZ
+		parent immortalized_cell_line_DND_41_view_ENCSR000ARY off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K9ac view=ENCSR000ARY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF510SDZ/@@download/ENCFF510SDZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR000ARY DND_41 (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR000ARY age=13_year description=ENCSR000ARY_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000ARY 
+		view ENCSR000ARY
+
+	track ENCSR000ARZ_ENCFF271NAU
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF271NAU/@@download/ENCFF271NAU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR000ARZ DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ARZ age=13_year description=ENCSR000ARZ_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000ARZ
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000ARZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000ARZ_ENCFF159VKN
+		parent immortalized_cell_line_DND_41_view_ENCSR000ARZ off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H3K9me3 view=ENCSR000ARZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF159VKN/@@download/ENCFF159VKN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR000ARZ DND_41 (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR000ARZ age=13_year description=ENCSR000ARZ_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000ARZ 
+		view ENCSR000ARZ
+
+	track ENCSR000ARC_ENCFF889NCQ
+	parent immortalized_cell_line_DND_41 off
+	subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H4K20me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF889NCQ/@@download/ENCFF889NCQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K20me1
+	longLabel ENCSR000ARC DND_41 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ARC age=13_year description=ENCSR000ARC_DND_41_fold_change_over_control_ donor=ENCDO183AAA sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_DND_41_view_ENCSR000ARC
+	parent immortalized_cell_line_DND_41 off
+	view ENCSR000ARC
+	visibility dense
+	type bigBed
+
+		track ENCSR000ARC_ENCFF503UXA
+		parent immortalized_cell_line_DND_41_view_ENCSR000ARC off
+		subGroups age=a13_year assay=ChIP-seq donor=ENCDO183AAA label=H4K20me1 view=ENCSR000ARC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF503UXA/@@download/ENCFF503UXA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K20me1
+		longLabel ENCSR000ARC DND_41 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ARC age=13_year description=ENCSR000ARC_DND_41_replicated_peaks_ donor=ENCDO183AAA sex=male view=ENCSR000ARC 
+		view ENCSR000ARC
+

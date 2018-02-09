@@ -1,0 +1,933 @@
+
+track induced_pluripotent_stem_cell_line_GM23338
+parent super_induced_pluripotent_stem_cell_line
+compositeTrack on
+shortLabel GM23338
+longLabel GM23338 (21 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO336AAA=ENCDO336AAA 
+subGroup2 age age a53_year=53&#32;year 
+subGroup3 view view ENCSR004SUL=ENCSR004SUL ENCSR045YHA=ENCSR045YHA ENCSR154HDX=ENCSR154HDX ENCSR236YPE=ENCSR236YPE ENCSR249YGG=ENCSR249YGG ENCSR264RJX=ENCSR264RJX ENCSR293NAJ=ENCSR293NAJ ENCSR313NJN=ENCSR313NJN ENCSR386RIJ=ENCSR386RIJ ENCSR534VHI=ENCSR534VHI ENCSR657DYL=ENCSR657DYL ENCSR700VCN=ENCSR700VCN ENCSR729ENO=ENCSR729ENO ENCSR740FYN=ENCSR740FYN ENCSR908FQA=ENCSR908FQA ENCSR932ZMX=ENCSR932ZMX ENCSR987GXT=ENCSR987GXT bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR004SUL_ENCFF396WPG
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO336AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF396WPG/@@download/ENCFF396WPG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR004SUL GM23338_male_adult_53_years_originated_from_GM23248 (read-depth norm
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR004SUL age=53_year description=ENCSR004SUL_GM23338_male_adult_53_years_originated_from_GM23248_read_depth_normalized_signal_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR004SUL
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR004SUL
+	visibility dense
+	type bigBed
+
+		track ENCSR004SUL_ENCFF051FDK
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR004SUL off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO336AAA label=unknown view=ENCSR004SUL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF051FDK/@@download/ENCFF051FDK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR004SUL GM23338_male_adult_53_years_originated_from_GM23248 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR004SUL age=53_year description=ENCSR004SUL_GM23338_male_adult_53_years_originated_from_GM23248_peaks_ donor=ENCDO336AAA sex=male view=ENCSR004SUL 
+		view ENCSR004SUL
+
+		track ENCSR004SUL_ENCFF255ATJ
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR004SUL off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO336AAA label=unknown view=ENCSR004SUL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF255ATJ/@@download/ENCFF255ATJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF255ATJ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR004SUL age=53_year description=ENCFF255ATJ_9state_DNase_ donor=ENCDO336AAA sex=male view=ENCSR004SUL 
+		view ENCSR004SUL
+
+		track ENCSR004SUL_ENCFF646GBN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR004SUL off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO336AAA label=unknown view=ENCSR004SUL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF646GBN/@@download/ENCFF646GBN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF646GBN 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR004SUL age=53_year description=ENCFF646GBN_9state_CTCF_ donor=ENCDO336AAA sex=male view=ENCSR004SUL 
+		view ENCSR004SUL
+
+		track ENCSR004SUL_ENCFF651YUN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR004SUL off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO336AAA label=unknown view=ENCSR004SUL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF651YUN/@@download/ENCFF651YUN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF651YUN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR004SUL age=53_year description=ENCFF651YUN_5group_ donor=ENCDO336AAA sex=male view=ENCSR004SUL 
+		view ENCSR004SUL
+
+		track ENCSR004SUL_ENCFF763LNF
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR004SUL off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO336AAA label=unknown view=ENCSR004SUL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF763LNF/@@download/ENCFF763LNF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF763LNF 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR004SUL age=53_year description=ENCFF763LNF_9state_H3K27ac_ donor=ENCDO336AAA sex=male view=ENCSR004SUL 
+		view ENCSR004SUL
+
+		track ENCSR004SUL_ENCFF280HIH
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR004SUL off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO336AAA label=unknown view=ENCSR004SUL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF280HIH/@@download/ENCFF280HIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF280HIH 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR004SUL age=53_year description=ENCFF280HIH_9state_H3K4me3_ donor=ENCDO336AAA sex=male view=ENCSR004SUL 
+		view ENCSR004SUL
+
+	track ENCSR657DYL_ENCFF175FJO
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF175FJO/@@download/ENCFF175FJO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR657DYL GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR657DYL age=53_year description=ENCSR657DYL_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR657DYL
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR657DYL
+	visibility dense
+	type bigBed
+
+		track ENCSR657DYL_ENCFF684VYA
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR657DYL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me3 view=ENCSR657DYL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF684VYA/@@download/ENCFF684VYA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR657DYL GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR657DYL age=53_year description=ENCSR657DYL_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR657DYL 
+		view ENCSR657DYL
+
+		track ENCSR657DYL_ENCFF255ATJ
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR657DYL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me3 view=ENCSR657DYL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF255ATJ/@@download/ENCFF255ATJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF255ATJ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR657DYL age=53_year description=ENCFF255ATJ_9state_DNase_ donor=ENCDO336AAA sex=male view=ENCSR657DYL 
+		view ENCSR657DYL
+
+		track ENCSR657DYL_ENCFF646GBN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR657DYL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me3 view=ENCSR657DYL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF646GBN/@@download/ENCFF646GBN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF646GBN 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR657DYL age=53_year description=ENCFF646GBN_9state_CTCF_ donor=ENCDO336AAA sex=male view=ENCSR657DYL 
+		view ENCSR657DYL
+
+		track ENCSR657DYL_ENCFF651YUN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR657DYL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me3 view=ENCSR657DYL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF651YUN/@@download/ENCFF651YUN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF651YUN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR657DYL age=53_year description=ENCFF651YUN_5group_ donor=ENCDO336AAA sex=male view=ENCSR657DYL 
+		view ENCSR657DYL
+
+		track ENCSR657DYL_ENCFF763LNF
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR657DYL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me3 view=ENCSR657DYL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF763LNF/@@download/ENCFF763LNF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF763LNF 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR657DYL age=53_year description=ENCFF763LNF_9state_H3K27ac_ donor=ENCDO336AAA sex=male view=ENCSR657DYL 
+		view ENCSR657DYL
+
+		track ENCSR657DYL_ENCFF280HIH
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR657DYL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me3 view=ENCSR657DYL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF280HIH/@@download/ENCFF280HIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF280HIH 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR657DYL age=53_year description=ENCFF280HIH_9state_H3K4me3_ donor=ENCDO336AAA sex=male view=ENCSR657DYL 
+		view ENCSR657DYL
+
+	track ENCSR729ENO_ENCFF743DDY
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF743DDY/@@download/ENCFF743DDY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR729ENO GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR729ENO age=53_year description=ENCSR729ENO_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR729ENO
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR729ENO
+	visibility dense
+	type bigBed
+
+		track ENCSR729ENO_ENCFF806VHC
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR729ENO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27ac view=ENCSR729ENO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF806VHC/@@download/ENCFF806VHC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR729ENO GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR729ENO age=53_year description=ENCSR729ENO_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR729ENO 
+		view ENCSR729ENO
+
+		track ENCSR729ENO_ENCFF255ATJ
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR729ENO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27ac view=ENCSR729ENO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF255ATJ/@@download/ENCFF255ATJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF255ATJ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR729ENO age=53_year description=ENCFF255ATJ_9state_DNase_ donor=ENCDO336AAA sex=male view=ENCSR729ENO 
+		view ENCSR729ENO
+
+		track ENCSR729ENO_ENCFF646GBN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR729ENO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27ac view=ENCSR729ENO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF646GBN/@@download/ENCFF646GBN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF646GBN 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR729ENO age=53_year description=ENCFF646GBN_9state_CTCF_ donor=ENCDO336AAA sex=male view=ENCSR729ENO 
+		view ENCSR729ENO
+
+		track ENCSR729ENO_ENCFF651YUN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR729ENO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27ac view=ENCSR729ENO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF651YUN/@@download/ENCFF651YUN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF651YUN 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR729ENO age=53_year description=ENCFF651YUN_5group_ donor=ENCDO336AAA sex=male view=ENCSR729ENO 
+		view ENCSR729ENO
+
+		track ENCSR729ENO_ENCFF763LNF
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR729ENO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27ac view=ENCSR729ENO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF763LNF/@@download/ENCFF763LNF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF763LNF 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR729ENO age=53_year description=ENCFF763LNF_9state_H3K27ac_ donor=ENCDO336AAA sex=male view=ENCSR729ENO 
+		view ENCSR729ENO
+
+		track ENCSR729ENO_ENCFF280HIH
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR729ENO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27ac view=ENCSR729ENO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF280HIH/@@download/ENCFF280HIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF280HIH 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR729ENO age=53_year description=ENCFF280HIH_9state_H3K4me3_ donor=ENCDO336AAA sex=male view=ENCSR729ENO 
+		view ENCSR729ENO
+
+	track ENCSR932ZMX_ENCFF786KBL
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF786KBL/@@download/ENCFF786KBL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR932ZMX GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR932ZMX age=53_year description=ENCSR932ZMX_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR932ZMX
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR932ZMX
+	visibility dense
+	type bigBed
+
+		track ENCSR932ZMX_ENCFF109FNZ
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR932ZMX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=ENCSR932ZMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF109FNZ/@@download/ENCFF109FNZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR932ZMX GM23338_male_adult_53_years_originated_from_GM23248 (optimal idr thr
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR932ZMX age=53_year description=ENCSR932ZMX_GM23338_male_adult_53_years_originated_from_GM23248_optimal_idr_thresholded_peaks_ donor=ENCDO336AAA sex=male view=ENCSR932ZMX 
+		view ENCSR932ZMX
+
+		track ENCSR932ZMX_ENCFF255ATJ
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR932ZMX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=ENCSR932ZMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF255ATJ/@@download/ENCFF255ATJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF255ATJ 9state-DNase Chip-Seq on PGP1 iPSC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR932ZMX age=53_year description=ENCFF255ATJ_9state_DNase_Chip_Seq_on_PGP1_iPSC donor=ENCDO336AAA sex=male view=ENCSR932ZMX 
+		view ENCSR932ZMX
+
+		track ENCSR932ZMX_ENCFF646GBN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR932ZMX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=ENCSR932ZMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF646GBN/@@download/ENCFF646GBN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF646GBN 9state-CTCF Chip-Seq on PGP1 iPSC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR932ZMX age=53_year description=ENCFF646GBN_9state_CTCF_Chip_Seq_on_PGP1_iPSC donor=ENCDO336AAA sex=male view=ENCSR932ZMX 
+		view ENCSR932ZMX
+
+		track ENCSR932ZMX_ENCFF651YUN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR932ZMX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=ENCSR932ZMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF651YUN/@@download/ENCFF651YUN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF651YUN 5group Chip-Seq on PGP1 iPSC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR932ZMX age=53_year description=ENCFF651YUN_5group_Chip_Seq_on_PGP1_iPSC donor=ENCDO336AAA sex=male view=ENCSR932ZMX 
+		view ENCSR932ZMX
+
+		track ENCSR932ZMX_ENCFF763LNF
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR932ZMX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=ENCSR932ZMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF763LNF/@@download/ENCFF763LNF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF763LNF 9state-H3K27ac Chip-Seq on PGP1 iPSC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR932ZMX age=53_year description=ENCFF763LNF_9state_H3K27ac_Chip_Seq_on_PGP1_iPSC donor=ENCDO336AAA sex=male view=ENCSR932ZMX 
+		view ENCSR932ZMX
+
+		track ENCSR932ZMX_ENCFF280HIH
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR932ZMX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=ENCSR932ZMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF280HIH/@@download/ENCFF280HIH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF280HIH 9state-H3K4me3 Chip-Seq on PGP1 iPSC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR932ZMX age=53_year description=ENCFF280HIH_9state_H3K4me3_Chip_Seq_on_PGP1_iPSC donor=ENCDO336AAA sex=male view=ENCSR932ZMX 
+		view ENCSR932ZMX
+
+	track ENCSR987GXT_ENCFF037OPH
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF037OPH/@@download/ENCFF037OPH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR987GXT GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR987GXT age=53_year description=ENCSR987GXT_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR987GXT
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR987GXT
+	visibility dense
+	type bigBed
+
+		track ENCSR987GXT_ENCFF227WHA
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR987GXT off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=CTCF view=ENCSR987GXT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF227WHA/@@download/ENCFF227WHA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR987GXT GM23338_male_adult_53_years_originated_from_GM23248 (optimal idr thr
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR987GXT age=53_year description=ENCSR987GXT_GM23338_male_adult_53_years_originated_from_GM23248_optimal_idr_thresholded_peaks_ donor=ENCDO336AAA sex=male view=ENCSR987GXT 
+		view ENCSR987GXT
+
+	track ENCSR410OSB_ENCFF393EEY
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO336AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF393EEY/@@download/ENCFF393EEY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR410OSB GM23338_male_adult_53_years_originated_from_GM23248 (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR410OSB age=53_year description=ENCSR410OSB_GM23338_male_adult_53_years_originated_from_GM23248_plus_strand_signal_of_unique_reads_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR722POQ_ENCFF598MVH
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO336AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF598MVH/@@download/ENCFF598MVH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR722POQ GM23338_male_adult_53_years_originated_from_GM23248 (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR722POQ age=53_year description=ENCSR722POQ_GM23338_male_adult_53_years_originated_from_GM23248_plus_strand_signal_of_unique_reads_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR748GVH_ENCFF675QYV
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO336AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF675QYV/@@download/ENCFF675QYV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR748GVH GM23338_male_adult_53_years_originated_from_GM23248 (signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR748GVH age=53_year description=ENCSR748GVH_GM23338_male_adult_53_years_originated_from_GM23248_signal_of_unique_reads_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR938LSP_ENCFF507DDS
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO336AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF507DDS/@@download/ENCFF507DDS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR938LSP GM23338_male_adult_53_years_originated_from_GM23248 (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR938LSP age=53_year description=ENCSR938LSP_GM23338_male_adult_53_years_originated_from_GM23248_plus_strand_signal_of_unique_reads_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR534VHI_ENCFF903YWQ
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=ETS1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF903YWQ/@@download/ENCFF903YWQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ETS1
+	longLabel ENCSR534VHI GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR534VHI age=53_year description=ENCSR534VHI_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR534VHI
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR534VHI
+	visibility dense
+	type bigBed
+
+		track ENCSR534VHI_ENCFF980XXN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR534VHI off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=ETS1 view=ENCSR534VHI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF980XXN/@@download/ENCFF980XXN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ETS1
+		longLabel ENCSR534VHI GM23338_male_adult_53_years_originated_from_GM23248 (optimal idr thr
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR534VHI age=53_year description=ENCSR534VHI_GM23338_male_adult_53_years_originated_from_GM23248_optimal_idr_thresholded_peaks_ donor=ENCDO336AAA sex=male view=ENCSR534VHI 
+		view ENCSR534VHI
+
+	track ENCSR045YHA_ENCFF677SMD
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=EZH2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF677SMD/@@download/ENCFF677SMD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EZH2
+	longLabel ENCSR045YHA GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR045YHA age=53_year description=ENCSR045YHA_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR045YHA
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR045YHA
+	visibility dense
+	type bigBed
+
+		track ENCSR045YHA_ENCFF434KDM
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR045YHA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=EZH2 view=ENCSR045YHA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF434KDM/@@download/ENCFF434KDM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EZH2
+		longLabel ENCSR045YHA GM23338_male_adult_53_years_originated_from_GM23248 (pseudoreplicate
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR045YHA age=53_year description=ENCSR045YHA_GM23338_male_adult_53_years_originated_from_GM23248_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO336AAA sex=male view=ENCSR045YHA 
+		view ENCSR045YHA
+
+	track ENCSR908FQA_ENCFF344OPV
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF344OPV/@@download/ENCFF344OPV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR908FQA GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR908FQA age=53_year description=ENCSR908FQA_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR908FQA
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR908FQA
+	visibility dense
+	type bigBed
+
+		track ENCSR908FQA_ENCFF139RTD
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR908FQA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H2AFZ view=ENCSR908FQA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF139RTD/@@download/ENCFF139RTD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR908FQA GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR908FQA age=53_year description=ENCSR908FQA_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR908FQA 
+		view ENCSR908FQA
+
+	track ENCSR313NJN_ENCFF929JYE
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3F3A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF929JYE/@@download/ENCFF929JYE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3F3A
+	longLabel ENCSR313NJN GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR313NJN age=53_year description=ENCSR313NJN_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR313NJN
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR313NJN
+	visibility dense
+	type bigBed
+
+		track ENCSR313NJN_ENCFF363KRN
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR313NJN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3F3A view=ENCSR313NJN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF363KRN/@@download/ENCFF363KRN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3F3A
+		longLabel ENCSR313NJN GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR313NJN age=53_year description=ENCSR313NJN_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR313NJN 
+		view ENCSR313NJN
+
+	track ENCSR386RIJ_ENCFF551IAJ
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF551IAJ/@@download/ENCFF551IAJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR386RIJ GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR386RIJ age=53_year description=ENCSR386RIJ_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR386RIJ
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR386RIJ
+	visibility dense
+	type bigBed
+
+		track ENCSR386RIJ_ENCFF796EHJ
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR386RIJ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K27me3 view=ENCSR386RIJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF796EHJ/@@download/ENCFF796EHJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR386RIJ GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR386RIJ age=53_year description=ENCSR386RIJ_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR386RIJ 
+		view ENCSR386RIJ
+
+	track ENCSR236YPE_ENCFF740ECS
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF740ECS/@@download/ENCFF740ECS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR236YPE GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR236YPE age=53_year description=ENCSR236YPE_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR236YPE
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR236YPE
+	visibility dense
+	type bigBed
+
+		track ENCSR236YPE_ENCFF843PBD
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR236YPE off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K36me3 view=ENCSR236YPE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF843PBD/@@download/ENCFF843PBD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR236YPE GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR236YPE age=53_year description=ENCSR236YPE_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR236YPE 
+		view ENCSR236YPE
+
+	track ENCSR249YGG_ENCFF341GFV
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF341GFV/@@download/ENCFF341GFV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR249YGG GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR249YGG age=53_year description=ENCSR249YGG_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR249YGG
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR249YGG
+	visibility dense
+	type bigBed
+
+		track ENCSR249YGG_ENCFF450DBB
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR249YGG off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me1 view=ENCSR249YGG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF450DBB/@@download/ENCFF450DBB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR249YGG GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR249YGG age=53_year description=ENCSR249YGG_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR249YGG 
+		view ENCSR249YGG
+
+	track ENCSR740FYN_ENCFF788OXE
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF788OXE/@@download/ENCFF788OXE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR740FYN GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR740FYN age=53_year description=ENCSR740FYN_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR740FYN
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR740FYN
+	visibility dense
+	type bigBed
+
+		track ENCSR740FYN_ENCFF399QFS
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR740FYN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K4me2 view=ENCSR740FYN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF399QFS/@@download/ENCFF399QFS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR740FYN GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR740FYN age=53_year description=ENCSR740FYN_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR740FYN 
+		view ENCSR740FYN
+
+	track ENCSR154HDX_ENCFF013MNT
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF013MNT/@@download/ENCFF013MNT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR154HDX GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR154HDX age=53_year description=ENCSR154HDX_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR154HDX
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR154HDX
+	visibility dense
+	type bigBed
+
+		track ENCSR154HDX_ENCFF909TMW
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR154HDX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K79me2 view=ENCSR154HDX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF909TMW/@@download/ENCFF909TMW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR154HDX GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR154HDX age=53_year description=ENCSR154HDX_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR154HDX 
+		view ENCSR154HDX
+
+	track ENCSR700VCN_ENCFF895DYC
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K9me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF895DYC/@@download/ENCFF895DYC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me2
+	longLabel ENCSR700VCN GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR700VCN age=53_year description=ENCSR700VCN_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR700VCN
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR700VCN
+	visibility dense
+	type bigBed
+
+		track ENCSR700VCN_ENCFF623GTM
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR700VCN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H3K9me2 view=ENCSR700VCN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF623GTM/@@download/ENCFF623GTM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me2
+		longLabel ENCSR700VCN GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR700VCN age=53_year description=ENCSR700VCN_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR700VCN 
+		view ENCSR700VCN
+
+	track ENCSR293NAJ_ENCFF509BMQ
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H4K20me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF509BMQ/@@download/ENCFF509BMQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K20me1
+	longLabel ENCSR293NAJ GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR293NAJ age=53_year description=ENCSR293NAJ_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR293NAJ
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR293NAJ
+	visibility dense
+	type bigBed
+
+		track ENCSR293NAJ_ENCFF332OTC
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR293NAJ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=H4K20me1 view=ENCSR293NAJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF332OTC/@@download/ENCFF332OTC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K20me1
+		longLabel ENCSR293NAJ GM23338_male_adult_53_years_originated_from_GM23248 (replicated peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR293NAJ age=53_year description=ENCSR293NAJ_GM23338_male_adult_53_years_originated_from_GM23248_replicated_peaks_ donor=ENCDO336AAA sex=male view=ENCSR293NAJ 
+		view ENCSR293NAJ
+
+	track ENCSR264RJX_ENCFF587SQF
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=POU5F1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF587SQF/@@download/ENCFF587SQF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POU5F1
+	longLabel ENCSR264RJX GM23338_male_adult_53_years_originated_from_GM23248 (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR264RJX age=53_year description=ENCSR264RJX_GM23338_male_adult_53_years_originated_from_GM23248_fold_change_over_control_ donor=ENCDO336AAA sex=male view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_GM23338_view_ENCSR264RJX
+	parent induced_pluripotent_stem_cell_line_GM23338 off
+	view ENCSR264RJX
+	visibility dense
+	type bigBed
+
+		track ENCSR264RJX_ENCFF711NGY
+		parent induced_pluripotent_stem_cell_line_GM23338_view_ENCSR264RJX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO336AAA label=POU5F1 view=ENCSR264RJX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF711NGY/@@download/ENCFF711NGY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POU5F1
+		longLabel ENCSR264RJX GM23338_male_adult_53_years_originated_from_GM23248 (optimal idr thr
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR264RJX age=53_year description=ENCSR264RJX_GM23338_male_adult_53_years_originated_from_GM23248_optimal_idr_thresholded_peaks_ donor=ENCDO336AAA sex=male view=ENCSR264RJX 
+		view ENCSR264RJX
+

@@ -1,0 +1,1303 @@
+
+track tissue_thyroid_gland
+parent super_tissue
+compositeTrack on
+shortLabel thyroid gland
+longLabel thyroid gland (38 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO063AAA=ENCDO063AAA ENCDO066AAA=ENCDO066AAA ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_week=37&#32;week a37_year=37&#32;year a40_week=40&#32;week a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR064LHU=ENCSR064LHU ENCSR158VAT=ENCSR158VAT ENCSR203KCB=ENCSR203KCB ENCSR225VCV=ENCSR225VCV ENCSR266EYO=ENCSR266EYO ENCSR432GAO=ENCSR432GAO ENCSR485BEB=ENCSR485BEB ENCSR492ZIW=ENCSR492ZIW ENCSR558AXI=ENCSR558AXI ENCSR582PKH=ENCSR582PKH ENCSR597BWL=ENCSR597BWL ENCSR639NMN=ENCSR639NMN ENCSR657DFR=ENCSR657DFR ENCSR658VPF=ENCSR658VPF ENCSR696TPW=ENCSR696TPW ENCSR699FHH=ENCSR699FHH ENCSR716FUH=ENCSR716FUH ENCSR744YJR=ENCSR744YJR ENCSR748LUA=ENCSR748LUA ENCSR761WVQ=ENCSR761WVQ ENCSR855XNQ=ENCSR855XNQ ENCSR901BRV=ENCSR901BRV ENCSR906YES=ENCSR906YES ENCSR908DTR=ENCSR908DTR ENCSR955BIB=ENCSR955BIB ENCSR975NOU=ENCSR975NOU bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR158VAT_ENCFF263OXM
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF263OXM/@@download/ENCFF263OXM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR158VAT thyroid_gland_male_adult_37_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR158VAT age=37_year description=ENCSR158VAT_thyroid_gland_male_adult_37_years_read_depth_normalized_signal_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR158VAT
+	parent tissue_thyroid_gland off
+	view ENCSR158VAT
+	visibility dense
+	type bigBed
+
+		track ENCSR158VAT_ENCFF299ECW
+		parent tissue_thyroid_gland_view_ENCSR158VAT off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR158VAT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF299ECW/@@download/ENCFF299ECW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR158VAT thyroid_gland_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR158VAT age=37_year description=ENCSR158VAT_thyroid_gland_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR158VAT 
+		view ENCSR158VAT
+
+		track ENCSR158VAT_ENCFF031WQL
+		parent tissue_thyroid_gland_view_ENCSR158VAT off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR158VAT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF031WQL/@@download/ENCFF031WQL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF031WQL 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR158VAT age=37_year description=ENCFF031WQL_9state_DNase_ donor=ENCDO845WKR sex=male view=ENCSR158VAT 
+		view ENCSR158VAT
+
+		track ENCSR158VAT_ENCFF534TTO
+		parent tissue_thyroid_gland_view_ENCSR158VAT off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR158VAT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF534TTO/@@download/ENCFF534TTO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF534TTO 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR158VAT age=37_year description=ENCFF534TTO_5group_ donor=ENCDO845WKR sex=male view=ENCSR158VAT 
+		view ENCSR158VAT
+
+		track ENCSR158VAT_ENCFF060NZL
+		parent tissue_thyroid_gland_view_ENCSR158VAT off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO845WKR label=unknown view=ENCSR158VAT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF060NZL/@@download/ENCFF060NZL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF060NZL 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR158VAT age=37_year description=ENCFF060NZL_9state_H3K27ac_ donor=ENCDO845WKR sex=male view=ENCSR158VAT 
+		view ENCSR158VAT
+
+	track ENCSR657DFR_ENCFF154PQK
+	parent tissue_thyroid_gland off
+	subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF154PQK/@@download/ENCFF154PQK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR657DFR thyroid_gland_female_adult_51_year_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR657DFR age=51_year description=ENCSR657DFR_thyroid_gland_female_adult_51_year_read_depth_normalized_signal_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR657DFR
+	parent tissue_thyroid_gland off
+	view ENCSR657DFR
+	visibility dense
+	type bigBed
+
+		track ENCSR657DFR_ENCFF408VIV
+		parent tissue_thyroid_gland_view_ENCSR657DFR off
+		subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=ENCSR657DFR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF408VIV/@@download/ENCFF408VIV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR657DFR thyroid_gland_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR657DFR age=51_year description=ENCSR657DFR_thyroid_gland_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR657DFR 
+		view ENCSR657DFR
+
+		track ENCSR657DFR_ENCFF544ECF
+		parent tissue_thyroid_gland_view_ENCSR657DFR off
+		subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=ENCSR657DFR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF544ECF/@@download/ENCFF544ECF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF544ECF 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR657DFR age=51_year description=ENCFF544ECF_9state_DNase_ donor=ENCDO271OUW sex=female view=ENCSR657DFR 
+		view ENCSR657DFR
+
+	track ENCSR696TPW_ENCFF777FUU
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF777FUU/@@download/ENCFF777FUU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR696TPW thyroid_gland_female_adult_53_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR696TPW age=53_year description=ENCSR696TPW_thyroid_gland_female_adult_53_years_read_depth_normalized_signal_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR696TPW
+	parent tissue_thyroid_gland off
+	view ENCSR696TPW
+	visibility dense
+	type bigBed
+
+		track ENCSR696TPW_ENCFF607PNK
+		parent tissue_thyroid_gland_view_ENCSR696TPW off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR696TPW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF607PNK/@@download/ENCFF607PNK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR696TPW thyroid_gland_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR696TPW age=53_year description=ENCSR696TPW_thyroid_gland_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR696TPW 
+		view ENCSR696TPW
+
+	track ENCSR761WVQ_ENCFF148JGL
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF148JGL/@@download/ENCFF148JGL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR761WVQ thyroid_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR761WVQ age=53_year description=ENCSR761WVQ_thyroid_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR761WVQ
+	parent tissue_thyroid_gland off
+	view ENCSR761WVQ
+	visibility dense
+	type bigBed
+
+		track ENCSR761WVQ_ENCFF817BZF
+		parent tissue_thyroid_gland_view_ENCSR761WVQ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR761WVQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF817BZF/@@download/ENCFF817BZF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR761WVQ thyroid_gland_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR761WVQ age=53_year description=ENCSR761WVQ_thyroid_gland_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR761WVQ 
+		view ENCSR761WVQ
+
+	track ENCSR901BRV_ENCFF740RND
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF740RND/@@download/ENCFF740RND.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR901BRV thyroid_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR901BRV age=37_year description=ENCSR901BRV_thyroid_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR901BRV
+	parent tissue_thyroid_gland off
+	view ENCSR901BRV
+	visibility dense
+	type bigBed
+
+		track ENCSR901BRV_ENCFF702ERC
+		parent tissue_thyroid_gland_view_ENCSR901BRV off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR901BRV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702ERC/@@download/ENCFF702ERC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR901BRV thyroid_gland_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR901BRV age=37_year description=ENCSR901BRV_thyroid_gland_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR901BRV 
+		view ENCSR901BRV
+
+	track ENCSR975NOU_ENCFF782HFF
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF782HFF/@@download/ENCFF782HFF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR975NOU thyroid_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR975NOU age=54_year description=ENCSR975NOU_thyroid_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR975NOU
+	parent tissue_thyroid_gland off
+	view ENCSR975NOU
+	visibility dense
+	type bigBed
+
+		track ENCSR975NOU_ENCFF658ZFD
+		parent tissue_thyroid_gland_view_ENCSR975NOU off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR975NOU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF658ZFD/@@download/ENCFF658ZFD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR975NOU thyroid_gland_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR975NOU age=54_year description=ENCSR975NOU_thyroid_gland_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR975NOU 
+		view ENCSR975NOU
+
+		track ENCSR975NOU_ENCFF315GLQ
+		parent tissue_thyroid_gland_view_ENCSR975NOU off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR975NOU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF315GLQ/@@download/ENCFF315GLQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF315GLQ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR975NOU age=54_year description=ENCFF315GLQ_9state_DNase_ donor=ENCDO451RUA sex=male view=ENCSR975NOU 
+		view ENCSR975NOU
+
+		track ENCSR975NOU_ENCFF296SZK
+		parent tissue_thyroid_gland_view_ENCSR975NOU off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR975NOU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF296SZK/@@download/ENCFF296SZK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF296SZK 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR975NOU age=54_year description=ENCFF296SZK_5group_ donor=ENCDO451RUA sex=male view=ENCSR975NOU 
+		view ENCSR975NOU
+
+		track ENCSR975NOU_ENCFF762UXB
+		parent tissue_thyroid_gland_view_ENCSR975NOU off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR975NOU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF762UXB/@@download/ENCFF762UXB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF762UXB 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR975NOU age=54_year description=ENCFF762UXB_9state_H3K4me3_ donor=ENCDO451RUA sex=male view=ENCSR975NOU 
+		view ENCSR975NOU
+
+		track ENCSR975NOU_ENCFF078WJT
+		parent tissue_thyroid_gland_view_ENCSR975NOU off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me3 view=ENCSR975NOU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF078WJT/@@download/ENCFF078WJT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF078WJT 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR975NOU age=54_year description=ENCFF078WJT_9state_H3K27ac_ donor=ENCDO451RUA sex=male view=ENCSR975NOU 
+		view ENCSR975NOU
+
+	track ENCSR203KCB_ENCFF062GEM
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF062GEM/@@download/ENCFF062GEM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR203KCB thyroid_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR203KCB age=54_year description=ENCSR203KCB_thyroid_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR203KCB
+	parent tissue_thyroid_gland off
+	view ENCSR203KCB
+	visibility dense
+	type bigBed
+
+		track ENCSR203KCB_ENCFF939GDL
+		parent tissue_thyroid_gland_view_ENCSR203KCB off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR203KCB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF939GDL/@@download/ENCFF939GDL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR203KCB thyroid_gland_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR203KCB age=54_year description=ENCSR203KCB_thyroid_gland_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR203KCB 
+		view ENCSR203KCB
+
+		track ENCSR203KCB_ENCFF315GLQ
+		parent tissue_thyroid_gland_view_ENCSR203KCB off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR203KCB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF315GLQ/@@download/ENCFF315GLQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF315GLQ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR203KCB age=54_year description=ENCFF315GLQ_9state_DNase_ donor=ENCDO451RUA sex=male view=ENCSR203KCB 
+		view ENCSR203KCB
+
+		track ENCSR203KCB_ENCFF296SZK
+		parent tissue_thyroid_gland_view_ENCSR203KCB off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR203KCB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF296SZK/@@download/ENCFF296SZK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF296SZK 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR203KCB age=54_year description=ENCFF296SZK_5group_ donor=ENCDO451RUA sex=male view=ENCSR203KCB 
+		view ENCSR203KCB
+
+		track ENCSR203KCB_ENCFF762UXB
+		parent tissue_thyroid_gland_view_ENCSR203KCB off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR203KCB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF762UXB/@@download/ENCFF762UXB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF762UXB 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR203KCB age=54_year description=ENCFF762UXB_9state_H3K4me3_ donor=ENCDO451RUA sex=male view=ENCSR203KCB 
+		view ENCSR203KCB
+
+		track ENCSR203KCB_ENCFF078WJT
+		parent tissue_thyroid_gland_view_ENCSR203KCB off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27ac view=ENCSR203KCB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF078WJT/@@download/ENCFF078WJT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF078WJT 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR203KCB age=54_year description=ENCFF078WJT_9state_H3K27ac_ donor=ENCDO451RUA sex=male view=ENCSR203KCB 
+		view ENCSR203KCB
+
+	track ENCSR492ZIW_ENCFF268PFL
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF268PFL/@@download/ENCFF268PFL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR492ZIW thyroid_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR492ZIW age=54_year description=ENCSR492ZIW_thyroid_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR492ZIW
+	parent tissue_thyroid_gland off
+	view ENCSR492ZIW
+	visibility dense
+	type bigBed
+
+		track ENCSR492ZIW_ENCFF854HKD
+		parent tissue_thyroid_gland_view_ENCSR492ZIW off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR492ZIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF854HKD/@@download/ENCFF854HKD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR492ZIW thyroid_gland_male_adult_54_years_ (pseudoreplicated idr thresholded
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR492ZIW age=54_year description=ENCSR492ZIW_thyroid_gland_male_adult_54_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO451RUA sex=male view=ENCSR492ZIW 
+		view ENCSR492ZIW
+
+	track ENCSR597BWL_ENCFF125PJA
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF125PJA/@@download/ENCFF125PJA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR597BWL thyroid_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR597BWL age=37_year description=ENCSR597BWL_thyroid_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR597BWL
+	parent tissue_thyroid_gland off
+	view ENCSR597BWL
+	visibility dense
+	type bigBed
+
+		track ENCSR597BWL_ENCFF963XOB
+		parent tissue_thyroid_gland_view_ENCSR597BWL off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR597BWL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF963XOB/@@download/ENCFF963XOB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR597BWL thyroid_gland_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR597BWL age=37_year description=ENCSR597BWL_thyroid_gland_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR597BWL 
+		view ENCSR597BWL
+
+		track ENCSR597BWL_ENCFF031WQL
+		parent tissue_thyroid_gland_view_ENCSR597BWL off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR597BWL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF031WQL/@@download/ENCFF031WQL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF031WQL 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR597BWL age=37_year description=ENCFF031WQL_9state_DNase_ donor=ENCDO845WKR sex=male view=ENCSR597BWL 
+		view ENCSR597BWL
+
+		track ENCSR597BWL_ENCFF534TTO
+		parent tissue_thyroid_gland_view_ENCSR597BWL off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR597BWL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF534TTO/@@download/ENCFF534TTO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF534TTO 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR597BWL age=37_year description=ENCFF534TTO_5group_ donor=ENCDO845WKR sex=male view=ENCSR597BWL 
+		view ENCSR597BWL
+
+		track ENCSR597BWL_ENCFF060NZL
+		parent tissue_thyroid_gland_view_ENCSR597BWL off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27ac view=ENCSR597BWL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF060NZL/@@download/ENCFF060NZL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF060NZL 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR597BWL age=37_year description=ENCFF060NZL_9state_H3K27ac_ donor=ENCDO845WKR sex=male view=ENCSR597BWL 
+		view ENCSR597BWL
+
+	track ENCSR716FUH_ENCFF547SZU
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF547SZU/@@download/ENCFF547SZU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR716FUH thyroid_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR716FUH age=53_year description=ENCSR716FUH_thyroid_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR716FUH
+	parent tissue_thyroid_gland off
+	view ENCSR716FUH
+	visibility dense
+	type bigBed
+
+		track ENCSR716FUH_ENCFF871BCI
+		parent tissue_thyroid_gland_view_ENCSR716FUH off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR716FUH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF871BCI/@@download/ENCFF871BCI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR716FUH thyroid_gland_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR716FUH age=53_year description=ENCSR716FUH_thyroid_gland_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR716FUH 
+		view ENCSR716FUH
+
+	track ENCSR744YJR_ENCFF503RZZ
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF503RZZ/@@download/ENCFF503RZZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR744YJR thyroid_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR744YJR age=53_year description=ENCSR744YJR_thyroid_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR744YJR
+	parent tissue_thyroid_gland off
+	view ENCSR744YJR
+	visibility dense
+	type bigBed
+
+		track ENCSR744YJR_ENCFF901OUV
+		parent tissue_thyroid_gland_view_ENCSR744YJR off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR744YJR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF901OUV/@@download/ENCFF901OUV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR744YJR thyroid_gland_female_adult_53_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR744YJR age=53_year description=ENCSR744YJR_thyroid_gland_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR744YJR 
+		view ENCSR744YJR
+
+	track ENCSR955BIB_ENCFF572RSY
+	parent tissue_thyroid_gland off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF572RSY/@@download/ENCFF572RSY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR955BIB thyroid_gland_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR955BIB age=51_year description=ENCSR955BIB_thyroid_gland_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR955BIB
+	parent tissue_thyroid_gland off
+	view ENCSR955BIB
+	visibility dense
+	type bigBed
+
+		track ENCSR955BIB_ENCFF955JLZ
+		parent tissue_thyroid_gland_view_ENCSR955BIB off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR955BIB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF955JLZ/@@download/ENCFF955JLZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR955BIB thyroid_gland_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR955BIB age=51_year description=ENCSR955BIB_thyroid_gland_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR955BIB 
+		view ENCSR955BIB
+
+	track ENCSR000AFK_ENCFF219QVN
+	parent tissue_thyroid_gland off
+	subGroups age=a40_week assay=RNA-seq donor=ENCDO066AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF219QVN/@@download/ENCFF219QVN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFK thyroid_gland_female_embryo_37_weeks_and_female_embryo_40_weeks_ (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFK age=40_week description=ENCSR000AFK_thyroid_gland_female_embryo_37_weeks_and_female_embryo_40_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO066AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGE_ENCFF522XZV
+	parent tissue_thyroid_gland off
+	subGroups age=a37_week assay=RNA-seq donor=ENCDO063AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF522XZV/@@download/ENCFF522XZV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AGE thyroid_gland_female_embryo_37_weeks_and_female_embryo_40_weeks_ (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGE age=37_week description=ENCSR000AGE_thyroid_gland_female_embryo_37_weeks_and_female_embryo_40_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO063AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGY_ENCFF316GIB
+	parent tissue_thyroid_gland off
+	subGroups age=a37_week assay=RAMPAGE donor=ENCDO063AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF316GIB/@@download/ENCFF316GIB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR000AGY thyroid_gland_female_embryo_37_weeks_and_female_embryo_40_weeks_ (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGY age=37_week description=ENCSR000AGY_thyroid_gland_female_embryo_37_weeks_and_female_embryo_40_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO063AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR023ZXN_ENCFF073HZX
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF073HZX/@@download/ENCFF073HZX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR023ZXN thyroid_gland_male_adult_54_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR023ZXN age=54_year description=ENCSR023ZXN_thyroid_gland_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR069LRO_ENCFF550OKB
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF550OKB/@@download/ENCFF550OKB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR069LRO thyroid_gland_male_adult_54_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR069LRO age=54_year description=ENCSR069LRO_thyroid_gland_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR238ZZD_ENCFF855KYV
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF855KYV/@@download/ENCFF855KYV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR238ZZD thyroid_gland_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR238ZZD age=53_year description=ENCSR238ZZD_thyroid_gland_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR260RBO_ENCFF175MJN
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF175MJN/@@download/ENCFF175MJN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR260RBO thyroid_gland_male_adult_37_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR260RBO age=37_year description=ENCSR260RBO_thyroid_gland_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR359CVC_ENCFF897ELQ
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF897ELQ/@@download/ENCFF897ELQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR359CVC thyroid_gland_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR359CVC age=53_year description=ENCSR359CVC_thyroid_gland_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR477JQM_ENCFF261FKQ
+	parent tissue_thyroid_gland off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF261FKQ/@@download/ENCFF261FKQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR477JQM thyroid_gland_female_adult_51_year_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR477JQM age=51_year description=ENCSR477JQM_thyroid_gland_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR532LJV_ENCFF410EQZ
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF410EQZ/@@download/ENCFF410EQZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR532LJV thyroid_gland_male_adult_37_years_ (plus strand signal of unique rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR532LJV age=37_year description=ENCSR532LJV_thyroid_gland_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR687HJY_ENCFF677ZUO
+	parent tissue_thyroid_gland off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF677ZUO/@@download/ENCFF677ZUO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR687HJY thyroid_gland_female_adult_51_year_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR687HJY age=51_year description=ENCSR687HJY_thyroid_gland_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR700YLA_ENCFF099QJH
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF099QJH/@@download/ENCFF099QJH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR700YLA thyroid_gland_female_adult_53_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR700YLA age=53_year description=ENCSR700YLA_thyroid_gland_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR582PKH_ENCFF493WSJ
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF493WSJ/@@download/ENCFF493WSJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR582PKH thyroid_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR582PKH age=54_year description=ENCSR582PKH_thyroid_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR582PKH
+	parent tissue_thyroid_gland off
+	view ENCSR582PKH
+	visibility dense
+	type bigBed
+
+		track ENCSR582PKH_ENCFF537FYA
+		parent tissue_thyroid_gland_view_ENCSR582PKH off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K27me3 view=ENCSR582PKH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF537FYA/@@download/ENCFF537FYA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR582PKH thyroid_gland_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR582PKH age=54_year description=ENCSR582PKH_thyroid_gland_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR582PKH 
+		view ENCSR582PKH
+
+	track ENCSR748LUA_ENCFF762EOU
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF762EOU/@@download/ENCFF762EOU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR748LUA thyroid_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR748LUA age=37_year description=ENCSR748LUA_thyroid_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR748LUA
+	parent tissue_thyroid_gland off
+	view ENCSR748LUA
+	visibility dense
+	type bigBed
+
+		track ENCSR748LUA_ENCFF265WUK
+		parent tissue_thyroid_gland_view_ENCSR748LUA off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K27me3 view=ENCSR748LUA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF265WUK/@@download/ENCFF265WUK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR748LUA thyroid_gland_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR748LUA age=37_year description=ENCSR748LUA_thyroid_gland_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR748LUA 
+		view ENCSR748LUA
+
+	track ENCSR225VCV_ENCFF278JOV
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF278JOV/@@download/ENCFF278JOV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR225VCV thyroid_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR225VCV age=37_year description=ENCSR225VCV_thyroid_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR225VCV
+	parent tissue_thyroid_gland off
+	view ENCSR225VCV
+	visibility dense
+	type bigBed
+
+		track ENCSR225VCV_ENCFF481YUR
+		parent tissue_thyroid_gland_view_ENCSR225VCV off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=ENCSR225VCV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF481YUR/@@download/ENCFF481YUR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR225VCV thyroid_gland_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR225VCV age=37_year description=ENCSR225VCV_thyroid_gland_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR225VCV 
+		view ENCSR225VCV
+
+	track ENCSR855XNQ_ENCFF415UMG
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF415UMG/@@download/ENCFF415UMG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR855XNQ thyroid_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR855XNQ age=53_year description=ENCSR855XNQ_thyroid_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR855XNQ
+	parent tissue_thyroid_gland off
+	view ENCSR855XNQ
+	visibility dense
+	type bigBed
+
+		track ENCSR855XNQ_ENCFF990AOG
+		parent tissue_thyroid_gland_view_ENCSR855XNQ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR855XNQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF990AOG/@@download/ENCFF990AOG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR855XNQ thyroid_gland_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR855XNQ age=53_year description=ENCSR855XNQ_thyroid_gland_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR855XNQ 
+		view ENCSR855XNQ
+
+	track ENCSR908DTR_ENCFF313JMH
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF313JMH/@@download/ENCFF313JMH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR908DTR thyroid_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR908DTR age=54_year description=ENCSR908DTR_thyroid_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR908DTR
+	parent tissue_thyroid_gland off
+	view ENCSR908DTR
+	visibility dense
+	type bigBed
+
+		track ENCSR908DTR_ENCFF380KMI
+		parent tissue_thyroid_gland_view_ENCSR908DTR off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K36me3 view=ENCSR908DTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF380KMI/@@download/ENCFF380KMI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR908DTR thyroid_gland_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR908DTR age=54_year description=ENCSR908DTR_thyroid_gland_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR908DTR 
+		view ENCSR908DTR
+
+	track ENCSR064LHU_ENCFF670VPM
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF670VPM/@@download/ENCFF670VPM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR064LHU thyroid_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR064LHU age=53_year description=ENCSR064LHU_thyroid_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR064LHU
+	parent tissue_thyroid_gland off
+	view ENCSR064LHU
+	visibility dense
+	type bigBed
+
+		track ENCSR064LHU_ENCFF533BLL
+		parent tissue_thyroid_gland_view_ENCSR064LHU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR064LHU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF533BLL/@@download/ENCFF533BLL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR064LHU thyroid_gland_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR064LHU age=53_year description=ENCSR064LHU_thyroid_gland_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR064LHU 
+		view ENCSR064LHU
+
+	track ENCSR639NMN_ENCFF185ETY
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF185ETY/@@download/ENCFF185ETY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR639NMN thyroid_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR639NMN age=54_year description=ENCSR639NMN_thyroid_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR639NMN
+	parent tissue_thyroid_gland off
+	view ENCSR639NMN
+	visibility dense
+	type bigBed
+
+		track ENCSR639NMN_ENCFF790BGZ
+		parent tissue_thyroid_gland_view_ENCSR639NMN off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K4me1 view=ENCSR639NMN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF790BGZ/@@download/ENCFF790BGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR639NMN thyroid_gland_male_adult_54_years_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR639NMN age=54_year description=ENCSR639NMN_thyroid_gland_male_adult_54_years_replicated_peaks_ donor=ENCDO451RUA sex=male view=ENCSR639NMN 
+		view ENCSR639NMN
+
+	track ENCSR906YES_ENCFF040NDR
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF040NDR/@@download/ENCFF040NDR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR906YES thyroid_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR906YES age=37_year description=ENCSR906YES_thyroid_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR906YES
+	parent tissue_thyroid_gland off
+	view ENCSR906YES
+	visibility dense
+	type bigBed
+
+		track ENCSR906YES_ENCFF662IGX
+		parent tissue_thyroid_gland_view_ENCSR906YES off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me1 view=ENCSR906YES 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF662IGX/@@download/ENCFF662IGX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR906YES thyroid_gland_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR906YES age=37_year description=ENCSR906YES_thyroid_gland_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR906YES 
+		view ENCSR906YES
+
+	track ENCSR266EYO_ENCFF485DBP
+	parent tissue_thyroid_gland off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF485DBP/@@download/ENCFF485DBP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR266EYO thyroid_gland_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR266EYO age=37_year description=ENCSR266EYO_thyroid_gland_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR266EYO
+	parent tissue_thyroid_gland off
+	view ENCSR266EYO
+	visibility dense
+	type bigBed
+
+		track ENCSR266EYO_ENCFF546VVW
+		parent tissue_thyroid_gland_view_ENCSR266EYO off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=ENCSR266EYO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF546VVW/@@download/ENCFF546VVW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR266EYO thyroid_gland_male_adult_37_years_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR266EYO age=37_year description=ENCSR266EYO_thyroid_gland_male_adult_37_years_replicated_peaks_ donor=ENCDO845WKR sex=male view=ENCSR266EYO 
+		view ENCSR266EYO
+
+	track ENCSR558AXI_ENCFF499BED
+	parent tissue_thyroid_gland off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF499BED/@@download/ENCFF499BED.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR558AXI thyroid_gland_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR558AXI age=51_year description=ENCSR558AXI_thyroid_gland_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR558AXI
+	parent tissue_thyroid_gland off
+	view ENCSR558AXI
+	visibility dense
+	type bigBed
+
+		track ENCSR558AXI_ENCFF495GHP
+		parent tissue_thyroid_gland_view_ENCSR558AXI off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=H3K9me3 view=ENCSR558AXI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF495GHP/@@download/ENCFF495GHP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR558AXI thyroid_gland_female_adult_51_year_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR558AXI age=51_year description=ENCSR558AXI_thyroid_gland_female_adult_51_year_stable_peaks_ donor=ENCDO271OUW sex=female view=ENCSR558AXI 
+		view ENCSR558AXI
+
+	track ENCSR658VPF_ENCFF740QXW
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF740QXW/@@download/ENCFF740QXW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR658VPF thyroid_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR658VPF age=53_year description=ENCSR658VPF_thyroid_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR658VPF
+	parent tissue_thyroid_gland off
+	view ENCSR658VPF
+	visibility dense
+	type bigBed
+
+		track ENCSR658VPF_ENCFF865DPG
+		parent tissue_thyroid_gland_view_ENCSR658VPF off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR658VPF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF865DPG/@@download/ENCFF865DPG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR658VPF thyroid_gland_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR658VPF age=53_year description=ENCSR658VPF_thyroid_gland_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR658VPF 
+		view ENCSR658VPF
+
+	track ENCSR699FHH_ENCFF154CCG
+	parent tissue_thyroid_gland off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF154CCG/@@download/ENCFF154CCG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR699FHH thyroid_gland_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR699FHH age=54_year description=ENCSR699FHH_thyroid_gland_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR699FHH
+	parent tissue_thyroid_gland off
+	view ENCSR699FHH
+	visibility dense
+	type bigBed
+
+		track ENCSR699FHH_ENCFF821PBB
+		parent tissue_thyroid_gland_view_ENCSR699FHH off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=H3K9me3 view=ENCSR699FHH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF821PBB/@@download/ENCFF821PBB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR699FHH thyroid_gland_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR699FHH age=54_year description=ENCSR699FHH_thyroid_gland_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR699FHH 
+		view ENCSR699FHH
+
+	track ENCSR432GAO_ENCFF562HIW
+	parent tissue_thyroid_gland off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF562HIW/@@download/ENCFF562HIW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR432GAO thyroid_gland_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR432GAO age=51_year description=ENCSR432GAO_thyroid_gland_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR432GAO
+	parent tissue_thyroid_gland off
+	view ENCSR432GAO
+	visibility dense
+	type bigBed
+
+		track ENCSR432GAO_ENCFF937ZVC
+		parent tissue_thyroid_gland_view_ENCSR432GAO off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR432GAO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF937ZVC/@@download/ENCFF937ZVC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR432GAO thyroid_gland_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR432GAO age=51_year description=ENCSR432GAO_thyroid_gland_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR432GAO 
+		view ENCSR432GAO
+
+	track ENCSR485BEB_ENCFF739LQP
+	parent tissue_thyroid_gland off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF739LQP/@@download/ENCFF739LQP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR485BEB thyroid_gland_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR485BEB age=53_year description=ENCSR485BEB_thyroid_gland_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_thyroid_gland_view_ENCSR485BEB
+	parent tissue_thyroid_gland off
+	view ENCSR485BEB
+	visibility dense
+	type bigBed
+
+		track ENCSR485BEB_ENCFF813BZS
+		parent tissue_thyroid_gland_view_ENCSR485BEB off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR485BEB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF813BZS/@@download/ENCFF813BZS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR485BEB thyroid_gland_female_adult_53_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR485BEB age=53_year description=ENCSR485BEB_thyroid_gland_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR485BEB 
+		view ENCSR485BEB
+

@@ -1,0 +1,48 @@
+
+track immortalized_cell_line_C3H10T1_2
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel C3H10T1/2
+longLabel C3H10T1/2 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RNA-seq=RNA-seq 
+subGroup3 view view bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AHX_ENCFF509MNU
+	parent immortalized_cell_line_C3H10T1_2 off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO321TZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF509MNU/@@download/ENCFF509MNU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AHX C3H_C3H10T1_2_originated_from_C3H10T1_2 (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AHX age=unknown description=ENCSR000AHX_C3H_C3H10T1_2_originated_from_C3H10T1_2_signal_of_unique_reads_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000AHZ_ENCFF782SBB
+	parent immortalized_cell_line_C3H10T1_2 off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO321TZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF782SBB/@@download/ENCFF782SBB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AHZ C3H_C3H10T1_2 (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AHZ age=unknown description=ENCSR000AHZ_C3H_C3H10T1_2_signal_of_unique_reads_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+

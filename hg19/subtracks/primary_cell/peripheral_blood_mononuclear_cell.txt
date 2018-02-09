@@ -1,0 +1,723 @@
+
+track primary_cell_peripheral_blood_mononuclear_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel peripheral blood 
+longLabel peripheral blood mononuclear cell (23 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO250QGI=ENCDO250QGI ENCDO273TST=ENCDO273TST ENCDO424KSR=ENCDO424KSR ENCDO678FLL=ENCDO678FLL ENCDO688UPE=ENCDO688UPE ENCDO839WKQ=ENCDO839WKQ 
+subGroup2 age age a27_year=27&#32;year a28_year=28&#32;year a29_year=29&#32;year a32_year=32&#32;year a39_year=39&#32;year 
+subGroup3 view view ENCSR156XNC=ENCSR156XNC ENCSR162MGR=ENCSR162MGR ENCSR206JRX=ENCSR206JRX ENCSR336ZSZ=ENCSR336ZSZ ENCSR368YPC=ENCSR368YPC ENCSR389IVA=ENCSR389IVA ENCSR390SFH=ENCSR390SFH ENCSR442BHP=ENCSR442BHP ENCSR443SLY=ENCSR443SLY ENCSR449SFZ=ENCSR449SFZ ENCSR482QXO=ENCSR482QXO ENCSR489TBW=ENCSR489TBW ENCSR605OYC=ENCSR605OYC ENCSR615HXA=ENCSR615HXA ENCSR804FSU=ENCSR804FSU ENCSR866UQO=ENCSR866UQO ENCSR969DAF=ENCSR969DAF ENCSR980XMX=ENCSR980XMX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR206JRX_ENCFF796FFT
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=ChIP-seq donor=ENCDO839WKQ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF796FFT/@@download/ENCFF796FFT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR206JRX peripheral_blood_mononuclear_cell_female_adult_28_years_ (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR206JRX age=28_year description=ENCSR206JRX_peripheral_blood_mononuclear_cell_female_adult_28_years_fold_change_over_control_ donor=ENCDO839WKQ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR206JRX
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR206JRX
+	visibility dense
+	type bigBed
+
+		track ENCSR206JRX_ENCFF734XJQ
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR206JRX off
+		subGroups age=a28_year assay=ChIP-seq donor=ENCDO839WKQ label=H3K4me3 view=ENCSR206JRX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF734XJQ/@@download/ENCFF734XJQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR206JRX peripheral_blood_mononuclear_cell_female_adult_28_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR206JRX age=28_year description=ENCSR206JRX_peripheral_blood_mononuclear_cell_female_adult_28_years_peaks_ donor=ENCDO839WKQ sex=female view=ENCSR206JRX 
+		view ENCSR206JRX
+
+	track ENCSR368YPC_ENCFF303YKC
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF303YKC/@@download/ENCFF303YKC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR368YPC peripheral_blood_mononuclear_cell_male_adult_32_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR368YPC age=32_year description=ENCSR368YPC_peripheral_blood_mononuclear_cell_male_adult_32_years_fold_change_over_control_ donor=ENCDO688UPE sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR368YPC
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR368YPC
+	visibility dense
+	type bigBed
+
+		track ENCSR368YPC_ENCFF609WHS
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR368YPC off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K4me3 view=ENCSR368YPC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF609WHS/@@download/ENCFF609WHS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR368YPC peripheral_blood_mononuclear_cell_male_adult_32_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR368YPC age=32_year description=ENCSR368YPC_peripheral_blood_mononuclear_cell_male_adult_32_years_peaks_ donor=ENCDO688UPE sex=male view=ENCSR368YPC 
+		view ENCSR368YPC
+
+	track ENCSR443SLY_ENCFF573QMJ
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a27_year assay=ChIP-seq donor=ENCDO250QGI label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF573QMJ/@@download/ENCFF573QMJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR443SLY peripheral_blood_mononuclear_cell_male_adult_27_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR443SLY age=27_year description=ENCSR443SLY_peripheral_blood_mononuclear_cell_male_adult_27_years_fold_change_over_control_ donor=ENCDO250QGI sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR443SLY
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR443SLY
+	visibility dense
+	type bigBed
+
+		track ENCSR443SLY_ENCFF274NFA
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR443SLY off
+		subGroups age=a27_year assay=ChIP-seq donor=ENCDO250QGI label=H3K4me3 view=ENCSR443SLY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF274NFA/@@download/ENCFF274NFA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR443SLY peripheral_blood_mononuclear_cell_male_adult_27_years_ (stable peaks
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR443SLY age=27_year description=ENCSR443SLY_peripheral_blood_mononuclear_cell_male_adult_27_years_stable_peaks_ donor=ENCDO250QGI sex=male view=ENCSR443SLY 
+		view ENCSR443SLY
+
+	track ENCSR156XNC_ENCFF759GIZ
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=ChIP-seq donor=ENCDO839WKQ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF759GIZ/@@download/ENCFF759GIZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR156XNC peripheral_blood_mononuclear_cell_female_adult_28_years_ (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR156XNC age=28_year description=ENCSR156XNC_peripheral_blood_mononuclear_cell_female_adult_28_years_fold_change_over_control_ donor=ENCDO839WKQ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR156XNC
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR156XNC
+	visibility dense
+	type bigBed
+
+		track ENCSR156XNC_ENCFF803TLM
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR156XNC off
+		subGroups age=a28_year assay=ChIP-seq donor=ENCDO839WKQ label=H3K27ac view=ENCSR156XNC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF803TLM/@@download/ENCFF803TLM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR156XNC peripheral_blood_mononuclear_cell_female_adult_28_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR156XNC age=28_year description=ENCSR156XNC_peripheral_blood_mononuclear_cell_female_adult_28_years_peaks_ donor=ENCDO839WKQ sex=female view=ENCSR156XNC 
+		view ENCSR156XNC
+
+	track ENCSR615HXA_ENCFF737OJY
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF737OJY/@@download/ENCFF737OJY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR615HXA peripheral_blood_mononuclear_cell_male_adult_32_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR615HXA age=32_year description=ENCSR615HXA_peripheral_blood_mononuclear_cell_male_adult_32_years_fold_change_over_control_ donor=ENCDO688UPE sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR615HXA
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR615HXA
+	visibility dense
+	type bigBed
+
+		track ENCSR615HXA_ENCFF571GJR
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR615HXA off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K27ac view=ENCSR615HXA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF571GJR/@@download/ENCFF571GJR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR615HXA peripheral_blood_mononuclear_cell_male_adult_32_years_ (stable peaks
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR615HXA age=32_year description=ENCSR615HXA_peripheral_blood_mononuclear_cell_male_adult_32_years_stable_peaks_ donor=ENCDO688UPE sex=male view=ENCSR615HXA 
+		view ENCSR615HXA
+
+	track ENCSR015RGX_ENCFF334RTI
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a29_year assay=microRNA-seq donor=ENCDO678FLL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF334RTI/@@download/ENCFF334RTI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR015RGX peripheral_blood_mononuclear_cell_male_adult_29_years_ (plus strand 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR015RGX age=29_year description=ENCSR015RGX_peripheral_blood_mononuclear_cell_male_adult_29_years_plus_strand_signal_of_unique_reads_ donor=ENCDO678FLL sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR313TJR_ENCFF335RYX
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=RNA-seq donor=ENCDO839WKQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF335RYX/@@download/ENCFF335RYX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR313TJR peripheral_blood_mononuclear_cell_female_adult_28_years_ (plus stran
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR313TJR age=28_year description=ENCSR313TJR_peripheral_blood_mononuclear_cell_female_adult_28_years_plus_strand_signal_of_unique_reads_ donor=ENCDO839WKQ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR354RTB_ENCFF820JLB
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=microRNA-seq donor=ENCDO839WKQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF820JLB/@@download/ENCFF820JLB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR354RTB peripheral_blood_mononuclear_cell_female_adult_28_years_ (plus stran
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR354RTB age=28_year description=ENCSR354RTB_peripheral_blood_mononuclear_cell_female_adult_28_years_plus_strand_signal_of_unique_reads_ donor=ENCDO839WKQ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR409JSP_ENCFF725SYE
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a39_year assay=RNA-seq donor=ENCDO424KSR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF725SYE/@@download/ENCFF725SYE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR409JSP peripheral_blood_mononuclear_cell_male_adult_39_years_ (plus strand 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR409JSP age=39_year description=ENCSR409JSP_peripheral_blood_mononuclear_cell_male_adult_39_years_plus_strand_signal_of_unique_reads_ donor=ENCDO424KSR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR988SCB_ENCFF436XTD
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a39_year assay=microRNA-seq donor=ENCDO424KSR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF436XTD/@@download/ENCFF436XTD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR988SCB peripheral_blood_mononuclear_cell_male_adult_39_years_ (plus strand 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR988SCB age=39_year description=ENCSR988SCB_peripheral_blood_mononuclear_cell_male_adult_39_years_plus_strand_signal_of_unique_reads_ donor=ENCDO424KSR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR390SFH_ENCFF150RIG
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=ChIP-seq donor=ENCDO839WKQ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF150RIG/@@download/ENCFF150RIG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR390SFH peripheral_blood_mononuclear_cell_female_adult_28_years_ (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR390SFH age=28_year description=ENCSR390SFH_peripheral_blood_mononuclear_cell_female_adult_28_years_fold_change_over_control_ donor=ENCDO839WKQ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR390SFH
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR390SFH
+	visibility dense
+	type bigBed
+
+		track ENCSR390SFH_ENCFF370YJO
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR390SFH off
+		subGroups age=a28_year assay=ChIP-seq donor=ENCDO839WKQ label=H3K27me3 view=ENCSR390SFH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF370YJO/@@download/ENCFF370YJO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR390SFH peripheral_blood_mononuclear_cell_female_adult_28_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR390SFH age=28_year description=ENCSR390SFH_peripheral_blood_mononuclear_cell_female_adult_28_years_peaks_ donor=ENCDO839WKQ sex=female view=ENCSR390SFH 
+		view ENCSR390SFH
+
+	track ENCSR442BHP_ENCFF265VZG
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=ChIP-seq donor=ENCDO273TST label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF265VZG/@@download/ENCFF265VZG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR442BHP peripheral_blood_mononuclear_cell_male_adult_28_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR442BHP age=28_year description=ENCSR442BHP_peripheral_blood_mononuclear_cell_male_adult_28_years_fold_change_over_control_ donor=ENCDO273TST sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR442BHP
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR442BHP
+	visibility dense
+	type bigBed
+
+		track ENCSR442BHP_ENCFF734BBW
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR442BHP off
+		subGroups age=a28_year assay=ChIP-seq donor=ENCDO273TST label=H3K27me3 view=ENCSR442BHP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF734BBW/@@download/ENCFF734BBW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR442BHP peripheral_blood_mononuclear_cell_male_adult_28_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR442BHP age=28_year description=ENCSR442BHP_peripheral_blood_mononuclear_cell_male_adult_28_years_peaks_ donor=ENCDO273TST sex=male view=ENCSR442BHP 
+		view ENCSR442BHP
+
+	track ENCSR866UQO_ENCFF412KUE
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF412KUE/@@download/ENCFF412KUE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR866UQO peripheral_blood_mononuclear_cell_male_adult_32_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR866UQO age=32_year description=ENCSR866UQO_peripheral_blood_mononuclear_cell_male_adult_32_years_fold_change_over_control_ donor=ENCDO688UPE sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR866UQO
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR866UQO
+	visibility dense
+	type bigBed
+
+		track ENCSR866UQO_ENCFF097JAW
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR866UQO off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K27me3 view=ENCSR866UQO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF097JAW/@@download/ENCFF097JAW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR866UQO peripheral_blood_mononuclear_cell_male_adult_32_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR866UQO age=32_year description=ENCSR866UQO_peripheral_blood_mononuclear_cell_male_adult_32_years_peaks_ donor=ENCDO688UPE sex=male view=ENCSR866UQO 
+		view ENCSR866UQO
+
+	track ENCSR162MGR_ENCFF643USH
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF643USH/@@download/ENCFF643USH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR162MGR peripheral_blood_mononuclear_cell_male_adult_32_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR162MGR age=32_year description=ENCSR162MGR_peripheral_blood_mononuclear_cell_male_adult_32_years_fold_change_over_control_ donor=ENCDO688UPE sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR162MGR
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR162MGR
+	visibility dense
+	type bigBed
+
+		track ENCSR162MGR_ENCFF642SRC
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR162MGR off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K36me3 view=ENCSR162MGR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF642SRC/@@download/ENCFF642SRC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR162MGR peripheral_blood_mononuclear_cell_male_adult_32_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR162MGR age=32_year description=ENCSR162MGR_peripheral_blood_mononuclear_cell_male_adult_32_years_peaks_ donor=ENCDO688UPE sex=male view=ENCSR162MGR 
+		view ENCSR162MGR
+
+	track ENCSR449SFZ_ENCFF249WVX
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=ChIP-seq donor=ENCDO273TST label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF249WVX/@@download/ENCFF249WVX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR449SFZ peripheral_blood_mononuclear_cell_male_adult_28_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR449SFZ age=28_year description=ENCSR449SFZ_peripheral_blood_mononuclear_cell_male_adult_28_years_fold_change_over_control_ donor=ENCDO273TST sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR449SFZ
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR449SFZ
+	visibility dense
+	type bigBed
+
+		track ENCSR449SFZ_ENCFF715FTY
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR449SFZ off
+		subGroups age=a28_year assay=ChIP-seq donor=ENCDO273TST label=H3K36me3 view=ENCSR449SFZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF715FTY/@@download/ENCFF715FTY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR449SFZ peripheral_blood_mononuclear_cell_male_adult_28_years_ (stable peaks
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR449SFZ age=28_year description=ENCSR449SFZ_peripheral_blood_mononuclear_cell_male_adult_28_years_stable_peaks_ donor=ENCDO273TST sex=male view=ENCSR449SFZ 
+		view ENCSR449SFZ
+
+	track ENCSR336ZSZ_ENCFF100NYH
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a27_year assay=ChIP-seq donor=ENCDO250QGI label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF100NYH/@@download/ENCFF100NYH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR336ZSZ peripheral_blood_mononuclear_cell_male_adult_27_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR336ZSZ age=27_year description=ENCSR336ZSZ_peripheral_blood_mononuclear_cell_male_adult_27_years_fold_change_over_control_ donor=ENCDO250QGI sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR336ZSZ
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR336ZSZ
+	visibility dense
+	type bigBed
+
+		track ENCSR336ZSZ_ENCFF810IPS
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR336ZSZ off
+		subGroups age=a27_year assay=ChIP-seq donor=ENCDO250QGI label=H3K4me1 view=ENCSR336ZSZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF810IPS/@@download/ENCFF810IPS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR336ZSZ peripheral_blood_mononuclear_cell_male_adult_27_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR336ZSZ age=27_year description=ENCSR336ZSZ_peripheral_blood_mononuclear_cell_male_adult_27_years_peaks_ donor=ENCDO250QGI sex=male view=ENCSR336ZSZ 
+		view ENCSR336ZSZ
+
+	track ENCSR482QXO_ENCFF457WMB
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF457WMB/@@download/ENCFF457WMB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR482QXO peripheral_blood_mononuclear_cell_male_adult_32_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR482QXO age=32_year description=ENCSR482QXO_peripheral_blood_mononuclear_cell_male_adult_32_years_fold_change_over_control_ donor=ENCDO688UPE sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR482QXO
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR482QXO
+	visibility dense
+	type bigBed
+
+		track ENCSR482QXO_ENCFF703GHH
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR482QXO off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K4me1 view=ENCSR482QXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF703GHH/@@download/ENCFF703GHH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR482QXO peripheral_blood_mononuclear_cell_male_adult_32_years_ (stable peaks
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR482QXO age=32_year description=ENCSR482QXO_peripheral_blood_mononuclear_cell_male_adult_32_years_stable_peaks_ donor=ENCDO688UPE sex=male view=ENCSR482QXO 
+		view ENCSR482QXO
+
+	track ENCSR804FSU_ENCFF455IGC
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=ChIP-seq donor=ENCDO273TST label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF455IGC/@@download/ENCFF455IGC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR804FSU peripheral_blood_mononuclear_cell_male_adult_28_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR804FSU age=28_year description=ENCSR804FSU_peripheral_blood_mononuclear_cell_male_adult_28_years_fold_change_over_control_ donor=ENCDO273TST sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR804FSU
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR804FSU
+	visibility dense
+	type bigBed
+
+		track ENCSR804FSU_ENCFF750DVQ
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR804FSU off
+		subGroups age=a28_year assay=ChIP-seq donor=ENCDO273TST label=H3K9ac view=ENCSR804FSU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF750DVQ/@@download/ENCFF750DVQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR804FSU peripheral_blood_mononuclear_cell_male_adult_28_years_ (stable peaks
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR804FSU age=28_year description=ENCSR804FSU_peripheral_blood_mononuclear_cell_male_adult_28_years_stable_peaks_ donor=ENCDO273TST sex=male view=ENCSR804FSU 
+		view ENCSR804FSU
+
+	track ENCSR969DAF_ENCFF211ORP
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a27_year assay=ChIP-seq donor=ENCDO250QGI label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF211ORP/@@download/ENCFF211ORP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR969DAF peripheral_blood_mononuclear_cell_male_adult_27_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR969DAF age=27_year description=ENCSR969DAF_peripheral_blood_mononuclear_cell_male_adult_27_years_fold_change_over_control_ donor=ENCDO250QGI sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR969DAF
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR969DAF
+	visibility dense
+	type bigBed
+
+		track ENCSR969DAF_ENCFF094JII
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR969DAF off
+		subGroups age=a27_year assay=ChIP-seq donor=ENCDO250QGI label=H3K9ac view=ENCSR969DAF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF094JII/@@download/ENCFF094JII.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR969DAF peripheral_blood_mononuclear_cell_male_adult_27_years_ (stable peaks
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR969DAF age=27_year description=ENCSR969DAF_peripheral_blood_mononuclear_cell_male_adult_27_years_stable_peaks_ donor=ENCDO250QGI sex=male view=ENCSR969DAF 
+		view ENCSR969DAF
+
+	track ENCSR389IVA_ENCFF171WZC
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a27_year assay=ChIP-seq donor=ENCDO250QGI label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF171WZC/@@download/ENCFF171WZC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR389IVA peripheral_blood_mononuclear_cell_male_adult_27_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR389IVA age=27_year description=ENCSR389IVA_peripheral_blood_mononuclear_cell_male_adult_27_years_fold_change_over_control_ donor=ENCDO250QGI sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR389IVA
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR389IVA
+	visibility dense
+	type bigBed
+
+		track ENCSR389IVA_ENCFF724PFW
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR389IVA off
+		subGroups age=a27_year assay=ChIP-seq donor=ENCDO250QGI label=H3K9me3 view=ENCSR389IVA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF724PFW/@@download/ENCFF724PFW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR389IVA peripheral_blood_mononuclear_cell_male_adult_27_years_ (stable peaks
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR389IVA age=27_year description=ENCSR389IVA_peripheral_blood_mononuclear_cell_male_adult_27_years_stable_peaks_ donor=ENCDO250QGI sex=male view=ENCSR389IVA 
+		view ENCSR389IVA
+
+	track ENCSR489TBW_ENCFF319EBK
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=ChIP-seq donor=ENCDO273TST label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF319EBK/@@download/ENCFF319EBK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR489TBW peripheral_blood_mononuclear_cell_male_adult_28_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR489TBW age=28_year description=ENCSR489TBW_peripheral_blood_mononuclear_cell_male_adult_28_years_fold_change_over_control_ donor=ENCDO273TST sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR489TBW
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR489TBW
+	visibility dense
+	type bigBed
+
+		track ENCSR489TBW_ENCFF470WKB
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR489TBW off
+		subGroups age=a28_year assay=ChIP-seq donor=ENCDO273TST label=H3K9me3 view=ENCSR489TBW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF470WKB/@@download/ENCFF470WKB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR489TBW peripheral_blood_mononuclear_cell_male_adult_28_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR489TBW age=28_year description=ENCSR489TBW_peripheral_blood_mononuclear_cell_male_adult_28_years_peaks_ donor=ENCDO273TST sex=male view=ENCSR489TBW 
+		view ENCSR489TBW
+
+	track ENCSR605OYC_ENCFF033IPJ
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a28_year assay=ChIP-seq donor=ENCDO839WKQ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF033IPJ/@@download/ENCFF033IPJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR605OYC peripheral_blood_mononuclear_cell_female_adult_28_years_ (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR605OYC age=28_year description=ENCSR605OYC_peripheral_blood_mononuclear_cell_female_adult_28_years_fold_change_over_control_ donor=ENCDO839WKQ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR605OYC
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR605OYC
+	visibility dense
+	type bigBed
+
+		track ENCSR605OYC_ENCFF745QCA
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR605OYC off
+		subGroups age=a28_year assay=ChIP-seq donor=ENCDO839WKQ label=H3K9me3 view=ENCSR605OYC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF745QCA/@@download/ENCFF745QCA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR605OYC peripheral_blood_mononuclear_cell_female_adult_28_years_ (stable pea
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR605OYC age=28_year description=ENCSR605OYC_peripheral_blood_mononuclear_cell_female_adult_28_years_stable_peaks_ donor=ENCDO839WKQ sex=female view=ENCSR605OYC 
+		view ENCSR605OYC
+
+	track ENCSR980XMX_ENCFF713QZB
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF713QZB/@@download/ENCFF713QZB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR980XMX peripheral_blood_mononuclear_cell_male_adult_32_years_ (fold change 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR980XMX age=32_year description=ENCSR980XMX_peripheral_blood_mononuclear_cell_male_adult_32_years_fold_change_over_control_ donor=ENCDO688UPE sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR980XMX
+	parent primary_cell_peripheral_blood_mononuclear_cell off
+	view ENCSR980XMX
+	visibility dense
+	type bigBed
+
+		track ENCSR980XMX_ENCFF990FAA
+		parent primary_cell_peripheral_blood_mononuclear_cell_view_ENCSR980XMX off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO688UPE label=H3K9me3 view=ENCSR980XMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF990FAA/@@download/ENCFF990FAA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR980XMX peripheral_blood_mononuclear_cell_male_adult_32_years_ (stable peaks
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR980XMX age=32_year description=ENCSR980XMX_peripheral_blood_mononuclear_cell_male_adult_32_years_stable_peaks_ donor=ENCDO688UPE sex=male view=ENCSR980XMX 
+		view ENCSR980XMX
+

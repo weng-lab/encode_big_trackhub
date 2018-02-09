@@ -1,0 +1,279 @@
+
+track primary_cell_brain_microvascular_endothelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel brain microvascul
+longLabel brain microvascular endothelial cell (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO227AAA=ENCDO227AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DTA=ENCSR000DTA ENCSR000DTC=ENCSR000DTC ENCSR000ENE=ENCSR000ENE bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ENE_ENCFF076AZT
+	parent primary_cell_brain_microvascular_endothelial_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF076AZT/@@download/ENCFF076AZT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENE brain_microvascular_endothelial_cell (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENE age=unknown description=ENCSR000ENE_brain_microvascular_endothelial_cell_read_depth_normalized_signal_ donor=ENCDO227AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000ENE
+	parent primary_cell_brain_microvascular_endothelial_cell off
+	view ENCSR000ENE
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENE_ENCFF745XSZ
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000ENE off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF745XSZ/@@download/ENCFF745XSZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENE brain_microvascular_endothelial_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENE age=unknown description=ENCSR000ENE_brain_microvascular_endothelial_cell_peaks_ donor=ENCDO227AAA sex=unknown view=ENCSR000ENE 
+		view ENCSR000ENE
+
+		track ENCSR000ENE_ENCFF248YDA
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000ENE off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF248YDA/@@download/ENCFF248YDA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF248YDA 9state-CTCF DNase-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENE age=unknown description=ENCFF248YDA_9state_CTCF_DNase_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000ENE 
+		view ENCSR000ENE
+
+		track ENCSR000ENE_ENCFF605EXS
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000ENE off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF605EXS/@@download/ENCFF605EXS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF605EXS 9state-DNase DNase-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENE age=unknown description=ENCFF605EXS_9state_DNase_DNase_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000ENE 
+		view ENCSR000ENE
+
+		track ENCSR000ENE_ENCFF782IWF
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000ENE off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF782IWF/@@download/ENCFF782IWF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF782IWF 5group DNase-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENE age=unknown description=ENCFF782IWF_5group_DNase_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000ENE 
+		view ENCSR000ENE
+
+		track ENCSR000ENE_ENCFF225WOI
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000ENE off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF225WOI/@@download/ENCFF225WOI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF225WOI 9state-H3K4me3 DNase-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENE age=unknown description=ENCFF225WOI_9state_H3K4me3_DNase_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000ENE 
+		view ENCSR000ENE
+
+	track ENCSR000DTC_ENCFF170KPO
+	parent primary_cell_brain_microvascular_endothelial_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF170KPO/@@download/ENCFF170KPO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DTC brain_microvascular_endothelial_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DTC age=unknown description=ENCSR000DTC_brain_microvascular_endothelial_cell_fold_change_over_control_ donor=ENCDO227AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTC
+	parent primary_cell_brain_microvascular_endothelial_cell off
+	view ENCSR000DTC
+	visibility dense
+	type bigBed
+
+		track ENCSR000DTC_ENCFF326BQJ
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF326BQJ/@@download/ENCFF326BQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DTC brain_microvascular_endothelial_cell (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DTC age=unknown description=ENCSR000DTC_brain_microvascular_endothelial_cell_replicated_peaks_ donor=ENCDO227AAA sex=unknown view=ENCSR000DTC 
+		view ENCSR000DTC
+
+		track ENCSR000DTC_ENCFF248YDA
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF248YDA/@@download/ENCFF248YDA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF248YDA 9state-CTCF H3K4me3 ChIP-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTC age=unknown description=ENCFF248YDA_9state_CTCF_H3K4me3_ChIP_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000DTC 
+		view ENCSR000DTC
+
+		track ENCSR000DTC_ENCFF605EXS
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF605EXS/@@download/ENCFF605EXS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF605EXS 9state-DNase H3K4me3 ChIP-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTC age=unknown description=ENCFF605EXS_9state_DNase_H3K4me3_ChIP_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000DTC 
+		view ENCSR000DTC
+
+		track ENCSR000DTC_ENCFF782IWF
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF782IWF/@@download/ENCFF782IWF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF782IWF 5group H3K4me3 ChIP-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTC age=unknown description=ENCFF782IWF_5group_H3K4me3_ChIP_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000DTC 
+		view ENCSR000DTC
+
+		track ENCSR000DTC_ENCFF225WOI
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DTC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF225WOI/@@download/ENCFF225WOI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF225WOI 9state-H3K4me3 H3K4me3 ChIP-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTC age=unknown description=ENCFF225WOI_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000DTC 
+		view ENCSR000DTC
+
+	track ENCSR000DTA_ENCFF225MWV
+	parent primary_cell_brain_microvascular_endothelial_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF225MWV/@@download/ENCFF225MWV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DTA brain_microvascular_endothelial_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DTA age=unknown description=ENCSR000DTA_brain_microvascular_endothelial_cell_fold_change_over_control_ donor=ENCDO227AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTA
+	parent primary_cell_brain_microvascular_endothelial_cell off
+	view ENCSR000DTA
+	visibility dense
+	type bigBed
+
+		track ENCSR000DTA_ENCFF337SSU
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DTA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF337SSU/@@download/ENCFF337SSU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DTA brain_microvascular_endothelial_cell (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DTA age=unknown description=ENCSR000DTA_brain_microvascular_endothelial_cell_optimal_idr_thresholded_peaks_ donor=ENCDO227AAA sex=unknown view=ENCSR000DTA 
+		view ENCSR000DTA
+
+		track ENCSR000DTA_ENCFF248YDA
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DTA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF248YDA/@@download/ENCFF248YDA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF248YDA 9state-CTCF CTCF ChIP-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTA age=unknown description=ENCFF248YDA_9state_CTCF_CTCF_ChIP_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000DTA 
+		view ENCSR000DTA
+
+		track ENCSR000DTA_ENCFF605EXS
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DTA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF605EXS/@@download/ENCFF605EXS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF605EXS 9state-DNase CTCF ChIP-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTA age=unknown description=ENCFF605EXS_9state_DNase_CTCF_ChIP_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000DTA 
+		view ENCSR000DTA
+
+		track ENCSR000DTA_ENCFF782IWF
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DTA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF782IWF/@@download/ENCFF782IWF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF782IWF 5group CTCF ChIP-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTA age=unknown description=ENCFF782IWF_5group_CTCF_ChIP_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000DTA 
+		view ENCSR000DTA
+
+		track ENCSR000DTA_ENCFF225WOI
+		parent primary_cell_brain_microvascular_endothelial_cell_view_ENCSR000DTA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DTA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF225WOI/@@download/ENCFF225WOI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF225WOI 9state-H3K4me3 CTCF ChIP-seq on human HBMEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTA age=unknown description=ENCFF225WOI_9state_H3K4me3_CTCF_ChIP_seq_on_human_HBMEC donor=ENCDO227AAA sex=unknown view=ENCSR000DTA 
+		view ENCSR000DTA
+

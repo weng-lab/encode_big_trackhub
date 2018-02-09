@@ -1,0 +1,674 @@
+
+track immortalized_cell_line_Karpas_422
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel Karpas-422
+longLabel Karpas-422 (16 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label H2AFZ=H2AFZ H3K27ac=H3K27ac H3K27me3=H3K27me3 H3K36me3=H3K36me3 H3K4me1=H3K4me1 H3K4me2=H3K4me2 H3K4me3=H3K4me3 H3K79me2=H3K79me2 H3K9ac=H3K9ac H3K9me2=H3K9me2 H3K9me3=H3K9me3 H4K20me1=H4K20me1 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view ENCSR019JDO=ENCSR019JDO ENCSR058SHN=ENCSR058SHN ENCSR159CDJ=ENCSR159CDJ ENCSR306VSH=ENCSR306VSH ENCSR317NQG=ENCSR317NQG ENCSR473TDG=ENCSR473TDG ENCSR604III=ENCSR604III ENCSR660IQS=ENCSR660IQS ENCSR867UKC=ENCSR867UKC ENCSR870IGD=ENCSR870IGD ENCSR910XKX=ENCSR910XKX ENCSR963HAR=ENCSR963HAR ENCSR978BQI=ENCSR978BQI bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR019JDO_ENCFF117HBF
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=DNase-seq donor=ENCDO354AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF117HBF/@@download/ENCFF117HBF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR019JDO Karpas_422 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR019JDO age=72_year description=ENCSR019JDO_Karpas_422_read_depth_normalized_signal_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR019JDO
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR019JDO
+	visibility dense
+	type bigBed
+
+		track ENCSR019JDO_ENCFF691VCQ
+		parent immortalized_cell_line_Karpas_422_view_ENCSR019JDO off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO354AAA label=unknown view=ENCSR019JDO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF691VCQ/@@download/ENCFF691VCQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR019JDO Karpas_422 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR019JDO age=72_year description=ENCSR019JDO_Karpas_422_peaks_ donor=ENCDO354AAA sex=female view=ENCSR019JDO 
+		view ENCSR019JDO
+
+		track ENCSR019JDO_ENCFF186FKX
+		parent immortalized_cell_line_Karpas_422_view_ENCSR019JDO off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO354AAA label=unknown view=ENCSR019JDO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF186FKX/@@download/ENCFF186FKX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF186FKX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR019JDO age=72_year description=ENCFF186FKX_9state_DNase_ donor=ENCDO354AAA sex=female view=ENCSR019JDO 
+		view ENCSR019JDO
+
+		track ENCSR019JDO_ENCFF106UHI
+		parent immortalized_cell_line_Karpas_422_view_ENCSR019JDO off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO354AAA label=unknown view=ENCSR019JDO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF106UHI/@@download/ENCFF106UHI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF106UHI 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR019JDO age=72_year description=ENCFF106UHI_5group_ donor=ENCDO354AAA sex=female view=ENCSR019JDO 
+		view ENCSR019JDO
+
+		track ENCSR019JDO_ENCFF600ICO
+		parent immortalized_cell_line_Karpas_422_view_ENCSR019JDO off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO354AAA label=unknown view=ENCSR019JDO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF600ICO/@@download/ENCFF600ICO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF600ICO 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR019JDO age=72_year description=ENCFF600ICO_9state_H3K4me3_ donor=ENCDO354AAA sex=female view=ENCSR019JDO 
+		view ENCSR019JDO
+
+		track ENCSR019JDO_ENCFF905MRI
+		parent immortalized_cell_line_Karpas_422_view_ENCSR019JDO off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO354AAA label=unknown view=ENCSR019JDO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF905MRI/@@download/ENCFF905MRI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF905MRI 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR019JDO age=72_year description=ENCFF905MRI_9state_H3K27ac_ donor=ENCDO354AAA sex=female view=ENCSR019JDO 
+		view ENCSR019JDO
+
+	track ENCSR910XKX_ENCFF086WSJ
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF086WSJ/@@download/ENCFF086WSJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR910XKX Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR910XKX age=72_year description=ENCSR910XKX_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR910XKX
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR910XKX
+	visibility dense
+	type bigBed
+
+		track ENCSR910XKX_ENCFF475CFO
+		parent immortalized_cell_line_Karpas_422_view_ENCSR910XKX off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me3 view=ENCSR910XKX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF475CFO/@@download/ENCFF475CFO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR910XKX Karpas_422 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR910XKX age=72_year description=ENCSR910XKX_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR910XKX 
+		view ENCSR910XKX
+
+		track ENCSR910XKX_ENCFF186FKX
+		parent immortalized_cell_line_Karpas_422_view_ENCSR910XKX off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me3 view=ENCSR910XKX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF186FKX/@@download/ENCFF186FKX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF186FKX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR910XKX age=72_year description=ENCFF186FKX_9state_DNase_ donor=ENCDO354AAA sex=female view=ENCSR910XKX 
+		view ENCSR910XKX
+
+		track ENCSR910XKX_ENCFF106UHI
+		parent immortalized_cell_line_Karpas_422_view_ENCSR910XKX off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me3 view=ENCSR910XKX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF106UHI/@@download/ENCFF106UHI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF106UHI 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR910XKX age=72_year description=ENCFF106UHI_5group_ donor=ENCDO354AAA sex=female view=ENCSR910XKX 
+		view ENCSR910XKX
+
+		track ENCSR910XKX_ENCFF600ICO
+		parent immortalized_cell_line_Karpas_422_view_ENCSR910XKX off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me3 view=ENCSR910XKX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF600ICO/@@download/ENCFF600ICO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF600ICO 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR910XKX age=72_year description=ENCFF600ICO_9state_H3K4me3_ donor=ENCDO354AAA sex=female view=ENCSR910XKX 
+		view ENCSR910XKX
+
+		track ENCSR910XKX_ENCFF905MRI
+		parent immortalized_cell_line_Karpas_422_view_ENCSR910XKX off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me3 view=ENCSR910XKX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF905MRI/@@download/ENCFF905MRI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF905MRI 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR910XKX age=72_year description=ENCFF905MRI_9state_H3K27ac_ donor=ENCDO354AAA sex=female view=ENCSR910XKX 
+		view ENCSR910XKX
+
+	track ENCSR660IQS_ENCFF896ZBB
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF896ZBB/@@download/ENCFF896ZBB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR660IQS Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR660IQS age=72_year description=ENCSR660IQS_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR660IQS
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR660IQS
+	visibility dense
+	type bigBed
+
+		track ENCSR660IQS_ENCFF350QGN
+		parent immortalized_cell_line_Karpas_422_view_ENCSR660IQS off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K27ac view=ENCSR660IQS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF350QGN/@@download/ENCFF350QGN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR660IQS Karpas_422 (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR660IQS age=72_year description=ENCSR660IQS_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR660IQS 
+		view ENCSR660IQS
+
+		track ENCSR660IQS_ENCFF186FKX
+		parent immortalized_cell_line_Karpas_422_view_ENCSR660IQS off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K27ac view=ENCSR660IQS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF186FKX/@@download/ENCFF186FKX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF186FKX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR660IQS age=72_year description=ENCFF186FKX_9state_DNase_ donor=ENCDO354AAA sex=female view=ENCSR660IQS 
+		view ENCSR660IQS
+
+		track ENCSR660IQS_ENCFF106UHI
+		parent immortalized_cell_line_Karpas_422_view_ENCSR660IQS off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K27ac view=ENCSR660IQS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF106UHI/@@download/ENCFF106UHI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF106UHI 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR660IQS age=72_year description=ENCFF106UHI_5group_ donor=ENCDO354AAA sex=female view=ENCSR660IQS 
+		view ENCSR660IQS
+
+		track ENCSR660IQS_ENCFF600ICO
+		parent immortalized_cell_line_Karpas_422_view_ENCSR660IQS off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K27ac view=ENCSR660IQS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF600ICO/@@download/ENCFF600ICO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF600ICO 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR660IQS age=72_year description=ENCFF600ICO_9state_H3K4me3_ donor=ENCDO354AAA sex=female view=ENCSR660IQS 
+		view ENCSR660IQS
+
+		track ENCSR660IQS_ENCFF905MRI
+		parent immortalized_cell_line_Karpas_422_view_ENCSR660IQS off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K27ac view=ENCSR660IQS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF905MRI/@@download/ENCFF905MRI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF905MRI 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR660IQS age=72_year description=ENCFF905MRI_9state_H3K27ac_ donor=ENCDO354AAA sex=female view=ENCSR660IQS 
+		view ENCSR660IQS
+
+	track ENCSR314LXG_ENCFF649YDY
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=RNA-seq donor=ENCDO354AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF649YDY/@@download/ENCFF649YDY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR314LXG Karpas_422 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR314LXG age=72_year description=ENCSR314LXG_Karpas_422_plus_strand_signal_of_unique_reads_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR836WAX_ENCFF582XOX
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=RAMPAGE donor=ENCDO354AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF582XOX/@@download/ENCFF582XOX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR836WAX Karpas_422 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR836WAX age=72_year description=ENCSR836WAX_Karpas_422_plus_strand_signal_of_unique_reads_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR905KHW_ENCFF192IDQ
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=RNA-seq donor=ENCDO354AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF192IDQ/@@download/ENCFF192IDQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR905KHW Karpas_422 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR905KHW age=72_year description=ENCSR905KHW_Karpas_422_plus_strand_signal_of_unique_reads_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR317NQG_ENCFF058ECD
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF058ECD/@@download/ENCFF058ECD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR317NQG Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR317NQG age=72_year description=ENCSR317NQG_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR317NQG
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR317NQG
+	visibility dense
+	type bigBed
+
+		track ENCSR317NQG_ENCFF874VWY
+		parent immortalized_cell_line_Karpas_422_view_ENCSR317NQG off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H2AFZ view=ENCSR317NQG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF874VWY/@@download/ENCFF874VWY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR317NQG Karpas_422 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR317NQG age=72_year description=ENCSR317NQG_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR317NQG 
+		view ENCSR317NQG
+
+	track ENCSR963HAR_ENCFF528BTU
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF528BTU/@@download/ENCFF528BTU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR963HAR Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR963HAR age=72_year description=ENCSR963HAR_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR963HAR
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR963HAR
+	visibility dense
+	type bigBed
+
+		track ENCSR963HAR_ENCFF098RIF
+		parent immortalized_cell_line_Karpas_422_view_ENCSR963HAR off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K27me3 view=ENCSR963HAR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF098RIF/@@download/ENCFF098RIF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR963HAR Karpas_422 (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR963HAR age=72_year description=ENCSR963HAR_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR963HAR 
+		view ENCSR963HAR
+
+	track ENCSR867UKC_ENCFF346PTM
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF346PTM/@@download/ENCFF346PTM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR867UKC Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR867UKC age=72_year description=ENCSR867UKC_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR867UKC
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR867UKC
+	visibility dense
+	type bigBed
+
+		track ENCSR867UKC_ENCFF184OTN
+		parent immortalized_cell_line_Karpas_422_view_ENCSR867UKC off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K36me3 view=ENCSR867UKC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF184OTN/@@download/ENCFF184OTN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR867UKC Karpas_422 (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR867UKC age=72_year description=ENCSR867UKC_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR867UKC 
+		view ENCSR867UKC
+
+	track ENCSR306VSH_ENCFF654TNX
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF654TNX/@@download/ENCFF654TNX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR306VSH Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR306VSH age=72_year description=ENCSR306VSH_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR306VSH
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR306VSH
+	visibility dense
+	type bigBed
+
+		track ENCSR306VSH_ENCFF229NQU
+		parent immortalized_cell_line_Karpas_422_view_ENCSR306VSH off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me1 view=ENCSR306VSH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF229NQU/@@download/ENCFF229NQU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR306VSH Karpas_422 (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR306VSH age=72_year description=ENCSR306VSH_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR306VSH 
+		view ENCSR306VSH
+
+	track ENCSR870IGD_ENCFF946QGI
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF946QGI/@@download/ENCFF946QGI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR870IGD Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR870IGD age=72_year description=ENCSR870IGD_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR870IGD
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR870IGD
+	visibility dense
+	type bigBed
+
+		track ENCSR870IGD_ENCFF403ZLS
+		parent immortalized_cell_line_Karpas_422_view_ENCSR870IGD off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K4me2 view=ENCSR870IGD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF403ZLS/@@download/ENCFF403ZLS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR870IGD Karpas_422 (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR870IGD age=72_year description=ENCSR870IGD_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR870IGD 
+		view ENCSR870IGD
+
+	track ENCSR604III_ENCFF912GDA
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF912GDA/@@download/ENCFF912GDA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR604III Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR604III age=72_year description=ENCSR604III_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR604III
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR604III
+	visibility dense
+	type bigBed
+
+		track ENCSR604III_ENCFF327VFT
+		parent immortalized_cell_line_Karpas_422_view_ENCSR604III off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K79me2 view=ENCSR604III 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF327VFT/@@download/ENCFF327VFT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR604III Karpas_422 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR604III age=72_year description=ENCSR604III_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR604III 
+		view ENCSR604III
+
+	track ENCSR058SHN_ENCFF221XTD
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF221XTD/@@download/ENCFF221XTD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR058SHN Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR058SHN age=72_year description=ENCSR058SHN_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR058SHN
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR058SHN
+	visibility dense
+	type bigBed
+
+		track ENCSR058SHN_ENCFF892AQP
+		parent immortalized_cell_line_Karpas_422_view_ENCSR058SHN off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K9ac view=ENCSR058SHN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF892AQP/@@download/ENCFF892AQP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR058SHN Karpas_422 (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR058SHN age=72_year description=ENCSR058SHN_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR058SHN 
+		view ENCSR058SHN
+
+	track ENCSR473TDG_ENCFF600ZMX
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K9me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF600ZMX/@@download/ENCFF600ZMX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me2
+	longLabel ENCSR473TDG Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR473TDG age=72_year description=ENCSR473TDG_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR473TDG
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR473TDG
+	visibility dense
+	type bigBed
+
+		track ENCSR473TDG_ENCFF206WHU
+		parent immortalized_cell_line_Karpas_422_view_ENCSR473TDG off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K9me2 view=ENCSR473TDG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF206WHU/@@download/ENCFF206WHU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me2
+		longLabel ENCSR473TDG Karpas_422 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR473TDG age=72_year description=ENCSR473TDG_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR473TDG 
+		view ENCSR473TDG
+
+	track ENCSR978BQI_ENCFF335JZV
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF335JZV/@@download/ENCFF335JZV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR978BQI Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR978BQI age=72_year description=ENCSR978BQI_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR978BQI
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR978BQI
+	visibility dense
+	type bigBed
+
+		track ENCSR978BQI_ENCFF890NBN
+		parent immortalized_cell_line_Karpas_422_view_ENCSR978BQI off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H3K9me3 view=ENCSR978BQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF890NBN/@@download/ENCFF890NBN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR978BQI Karpas_422 (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR978BQI age=72_year description=ENCSR978BQI_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR978BQI 
+		view ENCSR978BQI
+
+	track ENCSR159CDJ_ENCFF656JDL
+	parent immortalized_cell_line_Karpas_422 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H4K20me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF656JDL/@@download/ENCFF656JDL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K20me1
+	longLabel ENCSR159CDJ Karpas_422 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR159CDJ age=72_year description=ENCSR159CDJ_Karpas_422_fold_change_over_control_ donor=ENCDO354AAA sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Karpas_422_view_ENCSR159CDJ
+	parent immortalized_cell_line_Karpas_422 off
+	view ENCSR159CDJ
+	visibility dense
+	type bigBed
+
+		track ENCSR159CDJ_ENCFF364PSL
+		parent immortalized_cell_line_Karpas_422_view_ENCSR159CDJ off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO354AAA label=H4K20me1 view=ENCSR159CDJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF364PSL/@@download/ENCFF364PSL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K20me1
+		longLabel ENCSR159CDJ Karpas_422 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR159CDJ age=72_year description=ENCSR159CDJ_Karpas_422_replicated_peaks_ donor=ENCDO354AAA sex=female view=ENCSR159CDJ 
+		view ENCSR159CDJ
+

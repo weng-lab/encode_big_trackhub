@@ -1,0 +1,66 @@
+
+track induced_pluripotent_stem_cell_line_L1_S8R
+parent super_induced_pluripotent_stem_cell_line
+compositeTrack on
+shortLabel L1-S8R
+longLabel L1-S8R (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO315JDK=ENCDO315JDK 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR746ZPP=ENCSR746ZPP bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR746ZPP_ENCFF041XGF
+	parent induced_pluripotent_stem_cell_line_L1_S8R off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO315JDK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF041XGF/@@download/ENCFF041XGF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR746ZPP L1_S8R (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR746ZPP age=unknown description=ENCSR746ZPP_L1_S8R_read_depth_normalized_signal_ donor=ENCDO315JDK sex=unknown view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_L1_S8R_view_ENCSR746ZPP
+	parent induced_pluripotent_stem_cell_line_L1_S8R off
+	view ENCSR746ZPP
+	visibility dense
+	type bigBed
+
+		track ENCSR746ZPP_ENCFF843ZIU
+		parent induced_pluripotent_stem_cell_line_L1_S8R_view_ENCSR746ZPP off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO315JDK label=unknown view=ENCSR746ZPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF843ZIU/@@download/ENCFF843ZIU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR746ZPP L1_S8R (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR746ZPP age=unknown description=ENCSR746ZPP_L1_S8R_peaks_ donor=ENCDO315JDK sex=unknown view=ENCSR746ZPP 
+		view ENCSR746ZPP
+
+		track ENCSR746ZPP_ENCFF784KFX
+		parent induced_pluripotent_stem_cell_line_L1_S8R_view_ENCSR746ZPP off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO315JDK label=unknown view=ENCSR746ZPP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF784KFX/@@download/ENCFF784KFX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF784KFX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR746ZPP age=unknown description=ENCFF784KFX_9state_DNase_ donor=ENCDO315JDK sex=unknown view=ENCSR746ZPP 
+		view ENCSR746ZPP
+

@@ -1,0 +1,1123 @@
+
+track primary_cell_CD14_positive_monocyte
+parent super_primary_cell
+compositeTrack on
+shortLabel CD14-positive mon
+longLabel CD14-positive monocyte (27 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO028NGF=ENCDO028NGF ENCDO190HXC=ENCDO190HXC ENCDO265AAA=ENCDO265AAA ENCDO266AAA=ENCDO266AAA ENCDO579CCQ=ENCDO579CCQ 
+subGroup2 age age a21_year=21&#32;year a34_year=34&#32;year a37_year=37&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000ASJ=ENCSR000ASJ ENCSR000ASK=ENCSR000ASK ENCSR000ASL=ENCSR000ASL ENCSR000ASM=ENCSR000ASM ENCSR000ASN=ENCSR000ASN ENCSR000ASP=ENCSR000ASP ENCSR000ASQ=ENCSR000ASQ ENCSR000ATF=ENCSR000ATF ENCSR000ATN=ENCSR000ATN ENCSR000DWL=ENCSR000DWL ENCSR000DWM=ENCSR000DWM ENCSR000ELE=ENCSR000ELE ENCSR000EPK=ENCSR000EPK ENCSR012PII=ENCSR012PII ENCSR080XUB=ENCSR080XUB ENCSR236JVK=ENCSR236JVK ENCSR244XWL=ENCSR244XWL ENCSR400VWA=ENCSR400VWA ENCSR452DCM=ENCSR452DCM ENCSR674JIL=ENCSR674JIL ENCSR695AUY=ENCSR695AUY ENCSR796FCS=ENCSR796FCS bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ELE_ENCFF654GXP
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO266AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF654GXP/@@download/ENCFF654GXP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ELE CD14_positive_monocyte_female (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ELE age=unknown description=ENCSR000ELE_CD14_positive_monocyte_female_read_depth_normalized_signal_ donor=ENCDO266AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ELE
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ELE
+	visibility dense
+	type bigBed
+
+		track ENCSR000ELE_ENCFF531DDA
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ELE off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO266AAA label=unknown view=ENCSR000ELE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF531DDA/@@download/ENCFF531DDA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ELE CD14_positive_monocyte_female (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ELE age=unknown description=ENCSR000ELE_CD14_positive_monocyte_female_peaks_ donor=ENCDO266AAA sex=female view=ENCSR000ELE 
+		view ENCSR000ELE
+
+	track ENCSR000EPK_ENCFF398USK
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO265AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF398USK/@@download/ENCFF398USK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EPK CD14_positive_monocyte_female (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EPK age=unknown description=ENCSR000EPK_CD14_positive_monocyte_female_read_depth_normalized_signal_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000EPK
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000EPK
+	visibility dense
+	type bigBed
+
+		track ENCSR000EPK_ENCFF617IIG
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000EPK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO265AAA label=unknown view=ENCSR000EPK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF617IIG/@@download/ENCFF617IIG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EPK CD14_positive_monocyte_female (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EPK age=unknown description=ENCSR000EPK_CD14_positive_monocyte_female_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000EPK 
+		view ENCSR000EPK
+
+		track ENCSR000EPK_ENCFF253IJW
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000EPK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO265AAA label=unknown view=ENCSR000EPK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF253IJW/@@download/ENCFF253IJW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF253IJW 9state-CTCF DNase-seq on human Monocytes CD14+ (RO01746)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPK age=unknown description=ENCFF253IJW_9state_CTCF_DNase_seq_on_human_Monocytes_CD14_RO01746_ donor=ENCDO265AAA sex=female view=ENCSR000EPK 
+		view ENCSR000EPK
+
+		track ENCSR000EPK_ENCFF902XHH
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000EPK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO265AAA label=unknown view=ENCSR000EPK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF902XHH/@@download/ENCFF902XHH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF902XHH 9state-DNase DNase-seq on human Monocytes CD14+ (RO01746)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPK age=unknown description=ENCFF902XHH_9state_DNase_DNase_seq_on_human_Monocytes_CD14_RO01746_ donor=ENCDO265AAA sex=female view=ENCSR000EPK 
+		view ENCSR000EPK
+
+		track ENCSR000EPK_ENCFF897CRR
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000EPK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO265AAA label=unknown view=ENCSR000EPK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF897CRR/@@download/ENCFF897CRR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF897CRR 5group DNase-seq on human Monocytes CD14+ (RO01746)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EPK age=unknown description=ENCFF897CRR_5group_DNase_seq_on_human_Monocytes_CD14_RO01746_ donor=ENCDO265AAA sex=female view=ENCSR000EPK 
+		view ENCSR000EPK
+
+	track ENCSR452DCM_ENCFF734CJO
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a21_year assay=DNase-seq donor=ENCDO190HXC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF734CJO/@@download/ENCFF734CJO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR452DCM CD14_positive_monocyte_male_adult_21_year_ (read-depth normalized si
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR452DCM age=21_year description=ENCSR452DCM_CD14_positive_monocyte_male_adult_21_year_read_depth_normalized_signal_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR452DCM
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR452DCM
+	visibility dense
+	type bigBed
+
+		track ENCSR452DCM_ENCFF882JLR
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR452DCM off
+		subGroups age=a21_year assay=DNase-seq donor=ENCDO190HXC label=unknown view=ENCSR452DCM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF882JLR/@@download/ENCFF882JLR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR452DCM CD14_positive_monocyte_male_adult_21_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR452DCM age=21_year description=ENCSR452DCM_CD14_positive_monocyte_male_adult_21_year_peaks_ donor=ENCDO190HXC sex=male view=ENCSR452DCM 
+		view ENCSR452DCM
+
+	track ENCSR674JIL_ENCFF861JZY
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a37_year assay=DNase-seq donor=ENCDO028NGF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF861JZY/@@download/ENCFF861JZY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR674JIL CD14_positive_monocyte_male_adult_37_years_ (read-depth normalized s
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR674JIL age=37_year description=ENCSR674JIL_CD14_positive_monocyte_male_adult_37_years_read_depth_normalized_signal_ donor=ENCDO028NGF sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR674JIL
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR674JIL
+	visibility dense
+	type bigBed
+
+		track ENCSR674JIL_ENCFF375JUA
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR674JIL off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO028NGF label=unknown view=ENCSR674JIL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF375JUA/@@download/ENCFF375JUA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR674JIL CD14_positive_monocyte_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR674JIL age=37_year description=ENCSR674JIL_CD14_positive_monocyte_male_adult_37_years_peaks_ donor=ENCDO028NGF sex=male view=ENCSR674JIL 
+		view ENCSR674JIL
+
+		track ENCSR674JIL_ENCFF934EZA
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR674JIL off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO028NGF label=unknown view=ENCSR674JIL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF934EZA/@@download/ENCFF934EZA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF934EZA 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR674JIL age=37_year description=ENCFF934EZA_9state_DNase_ donor=ENCDO028NGF sex=male view=ENCSR674JIL 
+		view ENCSR674JIL
+
+		track ENCSR674JIL_ENCFF967MJU
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR674JIL off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO028NGF label=unknown view=ENCSR674JIL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF967MJU/@@download/ENCFF967MJU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF967MJU 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR674JIL age=37_year description=ENCFF967MJU_5group_ donor=ENCDO028NGF sex=male view=ENCSR674JIL 
+		view ENCSR674JIL
+
+		track ENCSR674JIL_ENCFF828ULU
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR674JIL off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO028NGF label=unknown view=ENCSR674JIL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF828ULU/@@download/ENCFF828ULU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF828ULU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR674JIL age=37_year description=ENCFF828ULU_9state_H3K27ac_ donor=ENCDO028NGF sex=male view=ENCSR674JIL 
+		view ENCSR674JIL
+
+		track ENCSR674JIL_ENCFF706TTT
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR674JIL off
+		subGroups age=a37_year assay=DNase-seq donor=ENCDO028NGF label=unknown view=ENCSR674JIL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF706TTT/@@download/ENCFF706TTT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF706TTT 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR674JIL age=37_year description=ENCFF706TTT_9state_H3K4me3_ donor=ENCDO028NGF sex=male view=ENCSR674JIL 
+		view ENCSR674JIL
+
+	track ENCSR695AUY_ENCFF797QJP
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF797QJP/@@download/ENCFF797QJP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR695AUY CD14_positive_monocyte_female_adult_34_years_ (read-depth normalized
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR695AUY age=34_year description=ENCSR695AUY_CD14_positive_monocyte_female_adult_34_years_read_depth_normalized_signal_ donor=ENCDO579CCQ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR695AUY
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR695AUY
+	visibility dense
+	type bigBed
+
+		track ENCSR695AUY_ENCFF487NXE
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR695AUY off
+		subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=ENCSR695AUY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF487NXE/@@download/ENCFF487NXE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR695AUY CD14_positive_monocyte_female_adult_34_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR695AUY age=34_year description=ENCSR695AUY_CD14_positive_monocyte_female_adult_34_years_peaks_ donor=ENCDO579CCQ sex=female view=ENCSR695AUY 
+		view ENCSR695AUY
+
+		track ENCSR695AUY_ENCFF245AMN
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR695AUY off
+		subGroups age=a34_year assay=DNase-seq donor=ENCDO579CCQ label=unknown view=ENCSR695AUY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF245AMN/@@download/ENCFF245AMN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF245AMN 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR695AUY age=34_year description=ENCFF245AMN_9state_DNase_ donor=ENCDO579CCQ sex=female view=ENCSR695AUY 
+		view ENCSR695AUY
+
+	track ENCSR000ASN_ENCFF324KBU
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF324KBU/@@download/ENCFF324KBU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000ASN CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASN age=unknown description=ENCSR000ASN_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ASN
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ASN
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASN_ENCFF202JKC
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ASN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K4me3 view=ENCSR000ASN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF202JKC/@@download/ENCFF202JKC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000ASN CD14_positive_monocyte_female (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000ASN age=unknown description=ENCSR000ASN_CD14_positive_monocyte_female_replicated_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ASN 
+		view ENCSR000ASN
+
+		track ENCSR000ASN_ENCFF740KNG
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ASN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K4me3 view=ENCSR000ASN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF740KNG/@@download/ENCFF740KNG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF740KNG 5group H3K4me3 ChIP-seq on human monocytes CD14+ (RO01746)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ASN age=unknown description=ENCFF740KNG_5group_H3K4me3_ChIP_seq_on_human_monocytes_CD14_RO01746_ donor=ENCDO265AAA sex=female view=ENCSR000ASN 
+		view ENCSR000ASN
+
+	track ENCSR000DWL_ENCFF485XYG
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF485XYG/@@download/ENCFF485XYG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DWL CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DWL age=unknown description=ENCSR000DWL_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000DWL
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000DWL
+	visibility dense
+	type bigBed
+
+		track ENCSR000DWL_ENCFF351RFD
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000DWL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K4me3 view=ENCSR000DWL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF351RFD/@@download/ENCFF351RFD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DWL CD14_positive_monocyte_female (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DWL age=unknown description=ENCSR000DWL_CD14_positive_monocyte_female_stable_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000DWL 
+		view ENCSR000DWL
+
+	track ENCSR796FCS_ENCFF231OTU
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF231OTU/@@download/ENCFF231OTU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR796FCS CD14_positive_monocyte_male_adult_37_years_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR796FCS age=37_year description=ENCSR796FCS_CD14_positive_monocyte_male_adult_37_years_fold_change_over_control_ donor=ENCDO028NGF sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR796FCS
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR796FCS
+	visibility dense
+	type bigBed
+
+		track ENCSR796FCS_ENCFF814QRI
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR796FCS off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR796FCS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF814QRI/@@download/ENCFF814QRI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR796FCS CD14_positive_monocyte_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR796FCS age=37_year description=ENCSR796FCS_CD14_positive_monocyte_male_adult_37_years_peaks_ donor=ENCDO028NGF sex=male view=ENCSR796FCS 
+		view ENCSR796FCS
+
+		track ENCSR796FCS_ENCFF934EZA
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR796FCS off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR796FCS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF934EZA/@@download/ENCFF934EZA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF934EZA 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR796FCS age=37_year description=ENCFF934EZA_9state_DNase_ donor=ENCDO028NGF sex=male view=ENCSR796FCS 
+		view ENCSR796FCS
+
+		track ENCSR796FCS_ENCFF967MJU
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR796FCS off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR796FCS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF967MJU/@@download/ENCFF967MJU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF967MJU 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR796FCS age=37_year description=ENCFF967MJU_5group_ donor=ENCDO028NGF sex=male view=ENCSR796FCS 
+		view ENCSR796FCS
+
+		track ENCSR796FCS_ENCFF828ULU
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR796FCS off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR796FCS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF828ULU/@@download/ENCFF828ULU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF828ULU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR796FCS age=37_year description=ENCFF828ULU_9state_H3K27ac_ donor=ENCDO028NGF sex=male view=ENCSR796FCS 
+		view ENCSR796FCS
+
+		track ENCSR796FCS_ENCFF706TTT
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR796FCS off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO028NGF label=H3K4me3 view=ENCSR796FCS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF706TTT/@@download/ENCFF706TTT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF706TTT 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR796FCS age=37_year description=ENCFF706TTT_9state_H3K4me3_ donor=ENCDO028NGF sex=male view=ENCSR796FCS 
+		view ENCSR796FCS
+
+	track ENCSR000ASJ_ENCFF931PZJ
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF931PZJ/@@download/ENCFF931PZJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000ASJ CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASJ age=unknown description=ENCSR000ASJ_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ASJ
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ASJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASJ_ENCFF954GIU
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ASJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K27ac view=ENCSR000ASJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF954GIU/@@download/ENCFF954GIU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000ASJ CD14_positive_monocyte_female (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000ASJ age=unknown description=ENCSR000ASJ_CD14_positive_monocyte_female_replicated_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ASJ 
+		view ENCSR000ASJ
+
+	track ENCSR000ATN_ENCFF114WQR
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF114WQR/@@download/ENCFF114WQR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000ATN CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ATN age=unknown description=ENCSR000ATN_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ATN
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ATN
+	visibility dense
+	type bigBed
+
+		track ENCSR000ATN_ENCFF218RCT
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ATN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=CTCF view=ENCSR000ATN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF218RCT/@@download/ENCFF218RCT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000ATN CD14_positive_monocyte_female (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000ATN age=unknown description=ENCSR000ATN_CD14_positive_monocyte_female_optimal_idr_thresholded_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ATN 
+		view ENCSR000ATN
+
+		track ENCSR000ATN_ENCFF253IJW
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ATN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=CTCF view=ENCSR000ATN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF253IJW/@@download/ENCFF253IJW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF253IJW 9state-CTCF CTCF ChIP-seq on human Monocytes-CD14+ (RO01746)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ATN age=unknown description=ENCFF253IJW_9state_CTCF_CTCF_ChIP_seq_on_human_Monocytes_CD14_RO01746_ donor=ENCDO265AAA sex=female view=ENCSR000ATN 
+		view ENCSR000ATN
+
+		track ENCSR000ATN_ENCFF902XHH
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ATN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=CTCF view=ENCSR000ATN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF902XHH/@@download/ENCFF902XHH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF902XHH 9state-DNase CTCF ChIP-seq on human Monocytes-CD14+ (RO01746)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ATN age=unknown description=ENCFF902XHH_9state_DNase_CTCF_ChIP_seq_on_human_Monocytes_CD14_RO01746_ donor=ENCDO265AAA sex=female view=ENCSR000ATN 
+		view ENCSR000ATN
+
+		track ENCSR000ATN_ENCFF897CRR
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ATN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=CTCF view=ENCSR000ATN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF897CRR/@@download/ENCFF897CRR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF897CRR 5group CTCF ChIP-seq on human Monocytes-CD14+ (RO01746)
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ATN age=unknown description=ENCFF897CRR_5group_CTCF_ChIP_seq_on_human_Monocytes_CD14_RO01746_ donor=ENCDO265AAA sex=female view=ENCSR000ATN 
+		view ENCSR000ATN
+
+	track ENCSR012PII_ENCFF437JSB
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF437JSB/@@download/ENCFF437JSB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR012PII CD14_positive_monocyte_male_adult_21_year_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR012PII age=21_year description=ENCSR012PII_CD14_positive_monocyte_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR012PII
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR012PII
+	visibility dense
+	type bigBed
+
+		track ENCSR012PII_ENCFF816YAW
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR012PII off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27ac view=ENCSR012PII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF816YAW/@@download/ENCFF816YAW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR012PII CD14_positive_monocyte_male_adult_21_year_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR012PII age=21_year description=ENCSR012PII_CD14_positive_monocyte_male_adult_21_year_peaks_ donor=ENCDO190HXC sex=male view=ENCSR012PII 
+		view ENCSR012PII
+
+		track ENCSR012PII_ENCFF934EZA
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR012PII off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27ac view=ENCSR012PII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF934EZA/@@download/ENCFF934EZA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF934EZA 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR012PII age=21_year description=ENCFF934EZA_9state_DNase_ donor=ENCDO190HXC sex=male view=ENCSR012PII 
+		view ENCSR012PII
+
+		track ENCSR012PII_ENCFF967MJU
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR012PII off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27ac view=ENCSR012PII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF967MJU/@@download/ENCFF967MJU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF967MJU 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR012PII age=21_year description=ENCFF967MJU_5group_ donor=ENCDO190HXC sex=male view=ENCSR012PII 
+		view ENCSR012PII
+
+		track ENCSR012PII_ENCFF828ULU
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR012PII off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27ac view=ENCSR012PII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF828ULU/@@download/ENCFF828ULU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF828ULU 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR012PII age=21_year description=ENCFF828ULU_9state_H3K27ac_ donor=ENCDO190HXC sex=male view=ENCSR012PII 
+		view ENCSR012PII
+
+		track ENCSR012PII_ENCFF706TTT
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR012PII off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27ac view=ENCSR012PII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF706TTT/@@download/ENCFF706TTT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF706TTT 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR012PII age=21_year description=ENCFF706TTT_9state_H3K4me3_ donor=ENCDO190HXC sex=male view=ENCSR012PII 
+		view ENCSR012PII
+
+	track ENCSR000CKW_ENCFF471CPW
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=CAGE donor=ENCDO266AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF471CPW/@@download/ENCFF471CPW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CKW CD14_positive_monocyte_female (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CKW age=unknown description=ENCSR000CKW_CD14_positive_monocyte_female_plus_strand_signal_of_unique_reads_ donor=ENCDO266AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000CTY_ENCFF135GLY
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO265AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF135GLY/@@download/ENCFF135GLY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CTY CD14_positive_monocyte_female (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CTY age=unknown description=ENCSR000CTY_CD14_positive_monocyte_female_plus_strand_signal_of_unique_reads_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000CUC_ENCFF665WHG
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO266AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF665WHG/@@download/ENCFF665WHG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CUC CD14_positive_monocyte_female (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CUC age=unknown description=ENCSR000CUC_CD14_positive_monocyte_female_plus_strand_signal_of_unique_reads_ donor=ENCDO266AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000CVN_ENCFF047ZEW
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO266AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF047ZEW/@@download/ENCFF047ZEW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CVN CD14_positive_monocyte_female (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CVN age=unknown description=ENCSR000CVN_CD14_positive_monocyte_female_plus_strand_signal_of_unique_reads_ donor=ENCDO266AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR905LVO_ENCFF818CUW
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO028NGF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF818CUW/@@download/ENCFF818CUW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR905LVO CD14_positive_monocyte_male_adult_37_years_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR905LVO age=37_year description=ENCSR905LVO_CD14_positive_monocyte_male_adult_37_years_signal_of_unique_reads_ donor=ENCDO028NGF sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000ASK_ENCFF270HPH
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF270HPH/@@download/ENCFF270HPH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000ASK CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASK age=unknown description=ENCSR000ASK_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ASK
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ASK
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASK_ENCFF462SDG
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ASK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K27me3 view=ENCSR000ASK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF462SDG/@@download/ENCFF462SDG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000ASK CD14_positive_monocyte_female (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000ASK age=unknown description=ENCSR000ASK_CD14_positive_monocyte_female_replicated_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ASK 
+		view ENCSR000ASK
+
+	track ENCSR000DWM_ENCFF518GTJ
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF518GTJ/@@download/ENCFF518GTJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DWM CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DWM age=unknown description=ENCSR000DWM_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000DWM
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000DWM
+	visibility dense
+	type bigBed
+
+		track ENCSR000DWM_ENCFF841IES
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000DWM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K27me3 view=ENCSR000DWM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF841IES/@@download/ENCFF841IES.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DWM CD14_positive_monocyte_female (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DWM age=unknown description=ENCSR000DWM_CD14_positive_monocyte_female_stable_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000DWM 
+		view ENCSR000DWM
+
+	track ENCSR080XUB_ENCFF557YRZ
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF557YRZ/@@download/ENCFF557YRZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR080XUB CD14_positive_monocyte_male_adult_21_year_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR080XUB age=21_year description=ENCSR080XUB_CD14_positive_monocyte_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR080XUB
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR080XUB
+	visibility dense
+	type bigBed
+
+		track ENCSR080XUB_ENCFF848KCZ
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR080XUB off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K27me3 view=ENCSR080XUB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF848KCZ/@@download/ENCFF848KCZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR080XUB CD14_positive_monocyte_male_adult_21_year_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR080XUB age=21_year description=ENCSR080XUB_CD14_positive_monocyte_male_adult_21_year_peaks_ donor=ENCDO190HXC sex=male view=ENCSR080XUB 
+		view ENCSR080XUB
+
+	track ENCSR000ASL_ENCFF332QVE
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF332QVE/@@download/ENCFF332QVE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000ASL CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASL age=unknown description=ENCSR000ASL_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ASL
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ASL
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASL_ENCFF488SSN
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ASL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K36me3 view=ENCSR000ASL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF488SSN/@@download/ENCFF488SSN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000ASL CD14_positive_monocyte_female (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000ASL age=unknown description=ENCSR000ASL_CD14_positive_monocyte_female_replicated_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ASL 
+		view ENCSR000ASL
+
+	track ENCSR244XWL_ENCFF064OOI
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF064OOI/@@download/ENCFF064OOI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR244XWL CD14_positive_monocyte_male_adult_21_year_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR244XWL age=21_year description=ENCSR244XWL_CD14_positive_monocyte_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR244XWL
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR244XWL
+	visibility dense
+	type bigBed
+
+		track ENCSR244XWL_ENCFF287PZD
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR244XWL off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K36me3 view=ENCSR244XWL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF287PZD/@@download/ENCFF287PZD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR244XWL CD14_positive_monocyte_male_adult_21_year_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR244XWL age=21_year description=ENCSR244XWL_CD14_positive_monocyte_male_adult_21_year_peaks_ donor=ENCDO190HXC sex=male view=ENCSR244XWL 
+		view ENCSR244XWL
+
+	track ENCSR000ASM_ENCFF731YSQ
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF731YSQ/@@download/ENCFF731YSQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000ASM CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASM age=unknown description=ENCSR000ASM_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ASM
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ASM
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASM_ENCFF954MCG
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ASM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K4me1 view=ENCSR000ASM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF954MCG/@@download/ENCFF954MCG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000ASM CD14_positive_monocyte_female (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000ASM age=unknown description=ENCSR000ASM_CD14_positive_monocyte_female_replicated_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ASM 
+		view ENCSR000ASM
+
+	track ENCSR400VWA_ENCFF929UOK
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF929UOK/@@download/ENCFF929UOK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR400VWA CD14_positive_monocyte_male_adult_21_year_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR400VWA age=21_year description=ENCSR400VWA_CD14_positive_monocyte_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR400VWA
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR400VWA
+	visibility dense
+	type bigBed
+
+		track ENCSR400VWA_ENCFF563WHD
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR400VWA off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K4me1 view=ENCSR400VWA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF563WHD/@@download/ENCFF563WHD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR400VWA CD14_positive_monocyte_male_adult_21_year_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR400VWA age=21_year description=ENCSR400VWA_CD14_positive_monocyte_male_adult_21_year_peaks_ donor=ENCDO190HXC sex=male view=ENCSR400VWA 
+		view ENCSR400VWA
+
+	track ENCSR000ATF_ENCFF626RWS
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF626RWS/@@download/ENCFF626RWS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR000ATF CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ATF age=unknown description=ENCSR000ATF_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ATF
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ATF
+	visibility dense
+	type bigBed
+
+		track ENCSR000ATF_ENCFF742OYA
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ATF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K9ac view=ENCSR000ATF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF742OYA/@@download/ENCFF742OYA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR000ATF CD14_positive_monocyte_female (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR000ATF age=unknown description=ENCSR000ATF_CD14_positive_monocyte_female_replicated_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ATF 
+		view ENCSR000ATF
+
+	track ENCSR000ASP_ENCFF427OJS
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF427OJS/@@download/ENCFF427OJS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR000ASP CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASP age=unknown description=ENCSR000ASP_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ASP
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ASP
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASP_ENCFF377LMW
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ASP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H3K9me3 view=ENCSR000ASP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF377LMW/@@download/ENCFF377LMW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR000ASP CD14_positive_monocyte_female (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR000ASP age=unknown description=ENCSR000ASP_CD14_positive_monocyte_female_replicated_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ASP 
+		view ENCSR000ASP
+
+	track ENCSR236JVK_ENCFF256KXQ
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF256KXQ/@@download/ENCFF256KXQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR236JVK CD14_positive_monocyte_male_adult_21_year_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR236JVK age=21_year description=ENCSR236JVK_CD14_positive_monocyte_male_adult_21_year_fold_change_over_control_ donor=ENCDO190HXC sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR236JVK
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR236JVK
+	visibility dense
+	type bigBed
+
+		track ENCSR236JVK_ENCFF809YEO
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR236JVK off
+		subGroups age=a21_year assay=ChIP-seq donor=ENCDO190HXC label=H3K9me3 view=ENCSR236JVK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF809YEO/@@download/ENCFF809YEO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR236JVK CD14_positive_monocyte_male_adult_21_year_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR236JVK age=21_year description=ENCSR236JVK_CD14_positive_monocyte_male_adult_21_year_peaks_ donor=ENCDO190HXC sex=male view=ENCSR236JVK 
+		view ENCSR236JVK
+
+	track ENCSR000ASQ_ENCFF192LHK
+	parent primary_cell_CD14_positive_monocyte off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H4K20me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF192LHK/@@download/ENCFF192LHK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K20me1
+	longLabel ENCSR000ASQ CD14_positive_monocyte_female (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ASQ age=unknown description=ENCSR000ASQ_CD14_positive_monocyte_female_fold_change_over_control_ donor=ENCDO265AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_CD14_positive_monocyte_view_ENCSR000ASQ
+	parent primary_cell_CD14_positive_monocyte off
+	view ENCSR000ASQ
+	visibility dense
+	type bigBed
+
+		track ENCSR000ASQ_ENCFF403UBK
+		parent primary_cell_CD14_positive_monocyte_view_ENCSR000ASQ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO265AAA label=H4K20me1 view=ENCSR000ASQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF403UBK/@@download/ENCFF403UBK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K20me1
+		longLabel ENCSR000ASQ CD14_positive_monocyte_female (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ASQ age=unknown description=ENCSR000ASQ_CD14_positive_monocyte_female_replicated_peaks_ donor=ENCDO265AAA sex=female view=ENCSR000ASQ 
+		view ENCSR000ASQ
+

@@ -1,0 +1,216 @@
+
+track tissue_brown_adipose_tissue
+parent super_tissue
+compositeTrack on
+shortLabel brown adipose tis
+longLabel brown adipose tissue (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a24_week=24&#32;week 
+subGroup3 view view ENCSR000CEZ=ENCSR000CEZ ENCSR000CFA=ENCSR000CFA ENCSR000CFB=ENCSR000CFB bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CFB_ENCFF966UOI
+	parent tissue_brown_adipose_tissue off
+	subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF966UOI/@@download/ENCFF966UOI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000CFB C57BL_6_brown_adipose_tissue_male_adult_24_weeks_ (fold change over 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFB age=24_week description=ENCSR000CFB_C57BL_6_brown_adipose_tissue_male_adult_24_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_brown_adipose_tissue_view_ENCSR000CFB
+	parent tissue_brown_adipose_tissue off
+	view ENCSR000CFB
+	visibility dense
+	type bigBed
+
+		track ENCSR000CFB_ENCFF628EOR
+		parent tissue_brown_adipose_tissue_view_ENCSR000CFB off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CFB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF628EOR/@@download/ENCFF628EOR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000CFB C57BL_6_brown_adipose_tissue_male_adult_24_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000CFB age=24_week description=ENCSR000CFB_C57BL_6_brown_adipose_tissue_male_adult_24_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CFB 
+		view ENCSR000CFB
+
+		track ENCSR000CFB_ENCFF416PSN
+		parent tissue_brown_adipose_tissue_view_ENCSR000CFB off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CFB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF416PSN/@@download/ENCFF416PSN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF416PSN 5group H3K4me3 ChIP-seq on 24-week mouse BAT
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFB age=24_week description=ENCFF416PSN_5group_H3K4me3_ChIP_seq_on_24_week_mouse_BAT donor=ENCDO956IXV sex=unknown view=ENCSR000CFB 
+		view ENCSR000CFB
+
+		track ENCSR000CFB_ENCFF652YOL
+		parent tissue_brown_adipose_tissue_view_ENCSR000CFB off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CFB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF652YOL/@@download/ENCFF652YOL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF652YOL 9state-H3K27ac H3K4me3 ChIP-seq on 24-week mouse BAT
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFB age=24_week description=ENCFF652YOL_9state_H3K27ac_H3K4me3_ChIP_seq_on_24_week_mouse_BAT donor=ENCDO956IXV sex=unknown view=ENCSR000CFB 
+		view ENCSR000CFB
+
+		track ENCSR000CFB_ENCFF842WJO
+		parent tissue_brown_adipose_tissue_view_ENCSR000CFB off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CFB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF842WJO/@@download/ENCFF842WJO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF842WJO 9state-H3K4me3 H3K4me3 ChIP-seq on 24-week mouse BAT
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFB age=24_week description=ENCFF842WJO_9state_H3K4me3_H3K4me3_ChIP_seq_on_24_week_mouse_BAT donor=ENCDO956IXV sex=unknown view=ENCSR000CFB 
+		view ENCSR000CFB
+
+	track ENCSR000CEZ_ENCFF012PBY
+	parent tissue_brown_adipose_tissue off
+	subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF012PBY/@@download/ENCFF012PBY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000CEZ C57BL_6_brown_adipose_tissue_male_adult_24_weeks_ (fold change over 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CEZ age=24_week description=ENCSR000CEZ_C57BL_6_brown_adipose_tissue_male_adult_24_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_brown_adipose_tissue_view_ENCSR000CEZ
+	parent tissue_brown_adipose_tissue off
+	view ENCSR000CEZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000CEZ_ENCFF519TMV
+		parent tissue_brown_adipose_tissue_view_ENCSR000CEZ off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CEZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF519TMV/@@download/ENCFF519TMV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000CEZ C57BL_6_brown_adipose_tissue_male_adult_24_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000CEZ age=24_week description=ENCSR000CEZ_C57BL_6_brown_adipose_tissue_male_adult_24_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CEZ 
+		view ENCSR000CEZ
+
+		track ENCSR000CEZ_ENCFF416PSN
+		parent tissue_brown_adipose_tissue_view_ENCSR000CEZ off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CEZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF416PSN/@@download/ENCFF416PSN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF416PSN 5group H3K27ac ChIP-seq on 24-week mouse BAT
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CEZ age=24_week description=ENCFF416PSN_5group_H3K27ac_ChIP_seq_on_24_week_mouse_BAT donor=ENCDO956IXV sex=unknown view=ENCSR000CEZ 
+		view ENCSR000CEZ
+
+		track ENCSR000CEZ_ENCFF652YOL
+		parent tissue_brown_adipose_tissue_view_ENCSR000CEZ off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CEZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF652YOL/@@download/ENCFF652YOL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF652YOL 9state-H3K27ac H3K27ac ChIP-seq on 24-week mouse BAT
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CEZ age=24_week description=ENCFF652YOL_9state_H3K27ac_H3K27ac_ChIP_seq_on_24_week_mouse_BAT donor=ENCDO956IXV sex=unknown view=ENCSR000CEZ 
+		view ENCSR000CEZ
+
+		track ENCSR000CEZ_ENCFF842WJO
+		parent tissue_brown_adipose_tissue_view_ENCSR000CEZ off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CEZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF842WJO/@@download/ENCFF842WJO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF842WJO 9state-H3K4me3 H3K27ac ChIP-seq on 24-week mouse BAT
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CEZ age=24_week description=ENCFF842WJO_9state_H3K4me3_H3K27ac_ChIP_seq_on_24_week_mouse_BAT donor=ENCDO956IXV sex=unknown view=ENCSR000CEZ 
+		view ENCSR000CEZ
+
+	track ENCSR000CHN_ENCFF573ATZ
+	parent tissue_brown_adipose_tissue off
+	subGroups age=a24_week assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF573ATZ/@@download/ENCFF573ATZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CHN C57BL_6_brown_adipose_tissue_male_adult_24_weeks_ (signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CHN age=24_week description=ENCSR000CHN_C57BL_6_brown_adipose_tissue_male_adult_24_weeks_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CFA_ENCFF494KRZ
+	parent tissue_brown_adipose_tissue off
+	subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF494KRZ/@@download/ENCFF494KRZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000CFA C57BL_6_brown_adipose_tissue_male_adult_24_weeks_ (fold change over 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFA age=24_week description=ENCSR000CFA_C57BL_6_brown_adipose_tissue_male_adult_24_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_brown_adipose_tissue_view_ENCSR000CFA
+	parent tissue_brown_adipose_tissue off
+	view ENCSR000CFA
+	visibility dense
+	type bigBed
+
+		track ENCSR000CFA_ENCFF425DMN
+		parent tissue_brown_adipose_tissue_view_ENCSR000CFA off
+		subGroups age=a24_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR000CFA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF425DMN/@@download/ENCFF425DMN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000CFA C57BL_6_brown_adipose_tissue_male_adult_24_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000CFA age=24_week description=ENCSR000CFA_C57BL_6_brown_adipose_tissue_male_adult_24_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CFA 
+		view ENCSR000CFA
+

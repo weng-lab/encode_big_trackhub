@@ -1,0 +1,168 @@
+
+track tissue_frontal_cortex
+parent super_tissue
+compositeTrack on
+shortLabel frontal cortex
+longLabel frontal cortex (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO006AAA=ENCDO006AAA ENCDO065AAA=ENCDO065AAA ENCDO311AAA=ENCDO311AAA ENCDO312AAA=ENCDO312AAA 
+subGroup2 age age a22_week=22&#32;week a35_year=35&#32;year a67_year=67&#32;year a80_year=80&#32;year 
+subGroup3 view view ENCSR000DBW=ENCSR000DBW ENCSR000EIK=ENCSR000EIK ENCSR000EIY=ENCSR000EIY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EIK_ENCFF961XGT
+	parent tissue_frontal_cortex off
+	subGroups age=a35_year assay=DNase-seq donor=ENCDO006AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF961XGT/@@download/ENCFF961XGT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EIK frontal_cortex_male_adult_27_years_and_male_adult_35_years_ (read-de
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EIK age=35_year description=ENCSR000EIK_frontal_cortex_male_adult_27_years_and_male_adult_35_years_read_depth_normalized_signal_ donor=ENCDO006AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_frontal_cortex_view_ENCSR000EIK
+	parent tissue_frontal_cortex off
+	view ENCSR000EIK
+	visibility dense
+	type bigBed
+
+		track ENCSR000EIK_ENCFF318UBZ
+		parent tissue_frontal_cortex_view_ENCSR000EIK off
+		subGroups age=a35_year assay=DNase-seq donor=ENCDO006AAA label=unknown view=ENCSR000EIK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF318UBZ/@@download/ENCFF318UBZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EIK frontal_cortex_male_adult_27_years_and_male_adult_35_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EIK age=35_year description=ENCSR000EIK_frontal_cortex_male_adult_27_years_and_male_adult_35_years_peaks_ donor=ENCDO006AAA sex=male view=ENCSR000EIK 
+		view ENCSR000EIK
+
+	track ENCSR000EIY_ENCFF584HTG
+	parent tissue_frontal_cortex off
+	subGroups age=a67_year assay=DNase-seq donor=ENCDO312AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF584HTG/@@download/ENCFF584HTG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EIY frontal_cortex_female_adult_67_years_and_female_adult_80_years_ (rea
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EIY age=67_year description=ENCSR000EIY_frontal_cortex_female_adult_67_years_and_female_adult_80_years_read_depth_normalized_signal_ donor=ENCDO312AAA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_frontal_cortex_view_ENCSR000EIY
+	parent tissue_frontal_cortex off
+	view ENCSR000EIY
+	visibility dense
+	type bigBed
+
+		track ENCSR000EIY_ENCFF176GSM
+		parent tissue_frontal_cortex_view_ENCSR000EIY off
+		subGroups age=a67_year assay=DNase-seq donor=ENCDO312AAA label=unknown view=ENCSR000EIY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF176GSM/@@download/ENCFF176GSM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EIY frontal_cortex_female_adult_67_years_and_female_adult_80_years_ (pea
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EIY age=67_year description=ENCSR000EIY_frontal_cortex_female_adult_67_years_and_female_adult_80_years_peaks_ donor=ENCDO312AAA sex=female view=ENCSR000EIY 
+		view ENCSR000EIY
+
+	track ENCSR000AEY_ENCFF024NDI
+	parent tissue_frontal_cortex off
+	subGroups age=a22_week assay=RNA-seq donor=ENCDO065AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF024NDI/@@download/ENCFF024NDI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AEY frontal_cortex_female_embryo_20_weeks_and_male_embryo_22_weeks_ (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AEY age=22_week description=ENCSR000AEY_frontal_cortex_female_embryo_20_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO065AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000AFS_ENCFF028GCR
+	parent tissue_frontal_cortex off
+	subGroups age=a22_week assay=RNA-seq donor=ENCDO065AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF028GCR/@@download/ENCFF028GCR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFS frontal_cortex_female_embryo_20_weeks_and_male_embryo_22_weeks_ (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFS age=22_week description=ENCSR000AFS_frontal_cortex_female_embryo_20_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO065AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000AGM_ENCFF674GEQ
+	parent tissue_frontal_cortex off
+	subGroups age=a22_week assay=RAMPAGE donor=ENCDO065AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF674GEQ/@@download/ENCFF674GEQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR000AGM frontal_cortex_female_embryo_20_weeks_and_male_embryo_22_weeks_ (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGM age=22_week description=ENCSR000AGM_frontal_cortex_female_embryo_20_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO065AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000DBW_ENCFF000THH
+	parent tissue_frontal_cortex off
+	subGroups age=a80_year assay=FAIRE-seq donor=ENCDO311AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000THH/@@download/ENCFF000THH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel FAIRE-seq
+	longLabel ENCSR000DBW frontal_cortex_female_adult_67_years_and_female_adult_80_years_ (sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DBW age=80_year description=ENCSR000DBW_frontal_cortex_female_adult_67_years_and_female_adult_80_years_signal_ donor=ENCDO311AAA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_frontal_cortex_view_ENCSR000DBW
+	parent tissue_frontal_cortex off
+	view ENCSR000DBW
+	visibility dense
+	type bigBed
+
+		track ENCSR000DBW_ENCFF000THE
+		parent tissue_frontal_cortex_view_ENCSR000DBW off
+		subGroups age=a80_year assay=FAIRE-seq donor=ENCDO311AAA label=unknown view=ENCSR000DBW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000THE/@@download/ENCFF000THE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel FAIRE-seq
+		longLabel ENCSR000DBW frontal_cortex_female_adult_67_years_and_female_adult_80_years_ (pea
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DBW age=80_year description=ENCSR000DBW_frontal_cortex_female_adult_67_years_and_female_adult_80_years_peaks_ donor=ENCDO311AAA sex=female view=ENCSR000DBW 
+		view ENCSR000DBW
+

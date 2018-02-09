@@ -1,0 +1,289 @@
+
+track induced_pluripotent_stem_cell_line_iPS_18a
+parent super_induced_pluripotent_stem_cell_line
+compositeTrack on
+shortLabel iPS-18a
+longLabel iPS-18a (7 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO844VGJ=ENCDO844VGJ 
+subGroup2 age age a48_year=48&#32;year 
+subGroup3 view view ENCSR235APD=ENCSR235APD ENCSR429YAE=ENCSR429YAE ENCSR467FMR=ENCSR467FMR ENCSR505JQC=ENCSR505JQC ENCSR743JIT=ENCSR743JIT ENCSR842ASU=ENCSR842ASU ENCSR979TIC=ENCSR979TIC bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR505JQC_ENCFF637LKZ
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF637LKZ/@@download/ENCFF637LKZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR505JQC iPS_18a_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR505JQC age=48_year description=ENCSR505JQC_iPS_18a_female_adult_48_years_fold_change_over_control_ donor=ENCDO844VGJ sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR505JQC
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	view ENCSR505JQC
+	visibility dense
+	type bigBed
+
+		track ENCSR505JQC_ENCFF779COY
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR505JQC off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K4me3 view=ENCSR505JQC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF779COY/@@download/ENCFF779COY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR505JQC iPS_18a_female_adult_48_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR505JQC age=48_year description=ENCSR505JQC_iPS_18a_female_adult_48_years_stable_peaks_ donor=ENCDO844VGJ sex=female view=ENCSR505JQC 
+		view ENCSR505JQC
+
+	track ENCSR429YAE_ENCFF655PPS
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF655PPS/@@download/ENCFF655PPS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR429YAE iPS_18a_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR429YAE age=48_year description=ENCSR429YAE_iPS_18a_female_adult_48_years_fold_change_over_control_ donor=ENCDO844VGJ sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR429YAE
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	view ENCSR429YAE
+	visibility dense
+	type bigBed
+
+		track ENCSR429YAE_ENCFF758TRL
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR429YAE off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K27ac view=ENCSR429YAE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF758TRL/@@download/ENCFF758TRL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR429YAE iPS_18a_female_adult_48_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR429YAE age=48_year description=ENCSR429YAE_iPS_18a_female_adult_48_years_stable_peaks_ donor=ENCDO844VGJ sex=female view=ENCSR429YAE 
+		view ENCSR429YAE
+
+		track ENCSR429YAE_ENCFF920QRH
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR429YAE off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K27ac view=ENCSR429YAE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF920QRH/@@download/ENCFF920QRH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF920QRH 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR429YAE age=48_year description=ENCFF920QRH_5group_ donor=ENCDO844VGJ sex=female view=ENCSR429YAE 
+		view ENCSR429YAE
+
+		track ENCSR429YAE_ENCFF702XOZ
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR429YAE off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K27ac view=ENCSR429YAE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702XOZ/@@download/ENCFF702XOZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF702XOZ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR429YAE age=48_year description=ENCFF702XOZ_9state_H3K4me3_ donor=ENCDO844VGJ sex=female view=ENCSR429YAE 
+		view ENCSR429YAE
+
+	track ENCSR743JIT_ENCFF544AGT
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF544AGT/@@download/ENCFF544AGT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR743JIT iPS_18a_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR743JIT age=48_year description=ENCSR743JIT_iPS_18a_female_adult_48_years_fold_change_over_control_ donor=ENCDO844VGJ sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR743JIT
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	view ENCSR743JIT
+	visibility dense
+	type bigBed
+
+		track ENCSR743JIT_ENCFF851RIA
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR743JIT off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K27me3 view=ENCSR743JIT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF851RIA/@@download/ENCFF851RIA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR743JIT iPS_18a_female_adult_48_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR743JIT age=48_year description=ENCSR743JIT_iPS_18a_female_adult_48_years_peaks_ donor=ENCDO844VGJ sex=female view=ENCSR743JIT 
+		view ENCSR743JIT
+
+	track ENCSR467FMR_ENCFF817LRB
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF817LRB/@@download/ENCFF817LRB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR467FMR iPS_18a_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR467FMR age=48_year description=ENCSR467FMR_iPS_18a_female_adult_48_years_fold_change_over_control_ donor=ENCDO844VGJ sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR467FMR
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	view ENCSR467FMR
+	visibility dense
+	type bigBed
+
+		track ENCSR467FMR_ENCFF438TUV
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR467FMR off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K36me3 view=ENCSR467FMR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF438TUV/@@download/ENCFF438TUV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR467FMR iPS_18a_female_adult_48_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR467FMR age=48_year description=ENCSR467FMR_iPS_18a_female_adult_48_years_peaks_ donor=ENCDO844VGJ sex=female view=ENCSR467FMR 
+		view ENCSR467FMR
+
+	track ENCSR235APD_ENCFF325XSO
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF325XSO/@@download/ENCFF325XSO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR235APD iPS_18a_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR235APD age=48_year description=ENCSR235APD_iPS_18a_female_adult_48_years_fold_change_over_control_ donor=ENCDO844VGJ sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR235APD
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	view ENCSR235APD
+	visibility dense
+	type bigBed
+
+		track ENCSR235APD_ENCFF431RKX
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR235APD off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K4me1 view=ENCSR235APD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF431RKX/@@download/ENCFF431RKX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR235APD iPS_18a_female_adult_48_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR235APD age=48_year description=ENCSR235APD_iPS_18a_female_adult_48_years_stable_peaks_ donor=ENCDO844VGJ sex=female view=ENCSR235APD 
+		view ENCSR235APD
+
+	track ENCSR842ASU_ENCFF269LEI
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF269LEI/@@download/ENCFF269LEI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR842ASU iPS_18a_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR842ASU age=48_year description=ENCSR842ASU_iPS_18a_female_adult_48_years_fold_change_over_control_ donor=ENCDO844VGJ sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR842ASU
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	view ENCSR842ASU
+	visibility dense
+	type bigBed
+
+		track ENCSR842ASU_ENCFF210AOA
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR842ASU off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K9ac view=ENCSR842ASU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF210AOA/@@download/ENCFF210AOA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR842ASU iPS_18a_female_adult_48_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR842ASU age=48_year description=ENCSR842ASU_iPS_18a_female_adult_48_years_peaks_ donor=ENCDO844VGJ sex=female view=ENCSR842ASU 
+		view ENCSR842ASU
+
+	track ENCSR979TIC_ENCFF851JKF
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF851JKF/@@download/ENCFF851JKF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR979TIC iPS_18a_female_adult_48_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR979TIC age=48_year description=ENCSR979TIC_iPS_18a_female_adult_48_years_fold_change_over_control_ donor=ENCDO844VGJ sex=female view=bigWig 
+	view bigWig
+
+	track induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR979TIC
+	parent induced_pluripotent_stem_cell_line_iPS_18a off
+	view ENCSR979TIC
+	visibility dense
+	type bigBed
+
+		track ENCSR979TIC_ENCFF951YKU
+		parent induced_pluripotent_stem_cell_line_iPS_18a_view_ENCSR979TIC off
+		subGroups age=a48_year assay=ChIP-seq donor=ENCDO844VGJ label=H3K9me3 view=ENCSR979TIC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF951YKU/@@download/ENCFF951YKU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR979TIC iPS_18a_female_adult_48_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR979TIC age=48_year description=ENCSR979TIC_iPS_18a_female_adult_48_years_stable_peaks_ donor=ENCDO844VGJ sex=female view=ENCSR979TIC 
+		view ENCSR979TIC
+

@@ -1,0 +1,364 @@
+
+track primary_cell_bone_marrow_macrophage
+parent super_primary_cell
+compositeTrack on
+shortLabel bone marrow macro
+longLabel bone marrow macrophage (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO081AAA=ENCDO081AAA 
+subGroup2 age age a8_week=8&#32;week 
+subGroup3 view view ENCSR000CFD=ENCSR000CFD ENCSR000CFE=ENCSR000CFE ENCSR000CFF=ENCSR000CFF ENCSR000CFJ=ENCSR000CFJ ENCSR000CFK=ENCSR000CFK bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CFF_ENCFF186XGM
+	parent primary_cell_bone_marrow_macrophage off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF186XGM/@@download/ENCFF186XGM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000CFF C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFF age=8_week description=ENCSR000CFF_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bone_marrow_macrophage_view_ENCSR000CFF
+	parent primary_cell_bone_marrow_macrophage off
+	view ENCSR000CFF
+	visibility dense
+	type bigBed
+
+		track ENCSR000CFF_ENCFF352NOQ
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K4me3 view=ENCSR000CFF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF352NOQ/@@download/ENCFF352NOQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000CFF C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (replicated peaks
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000CFF age=8_week description=ENCSR000CFF_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_replicated_peaks_ donor=ENCDO081AAA sex=unknown view=ENCSR000CFF 
+		view ENCSR000CFF
+
+		track ENCSR000CFF_ENCFF992LUJ
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K4me3 view=ENCSR000CFF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF992LUJ/@@download/ENCFF992LUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF992LUJ 9state-CTCF H3K4me3 ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFF age=8_week description=ENCFF992LUJ_9state_CTCF_H3K4me3_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFF 
+		view ENCSR000CFF
+
+		track ENCSR000CFF_ENCFF302MHW
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K4me3 view=ENCSR000CFF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF302MHW/@@download/ENCFF302MHW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF302MHW 5group H3K4me3 ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFF age=8_week description=ENCFF302MHW_5group_H3K4me3_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFF 
+		view ENCSR000CFF
+
+		track ENCSR000CFF_ENCFF636PKA
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K4me3 view=ENCSR000CFF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF636PKA/@@download/ENCFF636PKA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF636PKA 9state-H3K27ac H3K4me3 ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFF age=8_week description=ENCFF636PKA_9state_H3K27ac_H3K4me3_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFF 
+		view ENCSR000CFF
+
+		track ENCSR000CFF_ENCFF506ZUC
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFF off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K4me3 view=ENCSR000CFF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF506ZUC/@@download/ENCFF506ZUC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF506ZUC 9state-H3K4me3 H3K4me3 ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFF age=8_week description=ENCFF506ZUC_9state_H3K4me3_H3K4me3_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFF 
+		view ENCSR000CFF
+
+	track ENCSR000CFD_ENCFF668SMR
+	parent primary_cell_bone_marrow_macrophage off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF668SMR/@@download/ENCFF668SMR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000CFD C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFD age=8_week description=ENCSR000CFD_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bone_marrow_macrophage_view_ENCSR000CFD
+	parent primary_cell_bone_marrow_macrophage off
+	view ENCSR000CFD
+	visibility dense
+	type bigBed
+
+		track ENCSR000CFD_ENCFF145HGE
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFD off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K27ac view=ENCSR000CFD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF145HGE/@@download/ENCFF145HGE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000CFD C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (replicated peaks
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000CFD age=8_week description=ENCSR000CFD_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_replicated_peaks_ donor=ENCDO081AAA sex=unknown view=ENCSR000CFD 
+		view ENCSR000CFD
+
+		track ENCSR000CFD_ENCFF992LUJ
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFD off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K27ac view=ENCSR000CFD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF992LUJ/@@download/ENCFF992LUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF992LUJ 9state-CTCF H3K27ac ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFD age=8_week description=ENCFF992LUJ_9state_CTCF_H3K27ac_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFD 
+		view ENCSR000CFD
+
+		track ENCSR000CFD_ENCFF302MHW
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFD off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K27ac view=ENCSR000CFD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF302MHW/@@download/ENCFF302MHW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF302MHW 5group H3K27ac ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFD age=8_week description=ENCFF302MHW_5group_H3K27ac_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFD 
+		view ENCSR000CFD
+
+		track ENCSR000CFD_ENCFF636PKA
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFD off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K27ac view=ENCSR000CFD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF636PKA/@@download/ENCFF636PKA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF636PKA 9state-H3K27ac H3K27ac ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFD age=8_week description=ENCFF636PKA_9state_H3K27ac_H3K27ac_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFD 
+		view ENCSR000CFD
+
+		track ENCSR000CFD_ENCFF506ZUC
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFD off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K27ac view=ENCSR000CFD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF506ZUC/@@download/ENCFF506ZUC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF506ZUC 9state-H3K4me3 H3K27ac ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFD age=8_week description=ENCFF506ZUC_9state_H3K4me3_H3K27ac_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFD 
+		view ENCSR000CFD
+
+	track ENCSR000CFJ_ENCFF826OQW
+	parent primary_cell_bone_marrow_macrophage off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF826OQW/@@download/ENCFF826OQW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CFJ C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFJ age=8_week description=ENCSR000CFJ_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bone_marrow_macrophage_view_ENCSR000CFJ
+	parent primary_cell_bone_marrow_macrophage off
+	view ENCSR000CFJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000CFJ_ENCFF080WDI
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFJ off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=CTCF view=ENCSR000CFJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF080WDI/@@download/ENCFF080WDI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000CFJ C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (optimal idr thre
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000CFJ age=8_week description=ENCSR000CFJ_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO081AAA sex=unknown view=ENCSR000CFJ 
+		view ENCSR000CFJ
+
+		track ENCSR000CFJ_ENCFF992LUJ
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFJ off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=CTCF view=ENCSR000CFJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF992LUJ/@@download/ENCFF992LUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF992LUJ 9state-CTCF CTCF ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFJ age=8_week description=ENCFF992LUJ_9state_CTCF_CTCF_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFJ 
+		view ENCSR000CFJ
+
+		track ENCSR000CFJ_ENCFF302MHW
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFJ off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=CTCF view=ENCSR000CFJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF302MHW/@@download/ENCFF302MHW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF302MHW 5group CTCF ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFJ age=8_week description=ENCFF302MHW_5group_CTCF_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFJ 
+		view ENCSR000CFJ
+
+		track ENCSR000CFJ_ENCFF636PKA
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFJ off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=CTCF view=ENCSR000CFJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF636PKA/@@download/ENCFF636PKA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF636PKA 9state-H3K27ac CTCF ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFJ age=8_week description=ENCFF636PKA_9state_H3K27ac_CTCF_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFJ 
+		view ENCSR000CFJ
+
+		track ENCSR000CFJ_ENCFF506ZUC
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFJ off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=CTCF view=ENCSR000CFJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF506ZUC/@@download/ENCFF506ZUC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF506ZUC 9state-H3K4me3 CTCF ChIP-seq on 8-week mouse BMDM
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CFJ age=8_week description=ENCFF506ZUC_9state_H3K4me3_CTCF_ChIP_seq_on_8_week_mouse_BMDM donor=ENCDO081AAA sex=unknown view=ENCSR000CFJ 
+		view ENCSR000CFJ
+
+	track ENCSR000CHO_ENCFF618UCF
+	parent primary_cell_bone_marrow_macrophage off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO081AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF618UCF/@@download/ENCFF618UCF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CHO C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CHO age=8_week description=ENCSR000CHO_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_signal_of_unique_reads_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CFE_ENCFF167PJA
+	parent primary_cell_bone_marrow_macrophage off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF167PJA/@@download/ENCFF167PJA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000CFE C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFE age=8_week description=ENCSR000CFE_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bone_marrow_macrophage_view_ENCSR000CFE
+	parent primary_cell_bone_marrow_macrophage off
+	view ENCSR000CFE
+	visibility dense
+	type bigBed
+
+		track ENCSR000CFE_ENCFF841WUO
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFE off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=H3K4me1 view=ENCSR000CFE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF841WUO/@@download/ENCFF841WUO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000CFE C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (replicated peaks
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000CFE age=8_week description=ENCSR000CFE_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_replicated_peaks_ donor=ENCDO081AAA sex=unknown view=ENCSR000CFE 
+		view ENCSR000CFE
+
+	track ENCSR000CFK_ENCFF575UNY
+	parent primary_cell_bone_marrow_macrophage off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF575UNY/@@download/ENCFF575UNY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CFK C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFK age=8_week description=ENCSR000CFK_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_bone_marrow_macrophage_view_ENCSR000CFK
+	parent primary_cell_bone_marrow_macrophage off
+	view ENCSR000CFK
+	visibility dense
+	type bigBed
+
+		track ENCSR000CFK_ENCFF337PGT
+		parent primary_cell_bone_marrow_macrophage_view_ENCSR000CFK off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO081AAA label=POLR2A view=ENCSR000CFK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF337PGT/@@download/ENCFF337PGT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000CFK C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (optimal idr thre
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CFK age=8_week description=ENCSR000CFK_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO081AAA sex=unknown view=ENCSR000CFK 
+		view ENCSR000CFK
+

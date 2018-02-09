@@ -1,0 +1,306 @@
+
+track tissue_rectal_smooth_muscle_tissue
+parent super_tissue
+compositeTrack on
+shortLabel rectal smooth mus
+longLabel rectal smooth muscle tissue (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO026NQC=ENCDO026NQC 
+subGroup2 age age a50_year=50&#32;year 
+subGroup3 view view ENCSR284EJR=ENCSR284EJR ENCSR344YYP=ENCSR344YYP ENCSR475HRT=ENCSR475HRT ENCSR656ZEQ=ENCSR656ZEQ ENCSR692OFN=ENCSR692OFN ENCSR953GFW=ENCSR953GFW bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR953GFW_ENCFF225DFI
+	parent tissue_rectal_smooth_muscle_tissue off
+	subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF225DFI/@@download/ENCFF225DFI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR953GFW rectal_smooth_muscle_tissue_female_adult_50_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR953GFW age=50_year description=ENCSR953GFW_rectal_smooth_muscle_tissue_female_adult_50_years_fold_change_over_control_ donor=ENCDO026NQC sex=female view=bigWig 
+	view bigWig
+
+	track tissue_rectal_smooth_muscle_tissue_view_ENCSR953GFW
+	parent tissue_rectal_smooth_muscle_tissue off
+	view ENCSR953GFW
+	visibility dense
+	type bigBed
+
+		track ENCSR953GFW_ENCFF455LOH
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR953GFW off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K4me3 view=ENCSR953GFW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF455LOH/@@download/ENCFF455LOH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR953GFW rectal_smooth_muscle_tissue_female_adult_50_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR953GFW age=50_year description=ENCSR953GFW_rectal_smooth_muscle_tissue_female_adult_50_years_stable_peaks_ donor=ENCDO026NQC sex=female view=ENCSR953GFW 
+		view ENCSR953GFW
+
+		track ENCSR953GFW_ENCFF093MDL
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR953GFW off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K4me3 view=ENCSR953GFW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF093MDL/@@download/ENCFF093MDL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF093MDL 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR953GFW age=50_year description=ENCFF093MDL_5group_ donor=ENCDO026NQC sex=female view=ENCSR953GFW 
+		view ENCSR953GFW
+
+		track ENCSR953GFW_ENCFF159YJZ
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR953GFW off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K4me3 view=ENCSR953GFW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF159YJZ/@@download/ENCFF159YJZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF159YJZ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR953GFW age=50_year description=ENCFF159YJZ_9state_H3K4me3_ donor=ENCDO026NQC sex=female view=ENCSR953GFW 
+		view ENCSR953GFW
+
+		track ENCSR953GFW_ENCFF622KII
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR953GFW off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K4me3 view=ENCSR953GFW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF622KII/@@download/ENCFF622KII.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF622KII 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR953GFW age=50_year description=ENCFF622KII_9state_H3K27ac_ donor=ENCDO026NQC sex=female view=ENCSR953GFW 
+		view ENCSR953GFW
+
+	track ENCSR656ZEQ_ENCFF588KUS
+	parent tissue_rectal_smooth_muscle_tissue off
+	subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF588KUS/@@download/ENCFF588KUS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR656ZEQ rectal_smooth_muscle_tissue_female_adult_50_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR656ZEQ age=50_year description=ENCSR656ZEQ_rectal_smooth_muscle_tissue_female_adult_50_years_fold_change_over_control_ donor=ENCDO026NQC sex=female view=bigWig 
+	view bigWig
+
+	track tissue_rectal_smooth_muscle_tissue_view_ENCSR656ZEQ
+	parent tissue_rectal_smooth_muscle_tissue off
+	view ENCSR656ZEQ
+	visibility dense
+	type bigBed
+
+		track ENCSR656ZEQ_ENCFF773ZDG
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR656ZEQ off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K27ac view=ENCSR656ZEQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF773ZDG/@@download/ENCFF773ZDG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR656ZEQ rectal_smooth_muscle_tissue_female_adult_50_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR656ZEQ age=50_year description=ENCSR656ZEQ_rectal_smooth_muscle_tissue_female_adult_50_years_peaks_ donor=ENCDO026NQC sex=female view=ENCSR656ZEQ 
+		view ENCSR656ZEQ
+
+		track ENCSR656ZEQ_ENCFF093MDL
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR656ZEQ off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K27ac view=ENCSR656ZEQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF093MDL/@@download/ENCFF093MDL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF093MDL 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR656ZEQ age=50_year description=ENCFF093MDL_5group_ donor=ENCDO026NQC sex=female view=ENCSR656ZEQ 
+		view ENCSR656ZEQ
+
+		track ENCSR656ZEQ_ENCFF159YJZ
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR656ZEQ off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K27ac view=ENCSR656ZEQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF159YJZ/@@download/ENCFF159YJZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF159YJZ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR656ZEQ age=50_year description=ENCFF159YJZ_9state_H3K4me3_ donor=ENCDO026NQC sex=female view=ENCSR656ZEQ 
+		view ENCSR656ZEQ
+
+		track ENCSR656ZEQ_ENCFF622KII
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR656ZEQ off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K27ac view=ENCSR656ZEQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF622KII/@@download/ENCFF622KII.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF622KII 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR656ZEQ age=50_year description=ENCFF622KII_9state_H3K27ac_ donor=ENCDO026NQC sex=female view=ENCSR656ZEQ 
+		view ENCSR656ZEQ
+
+	track ENCSR284EJR_ENCFF102KNR
+	parent tissue_rectal_smooth_muscle_tissue off
+	subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF102KNR/@@download/ENCFF102KNR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR284EJR rectal_smooth_muscle_tissue_female_adult_50_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR284EJR age=50_year description=ENCSR284EJR_rectal_smooth_muscle_tissue_female_adult_50_years_fold_change_over_control_ donor=ENCDO026NQC sex=female view=bigWig 
+	view bigWig
+
+	track tissue_rectal_smooth_muscle_tissue_view_ENCSR284EJR
+	parent tissue_rectal_smooth_muscle_tissue off
+	view ENCSR284EJR
+	visibility dense
+	type bigBed
+
+		track ENCSR284EJR_ENCFF839CVB
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR284EJR off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K27me3 view=ENCSR284EJR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF839CVB/@@download/ENCFF839CVB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR284EJR rectal_smooth_muscle_tissue_female_adult_50_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR284EJR age=50_year description=ENCSR284EJR_rectal_smooth_muscle_tissue_female_adult_50_years_stable_peaks_ donor=ENCDO026NQC sex=female view=ENCSR284EJR 
+		view ENCSR284EJR
+
+	track ENCSR692OFN_ENCFF462KAW
+	parent tissue_rectal_smooth_muscle_tissue off
+	subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF462KAW/@@download/ENCFF462KAW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR692OFN rectal_smooth_muscle_tissue_female_adult_50_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR692OFN age=50_year description=ENCSR692OFN_rectal_smooth_muscle_tissue_female_adult_50_years_fold_change_over_control_ donor=ENCDO026NQC sex=female view=bigWig 
+	view bigWig
+
+	track tissue_rectal_smooth_muscle_tissue_view_ENCSR692OFN
+	parent tissue_rectal_smooth_muscle_tissue off
+	view ENCSR692OFN
+	visibility dense
+	type bigBed
+
+		track ENCSR692OFN_ENCFF574RST
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR692OFN off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K36me3 view=ENCSR692OFN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF574RST/@@download/ENCFF574RST.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR692OFN rectal_smooth_muscle_tissue_female_adult_50_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR692OFN age=50_year description=ENCSR692OFN_rectal_smooth_muscle_tissue_female_adult_50_years_stable_peaks_ donor=ENCDO026NQC sex=female view=ENCSR692OFN 
+		view ENCSR692OFN
+
+	track ENCSR475HRT_ENCFF371GNM
+	parent tissue_rectal_smooth_muscle_tissue off
+	subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF371GNM/@@download/ENCFF371GNM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR475HRT rectal_smooth_muscle_tissue_female_adult_50_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR475HRT age=50_year description=ENCSR475HRT_rectal_smooth_muscle_tissue_female_adult_50_years_fold_change_over_control_ donor=ENCDO026NQC sex=female view=bigWig 
+	view bigWig
+
+	track tissue_rectal_smooth_muscle_tissue_view_ENCSR475HRT
+	parent tissue_rectal_smooth_muscle_tissue off
+	view ENCSR475HRT
+	visibility dense
+	type bigBed
+
+		track ENCSR475HRT_ENCFF991ZIX
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR475HRT off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K4me1 view=ENCSR475HRT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF991ZIX/@@download/ENCFF991ZIX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR475HRT rectal_smooth_muscle_tissue_female_adult_50_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR475HRT age=50_year description=ENCSR475HRT_rectal_smooth_muscle_tissue_female_adult_50_years_peaks_ donor=ENCDO026NQC sex=female view=ENCSR475HRT 
+		view ENCSR475HRT
+
+	track ENCSR344YYP_ENCFF171UKB
+	parent tissue_rectal_smooth_muscle_tissue off
+	subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF171UKB/@@download/ENCFF171UKB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR344YYP rectal_smooth_muscle_tissue_female_adult_50_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR344YYP age=50_year description=ENCSR344YYP_rectal_smooth_muscle_tissue_female_adult_50_years_fold_change_over_control_ donor=ENCDO026NQC sex=female view=bigWig 
+	view bigWig
+
+	track tissue_rectal_smooth_muscle_tissue_view_ENCSR344YYP
+	parent tissue_rectal_smooth_muscle_tissue off
+	view ENCSR344YYP
+	visibility dense
+	type bigBed
+
+		track ENCSR344YYP_ENCFF994LRB
+		parent tissue_rectal_smooth_muscle_tissue_view_ENCSR344YYP off
+		subGroups age=a50_year assay=ChIP-seq donor=ENCDO026NQC label=H3K9ac view=ENCSR344YYP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF994LRB/@@download/ENCFF994LRB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR344YYP rectal_smooth_muscle_tissue_female_adult_50_years_ (stable peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR344YYP age=50_year description=ENCSR344YYP_rectal_smooth_muscle_tissue_female_adult_50_years_stable_peaks_ donor=ENCDO026NQC sex=female view=ENCSR344YYP 
+		view ENCSR344YYP
+

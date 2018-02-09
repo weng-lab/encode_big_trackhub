@@ -1,0 +1,279 @@
+
+track primary_cell_fibroblast_of_upper_leg_skin
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of upp
+longLabel fibroblast of upper leg skin (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO001AAA=ENCDO001AAA 
+subGroup2 age age a12_week=12&#32;week 
+subGroup3 view view ENCSR000DPG=ENCSR000DPG ENCSR000DPI=ENCSR000DPI ENCSR000ELX=ENCSR000ELX bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ELX_ENCFF662CAM
+	parent primary_cell_fibroblast_of_upper_leg_skin off
+	subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF662CAM/@@download/ENCFF662CAM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ELX fibroblast_of_upper_leg_skin_male_embryo_12_weeks_ (read-depth norma
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ELX age=12_week description=ENCSR000ELX_fibroblast_of_upper_leg_skin_male_embryo_12_weeks_read_depth_normalized_signal_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000ELX
+	parent primary_cell_fibroblast_of_upper_leg_skin off
+	view ENCSR000ELX
+	visibility dense
+	type bigBed
+
+		track ENCSR000ELX_ENCFF270LWP
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000ELX off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF270LWP/@@download/ENCFF270LWP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ELX fibroblast_of_upper_leg_skin_male_embryo_12_weeks_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ELX age=12_week description=ENCSR000ELX_fibroblast_of_upper_leg_skin_male_embryo_12_weeks_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000ELX 
+		view ENCSR000ELX
+
+		track ENCSR000ELX_ENCFF002LAY
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000ELX off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF002LAY/@@download/ENCFF002LAY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF002LAY 9state-DNase DNase-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELX age=12_week description=ENCFF002LAY_9state_DNase_DNase_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000ELX 
+		view ENCSR000ELX
+
+		track ENCSR000ELX_ENCFF495BRQ
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000ELX off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF495BRQ/@@download/ENCFF495BRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF495BRQ 9state-CTCF DNase-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELX age=12_week description=ENCFF495BRQ_9state_CTCF_DNase_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000ELX 
+		view ENCSR000ELX
+
+		track ENCSR000ELX_ENCFF074BZM
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000ELX off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF074BZM/@@download/ENCFF074BZM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF074BZM 5group DNase-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELX age=12_week description=ENCFF074BZM_5group_DNase_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000ELX 
+		view ENCSR000ELX
+
+		track ENCSR000ELX_ENCFF447FVL
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000ELX off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF447FVL/@@download/ENCFF447FVL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF447FVL 9state-H3K4me3 DNase-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELX age=12_week description=ENCFF447FVL_9state_H3K4me3_DNase_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000ELX 
+		view ENCSR000ELX
+
+	track ENCSR000DPI_ENCFF083JVB
+	parent primary_cell_fibroblast_of_upper_leg_skin off
+	subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF083JVB/@@download/ENCFF083JVB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DPI fibroblast_of_upper_leg_skin_male_embryo_12_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPI age=12_week description=ENCSR000DPI_fibroblast_of_upper_leg_skin_male_embryo_12_weeks_fold_change_over_control_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPI
+	parent primary_cell_fibroblast_of_upper_leg_skin off
+	view ENCSR000DPI
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPI_ENCFF316SOW
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPI off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF316SOW/@@download/ENCFF316SOW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DPI fibroblast_of_upper_leg_skin_male_embryo_12_weeks_ (replicated peaks
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DPI age=12_week description=ENCSR000DPI_fibroblast_of_upper_leg_skin_male_embryo_12_weeks_replicated_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000DPI 
+		view ENCSR000DPI
+
+		track ENCSR000DPI_ENCFF002LAY
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPI off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF002LAY/@@download/ENCFF002LAY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF002LAY 9state-DNase H3K4me3 ChIP-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPI age=12_week description=ENCFF002LAY_9state_DNase_H3K4me3_ChIP_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000DPI 
+		view ENCSR000DPI
+
+		track ENCSR000DPI_ENCFF495BRQ
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPI off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF495BRQ/@@download/ENCFF495BRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF495BRQ 9state-CTCF H3K4me3 ChIP-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPI age=12_week description=ENCFF495BRQ_9state_CTCF_H3K4me3_ChIP_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000DPI 
+		view ENCSR000DPI
+
+		track ENCSR000DPI_ENCFF074BZM
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPI off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF074BZM/@@download/ENCFF074BZM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF074BZM 5group H3K4me3 ChIP-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPI age=12_week description=ENCFF074BZM_5group_H3K4me3_ChIP_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000DPI 
+		view ENCSR000DPI
+
+		track ENCSR000DPI_ENCFF447FVL
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPI off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF447FVL/@@download/ENCFF447FVL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF447FVL 9state-H3K4me3 H3K4me3 ChIP-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPI age=12_week description=ENCFF447FVL_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000DPI 
+		view ENCSR000DPI
+
+	track ENCSR000DPG_ENCFF546FTM
+	parent primary_cell_fibroblast_of_upper_leg_skin off
+	subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF546FTM/@@download/ENCFF546FTM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DPG fibroblast_of_upper_leg_skin_male_embryo_12_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPG age=12_week description=ENCSR000DPG_fibroblast_of_upper_leg_skin_male_embryo_12_weeks_fold_change_over_control_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPG
+	parent primary_cell_fibroblast_of_upper_leg_skin off
+	view ENCSR000DPG
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPG_ENCFF457FXK
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPG off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF457FXK/@@download/ENCFF457FXK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DPG fibroblast_of_upper_leg_skin_male_embryo_12_weeks_ (optimal idr thre
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DPG age=12_week description=ENCSR000DPG_fibroblast_of_upper_leg_skin_male_embryo_12_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000DPG 
+		view ENCSR000DPG
+
+		track ENCSR000DPG_ENCFF002LAY
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPG off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF002LAY/@@download/ENCFF002LAY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF002LAY 9state-DNase CTCF ChIP-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPG age=12_week description=ENCFF002LAY_9state_DNase_CTCF_ChIP_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000DPG 
+		view ENCSR000DPG
+
+		track ENCSR000DPG_ENCFF495BRQ
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPG off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF495BRQ/@@download/ENCFF495BRQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF495BRQ 9state-CTCF CTCF ChIP-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPG age=12_week description=ENCFF495BRQ_9state_CTCF_CTCF_ChIP_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000DPG 
+		view ENCSR000DPG
+
+		track ENCSR000DPG_ENCFF074BZM
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPG off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF074BZM/@@download/ENCFF074BZM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF074BZM 5group CTCF ChIP-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPG age=12_week description=ENCFF074BZM_5group_CTCF_ChIP_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000DPG 
+		view ENCSR000DPG
+
+		track ENCSR000DPG_ENCFF447FVL
+		parent primary_cell_fibroblast_of_upper_leg_skin_view_ENCSR000DPG off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF447FVL/@@download/ENCFF447FVL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF447FVL 9state-H3K4me3 CTCF ChIP-seq on human AG04449
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPG age=12_week description=ENCFF447FVL_9state_H3K4me3_CTCF_ChIP_seq_on_human_AG04449 donor=ENCDO001AAA sex=male view=ENCSR000DPG 
+		view ENCSR000DPG
+

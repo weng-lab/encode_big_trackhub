@@ -1,0 +1,197 @@
+
+track in_vitro_differentiated_cells_radial_glial_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel radial glial cell
+longLabel radial glial cell (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO222AAA=ENCDO222AAA 
+subGroup2 age age a5_day=5&#32;day 
+subGroup3 view view ENCSR104BSN=ENCSR104BSN ENCSR136NUH=ENCSR136NUH ENCSR279HKO=ENCSR279HKO ENCSR433PUR=ENCSR433PUR bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR433PUR_ENCFF038HSI
+	parent in_vitro_differentiated_cells_radial_glial_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF038HSI/@@download/ENCFF038HSI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR433PUR radial_glial_cell_genetically_modified_using_stable_transfection_ori
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR433PUR age=5_day description=ENCSR433PUR_radial_glial_cell_genetically_modified_using_stable_transfection_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR433PUR
+	parent in_vitro_differentiated_cells_radial_glial_cell off
+	view ENCSR433PUR
+	visibility dense
+	type bigBed
+
+		track ENCSR433PUR_ENCFF791AVT
+		parent in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR433PUR off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR433PUR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF791AVT/@@download/ENCFF791AVT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR433PUR radial_glial_cell_genetically_modified_using_stable_transfection_ori
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR433PUR age=5_day description=ENCSR433PUR_radial_glial_cell_genetically_modified_using_stable_transfection_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR433PUR 
+		view ENCSR433PUR
+
+		track ENCSR433PUR_ENCFF593TNG
+		parent in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR433PUR off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR433PUR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF593TNG/@@download/ENCFF593TNG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF593TNG 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR433PUR age=5_day description=ENCFF593TNG_5group_ donor=ENCDO222AAA sex=female view=ENCSR433PUR 
+		view ENCSR433PUR
+
+		track ENCSR433PUR_ENCFF443EEH
+		parent in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR433PUR off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR433PUR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF443EEH/@@download/ENCFF443EEH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF443EEH 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR433PUR age=5_day description=ENCFF443EEH_9state_H3K27ac_ donor=ENCDO222AAA sex=female view=ENCSR433PUR 
+		view ENCSR433PUR
+
+		track ENCSR433PUR_ENCFF489YFB
+		parent in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR433PUR off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR433PUR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF489YFB/@@download/ENCFF489YFB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF489YFB 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR433PUR age=5_day description=ENCFF489YFB_9state_H3K4me3_ donor=ENCDO222AAA sex=female view=ENCSR433PUR 
+		view ENCSR433PUR
+
+	track ENCSR136NUH_ENCFF695EPQ
+	parent in_vitro_differentiated_cells_radial_glial_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF695EPQ/@@download/ENCFF695EPQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR136NUH radial_glial_cell_genetically_modified_using_stable_transfection_ori
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR136NUH age=5_day description=ENCSR136NUH_radial_glial_cell_genetically_modified_using_stable_transfection_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR136NUH
+	parent in_vitro_differentiated_cells_radial_glial_cell off
+	view ENCSR136NUH
+	visibility dense
+	type bigBed
+
+		track ENCSR136NUH_ENCFF827RCO
+		parent in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR136NUH off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K36me3 view=ENCSR136NUH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF827RCO/@@download/ENCFF827RCO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR136NUH radial_glial_cell_genetically_modified_using_stable_transfection_ori
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR136NUH age=5_day description=ENCSR136NUH_radial_glial_cell_genetically_modified_using_stable_transfection_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR136NUH 
+		view ENCSR136NUH
+
+	track ENCSR279HKO_ENCFF599VCY
+	parent in_vitro_differentiated_cells_radial_glial_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF599VCY/@@download/ENCFF599VCY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR279HKO radial_glial_cell_genetically_modified_using_stable_transfection_ori
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR279HKO age=5_day description=ENCSR279HKO_radial_glial_cell_genetically_modified_using_stable_transfection_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR279HKO
+	parent in_vitro_differentiated_cells_radial_glial_cell off
+	view ENCSR279HKO
+	visibility dense
+	type bigBed
+
+		track ENCSR279HKO_ENCFF406QJW
+		parent in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR279HKO off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me1 view=ENCSR279HKO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF406QJW/@@download/ENCFF406QJW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR279HKO radial_glial_cell_genetically_modified_using_stable_transfection_ori
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR279HKO age=5_day description=ENCSR279HKO_radial_glial_cell_genetically_modified_using_stable_transfection_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR279HKO 
+		view ENCSR279HKO
+
+	track ENCSR104BSN_ENCFF816OIA
+	parent in_vitro_differentiated_cells_radial_glial_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF816OIA/@@download/ENCFF816OIA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR104BSN radial_glial_cell_genetically_modified_using_stable_transfection_ori
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR104BSN age=5_day description=ENCSR104BSN_radial_glial_cell_genetically_modified_using_stable_transfection_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR104BSN
+	parent in_vitro_differentiated_cells_radial_glial_cell off
+	view ENCSR104BSN
+	visibility dense
+	type bigBed
+
+		track ENCSR104BSN_ENCFF469DTW
+		parent in_vitro_differentiated_cells_radial_glial_cell_view_ENCSR104BSN off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K9me3 view=ENCSR104BSN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF469DTW/@@download/ENCFF469DTW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR104BSN radial_glial_cell_genetically_modified_using_stable_transfection_ori
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR104BSN age=5_day description=ENCSR104BSN_radial_glial_cell_genetically_modified_using_stable_transfection_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR104BSN 
+		view ENCSR104BSN
+

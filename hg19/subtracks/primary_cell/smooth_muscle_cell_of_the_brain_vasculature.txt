@@ -1,0 +1,66 @@
+
+track primary_cell_smooth_muscle_cell_of_the_brain_vasculature
+parent super_primary_cell
+compositeTrack on
+shortLabel smooth muscle cel
+longLabel smooth muscle cell of the brain vasculature (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO229AAA=ENCDO229AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000ENG=ENCSR000ENG bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ENG_ENCFF913OTC
+	parent primary_cell_smooth_muscle_cell_of_the_brain_vasculature off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO229AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF913OTC/@@download/ENCFF913OTC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENG smooth_muscle_cell_of_the_brain_vasculature_female (read-depth norma
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENG age=unknown description=ENCSR000ENG_smooth_muscle_cell_of_the_brain_vasculature_female_read_depth_normalized_signal_ donor=ENCDO229AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_smooth_muscle_cell_of_the_brain_vasculature_view_ENCSR000ENG
+	parent primary_cell_smooth_muscle_cell_of_the_brain_vasculature off
+	view ENCSR000ENG
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENG_ENCFF239XRB
+		parent primary_cell_smooth_muscle_cell_of_the_brain_vasculature_view_ENCSR000ENG off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO229AAA label=unknown view=ENCSR000ENG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF239XRB/@@download/ENCFF239XRB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENG smooth_muscle_cell_of_the_brain_vasculature_female (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENG age=unknown description=ENCSR000ENG_smooth_muscle_cell_of_the_brain_vasculature_female_peaks_ donor=ENCDO229AAA sex=female view=ENCSR000ENG 
+		view ENCSR000ENG
+
+		track ENCSR000ENG_ENCFF369AIC
+		parent primary_cell_smooth_muscle_cell_of_the_brain_vasculature_view_ENCSR000ENG off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO229AAA label=unknown view=ENCSR000ENG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF369AIC/@@download/ENCFF369AIC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF369AIC 9state-DNase UW human HBVSMC DNase-seq
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENG age=unknown description=ENCFF369AIC_9state_DNase_UW_human_HBVSMC_DNase_seq donor=ENCDO229AAA sex=female view=ENCSR000ENG 
+		view ENCSR000ENG
+

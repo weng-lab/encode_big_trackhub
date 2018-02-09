@@ -1,0 +1,349 @@
+
+track immortalized_cell_line_Caco_2
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel Caco-2
+longLabel Caco-2 (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label CTCF=CTCF H3K27me3=H3K27me3 H3K36me3=H3K36me3 H3K4me3=H3K4me3 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq 
+subGroup3 view view ENCSR000DQK=ENCSR000DQK ENCSR000DQL=ENCSR000DQL ENCSR000DQM=ENCSR000DQM ENCSR000DQN=ENCSR000DQN ENCSR000EMI=ENCSR000EMI bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EMI_ENCFF699OXG
+	parent immortalized_cell_line_Caco_2 off
+	subGroups age=a72_year assay=DNase-seq donor=ENCDO000ACR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF699OXG/@@download/ENCFF699OXG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMI Caco_2 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMI age=72_year description=ENCSR000EMI_Caco_2_read_depth_normalized_signal_ donor=ENCDO000ACR sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Caco_2_view_ENCSR000EMI
+	parent immortalized_cell_line_Caco_2 off
+	view ENCSR000EMI
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMI_ENCFF889YCM
+		parent immortalized_cell_line_Caco_2_view_ENCSR000EMI off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO000ACR label=unknown view=ENCSR000EMI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF889YCM/@@download/ENCFF889YCM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMI Caco_2 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMI age=72_year description=ENCSR000EMI_Caco_2_peaks_ donor=ENCDO000ACR sex=male view=ENCSR000EMI 
+		view ENCSR000EMI
+
+		track ENCSR000EMI_ENCFF739KOZ
+		parent immortalized_cell_line_Caco_2_view_ENCSR000EMI off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO000ACR label=unknown view=ENCSR000EMI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF739KOZ/@@download/ENCFF739KOZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF739KOZ 9state-CTCF DNase-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMI age=72_year description=ENCFF739KOZ_9state_CTCF_DNase_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000EMI 
+		view ENCSR000EMI
+
+		track ENCSR000EMI_ENCFF660JHX
+		parent immortalized_cell_line_Caco_2_view_ENCSR000EMI off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO000ACR label=unknown view=ENCSR000EMI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF660JHX/@@download/ENCFF660JHX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF660JHX 9state-DNase DNase-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMI age=72_year description=ENCFF660JHX_9state_DNase_DNase_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000EMI 
+		view ENCSR000EMI
+
+		track ENCSR000EMI_ENCFF982VGF
+		parent immortalized_cell_line_Caco_2_view_ENCSR000EMI off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO000ACR label=unknown view=ENCSR000EMI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982VGF/@@download/ENCFF982VGF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF982VGF 5group DNase-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMI age=72_year description=ENCFF982VGF_5group_DNase_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000EMI 
+		view ENCSR000EMI
+
+		track ENCSR000EMI_ENCFF132YIV
+		parent immortalized_cell_line_Caco_2_view_ENCSR000EMI off
+		subGroups age=a72_year assay=DNase-seq donor=ENCDO000ACR label=unknown view=ENCSR000EMI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF132YIV/@@download/ENCFF132YIV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF132YIV 9state-H3K4me3 DNase-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMI age=72_year description=ENCFF132YIV_9state_H3K4me3_DNase_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000EMI 
+		view ENCSR000EMI
+
+	track ENCSR000DQM_ENCFF555NUA
+	parent immortalized_cell_line_Caco_2 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF555NUA/@@download/ENCFF555NUA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DQM Caco_2 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQM age=72_year description=ENCSR000DQM_Caco_2_fold_change_over_control_ donor=ENCDO000ACR sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Caco_2_view_ENCSR000DQM
+	parent immortalized_cell_line_Caco_2 off
+	view ENCSR000DQM
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQM_ENCFF167KDE
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQM off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K4me3 view=ENCSR000DQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF167KDE/@@download/ENCFF167KDE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DQM Caco_2 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DQM age=72_year description=ENCSR000DQM_Caco_2_replicated_peaks_ donor=ENCDO000ACR sex=male view=ENCSR000DQM 
+		view ENCSR000DQM
+
+		track ENCSR000DQM_ENCFF739KOZ
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQM off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K4me3 view=ENCSR000DQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF739KOZ/@@download/ENCFF739KOZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF739KOZ 9state-CTCF H3K4me3 ChIP-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQM age=72_year description=ENCFF739KOZ_9state_CTCF_H3K4me3_ChIP_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000DQM 
+		view ENCSR000DQM
+
+		track ENCSR000DQM_ENCFF660JHX
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQM off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K4me3 view=ENCSR000DQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF660JHX/@@download/ENCFF660JHX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF660JHX 9state-DNase H3K4me3 ChIP-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQM age=72_year description=ENCFF660JHX_9state_DNase_H3K4me3_ChIP_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000DQM 
+		view ENCSR000DQM
+
+		track ENCSR000DQM_ENCFF982VGF
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQM off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K4me3 view=ENCSR000DQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982VGF/@@download/ENCFF982VGF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF982VGF 5group H3K4me3 ChIP-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQM age=72_year description=ENCFF982VGF_5group_H3K4me3_ChIP_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000DQM 
+		view ENCSR000DQM
+
+		track ENCSR000DQM_ENCFF132YIV
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQM off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K4me3 view=ENCSR000DQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF132YIV/@@download/ENCFF132YIV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF132YIV 9state-H3K4me3 H3K4me3 ChIP-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQM age=72_year description=ENCFF132YIV_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000DQM 
+		view ENCSR000DQM
+
+	track ENCSR000DQN_ENCFF889XEP
+	parent immortalized_cell_line_Caco_2 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF889XEP/@@download/ENCFF889XEP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DQN Caco_2 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQN age=72_year description=ENCSR000DQN_Caco_2_fold_change_over_control_ donor=ENCDO000ACR sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Caco_2_view_ENCSR000DQN
+	parent immortalized_cell_line_Caco_2 off
+	view ENCSR000DQN
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQN_ENCFF916YEM
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQN off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=CTCF view=ENCSR000DQN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF916YEM/@@download/ENCFF916YEM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DQN Caco_2 (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DQN age=72_year description=ENCSR000DQN_Caco_2_optimal_idr_thresholded_peaks_ donor=ENCDO000ACR sex=male view=ENCSR000DQN 
+		view ENCSR000DQN
+
+		track ENCSR000DQN_ENCFF739KOZ
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQN off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=CTCF view=ENCSR000DQN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF739KOZ/@@download/ENCFF739KOZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF739KOZ 9state-CTCF CTCF ChIP-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQN age=72_year description=ENCFF739KOZ_9state_CTCF_CTCF_ChIP_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000DQN 
+		view ENCSR000DQN
+
+		track ENCSR000DQN_ENCFF660JHX
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQN off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=CTCF view=ENCSR000DQN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF660JHX/@@download/ENCFF660JHX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF660JHX 9state-DNase CTCF ChIP-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQN age=72_year description=ENCFF660JHX_9state_DNase_CTCF_ChIP_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000DQN 
+		view ENCSR000DQN
+
+		track ENCSR000DQN_ENCFF982VGF
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQN off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=CTCF view=ENCSR000DQN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982VGF/@@download/ENCFF982VGF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF982VGF 5group CTCF ChIP-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQN age=72_year description=ENCFF982VGF_5group_CTCF_ChIP_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000DQN 
+		view ENCSR000DQN
+
+		track ENCSR000DQN_ENCFF132YIV
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQN off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=CTCF view=ENCSR000DQN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF132YIV/@@download/ENCFF132YIV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF132YIV 9state-H3K4me3 CTCF ChIP-seq on human Caco-2
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DQN age=72_year description=ENCFF132YIV_9state_H3K4me3_CTCF_ChIP_seq_on_human_Caco_2 donor=ENCDO000ACR sex=male view=ENCSR000DQN 
+		view ENCSR000DQN
+
+	track ENCSR000DQL_ENCFF602RPS
+	parent immortalized_cell_line_Caco_2 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF602RPS/@@download/ENCFF602RPS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DQL Caco_2 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQL age=72_year description=ENCSR000DQL_Caco_2_fold_change_over_control_ donor=ENCDO000ACR sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Caco_2_view_ENCSR000DQL
+	parent immortalized_cell_line_Caco_2 off
+	view ENCSR000DQL
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQL_ENCFF167JDN
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQL off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K27me3 view=ENCSR000DQL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF167JDN/@@download/ENCFF167JDN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DQL Caco_2 (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DQL age=72_year description=ENCSR000DQL_Caco_2_replicated_peaks_ donor=ENCDO000ACR sex=male view=ENCSR000DQL 
+		view ENCSR000DQL
+
+	track ENCSR000DQK_ENCFF811VXB
+	parent immortalized_cell_line_Caco_2 off
+	subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF811VXB/@@download/ENCFF811VXB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DQK Caco_2 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DQK age=72_year description=ENCSR000DQK_Caco_2_fold_change_over_control_ donor=ENCDO000ACR sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Caco_2_view_ENCSR000DQK
+	parent immortalized_cell_line_Caco_2 off
+	view ENCSR000DQK
+	visibility dense
+	type bigBed
+
+		track ENCSR000DQK_ENCFF714FKX
+		parent immortalized_cell_line_Caco_2_view_ENCSR000DQK off
+		subGroups age=a72_year assay=ChIP-seq donor=ENCDO000ACR label=H3K36me3 view=ENCSR000DQK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF714FKX/@@download/ENCFF714FKX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DQK Caco_2 (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DQK age=72_year description=ENCSR000DQK_Caco_2_replicated_peaks_ donor=ENCDO000ACR sex=male view=ENCSR000DQK 
+		view ENCSR000DQK
+

@@ -1,0 +1,1049 @@
+
+track primary_cell_neurosphere
+parent super_primary_cell
+compositeTrack on
+shortLabel neurosphere
+longLabel neurosphere (35 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO030VWZ=ENCDO030VWZ ENCDO280TXL=ENCDO280TXL ENCDO594MAO=ENCDO594MAO ENCDO981EWY=ENCDO981EWY 
+subGroup2 age age a15_week=15&#32;week a17_week=17&#32;week 
+subGroup3 view view ENCSR028IND=ENCSR028IND ENCSR039LLX=ENCSR039LLX ENCSR100QDR=ENCSR100QDR ENCSR103HMP=ENCSR103HMP ENCSR127MFA=ENCSR127MFA ENCSR130PLZ=ENCSR130PLZ ENCSR379WXM=ENCSR379WXM ENCSR393HDC=ENCSR393HDC ENCSR409RGJ=ENCSR409RGJ ENCSR426CZM=ENCSR426CZM ENCSR438ZIS=ENCSR438ZIS ENCSR444TQQ=ENCSR444TQQ ENCSR453XEY=ENCSR453XEY ENCSR512CSM=ENCSR512CSM ENCSR568OLP=ENCSR568OLP ENCSR577CDW=ENCSR577CDW ENCSR671WZX=ENCSR671WZX ENCSR694PCO=ENCSR694PCO ENCSR727TQS=ENCSR727TQS ENCSR741FTW=ENCSR741FTW ENCSR765SCM=ENCSR765SCM ENCSR815VLQ=ENCSR815VLQ ENCSR955OBN=ENCSR955OBN ENCSR957CYJ=ENCSR957CYJ bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR103HMP_ENCFF716MKR
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF716MKR/@@download/ENCFF716MKR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR103HMP neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR103HMP age=15_week description=ENCSR103HMP_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR103HMP
+	parent primary_cell_neurosphere off
+	view ENCSR103HMP
+	visibility dense
+	type bigBed
+
+		track ENCSR103HMP_ENCFF715FIL
+		parent primary_cell_neurosphere_view_ENCSR103HMP off
+		subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K4me3 view=ENCSR103HMP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF715FIL/@@download/ENCFF715FIL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR103HMP neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (sta
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR103HMP age=15_week description=ENCSR103HMP_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_stable_peaks_ donor=ENCDO594MAO sex=unknown view=ENCSR103HMP 
+		view ENCSR103HMP
+
+	track ENCSR130PLZ_ENCFF530API
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF530API/@@download/ENCFF530API.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR130PLZ neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR130PLZ age=17_week description=ENCSR130PLZ_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR130PLZ
+	parent primary_cell_neurosphere off
+	view ENCSR130PLZ
+	visibility dense
+	type bigBed
+
+		track ENCSR130PLZ_ENCFF650KJJ
+		parent primary_cell_neurosphere_view_ENCSR130PLZ off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me3 view=ENCSR130PLZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF650KJJ/@@download/ENCFF650KJJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR130PLZ neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR130PLZ age=17_week description=ENCSR130PLZ_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_stable_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR130PLZ 
+		view ENCSR130PLZ
+
+		track ENCSR130PLZ_ENCFF707JUZ
+		parent primary_cell_neurosphere_view_ENCSR130PLZ off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me3 view=ENCSR130PLZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF707JUZ/@@download/ENCFF707JUZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF707JUZ 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR130PLZ age=17_week description=ENCFF707JUZ_5group_ donor=ENCDO030VWZ sex=female view=ENCSR130PLZ 
+		view ENCSR130PLZ
+
+	track ENCSR957CYJ_ENCFF955SIA
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF955SIA/@@download/ENCFF955SIA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR957CYJ neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR957CYJ age=17_week description=ENCSR957CYJ_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR957CYJ
+	parent primary_cell_neurosphere off
+	view ENCSR957CYJ
+	visibility dense
+	type bigBed
+
+		track ENCSR957CYJ_ENCFF518BYG
+		parent primary_cell_neurosphere_view_ENCSR957CYJ off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me3 view=ENCSR957CYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF518BYG/@@download/ENCFF518BYG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR957CYJ neurosphere_female_embryo_17_weeks_originated_from_cortex (stable pe
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR957CYJ age=17_week description=ENCSR957CYJ_neurosphere_female_embryo_17_weeks_originated_from_cortex_stable_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR957CYJ 
+		view ENCSR957CYJ
+
+		track ENCSR957CYJ_ENCFF635YIX
+		parent primary_cell_neurosphere_view_ENCSR957CYJ off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me3 view=ENCSR957CYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF635YIX/@@download/ENCFF635YIX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF635YIX 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR957CYJ age=17_week description=ENCFF635YIX_5group_ donor=ENCDO030VWZ sex=female view=ENCSR957CYJ 
+		view ENCSR957CYJ
+
+	track ENCSR379WXM_ENCFF376MDX
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF376MDX/@@download/ENCFF376MDX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR379WXM neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR379WXM age=15_week description=ENCSR379WXM_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR379WXM
+	parent primary_cell_neurosphere off
+	view ENCSR379WXM
+	visibility dense
+	type bigBed
+
+		track ENCSR379WXM_ENCFF635WCR
+		parent primary_cell_neurosphere_view_ENCSR379WXM off
+		subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K27ac view=ENCSR379WXM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF635WCR/@@download/ENCFF635WCR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR379WXM neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (pea
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR379WXM age=15_week description=ENCSR379WXM_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO594MAO sex=unknown view=ENCSR379WXM 
+		view ENCSR379WXM
+
+	track ENCSR043KVA_ENCFF011OMT
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=RNA-seq donor=ENCDO594MAO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF011OMT/@@download/ENCFF011OMT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR043KVA neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR043KVA age=15_week description=ENCSR043KVA_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_plus_strand_signal_of_unique_reads_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR051GPK_ENCFF600QMB
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=RNA-seq donor=ENCDO280TXL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF600QMB/@@download/ENCFF600QMB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR051GPK neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR051GPK age=15_week description=ENCSR051GPK_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_plus_strand_signal_of_unique_reads_ donor=ENCDO280TXL sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR255DPP_ENCFF070ESJ
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=microRNA-seq donor=ENCDO981EWY label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF070ESJ/@@download/ENCFF070ESJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR255DPP neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR255DPP age=17_week description=ENCSR255DPP_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_plus_strand_signal_of_unique_reads_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR256YHI_ENCFF162KTR
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=RNA-seq donor=ENCDO594MAO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF162KTR/@@download/ENCFF162KTR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR256YHI neurosphere_embryo_15_weeks_originated_from_cortex (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR256YHI age=15_week description=ENCSR256YHI_neurosphere_embryo_15_weeks_originated_from_cortex_plus_strand_signal_of_unique_reads_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR462IUJ_ENCFF335PJE
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=microRNA-seq donor=ENCDO594MAO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF335PJE/@@download/ENCFF335PJE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR462IUJ neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR462IUJ age=15_week description=ENCSR462IUJ_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_plus_strand_signal_of_unique_reads_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR471UFX_ENCFF101OLQ
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=microRNA-seq donor=ENCDO594MAO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF101OLQ/@@download/ENCFF101OLQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR471UFX neurosphere_embryo_15_weeks_originated_from_cortex (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR471UFX age=15_week description=ENCSR471UFX_neurosphere_embryo_15_weeks_originated_from_cortex_plus_strand_signal_of_unique_reads_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR617CXA_ENCFF883XVD
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=microRNA-seq donor=ENCDO280TXL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF883XVD/@@download/ENCFF883XVD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR617CXA neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR617CXA age=15_week description=ENCSR617CXA_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_plus_strand_signal_of_unique_reads_ donor=ENCDO280TXL sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR724PFV_ENCFF973XZD
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=microRNA-seq donor=ENCDO030VWZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF973XZD/@@download/ENCFF973XZD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR724PFV neurosphere_female_embryo_17_weeks_originated_from_cortex (plus stra
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR724PFV age=17_week description=ENCSR724PFV_neurosphere_female_embryo_17_weeks_originated_from_cortex_plus_strand_signal_of_unique_reads_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR743KHU_ENCFF036CBB
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=microRNA-seq donor=ENCDO030VWZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF036CBB/@@download/ENCFF036CBB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR743KHU neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR743KHU age=17_week description=ENCSR743KHU_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_plus_strand_signal_of_unique_reads_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR790MRK_ENCFF065TYM
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=microRNA-seq donor=ENCDO981EWY label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF065TYM/@@download/ENCFF065TYM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR790MRK neurosphere_female_embryo_17_weeks_originated_from_cortex (plus stra
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR790MRK age=17_week description=ENCSR790MRK_neurosphere_female_embryo_17_weeks_originated_from_cortex_plus_strand_signal_of_unique_reads_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR845NYQ_ENCFF814ENL
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=microRNA-seq donor=ENCDO280TXL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF814ENL/@@download/ENCFF814ENL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR845NYQ neurosphere_embryo_15_weeks_originated_from_cortex (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR845NYQ age=15_week description=ENCSR845NYQ_neurosphere_embryo_15_weeks_originated_from_cortex_plus_strand_signal_of_unique_reads_ donor=ENCDO280TXL sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR028IND_ENCFF514BRI
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF514BRI/@@download/ENCFF514BRI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR028IND neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR028IND age=17_week description=ENCSR028IND_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR028IND
+	parent primary_cell_neurosphere off
+	view ENCSR028IND
+	visibility dense
+	type bigBed
+
+		track ENCSR028IND_ENCFF850DAH
+		parent primary_cell_neurosphere_view_ENCSR028IND off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K27me3 view=ENCSR028IND 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF850DAH/@@download/ENCFF850DAH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR028IND neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR028IND age=17_week description=ENCSR028IND_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_stable_peaks_ donor=ENCDO981EWY sex=female view=ENCSR028IND 
+		view ENCSR028IND
+
+	track ENCSR438ZIS_ENCFF625USS
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF625USS/@@download/ENCFF625USS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR438ZIS neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR438ZIS age=17_week description=ENCSR438ZIS_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR438ZIS
+	parent primary_cell_neurosphere off
+	view ENCSR438ZIS
+	visibility dense
+	type bigBed
+
+		track ENCSR438ZIS_ENCFF528YUH
+		parent primary_cell_neurosphere_view_ENCSR438ZIS off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K27me3 view=ENCSR438ZIS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF528YUH/@@download/ENCFF528YUH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR438ZIS neurosphere_female_embryo_17_weeks_originated_from_cortex (stable pe
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR438ZIS age=17_week description=ENCSR438ZIS_neurosphere_female_embryo_17_weeks_originated_from_cortex_stable_peaks_ donor=ENCDO981EWY sex=female view=ENCSR438ZIS 
+		view ENCSR438ZIS
+
+	track ENCSR444TQQ_ENCFF172RJZ
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF172RJZ/@@download/ENCFF172RJZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR444TQQ neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR444TQQ age=17_week description=ENCSR444TQQ_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR444TQQ
+	parent primary_cell_neurosphere off
+	view ENCSR444TQQ
+	visibility dense
+	type bigBed
+
+		track ENCSR444TQQ_ENCFF629EAX
+		parent primary_cell_neurosphere_view_ENCSR444TQQ off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K27me3 view=ENCSR444TQQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF629EAX/@@download/ENCFF629EAX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR444TQQ neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR444TQQ age=17_week description=ENCSR444TQQ_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR444TQQ 
+		view ENCSR444TQQ
+
+	track ENCSR671WZX_ENCFF339GQZ
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF339GQZ/@@download/ENCFF339GQZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR671WZX neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR671WZX age=15_week description=ENCSR671WZX_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR671WZX
+	parent primary_cell_neurosphere off
+	view ENCSR671WZX
+	visibility dense
+	type bigBed
+
+		track ENCSR671WZX_ENCFF817JDJ
+		parent primary_cell_neurosphere_view_ENCSR671WZX off
+		subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K27me3 view=ENCSR671WZX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF817JDJ/@@download/ENCFF817JDJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR671WZX neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (pea
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR671WZX age=15_week description=ENCSR671WZX_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO594MAO sex=unknown view=ENCSR671WZX 
+		view ENCSR671WZX
+
+	track ENCSR955OBN_ENCFF505PZK
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF505PZK/@@download/ENCFF505PZK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR955OBN neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR955OBN age=17_week description=ENCSR955OBN_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR955OBN
+	parent primary_cell_neurosphere off
+	view ENCSR955OBN
+	visibility dense
+	type bigBed
+
+		track ENCSR955OBN_ENCFF847FFW
+		parent primary_cell_neurosphere_view_ENCSR955OBN off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K27me3 view=ENCSR955OBN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF847FFW/@@download/ENCFF847FFW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR955OBN neurosphere_female_embryo_17_weeks_originated_from_cortex (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR955OBN age=17_week description=ENCSR955OBN_neurosphere_female_embryo_17_weeks_originated_from_cortex_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR955OBN 
+		view ENCSR955OBN
+
+	track ENCSR039LLX_ENCFF455QNO
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF455QNO/@@download/ENCFF455QNO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR039LLX neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR039LLX age=17_week description=ENCSR039LLX_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR039LLX
+	parent primary_cell_neurosphere off
+	view ENCSR039LLX
+	visibility dense
+	type bigBed
+
+		track ENCSR039LLX_ENCFF842MEV
+		parent primary_cell_neurosphere_view_ENCSR039LLX off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K36me3 view=ENCSR039LLX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF842MEV/@@download/ENCFF842MEV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR039LLX neurosphere_female_embryo_17_weeks_originated_from_cortex (stable pe
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR039LLX age=17_week description=ENCSR039LLX_neurosphere_female_embryo_17_weeks_originated_from_cortex_stable_peaks_ donor=ENCDO981EWY sex=female view=ENCSR039LLX 
+		view ENCSR039LLX
+
+	track ENCSR127MFA_ENCFF175FDT
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF175FDT/@@download/ENCFF175FDT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR127MFA neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR127MFA age=17_week description=ENCSR127MFA_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR127MFA
+	parent primary_cell_neurosphere off
+	view ENCSR127MFA
+	visibility dense
+	type bigBed
+
+		track ENCSR127MFA_ENCFF737JBO
+		parent primary_cell_neurosphere_view_ENCSR127MFA off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K36me3 view=ENCSR127MFA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF737JBO/@@download/ENCFF737JBO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR127MFA neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR127MFA age=17_week description=ENCSR127MFA_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR127MFA 
+		view ENCSR127MFA
+
+	track ENCSR426CZM_ENCFF909BGZ
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF909BGZ/@@download/ENCFF909BGZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR426CZM neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR426CZM age=17_week description=ENCSR426CZM_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR426CZM
+	parent primary_cell_neurosphere off
+	view ENCSR426CZM
+	visibility dense
+	type bigBed
+
+		track ENCSR426CZM_ENCFF654TMU
+		parent primary_cell_neurosphere_view_ENCSR426CZM off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K36me3 view=ENCSR426CZM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF654TMU/@@download/ENCFF654TMU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR426CZM neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR426CZM age=17_week description=ENCSR426CZM_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO981EWY sex=female view=ENCSR426CZM 
+		view ENCSR426CZM
+
+	track ENCSR765SCM_ENCFF887BIU
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF887BIU/@@download/ENCFF887BIU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR765SCM neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR765SCM age=15_week description=ENCSR765SCM_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR765SCM
+	parent primary_cell_neurosphere off
+	view ENCSR765SCM
+	visibility dense
+	type bigBed
+
+		track ENCSR765SCM_ENCFF172DHA
+		parent primary_cell_neurosphere_view_ENCSR765SCM off
+		subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K36me3 view=ENCSR765SCM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF172DHA/@@download/ENCFF172DHA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR765SCM neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (pea
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR765SCM age=15_week description=ENCSR765SCM_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO594MAO sex=unknown view=ENCSR765SCM 
+		view ENCSR765SCM
+
+	track ENCSR815VLQ_ENCFF519BIC
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF519BIC/@@download/ENCFF519BIC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR815VLQ neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR815VLQ age=17_week description=ENCSR815VLQ_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR815VLQ
+	parent primary_cell_neurosphere off
+	view ENCSR815VLQ
+	visibility dense
+	type bigBed
+
+		track ENCSR815VLQ_ENCFF774OZA
+		parent primary_cell_neurosphere_view_ENCSR815VLQ off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K36me3 view=ENCSR815VLQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF774OZA/@@download/ENCFF774OZA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR815VLQ neurosphere_female_embryo_17_weeks_originated_from_cortex (stable pe
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR815VLQ age=17_week description=ENCSR815VLQ_neurosphere_female_embryo_17_weeks_originated_from_cortex_stable_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR815VLQ 
+		view ENCSR815VLQ
+
+	track ENCSR100QDR_ENCFF988HER
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF988HER/@@download/ENCFF988HER.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR100QDR neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR100QDR age=17_week description=ENCSR100QDR_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR100QDR
+	parent primary_cell_neurosphere off
+	view ENCSR100QDR
+	visibility dense
+	type bigBed
+
+		track ENCSR100QDR_ENCFF712RIN
+		parent primary_cell_neurosphere_view_ENCSR100QDR off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me1 view=ENCSR100QDR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF712RIN/@@download/ENCFF712RIN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR100QDR neurosphere_female_embryo_17_weeks_originated_from_cortex (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR100QDR age=17_week description=ENCSR100QDR_neurosphere_female_embryo_17_weeks_originated_from_cortex_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR100QDR 
+		view ENCSR100QDR
+
+	track ENCSR409RGJ_ENCFF773KWA
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF773KWA/@@download/ENCFF773KWA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR409RGJ neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR409RGJ age=17_week description=ENCSR409RGJ_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR409RGJ
+	parent primary_cell_neurosphere off
+	view ENCSR409RGJ
+	visibility dense
+	type bigBed
+
+		track ENCSR409RGJ_ENCFF348GCN
+		parent primary_cell_neurosphere_view_ENCSR409RGJ off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K4me1 view=ENCSR409RGJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF348GCN/@@download/ENCFF348GCN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR409RGJ neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR409RGJ age=17_week description=ENCSR409RGJ_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO981EWY sex=female view=ENCSR409RGJ 
+		view ENCSR409RGJ
+
+	track ENCSR453XEY_ENCFF647XLZ
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF647XLZ/@@download/ENCFF647XLZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR453XEY neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR453XEY age=17_week description=ENCSR453XEY_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR453XEY
+	parent primary_cell_neurosphere off
+	view ENCSR453XEY
+	visibility dense
+	type bigBed
+
+		track ENCSR453XEY_ENCFF310CJO
+		parent primary_cell_neurosphere_view_ENCSR453XEY off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K4me1 view=ENCSR453XEY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF310CJO/@@download/ENCFF310CJO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR453XEY neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR453XEY age=17_week description=ENCSR453XEY_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_stable_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR453XEY 
+		view ENCSR453XEY
+
+	track ENCSR512CSM_ENCFF092QDA
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF092QDA/@@download/ENCFF092QDA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR512CSM neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR512CSM age=15_week description=ENCSR512CSM_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR512CSM
+	parent primary_cell_neurosphere off
+	view ENCSR512CSM
+	visibility dense
+	type bigBed
+
+		track ENCSR512CSM_ENCFF410JNY
+		parent primary_cell_neurosphere_view_ENCSR512CSM off
+		subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K4me1 view=ENCSR512CSM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF410JNY/@@download/ENCFF410JNY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR512CSM neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (pea
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR512CSM age=15_week description=ENCSR512CSM_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO594MAO sex=unknown view=ENCSR512CSM 
+		view ENCSR512CSM
+
+	track ENCSR727TQS_ENCFF261VJW
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF261VJW/@@download/ENCFF261VJW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR727TQS neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR727TQS age=17_week description=ENCSR727TQS_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR727TQS
+	parent primary_cell_neurosphere off
+	view ENCSR727TQS
+	visibility dense
+	type bigBed
+
+		track ENCSR727TQS_ENCFF724JAK
+		parent primary_cell_neurosphere_view_ENCSR727TQS off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K4me1 view=ENCSR727TQS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF724JAK/@@download/ENCFF724JAK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR727TQS neurosphere_female_embryo_17_weeks_originated_from_cortex (stable pe
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR727TQS age=17_week description=ENCSR727TQS_neurosphere_female_embryo_17_weeks_originated_from_cortex_stable_peaks_ donor=ENCDO981EWY sex=female view=ENCSR727TQS 
+		view ENCSR727TQS
+
+	track ENCSR393HDC_ENCFF584JXZ
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF584JXZ/@@download/ENCFF584JXZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR393HDC neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR393HDC age=17_week description=ENCSR393HDC_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR393HDC
+	parent primary_cell_neurosphere off
+	view ENCSR393HDC
+	visibility dense
+	type bigBed
+
+		track ENCSR393HDC_ENCFF332USP
+		parent primary_cell_neurosphere_view_ENCSR393HDC off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K9me3 view=ENCSR393HDC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF332USP/@@download/ENCFF332USP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR393HDC neurosphere_female_embryo_17_weeks_originated_from_cortex (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR393HDC age=17_week description=ENCSR393HDC_neurosphere_female_embryo_17_weeks_originated_from_cortex_peaks_ donor=ENCDO981EWY sex=female view=ENCSR393HDC 
+		view ENCSR393HDC
+
+	track ENCSR568OLP_ENCFF768RET
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF768RET/@@download/ENCFF768RET.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR568OLP neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR568OLP age=17_week description=ENCSR568OLP_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO981EWY sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR568OLP
+	parent primary_cell_neurosphere off
+	view ENCSR568OLP
+	visibility dense
+	type bigBed
+
+		track ENCSR568OLP_ENCFF868PFA
+		parent primary_cell_neurosphere_view_ENCSR568OLP off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO981EWY label=H3K9me3 view=ENCSR568OLP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF868PFA/@@download/ENCFF868PFA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR568OLP neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR568OLP age=17_week description=ENCSR568OLP_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_peaks_ donor=ENCDO981EWY sex=female view=ENCSR568OLP 
+		view ENCSR568OLP
+
+	track ENCSR577CDW_ENCFF866IIJ
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF866IIJ/@@download/ENCFF866IIJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR577CDW neurosphere_female_embryo_17_weeks_originated_from_cortex (fold chan
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR577CDW age=17_week description=ENCSR577CDW_neurosphere_female_embryo_17_weeks_originated_from_cortex_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR577CDW
+	parent primary_cell_neurosphere off
+	view ENCSR577CDW
+	visibility dense
+	type bigBed
+
+		track ENCSR577CDW_ENCFF829NGU
+		parent primary_cell_neurosphere_view_ENCSR577CDW off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K9me3 view=ENCSR577CDW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF829NGU/@@download/ENCFF829NGU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR577CDW neurosphere_female_embryo_17_weeks_originated_from_cortex (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR577CDW age=17_week description=ENCSR577CDW_neurosphere_female_embryo_17_weeks_originated_from_cortex_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR577CDW 
+		view ENCSR577CDW
+
+	track ENCSR694PCO_ENCFF225IMC
+	parent primary_cell_neurosphere off
+	subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF225IMC/@@download/ENCFF225IMC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR694PCO neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR694PCO age=15_week description=ENCSR694PCO_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO594MAO sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR694PCO
+	parent primary_cell_neurosphere off
+	view ENCSR694PCO
+	visibility dense
+	type bigBed
+
+		track ENCSR694PCO_ENCFF321OLO
+		parent primary_cell_neurosphere_view_ENCSR694PCO off
+		subGroups age=a15_week assay=ChIP-seq donor=ENCDO594MAO label=H3K9me3 view=ENCSR694PCO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF321OLO/@@download/ENCFF321OLO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR694PCO neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence (sta
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR694PCO age=15_week description=ENCSR694PCO_neurosphere_embryo_15_weeks_originated_from_ganglionic_eminence_stable_peaks_ donor=ENCDO594MAO sex=unknown view=ENCSR694PCO 
+		view ENCSR694PCO
+
+	track ENCSR741FTW_ENCFF115RNB
+	parent primary_cell_neurosphere off
+	subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF115RNB/@@download/ENCFF115RNB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR741FTW neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR741FTW age=17_week description=ENCSR741FTW_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_fold_change_over_control_ donor=ENCDO030VWZ sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_neurosphere_view_ENCSR741FTW
+	parent primary_cell_neurosphere off
+	view ENCSR741FTW
+	visibility dense
+	type bigBed
+
+		track ENCSR741FTW_ENCFF440EQQ
+		parent primary_cell_neurosphere_view_ENCSR741FTW off
+		subGroups age=a17_week assay=ChIP-seq donor=ENCDO030VWZ label=H3K9me3 view=ENCSR741FTW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF440EQQ/@@download/ENCFF440EQQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR741FTW neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminen
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR741FTW age=17_week description=ENCSR741FTW_neurosphere_female_embryo_17_weeks_originated_from_ganglionic_eminence_stable_peaks_ donor=ENCDO030VWZ sex=female view=ENCSR741FTW 
+		view ENCSR741FTW
+

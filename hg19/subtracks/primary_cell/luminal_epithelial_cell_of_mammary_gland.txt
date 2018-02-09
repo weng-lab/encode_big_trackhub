@@ -1,0 +1,203 @@
+
+track primary_cell_luminal_epithelial_cell_of_mammary_gland
+parent super_primary_cell
+compositeTrack on
+shortLabel luminal epithelia
+longLabel luminal epithelial cell of mammary gland (7 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO804MOQ=ENCDO804MOQ ENCDO819SJC=ENCDO819SJC 
+subGroup2 age age a22_year=22&#32;year a33_year=33&#32;year 
+subGroup3 view view ENCSR113OII=ENCSR113OII ENCSR212LIS=ENCSR212LIS ENCSR293UEB=ENCSR293UEB ENCSR529ECZ=ENCSR529ECZ bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR093BZE_ENCFF144QOV
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	subGroups age=a22_year assay=microRNA-seq donor=ENCDO804MOQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF144QOV/@@download/ENCFF144QOV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR093BZE luminal_epithelial_cell_of_mammary_gland_female_adult_22_years_ (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR093BZE age=22_year description=ENCSR093BZE_luminal_epithelial_cell_of_mammary_gland_female_adult_22_years_plus_strand_signal_of_unique_reads_ donor=ENCDO804MOQ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR148SUU_ENCFF626IWR
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	subGroups age=a22_year assay=RNA-seq donor=ENCDO804MOQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF626IWR/@@download/ENCFF626IWR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR148SUU luminal_epithelial_cell_of_mammary_gland_female_adult_22_years_ (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR148SUU age=22_year description=ENCSR148SUU_luminal_epithelial_cell_of_mammary_gland_female_adult_22_years_plus_strand_signal_of_unique_reads_ donor=ENCDO804MOQ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR861KVU_ENCFF305QFM
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=microRNA-seq donor=ENCDO819SJC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF305QFM/@@download/ENCFF305QFM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR861KVU luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (plu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR861KVU age=33_year description=ENCSR861KVU_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_plus_strand_signal_of_unique_reads_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR113OII_ENCFF136OER
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF136OER/@@download/ENCFF136OER.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR113OII luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR113OII age=33_year description=ENCSR113OII_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_luminal_epithelial_cell_of_mammary_gland_view_ENCSR113OII
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	view ENCSR113OII
+	visibility dense
+	type bigBed
+
+		track ENCSR113OII_ENCFF542KCY
+		parent primary_cell_luminal_epithelial_cell_of_mammary_gland_view_ENCSR113OII off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K27me3 view=ENCSR113OII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF542KCY/@@download/ENCFF542KCY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR113OII luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (pea
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR113OII age=33_year description=ENCSR113OII_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_peaks_ donor=ENCDO819SJC sex=female view=ENCSR113OII 
+		view ENCSR113OII
+
+	track ENCSR212LIS_ENCFF616RWE
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF616RWE/@@download/ENCFF616RWE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR212LIS luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR212LIS age=33_year description=ENCSR212LIS_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_luminal_epithelial_cell_of_mammary_gland_view_ENCSR212LIS
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	view ENCSR212LIS
+	visibility dense
+	type bigBed
+
+		track ENCSR212LIS_ENCFF486QUG
+		parent primary_cell_luminal_epithelial_cell_of_mammary_gland_view_ENCSR212LIS off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K36me3 view=ENCSR212LIS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF486QUG/@@download/ENCFF486QUG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR212LIS luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (sta
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR212LIS age=33_year description=ENCSR212LIS_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_stable_peaks_ donor=ENCDO819SJC sex=female view=ENCSR212LIS 
+		view ENCSR212LIS
+
+	track ENCSR293UEB_ENCFF954VSW
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF954VSW/@@download/ENCFF954VSW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR293UEB luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR293UEB age=33_year description=ENCSR293UEB_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_luminal_epithelial_cell_of_mammary_gland_view_ENCSR293UEB
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	view ENCSR293UEB
+	visibility dense
+	type bigBed
+
+		track ENCSR293UEB_ENCFF849XGQ
+		parent primary_cell_luminal_epithelial_cell_of_mammary_gland_view_ENCSR293UEB off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K4me1 view=ENCSR293UEB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF849XGQ/@@download/ENCFF849XGQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR293UEB luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (sta
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR293UEB age=33_year description=ENCSR293UEB_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_stable_peaks_ donor=ENCDO819SJC sex=female view=ENCSR293UEB 
+		view ENCSR293UEB
+
+	track ENCSR529ECZ_ENCFF998VIF
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF998VIF/@@download/ENCFF998VIF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR529ECZ luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (fol
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR529ECZ age=33_year description=ENCSR529ECZ_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_fold_change_over_control_ donor=ENCDO819SJC sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_luminal_epithelial_cell_of_mammary_gland_view_ENCSR529ECZ
+	parent primary_cell_luminal_epithelial_cell_of_mammary_gland off
+	view ENCSR529ECZ
+	visibility dense
+	type bigBed
+
+		track ENCSR529ECZ_ENCFF868AXK
+		parent primary_cell_luminal_epithelial_cell_of_mammary_gland_view_ENCSR529ECZ off
+		subGroups age=a33_year assay=ChIP-seq donor=ENCDO819SJC label=H3K9me3 view=ENCSR529ECZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF868AXK/@@download/ENCFF868AXK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR529ECZ luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_ (pea
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR529ECZ age=33_year description=ENCSR529ECZ_luminal_epithelial_cell_of_mammary_gland_female_adult_33_years_peaks_ donor=ENCDO819SJC sex=female view=ENCSR529ECZ 
+		view ENCSR529ECZ
+

@@ -1,0 +1,53 @@
+
+track tissue_femur
+parent super_tissue
+compositeTrack on
+shortLabel femur
+longLabel femur (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO298NZG=ENCDO298NZG 
+subGroup2 age age a98_day=98&#32;day 
+subGroup3 view view ENCSR805XIF=ENCSR805XIF bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR805XIF_ENCFF406VKI
+	parent tissue_femur off
+	subGroups age=a98_day assay=DNase-seq donor=ENCDO298NZG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF406VKI/@@download/ENCFF406VKI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR805XIF femur_female_embryo_98_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR805XIF age=98_day description=ENCSR805XIF_femur_female_embryo_98_days_read_depth_normalized_signal_ donor=ENCDO298NZG sex=female view=bigWig 
+	view bigWig
+
+	track tissue_femur_view_ENCSR805XIF
+	parent tissue_femur off
+	view ENCSR805XIF
+	visibility dense
+	type bigBed
+
+		track ENCSR805XIF_ENCFF976VAY
+		parent tissue_femur_view_ENCSR805XIF off
+		subGroups age=a98_day assay=DNase-seq donor=ENCDO298NZG label=unknown view=ENCSR805XIF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF976VAY/@@download/ENCFF976VAY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR805XIF femur_female_embryo_98_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR805XIF age=98_day description=ENCSR805XIF_femur_female_embryo_98_days_peaks_ donor=ENCDO298NZG sex=female view=ENCSR805XIF 
+		view ENCSR805XIF
+

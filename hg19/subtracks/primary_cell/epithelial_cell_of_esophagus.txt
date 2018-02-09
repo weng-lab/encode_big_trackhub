@@ -1,0 +1,166 @@
+
+track primary_cell_epithelial_cell_of_esophagus
+parent super_primary_cell
+compositeTrack on
+shortLabel epithelial cell o
+longLabel epithelial cell of esophagus (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO104AAA=ENCDO104AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DTR=ENCSR000DTR ENCSR000DTT=ENCSR000DTT bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DTT_ENCFF088ZMC
+	parent primary_cell_epithelial_cell_of_esophagus off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF088ZMC/@@download/ENCFF088ZMC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DTT epithelial_cell_of_esophagus (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DTT age=unknown description=ENCSR000DTT_epithelial_cell_of_esophagus_fold_change_over_control_ donor=ENCDO104AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTT
+	parent primary_cell_epithelial_cell_of_esophagus off
+	view ENCSR000DTT
+	visibility dense
+	type bigBed
+
+		track ENCSR000DTT_ENCFF037PLM
+		parent primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=H3K4me3 view=ENCSR000DTT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF037PLM/@@download/ENCFF037PLM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DTT epithelial_cell_of_esophagus (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DTT age=unknown description=ENCSR000DTT_epithelial_cell_of_esophagus_replicated_peaks_ donor=ENCDO104AAA sex=unknown view=ENCSR000DTT 
+		view ENCSR000DTT
+
+		track ENCSR000DTT_ENCFF082IZI
+		parent primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=H3K4me3 view=ENCSR000DTT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF082IZI/@@download/ENCFF082IZI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF082IZI 9state-CTCF H3K4me3 ChIP-seq on human HEEpiC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTT age=unknown description=ENCFF082IZI_9state_CTCF_H3K4me3_ChIP_seq_on_human_HEEpiC donor=ENCDO104AAA sex=unknown view=ENCSR000DTT 
+		view ENCSR000DTT
+
+		track ENCSR000DTT_ENCFF370FFT
+		parent primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=H3K4me3 view=ENCSR000DTT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF370FFT/@@download/ENCFF370FFT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF370FFT 5group H3K4me3 ChIP-seq on human HEEpiC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTT age=unknown description=ENCFF370FFT_5group_H3K4me3_ChIP_seq_on_human_HEEpiC donor=ENCDO104AAA sex=unknown view=ENCSR000DTT 
+		view ENCSR000DTT
+
+		track ENCSR000DTT_ENCFF910RTU
+		parent primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=H3K4me3 view=ENCSR000DTT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF910RTU/@@download/ENCFF910RTU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF910RTU 9state-H3K4me3 H3K4me3 ChIP-seq on human HEEpiC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTT age=unknown description=ENCFF910RTU_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HEEpiC donor=ENCDO104AAA sex=unknown view=ENCSR000DTT 
+		view ENCSR000DTT
+
+	track ENCSR000DTR_ENCFF827LVJ
+	parent primary_cell_epithelial_cell_of_esophagus off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF827LVJ/@@download/ENCFF827LVJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DTR epithelial_cell_of_esophagus (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DTR age=unknown description=ENCSR000DTR_epithelial_cell_of_esophagus_fold_change_over_control_ donor=ENCDO104AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTR
+	parent primary_cell_epithelial_cell_of_esophagus off
+	view ENCSR000DTR
+	visibility dense
+	type bigBed
+
+		track ENCSR000DTR_ENCFF472JGE
+		parent primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=CTCF view=ENCSR000DTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF472JGE/@@download/ENCFF472JGE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DTR epithelial_cell_of_esophagus (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DTR age=unknown description=ENCSR000DTR_epithelial_cell_of_esophagus_optimal_idr_thresholded_peaks_ donor=ENCDO104AAA sex=unknown view=ENCSR000DTR 
+		view ENCSR000DTR
+
+		track ENCSR000DTR_ENCFF082IZI
+		parent primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=CTCF view=ENCSR000DTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF082IZI/@@download/ENCFF082IZI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF082IZI 9state-CTCF CTCF ChIP-seq on human HEEpiC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTR age=unknown description=ENCFF082IZI_9state_CTCF_CTCF_ChIP_seq_on_human_HEEpiC donor=ENCDO104AAA sex=unknown view=ENCSR000DTR 
+		view ENCSR000DTR
+
+		track ENCSR000DTR_ENCFF370FFT
+		parent primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=CTCF view=ENCSR000DTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF370FFT/@@download/ENCFF370FFT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF370FFT 5group CTCF ChIP-seq on human HEEpiC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTR age=unknown description=ENCFF370FFT_5group_CTCF_ChIP_seq_on_human_HEEpiC donor=ENCDO104AAA sex=unknown view=ENCSR000DTR 
+		view ENCSR000DTR
+
+		track ENCSR000DTR_ENCFF910RTU
+		parent primary_cell_epithelial_cell_of_esophagus_view_ENCSR000DTR off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO104AAA label=CTCF view=ENCSR000DTR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF910RTU/@@download/ENCFF910RTU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF910RTU 9state-H3K4me3 CTCF ChIP-seq on human HEEpiC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DTR age=unknown description=ENCFF910RTU_9state_H3K4me3_CTCF_ChIP_seq_on_human_HEEpiC donor=ENCDO104AAA sex=unknown view=ENCSR000DTR 
+		view ENCSR000DTR
+

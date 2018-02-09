@@ -1,0 +1,66 @@
+
+track primary_cell_Muller_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel Muller cell
+longLabel Muller cell (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a12_day=12&#32;day 
+subGroup3 view view ENCSR666HFH=ENCSR666HFH bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR666HFH_ENCFF586XFN
+	parent primary_cell_Muller_cell off
+	subGroups age=a12_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF586XFN/@@download/ENCFF586XFN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR666HFH C57BL_6_Muller_cell_postnatal_12_days_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR666HFH age=12_day description=ENCSR666HFH_C57BL_6_Muller_cell_postnatal_12_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_Muller_cell_view_ENCSR666HFH
+	parent primary_cell_Muller_cell off
+	view ENCSR666HFH
+	visibility dense
+	type bigBed
+
+		track ENCSR666HFH_ENCFF119YTG
+		parent primary_cell_Muller_cell_view_ENCSR666HFH off
+		subGroups age=a12_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR666HFH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF119YTG/@@download/ENCFF119YTG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR666HFH C57BL_6_Muller_cell_postnatal_12_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR666HFH age=12_day description=ENCSR666HFH_C57BL_6_Muller_cell_postnatal_12_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR666HFH 
+		view ENCSR666HFH
+
+		track ENCSR666HFH_ENCFF608TJB
+		parent primary_cell_Muller_cell_view_ENCSR666HFH off
+		subGroups age=a12_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR666HFH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF608TJB/@@download/ENCFF608TJB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF608TJB 9state-DNase DNase-seq on mouse Muller cell
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR666HFH age=12_day description=ENCFF608TJB_9state_DNase_DNase_seq_on_mouse_Muller_cell donor=ENCDO956IXV sex=unknown view=ENCSR666HFH 
+		view ENCSR666HFH
+

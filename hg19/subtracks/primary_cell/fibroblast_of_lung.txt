@@ -1,0 +1,937 @@
+
+track primary_cell_fibroblast_of_lung
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of lun
+longLabel fibroblast of lung (18 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO001AAA=ENCDO001AAA ENCDO045AAA=ENCDO045AAA ENCDO269AAA=ENCDO269AAA ENCDO333AAA=ENCDO333AAA 
+subGroup2 age age a12_week=12&#32;week a45_year=45&#32;year a83_year=83&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000DPJ=ENCSR000DPJ ENCSR000DPK=ENCSR000DPK ENCSR000DPL=ENCSR000DPL ENCSR000DPM=ENCSR000DPM ENCSR000DPO=ENCSR000DPO ENCSR000DVA=ENCSR000DVA ENCSR000DVC=ENCSR000DVC ENCSR000DWY=ENCSR000DWY ENCSR000DWZ=ENCSR000DWZ ENCSR000ELY=ENCSR000ELY ENCSR000EOJ=ENCSR000EOJ bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ELY_ENCFF830MAO
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF830MAO/@@download/ENCFF830MAO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ELY fibroblast_of_lung_male_embryo_12_weeks_ (read-depth normalized sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ELY age=12_week description=ENCSR000ELY_fibroblast_of_lung_male_embryo_12_weeks_read_depth_normalized_signal_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000ELY
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000ELY
+	visibility dense
+	type bigBed
+
+		track ENCSR000ELY_ENCFF545YAS
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000ELY off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF545YAS/@@download/ENCFF545YAS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ELY fibroblast_of_lung_male_embryo_12_weeks_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ELY age=12_week description=ENCSR000ELY_fibroblast_of_lung_male_embryo_12_weeks_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000ELY 
+		view ENCSR000ELY
+
+		track ENCSR000ELY_ENCFF982VUJ
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000ELY off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982VUJ/@@download/ENCFF982VUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF982VUJ 9state-DNase DNase-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELY age=12_week description=ENCFF982VUJ_9state_DNase_DNase_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000ELY 
+		view ENCSR000ELY
+
+		track ENCSR000ELY_ENCFF529VMH
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000ELY off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF529VMH/@@download/ENCFF529VMH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF529VMH 9state-CTCF DNase-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELY age=12_week description=ENCFF529VMH_9state_CTCF_DNase_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000ELY 
+		view ENCSR000ELY
+
+		track ENCSR000ELY_ENCFF292NZP
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000ELY off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF292NZP/@@download/ENCFF292NZP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF292NZP 5group DNase-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELY age=12_week description=ENCFF292NZP_5group_DNase_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000ELY 
+		view ENCSR000ELY
+
+		track ENCSR000ELY_ENCFF143MTN
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000ELY off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF143MTN/@@download/ENCFF143MTN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF143MTN 9state-H3K27ac DNase-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELY age=12_week description=ENCFF143MTN_9state_H3K27ac_DNase_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000ELY 
+		view ENCSR000ELY
+
+		track ENCSR000ELY_ENCFF824LON
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000ELY off
+		subGroups age=a12_week assay=DNase-seq donor=ENCDO001AAA label=unknown view=ENCSR000ELY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF824LON/@@download/ENCFF824LON.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF824LON 9state-H3K4me3 DNase-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ELY age=12_week description=ENCFF824LON_9state_H3K4me3_DNase_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000ELY 
+		view ENCSR000ELY
+
+	track ENCSR000EOJ_ENCFF032QGP
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO333AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF032QGP/@@download/ENCFF032QGP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOJ fibroblast_of_lung (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOJ age=unknown description=ENCSR000EOJ_fibroblast_of_lung_read_depth_normalized_signal_ donor=ENCDO333AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000EOJ
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000EOJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOJ_ENCFF017LXO
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000EOJ off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO333AAA label=unknown view=ENCSR000EOJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017LXO/@@download/ENCFF017LXO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOJ fibroblast_of_lung (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOJ age=unknown description=ENCSR000EOJ_fibroblast_of_lung_peaks_ donor=ENCDO333AAA sex=unknown view=ENCSR000EOJ 
+		view ENCSR000EOJ
+
+		track ENCSR000EOJ_ENCFF309FQJ
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000EOJ off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO333AAA label=unknown view=ENCSR000EOJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF309FQJ/@@download/ENCFF309FQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF309FQJ 9state-DNase DNase-seq and DGF on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOJ age=unknown description=ENCFF309FQJ_9state_DNase_DNase_seq_and_DGF_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000EOJ 
+		view ENCSR000EOJ
+
+		track ENCSR000EOJ_ENCFF380YDY
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000EOJ off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO333AAA label=unknown view=ENCSR000EOJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF380YDY/@@download/ENCFF380YDY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF380YDY 9state-CTCF DNase-seq and DGF on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOJ age=unknown description=ENCFF380YDY_9state_CTCF_DNase_seq_and_DGF_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000EOJ 
+		view ENCSR000EOJ
+
+		track ENCSR000EOJ_ENCFF558NVB
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000EOJ off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO333AAA label=unknown view=ENCSR000EOJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF558NVB/@@download/ENCFF558NVB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF558NVB 5group DNase-seq and DGF on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOJ age=unknown description=ENCFF558NVB_5group_DNase_seq_and_DGF_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000EOJ 
+		view ENCSR000EOJ
+
+		track ENCSR000EOJ_ENCFF986RMD
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000EOJ off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO333AAA label=unknown view=ENCSR000EOJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF986RMD/@@download/ENCFF986RMD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF986RMD 9state-H3K4me3 DNase-seq and DGF on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOJ age=unknown description=ENCFF986RMD_9state_H3K4me3_DNase_seq_and_DGF_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000EOJ 
+		view ENCSR000EOJ
+
+	track ENCSR000DPO_ENCFF237CDP
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF237CDP/@@download/ENCFF237CDP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DPO fibroblast_of_lung_male_embryo_12_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPO age=12_week description=ENCSR000DPO_fibroblast_of_lung_male_embryo_12_weeks_fold_change_over_control_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DPO
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DPO
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPO_ENCFF753EKL
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPO off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF753EKL/@@download/ENCFF753EKL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DPO fibroblast_of_lung_male_embryo_12_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DPO age=12_week description=ENCSR000DPO_fibroblast_of_lung_male_embryo_12_weeks_replicated_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000DPO 
+		view ENCSR000DPO
+
+		track ENCSR000DPO_ENCFF982VUJ
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPO off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982VUJ/@@download/ENCFF982VUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF982VUJ 9state-DNase H3K4me3 ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPO age=12_week description=ENCFF982VUJ_9state_DNase_H3K4me3_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPO 
+		view ENCSR000DPO
+
+		track ENCSR000DPO_ENCFF529VMH
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPO off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF529VMH/@@download/ENCFF529VMH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF529VMH 9state-CTCF H3K4me3 ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPO age=12_week description=ENCFF529VMH_9state_CTCF_H3K4me3_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPO 
+		view ENCSR000DPO
+
+		track ENCSR000DPO_ENCFF292NZP
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPO off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF292NZP/@@download/ENCFF292NZP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF292NZP 5group H3K4me3 ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPO age=12_week description=ENCFF292NZP_5group_H3K4me3_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPO 
+		view ENCSR000DPO
+
+		track ENCSR000DPO_ENCFF143MTN
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPO off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF143MTN/@@download/ENCFF143MTN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF143MTN 9state-H3K27ac H3K4me3 ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPO age=12_week description=ENCFF143MTN_9state_H3K27ac_H3K4me3_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPO 
+		view ENCSR000DPO
+
+		track ENCSR000DPO_ENCFF824LON
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPO off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K4me3 view=ENCSR000DPO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF824LON/@@download/ENCFF824LON.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF824LON 9state-H3K4me3 H3K4me3 ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPO age=12_week description=ENCFF824LON_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPO 
+		view ENCSR000DPO
+
+	track ENCSR000DVC_ENCFF815TXY
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF815TXY/@@download/ENCFF815TXY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DVC fibroblast_of_lung (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DVC age=unknown description=ENCSR000DVC_fibroblast_of_lung_fold_change_over_control_ donor=ENCDO333AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DVC
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DVC
+	visibility dense
+	type bigBed
+
+		track ENCSR000DVC_ENCFF834ZAR
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=H3K4me3 view=ENCSR000DVC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF834ZAR/@@download/ENCFF834ZAR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DVC fibroblast_of_lung (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DVC age=unknown description=ENCSR000DVC_fibroblast_of_lung_replicated_peaks_ donor=ENCDO333AAA sex=unknown view=ENCSR000DVC 
+		view ENCSR000DVC
+
+		track ENCSR000DVC_ENCFF309FQJ
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=H3K4me3 view=ENCSR000DVC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF309FQJ/@@download/ENCFF309FQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF309FQJ 9state-DNase H3K4me3 ChIP-seq on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DVC age=unknown description=ENCFF309FQJ_9state_DNase_H3K4me3_ChIP_seq_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000DVC 
+		view ENCSR000DVC
+
+		track ENCSR000DVC_ENCFF380YDY
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=H3K4me3 view=ENCSR000DVC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF380YDY/@@download/ENCFF380YDY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF380YDY 9state-CTCF H3K4me3 ChIP-seq on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DVC age=unknown description=ENCFF380YDY_9state_CTCF_H3K4me3_ChIP_seq_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000DVC 
+		view ENCSR000DVC
+
+		track ENCSR000DVC_ENCFF558NVB
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=H3K4me3 view=ENCSR000DVC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF558NVB/@@download/ENCFF558NVB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF558NVB 5group H3K4me3 ChIP-seq on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DVC age=unknown description=ENCFF558NVB_5group_H3K4me3_ChIP_seq_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000DVC 
+		view ENCSR000DVC
+
+		track ENCSR000DVC_ENCFF986RMD
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVC off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=H3K4me3 view=ENCSR000DVC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF986RMD/@@download/ENCFF986RMD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF986RMD 9state-H3K4me3 H3K4me3 ChIP-seq on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DVC age=unknown description=ENCFF986RMD_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000DVC 
+		view ENCSR000DVC
+
+	track ENCSR000DWZ_ENCFF672JJF
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a45_year assay=ChIP-seq donor=ENCDO269AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF672JJF/@@download/ENCFF672JJF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DWZ fibroblast_of_lung_male_adult_45_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DWZ age=45_year description=ENCSR000DWZ_fibroblast_of_lung_male_adult_45_years_fold_change_over_control_ donor=ENCDO269AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DWZ
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DWZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DWZ_ENCFF219NNT
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DWZ off
+		subGroups age=a45_year assay=ChIP-seq donor=ENCDO269AAA label=H3K4me3 view=ENCSR000DWZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF219NNT/@@download/ENCFF219NNT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DWZ fibroblast_of_lung_male_adult_45_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DWZ age=45_year description=ENCSR000DWZ_fibroblast_of_lung_male_adult_45_years_replicated_peaks_ donor=ENCDO269AAA sex=male view=ENCSR000DWZ 
+		view ENCSR000DWZ
+
+	track ENCSR000DPL_ENCFF752EFC
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF752EFC/@@download/ENCFF752EFC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000DPL fibroblast_of_lung_male_embryo_12_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPL age=12_week description=ENCSR000DPL_fibroblast_of_lung_male_embryo_12_weeks_fold_change_over_control_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DPL
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DPL
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPL_ENCFF831SOP
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPL off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27ac view=ENCSR000DPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF831SOP/@@download/ENCFF831SOP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000DPL fibroblast_of_lung_male_embryo_12_weeks_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000DPL age=12_week description=ENCSR000DPL_fibroblast_of_lung_male_embryo_12_weeks_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000DPL 
+		view ENCSR000DPL
+
+		track ENCSR000DPL_ENCFF982VUJ
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPL off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27ac view=ENCSR000DPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982VUJ/@@download/ENCFF982VUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF982VUJ 9state-DNase H3K27ac ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPL age=12_week description=ENCFF982VUJ_9state_DNase_H3K27ac_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPL 
+		view ENCSR000DPL
+
+		track ENCSR000DPL_ENCFF529VMH
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPL off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27ac view=ENCSR000DPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF529VMH/@@download/ENCFF529VMH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF529VMH 9state-CTCF H3K27ac ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPL age=12_week description=ENCFF529VMH_9state_CTCF_H3K27ac_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPL 
+		view ENCSR000DPL
+
+		track ENCSR000DPL_ENCFF292NZP
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPL off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27ac view=ENCSR000DPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF292NZP/@@download/ENCFF292NZP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF292NZP 5group H3K27ac ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPL age=12_week description=ENCFF292NZP_5group_H3K27ac_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPL 
+		view ENCSR000DPL
+
+		track ENCSR000DPL_ENCFF143MTN
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPL off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27ac view=ENCSR000DPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF143MTN/@@download/ENCFF143MTN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF143MTN 9state-H3K27ac H3K27ac ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPL age=12_week description=ENCFF143MTN_9state_H3K27ac_H3K27ac_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPL 
+		view ENCSR000DPL
+
+		track ENCSR000DPL_ENCFF824LON
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPL off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27ac view=ENCSR000DPL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF824LON/@@download/ENCFF824LON.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF824LON 9state-H3K4me3 H3K27ac ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPL age=12_week description=ENCFF824LON_9state_H3K4me3_H3K27ac_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPL 
+		view ENCSR000DPL
+
+	track ENCSR000DPM_ENCFF932MVC
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF932MVC/@@download/ENCFF932MVC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DPM fibroblast_of_lung_male_embryo_12_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPM age=12_week description=ENCSR000DPM_fibroblast_of_lung_male_embryo_12_weeks_fold_change_over_control_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DPM
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DPM
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPM_ENCFF080ERB
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPM off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF080ERB/@@download/ENCFF080ERB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DPM fibroblast_of_lung_male_embryo_12_weeks_ (optimal idr thresholded pe
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DPM age=12_week description=ENCSR000DPM_fibroblast_of_lung_male_embryo_12_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000DPM 
+		view ENCSR000DPM
+
+		track ENCSR000DPM_ENCFF982VUJ
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPM off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982VUJ/@@download/ENCFF982VUJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF982VUJ 9state-DNase CTCF ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPM age=12_week description=ENCFF982VUJ_9state_DNase_CTCF_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPM 
+		view ENCSR000DPM
+
+		track ENCSR000DPM_ENCFF529VMH
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPM off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF529VMH/@@download/ENCFF529VMH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF529VMH 9state-CTCF CTCF ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPM age=12_week description=ENCFF529VMH_9state_CTCF_CTCF_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPM 
+		view ENCSR000DPM
+
+		track ENCSR000DPM_ENCFF292NZP
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPM off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF292NZP/@@download/ENCFF292NZP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF292NZP 5group CTCF ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPM age=12_week description=ENCFF292NZP_5group_CTCF_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPM 
+		view ENCSR000DPM
+
+		track ENCSR000DPM_ENCFF143MTN
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPM off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF143MTN/@@download/ENCFF143MTN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF143MTN 9state-H3K27ac CTCF ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPM age=12_week description=ENCFF143MTN_9state_H3K27ac_CTCF_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPM 
+		view ENCSR000DPM
+
+		track ENCSR000DPM_ENCFF824LON
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPM off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=CTCF view=ENCSR000DPM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF824LON/@@download/ENCFF824LON.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF824LON 9state-H3K4me3 CTCF ChIP-seq on human AG04450
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DPM age=12_week description=ENCFF824LON_9state_H3K4me3_CTCF_ChIP_seq_on_human_AG04450 donor=ENCDO001AAA sex=male view=ENCSR000DPM 
+		view ENCSR000DPM
+
+	track ENCSR000DVA_ENCFF073GBS
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF073GBS/@@download/ENCFF073GBS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DVA fibroblast_of_lung (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DVA age=unknown description=ENCSR000DVA_fibroblast_of_lung_fold_change_over_control_ donor=ENCDO333AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DVA
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DVA
+	visibility dense
+	type bigBed
+
+		track ENCSR000DVA_ENCFF305YLV
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=CTCF view=ENCSR000DVA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF305YLV/@@download/ENCFF305YLV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DVA fibroblast_of_lung (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DVA age=unknown description=ENCSR000DVA_fibroblast_of_lung_optimal_idr_thresholded_peaks_ donor=ENCDO333AAA sex=unknown view=ENCSR000DVA 
+		view ENCSR000DVA
+
+		track ENCSR000DVA_ENCFF309FQJ
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=CTCF view=ENCSR000DVA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF309FQJ/@@download/ENCFF309FQJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF309FQJ 9state-DNase CTCF ChIP-seq on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DVA age=unknown description=ENCFF309FQJ_9state_DNase_CTCF_ChIP_seq_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000DVA 
+		view ENCSR000DVA
+
+		track ENCSR000DVA_ENCFF380YDY
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=CTCF view=ENCSR000DVA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF380YDY/@@download/ENCFF380YDY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF380YDY 9state-CTCF CTCF ChIP-seq on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DVA age=unknown description=ENCFF380YDY_9state_CTCF_CTCF_ChIP_seq_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000DVA 
+		view ENCSR000DVA
+
+		track ENCSR000DVA_ENCFF558NVB
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=CTCF view=ENCSR000DVA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF558NVB/@@download/ENCFF558NVB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF558NVB 5group CTCF ChIP-seq on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DVA age=unknown description=ENCFF558NVB_5group_CTCF_ChIP_seq_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000DVA 
+		view ENCSR000DVA
+
+		track ENCSR000DVA_ENCFF986RMD
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DVA off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO333AAA label=CTCF view=ENCSR000DVA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF986RMD/@@download/ENCFF986RMD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF986RMD 9state-H3K4me3 CTCF ChIP-seq on human HPF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DVA age=unknown description=ENCFF986RMD_9state_H3K4me3_CTCF_ChIP_seq_on_human_HPF donor=ENCDO333AAA sex=unknown view=ENCSR000DVA 
+		view ENCSR000DVA
+
+	track ENCSR000DWY_ENCFF988MBD
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a45_year assay=ChIP-seq donor=ENCDO269AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF988MBD/@@download/ENCFF988MBD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DWY fibroblast_of_lung_male_adult_45_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DWY age=45_year description=ENCSR000DWY_fibroblast_of_lung_male_adult_45_years_fold_change_over_control_ donor=ENCDO269AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DWY
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DWY
+	visibility dense
+	type bigBed
+
+		track ENCSR000DWY_ENCFF961PTH
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DWY off
+		subGroups age=a45_year assay=ChIP-seq donor=ENCDO269AAA label=CTCF view=ENCSR000DWY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF961PTH/@@download/ENCFF961PTH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DWY fibroblast_of_lung_male_adult_45_years_ (optimal idr thresholded pea
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DWY age=45_year description=ENCSR000DWY_fibroblast_of_lung_male_adult_45_years_optimal_idr_thresholded_peaks_ donor=ENCDO269AAA sex=male view=ENCSR000DWY 
+		view ENCSR000DWY
+
+		track ENCSR000DWY_ENCFF937ZBL
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DWY off
+		subGroups age=a45_year assay=ChIP-seq donor=ENCDO269AAA label=CTCF view=ENCSR000DWY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF937ZBL/@@download/ENCFF937ZBL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF937ZBL 9state-CTCF CTCF ChIP-seq on human NHLF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DWY age=45_year description=ENCFF937ZBL_9state_CTCF_CTCF_ChIP_seq_on_human_NHLF donor=ENCDO269AAA sex=male view=ENCSR000DWY 
+		view ENCSR000DWY
+
+	track ENCSR000AAO_ENCFF790XEX
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a83_year assay=RNA-seq donor=ENCDO045AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF790XEX/@@download/ENCFF790XEX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAO fibroblast_of_lung_female_adult_83_years_and_male_adult_23_years_ (p
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAO age=83_year description=ENCSR000AAO_fibroblast_of_lung_female_adult_83_years_and_male_adult_23_years_plus_strand_signal_of_unique_reads_ donor=ENCDO045AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000CJW_ENCFF219MOD
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=CAGE donor=ENCDO001AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF219MOD/@@download/ENCFF219MOD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CJW fibroblast_of_lung_male_embryo_12_weeks_ (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CJW age=12_week description=ENCSR000CJW_fibroblast_of_lung_male_embryo_12_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000COO_ENCFF639SBQ
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=RNA-seq donor=ENCDO001AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF639SBQ/@@download/ENCFF639SBQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000COO fibroblast_of_lung_male_embryo_12_weeks_ (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000COO age=12_week description=ENCSR000COO_fibroblast_of_lung_male_embryo_12_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CPM_ENCFF499OBZ
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a45_year assay=RNA-seq donor=ENCDO269AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF499OBZ/@@download/ENCFF499OBZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CPM fibroblast_of_lung_male_adult_45_years_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CPM age=45_year description=ENCSR000CPM_fibroblast_of_lung_male_adult_45_years_plus_strand_signal_of_unique_reads_ donor=ENCDO269AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CPW_ENCFF926AMB
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a45_year assay=RNA-seq donor=ENCDO269AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF926AMB/@@download/ENCFF926AMB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CPW fibroblast_of_lung_male_adult_45_years_ (plus strand signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CPW age=45_year description=ENCSR000CPW_fibroblast_of_lung_male_adult_45_years_plus_strand_signal_of_unique_reads_ donor=ENCDO269AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CPX_ENCFF315EFE
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=RNA-seq donor=ENCDO001AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF315EFE/@@download/ENCFF315EFE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CPX fibroblast_of_lung_male_embryo_12_weeks_ (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CPX age=12_week description=ENCSR000CPX_fibroblast_of_lung_male_embryo_12_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CRI_ENCFF601FNS
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=RNA-seq donor=ENCDO001AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF601FNS/@@download/ENCFF601FNS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CRI fibroblast_of_lung_male_embryo_12_weeks_ (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CRI age=12_week description=ENCSR000CRI_fibroblast_of_lung_male_embryo_12_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000DPK_ENCFF896UVW
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF896UVW/@@download/ENCFF896UVW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DPK fibroblast_of_lung_male_embryo_12_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPK age=12_week description=ENCSR000DPK_fibroblast_of_lung_male_embryo_12_weeks_fold_change_over_control_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DPK
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DPK
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPK_ENCFF436DKV
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPK off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K27me3 view=ENCSR000DPK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF436DKV/@@download/ENCFF436DKV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DPK fibroblast_of_lung_male_embryo_12_weeks_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DPK age=12_week description=ENCSR000DPK_fibroblast_of_lung_male_embryo_12_weeks_stable_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000DPK 
+		view ENCSR000DPK
+
+	track ENCSR000DPJ_ENCFF388RWS
+	parent primary_cell_fibroblast_of_lung off
+	subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF388RWS/@@download/ENCFF388RWS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR000DPJ fibroblast_of_lung_male_embryo_12_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DPJ age=12_week description=ENCSR000DPJ_fibroblast_of_lung_male_embryo_12_weeks_fold_change_over_control_ donor=ENCDO001AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_lung_view_ENCSR000DPJ
+	parent primary_cell_fibroblast_of_lung off
+	view ENCSR000DPJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DPJ_ENCFF142ZQY
+		parent primary_cell_fibroblast_of_lung_view_ENCSR000DPJ off
+		subGroups age=a12_week assay=ChIP-seq donor=ENCDO001AAA label=H3K9me3 view=ENCSR000DPJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF142ZQY/@@download/ENCFF142ZQY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR000DPJ fibroblast_of_lung_male_embryo_12_weeks_ (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR000DPJ age=12_week description=ENCSR000DPJ_fibroblast_of_lung_male_embryo_12_weeks_replicated_peaks_ donor=ENCDO001AAA sex=male view=ENCSR000DPJ 
+		view ENCSR000DPJ
+

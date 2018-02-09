@@ -1,0 +1,53 @@
+
+track tissue_endometrium
+parent super_tissue
+compositeTrack on
+shortLabel endometrium
+longLabel endometrium (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO321AAA=ENCDO321AAA 
+subGroup2 age age a22_year=22&#32;year 
+subGroup3 view view ENCSR000DBV=ENCSR000DBV bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DBV_ENCFF000THA
+	parent tissue_endometrium off
+	subGroups age=a22_year assay=FAIRE-seq donor=ENCDO321AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000THA/@@download/ENCFF000THA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel FAIRE-seq
+	longLabel ENCSR000DBV endometrium_female_adult_22_years_and_female_adult_28_years_ (signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DBV age=22_year description=ENCSR000DBV_endometrium_female_adult_22_years_and_female_adult_28_years_signal_ donor=ENCDO321AAA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_endometrium_view_ENCSR000DBV
+	parent tissue_endometrium off
+	view ENCSR000DBV
+	visibility dense
+	type bigBed
+
+		track ENCSR000DBV_ENCFF000TGZ
+		parent tissue_endometrium_view_ENCSR000DBV off
+		subGroups age=a22_year assay=FAIRE-seq donor=ENCDO321AAA label=unknown view=ENCSR000DBV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000TGZ/@@download/ENCFF000TGZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel FAIRE-seq
+		longLabel ENCSR000DBV endometrium_female_adult_22_years_and_female_adult_28_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000DBV age=22_year description=ENCSR000DBV_endometrium_female_adult_22_years_and_female_adult_28_years_peaks_ donor=ENCDO321AAA sex=female view=ENCSR000DBV 
+		view ENCSR000DBV
+

@@ -1,0 +1,297 @@
+
+track immortalized_cell_line_WI38
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel WI38
+longLabel WI38 (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label CTCF=CTCF H3K4me3=H3K4me3 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq 
+subGroup3 view view ENCSR000DXY=ENCSR000DXY ENCSR000DXZ=ENCSR000DXZ ENCSR000DYB=ENCSR000DYB ENCSR000EQM=ENCSR000EQM ENCSR000EQN=ENCSR000EQN bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EQM_ENCFF408YXY
+	parent immortalized_cell_line_WI38 off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO000ADU label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF408YXY/@@download/ENCFF408YXY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EQM WI38_genetically_modified_using_stable_transfection_originated_from_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQM age=unknown description=ENCSR000EQM_WI38_genetically_modified_using_stable_transfection_originated_from_WI38_treated_with_20_nM_afimoxifene_for_72_hours_read_depth_normalized_signal_ donor=ENCDO000ADU sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_WI38_view_ENCSR000EQM
+	parent immortalized_cell_line_WI38 off
+	view ENCSR000EQM
+	visibility dense
+	type bigBed
+
+		track ENCSR000EQM_ENCFF346SPD
+		parent immortalized_cell_line_WI38_view_ENCSR000EQM off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000ADU label=unknown view=ENCSR000EQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF346SPD/@@download/ENCFF346SPD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EQM WI38_genetically_modified_using_stable_transfection_originated_from_
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EQM age=unknown description=ENCSR000EQM_WI38_genetically_modified_using_stable_transfection_originated_from_WI38_treated_with_20_nM_afimoxifene_for_72_hours_peaks_ donor=ENCDO000ADU sex=female view=ENCSR000EQM 
+		view ENCSR000EQM
+
+		track ENCSR000EQM_ENCFF055KDP
+		parent immortalized_cell_line_WI38_view_ENCSR000EQM off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000ADU label=unknown view=ENCSR000EQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF055KDP/@@download/ENCFF055KDP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF055KDP 9state-DNase DNase-seq on human WI-38 treated with 4-hydroxy-tamoxif
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EQM age=unknown description=ENCFF055KDP_9state_DNase_DNase_seq_on_human_WI_38_treated_with_4_hydroxy_tamoxifen_at_20nM_for_72_hours donor=ENCDO000ADU sex=female view=ENCSR000EQM 
+		view ENCSR000EQM
+
+	track ENCSR000EQN_ENCFF376QLZ
+	parent immortalized_cell_line_WI38 off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO000ADU label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF376QLZ/@@download/ENCFF376QLZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EQN WI38_genetically_modified_using_stable_transfection_originated_from_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQN age=unknown description=ENCSR000EQN_WI38_genetically_modified_using_stable_transfection_originated_from_WI38_read_depth_normalized_signal_ donor=ENCDO000ADU sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_WI38_view_ENCSR000EQN
+	parent immortalized_cell_line_WI38 off
+	view ENCSR000EQN
+	visibility dense
+	type bigBed
+
+		track ENCSR000EQN_ENCFF174YDZ
+		parent immortalized_cell_line_WI38_view_ENCSR000EQN off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000ADU label=unknown view=ENCSR000EQN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF174YDZ/@@download/ENCFF174YDZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EQN WI38_genetically_modified_using_stable_transfection_originated_from_
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EQN age=unknown description=ENCSR000EQN_WI38_genetically_modified_using_stable_transfection_originated_from_WI38_peaks_ donor=ENCDO000ADU sex=female view=ENCSR000EQN 
+		view ENCSR000EQN
+
+		track ENCSR000EQN_ENCFF968WJR
+		parent immortalized_cell_line_WI38_view_ENCSR000EQN off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO000ADU label=unknown view=ENCSR000EQN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF968WJR/@@download/ENCFF968WJR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF968WJR 9state-DNase DNase-seq on human WI-38
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EQN age=unknown description=ENCFF968WJR_9state_DNase_DNase_seq_on_human_WI_38 donor=ENCDO000ADU sex=female view=ENCSR000EQN 
+		view ENCSR000EQN
+
+	track ENCSR000DXY_ENCFF138DYM
+	parent immortalized_cell_line_WI38 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF138DYM/@@download/ENCFF138DYM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DXY WI38_genetically_modified_using_stable_transfection_treated_with_20_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DXY age=unknown description=ENCSR000DXY_WI38_genetically_modified_using_stable_transfection_treated_with_20_nM_afimoxifene_for_72_hours_fold_change_over_control_ donor=ENCDO000ADU sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_WI38_view_ENCSR000DXY
+	parent immortalized_cell_line_WI38 off
+	view ENCSR000DXY
+	visibility dense
+	type bigBed
+
+		track ENCSR000DXY_ENCFF899VXV
+		parent immortalized_cell_line_WI38_view_ENCSR000DXY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=H3K4me3 view=ENCSR000DXY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF899VXV/@@download/ENCFF899VXV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DXY WI38_genetically_modified_using_stable_transfection_treated_with_20_
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DXY age=unknown description=ENCSR000DXY_WI38_genetically_modified_using_stable_transfection_treated_with_20_nM_afimoxifene_for_72_hours_replicated_peaks_ donor=ENCDO000ADU sex=female view=ENCSR000DXY 
+		view ENCSR000DXY
+
+		track ENCSR000DXY_ENCFF672HCB
+		parent immortalized_cell_line_WI38_view_ENCSR000DXY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=H3K4me3 view=ENCSR000DXY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF672HCB/@@download/ENCFF672HCB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF672HCB 9state-CTCF H3K4me3 ChIP-seq on human WI-38 treated with 4-hydroxy-t
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXY age=unknown description=ENCFF672HCB_9state_CTCF_H3K4me3_ChIP_seq_on_human_WI_38_treated_with_4_hydroxy_tamoxifen_at_20nM_for_72_hours donor=ENCDO000ADU sex=female view=ENCSR000DXY 
+		view ENCSR000DXY
+
+		track ENCSR000DXY_ENCFF247CZJ
+		parent immortalized_cell_line_WI38_view_ENCSR000DXY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=H3K4me3 view=ENCSR000DXY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF247CZJ/@@download/ENCFF247CZJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF247CZJ 5group H3K4me3 ChIP-seq on human WI-38 treated with 4-hydroxy-tamoxi
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXY age=unknown description=ENCFF247CZJ_5group_H3K4me3_ChIP_seq_on_human_WI_38_treated_with_4_hydroxy_tamoxifen_at_20nM_for_72_hours donor=ENCDO000ADU sex=female view=ENCSR000DXY 
+		view ENCSR000DXY
+
+		track ENCSR000DXY_ENCFF787WGA
+		parent immortalized_cell_line_WI38_view_ENCSR000DXY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=H3K4me3 view=ENCSR000DXY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF787WGA/@@download/ENCFF787WGA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF787WGA 9state-H3K4me3 H3K4me3 ChIP-seq on human WI-38 treated with 4-hydrox
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DXY age=unknown description=ENCFF787WGA_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_WI_38_treated_with_4_hydroxy_tamoxifen_at_20nM_for_72_hours donor=ENCDO000ADU sex=female view=ENCSR000DXY 
+		view ENCSR000DXY
+
+	track ENCSR000DXZ_ENCFF530ORD
+	parent immortalized_cell_line_WI38 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF530ORD/@@download/ENCFF530ORD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DXZ WI38 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DXZ age=unknown description=ENCSR000DXZ_WI38_fold_change_over_control_ donor=ENCDO000ADU sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_WI38_view_ENCSR000DXZ
+	parent immortalized_cell_line_WI38 off
+	view ENCSR000DXZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DXZ_ENCFF741QIM
+		parent immortalized_cell_line_WI38_view_ENCSR000DXZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=H3K4me3 view=ENCSR000DXZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF741QIM/@@download/ENCFF741QIM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DXZ WI38 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DXZ age=unknown description=ENCSR000DXZ_WI38_replicated_peaks_ donor=ENCDO000ADU sex=female view=ENCSR000DXZ 
+		view ENCSR000DXZ
+
+	track ENCSR000DYB_ENCFF757SKH
+	parent immortalized_cell_line_WI38 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF757SKH/@@download/ENCFF757SKH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DYB WI38 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DYB age=unknown description=ENCSR000DYB_WI38_fold_change_over_control_ donor=ENCDO000ADU sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_WI38_view_ENCSR000DYB
+	parent immortalized_cell_line_WI38 off
+	view ENCSR000DYB
+	visibility dense
+	type bigBed
+
+		track ENCSR000DYB_ENCFF219HOH
+		parent immortalized_cell_line_WI38_view_ENCSR000DYB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=CTCF view=ENCSR000DYB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF219HOH/@@download/ENCFF219HOH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DYB WI38 (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DYB age=unknown description=ENCSR000DYB_WI38_optimal_idr_thresholded_peaks_ donor=ENCDO000ADU sex=female view=ENCSR000DYB 
+		view ENCSR000DYB
+
+		track ENCSR000DYB_ENCFF672HCB
+		parent immortalized_cell_line_WI38_view_ENCSR000DYB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=CTCF view=ENCSR000DYB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF672HCB/@@download/ENCFF672HCB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF672HCB 9state-CTCF CTCF ChIP-seq on human WI-38
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DYB age=unknown description=ENCFF672HCB_9state_CTCF_CTCF_ChIP_seq_on_human_WI_38 donor=ENCDO000ADU sex=female view=ENCSR000DYB 
+		view ENCSR000DYB
+
+		track ENCSR000DYB_ENCFF247CZJ
+		parent immortalized_cell_line_WI38_view_ENCSR000DYB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=CTCF view=ENCSR000DYB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF247CZJ/@@download/ENCFF247CZJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF247CZJ 5group CTCF ChIP-seq on human WI-38
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DYB age=unknown description=ENCFF247CZJ_5group_CTCF_ChIP_seq_on_human_WI_38 donor=ENCDO000ADU sex=female view=ENCSR000DYB 
+		view ENCSR000DYB
+
+		track ENCSR000DYB_ENCFF787WGA
+		parent immortalized_cell_line_WI38_view_ENCSR000DYB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ADU label=CTCF view=ENCSR000DYB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF787WGA/@@download/ENCFF787WGA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF787WGA 9state-H3K4me3 CTCF ChIP-seq on human WI-38
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DYB age=unknown description=ENCFF787WGA_9state_H3K4me3_CTCF_ChIP_seq_on_human_WI_38 donor=ENCDO000ADU sex=female view=ENCSR000DYB 
+		view ENCSR000DYB
+

@@ -1,0 +1,114 @@
+
+track tissue_eye
+parent super_tissue
+compositeTrack on
+shortLabel eye
+longLabel eye (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO237NAG=ENCDO237NAG ENCDO647EYG=ENCDO647EYG 
+subGroup2 age age a76_day=76&#32;day 
+subGroup3 view view ENCSR127PWK=ENCSR127PWK ENCSR782XFY=ENCSR782XFY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR127PWK_ENCFF934VHP
+	parent tissue_eye off
+	subGroups age=a76_day assay=DNase-seq donor=ENCDO237NAG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF934VHP/@@download/ENCFF934VHP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR127PWK eye_female_embryo_76_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR127PWK age=76_day description=ENCSR127PWK_eye_female_embryo_76_days_read_depth_normalized_signal_ donor=ENCDO237NAG sex=female view=bigWig 
+	view bigWig
+
+	track tissue_eye_view_ENCSR127PWK
+	parent tissue_eye off
+	view ENCSR127PWK
+	visibility dense
+	type bigBed
+
+		track ENCSR127PWK_ENCFF995GLI
+		parent tissue_eye_view_ENCSR127PWK off
+		subGroups age=a76_day assay=DNase-seq donor=ENCDO237NAG label=unknown view=ENCSR127PWK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF995GLI/@@download/ENCFF995GLI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR127PWK eye_female_embryo_76_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR127PWK age=76_day description=ENCSR127PWK_eye_female_embryo_76_days_peaks_ donor=ENCDO237NAG sex=female view=ENCSR127PWK 
+		view ENCSR127PWK
+
+		track ENCSR127PWK_ENCFF698VYI
+		parent tissue_eye_view_ENCSR127PWK off
+		subGroups age=a76_day assay=DNase-seq donor=ENCDO237NAG label=unknown view=ENCSR127PWK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF698VYI/@@download/ENCFF698VYI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF698VYI 9state-DNase DNase-seq on 76 day old female human eye tissue
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR127PWK age=76_day description=ENCFF698VYI_9state_DNase_DNase_seq_on_76_day_old_female_human_eye_tissue donor=ENCDO237NAG sex=female view=ENCSR127PWK 
+		view ENCSR127PWK
+
+	track ENCSR782XFY_ENCFF774JDL
+	parent tissue_eye off
+	subGroups age=a76_day assay=DNase-seq donor=ENCDO647EYG label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF774JDL/@@download/ENCFF774JDL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR782XFY eye_embryo_56_days_and_male_embryo_76_days_ (read-depth normalized s
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR782XFY age=76_day description=ENCSR782XFY_eye_embryo_56_days_and_male_embryo_76_days_read_depth_normalized_signal_ donor=ENCDO647EYG sex=male view=bigWig 
+	view bigWig
+
+	track tissue_eye_view_ENCSR782XFY
+	parent tissue_eye off
+	view ENCSR782XFY
+	visibility dense
+	type bigBed
+
+		track ENCSR782XFY_ENCFF442ISV
+		parent tissue_eye_view_ENCSR782XFY off
+		subGroups age=a76_day assay=DNase-seq donor=ENCDO647EYG label=unknown view=ENCSR782XFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF442ISV/@@download/ENCFF442ISV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR782XFY eye_embryo_56_days_and_male_embryo_76_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR782XFY age=76_day description=ENCSR782XFY_eye_embryo_56_days_and_male_embryo_76_days_peaks_ donor=ENCDO647EYG sex=male view=ENCSR782XFY 
+		view ENCSR782XFY
+
+		track ENCSR782XFY_ENCFF269VDL
+		parent tissue_eye_view_ENCSR782XFY off
+		subGroups age=a76_day assay=DNase-seq donor=ENCDO647EYG label=unknown view=ENCSR782XFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF269VDL/@@download/ENCFF269VDL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF269VDL 9state-DNase DNase-seq on 76 day old fetal male human eye tissue
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR782XFY age=76_day description=ENCFF269VDL_9state_DNase_DNase_seq_on_76_day_old_fetal_male_human_eye_tissue donor=ENCDO647EYG sex=male view=ENCSR782XFY 
+		view ENCSR782XFY
+

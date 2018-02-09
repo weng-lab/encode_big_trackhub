@@ -1,0 +1,855 @@
+
+track tissue_placenta
+parent super_tissue
+compositeTrack on
+shortLabel placenta
+longLabel placenta (21 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO012PVK=ENCDO012PVK ENCDO022PVU=ENCDO022PVU ENCDO060OTP=ENCDO060OTP ENCDO091OEF=ENCDO091OEF ENCDO114CJX=ENCDO114CJX ENCDO150YZC=ENCDO150YZC ENCDO342PFI=ENCDO342PFI ENCDO375VTO=ENCDO375VTO ENCDO527XLA=ENCDO527XLA ENCDO676JUB=ENCDO676JUB ENCDO863KZW=ENCDO863KZW ENCDO870GPO=ENCDO870GPO ENCDO918HJM=ENCDO918HJM ENCDO974LFM=ENCDO974LFM ENCDO987XTQ=ENCDO987XTQ 
+subGroup2 age age a101_day=101&#32;day a102_day=102&#32;day a105_day=105&#32;day a108_day=108&#32;day a113_day=113&#32;day a16_week=16&#32;week a38_week=38&#32;week a53_day=53&#32;day a56_day=56&#32;day a85_day=85&#32;day a91_day=91&#32;day 
+subGroup3 view view ENCSR035QHH=ENCSR035QHH ENCSR129TSG=ENCSR129TSG ENCSR131EED=ENCSR131EED ENCSR167OVP=ENCSR167OVP ENCSR419BDT=ENCSR419BDT ENCSR498ZRC=ENCSR498ZRC ENCSR499IFY=ENCSR499IFY ENCSR545KQR=ENCSR545KQR ENCSR552RKI=ENCSR552RKI ENCSR552XJI=ENCSR552XJI ENCSR575VMI=ENCSR575VMI ENCSR599EKW=ENCSR599EKW ENCSR648RAX=ENCSR648RAX ENCSR802AJE=ENCSR802AJE ENCSR839ICQ=ENCSR839ICQ ENCSR977TKR=ENCSR977TKR ENCSR989YIV=ENCSR989YIV bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR035QHH_ENCFF782LGE
+	parent tissue_placenta off
+	subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF782LGE/@@download/ENCFF782LGE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR035QHH placenta_female_embryo_113_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR035QHH age=113_day description=ENCSR035QHH_placenta_female_embryo_113_days_read_depth_normalized_signal_ donor=ENCDO676JUB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR035QHH
+	parent tissue_placenta off
+	view ENCSR035QHH
+	visibility dense
+	type bigBed
+
+		track ENCSR035QHH_ENCFF838EKB
+		parent tissue_placenta_view_ENCSR035QHH off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO676JUB label=unknown view=ENCSR035QHH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF838EKB/@@download/ENCFF838EKB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR035QHH placenta_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR035QHH age=113_day description=ENCSR035QHH_placenta_female_embryo_113_days_peaks_ donor=ENCDO676JUB sex=female view=ENCSR035QHH 
+		view ENCSR035QHH
+
+	track ENCSR129TSG_ENCFF989REW
+	parent tissue_placenta off
+	subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF989REW/@@download/ENCFF989REW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR129TSG placenta_female_embryo_108_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR129TSG age=108_day description=ENCSR129TSG_placenta_female_embryo_108_days_read_depth_normalized_signal_ donor=ENCDO012PVK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR129TSG
+	parent tissue_placenta off
+	view ENCSR129TSG
+	visibility dense
+	type bigBed
+
+		track ENCSR129TSG_ENCFF384TZL
+		parent tissue_placenta_view_ENCSR129TSG off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR129TSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF384TZL/@@download/ENCFF384TZL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR129TSG placenta_female_embryo_108_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR129TSG age=108_day description=ENCSR129TSG_placenta_female_embryo_108_days_peaks_ donor=ENCDO012PVK sex=female view=ENCSR129TSG 
+		view ENCSR129TSG
+
+		track ENCSR129TSG_ENCFF003UEH
+		parent tissue_placenta_view_ENCSR129TSG off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR129TSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF003UEH/@@download/ENCFF003UEH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF003UEH 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR129TSG age=108_day description=ENCFF003UEH_9state_DNase_ donor=ENCDO012PVK sex=female view=ENCSR129TSG 
+		view ENCSR129TSG
+
+		track ENCSR129TSG_ENCFF988FNC
+		parent tissue_placenta_view_ENCSR129TSG off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR129TSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF988FNC/@@download/ENCFF988FNC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF988FNC 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR129TSG age=108_day description=ENCFF988FNC_5group_ donor=ENCDO012PVK sex=female view=ENCSR129TSG 
+		view ENCSR129TSG
+
+		track ENCSR129TSG_ENCFF609VCZ
+		parent tissue_placenta_view_ENCSR129TSG off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR129TSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF609VCZ/@@download/ENCFF609VCZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF609VCZ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR129TSG age=108_day description=ENCFF609VCZ_9state_H3K4me3_ donor=ENCDO012PVK sex=female view=ENCSR129TSG 
+		view ENCSR129TSG
+
+		track ENCSR129TSG_ENCFF224HPK
+		parent tissue_placenta_view_ENCSR129TSG off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR129TSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF224HPK/@@download/ENCFF224HPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF224HPK 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR129TSG age=108_day description=ENCFF224HPK_9state_H3K27ac_ donor=ENCDO012PVK sex=female view=ENCSR129TSG 
+		view ENCSR129TSG
+
+	track ENCSR167OVP_ENCFF994SMO
+	parent tissue_placenta off
+	subGroups age=a113_day assay=DNase-seq donor=ENCDO987XTQ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF994SMO/@@download/ENCFF994SMO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR167OVP placenta_female_embryo_113_days_and_female_embryo_116_days_ (read-de
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR167OVP age=113_day description=ENCSR167OVP_placenta_female_embryo_113_days_and_female_embryo_116_days_read_depth_normalized_signal_ donor=ENCDO987XTQ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR167OVP
+	parent tissue_placenta off
+	view ENCSR167OVP
+	visibility dense
+	type bigBed
+
+		track ENCSR167OVP_ENCFF230GNS
+		parent tissue_placenta_view_ENCSR167OVP off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO987XTQ label=unknown view=ENCSR167OVP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF230GNS/@@download/ENCFF230GNS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR167OVP placenta_female_embryo_113_days_and_female_embryo_116_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR167OVP age=113_day description=ENCSR167OVP_placenta_female_embryo_113_days_and_female_embryo_116_days_peaks_ donor=ENCDO987XTQ sex=female view=ENCSR167OVP 
+		view ENCSR167OVP
+
+	track ENCSR499IFY_ENCFF721FUH
+	parent tissue_placenta off
+	subGroups age=a53_day assay=DNase-seq donor=ENCDO870GPO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF721FUH/@@download/ENCFF721FUH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR499IFY placenta_embryo_53_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR499IFY age=53_day description=ENCSR499IFY_placenta_embryo_53_days_read_depth_normalized_signal_ donor=ENCDO870GPO sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR499IFY
+	parent tissue_placenta off
+	view ENCSR499IFY
+	visibility dense
+	type bigBed
+
+		track ENCSR499IFY_ENCFF613EHT
+		parent tissue_placenta_view_ENCSR499IFY off
+		subGroups age=a53_day assay=DNase-seq donor=ENCDO870GPO label=unknown view=ENCSR499IFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF613EHT/@@download/ENCFF613EHT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR499IFY placenta_embryo_53_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR499IFY age=53_day description=ENCSR499IFY_placenta_embryo_53_days_peaks_ donor=ENCDO870GPO sex=unknown view=ENCSR499IFY 
+		view ENCSR499IFY
+
+		track ENCSR499IFY_ENCFF614SGM
+		parent tissue_placenta_view_ENCSR499IFY off
+		subGroups age=a53_day assay=DNase-seq donor=ENCDO870GPO label=unknown view=ENCSR499IFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF614SGM/@@download/ENCFF614SGM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF614SGM 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR499IFY age=53_day description=ENCFF614SGM_9state_DNase_ donor=ENCDO870GPO sex=unknown view=ENCSR499IFY 
+		view ENCSR499IFY
+
+	track ENCSR545KQR_ENCFF712YIZ
+	parent tissue_placenta off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO863KZW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF712YIZ/@@download/ENCFF712YIZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR545KQR placenta_female_embryo_105_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR545KQR age=105_day description=ENCSR545KQR_placenta_female_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO863KZW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR545KQR
+	parent tissue_placenta off
+	view ENCSR545KQR
+	visibility dense
+	type bigBed
+
+		track ENCSR545KQR_ENCFF604GWL
+		parent tissue_placenta_view_ENCSR545KQR off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO863KZW label=unknown view=ENCSR545KQR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF604GWL/@@download/ENCFF604GWL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR545KQR placenta_female_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR545KQR age=105_day description=ENCSR545KQR_placenta_female_embryo_105_days_peaks_ donor=ENCDO863KZW sex=female view=ENCSR545KQR 
+		view ENCSR545KQR
+
+		track ENCSR545KQR_ENCFF713HEC
+		parent tissue_placenta_view_ENCSR545KQR off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO863KZW label=unknown view=ENCSR545KQR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF713HEC/@@download/ENCFF713HEC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF713HEC 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR545KQR age=105_day description=ENCFF713HEC_9state_DNase_ donor=ENCDO863KZW sex=female view=ENCSR545KQR 
+		view ENCSR545KQR
+
+	track ENCSR552RKI_ENCFF045LXV
+	parent tissue_placenta off
+	subGroups age=a102_day assay=DNase-seq donor=ENCDO091OEF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF045LXV/@@download/ENCFF045LXV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR552RKI placenta_embryo_102_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR552RKI age=102_day description=ENCSR552RKI_placenta_embryo_102_days_read_depth_normalized_signal_ donor=ENCDO091OEF sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR552RKI
+	parent tissue_placenta off
+	view ENCSR552RKI
+	visibility dense
+	type bigBed
+
+		track ENCSR552RKI_ENCFF813TUR
+		parent tissue_placenta_view_ENCSR552RKI off
+		subGroups age=a102_day assay=DNase-seq donor=ENCDO091OEF label=unknown view=ENCSR552RKI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF813TUR/@@download/ENCFF813TUR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR552RKI placenta_embryo_102_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR552RKI age=102_day description=ENCSR552RKI_placenta_embryo_102_days_peaks_ donor=ENCDO091OEF sex=unknown view=ENCSR552RKI 
+		view ENCSR552RKI
+
+	track ENCSR552XJI_ENCFF176WBP
+	parent tissue_placenta off
+	subGroups age=a56_day assay=DNase-seq donor=ENCDO114CJX label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF176WBP/@@download/ENCFF176WBP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR552XJI placenta_embryo_56_days_and_embryo_59_days_ (read-depth normalized s
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR552XJI age=56_day description=ENCSR552XJI_placenta_embryo_56_days_and_embryo_59_days_read_depth_normalized_signal_ donor=ENCDO114CJX sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR552XJI
+	parent tissue_placenta off
+	view ENCSR552XJI
+	visibility dense
+	type bigBed
+
+		track ENCSR552XJI_ENCFF419GBR
+		parent tissue_placenta_view_ENCSR552XJI off
+		subGroups age=a56_day assay=DNase-seq donor=ENCDO114CJX label=unknown view=ENCSR552XJI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF419GBR/@@download/ENCFF419GBR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR552XJI placenta_embryo_56_days_and_embryo_59_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR552XJI age=56_day description=ENCSR552XJI_placenta_embryo_56_days_and_embryo_59_days_peaks_ donor=ENCDO114CJX sex=unknown view=ENCSR552XJI 
+		view ENCSR552XJI
+
+	track ENCSR575VMI_ENCFF921GIS
+	parent tissue_placenta off
+	subGroups age=a101_day assay=DNase-seq donor=ENCDO060OTP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF921GIS/@@download/ENCFF921GIS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR575VMI placenta_female_embryo_101_day_and_male_embryo_105_days_ (read-depth
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR575VMI age=101_day description=ENCSR575VMI_placenta_female_embryo_101_day_and_male_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO060OTP sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR575VMI
+	parent tissue_placenta off
+	view ENCSR575VMI
+	visibility dense
+	type bigBed
+
+		track ENCSR575VMI_ENCFF024XST
+		parent tissue_placenta_view_ENCSR575VMI off
+		subGroups age=a101_day assay=DNase-seq donor=ENCDO060OTP label=unknown view=ENCSR575VMI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF024XST/@@download/ENCFF024XST.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR575VMI placenta_female_embryo_101_day_and_male_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR575VMI age=101_day description=ENCSR575VMI_placenta_female_embryo_101_day_and_male_embryo_105_days_peaks_ donor=ENCDO060OTP sex=female view=ENCSR575VMI 
+		view ENCSR575VMI
+
+		track ENCSR575VMI_ENCFF500DGK
+		parent tissue_placenta_view_ENCSR575VMI off
+		subGroups age=a101_day assay=DNase-seq donor=ENCDO060OTP label=unknown view=ENCSR575VMI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF500DGK/@@download/ENCFF500DGK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF500DGK 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR575VMI age=101_day description=ENCFF500DGK_9state_DNase_ donor=ENCDO060OTP sex=female view=ENCSR575VMI 
+		view ENCSR575VMI
+
+	track ENCSR648RAX_ENCFF436DNK
+	parent tissue_placenta off
+	subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF436DNK/@@download/ENCFF436DNK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR648RAX placenta_female_embryo_85_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR648RAX age=85_day description=ENCSR648RAX_placenta_female_embryo_85_days_read_depth_normalized_signal_ donor=ENCDO527XLA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR648RAX
+	parent tissue_placenta off
+	view ENCSR648RAX
+	visibility dense
+	type bigBed
+
+		track ENCSR648RAX_ENCFF964RKT
+		parent tissue_placenta_view_ENCSR648RAX off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=ENCSR648RAX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF964RKT/@@download/ENCFF964RKT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR648RAX placenta_female_embryo_85_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR648RAX age=85_day description=ENCSR648RAX_placenta_female_embryo_85_days_peaks_ donor=ENCDO527XLA sex=female view=ENCSR648RAX 
+		view ENCSR648RAX
+
+		track ENCSR648RAX_ENCFF627GSG
+		parent tissue_placenta_view_ENCSR648RAX off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO527XLA label=unknown view=ENCSR648RAX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF627GSG/@@download/ENCFF627GSG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF627GSG 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR648RAX age=85_day description=ENCFF627GSG_9state_DNase_ donor=ENCDO527XLA sex=female view=ENCSR648RAX 
+		view ENCSR648RAX
+
+	track ENCSR802AJE_ENCFF984NUF
+	parent tissue_placenta off
+	subGroups age=a85_day assay=DNase-seq donor=ENCDO342PFI label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF984NUF/@@download/ENCFF984NUF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR802AJE placenta_male_embryo_85_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR802AJE age=85_day description=ENCSR802AJE_placenta_male_embryo_85_days_read_depth_normalized_signal_ donor=ENCDO342PFI sex=male view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR802AJE
+	parent tissue_placenta off
+	view ENCSR802AJE
+	visibility dense
+	type bigBed
+
+		track ENCSR802AJE_ENCFF349LND
+		parent tissue_placenta_view_ENCSR802AJE off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO342PFI label=unknown view=ENCSR802AJE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF349LND/@@download/ENCFF349LND.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR802AJE placenta_male_embryo_85_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR802AJE age=85_day description=ENCSR802AJE_placenta_male_embryo_85_days_peaks_ donor=ENCDO342PFI sex=male view=ENCSR802AJE 
+		view ENCSR802AJE
+
+		track ENCSR802AJE_ENCFF179OZM
+		parent tissue_placenta_view_ENCSR802AJE off
+		subGroups age=a85_day assay=DNase-seq donor=ENCDO342PFI label=unknown view=ENCSR802AJE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF179OZM/@@download/ENCFF179OZM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF179OZM 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR802AJE age=85_day description=ENCFF179OZM_9state_DNase_ donor=ENCDO342PFI sex=male view=ENCSR802AJE 
+		view ENCSR802AJE
+
+	track ENCSR989YIV_ENCFF237RLY
+	parent tissue_placenta off
+	subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF237RLY/@@download/ENCFF237RLY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR989YIV placenta_male_embryo_91_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR989YIV age=91_day description=ENCSR989YIV_placenta_male_embryo_91_day_read_depth_normalized_signal_ donor=ENCDO375VTO sex=male view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR989YIV
+	parent tissue_placenta off
+	view ENCSR989YIV
+	visibility dense
+	type bigBed
+
+		track ENCSR989YIV_ENCFF498MLJ
+		parent tissue_placenta_view_ENCSR989YIV off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=ENCSR989YIV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF498MLJ/@@download/ENCFF498MLJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR989YIV placenta_male_embryo_91_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR989YIV age=91_day description=ENCSR989YIV_placenta_male_embryo_91_day_peaks_ donor=ENCDO375VTO sex=male view=ENCSR989YIV 
+		view ENCSR989YIV
+
+		track ENCSR989YIV_ENCFF877UKM
+		parent tissue_placenta_view_ENCSR989YIV off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO375VTO label=unknown view=ENCSR989YIV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF877UKM/@@download/ENCFF877UKM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF877UKM 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR989YIV age=91_day description=ENCFF877UKM_9state_DNase_ donor=ENCDO375VTO sex=male view=ENCSR989YIV 
+		view ENCSR989YIV
+
+	track ENCSR419BDT_ENCFF926EKU
+	parent tissue_placenta off
+	subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF926EKU/@@download/ENCFF926EKU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR419BDT placenta_female_embryo_113_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR419BDT age=113_day description=ENCSR419BDT_placenta_female_embryo_113_days_fold_change_over_control_ donor=ENCDO022PVU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR419BDT
+	parent tissue_placenta off
+	view ENCSR419BDT
+	visibility dense
+	type bigBed
+
+		track ENCSR419BDT_ENCFF497ESK
+		parent tissue_placenta_view_ENCSR419BDT off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me3 view=ENCSR419BDT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF497ESK/@@download/ENCFF497ESK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR419BDT placenta_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR419BDT age=113_day description=ENCSR419BDT_placenta_female_embryo_113_days_peaks_ donor=ENCDO022PVU sex=female view=ENCSR419BDT 
+		view ENCSR419BDT
+
+		track ENCSR419BDT_ENCFF003UEH
+		parent tissue_placenta_view_ENCSR419BDT off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me3 view=ENCSR419BDT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF003UEH/@@download/ENCFF003UEH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF003UEH 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR419BDT age=113_day description=ENCFF003UEH_9state_DNase_ donor=ENCDO022PVU sex=female view=ENCSR419BDT 
+		view ENCSR419BDT
+
+		track ENCSR419BDT_ENCFF988FNC
+		parent tissue_placenta_view_ENCSR419BDT off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me3 view=ENCSR419BDT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF988FNC/@@download/ENCFF988FNC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF988FNC 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR419BDT age=113_day description=ENCFF988FNC_5group_ donor=ENCDO022PVU sex=female view=ENCSR419BDT 
+		view ENCSR419BDT
+
+		track ENCSR419BDT_ENCFF609VCZ
+		parent tissue_placenta_view_ENCSR419BDT off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me3 view=ENCSR419BDT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF609VCZ/@@download/ENCFF609VCZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF609VCZ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR419BDT age=113_day description=ENCFF609VCZ_9state_H3K4me3_ donor=ENCDO022PVU sex=female view=ENCSR419BDT 
+		view ENCSR419BDT
+
+		track ENCSR419BDT_ENCFF224HPK
+		parent tissue_placenta_view_ENCSR419BDT off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me3 view=ENCSR419BDT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF224HPK/@@download/ENCFF224HPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF224HPK 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR419BDT age=113_day description=ENCFF224HPK_9state_H3K27ac_ donor=ENCDO022PVU sex=female view=ENCSR419BDT 
+		view ENCSR419BDT
+
+	track ENCSR498ZRC_ENCFF633NNG
+	parent tissue_placenta off
+	subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF633NNG/@@download/ENCFF633NNG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR498ZRC placenta_female_embryo_113_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR498ZRC age=113_day description=ENCSR498ZRC_placenta_female_embryo_113_days_fold_change_over_control_ donor=ENCDO022PVU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR498ZRC
+	parent tissue_placenta off
+	view ENCSR498ZRC
+	visibility dense
+	type bigBed
+
+		track ENCSR498ZRC_ENCFF253RVB
+		parent tissue_placenta_view_ENCSR498ZRC off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K27ac view=ENCSR498ZRC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF253RVB/@@download/ENCFF253RVB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR498ZRC placenta_female_embryo_113_days_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR498ZRC age=113_day description=ENCSR498ZRC_placenta_female_embryo_113_days_stable_peaks_ donor=ENCDO022PVU sex=female view=ENCSR498ZRC 
+		view ENCSR498ZRC
+
+	track ENCSR534TKR_ENCFF781YZM
+	parent tissue_placenta off
+	subGroups age=a16_week assay=microRNA-seq donor=ENCDO150YZC label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF781YZM/@@download/ENCFF781YZM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR534TKR placenta_male_embryo_16_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR534TKR age=16_week description=ENCSR534TKR_placenta_male_embryo_16_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO150YZC sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR778NLR_ENCFF676MDA
+	parent tissue_placenta off
+	subGroups age=a16_week assay=microRNA-seq donor=ENCDO918HJM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF676MDA/@@download/ENCFF676MDA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR778NLR placenta_embryo_16_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR778NLR age=16_week description=ENCSR778NLR_placenta_embryo_16_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO918HJM sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR869GFF_ENCFF788FTV
+	parent tissue_placenta off
+	subGroups age=a38_week assay=microRNA-seq donor=ENCDO974LFM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF788FTV/@@download/ENCFF788FTV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR869GFF placenta_male_embryo_38_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR869GFF age=38_week description=ENCSR869GFF_placenta_male_embryo_38_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO974LFM sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR880XLM_ENCFF724YQL
+	parent tissue_placenta off
+	subGroups age=a113_day assay=RNA-seq donor=ENCDO676JUB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF724YQL/@@download/ENCFF724YQL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR880XLM placenta_female_embryo_113_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR880XLM age=113_day description=ENCSR880XLM_placenta_female_embryo_113_days_signal_of_unique_reads_ donor=ENCDO676JUB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR839ICQ_ENCFF916CXH
+	parent tissue_placenta off
+	subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF916CXH/@@download/ENCFF916CXH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR839ICQ placenta_female_embryo_113_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR839ICQ age=113_day description=ENCSR839ICQ_placenta_female_embryo_113_days_fold_change_over_control_ donor=ENCDO022PVU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR839ICQ
+	parent tissue_placenta off
+	view ENCSR839ICQ
+	visibility dense
+	type bigBed
+
+		track ENCSR839ICQ_ENCFF748KVO
+		parent tissue_placenta_view_ENCSR839ICQ off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K27me3 view=ENCSR839ICQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF748KVO/@@download/ENCFF748KVO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR839ICQ placenta_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR839ICQ age=113_day description=ENCSR839ICQ_placenta_female_embryo_113_days_peaks_ donor=ENCDO022PVU sex=female view=ENCSR839ICQ 
+		view ENCSR839ICQ
+
+	track ENCSR131EED_ENCFF009PQF
+	parent tissue_placenta off
+	subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF009PQF/@@download/ENCFF009PQF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR131EED placenta_female_embryo_113_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR131EED age=113_day description=ENCSR131EED_placenta_female_embryo_113_days_fold_change_over_control_ donor=ENCDO022PVU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR131EED
+	parent tissue_placenta off
+	view ENCSR131EED
+	visibility dense
+	type bigBed
+
+		track ENCSR131EED_ENCFF561XTO
+		parent tissue_placenta_view_ENCSR131EED off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K36me3 view=ENCSR131EED 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF561XTO/@@download/ENCFF561XTO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR131EED placenta_female_embryo_113_days_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR131EED age=113_day description=ENCSR131EED_placenta_female_embryo_113_days_stable_peaks_ donor=ENCDO022PVU sex=female view=ENCSR131EED 
+		view ENCSR131EED
+
+	track ENCSR977TKR_ENCFF455MAK
+	parent tissue_placenta off
+	subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF455MAK/@@download/ENCFF455MAK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR977TKR placenta_female_embryo_113_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR977TKR age=113_day description=ENCSR977TKR_placenta_female_embryo_113_days_fold_change_over_control_ donor=ENCDO022PVU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR977TKR
+	parent tissue_placenta off
+	view ENCSR977TKR
+	visibility dense
+	type bigBed
+
+		track ENCSR977TKR_ENCFF387TRT
+		parent tissue_placenta_view_ENCSR977TKR off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K4me1 view=ENCSR977TKR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF387TRT/@@download/ENCFF387TRT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR977TKR placenta_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR977TKR age=113_day description=ENCSR977TKR_placenta_female_embryo_113_days_peaks_ donor=ENCDO022PVU sex=female view=ENCSR977TKR 
+		view ENCSR977TKR
+
+	track ENCSR599EKW_ENCFF887KYT
+	parent tissue_placenta off
+	subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF887KYT/@@download/ENCFF887KYT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR599EKW placenta_female_embryo_113_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR599EKW age=113_day description=ENCSR599EKW_placenta_female_embryo_113_days_fold_change_over_control_ donor=ENCDO022PVU sex=female view=bigWig 
+	view bigWig
+
+	track tissue_placenta_view_ENCSR599EKW
+	parent tissue_placenta off
+	view ENCSR599EKW
+	visibility dense
+	type bigBed
+
+		track ENCSR599EKW_ENCFF792XWR
+		parent tissue_placenta_view_ENCSR599EKW off
+		subGroups age=a113_day assay=ChIP-seq donor=ENCDO022PVU label=H3K9me3 view=ENCSR599EKW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF792XWR/@@download/ENCFF792XWR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR599EKW placenta_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR599EKW age=113_day description=ENCSR599EKW_placenta_female_embryo_113_days_peaks_ donor=ENCDO022PVU sex=female view=ENCSR599EKW 
+		view ENCSR599EKW
+

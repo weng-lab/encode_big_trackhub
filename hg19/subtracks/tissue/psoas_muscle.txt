@@ -1,0 +1,518 @@
+
+track tissue_psoas_muscle
+parent super_tissue
+compositeTrack on
+shortLabel psoas muscle
+longLabel psoas muscle (16 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO007AAA=ENCDO007AAA ENCDO058AAA=ENCDO058AAA ENCDO424HVB=ENCDO424HVB ENCDO478OMA=ENCDO478OMA 
+subGroup2 age age a27_year=27&#32;year a30_year=30&#32;year a34_year=34&#32;year a3_year=3&#32;year 
+subGroup3 view view ENCSR000ELO=ENCSR000ELO ENCSR245BEV=ENCSR245BEV ENCSR250NHD=ENCSR250NHD ENCSR277PDE=ENCSR277PDE ENCSR367WYJ=ENCSR367WYJ ENCSR394DRL=ENCSR394DRL ENCSR410UUH=ENCSR410UUH ENCSR426TPQ=ENCSR426TPQ ENCSR700NGJ=ENCSR700NGJ ENCSR720SAS=ENCSR720SAS ENCSR791ISZ=ENCSR791ISZ ENCSR843KHS=ENCSR843KHS ENCSR949OYZ=ENCSR949OYZ bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ELO_ENCFF478JBA
+	parent tissue_psoas_muscle off
+	subGroups age=a27_year assay=DNase-seq donor=ENCDO007AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF478JBA/@@download/ENCFF478JBA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ELO psoas_muscle_male_adult_27_years_and_male_adult_35_years_ (read-dept
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ELO age=27_year description=ENCSR000ELO_psoas_muscle_male_adult_27_years_and_male_adult_35_years_read_depth_normalized_signal_ donor=ENCDO007AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR000ELO
+	parent tissue_psoas_muscle off
+	view ENCSR000ELO
+	visibility dense
+	type bigBed
+
+		track ENCSR000ELO_ENCFF261JED
+		parent tissue_psoas_muscle_view_ENCSR000ELO off
+		subGroups age=a27_year assay=DNase-seq donor=ENCDO007AAA label=unknown view=ENCSR000ELO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF261JED/@@download/ENCFF261JED.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ELO psoas_muscle_male_adult_27_years_and_male_adult_35_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ELO age=27_year description=ENCSR000ELO_psoas_muscle_male_adult_27_years_and_male_adult_35_years_peaks_ donor=ENCDO007AAA sex=male view=ENCSR000ELO 
+		view ENCSR000ELO
+
+	track ENCSR426TPQ_ENCFF048BRF
+	parent tissue_psoas_muscle off
+	subGroups age=a3_year assay=DNase-seq donor=ENCDO478OMA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF048BRF/@@download/ENCFF048BRF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR426TPQ psoas_muscle_male_child_3_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR426TPQ age=3_year description=ENCSR426TPQ_psoas_muscle_male_child_3_years_read_depth_normalized_signal_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR426TPQ
+	parent tissue_psoas_muscle off
+	view ENCSR426TPQ
+	visibility dense
+	type bigBed
+
+		track ENCSR426TPQ_ENCFF734ZHH
+		parent tissue_psoas_muscle_view_ENCSR426TPQ off
+		subGroups age=a3_year assay=DNase-seq donor=ENCDO478OMA label=unknown view=ENCSR426TPQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF734ZHH/@@download/ENCFF734ZHH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR426TPQ psoas_muscle_male_child_3_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR426TPQ age=3_year description=ENCSR426TPQ_psoas_muscle_male_child_3_years_peaks_ donor=ENCDO478OMA sex=male view=ENCSR426TPQ 
+		view ENCSR426TPQ
+
+	track ENCSR245BEV_ENCFF565QCS
+	parent tissue_psoas_muscle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF565QCS/@@download/ENCFF565QCS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR245BEV psoas_muscle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR245BEV age=3_year description=ENCSR245BEV_psoas_muscle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR245BEV
+	parent tissue_psoas_muscle off
+	view ENCSR245BEV
+	visibility dense
+	type bigBed
+
+		track ENCSR245BEV_ENCFF504KKT
+		parent tissue_psoas_muscle_view_ENCSR245BEV off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me3 view=ENCSR245BEV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF504KKT/@@download/ENCFF504KKT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR245BEV psoas_muscle_male_child_3_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR245BEV age=3_year description=ENCSR245BEV_psoas_muscle_male_child_3_years_peaks_ donor=ENCDO478OMA sex=male view=ENCSR245BEV 
+		view ENCSR245BEV
+
+	track ENCSR949OYZ_ENCFF837GKJ
+	parent tissue_psoas_muscle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF837GKJ/@@download/ENCFF837GKJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR949OYZ psoas_muscle_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR949OYZ age=34_year description=ENCSR949OYZ_psoas_muscle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR949OYZ
+	parent tissue_psoas_muscle off
+	view ENCSR949OYZ
+	visibility dense
+	type bigBed
+
+		track ENCSR949OYZ_ENCFF820NSS
+		parent tissue_psoas_muscle_view_ENCSR949OYZ off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me3 view=ENCSR949OYZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF820NSS/@@download/ENCFF820NSS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR949OYZ psoas_muscle_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR949OYZ age=34_year description=ENCSR949OYZ_psoas_muscle_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR949OYZ 
+		view ENCSR949OYZ
+
+	track ENCSR250NHD_ENCFF181LTE
+	parent tissue_psoas_muscle off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF181LTE/@@download/ENCFF181LTE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR250NHD psoas_muscle_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR250NHD age=30_year description=ENCSR250NHD_psoas_muscle_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR250NHD
+	parent tissue_psoas_muscle off
+	view ENCSR250NHD
+	visibility dense
+	type bigBed
+
+		track ENCSR250NHD_ENCFF952ZDW
+		parent tissue_psoas_muscle_view_ENCSR250NHD off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=ENCSR250NHD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF952ZDW/@@download/ENCFF952ZDW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR250NHD psoas_muscle_female_adult_30_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR250NHD age=30_year description=ENCSR250NHD_psoas_muscle_female_adult_30_years_peaks_ donor=ENCDO424HVB sex=female view=ENCSR250NHD 
+		view ENCSR250NHD
+
+	track ENCSR367WYJ_ENCFF353GIG
+	parent tissue_psoas_muscle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF353GIG/@@download/ENCFF353GIG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR367WYJ psoas_muscle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR367WYJ age=3_year description=ENCSR367WYJ_psoas_muscle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR367WYJ
+	parent tissue_psoas_muscle off
+	view ENCSR367WYJ
+	visibility dense
+	type bigBed
+
+		track ENCSR367WYJ_ENCFF581YRL
+		parent tissue_psoas_muscle_view_ENCSR367WYJ off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27ac view=ENCSR367WYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF581YRL/@@download/ENCFF581YRL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR367WYJ psoas_muscle_male_child_3_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR367WYJ age=3_year description=ENCSR367WYJ_psoas_muscle_male_child_3_years_peaks_ donor=ENCDO478OMA sex=male view=ENCSR367WYJ 
+		view ENCSR367WYJ
+
+	track ENCSR791ISZ_ENCFF077VCA
+	parent tissue_psoas_muscle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF077VCA/@@download/ENCFF077VCA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR791ISZ psoas_muscle_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR791ISZ age=34_year description=ENCSR791ISZ_psoas_muscle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR791ISZ
+	parent tissue_psoas_muscle off
+	view ENCSR791ISZ
+	visibility dense
+	type bigBed
+
+		track ENCSR791ISZ_ENCFF981GRZ
+		parent tissue_psoas_muscle_view_ENCSR791ISZ off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27ac view=ENCSR791ISZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF981GRZ/@@download/ENCFF981GRZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR791ISZ psoas_muscle_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR791ISZ age=34_year description=ENCSR791ISZ_psoas_muscle_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR791ISZ 
+		view ENCSR791ISZ
+
+	track ENCSR502OTI_ENCFF083VHI
+	parent tissue_psoas_muscle off
+	subGroups age=a30_year assay=RNA-seq donor=ENCDO424HVB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF083VHI/@@download/ENCFF083VHI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR502OTI psoas_muscle_female_adult_30_years_ (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR502OTI age=30_year description=ENCSR502OTI_psoas_muscle_female_adult_30_years_plus_strand_signal_of_unique_reads_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR817TLH_ENCFF605IIF
+	parent tissue_psoas_muscle off
+	subGroups age=a3_year assay=RNA-seq donor=ENCDO478OMA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF605IIF/@@download/ENCFF605IIF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR817TLH psoas_muscle_male_child_3_years_ (plus strand signal of unique reads
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR817TLH age=3_year description=ENCSR817TLH_psoas_muscle_male_child_3_years_plus_strand_signal_of_unique_reads_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR843HXR_ENCFF434QWQ
+	parent tissue_psoas_muscle off
+	subGroups age=a34_year assay=RNA-seq donor=ENCDO058AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF434QWQ/@@download/ENCFF434QWQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR843HXR psoas_muscle_male_adult_34_years_ (plus strand signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR843HXR age=34_year description=ENCSR843HXR_psoas_muscle_male_adult_34_years_plus_strand_signal_of_unique_reads_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR720SAS_ENCFF541CLX
+	parent tissue_psoas_muscle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF541CLX/@@download/ENCFF541CLX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR720SAS psoas_muscle_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR720SAS age=34_year description=ENCSR720SAS_psoas_muscle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR720SAS
+	parent tissue_psoas_muscle off
+	view ENCSR720SAS
+	visibility dense
+	type bigBed
+
+		track ENCSR720SAS_ENCFF699XGM
+		parent tissue_psoas_muscle_view_ENCSR720SAS off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K27me3 view=ENCSR720SAS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF699XGM/@@download/ENCFF699XGM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR720SAS psoas_muscle_male_adult_34_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR720SAS age=34_year description=ENCSR720SAS_psoas_muscle_male_adult_34_years_stable_peaks_ donor=ENCDO058AAA sex=male view=ENCSR720SAS 
+		view ENCSR720SAS
+
+	track ENCSR843KHS_ENCFF316FXK
+	parent tissue_psoas_muscle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF316FXK/@@download/ENCFF316FXK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR843KHS psoas_muscle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR843KHS age=3_year description=ENCSR843KHS_psoas_muscle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR843KHS
+	parent tissue_psoas_muscle off
+	view ENCSR843KHS
+	visibility dense
+	type bigBed
+
+		track ENCSR843KHS_ENCFF782FTR
+		parent tissue_psoas_muscle_view_ENCSR843KHS off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K27me3 view=ENCSR843KHS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF782FTR/@@download/ENCFF782FTR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR843KHS psoas_muscle_male_child_3_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR843KHS age=3_year description=ENCSR843KHS_psoas_muscle_male_child_3_years_stable_peaks_ donor=ENCDO478OMA sex=male view=ENCSR843KHS 
+		view ENCSR843KHS
+
+	track ENCSR277PDE_ENCFF393VER
+	parent tissue_psoas_muscle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF393VER/@@download/ENCFF393VER.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR277PDE psoas_muscle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR277PDE age=3_year description=ENCSR277PDE_psoas_muscle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR277PDE
+	parent tissue_psoas_muscle off
+	view ENCSR277PDE
+	visibility dense
+	type bigBed
+
+		track ENCSR277PDE_ENCFF695TIU
+		parent tissue_psoas_muscle_view_ENCSR277PDE off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K36me3 view=ENCSR277PDE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF695TIU/@@download/ENCFF695TIU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR277PDE psoas_muscle_male_child_3_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR277PDE age=3_year description=ENCSR277PDE_psoas_muscle_male_child_3_years_peaks_ donor=ENCDO478OMA sex=male view=ENCSR277PDE 
+		view ENCSR277PDE
+
+	track ENCSR410UUH_ENCFF013KFS
+	parent tissue_psoas_muscle off
+	subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF013KFS/@@download/ENCFF013KFS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR410UUH psoas_muscle_male_adult_34_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR410UUH age=34_year description=ENCSR410UUH_psoas_muscle_male_adult_34_years_fold_change_over_control_ donor=ENCDO058AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR410UUH
+	parent tissue_psoas_muscle off
+	view ENCSR410UUH
+	visibility dense
+	type bigBed
+
+		track ENCSR410UUH_ENCFF687CRI
+		parent tissue_psoas_muscle_view_ENCSR410UUH off
+		subGroups age=a34_year assay=ChIP-seq donor=ENCDO058AAA label=H3K4me1 view=ENCSR410UUH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF687CRI/@@download/ENCFF687CRI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR410UUH psoas_muscle_male_adult_34_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR410UUH age=34_year description=ENCSR410UUH_psoas_muscle_male_adult_34_years_peaks_ donor=ENCDO058AAA sex=male view=ENCSR410UUH 
+		view ENCSR410UUH
+
+	track ENCSR700NGJ_ENCFF140OSW
+	parent tissue_psoas_muscle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF140OSW/@@download/ENCFF140OSW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR700NGJ psoas_muscle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR700NGJ age=3_year description=ENCSR700NGJ_psoas_muscle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR700NGJ
+	parent tissue_psoas_muscle off
+	view ENCSR700NGJ
+	visibility dense
+	type bigBed
+
+		track ENCSR700NGJ_ENCFF721NHR
+		parent tissue_psoas_muscle_view_ENCSR700NGJ off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K4me1 view=ENCSR700NGJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF721NHR/@@download/ENCFF721NHR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR700NGJ psoas_muscle_male_child_3_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR700NGJ age=3_year description=ENCSR700NGJ_psoas_muscle_male_child_3_years_stable_peaks_ donor=ENCDO478OMA sex=male view=ENCSR700NGJ 
+		view ENCSR700NGJ
+
+	track ENCSR394DRL_ENCFF014XTT
+	parent tissue_psoas_muscle off
+	subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF014XTT/@@download/ENCFF014XTT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR394DRL psoas_muscle_male_child_3_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR394DRL age=3_year description=ENCSR394DRL_psoas_muscle_male_child_3_years_fold_change_over_control_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_psoas_muscle_view_ENCSR394DRL
+	parent tissue_psoas_muscle off
+	view ENCSR394DRL
+	visibility dense
+	type bigBed
+
+		track ENCSR394DRL_ENCFF859FAF
+		parent tissue_psoas_muscle_view_ENCSR394DRL off
+		subGroups age=a3_year assay=ChIP-seq donor=ENCDO478OMA label=H3K9me3 view=ENCSR394DRL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF859FAF/@@download/ENCFF859FAF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR394DRL psoas_muscle_male_child_3_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR394DRL age=3_year description=ENCSR394DRL_psoas_muscle_male_child_3_years_stable_peaks_ donor=ENCDO478OMA sex=male view=ENCSR394DRL 
+		view ENCSR394DRL
+

@@ -1,0 +1,48 @@
+
+track tissue_mole
+parent super_tissue
+compositeTrack on
+shortLabel mole
+longLabel mole (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO413NRF=ENCDO413NRF 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR121VAY_ENCFF220YZL
+	parent tissue_mole off
+	subGroups age=aunknown assay=microRNA-seq donor=ENCDO413NRF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF220YZL/@@download/ENCFF220YZL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR121VAY mole_female (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR121VAY age=unknown description=ENCSR121VAY_mole_female_plus_strand_signal_of_unique_reads_ donor=ENCDO413NRF sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR714QAF_ENCFF628ING
+	parent tissue_mole off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO413NRF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF628ING/@@download/ENCFF628ING.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR714QAF mole_female (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR714QAF age=unknown description=ENCSR714QAF_mole_female_plus_strand_signal_of_unique_reads_ donor=ENCDO413NRF sex=female view=bigWig 
+	view bigWig
+

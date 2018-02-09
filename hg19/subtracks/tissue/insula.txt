@@ -1,0 +1,33 @@
+
+track tissue_insula
+parent super_tissue
+compositeTrack on
+shortLabel insula
+longLabel insula (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO329NER=ENCDO329NER 
+subGroup2 age age a53_year=53&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR559RCR_ENCFF300BQP
+	parent tissue_insula off
+	subGroups age=a53_year assay=microRNA-seq donor=ENCDO329NER label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF300BQP/@@download/ENCFF300BQP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR559RCR insula_male_adult_53_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR559RCR age=53_year description=ENCSR559RCR_insula_male_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO329NER sex=male view=bigWig 
+	view bigWig
+

@@ -1,0 +1,194 @@
+
+track tissue_right_renal_cortex_interstitium
+parent super_tissue
+compositeTrack on
+shortLabel right renal corte
+longLabel right renal cortex interstitium (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO327QNA=ENCDO327QNA ENCDO378UAU=ENCDO378UAU ENCDO513BVP=ENCDO513BVP 
+subGroup2 age age a105_day=105&#32;day a120_day=120&#32;day 
+subGroup3 view view ENCSR014VAC=ENCSR014VAC ENCSR268QCH=ENCSR268QCH ENCSR887BNC=ENCSR887BNC bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR014VAC_ENCFF115QKG
+	parent tissue_right_renal_cortex_interstitium off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO378UAU label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF115QKG/@@download/ENCFF115QKG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR014VAC right_renal_cortex_interstitium_male_embryo_105_days_ (read-depth no
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR014VAC age=105_day description=ENCSR014VAC_right_renal_cortex_interstitium_male_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO378UAU sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_renal_cortex_interstitium_view_ENCSR014VAC
+	parent tissue_right_renal_cortex_interstitium off
+	view ENCSR014VAC
+	visibility dense
+	type bigBed
+
+		track ENCSR014VAC_ENCFF639ZIY
+		parent tissue_right_renal_cortex_interstitium_view_ENCSR014VAC off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO378UAU label=unknown view=ENCSR014VAC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF639ZIY/@@download/ENCFF639ZIY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR014VAC right_renal_cortex_interstitium_male_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR014VAC age=105_day description=ENCSR014VAC_right_renal_cortex_interstitium_male_embryo_105_days_peaks_ donor=ENCDO378UAU sex=male view=ENCSR014VAC 
+		view ENCSR014VAC
+
+	track ENCSR268QCH_ENCFF138LHC
+	parent tissue_right_renal_cortex_interstitium off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO513BVP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF138LHC/@@download/ENCFF138LHC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR268QCH right_renal_cortex_interstitium_male_embryo_105_days_ (read-depth no
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR268QCH age=105_day description=ENCSR268QCH_right_renal_cortex_interstitium_male_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO513BVP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_renal_cortex_interstitium_view_ENCSR268QCH
+	parent tissue_right_renal_cortex_interstitium off
+	view ENCSR268QCH
+	visibility dense
+	type bigBed
+
+		track ENCSR268QCH_ENCFF711YPJ
+		parent tissue_right_renal_cortex_interstitium_view_ENCSR268QCH off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO513BVP label=unknown view=ENCSR268QCH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF711YPJ/@@download/ENCFF711YPJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR268QCH right_renal_cortex_interstitium_male_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR268QCH age=105_day description=ENCSR268QCH_right_renal_cortex_interstitium_male_embryo_105_days_peaks_ donor=ENCDO513BVP sex=male view=ENCSR268QCH 
+		view ENCSR268QCH
+
+		track ENCSR268QCH_ENCFF229LLS
+		parent tissue_right_renal_cortex_interstitium_view_ENCSR268QCH off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO513BVP label=unknown view=ENCSR268QCH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF229LLS/@@download/ENCFF229LLS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF229LLS 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR268QCH age=105_day description=ENCFF229LLS_9state_DNase_ donor=ENCDO513BVP sex=male view=ENCSR268QCH 
+		view ENCSR268QCH
+
+	track ENCSR887BNC_ENCFF607OBV
+	parent tissue_right_renal_cortex_interstitium off
+	subGroups age=a120_day assay=DNase-seq donor=ENCDO327QNA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF607OBV/@@download/ENCFF607OBV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR887BNC right_renal_cortex_interstitium_male_embryo_120_days_ (read-depth no
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR887BNC age=120_day description=ENCSR887BNC_right_renal_cortex_interstitium_male_embryo_120_days_read_depth_normalized_signal_ donor=ENCDO327QNA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_right_renal_cortex_interstitium_view_ENCSR887BNC
+	parent tissue_right_renal_cortex_interstitium off
+	view ENCSR887BNC
+	visibility dense
+	type bigBed
+
+		track ENCSR887BNC_ENCFF015JWN
+		parent tissue_right_renal_cortex_interstitium_view_ENCSR887BNC off
+		subGroups age=a120_day assay=DNase-seq donor=ENCDO327QNA label=unknown view=ENCSR887BNC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF015JWN/@@download/ENCFF015JWN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR887BNC right_renal_cortex_interstitium_male_embryo_120_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR887BNC age=120_day description=ENCSR887BNC_right_renal_cortex_interstitium_male_embryo_120_days_peaks_ donor=ENCDO327QNA sex=male view=ENCSR887BNC 
+		view ENCSR887BNC
+
+		track ENCSR887BNC_ENCFF150STQ
+		parent tissue_right_renal_cortex_interstitium_view_ENCSR887BNC off
+		subGroups age=a120_day assay=DNase-seq donor=ENCDO327QNA label=unknown view=ENCSR887BNC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF150STQ/@@download/ENCFF150STQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF150STQ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR887BNC age=120_day description=ENCFF150STQ_9state_DNase_ donor=ENCDO327QNA sex=male view=ENCSR887BNC 
+		view ENCSR887BNC
+
+	track ENCSR400DJE_ENCFF989JMJ
+	parent tissue_right_renal_cortex_interstitium off
+	subGroups age=a105_day assay=RNA-seq donor=ENCDO513BVP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF989JMJ/@@download/ENCFF989JMJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR400DJE right_renal_cortex_interstitium_male_embryo_105_days_ (signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR400DJE age=105_day description=ENCSR400DJE_right_renal_cortex_interstitium_male_embryo_105_days_signal_of_unique_reads_ donor=ENCDO513BVP sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR822AOE_ENCFF003LUR
+	parent tissue_right_renal_cortex_interstitium off
+	subGroups age=a105_day assay=RNA-seq donor=ENCDO378UAU label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF003LUR/@@download/ENCFF003LUR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR822AOE right_renal_cortex_interstitium_male_embryo_105_days_ (signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR822AOE age=105_day description=ENCSR822AOE_right_renal_cortex_interstitium_male_embryo_105_days_signal_of_unique_reads_ donor=ENCDO378UAU sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR884EVS_ENCFF879FVU
+	parent tissue_right_renal_cortex_interstitium off
+	subGroups age=a120_day assay=RNA-seq donor=ENCDO327QNA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF879FVU/@@download/ENCFF879FVU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR884EVS right_renal_cortex_interstitium_male_embryo_120_days_ (signal of uni
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR884EVS age=120_day description=ENCSR884EVS_right_renal_cortex_interstitium_male_embryo_120_days_signal_of_unique_reads_ donor=ENCDO327QNA sex=male view=bigWig 
+	view bigWig
+

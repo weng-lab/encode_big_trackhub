@@ -1,0 +1,81 @@
+
+track primary_cell_dermis_microvascular_lymphatic_vessel_endothelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel dermis microvascu
+longLabel dermis microvascular lymphatic vessel endothelial cell (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO038AAA=ENCDO038AAA ENCDO242AAA=ENCDO242AAA 
+subGroup2 age age a38_year=38&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000EOA=ENCSR000EOA bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EOA_ENCFF333YPH
+	parent primary_cell_dermis_microvascular_lymphatic_vessel_endothelial_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO242AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF333YPH/@@download/ENCFF333YPH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOA dermis_microvascular_lymphatic_vessel_endothelial_cell_female (read-
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOA age=unknown description=ENCSR000EOA_dermis_microvascular_lymphatic_vessel_endothelial_cell_female_read_depth_normalized_signal_ donor=ENCDO242AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_dermis_microvascular_lymphatic_vessel_endothelial_cell_view_ENCSR000EOA
+	parent primary_cell_dermis_microvascular_lymphatic_vessel_endothelial_cell off
+	view ENCSR000EOA
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOA_ENCFF973IRH
+		parent primary_cell_dermis_microvascular_lymphatic_vessel_endothelial_cell_view_ENCSR000EOA off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO242AAA label=unknown view=ENCSR000EOA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF973IRH/@@download/ENCFF973IRH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOA dermis_microvascular_lymphatic_vessel_endothelial_cell_female (peaks
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOA age=unknown description=ENCSR000EOA_dermis_microvascular_lymphatic_vessel_endothelial_cell_female_peaks_ donor=ENCDO242AAA sex=female view=ENCSR000EOA 
+		view ENCSR000EOA
+
+		track ENCSR000EOA_ENCFF482IJM
+		parent primary_cell_dermis_microvascular_lymphatic_vessel_endothelial_cell_view_ENCSR000EOA off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO242AAA label=unknown view=ENCSR000EOA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF482IJM/@@download/ENCFF482IJM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF482IJM 9state-DNase DNase-seq on human HMVEC-dLy-Ad
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOA age=unknown description=ENCFF482IJM_9state_DNase_DNase_seq_on_human_HMVEC_dLy_Ad donor=ENCDO242AAA sex=female view=ENCSR000EOA 
+		view ENCSR000EOA
+
+	track ENCSR000AAK_ENCFF121HTT
+	parent primary_cell_dermis_microvascular_lymphatic_vessel_endothelial_cell off
+	subGroups age=a38_year assay=RNA-seq donor=ENCDO038AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF121HTT/@@download/ENCFF121HTT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAK dermis_microvascular_lymphatic_vessel_endothelial_cell_female_adult_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAK age=38_year description=ENCSR000AAK_dermis_microvascular_lymphatic_vessel_endothelial_cell_female_adult_38_years_and_female_adult_64_years_plus_strand_signal_of_unique_reads_ donor=ENCDO038AAA sex=female view=bigWig 
+	view bigWig
+

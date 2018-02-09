@@ -1,0 +1,832 @@
+
+track tissue_ovary
+parent super_tissue
+compositeTrack on
+shortLabel ovary
+longLabel ovary (23 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO424HVB=ENCDO424HVB ENCDO793LXB=ENCDO793LXB ENCDO927DEI=ENCDO927DEI ENCDO949QAW=ENCDO949QAW 
+subGroup2 age age a30_year=30&#32;year a47_year=47&#32;year a51_year=51&#32;year a53_year=53&#32;year aunknown=unknown 
+subGroup3 view view ENCSR037SNV=ENCSR037SNV ENCSR113AFY=ENCSR113AFY ENCSR139TLA=ENCSR139TLA ENCSR158TRP=ENCSR158TRP ENCSR268JQE=ENCSR268JQE ENCSR428XAX=ENCSR428XAX ENCSR493APD=ENCSR493APD ENCSR542KIX=ENCSR542KIX ENCSR548DDS=ENCSR548DDS ENCSR659MYS=ENCSR659MYS ENCSR696LQU=ENCSR696LQU ENCSR712PYJ=ENCSR712PYJ ENCSR754DWU=ENCSR754DWU ENCSR828CCQ=ENCSR828CCQ ENCSR956UFV=ENCSR956UFV bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR428XAX_ENCFF344FXR
+	parent tissue_ovary off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO927DEI label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF344FXR/@@download/ENCFF344FXR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR428XAX ovary_female_embryo (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR428XAX age=unknown description=ENCSR428XAX_ovary_female_embryo_read_depth_normalized_signal_ donor=ENCDO927DEI sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR428XAX
+	parent tissue_ovary off
+	view ENCSR428XAX
+	visibility dense
+	type bigBed
+
+		track ENCSR428XAX_ENCFF537ARE
+		parent tissue_ovary_view_ENCSR428XAX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO927DEI label=unknown view=ENCSR428XAX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF537ARE/@@download/ENCFF537ARE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR428XAX ovary_female_embryo (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR428XAX age=unknown description=ENCSR428XAX_ovary_female_embryo_peaks_ donor=ENCDO927DEI sex=female view=ENCSR428XAX 
+		view ENCSR428XAX
+
+		track ENCSR428XAX_ENCFF477HKC
+		parent tissue_ovary_view_ENCSR428XAX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO927DEI label=unknown view=ENCSR428XAX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF477HKC/@@download/ENCFF477HKC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF477HKC 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR428XAX age=unknown description=ENCFF477HKC_9state_DNase_ donor=ENCDO927DEI sex=female view=ENCSR428XAX 
+		view ENCSR428XAX
+
+	track ENCSR542KIX_ENCFF416KSV
+	parent tissue_ovary off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF416KSV/@@download/ENCFF416KSV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR542KIX ovary_female_adult_53_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR542KIX age=53_year description=ENCSR542KIX_ovary_female_adult_53_years_read_depth_normalized_signal_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR542KIX
+	parent tissue_ovary off
+	view ENCSR542KIX
+	visibility dense
+	type bigBed
+
+		track ENCSR542KIX_ENCFF583NFW
+		parent tissue_ovary_view_ENCSR542KIX off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR542KIX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF583NFW/@@download/ENCFF583NFW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR542KIX ovary_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR542KIX age=53_year description=ENCSR542KIX_ovary_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR542KIX 
+		view ENCSR542KIX
+
+	track ENCSR712PYJ_ENCFF445CBO
+	parent tissue_ovary off
+	subGroups age=a30_year assay=DNase-seq donor=ENCDO424HVB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF445CBO/@@download/ENCFF445CBO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR712PYJ ovary_female_adult_30_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR712PYJ age=30_year description=ENCSR712PYJ_ovary_female_adult_30_years_read_depth_normalized_signal_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR712PYJ
+	parent tissue_ovary off
+	view ENCSR712PYJ
+	visibility dense
+	type bigBed
+
+		track ENCSR712PYJ_ENCFF536AAA
+		parent tissue_ovary_view_ENCSR712PYJ off
+		subGroups age=a30_year assay=DNase-seq donor=ENCDO424HVB label=unknown view=ENCSR712PYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF536AAA/@@download/ENCFF536AAA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR712PYJ ovary_female_adult_30_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR712PYJ age=30_year description=ENCSR712PYJ_ovary_female_adult_30_years_peaks_ donor=ENCDO424HVB sex=female view=ENCSR712PYJ 
+		view ENCSR712PYJ
+
+		track ENCSR712PYJ_ENCFF371TXX
+		parent tissue_ovary_view_ENCSR712PYJ off
+		subGroups age=a30_year assay=DNase-seq donor=ENCDO424HVB label=unknown view=ENCSR712PYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF371TXX/@@download/ENCFF371TXX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF371TXX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR712PYJ age=30_year description=ENCFF371TXX_9state_DNase_ donor=ENCDO424HVB sex=female view=ENCSR712PYJ 
+		view ENCSR712PYJ
+
+		track ENCSR712PYJ_ENCFF586NXH
+		parent tissue_ovary_view_ENCSR712PYJ off
+		subGroups age=a30_year assay=DNase-seq donor=ENCDO424HVB label=unknown view=ENCSR712PYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF586NXH/@@download/ENCFF586NXH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF586NXH 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR712PYJ age=30_year description=ENCFF586NXH_5group_ donor=ENCDO424HVB sex=female view=ENCSR712PYJ 
+		view ENCSR712PYJ
+
+		track ENCSR712PYJ_ENCFF009BGE
+		parent tissue_ovary_view_ENCSR712PYJ off
+		subGroups age=a30_year assay=DNase-seq donor=ENCDO424HVB label=unknown view=ENCSR712PYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF009BGE/@@download/ENCFF009BGE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF009BGE 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR712PYJ age=30_year description=ENCFF009BGE_9state_H3K4me3_ donor=ENCDO424HVB sex=female view=ENCSR712PYJ 
+		view ENCSR712PYJ
+
+		track ENCSR712PYJ_ENCFF318PVM
+		parent tissue_ovary_view_ENCSR712PYJ off
+		subGroups age=a30_year assay=DNase-seq donor=ENCDO424HVB label=unknown view=ENCSR712PYJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF318PVM/@@download/ENCFF318PVM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF318PVM 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR712PYJ age=30_year description=ENCFF318PVM_9state_H3K27ac_ donor=ENCDO424HVB sex=female view=ENCSR712PYJ 
+		view ENCSR712PYJ
+
+	track ENCSR139TLA_ENCFF893MFU
+	parent tissue_ovary off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF893MFU/@@download/ENCFF893MFU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR139TLA ovary_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR139TLA age=30_year description=ENCSR139TLA_ovary_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR139TLA
+	parent tissue_ovary off
+	view ENCSR139TLA
+	visibility dense
+	type bigBed
+
+		track ENCSR139TLA_ENCFF233WHX
+		parent tissue_ovary_view_ENCSR139TLA off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=ENCSR139TLA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF233WHX/@@download/ENCFF233WHX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR139TLA ovary_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR139TLA age=30_year description=ENCSR139TLA_ovary_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR139TLA 
+		view ENCSR139TLA
+
+		track ENCSR139TLA_ENCFF371TXX
+		parent tissue_ovary_view_ENCSR139TLA off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=ENCSR139TLA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF371TXX/@@download/ENCFF371TXX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF371TXX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR139TLA age=30_year description=ENCFF371TXX_9state_DNase_ donor=ENCDO424HVB sex=female view=ENCSR139TLA 
+		view ENCSR139TLA
+
+		track ENCSR139TLA_ENCFF586NXH
+		parent tissue_ovary_view_ENCSR139TLA off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=ENCSR139TLA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF586NXH/@@download/ENCFF586NXH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF586NXH 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR139TLA age=30_year description=ENCFF586NXH_5group_ donor=ENCDO424HVB sex=female view=ENCSR139TLA 
+		view ENCSR139TLA
+
+		track ENCSR139TLA_ENCFF009BGE
+		parent tissue_ovary_view_ENCSR139TLA off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=ENCSR139TLA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF009BGE/@@download/ENCFF009BGE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF009BGE 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR139TLA age=30_year description=ENCFF009BGE_9state_H3K4me3_ donor=ENCDO424HVB sex=female view=ENCSR139TLA 
+		view ENCSR139TLA
+
+		track ENCSR139TLA_ENCFF318PVM
+		parent tissue_ovary_view_ENCSR139TLA off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me3 view=ENCSR139TLA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF318PVM/@@download/ENCFF318PVM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF318PVM 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR139TLA age=30_year description=ENCFF318PVM_9state_H3K27ac_ donor=ENCDO424HVB sex=female view=ENCSR139TLA 
+		view ENCSR139TLA
+
+	track ENCSR828CCQ_ENCFF143ZVO
+	parent tissue_ovary off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF143ZVO/@@download/ENCFF143ZVO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR828CCQ ovary_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR828CCQ age=53_year description=ENCSR828CCQ_ovary_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR828CCQ
+	parent tissue_ovary off
+	view ENCSR828CCQ
+	visibility dense
+	type bigBed
+
+		track ENCSR828CCQ_ENCFF238TBD
+		parent tissue_ovary_view_ENCSR828CCQ off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR828CCQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF238TBD/@@download/ENCFF238TBD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR828CCQ ovary_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR828CCQ age=53_year description=ENCSR828CCQ_ovary_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR828CCQ 
+		view ENCSR828CCQ
+
+	track ENCSR268JQE_ENCFF808YCP
+	parent tissue_ovary off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF808YCP/@@download/ENCFF808YCP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR268JQE ovary_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR268JQE age=30_year description=ENCSR268JQE_ovary_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR268JQE
+	parent tissue_ovary off
+	view ENCSR268JQE
+	visibility dense
+	type bigBed
+
+		track ENCSR268JQE_ENCFF468RBC
+		parent tissue_ovary_view_ENCSR268JQE off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=ENCSR268JQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF468RBC/@@download/ENCFF468RBC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR268JQE ovary_female_adult_30_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR268JQE age=30_year description=ENCSR268JQE_ovary_female_adult_30_years_peaks_ donor=ENCDO424HVB sex=female view=ENCSR268JQE 
+		view ENCSR268JQE
+
+		track ENCSR268JQE_ENCFF371TXX
+		parent tissue_ovary_view_ENCSR268JQE off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=ENCSR268JQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF371TXX/@@download/ENCFF371TXX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF371TXX 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR268JQE age=30_year description=ENCFF371TXX_9state_DNase_ donor=ENCDO424HVB sex=female view=ENCSR268JQE 
+		view ENCSR268JQE
+
+		track ENCSR268JQE_ENCFF586NXH
+		parent tissue_ovary_view_ENCSR268JQE off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=ENCSR268JQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF586NXH/@@download/ENCFF586NXH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF586NXH 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR268JQE age=30_year description=ENCFF586NXH_5group_ donor=ENCDO424HVB sex=female view=ENCSR268JQE 
+		view ENCSR268JQE
+
+		track ENCSR268JQE_ENCFF009BGE
+		parent tissue_ovary_view_ENCSR268JQE off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=ENCSR268JQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF009BGE/@@download/ENCFF009BGE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF009BGE 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR268JQE age=30_year description=ENCFF009BGE_9state_H3K4me3_ donor=ENCDO424HVB sex=female view=ENCSR268JQE 
+		view ENCSR268JQE
+
+		track ENCSR268JQE_ENCFF318PVM
+		parent tissue_ovary_view_ENCSR268JQE off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27ac view=ENCSR268JQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF318PVM/@@download/ENCFF318PVM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF318PVM 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR268JQE age=30_year description=ENCFF318PVM_9state_H3K27ac_ donor=ENCDO424HVB sex=female view=ENCSR268JQE 
+		view ENCSR268JQE
+
+	track ENCSR493APD_ENCFF999DNG
+	parent tissue_ovary off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF999DNG/@@download/ENCFF999DNG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR493APD ovary_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR493APD age=53_year description=ENCSR493APD_ovary_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR493APD
+	parent tissue_ovary off
+	view ENCSR493APD
+	visibility dense
+	type bigBed
+
+		track ENCSR493APD_ENCFF138QTZ
+		parent tissue_ovary_view_ENCSR493APD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR493APD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF138QTZ/@@download/ENCFF138QTZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR493APD ovary_female_adult_53_years_ (pseudoreplicated idr thresholded peaks
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR493APD age=53_year description=ENCSR493APD_ovary_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR493APD 
+		view ENCSR493APD
+
+	track ENCSR548DDS_ENCFF271JEQ
+	parent tissue_ovary off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF271JEQ/@@download/ENCFF271JEQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR548DDS ovary_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR548DDS age=51_year description=ENCSR548DDS_ovary_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR548DDS
+	parent tissue_ovary off
+	view ENCSR548DDS
+	visibility dense
+	type bigBed
+
+		track ENCSR548DDS_ENCFF916VHX
+		parent tissue_ovary_view_ENCSR548DDS off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR548DDS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF916VHX/@@download/ENCFF916VHX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR548DDS ovary_female_adult_51_year_ (pseudoreplicated idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR548DDS age=51_year description=ENCSR548DDS_ovary_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR548DDS 
+		view ENCSR548DDS
+
+	track ENCSR024CRN_ENCFF885VKX
+	parent tissue_ovary off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF885VKX/@@download/ENCFF885VKX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR024CRN ovary_female_adult_51_year_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR024CRN age=51_year description=ENCSR024CRN_ovary_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR042GYH_ENCFF845FHW
+	parent tissue_ovary off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF845FHW/@@download/ENCFF845FHW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR042GYH ovary_female_adult_51_year_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR042GYH age=51_year description=ENCSR042GYH_ovary_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR046XHI_ENCFF838SNH
+	parent tissue_ovary off
+	subGroups age=a47_year assay=RNA-seq donor=ENCDO949QAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF838SNH/@@download/ENCFF838SNH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR046XHI ovary_female_adult_47_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR046XHI age=47_year description=ENCSR046XHI_ovary_female_adult_47_years_plus_strand_signal_of_unique_reads_ donor=ENCDO949QAW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR601URL_ENCFF088ZVL
+	parent tissue_ovary off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF088ZVL/@@download/ENCFF088ZVL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR601URL ovary_female_adult_51_year_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR601URL age=51_year description=ENCSR601URL_ovary_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR725TPW_ENCFF448FWF
+	parent tissue_ovary off
+	subGroups age=a30_year assay=RNA-seq donor=ENCDO424HVB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF448FWF/@@download/ENCFF448FWF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR725TPW ovary_female_adult_30_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR725TPW age=30_year description=ENCSR725TPW_ovary_female_adult_30_years_plus_strand_signal_of_unique_reads_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR727VTD_ENCFF874SGK
+	parent tissue_ovary off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO927DEI label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF874SGK/@@download/ENCFF874SGK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR727VTD ovary_female_embryo (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR727VTD age=unknown description=ENCSR727VTD_ovary_female_embryo_signal_of_unique_reads_ donor=ENCDO927DEI sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR841ADZ_ENCFF453ODD
+	parent tissue_ovary off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF453ODD/@@download/ENCFF453ODD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR841ADZ ovary_female_adult_53_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR841ADZ age=53_year description=ENCSR841ADZ_ovary_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR983ICQ_ENCFF315ROU
+	parent tissue_ovary off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF315ROU/@@download/ENCFF315ROU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR983ICQ ovary_female_adult_53_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR983ICQ age=53_year description=ENCSR983ICQ_ovary_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR158TRP_ENCFF745RJC
+	parent tissue_ovary off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF745RJC/@@download/ENCFF745RJC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR158TRP ovary_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR158TRP age=51_year description=ENCSR158TRP_ovary_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR158TRP
+	parent tissue_ovary off
+	view ENCSR158TRP
+	visibility dense
+	type bigBed
+
+		track ENCSR158TRP_ENCFF484FFT
+		parent tissue_ovary_view_ENCSR158TRP off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR158TRP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF484FFT/@@download/ENCFF484FFT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR158TRP ovary_female_adult_51_year_ (pseudoreplicated idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR158TRP age=51_year description=ENCSR158TRP_ovary_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR158TRP 
+		view ENCSR158TRP
+
+	track ENCSR696LQU_ENCFF707TYG
+	parent tissue_ovary off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF707TYG/@@download/ENCFF707TYG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR696LQU ovary_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR696LQU age=53_year description=ENCSR696LQU_ovary_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR696LQU
+	parent tissue_ovary off
+	view ENCSR696LQU
+	visibility dense
+	type bigBed
+
+		track ENCSR696LQU_ENCFF712KAB
+		parent tissue_ovary_view_ENCSR696LQU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=ENCSR696LQU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF712KAB/@@download/ENCFF712KAB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR696LQU ovary_female_adult_53_years_ (pseudoreplicated idr thresholded peaks
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR696LQU age=53_year description=ENCSR696LQU_ovary_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR696LQU 
+		view ENCSR696LQU
+
+	track ENCSR037SNV_ENCFF602PFQ
+	parent tissue_ovary off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF602PFQ/@@download/ENCFF602PFQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR037SNV ovary_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR037SNV age=30_year description=ENCSR037SNV_ovary_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR037SNV
+	parent tissue_ovary off
+	view ENCSR037SNV
+	visibility dense
+	type bigBed
+
+		track ENCSR037SNV_ENCFF417UBJ
+		parent tissue_ovary_view_ENCSR037SNV off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K27me3 view=ENCSR037SNV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF417UBJ/@@download/ENCFF417UBJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR037SNV ovary_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR037SNV age=30_year description=ENCSR037SNV_ovary_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR037SNV 
+		view ENCSR037SNV
+
+	track ENCSR659MYS_ENCFF224ECW
+	parent tissue_ovary off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF224ECW/@@download/ENCFF224ECW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR659MYS ovary_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR659MYS age=30_year description=ENCSR659MYS_ovary_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR659MYS
+	parent tissue_ovary off
+	view ENCSR659MYS
+	visibility dense
+	type bigBed
+
+		track ENCSR659MYS_ENCFF707GKH
+		parent tissue_ovary_view_ENCSR659MYS off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K36me3 view=ENCSR659MYS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF707GKH/@@download/ENCFF707GKH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR659MYS ovary_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR659MYS age=30_year description=ENCSR659MYS_ovary_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR659MYS 
+		view ENCSR659MYS
+
+	track ENCSR113AFY_ENCFF509ZEQ
+	parent tissue_ovary off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF509ZEQ/@@download/ENCFF509ZEQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR113AFY ovary_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR113AFY age=30_year description=ENCSR113AFY_ovary_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR113AFY
+	parent tissue_ovary off
+	view ENCSR113AFY
+	visibility dense
+	type bigBed
+
+		track ENCSR113AFY_ENCFF588JGV
+		parent tissue_ovary_view_ENCSR113AFY off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K4me1 view=ENCSR113AFY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF588JGV/@@download/ENCFF588JGV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR113AFY ovary_female_adult_30_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR113AFY age=30_year description=ENCSR113AFY_ovary_female_adult_30_years_stable_peaks_ donor=ENCDO424HVB sex=female view=ENCSR113AFY 
+		view ENCSR113AFY
+
+	track ENCSR956UFV_ENCFF965VKM
+	parent tissue_ovary off
+	subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF965VKM/@@download/ENCFF965VKM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR956UFV ovary_female_adult_30_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR956UFV age=30_year description=ENCSR956UFV_ovary_female_adult_30_years_fold_change_over_control_ donor=ENCDO424HVB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR956UFV
+	parent tissue_ovary off
+	view ENCSR956UFV
+	visibility dense
+	type bigBed
+
+		track ENCSR956UFV_ENCFF729IGE
+		parent tissue_ovary_view_ENCSR956UFV off
+		subGroups age=a30_year assay=ChIP-seq donor=ENCDO424HVB label=H3K9me3 view=ENCSR956UFV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF729IGE/@@download/ENCFF729IGE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR956UFV ovary_female_adult_30_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR956UFV age=30_year description=ENCSR956UFV_ovary_female_adult_30_years_peaks_ donor=ENCDO424HVB sex=female view=ENCSR956UFV 
+		view ENCSR956UFV
+
+	track ENCSR754DWU_ENCFF066UFH
+	parent tissue_ovary off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF066UFH/@@download/ENCFF066UFH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR754DWU ovary_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR754DWU age=53_year description=ENCSR754DWU_ovary_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_ovary_view_ENCSR754DWU
+	parent tissue_ovary off
+	view ENCSR754DWU
+	visibility dense
+	type bigBed
+
+		track ENCSR754DWU_ENCFF955ZBA
+		parent tissue_ovary_view_ENCSR754DWU off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR754DWU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF955ZBA/@@download/ENCFF955ZBA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR754DWU ovary_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR754DWU age=53_year description=ENCSR754DWU_ovary_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR754DWU 
+		view ENCSR754DWU
+

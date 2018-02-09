@@ -1,0 +1,114 @@
+
+track in_vitro_differentiated_cells_erythroblast
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel erythroblast
+longLabel erythroblast (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO073AAA=ENCDO073AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000CNQ=ENCSR000CNQ ENCSR000CNR=ENCSR000CNR bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CNQ_ENCFF516XER
+	parent in_vitro_differentiated_cells_erythroblast off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO073AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF516XER/@@download/ENCFF516XER.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CNQ DBA_2_erythroblast_originated_from_MEL_GATA_1_ER_treated_with_1_M_es
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CNQ age=unknown description=ENCSR000CNQ_DBA_2_erythroblast_originated_from_MEL_GATA_1_ER_treated_with_1_M_estradiol_for_24_hours_read_depth_normalized_signal_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_erythroblast_view_ENCSR000CNQ
+	parent in_vitro_differentiated_cells_erythroblast off
+	view ENCSR000CNQ
+	visibility dense
+	type bigBed
+
+		track ENCSR000CNQ_ENCFF625HYD
+		parent in_vitro_differentiated_cells_erythroblast_view_ENCSR000CNQ off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO073AAA label=unknown view=ENCSR000CNQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF625HYD/@@download/ENCFF625HYD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CNQ DBA_2_erythroblast_originated_from_MEL_GATA_1_ER_treated_with_1_M_es
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CNQ age=unknown description=ENCSR000CNQ_DBA_2_erythroblast_originated_from_MEL_GATA_1_ER_treated_with_1_M_estradiol_for_24_hours_peaks_ donor=ENCDO073AAA sex=unknown view=ENCSR000CNQ 
+		view ENCSR000CNQ
+
+		track ENCSR000CNQ_ENCFF343QBD
+		parent in_vitro_differentiated_cells_erythroblast_view_ENCSR000CNQ off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO073AAA label=unknown view=ENCSR000CNQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF343QBD/@@download/ENCFF343QBD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF343QBD 9state-DNase DNase-seq on 8 week mouse mG - ER differentiated for 1 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CNQ age=unknown description=ENCFF343QBD_9state_DNase_DNase_seq_on_8_week_mouse_mG_ER_differentiated_for_1_day donor=ENCDO073AAA sex=unknown view=ENCSR000CNQ 
+		view ENCSR000CNQ
+
+	track ENCSR000CNR_ENCFF178FCM
+	parent in_vitro_differentiated_cells_erythroblast off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO073AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF178FCM/@@download/ENCFF178FCM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CNR DBA_2_erythroblast_originated_from_MEL_GATA_1_ER_treated_with_1_M_es
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CNR age=unknown description=ENCSR000CNR_DBA_2_erythroblast_originated_from_MEL_GATA_1_ER_treated_with_1_M_estradiol_for_48_hours_read_depth_normalized_signal_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_erythroblast_view_ENCSR000CNR
+	parent in_vitro_differentiated_cells_erythroblast off
+	view ENCSR000CNR
+	visibility dense
+	type bigBed
+
+		track ENCSR000CNR_ENCFF881SWW
+		parent in_vitro_differentiated_cells_erythroblast_view_ENCSR000CNR off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO073AAA label=unknown view=ENCSR000CNR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF881SWW/@@download/ENCFF881SWW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CNR DBA_2_erythroblast_originated_from_MEL_GATA_1_ER_treated_with_1_M_es
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CNR age=unknown description=ENCSR000CNR_DBA_2_erythroblast_originated_from_MEL_GATA_1_ER_treated_with_1_M_estradiol_for_48_hours_peaks_ donor=ENCDO073AAA sex=unknown view=ENCSR000CNR 
+		view ENCSR000CNR
+
+		track ENCSR000CNR_ENCFF894UHD
+		parent in_vitro_differentiated_cells_erythroblast_view_ENCSR000CNR off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO073AAA label=unknown view=ENCSR000CNR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF894UHD/@@download/ENCFF894UHD.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF894UHD 9state-DNase DNase-seq on 8 week mouse mG - ER differentiated for 2 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CNR age=unknown description=ENCFF894UHD_9state_DNase_DNase_seq_on_8_week_mouse_mG_ER_differentiated_for_2_days donor=ENCDO073AAA sex=unknown view=ENCSR000CNR 
+		view ENCSR000CNR
+

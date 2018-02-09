@@ -1,0 +1,433 @@
+
+track tissue_omental_fat_pad
+parent super_tissue
+compositeTrack on
+shortLabel omental fat pad
+longLabel omental fat pad (17 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR005LPI=ENCSR005LPI ENCSR047DRF=ENCSR047DRF ENCSR089DTY=ENCSR089DTY ENCSR225OKX=ENCSR225OKX ENCSR244ZEJ=ENCSR244ZEJ ENCSR677FYM=ENCSR677FYM ENCSR779NON=ENCSR779NON ENCSR846TPT=ENCSR846TPT bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR244ZEJ_ENCFF605ADM
+	parent tissue_omental_fat_pad off
+	subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF605ADM/@@download/ENCFF605ADM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR244ZEJ omental_fat_pad_female_adult_51_year_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR244ZEJ age=51_year description=ENCSR244ZEJ_omental_fat_pad_female_adult_51_year_read_depth_normalized_signal_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_omental_fat_pad_view_ENCSR244ZEJ
+	parent tissue_omental_fat_pad off
+	view ENCSR244ZEJ
+	visibility dense
+	type bigBed
+
+		track ENCSR244ZEJ_ENCFF240MLM
+		parent tissue_omental_fat_pad_view_ENCSR244ZEJ off
+		subGroups age=a51_year assay=DNase-seq donor=ENCDO271OUW label=unknown view=ENCSR244ZEJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF240MLM/@@download/ENCFF240MLM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR244ZEJ omental_fat_pad_female_adult_51_year_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR244ZEJ age=51_year description=ENCSR244ZEJ_omental_fat_pad_female_adult_51_year_peaks_ donor=ENCDO271OUW sex=female view=ENCSR244ZEJ 
+		view ENCSR244ZEJ
+
+	track ENCSR005LPI_ENCFF799HQQ
+	parent tissue_omental_fat_pad off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF799HQQ/@@download/ENCFF799HQQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR005LPI omental_fat_pad_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR005LPI age=54_year description=ENCSR005LPI_omental_fat_pad_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_omental_fat_pad_view_ENCSR005LPI
+	parent tissue_omental_fat_pad off
+	view ENCSR005LPI
+	visibility dense
+	type bigBed
+
+		track ENCSR005LPI_ENCFF783GII
+		parent tissue_omental_fat_pad_view_ENCSR005LPI off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR005LPI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF783GII/@@download/ENCFF783GII.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR005LPI omental_fat_pad_male_adult_54_years_ (pseudoreplicated idr threshold
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR005LPI age=54_year description=ENCSR005LPI_omental_fat_pad_male_adult_54_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO451RUA sex=male view=ENCSR005LPI 
+		view ENCSR005LPI
+
+	track ENCSR089DTY_ENCFF549AEG
+	parent tissue_omental_fat_pad off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF549AEG/@@download/ENCFF549AEG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR089DTY omental_fat_pad_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR089DTY age=37_year description=ENCSR089DTY_omental_fat_pad_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_omental_fat_pad_view_ENCSR089DTY
+	parent tissue_omental_fat_pad off
+	view ENCSR089DTY
+	visibility dense
+	type bigBed
+
+		track ENCSR089DTY_ENCFF390XOX
+		parent tissue_omental_fat_pad_view_ENCSR089DTY off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR089DTY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF390XOX/@@download/ENCFF390XOX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR089DTY omental_fat_pad_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR089DTY age=37_year description=ENCSR089DTY_omental_fat_pad_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR089DTY 
+		view ENCSR089DTY
+
+	track ENCSR225OKX_ENCFF407QZN
+	parent tissue_omental_fat_pad off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF407QZN/@@download/ENCFF407QZN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR225OKX omental_fat_pad_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR225OKX age=51_year description=ENCSR225OKX_omental_fat_pad_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_omental_fat_pad_view_ENCSR225OKX
+	parent tissue_omental_fat_pad off
+	view ENCSR225OKX
+	visibility dense
+	type bigBed
+
+		track ENCSR225OKX_ENCFF589JXQ
+		parent tissue_omental_fat_pad_view_ENCSR225OKX off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR225OKX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF589JXQ/@@download/ENCFF589JXQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR225OKX omental_fat_pad_female_adult_51_year_ (pseudoreplicated idr threshol
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR225OKX age=51_year description=ENCSR225OKX_omental_fat_pad_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR225OKX 
+		view ENCSR225OKX
+
+	track ENCSR080HPT_ENCFF510EUA
+	parent tissue_omental_fat_pad off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF510EUA/@@download/ENCFF510EUA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR080HPT omental_fat_pad_male_adult_54_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR080HPT age=54_year description=ENCSR080HPT_omental_fat_pad_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR158KFO_ENCFF599HZY
+	parent tissue_omental_fat_pad off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF599HZY/@@download/ENCFF599HZY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR158KFO omental_fat_pad_female_adult_51_year_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR158KFO age=51_year description=ENCSR158KFO_omental_fat_pad_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR176WZV_ENCFF900IPU
+	parent tissue_omental_fat_pad off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF900IPU/@@download/ENCFF900IPU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR176WZV omental_fat_pad_male_adult_37_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR176WZV age=37_year description=ENCSR176WZV_omental_fat_pad_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR472PZH_ENCFF891DFU
+	parent tissue_omental_fat_pad off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF891DFU/@@download/ENCFF891DFU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR472PZH omental_fat_pad_female_adult_53_years_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR472PZH age=53_year description=ENCSR472PZH_omental_fat_pad_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR544IYF_ENCFF136HGD
+	parent tissue_omental_fat_pad off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF136HGD/@@download/ENCFF136HGD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR544IYF omental_fat_pad_male_adult_54_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR544IYF age=54_year description=ENCSR544IYF_omental_fat_pad_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR610GDH_ENCFF112NEL
+	parent tissue_omental_fat_pad off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF112NEL/@@download/ENCFF112NEL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR610GDH omental_fat_pad_male_adult_37_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR610GDH age=37_year description=ENCSR610GDH_omental_fat_pad_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR611YXR_ENCFF136MEF
+	parent tissue_omental_fat_pad off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF136MEF/@@download/ENCFF136MEF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR611YXR omental_fat_pad_female_adult_51_year_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR611YXR age=51_year description=ENCSR611YXR_omental_fat_pad_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR645TCG_ENCFF907JBM
+	parent tissue_omental_fat_pad off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF907JBM/@@download/ENCFF907JBM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR645TCG omental_fat_pad_female_adult_53_years_ (plus strand signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR645TCG age=53_year description=ENCSR645TCG_omental_fat_pad_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR729CAZ_ENCFF541JMH
+	parent tissue_omental_fat_pad off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF541JMH/@@download/ENCFF541JMH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR729CAZ omental_fat_pad_male_adult_37_years_ (plus strand signal of unique r
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR729CAZ age=37_year description=ENCSR729CAZ_omental_fat_pad_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR047DRF_ENCFF248YXA
+	parent tissue_omental_fat_pad off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF248YXA/@@download/ENCFF248YXA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR047DRF omental_fat_pad_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR047DRF age=54_year description=ENCSR047DRF_omental_fat_pad_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_omental_fat_pad_view_ENCSR047DRF
+	parent tissue_omental_fat_pad off
+	view ENCSR047DRF
+	visibility dense
+	type bigBed
+
+		track ENCSR047DRF_ENCFF109RUD
+		parent tissue_omental_fat_pad_view_ENCSR047DRF off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=ENCSR047DRF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF109RUD/@@download/ENCFF109RUD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR047DRF omental_fat_pad_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR047DRF age=54_year description=ENCSR047DRF_omental_fat_pad_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR047DRF 
+		view ENCSR047DRF
+
+	track ENCSR677FYM_ENCFF516GYN
+	parent tissue_omental_fat_pad off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF516GYN/@@download/ENCFF516GYN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR677FYM omental_fat_pad_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR677FYM age=53_year description=ENCSR677FYM_omental_fat_pad_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_omental_fat_pad_view_ENCSR677FYM
+	parent tissue_omental_fat_pad off
+	view ENCSR677FYM
+	visibility dense
+	type bigBed
+
+		track ENCSR677FYM_ENCFF902KAY
+		parent tissue_omental_fat_pad_view_ENCSR677FYM off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=ENCSR677FYM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF902KAY/@@download/ENCFF902KAY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR677FYM omental_fat_pad_female_adult_53_years_ (pseudoreplicated idr thresho
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR677FYM age=53_year description=ENCSR677FYM_omental_fat_pad_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR677FYM 
+		view ENCSR677FYM
+
+	track ENCSR779NON_ENCFF412GSO
+	parent tissue_omental_fat_pad off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF412GSO/@@download/ENCFF412GSO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR779NON omental_fat_pad_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR779NON age=51_year description=ENCSR779NON_omental_fat_pad_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_omental_fat_pad_view_ENCSR779NON
+	parent tissue_omental_fat_pad off
+	view ENCSR779NON
+	visibility dense
+	type bigBed
+
+		track ENCSR779NON_ENCFF590CTW
+		parent tissue_omental_fat_pad_view_ENCSR779NON off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR779NON 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF590CTW/@@download/ENCFF590CTW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR779NON omental_fat_pad_female_adult_51_year_ (pseudoreplicated idr threshol
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR779NON age=51_year description=ENCSR779NON_omental_fat_pad_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR779NON 
+		view ENCSR779NON
+
+	track ENCSR846TPT_ENCFF289TYN
+	parent tissue_omental_fat_pad off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF289TYN/@@download/ENCFF289TYN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR846TPT omental_fat_pad_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR846TPT age=37_year description=ENCSR846TPT_omental_fat_pad_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_omental_fat_pad_view_ENCSR846TPT
+	parent tissue_omental_fat_pad off
+	view ENCSR846TPT
+	visibility dense
+	type bigBed
+
+		track ENCSR846TPT_ENCFF709JWT
+		parent tissue_omental_fat_pad_view_ENCSR846TPT off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=ENCSR846TPT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF709JWT/@@download/ENCFF709JWT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR846TPT omental_fat_pad_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR846TPT age=37_year description=ENCSR846TPT_omental_fat_pad_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR846TPT 
+		view ENCSR846TPT
+

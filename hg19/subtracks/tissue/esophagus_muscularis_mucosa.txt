@@ -1,0 +1,686 @@
+
+track tissue_esophagus_muscularis_mucosa
+parent super_tissue
+compositeTrack on
+shortLabel esophagus muscula
+longLabel esophagus muscularis mucosa (25 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR074SFL=ENCSR074SFL ENCSR095YMD=ENCSR095YMD ENCSR116RGC=ENCSR116RGC ENCSR177CGN=ENCSR177CGN ENCSR229KWP=ENCSR229KWP ENCSR353DFU=ENCSR353DFU ENCSR360BLQ=ENCSR360BLQ ENCSR559KAB=ENCSR559KAB ENCSR578MTT=ENCSR578MTT ENCSR607ARN=ENCSR607ARN ENCSR743KZR=ENCSR743KZR ENCSR862NOW=ENCSR862NOW ENCSR891WPD=ENCSR891WPD ENCSR922GUA=ENCSR922GUA bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR607ARN_ENCFF050YTI
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF050YTI/@@download/ENCFF050YTI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR607ARN esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR607ARN age=53_year description=ENCSR607ARN_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR607ARN
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR607ARN
+	visibility dense
+	type bigBed
+
+		track ENCSR607ARN_ENCFF328DAV
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR607ARN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR607ARN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF328DAV/@@download/ENCFF328DAV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR607ARN esophagus_muscularis_mucosa_female_adult_53_years_ (replicated peaks
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR607ARN age=53_year description=ENCSR607ARN_esophagus_muscularis_mucosa_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR607ARN 
+		view ENCSR607ARN
+
+		track ENCSR607ARN_ENCFF866KUO
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR607ARN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR607ARN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF866KUO/@@download/ENCFF866KUO.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF866KUO 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR607ARN age=53_year description=ENCFF866KUO_5group_ donor=ENCDO793LXB sex=female view=ENCSR607ARN 
+		view ENCSR607ARN
+
+	track ENCSR074SFL_ENCFF308BQF
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF308BQF/@@download/ENCFF308BQF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR074SFL esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR074SFL age=53_year description=ENCSR074SFL_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR074SFL
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR074SFL
+	visibility dense
+	type bigBed
+
+		track ENCSR074SFL_ENCFF737PUO
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR074SFL off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR074SFL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF737PUO/@@download/ENCFF737PUO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR074SFL esophagus_muscularis_mucosa_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR074SFL age=53_year description=ENCSR074SFL_esophagus_muscularis_mucosa_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR074SFL 
+		view ENCSR074SFL
+
+	track ENCSR095YMD_ENCFF195GJT
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF195GJT/@@download/ENCFF195GJT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR095YMD esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR095YMD age=53_year description=ENCSR095YMD_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR095YMD
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR095YMD
+	visibility dense
+	type bigBed
+
+		track ENCSR095YMD_ENCFF605GOS
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR095YMD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR095YMD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF605GOS/@@download/ENCFF605GOS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR095YMD esophagus_muscularis_mucosa_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR095YMD age=53_year description=ENCSR095YMD_esophagus_muscularis_mucosa_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR095YMD 
+		view ENCSR095YMD
+
+	track ENCSR353DFU_ENCFF600DCQ
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF600DCQ/@@download/ENCFF600DCQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR353DFU esophagus_muscularis_mucosa_female_adult_51_year_ (fold change over 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR353DFU age=51_year description=ENCSR353DFU_esophagus_muscularis_mucosa_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR353DFU
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR353DFU
+	visibility dense
+	type bigBed
+
+		track ENCSR353DFU_ENCFF846QEI
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR353DFU off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR353DFU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF846QEI/@@download/ENCFF846QEI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR353DFU esophagus_muscularis_mucosa_female_adult_51_year_ (pseudoreplicated 
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR353DFU age=51_year description=ENCSR353DFU_esophagus_muscularis_mucosa_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR353DFU 
+		view ENCSR353DFU
+
+	track ENCSR559KAB_ENCFF869ABU
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF869ABU/@@download/ENCFF869ABU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR559KAB esophagus_muscularis_mucosa_male_adult_37_years_ (fold change over c
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR559KAB age=37_year description=ENCSR559KAB_esophagus_muscularis_mucosa_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR559KAB
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR559KAB
+	visibility dense
+	type bigBed
+
+		track ENCSR559KAB_ENCFF225PML
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR559KAB off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR559KAB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF225PML/@@download/ENCFF225PML.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR559KAB esophagus_muscularis_mucosa_male_adult_37_years_ (pseudoreplicated i
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR559KAB age=37_year description=ENCSR559KAB_esophagus_muscularis_mucosa_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR559KAB 
+		view ENCSR559KAB
+
+	track ENCSR098BUF_ENCFF040VQX
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF040VQX/@@download/ENCFF040VQX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR098BUF esophagus_muscularis_mucosa_female_adult_53_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR098BUF age=53_year description=ENCSR098BUF_esophagus_muscularis_mucosa_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR182CBU_ENCFF456DYQ
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF456DYQ/@@download/ENCFF456DYQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR182CBU esophagus_muscularis_mucosa_male_adult_37_years_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR182CBU age=37_year description=ENCSR182CBU_esophagus_muscularis_mucosa_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR233DGJ_ENCFF346PMI
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF346PMI/@@download/ENCFF346PMI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR233DGJ esophagus_muscularis_mucosa_male_adult_37_years_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR233DGJ age=37_year description=ENCSR233DGJ_esophagus_muscularis_mucosa_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR295NAK_ENCFF259CZB
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF259CZB/@@download/ENCFF259CZB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR295NAK esophagus_muscularis_mucosa_female_adult_51_year_ (plus strand signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR295NAK age=51_year description=ENCSR295NAK_esophagus_muscularis_mucosa_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR383PLJ_ENCFF518YMY
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF518YMY/@@download/ENCFF518YMY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR383PLJ esophagus_muscularis_mucosa_female_adult_53_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR383PLJ age=53_year description=ENCSR383PLJ_esophagus_muscularis_mucosa_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR454ZQB_ENCFF311HNF
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF311HNF/@@download/ENCFF311HNF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR454ZQB esophagus_muscularis_mucosa_male_adult_54_years_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR454ZQB age=54_year description=ENCSR454ZQB_esophagus_muscularis_mucosa_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR620LQN_ENCFF639IKT
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF639IKT/@@download/ENCFF639IKT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR620LQN esophagus_muscularis_mucosa_female_adult_51_year_ (plus strand signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR620LQN age=51_year description=ENCSR620LQN_esophagus_muscularis_mucosa_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR669JBL_ENCFF897ILP
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF897ILP/@@download/ENCFF897ILP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR669JBL esophagus_muscularis_mucosa_female_adult_53_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR669JBL age=53_year description=ENCSR669JBL_esophagus_muscularis_mucosa_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR679TCM_ENCFF816ZJW
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF816ZJW/@@download/ENCFF816ZJW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR679TCM esophagus_muscularis_mucosa_female_adult_51_year_ (plus strand signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR679TCM age=51_year description=ENCSR679TCM_esophagus_muscularis_mucosa_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR750ETS_ENCFF978ZUX
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF978ZUX/@@download/ENCFF978ZUX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR750ETS esophagus_muscularis_mucosa_male_adult_54_years_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR750ETS age=54_year description=ENCSR750ETS_esophagus_muscularis_mucosa_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR883KJV_ENCFF520GSP
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF520GSP/@@download/ENCFF520GSP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR883KJV esophagus_muscularis_mucosa_male_adult_37_years_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR883KJV age=37_year description=ENCSR883KJV_esophagus_muscularis_mucosa_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR116RGC_ENCFF427FUX
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF427FUX/@@download/ENCFF427FUX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR116RGC esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR116RGC age=53_year description=ENCSR116RGC_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR116RGC
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR116RGC
+	visibility dense
+	type bigBed
+
+		track ENCSR116RGC_ENCFF219GKZ
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR116RGC off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=ENCSR116RGC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF219GKZ/@@download/ENCFF219GKZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR116RGC esophagus_muscularis_mucosa_female_adult_53_years_ (pseudoreplicated
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR116RGC age=53_year description=ENCSR116RGC_esophagus_muscularis_mucosa_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR116RGC 
+		view ENCSR116RGC
+
+	track ENCSR360BLQ_ENCFF744VAK
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF744VAK/@@download/ENCFF744VAK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR360BLQ esophagus_muscularis_mucosa_male_adult_37_years_ (fold change over c
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR360BLQ age=37_year description=ENCSR360BLQ_esophagus_muscularis_mucosa_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR360BLQ
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR360BLQ
+	visibility dense
+	type bigBed
+
+		track ENCSR360BLQ_ENCFF925YJF
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR360BLQ off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=ENCSR360BLQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF925YJF/@@download/ENCFF925YJF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR360BLQ esophagus_muscularis_mucosa_male_adult_37_years_ (pseudoreplicated i
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR360BLQ age=37_year description=ENCSR360BLQ_esophagus_muscularis_mucosa_male_adult_37_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO845WKR sex=male view=ENCSR360BLQ 
+		view ENCSR360BLQ
+
+	track ENCSR862NOW_ENCFF631VTP
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF631VTP/@@download/ENCFF631VTP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR862NOW esophagus_muscularis_mucosa_male_adult_54_years_ (fold change over c
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR862NOW age=54_year description=ENCSR862NOW_esophagus_muscularis_mucosa_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR862NOW
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR862NOW
+	visibility dense
+	type bigBed
+
+		track ENCSR862NOW_ENCFF945WSK
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR862NOW off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=ENCSR862NOW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF945WSK/@@download/ENCFF945WSK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR862NOW esophagus_muscularis_mucosa_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR862NOW age=54_year description=ENCSR862NOW_esophagus_muscularis_mucosa_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR862NOW 
+		view ENCSR862NOW
+
+	track ENCSR891WPD_ENCFF539NOL
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF539NOL/@@download/ENCFF539NOL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR891WPD esophagus_muscularis_mucosa_female_adult_51_year_ (fold change over 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR891WPD age=51_year description=ENCSR891WPD_esophagus_muscularis_mucosa_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR891WPD
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR891WPD
+	visibility dense
+	type bigBed
+
+		track ENCSR891WPD_ENCFF812WHU
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR891WPD off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR891WPD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF812WHU/@@download/ENCFF812WHU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR891WPD esophagus_muscularis_mucosa_female_adult_51_year_ (pseudoreplicated 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR891WPD age=51_year description=ENCSR891WPD_esophagus_muscularis_mucosa_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR891WPD 
+		view ENCSR891WPD
+
+	track ENCSR177CGN_ENCFF993MBJ
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF993MBJ/@@download/ENCFF993MBJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR177CGN esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR177CGN age=53_year description=ENCSR177CGN_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR177CGN
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR177CGN
+	visibility dense
+	type bigBed
+
+		track ENCSR177CGN_ENCFF462QBB
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR177CGN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27me3 view=ENCSR177CGN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF462QBB/@@download/ENCFF462QBB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR177CGN esophagus_muscularis_mucosa_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR177CGN age=53_year description=ENCSR177CGN_esophagus_muscularis_mucosa_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR177CGN 
+		view ENCSR177CGN
+
+	track ENCSR743KZR_ENCFF275UCL
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF275UCL/@@download/ENCFF275UCL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR743KZR esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR743KZR age=53_year description=ENCSR743KZR_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR743KZR
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR743KZR
+	visibility dense
+	type bigBed
+
+		track ENCSR743KZR_ENCFF547DWJ
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR743KZR off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR743KZR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF547DWJ/@@download/ENCFF547DWJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR743KZR esophagus_muscularis_mucosa_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR743KZR age=53_year description=ENCSR743KZR_esophagus_muscularis_mucosa_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR743KZR 
+		view ENCSR743KZR
+
+	track ENCSR229KWP_ENCFF941CYX
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF941CYX/@@download/ENCFF941CYX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR229KWP esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR229KWP age=53_year description=ENCSR229KWP_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR229KWP
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR229KWP
+	visibility dense
+	type bigBed
+
+		track ENCSR229KWP_ENCFF979DNQ
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR229KWP off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me1 view=ENCSR229KWP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF979DNQ/@@download/ENCFF979DNQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR229KWP esophagus_muscularis_mucosa_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR229KWP age=53_year description=ENCSR229KWP_esophagus_muscularis_mucosa_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR229KWP 
+		view ENCSR229KWP
+
+	track ENCSR578MTT_ENCFF949LPB
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF949LPB/@@download/ENCFF949LPB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR578MTT esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR578MTT age=53_year description=ENCSR578MTT_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR578MTT
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR578MTT
+	visibility dense
+	type bigBed
+
+		track ENCSR578MTT_ENCFF525EVU
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR578MTT off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K9me3 view=ENCSR578MTT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF525EVU/@@download/ENCFF525EVU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR578MTT esophagus_muscularis_mucosa_female_adult_53_years_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR578MTT age=53_year description=ENCSR578MTT_esophagus_muscularis_mucosa_female_adult_53_years_stable_peaks_ donor=ENCDO793LXB sex=female view=ENCSR578MTT 
+		view ENCSR578MTT
+
+	track ENCSR922GUA_ENCFF826GPP
+	parent tissue_esophagus_muscularis_mucosa off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF826GPP/@@download/ENCFF826GPP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR922GUA esophagus_muscularis_mucosa_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR922GUA age=53_year description=ENCSR922GUA_esophagus_muscularis_mucosa_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_esophagus_muscularis_mucosa_view_ENCSR922GUA
+	parent tissue_esophagus_muscularis_mucosa off
+	view ENCSR922GUA
+	visibility dense
+	type bigBed
+
+		track ENCSR922GUA_ENCFF504FGB
+		parent tissue_esophagus_muscularis_mucosa_view_ENCSR922GUA off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR922GUA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF504FGB/@@download/ENCFF504FGB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR922GUA esophagus_muscularis_mucosa_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR922GUA age=53_year description=ENCSR922GUA_esophagus_muscularis_mucosa_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR922GUA 
+		view ENCSR922GUA
+

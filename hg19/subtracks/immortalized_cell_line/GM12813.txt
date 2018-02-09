@@ -1,0 +1,108 @@
+
+track immortalized_cell_line_GM12813
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel GM12813
+longLabel GM12813 (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay Repli-seq=Repli-seq 
+subGroup3 view view bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CXK_ENCFF001GMO
+	parent immortalized_cell_line_GM12813 off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000ABN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GMO/@@download/ENCFF001GMO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR000CXK GM12813_G1b_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CXK age=unknown description=ENCSR000CXK_GM12813_G1b_phase_percentage_normalized_signal_ donor=ENCDO000ABN sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR280SOU_ENCFF001GND
+	parent immortalized_cell_line_GM12813 off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000ABN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GND/@@download/ENCFF001GND.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR280SOU GM12813_S4_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR280SOU age=unknown description=ENCSR280SOU_GM12813_S4_phase_percentage_normalized_signal_ donor=ENCDO000ABN sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR356ETW_ENCFF001GMU
+	parent immortalized_cell_line_GM12813 off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000ABN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GMU/@@download/ENCFF001GMU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR356ETW GM12813_S1_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR356ETW age=unknown description=ENCSR356ETW_GM12813_S1_phase_percentage_normalized_signal_ donor=ENCDO000ABN sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR547MKY_ENCFF001GMX
+	parent immortalized_cell_line_GM12813 off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000ABN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GMX/@@download/ENCFF001GMX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR547MKY GM12813_S2_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR547MKY age=unknown description=ENCSR547MKY_GM12813_S2_phase_percentage_normalized_signal_ donor=ENCDO000ABN sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR834FTN_ENCFF001GMR
+	parent immortalized_cell_line_GM12813 off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000ABN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GMR/@@download/ENCFF001GMR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR834FTN GM12813_G2_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR834FTN age=unknown description=ENCSR834FTN_GM12813_G2_phase_percentage_normalized_signal_ donor=ENCDO000ABN sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR984RDT_ENCFF001GMZ
+	parent immortalized_cell_line_GM12813 off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO000ABN label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GMZ/@@download/ENCFF001GMZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR984RDT GM12813_S3_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR984RDT age=unknown description=ENCSR984RDT_GM12813_S3_phase_percentage_normalized_signal_ donor=ENCDO000ABN sex=female view=bigWig 
+	view bigWig
+

@@ -1,0 +1,384 @@
+
+track immortalized_cell_line_HL_60
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel HL-60
+longLabel HL-60 (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label CTCF=CTCF GABPA=GABPA H3K4me3=H3K4me3 REST=REST SPI1=SPI1 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq 
+subGroup3 view view ENCSR000BTF=ENCSR000BTF ENCSR000BTK=ENCSR000BTK ENCSR000BUW=ENCSR000BUW ENCSR000DUO=ENCSR000DUO ENCSR000DUP=ENCSR000DUP ENCSR000ENU=ENCSR000ENU bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ENU_ENCFF995GQX
+	parent immortalized_cell_line_HL_60 off
+	subGroups age=a36_year assay=DNase-seq donor=ENCDO000AAM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF995GQX/@@download/ENCFF995GQX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENU HL_60 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENU age=36_year description=ENCSR000ENU_HL_60_read_depth_normalized_signal_ donor=ENCDO000AAM sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HL_60_view_ENCSR000ENU
+	parent immortalized_cell_line_HL_60 off
+	view ENCSR000ENU
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENU_ENCFF157AFR
+		parent immortalized_cell_line_HL_60_view_ENCSR000ENU off
+		subGroups age=a36_year assay=DNase-seq donor=ENCDO000AAM label=unknown view=ENCSR000ENU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF157AFR/@@download/ENCFF157AFR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENU HL_60 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENU age=36_year description=ENCSR000ENU_HL_60_peaks_ donor=ENCDO000AAM sex=female view=ENCSR000ENU 
+		view ENCSR000ENU
+
+		track ENCSR000ENU_ENCFF592ARP
+		parent immortalized_cell_line_HL_60_view_ENCSR000ENU off
+		subGroups age=a36_year assay=DNase-seq donor=ENCDO000AAM label=unknown view=ENCSR000ENU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF592ARP/@@download/ENCFF592ARP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF592ARP 9state-CTCF DNase-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENU age=36_year description=ENCFF592ARP_9state_CTCF_DNase_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000ENU 
+		view ENCSR000ENU
+
+		track ENCSR000ENU_ENCFF805YPK
+		parent immortalized_cell_line_HL_60_view_ENCSR000ENU off
+		subGroups age=a36_year assay=DNase-seq donor=ENCDO000AAM label=unknown view=ENCSR000ENU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF805YPK/@@download/ENCFF805YPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF805YPK 9state-DNase DNase-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENU age=36_year description=ENCFF805YPK_9state_DNase_DNase_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000ENU 
+		view ENCSR000ENU
+
+		track ENCSR000ENU_ENCFF358KWV
+		parent immortalized_cell_line_HL_60_view_ENCSR000ENU off
+		subGroups age=a36_year assay=DNase-seq donor=ENCDO000AAM label=unknown view=ENCSR000ENU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF358KWV/@@download/ENCFF358KWV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF358KWV 5group DNase-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENU age=36_year description=ENCFF358KWV_5group_DNase_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000ENU 
+		view ENCSR000ENU
+
+		track ENCSR000ENU_ENCFF513DCJ
+		parent immortalized_cell_line_HL_60_view_ENCSR000ENU off
+		subGroups age=a36_year assay=DNase-seq donor=ENCDO000AAM label=unknown view=ENCSR000ENU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF513DCJ/@@download/ENCFF513DCJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF513DCJ 9state-H3K4me3 DNase-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENU age=36_year description=ENCFF513DCJ_9state_H3K4me3_DNase_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000ENU 
+		view ENCSR000ENU
+
+	track ENCSR000DUO_ENCFF852VFY
+	parent immortalized_cell_line_HL_60 off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF852VFY/@@download/ENCFF852VFY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DUO HL_60 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DUO age=36_year description=ENCSR000DUO_HL_60_fold_change_over_control_ donor=ENCDO000AAM sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HL_60_view_ENCSR000DUO
+	parent immortalized_cell_line_HL_60 off
+	view ENCSR000DUO
+	visibility dense
+	type bigBed
+
+		track ENCSR000DUO_ENCFF216UEA
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUO off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=H3K4me3 view=ENCSR000DUO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF216UEA/@@download/ENCFF216UEA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DUO HL_60 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DUO age=36_year description=ENCSR000DUO_HL_60_replicated_peaks_ donor=ENCDO000AAM sex=female view=ENCSR000DUO 
+		view ENCSR000DUO
+
+		track ENCSR000DUO_ENCFF592ARP
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUO off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=H3K4me3 view=ENCSR000DUO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF592ARP/@@download/ENCFF592ARP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF592ARP 9state-CTCF H3K4me3 ChIP-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUO age=36_year description=ENCFF592ARP_9state_CTCF_H3K4me3_ChIP_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000DUO 
+		view ENCSR000DUO
+
+		track ENCSR000DUO_ENCFF805YPK
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUO off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=H3K4me3 view=ENCSR000DUO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF805YPK/@@download/ENCFF805YPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF805YPK 9state-DNase H3K4me3 ChIP-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUO age=36_year description=ENCFF805YPK_9state_DNase_H3K4me3_ChIP_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000DUO 
+		view ENCSR000DUO
+
+		track ENCSR000DUO_ENCFF358KWV
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUO off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=H3K4me3 view=ENCSR000DUO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF358KWV/@@download/ENCFF358KWV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF358KWV 5group H3K4me3 ChIP-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUO age=36_year description=ENCFF358KWV_5group_H3K4me3_ChIP_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000DUO 
+		view ENCSR000DUO
+
+		track ENCSR000DUO_ENCFF513DCJ
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUO off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=H3K4me3 view=ENCSR000DUO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF513DCJ/@@download/ENCFF513DCJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF513DCJ 9state-H3K4me3 H3K4me3 ChIP-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUO age=36_year description=ENCFF513DCJ_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000DUO 
+		view ENCSR000DUO
+
+	track ENCSR000DUP_ENCFF847EGR
+	parent immortalized_cell_line_HL_60 off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF847EGR/@@download/ENCFF847EGR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DUP HL_60 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DUP age=36_year description=ENCSR000DUP_HL_60_fold_change_over_control_ donor=ENCDO000AAM sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HL_60_view_ENCSR000DUP
+	parent immortalized_cell_line_HL_60 off
+	view ENCSR000DUP
+	visibility dense
+	type bigBed
+
+		track ENCSR000DUP_ENCFF437KJT
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUP off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=CTCF view=ENCSR000DUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF437KJT/@@download/ENCFF437KJT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DUP HL_60 (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DUP age=36_year description=ENCSR000DUP_HL_60_optimal_idr_thresholded_peaks_ donor=ENCDO000AAM sex=female view=ENCSR000DUP 
+		view ENCSR000DUP
+
+		track ENCSR000DUP_ENCFF592ARP
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUP off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=CTCF view=ENCSR000DUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF592ARP/@@download/ENCFF592ARP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF592ARP 9state-CTCF CTCF ChIP-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUP age=36_year description=ENCFF592ARP_9state_CTCF_CTCF_ChIP_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000DUP 
+		view ENCSR000DUP
+
+		track ENCSR000DUP_ENCFF805YPK
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUP off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=CTCF view=ENCSR000DUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF805YPK/@@download/ENCFF805YPK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF805YPK 9state-DNase CTCF ChIP-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUP age=36_year description=ENCFF805YPK_9state_DNase_CTCF_ChIP_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000DUP 
+		view ENCSR000DUP
+
+		track ENCSR000DUP_ENCFF358KWV
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUP off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=CTCF view=ENCSR000DUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF358KWV/@@download/ENCFF358KWV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF358KWV 5group CTCF ChIP-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUP age=36_year description=ENCFF358KWV_5group_CTCF_ChIP_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000DUP 
+		view ENCSR000DUP
+
+		track ENCSR000DUP_ENCFF513DCJ
+		parent immortalized_cell_line_HL_60_view_ENCSR000DUP off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=CTCF view=ENCSR000DUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF513DCJ/@@download/ENCFF513DCJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF513DCJ 9state-H3K4me3 CTCF ChIP-seq on human HL-60
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DUP age=36_year description=ENCFF513DCJ_9state_H3K4me3_CTCF_ChIP_seq_on_human_HL_60 donor=ENCDO000AAM sex=female view=ENCSR000DUP 
+		view ENCSR000DUP
+
+	track ENCSR000BTK_ENCFF401OBH
+	parent immortalized_cell_line_HL_60 off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=GABPA view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF401OBH/@@download/ENCFF401OBH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GABPA
+	longLabel ENCSR000BTK HL_60 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTK age=36_year description=ENCSR000BTK_HL_60_fold_change_over_control_ donor=ENCDO000AAM sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HL_60_view_ENCSR000BTK
+	parent immortalized_cell_line_HL_60 off
+	view ENCSR000BTK
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTK_ENCFF394XUX
+		parent immortalized_cell_line_HL_60_view_ENCSR000BTK off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=GABPA view=ENCSR000BTK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF394XUX/@@download/ENCFF394XUX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq GABPA
+		longLabel ENCSR000BTK HL_60 (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTK age=36_year description=ENCSR000BTK_HL_60_optimal_idr_thresholded_peaks_ donor=ENCDO000AAM sex=female view=ENCSR000BTK 
+		view ENCSR000BTK
+
+	track ENCSR000BTF_ENCFF874APL
+	parent immortalized_cell_line_HL_60 off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=REST view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF874APL/@@download/ENCFF874APL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq REST
+	longLabel ENCSR000BTF HL_60 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTF age=36_year description=ENCSR000BTF_HL_60_fold_change_over_control_ donor=ENCDO000AAM sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HL_60_view_ENCSR000BTF
+	parent immortalized_cell_line_HL_60 off
+	view ENCSR000BTF
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTF_ENCFF975OED
+		parent immortalized_cell_line_HL_60_view_ENCSR000BTF off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=REST view=ENCSR000BTF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF975OED/@@download/ENCFF975OED.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq REST
+		longLabel ENCSR000BTF HL_60 (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTF age=36_year description=ENCSR000BTF_HL_60_optimal_idr_thresholded_peaks_ donor=ENCDO000AAM sex=female view=ENCSR000BTF 
+		view ENCSR000BTF
+
+	track ENCSR000BUW_ENCFF306ETS
+	parent immortalized_cell_line_HL_60 off
+	subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=SPI1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF306ETS/@@download/ENCFF306ETS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SPI1
+	longLabel ENCSR000BUW HL_60 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BUW age=36_year description=ENCSR000BUW_HL_60_fold_change_over_control_ donor=ENCDO000AAM sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_HL_60_view_ENCSR000BUW
+	parent immortalized_cell_line_HL_60 off
+	view ENCSR000BUW
+	visibility dense
+	type bigBed
+
+		track ENCSR000BUW_ENCFF567RGM
+		parent immortalized_cell_line_HL_60_view_ENCSR000BUW off
+		subGroups age=a36_year assay=ChIP-seq donor=ENCDO000AAM label=SPI1 view=ENCSR000BUW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF567RGM/@@download/ENCFF567RGM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq SPI1
+		longLabel ENCSR000BUW HL_60 (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BUW age=36_year description=ENCSR000BUW_HL_60_optimal_idr_thresholded_peaks_ donor=ENCDO000AAM sex=female view=ENCSR000BUW 
+		view ENCSR000BUW
+

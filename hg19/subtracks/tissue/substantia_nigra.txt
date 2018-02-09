@@ -1,0 +1,438 @@
+
+track tissue_substantia_nigra
+parent super_tissue
+compositeTrack on
+shortLabel substantia nigra
+longLabel substantia nigra (12 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO871IWW=ENCDO871IWW ENCDO980BZD=ENCDO980BZD 
+subGroup2 age age a75_year=75&#32;year a81_year=81&#32;year 
+subGroup3 view view ENCSR058AUB=ENCSR058AUB ENCSR150GWJ=ENCSR150GWJ ENCSR180CHR=ENCSR180CHR ENCSR313GUP=ENCSR313GUP ENCSR374OSU=ENCSR374OSU ENCSR551QXE=ENCSR551QXE ENCSR559CSJ=ENCSR559CSJ ENCSR568EZU=ENCSR568EZU ENCSR726WVB=ENCSR726WVB ENCSR883QMZ=ENCSR883QMZ ENCSR975RSD=ENCSR975RSD ENCSR996ENW=ENCSR996ENW bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR551QXE_ENCFF531LTO
+	parent tissue_substantia_nigra off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF531LTO/@@download/ENCFF531LTO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR551QXE substantia_nigra_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR551QXE age=75_year description=ENCSR551QXE_substantia_nigra_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR551QXE
+	parent tissue_substantia_nigra off
+	view ENCSR551QXE
+	visibility dense
+	type bigBed
+
+		track ENCSR551QXE_ENCFF230LRO
+		parent tissue_substantia_nigra_view_ENCSR551QXE off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=ENCSR551QXE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF230LRO/@@download/ENCFF230LRO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR551QXE substantia_nigra_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR551QXE age=75_year description=ENCSR551QXE_substantia_nigra_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR551QXE 
+		view ENCSR551QXE
+
+	track ENCSR883QMZ_ENCFF277PPF
+	parent tissue_substantia_nigra off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF277PPF/@@download/ENCFF277PPF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR883QMZ substantia_nigra_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR883QMZ age=81_year description=ENCSR883QMZ_substantia_nigra_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR883QMZ
+	parent tissue_substantia_nigra off
+	view ENCSR883QMZ
+	visibility dense
+	type bigBed
+
+		track ENCSR883QMZ_ENCFF547SJD
+		parent tissue_substantia_nigra_view_ENCSR883QMZ off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=ENCSR883QMZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF547SJD/@@download/ENCFF547SJD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR883QMZ substantia_nigra_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR883QMZ age=81_year description=ENCSR883QMZ_substantia_nigra_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR883QMZ 
+		view ENCSR883QMZ
+
+	track ENCSR726WVB_ENCFF559MRH
+	parent tissue_substantia_nigra off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF559MRH/@@download/ENCFF559MRH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR726WVB substantia_nigra_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR726WVB age=81_year description=ENCSR726WVB_substantia_nigra_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR726WVB
+	parent tissue_substantia_nigra off
+	view ENCSR726WVB
+	visibility dense
+	type bigBed
+
+		track ENCSR726WVB_ENCFF834VPJ
+		parent tissue_substantia_nigra_view_ENCSR726WVB off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=ENCSR726WVB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF834VPJ/@@download/ENCFF834VPJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR726WVB substantia_nigra_male_adult_81_year_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR726WVB age=81_year description=ENCSR726WVB_substantia_nigra_male_adult_81_year_replicated_peaks_ donor=ENCDO980BZD sex=male view=ENCSR726WVB 
+		view ENCSR726WVB
+
+	track ENCSR180CHR_ENCFF127KCS
+	parent tissue_substantia_nigra off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF127KCS/@@download/ENCFF127KCS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR180CHR substantia_nigra_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR180CHR age=75_year description=ENCSR180CHR_substantia_nigra_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR180CHR
+	parent tissue_substantia_nigra off
+	view ENCSR180CHR
+	visibility dense
+	type bigBed
+
+		track ENCSR180CHR_ENCFF686XPC
+		parent tissue_substantia_nigra_view_ENCSR180CHR off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27me3 view=ENCSR180CHR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF686XPC/@@download/ENCFF686XPC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR180CHR substantia_nigra_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR180CHR age=75_year description=ENCSR180CHR_substantia_nigra_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR180CHR 
+		view ENCSR180CHR
+
+	track ENCSR374OSU_ENCFF417SFP
+	parent tissue_substantia_nigra off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF417SFP/@@download/ENCFF417SFP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR374OSU substantia_nigra_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR374OSU age=81_year description=ENCSR374OSU_substantia_nigra_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR374OSU
+	parent tissue_substantia_nigra off
+	view ENCSR374OSU
+	visibility dense
+	type bigBed
+
+		track ENCSR374OSU_ENCFF416WYK
+		parent tissue_substantia_nigra_view_ENCSR374OSU off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=ENCSR374OSU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF416WYK/@@download/ENCFF416WYK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR374OSU substantia_nigra_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR374OSU age=81_year description=ENCSR374OSU_substantia_nigra_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR374OSU 
+		view ENCSR374OSU
+
+	track ENCSR313GUP_ENCFF859SJE
+	parent tissue_substantia_nigra off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF859SJE/@@download/ENCFF859SJE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR313GUP substantia_nigra_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR313GUP age=81_year description=ENCSR313GUP_substantia_nigra_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR313GUP
+	parent tissue_substantia_nigra off
+	view ENCSR313GUP
+	visibility dense
+	type bigBed
+
+		track ENCSR313GUP_ENCFF747VLV
+		parent tissue_substantia_nigra_view_ENCSR313GUP off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=ENCSR313GUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF747VLV/@@download/ENCFF747VLV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR313GUP substantia_nigra_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR313GUP age=81_year description=ENCSR313GUP_substantia_nigra_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR313GUP 
+		view ENCSR313GUP
+
+	track ENCSR996ENW_ENCFF482YIA
+	parent tissue_substantia_nigra off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF482YIA/@@download/ENCFF482YIA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR996ENW substantia_nigra_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR996ENW age=75_year description=ENCSR996ENW_substantia_nigra_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR996ENW
+	parent tissue_substantia_nigra off
+	view ENCSR996ENW
+	visibility dense
+	type bigBed
+
+		track ENCSR996ENW_ENCFF400GWU
+		parent tissue_substantia_nigra_view_ENCSR996ENW off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=ENCSR996ENW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF400GWU/@@download/ENCFF400GWU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR996ENW substantia_nigra_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR996ENW age=75_year description=ENCSR996ENW_substantia_nigra_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR996ENW 
+		view ENCSR996ENW
+
+	track ENCSR150GWJ_ENCFF958PDH
+	parent tissue_substantia_nigra off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF958PDH/@@download/ENCFF958PDH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR150GWJ substantia_nigra_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR150GWJ age=75_year description=ENCSR150GWJ_substantia_nigra_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR150GWJ
+	parent tissue_substantia_nigra off
+	view ENCSR150GWJ
+	visibility dense
+	type bigBed
+
+		track ENCSR150GWJ_ENCFF222NPF
+		parent tissue_substantia_nigra_view_ENCSR150GWJ off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=ENCSR150GWJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF222NPF/@@download/ENCFF222NPF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR150GWJ substantia_nigra_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR150GWJ age=75_year description=ENCSR150GWJ_substantia_nigra_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR150GWJ 
+		view ENCSR150GWJ
+
+	track ENCSR559CSJ_ENCFF062DUE
+	parent tissue_substantia_nigra off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF062DUE/@@download/ENCFF062DUE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR559CSJ substantia_nigra_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR559CSJ age=81_year description=ENCSR559CSJ_substantia_nigra_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR559CSJ
+	parent tissue_substantia_nigra off
+	view ENCSR559CSJ
+	visibility dense
+	type bigBed
+
+		track ENCSR559CSJ_ENCFF372EEJ
+		parent tissue_substantia_nigra_view_ENCSR559CSJ off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=ENCSR559CSJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF372EEJ/@@download/ENCFF372EEJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR559CSJ substantia_nigra_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR559CSJ age=81_year description=ENCSR559CSJ_substantia_nigra_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR559CSJ 
+		view ENCSR559CSJ
+
+	track ENCSR058AUB_ENCFF308XSS
+	parent tissue_substantia_nigra off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF308XSS/@@download/ENCFF308XSS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR058AUB substantia_nigra_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR058AUB age=75_year description=ENCSR058AUB_substantia_nigra_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR058AUB
+	parent tissue_substantia_nigra off
+	view ENCSR058AUB
+	visibility dense
+	type bigBed
+
+		track ENCSR058AUB_ENCFF547MCQ
+		parent tissue_substantia_nigra_view_ENCSR058AUB off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=ENCSR058AUB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF547MCQ/@@download/ENCFF547MCQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR058AUB substantia_nigra_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR058AUB age=75_year description=ENCSR058AUB_substantia_nigra_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR058AUB 
+		view ENCSR058AUB
+
+	track ENCSR568EZU_ENCFF259UQE
+	parent tissue_substantia_nigra off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF259UQE/@@download/ENCFF259UQE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR568EZU substantia_nigra_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR568EZU age=81_year description=ENCSR568EZU_substantia_nigra_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR568EZU
+	parent tissue_substantia_nigra off
+	view ENCSR568EZU
+	visibility dense
+	type bigBed
+
+		track ENCSR568EZU_ENCFF730GZU
+		parent tissue_substantia_nigra_view_ENCSR568EZU off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=ENCSR568EZU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF730GZU/@@download/ENCFF730GZU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR568EZU substantia_nigra_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR568EZU age=81_year description=ENCSR568EZU_substantia_nigra_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR568EZU 
+		view ENCSR568EZU
+
+	track ENCSR975RSD_ENCFF964LWH
+	parent tissue_substantia_nigra off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF964LWH/@@download/ENCFF964LWH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR975RSD substantia_nigra_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR975RSD age=75_year description=ENCSR975RSD_substantia_nigra_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_substantia_nigra_view_ENCSR975RSD
+	parent tissue_substantia_nigra off
+	view ENCSR975RSD
+	visibility dense
+	type bigBed
+
+		track ENCSR975RSD_ENCFF999FBP
+		parent tissue_substantia_nigra_view_ENCSR975RSD off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=ENCSR975RSD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF999FBP/@@download/ENCFF999FBP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR975RSD substantia_nigra_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR975RSD age=75_year description=ENCSR975RSD_substantia_nigra_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR975RSD 
+		view ENCSR975RSD
+

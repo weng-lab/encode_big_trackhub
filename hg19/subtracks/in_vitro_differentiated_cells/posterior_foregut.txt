@@ -1,0 +1,33 @@
+
+track in_vitro_differentiated_cells_posterior_foregut
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel posterior foregut
+longLabel posterior foregut (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO224OQU=ENCDO224OQU 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR217XWA_ENCFF623BGX
+	parent in_vitro_differentiated_cells_posterior_foregut off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO224OQU label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF623BGX/@@download/ENCFF623BGX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR217XWA posterior_foregut_originated_from_primitive_gut_cell (wavelet-smooth
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR217XWA age=unknown description=ENCSR217XWA_posterior_foregut_originated_from_primitive_gut_cell_wavelet_smoothed_signal_ donor=ENCDO224OQU sex=unknown view=bigWig 
+	view bigWig
+

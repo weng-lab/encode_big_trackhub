@@ -1,0 +1,66 @@
+
+track immortalized_cell_line_3T3_L1
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel 3T3-L1
+longLabel 3T3-L1 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
+subGroup3 view view ENCSR687EAW=ENCSR687EAW bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR687EAW_ENCFF435DKT
+	parent immortalized_cell_line_3T3_L1 off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF435DKT/@@download/ENCFF435DKT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR687EAW C57BL_6_3T3_L1 (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR687EAW age=unknown description=ENCSR687EAW_C57BL_6_3T3_L1_read_depth_normalized_signal_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_3T3_L1_view_ENCSR687EAW
+	parent immortalized_cell_line_3T3_L1 off
+	view ENCSR687EAW
+	visibility dense
+	type bigBed
+
+		track ENCSR687EAW_ENCFF025TFZ
+		parent immortalized_cell_line_3T3_L1_view_ENCSR687EAW off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR687EAW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF025TFZ/@@download/ENCFF025TFZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR687EAW C57BL_6_3T3_L1 (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR687EAW age=unknown description=ENCSR687EAW_C57BL_6_3T3_L1_peaks_ donor=ENCDO072AAA sex=unknown view=ENCSR687EAW 
+		view ENCSR687EAW
+
+		track ENCSR687EAW_ENCFF045XNL
+		parent immortalized_cell_line_3T3_L1_view_ENCSR687EAW off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR687EAW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF045XNL/@@download/ENCFF045XNL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF045XNL 9state-DNase DNase-seq on 3T3-L1 mouse cell line (mouse embryo fibro
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR687EAW age=unknown description=ENCFF045XNL_9state_DNase_DNase_seq_on_3T3_L1_mouse_cell_line_mouse_embryo_fibroblasts_ donor=ENCDO072AAA sex=unknown view=ENCSR687EAW 
+		view ENCSR687EAW
+

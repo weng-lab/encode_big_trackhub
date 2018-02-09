@@ -1,0 +1,676 @@
+
+track in_vitro_differentiated_cells_smooth_muscle_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel smooth muscle cel
+longLabel smooth muscle cell (20 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO176AAA=ENCDO176AAA ENCDO222AAA=ENCDO222AAA 
+subGroup2 age age a5_day=5&#32;day aunknown=unknown 
+subGroup3 view view ENCSR090QTV=ENCSR090QTV ENCSR130IMV=ENCSR130IMV ENCSR143RMH=ENCSR143RMH ENCSR189XIE=ENCSR189XIE ENCSR210ZPC=ENCSR210ZPC ENCSR248CME=ENCSR248CME ENCSR261VAS=ENCSR261VAS ENCSR301VIW=ENCSR301VIW ENCSR493FIV=ENCSR493FIV ENCSR515PKY=ENCSR515PKY ENCSR540UZV=ENCSR540UZV ENCSR651JDA=ENCSR651JDA ENCSR672HBY=ENCSR672HBY ENCSR783AXV=ENCSR783AXV bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR248CME_ENCFF069LAA
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=DNase-seq donor=ENCDO222AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF069LAA/@@download/ENCFF069LAA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR248CME smooth_muscle_cell (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR248CME age=5_day description=ENCSR248CME_smooth_muscle_cell_read_depth_normalized_signal_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR248CME
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR248CME
+	visibility dense
+	type bigBed
+
+		track ENCSR248CME_ENCFF331TXY
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR248CME off
+		subGroups age=a5_day assay=DNase-seq donor=ENCDO222AAA label=unknown view=ENCSR248CME 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF331TXY/@@download/ENCFF331TXY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR248CME smooth_muscle_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR248CME age=5_day description=ENCSR248CME_smooth_muscle_cell_peaks_ donor=ENCDO222AAA sex=female view=ENCSR248CME 
+		view ENCSR248CME
+
+	track ENCSR515PKY_ENCFF394FMW
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF394FMW/@@download/ENCFF394FMW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR515PKY smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR515PKY age=5_day description=ENCSR515PKY_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR515PKY
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR515PKY
+	visibility dense
+	type bigBed
+
+		track ENCSR515PKY_ENCFF728OWX
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR515PKY off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR515PKY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF728OWX/@@download/ENCFF728OWX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR515PKY smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR515PKY age=5_day description=ENCSR515PKY_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR515PKY 
+		view ENCSR515PKY
+
+		track ENCSR515PKY_ENCFF281QON
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR515PKY off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR515PKY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF281QON/@@download/ENCFF281QON.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF281QON 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR515PKY age=5_day description=ENCFF281QON_5group_ donor=ENCDO222AAA sex=female view=ENCSR515PKY 
+		view ENCSR515PKY
+
+		track ENCSR515PKY_ENCFF908DVX
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR515PKY off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR515PKY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF908DVX/@@download/ENCFF908DVX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF908DVX 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR515PKY age=5_day description=ENCFF908DVX_9state_H3K4me3_ donor=ENCDO222AAA sex=female view=ENCSR515PKY 
+		view ENCSR515PKY
+
+		track ENCSR515PKY_ENCFF551DST
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR515PKY off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me3 view=ENCSR515PKY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF551DST/@@download/ENCFF551DST.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF551DST 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR515PKY age=5_day description=ENCFF551DST_9state_H3K27ac_ donor=ENCDO222AAA sex=female view=ENCSR515PKY 
+		view ENCSR515PKY
+
+	track ENCSR210ZPC_ENCFF162KWR
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF162KWR/@@download/ENCFF162KWR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR210ZPC smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR210ZPC age=5_day description=ENCSR210ZPC_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR210ZPC
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR210ZPC
+	visibility dense
+	type bigBed
+
+		track ENCSR210ZPC_ENCFF337ZZX
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR210ZPC off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27ac view=ENCSR210ZPC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF337ZZX/@@download/ENCFF337ZZX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR210ZPC smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR210ZPC age=5_day description=ENCSR210ZPC_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR210ZPC 
+		view ENCSR210ZPC
+
+		track ENCSR210ZPC_ENCFF281QON
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR210ZPC off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27ac view=ENCSR210ZPC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF281QON/@@download/ENCFF281QON.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF281QON 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR210ZPC age=5_day description=ENCFF281QON_5group_ donor=ENCDO222AAA sex=female view=ENCSR210ZPC 
+		view ENCSR210ZPC
+
+		track ENCSR210ZPC_ENCFF908DVX
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR210ZPC off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27ac view=ENCSR210ZPC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF908DVX/@@download/ENCFF908DVX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF908DVX 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR210ZPC age=5_day description=ENCFF908DVX_9state_H3K4me3_ donor=ENCDO222AAA sex=female view=ENCSR210ZPC 
+		view ENCSR210ZPC
+
+		track ENCSR210ZPC_ENCFF551DST
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR210ZPC off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27ac view=ENCSR210ZPC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF551DST/@@download/ENCFF551DST.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF551DST 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR210ZPC age=5_day description=ENCFF551DST_9state_H3K27ac_ donor=ENCDO222AAA sex=female view=ENCSR210ZPC 
+		view ENCSR210ZPC
+
+	track ENCSR261VAS_ENCFF824MLF
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF824MLF/@@download/ENCFF824MLF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR261VAS smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR261VAS age=5_day description=ENCSR261VAS_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR261VAS
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR261VAS
+	visibility dense
+	type bigBed
+
+		track ENCSR261VAS_ENCFF853SMC
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR261VAS off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=CTCF view=ENCSR261VAS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF853SMC/@@download/ENCFF853SMC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR261VAS smooth_muscle_cell_originated_from_H9 (optimal idr thresholded peaks
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR261VAS age=5_day description=ENCSR261VAS_smooth_muscle_cell_originated_from_H9_optimal_idr_thresholded_peaks_ donor=ENCDO222AAA sex=female view=ENCSR261VAS 
+		view ENCSR261VAS
+
+	track ENCSR052FJA_ENCFF231EIC
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=RNA-seq donor=ENCDO222AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF231EIC/@@download/ENCFF231EIC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR052FJA smooth_muscle_cell_originated_from_H9 (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR052FJA age=5_day description=ENCSR052FJA_smooth_muscle_cell_originated_from_H9_plus_strand_signal_of_unique_reads_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR069DSA_ENCFF860YYU
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=Repli-chip donor=ENCDO222AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF860YYU/@@download/ENCFF860YYU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR069DSA smooth_muscle_cell_originated_from_H9 (wavelet-smoothed signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR069DSA age=5_day description=ENCSR069DSA_smooth_muscle_cell_originated_from_H9_wavelet_smoothed_signal_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR236URT_ENCFF400LTX
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=RNA-seq donor=ENCDO222AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF400LTX/@@download/ENCFF400LTX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR236URT smooth_muscle_cell_originated_from_H9 (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR236URT age=5_day description=ENCSR236URT_smooth_muscle_cell_originated_from_H9_signal_of_unique_reads_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR250STJ_ENCFF267ZVM
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=RNA-seq donor=ENCDO222AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF267ZVM/@@download/ENCFF267ZVM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR250STJ smooth_muscle_cell_originated_from_H9 (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR250STJ age=5_day description=ENCSR250STJ_smooth_muscle_cell_originated_from_H9_plus_strand_signal_of_unique_reads_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR337VPD_ENCFF371QZU
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=RAMPAGE donor=ENCDO222AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF371QZU/@@download/ENCFF371QZU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR337VPD smooth_muscle_cell_originated_from_H9 (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR337VPD age=5_day description=ENCSR337VPD_smooth_muscle_cell_originated_from_H9_plus_strand_signal_of_unique_reads_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR638FAJ_ENCFF879OPQ
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO176AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF879OPQ/@@download/ENCFF879OPQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR638FAJ smooth_muscle_cell_originated_from_BG02ES (wavelet-smoothed signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR638FAJ age=unknown description=ENCSR638FAJ_smooth_muscle_cell_originated_from_BG02ES_wavelet_smoothed_signal_ donor=ENCDO176AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR301VIW_ENCFF298TWT
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF298TWT/@@download/ENCFF298TWT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR301VIW smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR301VIW age=5_day description=ENCSR301VIW_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR301VIW
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR301VIW
+	visibility dense
+	type bigBed
+
+		track ENCSR301VIW_ENCFF031YHO
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR301VIW off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H2AFZ view=ENCSR301VIW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF031YHO/@@download/ENCFF031YHO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR301VIW smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR301VIW age=5_day description=ENCSR301VIW_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR301VIW 
+		view ENCSR301VIW
+
+	track ENCSR672HBY_ENCFF739TUA
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3F3A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF739TUA/@@download/ENCFF739TUA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3F3A
+	longLabel ENCSR672HBY smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR672HBY age=5_day description=ENCSR672HBY_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR672HBY
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR672HBY
+	visibility dense
+	type bigBed
+
+		track ENCSR672HBY_ENCFF673GSZ
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR672HBY off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3F3A view=ENCSR672HBY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF673GSZ/@@download/ENCFF673GSZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3F3A
+		longLabel ENCSR672HBY smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR672HBY age=5_day description=ENCSR672HBY_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR672HBY 
+		view ENCSR672HBY
+
+	track ENCSR143RMH_ENCFF866POI
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF866POI/@@download/ENCFF866POI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR143RMH smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR143RMH age=5_day description=ENCSR143RMH_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR143RMH
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR143RMH
+	visibility dense
+	type bigBed
+
+		track ENCSR143RMH_ENCFF554HDA
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR143RMH off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K27me3 view=ENCSR143RMH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF554HDA/@@download/ENCFF554HDA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR143RMH smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR143RMH age=5_day description=ENCSR143RMH_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR143RMH 
+		view ENCSR143RMH
+
+	track ENCSR651JDA_ENCFF232TTH
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF232TTH/@@download/ENCFF232TTH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR651JDA smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR651JDA age=5_day description=ENCSR651JDA_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR651JDA
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR651JDA
+	visibility dense
+	type bigBed
+
+		track ENCSR651JDA_ENCFF789NIL
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR651JDA off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K36me3 view=ENCSR651JDA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF789NIL/@@download/ENCFF789NIL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR651JDA smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR651JDA age=5_day description=ENCSR651JDA_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR651JDA 
+		view ENCSR651JDA
+
+	track ENCSR130IMV_ENCFF223MAP
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF223MAP/@@download/ENCFF223MAP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR130IMV smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR130IMV age=5_day description=ENCSR130IMV_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR130IMV
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR130IMV
+	visibility dense
+	type bigBed
+
+		track ENCSR130IMV_ENCFF225VBO
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR130IMV off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me1 view=ENCSR130IMV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF225VBO/@@download/ENCFF225VBO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR130IMV smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR130IMV age=5_day description=ENCSR130IMV_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR130IMV 
+		view ENCSR130IMV
+
+	track ENCSR783AXV_ENCFF452MLL
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF452MLL/@@download/ENCFF452MLL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR783AXV smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR783AXV age=5_day description=ENCSR783AXV_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR783AXV
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR783AXV
+	visibility dense
+	type bigBed
+
+		track ENCSR783AXV_ENCFF777CFJ
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR783AXV off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K4me2 view=ENCSR783AXV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF777CFJ/@@download/ENCFF777CFJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR783AXV smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR783AXV age=5_day description=ENCSR783AXV_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR783AXV 
+		view ENCSR783AXV
+
+	track ENCSR493FIV_ENCFF122HRK
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF122HRK/@@download/ENCFF122HRK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR493FIV smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR493FIV age=5_day description=ENCSR493FIV_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR493FIV
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR493FIV
+	visibility dense
+	type bigBed
+
+		track ENCSR493FIV_ENCFF672FPI
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR493FIV off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K79me2 view=ENCSR493FIV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF672FPI/@@download/ENCFF672FPI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR493FIV smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR493FIV age=5_day description=ENCSR493FIV_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR493FIV 
+		view ENCSR493FIV
+
+	track ENCSR540UZV_ENCFF371CUD
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF371CUD/@@download/ENCFF371CUD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR540UZV smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR540UZV age=5_day description=ENCSR540UZV_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR540UZV
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR540UZV
+	visibility dense
+	type bigBed
+
+		track ENCSR540UZV_ENCFF318WIM
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR540UZV off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K9ac view=ENCSR540UZV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF318WIM/@@download/ENCFF318WIM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR540UZV smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR540UZV age=5_day description=ENCSR540UZV_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR540UZV 
+		view ENCSR540UZV
+
+	track ENCSR090QTV_ENCFF669GJG
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF669GJG/@@download/ENCFF669GJG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR090QTV smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR090QTV age=5_day description=ENCSR090QTV_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR090QTV
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR090QTV
+	visibility dense
+	type bigBed
+
+		track ENCSR090QTV_ENCFF788RQL
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR090QTV off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H3K9me3 view=ENCSR090QTV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF788RQL/@@download/ENCFF788RQL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR090QTV smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR090QTV age=5_day description=ENCSR090QTV_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR090QTV 
+		view ENCSR090QTV
+
+	track ENCSR189XIE_ENCFF244ENJ
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H4K20me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF244ENJ/@@download/ENCFF244ENJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K20me1
+	longLabel ENCSR189XIE smooth_muscle_cell_originated_from_H9 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR189XIE age=5_day description=ENCSR189XIE_smooth_muscle_cell_originated_from_H9_fold_change_over_control_ donor=ENCDO222AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR189XIE
+	parent in_vitro_differentiated_cells_smooth_muscle_cell off
+	view ENCSR189XIE
+	visibility dense
+	type bigBed
+
+		track ENCSR189XIE_ENCFF753POU
+		parent in_vitro_differentiated_cells_smooth_muscle_cell_view_ENCSR189XIE off
+		subGroups age=a5_day assay=ChIP-seq donor=ENCDO222AAA label=H4K20me1 view=ENCSR189XIE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF753POU/@@download/ENCFF753POU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K20me1
+		longLabel ENCSR189XIE smooth_muscle_cell_originated_from_H9 (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR189XIE age=5_day description=ENCSR189XIE_smooth_muscle_cell_originated_from_H9_replicated_peaks_ donor=ENCDO222AAA sex=female view=ENCSR189XIE 
+		view ENCSR189XIE
+

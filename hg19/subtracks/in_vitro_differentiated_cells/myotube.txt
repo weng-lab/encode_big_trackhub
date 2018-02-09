@@ -1,0 +1,763 @@
+
+track in_vitro_differentiated_cells_myotube
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel myotube
+longLabel myotube (15 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO094AAA=ENCDO094AAA ENCDO341XKY=ENCDO341XKY 
+subGroup2 age age a22_year=22&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000ANS=ENCSR000ANS ENCSR000ANU=ENCSR000ANU ENCSR000ANV=ENCSR000ANV ENCSR000ANW=ENCSR000ANW ENCSR000ANX=ENCSR000ANX ENCSR000ANY=ENCSR000ANY ENCSR000ANZ=ENCSR000ANZ ENCSR000AON=ENCSR000AON ENCSR000AOY=ENCSR000AOY ENCSR000AOZ=ENCSR000AOZ ENCSR000AQM=ENCSR000AQM ENCSR000ATI=ENCSR000ATI ENCSR000EOP=ENCSR000EOP bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EOP_ENCFF413LTY
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF413LTY/@@download/ENCFF413LTY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOP myotube_originated_from_skeletal_muscle_myoblast (read-depth normali
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOP age=unknown description=ENCSR000EOP_myotube_originated_from_skeletal_muscle_myoblast_read_depth_normalized_signal_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000EOP
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000EOP
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOP_ENCFF462XNN
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000EOP off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=ENCSR000EOP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF462XNN/@@download/ENCFF462XNN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOP myotube_originated_from_skeletal_muscle_myoblast (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOP age=unknown description=ENCSR000EOP_myotube_originated_from_skeletal_muscle_myoblast_peaks_ donor=ENCDO094AAA sex=unknown view=ENCSR000EOP 
+		view ENCSR000EOP
+
+		track ENCSR000EOP_ENCFF791YWA
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000EOP off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=ENCSR000EOP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF791YWA/@@download/ENCFF791YWA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF791YWA 9state-DNase DNase-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOP age=unknown description=ENCFF791YWA_9state_DNase_DNase_seq_on_human_HSMMtube donor=ENCDO094AAA sex=unknown view=ENCSR000EOP 
+		view ENCSR000EOP
+
+		track ENCSR000EOP_ENCFF261PEQ
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000EOP off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=ENCSR000EOP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF261PEQ/@@download/ENCFF261PEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF261PEQ 9state-CTCF DNase-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOP age=unknown description=ENCFF261PEQ_9state_CTCF_DNase_seq_on_human_HSMMtube donor=ENCDO094AAA sex=unknown view=ENCSR000EOP 
+		view ENCSR000EOP
+
+		track ENCSR000EOP_ENCFF120MMC
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000EOP off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=ENCSR000EOP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF120MMC/@@download/ENCFF120MMC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF120MMC 5group DNase-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOP age=unknown description=ENCFF120MMC_5group_DNase_seq_on_human_HSMMtube donor=ENCDO094AAA sex=unknown view=ENCSR000EOP 
+		view ENCSR000EOP
+
+		track ENCSR000EOP_ENCFF293SLH
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000EOP off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=ENCSR000EOP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF293SLH/@@download/ENCFF293SLH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF293SLH 9state-H3K27ac DNase-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOP age=unknown description=ENCFF293SLH_9state_H3K27ac_DNase_seq_on_human_HSMMtube donor=ENCDO094AAA sex=unknown view=ENCSR000EOP 
+		view ENCSR000EOP
+
+		track ENCSR000EOP_ENCFF927LRS
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000EOP off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO094AAA label=unknown view=ENCSR000EOP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF927LRS/@@download/ENCFF927LRS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF927LRS 9state-H3K4me3 DNase-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOP age=unknown description=ENCFF927LRS_9state_H3K4me3_DNase_seq_on_human_HSMMtube donor=ENCDO094AAA sex=unknown view=ENCSR000EOP 
+		view ENCSR000EOP
+
+	track ENCSR000ANZ_ENCFF731WEZ
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF731WEZ/@@download/ENCFF731WEZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000ANZ myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ANZ age=22_year description=ENCSR000ANZ_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000ANZ
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000ANZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000ANZ_ENCFF104CCE
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANZ off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me3 view=ENCSR000ANZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF104CCE/@@download/ENCFF104CCE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000ANZ myotube (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000ANZ age=22_year description=ENCSR000ANZ_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ANZ 
+		view ENCSR000ANZ
+
+		track ENCSR000ANZ_ENCFF791YWA
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANZ off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me3 view=ENCSR000ANZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF791YWA/@@download/ENCFF791YWA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF791YWA 9state-DNase H3K4me3 ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANZ age=22_year description=ENCFF791YWA_9state_DNase_H3K4me3_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANZ 
+		view ENCSR000ANZ
+
+		track ENCSR000ANZ_ENCFF261PEQ
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANZ off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me3 view=ENCSR000ANZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF261PEQ/@@download/ENCFF261PEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF261PEQ 9state-CTCF H3K4me3 ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANZ age=22_year description=ENCFF261PEQ_9state_CTCF_H3K4me3_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANZ 
+		view ENCSR000ANZ
+
+		track ENCSR000ANZ_ENCFF120MMC
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANZ off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me3 view=ENCSR000ANZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF120MMC/@@download/ENCFF120MMC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF120MMC 5group H3K4me3 ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANZ age=22_year description=ENCFF120MMC_5group_H3K4me3_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANZ 
+		view ENCSR000ANZ
+
+		track ENCSR000ANZ_ENCFF293SLH
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANZ off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me3 view=ENCSR000ANZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF293SLH/@@download/ENCFF293SLH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF293SLH 9state-H3K27ac H3K4me3 ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANZ age=22_year description=ENCFF293SLH_9state_H3K27ac_H3K4me3_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANZ 
+		view ENCSR000ANZ
+
+		track ENCSR000ANZ_ENCFF927LRS
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANZ off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me3 view=ENCSR000ANZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF927LRS/@@download/ENCFF927LRS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF927LRS 9state-H3K4me3 H3K4me3 ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANZ age=22_year description=ENCFF927LRS_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANZ 
+		view ENCSR000ANZ
+
+	track ENCSR000ANS_ENCFF051DQN
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF051DQN/@@download/ENCFF051DQN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000ANS myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ANS age=22_year description=ENCSR000ANS_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000ANS
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000ANS
+	visibility dense
+	type bigBed
+
+		track ENCSR000ANS_ENCFF534YKC
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANS off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=CTCF view=ENCSR000ANS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF534YKC/@@download/ENCFF534YKC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000ANS myotube (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000ANS age=22_year description=ENCSR000ANS_myotube_optimal_idr_thresholded_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ANS 
+		view ENCSR000ANS
+
+		track ENCSR000ANS_ENCFF791YWA
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANS off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=CTCF view=ENCSR000ANS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF791YWA/@@download/ENCFF791YWA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF791YWA 9state-DNase CTCF ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANS age=22_year description=ENCFF791YWA_9state_DNase_CTCF_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANS 
+		view ENCSR000ANS
+
+		track ENCSR000ANS_ENCFF261PEQ
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANS off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=CTCF view=ENCSR000ANS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF261PEQ/@@download/ENCFF261PEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF261PEQ 9state-CTCF CTCF ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANS age=22_year description=ENCFF261PEQ_9state_CTCF_CTCF_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANS 
+		view ENCSR000ANS
+
+		track ENCSR000ANS_ENCFF120MMC
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANS off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=CTCF view=ENCSR000ANS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF120MMC/@@download/ENCFF120MMC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF120MMC 5group CTCF ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANS age=22_year description=ENCFF120MMC_5group_CTCF_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANS 
+		view ENCSR000ANS
+
+		track ENCSR000ANS_ENCFF293SLH
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANS off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=CTCF view=ENCSR000ANS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF293SLH/@@download/ENCFF293SLH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF293SLH 9state-H3K27ac CTCF ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANS age=22_year description=ENCFF293SLH_9state_H3K27ac_CTCF_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANS 
+		view ENCSR000ANS
+
+		track ENCSR000ANS_ENCFF927LRS
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANS off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=CTCF view=ENCSR000ANS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF927LRS/@@download/ENCFF927LRS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF927LRS 9state-H3K4me3 CTCF ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANS age=22_year description=ENCFF927LRS_9state_H3K4me3_CTCF_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANS 
+		view ENCSR000ANS
+
+	track ENCSR000ANV_ENCFF030DXC
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF030DXC/@@download/ENCFF030DXC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000ANV myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ANV age=22_year description=ENCSR000ANV_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000ANV
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000ANV
+	visibility dense
+	type bigBed
+
+		track ENCSR000ANV_ENCFF828QLV
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27ac view=ENCSR000ANV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF828QLV/@@download/ENCFF828QLV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000ANV myotube (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000ANV age=22_year description=ENCSR000ANV_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ANV 
+		view ENCSR000ANV
+
+		track ENCSR000ANV_ENCFF791YWA
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27ac view=ENCSR000ANV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF791YWA/@@download/ENCFF791YWA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF791YWA 9state-DNase H3K27ac ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANV age=22_year description=ENCFF791YWA_9state_DNase_H3K27ac_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANV 
+		view ENCSR000ANV
+
+		track ENCSR000ANV_ENCFF261PEQ
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27ac view=ENCSR000ANV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF261PEQ/@@download/ENCFF261PEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF261PEQ 9state-CTCF H3K27ac ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANV age=22_year description=ENCFF261PEQ_9state_CTCF_H3K27ac_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANV 
+		view ENCSR000ANV
+
+		track ENCSR000ANV_ENCFF120MMC
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27ac view=ENCSR000ANV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF120MMC/@@download/ENCFF120MMC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF120MMC 5group H3K27ac ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANV age=22_year description=ENCFF120MMC_5group_H3K27ac_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANV 
+		view ENCSR000ANV
+
+		track ENCSR000ANV_ENCFF293SLH
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27ac view=ENCSR000ANV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF293SLH/@@download/ENCFF293SLH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF293SLH 9state-H3K27ac H3K27ac ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANV age=22_year description=ENCFF293SLH_9state_H3K27ac_H3K27ac_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANV 
+		view ENCSR000ANV
+
+		track ENCSR000ANV_ENCFF927LRS
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANV off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27ac view=ENCSR000ANV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF927LRS/@@download/ENCFF927LRS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF927LRS 9state-H3K4me3 H3K27ac ChIP-seq on human HSMMtube
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ANV age=22_year description=ENCFF927LRS_9state_H3K4me3_H3K27ac_ChIP_seq_on_human_HSMMtube donor=ENCDO341XKY sex=male view=ENCSR000ANV 
+		view ENCSR000ANV
+
+	track ENCSR187NWZ_ENCFF424VQB
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=aunknown assay=RAMPAGE donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF424VQB/@@download/ENCFF424VQB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR187NWZ myotube (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR187NWZ age=unknown description=ENCSR187NWZ_myotube_plus_strand_signal_of_unique_reads_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR828TEI_ENCFF810OJH
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO094AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF810OJH/@@download/ENCFF810OJH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR828TEI myotube_NONE_and_originated_from_skeletal_muscle_myoblast (plus stra
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR828TEI age=unknown description=ENCSR828TEI_myotube_NONE_and_originated_from_skeletal_muscle_myoblast_plus_strand_signal_of_unique_reads_ donor=ENCDO094AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000ANU_ENCFF133HGV
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H2AFZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF133HGV/@@download/ENCFF133HGV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AFZ
+	longLabel ENCSR000ANU myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ANU age=22_year description=ENCSR000ANU_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000ANU
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000ANU
+	visibility dense
+	type bigBed
+
+		track ENCSR000ANU_ENCFF455PVZ
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANU off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H2AFZ view=ENCSR000ANU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF455PVZ/@@download/ENCFF455PVZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AFZ
+		longLabel ENCSR000ANU myotube (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ANU age=22_year description=ENCSR000ANU_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ANU 
+		view ENCSR000ANU
+
+	track ENCSR000ATI_ENCFF293HVQ
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF293HVQ/@@download/ENCFF293HVQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000ATI myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ATI age=22_year description=ENCSR000ATI_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000ATI
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000ATI
+	visibility dense
+	type bigBed
+
+		track ENCSR000ATI_ENCFF011RRL
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ATI off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K27me3 view=ENCSR000ATI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF011RRL/@@download/ENCFF011RRL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000ATI myotube (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000ATI age=22_year description=ENCSR000ATI_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ATI 
+		view ENCSR000ATI
+
+	track ENCSR000ANW_ENCFF879ERN
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF879ERN/@@download/ENCFF879ERN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000ANW myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ANW age=22_year description=ENCSR000ANW_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000ANW
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000ANW
+	visibility dense
+	type bigBed
+
+		track ENCSR000ANW_ENCFF078HJM
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANW off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K36me3 view=ENCSR000ANW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF078HJM/@@download/ENCFF078HJM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000ANW myotube (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000ANW age=22_year description=ENCSR000ANW_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ANW 
+		view ENCSR000ANW
+
+	track ENCSR000ANX_ENCFF934GYJ
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF934GYJ/@@download/ENCFF934GYJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000ANX myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ANX age=22_year description=ENCSR000ANX_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000ANX
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000ANX
+	visibility dense
+	type bigBed
+
+		track ENCSR000ANX_ENCFF773GPI
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANX off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me1 view=ENCSR000ANX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF773GPI/@@download/ENCFF773GPI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000ANX myotube (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000ANX age=22_year description=ENCSR000ANX_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ANX 
+		view ENCSR000ANX
+
+	track ENCSR000ANY_ENCFF236AMN
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF236AMN/@@download/ENCFF236AMN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR000ANY myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ANY age=22_year description=ENCSR000ANY_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000ANY
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000ANY
+	visibility dense
+	type bigBed
+
+		track ENCSR000ANY_ENCFF454XRR
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000ANY off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K4me2 view=ENCSR000ANY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF454XRR/@@download/ENCFF454XRR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR000ANY myotube (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR000ANY age=22_year description=ENCSR000ANY_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000ANY 
+		view ENCSR000ANY
+
+	track ENCSR000AON_ENCFF512XHH
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF512XHH/@@download/ENCFF512XHH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR000AON myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AON age=22_year description=ENCSR000AON_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000AON
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000AON
+	visibility dense
+	type bigBed
+
+		track ENCSR000AON_ENCFF351BDZ
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000AON off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K79me2 view=ENCSR000AON 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF351BDZ/@@download/ENCFF351BDZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR000AON myotube (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AON age=22_year description=ENCSR000AON_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000AON 
+		view ENCSR000AON
+
+	track ENCSR000AOY_ENCFF479NEN
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF479NEN/@@download/ENCFF479NEN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR000AOY myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AOY age=22_year description=ENCSR000AOY_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000AOY
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000AOY
+	visibility dense
+	type bigBed
+
+		track ENCSR000AOY_ENCFF514PIS
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000AOY off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K9ac view=ENCSR000AOY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF514PIS/@@download/ENCFF514PIS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR000AOY myotube (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR000AOY age=22_year description=ENCSR000AOY_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000AOY 
+		view ENCSR000AOY
+
+	track ENCSR000AQM_ENCFF278EGU
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF278EGU/@@download/ENCFF278EGU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR000AQM myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AQM age=22_year description=ENCSR000AQM_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000AQM
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000AQM
+	visibility dense
+	type bigBed
+
+		track ENCSR000AQM_ENCFF865IEJ
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000AQM off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H3K9me3 view=ENCSR000AQM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF865IEJ/@@download/ENCFF865IEJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR000AQM myotube (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR000AQM age=22_year description=ENCSR000AQM_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000AQM 
+		view ENCSR000AQM
+
+	track ENCSR000AOZ_ENCFF912VVD
+	parent in_vitro_differentiated_cells_myotube off
+	subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H4K20me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF912VVD/@@download/ENCFF912VVD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K20me1
+	longLabel ENCSR000AOZ myotube (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AOZ age=22_year description=ENCSR000AOZ_myotube_fold_change_over_control_ donor=ENCDO341XKY sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_myotube_view_ENCSR000AOZ
+	parent in_vitro_differentiated_cells_myotube off
+	view ENCSR000AOZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000AOZ_ENCFF839YAD
+		parent in_vitro_differentiated_cells_myotube_view_ENCSR000AOZ off
+		subGroups age=a22_year assay=ChIP-seq donor=ENCDO341XKY label=H4K20me1 view=ENCSR000AOZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF839YAD/@@download/ENCFF839YAD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K20me1
+		longLabel ENCSR000AOZ myotube (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000AOZ age=22_year description=ENCSR000AOZ_myotube_replicated_peaks_ donor=ENCDO341XKY sex=male view=ENCSR000AOZ 
+		view ENCSR000AOZ
+

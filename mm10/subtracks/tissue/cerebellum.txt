@@ -1,0 +1,516 @@
+
+track tissue_cerebellum
+parent super_tissue
+compositeTrack on
+shortLabel cerebellum
+longLabel cerebellum (10 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a8_week=8&#32;week aunknown=unknown 
+subGroup3 view view ENCSR000CAK=ENCSR000CAK ENCSR000CAL=ENCSR000CAL ENCSR000CBN=ENCSR000CBN ENCSR000CBQ=ENCSR000CBQ ENCSR000CDC=ENCSR000CDC ENCSR000CFM=ENCSR000CFM ENCSR000CMO=ENCSR000CMO bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CMO_ENCFF474GND
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF474GND/@@download/ENCFF474GND.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CMO C57BL_6_cerebellum_male_adult_8_weeks_ (read-depth normalized signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CMO age=8_week description=ENCSR000CMO_C57BL_6_cerebellum_male_adult_8_weeks_read_depth_normalized_signal_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_cerebellum_view_ENCSR000CMO
+	parent tissue_cerebellum off
+	view ENCSR000CMO
+	visibility dense
+	type bigBed
+
+		track ENCSR000CMO_ENCFF153NUZ
+		parent tissue_cerebellum_view_ENCSR000CMO off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CMO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF153NUZ/@@download/ENCFF153NUZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CMO C57BL_6_cerebellum_male_adult_8_weeks_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CMO age=8_week description=ENCSR000CMO_C57BL_6_cerebellum_male_adult_8_weeks_peaks_ donor=ENCDO072AAA sex=unknown view=ENCSR000CMO 
+		view ENCSR000CMO
+
+		track ENCSR000CMO_ENCFF604JCA
+		parent tissue_cerebellum_view_ENCSR000CMO off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CMO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF604JCA/@@download/ENCFF604JCA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF604JCA 9state-DNase DNase on 8 week adult mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CMO age=8_week description=ENCFF604JCA_9state_DNase_DNase_on_8_week_adult_mouse_cerebellum donor=ENCDO072AAA sex=unknown view=ENCSR000CMO 
+		view ENCSR000CMO
+
+		track ENCSR000CMO_ENCFF156KKL
+		parent tissue_cerebellum_view_ENCSR000CMO off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CMO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF156KKL/@@download/ENCFF156KKL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF156KKL 9state-CTCF DNase on 8 week adult mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CMO age=8_week description=ENCFF156KKL_9state_CTCF_DNase_on_8_week_adult_mouse_cerebellum donor=ENCDO072AAA sex=unknown view=ENCSR000CMO 
+		view ENCSR000CMO
+
+		track ENCSR000CMO_ENCFF375NEU
+		parent tissue_cerebellum_view_ENCSR000CMO off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CMO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF375NEU/@@download/ENCFF375NEU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF375NEU 9state-H3K27ac DNase on 8 week adult mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CMO age=8_week description=ENCFF375NEU_9state_H3K27ac_DNase_on_8_week_adult_mouse_cerebellum donor=ENCDO072AAA sex=unknown view=ENCSR000CMO 
+		view ENCSR000CMO
+
+		track ENCSR000CMO_ENCFF420FNA
+		parent tissue_cerebellum_view_ENCSR000CMO off
+		subGroups age=a8_week assay=DNase-seq donor=ENCDO072AAA label=unknown view=ENCSR000CMO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420FNA/@@download/ENCFF420FNA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF420FNA 9state-H3K4me3 DNase on 8 week adult mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CMO age=8_week description=ENCFF420FNA_9state_H3K4me3_DNase_on_8_week_adult_mouse_cerebellum donor=ENCDO072AAA sex=unknown view=ENCSR000CMO 
+		view ENCSR000CMO
+
+	track ENCSR000CAK_ENCFF288SAJ
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF288SAJ/@@download/ENCFF288SAJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000CAK C57BL_6_cerebellum_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CAK age=8_week description=ENCSR000CAK_C57BL_6_cerebellum_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_cerebellum_view_ENCSR000CAK
+	parent tissue_cerebellum off
+	view ENCSR000CAK
+	visibility dense
+	type bigBed
+
+		track ENCSR000CAK_ENCFF831XNV
+		parent tissue_cerebellum_view_ENCSR000CAK off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF831XNV/@@download/ENCFF831XNV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000CAK C57BL_6_cerebellum_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000CAK age=8_week description=ENCSR000CAK_C57BL_6_cerebellum_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CAK 
+		view ENCSR000CAK
+
+		track ENCSR000CAK_ENCFF604JCA
+		parent tissue_cerebellum_view_ENCSR000CAK off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF604JCA/@@download/ENCFF604JCA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF604JCA 9state-DNase H3K4me3 ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CAK age=8_week description=ENCFF604JCA_9state_DNase_H3K4me3_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CAK 
+		view ENCSR000CAK
+
+		track ENCSR000CAK_ENCFF156KKL
+		parent tissue_cerebellum_view_ENCSR000CAK off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF156KKL/@@download/ENCFF156KKL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF156KKL 9state-CTCF H3K4me3 ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CAK age=8_week description=ENCFF156KKL_9state_CTCF_H3K4me3_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CAK 
+		view ENCSR000CAK
+
+		track ENCSR000CAK_ENCFF375NEU
+		parent tissue_cerebellum_view_ENCSR000CAK off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF375NEU/@@download/ENCFF375NEU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF375NEU 9state-H3K27ac H3K4me3 ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CAK age=8_week description=ENCFF375NEU_9state_H3K27ac_H3K4me3_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CAK 
+		view ENCSR000CAK
+
+		track ENCSR000CAK_ENCFF420FNA
+		parent tissue_cerebellum_view_ENCSR000CAK off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me3 view=ENCSR000CAK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420FNA/@@download/ENCFF420FNA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF420FNA 9state-H3K4me3 H3K4me3 ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CAK age=8_week description=ENCFF420FNA_9state_H3K4me3_H3K4me3_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CAK 
+		view ENCSR000CAK
+
+	track ENCSR000CBN_ENCFF867MOQ
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF867MOQ/@@download/ENCFF867MOQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CBN C57BL_6_cerebellum_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBN age=8_week description=ENCSR000CBN_C57BL_6_cerebellum_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_cerebellum_view_ENCSR000CBN
+	parent tissue_cerebellum off
+	view ENCSR000CBN
+	visibility dense
+	type bigBed
+
+		track ENCSR000CBN_ENCFF404ARG
+		parent tissue_cerebellum_view_ENCSR000CBN off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF404ARG/@@download/ENCFF404ARG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000CBN C57BL_6_cerebellum_male_adult_8_weeks_ (optimal idr thresholded peak
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000CBN age=8_week description=ENCSR000CBN_C57BL_6_cerebellum_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CBN 
+		view ENCSR000CBN
+
+		track ENCSR000CBN_ENCFF604JCA
+		parent tissue_cerebellum_view_ENCSR000CBN off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF604JCA/@@download/ENCFF604JCA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF604JCA 9state-DNase CTCF ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CBN age=8_week description=ENCFF604JCA_9state_DNase_CTCF_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CBN 
+		view ENCSR000CBN
+
+		track ENCSR000CBN_ENCFF156KKL
+		parent tissue_cerebellum_view_ENCSR000CBN off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF156KKL/@@download/ENCFF156KKL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF156KKL 9state-CTCF CTCF ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CBN age=8_week description=ENCFF156KKL_9state_CTCF_CTCF_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CBN 
+		view ENCSR000CBN
+
+		track ENCSR000CBN_ENCFF375NEU
+		parent tissue_cerebellum_view_ENCSR000CBN off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF375NEU/@@download/ENCFF375NEU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF375NEU 9state-H3K27ac CTCF ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CBN age=8_week description=ENCFF375NEU_9state_H3K27ac_CTCF_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CBN 
+		view ENCSR000CBN
+
+		track ENCSR000CBN_ENCFF420FNA
+		parent tissue_cerebellum_view_ENCSR000CBN off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=CTCF view=ENCSR000CBN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420FNA/@@download/ENCFF420FNA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF420FNA 9state-H3K4me3 CTCF ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CBN age=8_week description=ENCFF420FNA_9state_H3K4me3_CTCF_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CBN 
+		view ENCSR000CBN
+
+	track ENCSR000CDC_ENCFF234IJR
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF234IJR/@@download/ENCFF234IJR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000CDC C57BL_6_cerebellum_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDC age=8_week description=ENCSR000CDC_C57BL_6_cerebellum_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_cerebellum_view_ENCSR000CDC
+	parent tissue_cerebellum off
+	view ENCSR000CDC
+	visibility dense
+	type bigBed
+
+		track ENCSR000CDC_ENCFF912UEK
+		parent tissue_cerebellum_view_ENCSR000CDC off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF912UEK/@@download/ENCFF912UEK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000CDC C57BL_6_cerebellum_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000CDC age=8_week description=ENCSR000CDC_C57BL_6_cerebellum_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CDC 
+		view ENCSR000CDC
+
+		track ENCSR000CDC_ENCFF604JCA
+		parent tissue_cerebellum_view_ENCSR000CDC off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF604JCA/@@download/ENCFF604JCA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF604JCA 9state-DNase H3K27ac ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDC age=8_week description=ENCFF604JCA_9state_DNase_H3K27ac_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CDC 
+		view ENCSR000CDC
+
+		track ENCSR000CDC_ENCFF156KKL
+		parent tissue_cerebellum_view_ENCSR000CDC off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF156KKL/@@download/ENCFF156KKL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF156KKL 9state-CTCF H3K27ac ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDC age=8_week description=ENCFF156KKL_9state_CTCF_H3K27ac_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CDC 
+		view ENCSR000CDC
+
+		track ENCSR000CDC_ENCFF375NEU
+		parent tissue_cerebellum_view_ENCSR000CDC off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF375NEU/@@download/ENCFF375NEU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF375NEU 9state-H3K27ac H3K27ac ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDC age=8_week description=ENCFF375NEU_9state_H3K27ac_H3K27ac_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CDC 
+		view ENCSR000CDC
+
+		track ENCSR000CDC_ENCFF420FNA
+		parent tissue_cerebellum_view_ENCSR000CDC off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27ac view=ENCSR000CDC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF420FNA/@@download/ENCFF420FNA.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF420FNA 9state-H3K4me3 H3K27ac ChIP-seq on 8-week mouse cerebellum
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CDC age=8_week description=ENCFF420FNA_9state_H3K4me3_H3K27ac_ChIP_seq_on_8_week_mouse_cerebellum donor=ENCDO956IXV sex=unknown view=ENCSR000CDC 
+		view ENCSR000CDC
+
+	track ENCSR000BZM_ENCFF042QUM
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF042QUM/@@download/ENCFF042QUM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BZM C57BL_6_cerebellum_adult_8_weeks_ (plus strand signal of unique read
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BZM age=8_week description=ENCSR000BZM_C57BL_6_cerebellum_adult_8_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CGX_ENCFF423VWR
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=RNA-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF423VWR/@@download/ENCFF423VWR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CGX C57BL_6_cerebellum_male_adult_8_weeks_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CGX age=8_week description=ENCSR000CGX_C57BL_6_cerebellum_male_adult_8_weeks_signal_of_unique_reads_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR554JQP_ENCFF329SPM
+	parent tissue_cerebellum off
+	subGroups age=aunknown assay=ATAC-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF329SPM/@@download/ENCFF329SPM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR554JQP C57BL_6_cerebellum_adult (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR554JQP age=unknown description=ENCSR554JQP_C57BL_6_cerebellum_adult_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR000CFM_ENCFF614WMD
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF614WMD/@@download/ENCFF614WMD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000CFM C57BL_6_cerebellum_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFM age=8_week description=ENCSR000CFM_C57BL_6_cerebellum_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_cerebellum_view_ENCSR000CFM
+	parent tissue_cerebellum off
+	view ENCSR000CFM
+	visibility dense
+	type bigBed
+
+		track ENCSR000CFM_ENCFF537PKC
+		parent tissue_cerebellum_view_ENCSR000CFM off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K27me3 view=ENCSR000CFM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF537PKC/@@download/ENCFF537PKC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000CFM C57BL_6_cerebellum_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000CFM age=8_week description=ENCSR000CFM_C57BL_6_cerebellum_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CFM 
+		view ENCSR000CFM
+
+	track ENCSR000CAL_ENCFF827AKI
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF827AKI/@@download/ENCFF827AKI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR000CAL C57BL_6_cerebellum_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CAL age=8_week description=ENCSR000CAL_C57BL_6_cerebellum_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_cerebellum_view_ENCSR000CAL
+	parent tissue_cerebellum off
+	view ENCSR000CAL
+	visibility dense
+	type bigBed
+
+		track ENCSR000CAL_ENCFF168UEH
+		parent tissue_cerebellum_view_ENCSR000CAL off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=H3K4me1 view=ENCSR000CAL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF168UEH/@@download/ENCFF168UEH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR000CAL C57BL_6_cerebellum_male_adult_8_weeks_ (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR000CAL age=8_week description=ENCSR000CAL_C57BL_6_cerebellum_male_adult_8_weeks_replicated_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CAL 
+		view ENCSR000CAL
+
+	track ENCSR000CBQ_ENCFF625PME
+	parent tissue_cerebellum off
+	subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF625PME/@@download/ENCFF625PME.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CBQ C57BL_6_cerebellum_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBQ age=8_week description=ENCSR000CBQ_C57BL_6_cerebellum_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_cerebellum_view_ENCSR000CBQ
+	parent tissue_cerebellum off
+	view ENCSR000CBQ
+	visibility dense
+	type bigBed
+
+		track ENCSR000CBQ_ENCFF029GRM
+		parent tissue_cerebellum_view_ENCSR000CBQ off
+		subGroups age=a8_week assay=ChIP-seq donor=ENCDO956IXV label=POLR2A view=ENCSR000CBQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF029GRM/@@download/ENCFF029GRM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000CBQ C57BL_6_cerebellum_male_adult_8_weeks_ (optimal idr thresholded peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CBQ age=8_week description=ENCSR000CBQ_C57BL_6_cerebellum_male_adult_8_weeks_optimal_idr_thresholded_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR000CBQ 
+		view ENCSR000CBQ
+

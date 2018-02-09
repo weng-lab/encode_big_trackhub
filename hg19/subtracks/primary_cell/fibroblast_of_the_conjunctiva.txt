@@ -1,0 +1,66 @@
+
+track primary_cell_fibroblast_of_the_conjunctiva
+parent super_primary_cell
+compositeTrack on
+shortLabel fibroblast of the
+longLabel fibroblast of the conjunctiva (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO231AAA=ENCDO231AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000ENK=ENCSR000ENK bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ENK_ENCFF278EJY
+	parent primary_cell_fibroblast_of_the_conjunctiva off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO231AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF278EJY/@@download/ENCFF278EJY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENK fibroblast_of_the_conjunctiva (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENK age=unknown description=ENCSR000ENK_fibroblast_of_the_conjunctiva_read_depth_normalized_signal_ donor=ENCDO231AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_fibroblast_of_the_conjunctiva_view_ENCSR000ENK
+	parent primary_cell_fibroblast_of_the_conjunctiva off
+	view ENCSR000ENK
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENK_ENCFF977CUS
+		parent primary_cell_fibroblast_of_the_conjunctiva_view_ENCSR000ENK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO231AAA label=unknown view=ENCSR000ENK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF977CUS/@@download/ENCFF977CUS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENK fibroblast_of_the_conjunctiva (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENK age=unknown description=ENCSR000ENK_fibroblast_of_the_conjunctiva_peaks_ donor=ENCDO231AAA sex=unknown view=ENCSR000ENK 
+		view ENCSR000ENK
+
+		track ENCSR000ENK_ENCFF085HAY
+		parent primary_cell_fibroblast_of_the_conjunctiva_view_ENCSR000ENK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO231AAA label=unknown view=ENCSR000ENK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF085HAY/@@download/ENCFF085HAY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF085HAY 9state-DNase DNase-seq on human HConF
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENK age=unknown description=ENCFF085HAY_9state_DNase_DNase_seq_on_human_HConF donor=ENCDO231AAA sex=unknown view=ENCSR000ENK 
+		view ENCSR000ENK
+

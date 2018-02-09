@@ -1,0 +1,241 @@
+
+track tissue_mucosa_of_stomach
+parent super_tissue
+compositeTrack on
+shortLabel mucosa of stomach
+longLabel mucosa of stomach (6 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO895TFL=ENCDO895TFL 
+subGroup2 age age a59_year=59&#32;year 
+subGroup3 view view ENCSR005LTG=ENCSR005LTG ENCSR083QRE=ENCSR083QRE ENCSR368YAQ=ENCSR368YAQ ENCSR384LKH=ENCSR384LKH ENCSR438BEX=ENCSR438BEX ENCSR770GNM=ENCSR770GNM bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR438BEX_ENCFF034FJZ
+	parent tissue_mucosa_of_stomach off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF034FJZ/@@download/ENCFF034FJZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR438BEX mucosa_of_stomach_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR438BEX age=59_year description=ENCSR438BEX_mucosa_of_stomach_male_adult_59_years_fold_change_over_control_ donor=ENCDO895TFL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_mucosa_of_stomach_view_ENCSR438BEX
+	parent tissue_mucosa_of_stomach off
+	view ENCSR438BEX
+	visibility dense
+	type bigBed
+
+		track ENCSR438BEX_ENCFF460XTP
+		parent tissue_mucosa_of_stomach_view_ENCSR438BEX off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K4me3 view=ENCSR438BEX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF460XTP/@@download/ENCFF460XTP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR438BEX mucosa_of_stomach_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR438BEX age=59_year description=ENCSR438BEX_mucosa_of_stomach_male_adult_59_years_stable_peaks_ donor=ENCDO895TFL sex=male view=ENCSR438BEX 
+		view ENCSR438BEX
+
+		track ENCSR438BEX_ENCFF707RIP
+		parent tissue_mucosa_of_stomach_view_ENCSR438BEX off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K4me3 view=ENCSR438BEX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF707RIP/@@download/ENCFF707RIP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF707RIP 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR438BEX age=59_year description=ENCFF707RIP_5group_ donor=ENCDO895TFL sex=male view=ENCSR438BEX 
+		view ENCSR438BEX
+
+	track ENCSR770GNM_ENCFF183UZE
+	parent tissue_mucosa_of_stomach off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF183UZE/@@download/ENCFF183UZE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR770GNM mucosa_of_stomach_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR770GNM age=59_year description=ENCSR770GNM_mucosa_of_stomach_male_adult_59_years_fold_change_over_control_ donor=ENCDO895TFL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_mucosa_of_stomach_view_ENCSR770GNM
+	parent tissue_mucosa_of_stomach off
+	view ENCSR770GNM
+	visibility dense
+	type bigBed
+
+		track ENCSR770GNM_ENCFF211ZZQ
+		parent tissue_mucosa_of_stomach_view_ENCSR770GNM off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K27me3 view=ENCSR770GNM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF211ZZQ/@@download/ENCFF211ZZQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR770GNM mucosa_of_stomach_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR770GNM age=59_year description=ENCSR770GNM_mucosa_of_stomach_male_adult_59_years_peaks_ donor=ENCDO895TFL sex=male view=ENCSR770GNM 
+		view ENCSR770GNM
+
+	track ENCSR083QRE_ENCFF863SYY
+	parent tissue_mucosa_of_stomach off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF863SYY/@@download/ENCFF863SYY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR083QRE mucosa_of_stomach_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR083QRE age=59_year description=ENCSR083QRE_mucosa_of_stomach_male_adult_59_years_fold_change_over_control_ donor=ENCDO895TFL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_mucosa_of_stomach_view_ENCSR083QRE
+	parent tissue_mucosa_of_stomach off
+	view ENCSR083QRE
+	visibility dense
+	type bigBed
+
+		track ENCSR083QRE_ENCFF931YOE
+		parent tissue_mucosa_of_stomach_view_ENCSR083QRE off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K36me3 view=ENCSR083QRE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF931YOE/@@download/ENCFF931YOE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR083QRE mucosa_of_stomach_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR083QRE age=59_year description=ENCSR083QRE_mucosa_of_stomach_male_adult_59_years_stable_peaks_ donor=ENCDO895TFL sex=male view=ENCSR083QRE 
+		view ENCSR083QRE
+
+	track ENCSR368YAQ_ENCFF123OJN
+	parent tissue_mucosa_of_stomach off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF123OJN/@@download/ENCFF123OJN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR368YAQ mucosa_of_stomach_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR368YAQ age=59_year description=ENCSR368YAQ_mucosa_of_stomach_male_adult_59_years_fold_change_over_control_ donor=ENCDO895TFL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_mucosa_of_stomach_view_ENCSR368YAQ
+	parent tissue_mucosa_of_stomach off
+	view ENCSR368YAQ
+	visibility dense
+	type bigBed
+
+		track ENCSR368YAQ_ENCFF484JYD
+		parent tissue_mucosa_of_stomach_view_ENCSR368YAQ off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K4me1 view=ENCSR368YAQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF484JYD/@@download/ENCFF484JYD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR368YAQ mucosa_of_stomach_male_adult_59_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR368YAQ age=59_year description=ENCSR368YAQ_mucosa_of_stomach_male_adult_59_years_stable_peaks_ donor=ENCDO895TFL sex=male view=ENCSR368YAQ 
+		view ENCSR368YAQ
+
+	track ENCSR384LKH_ENCFF053LRV
+	parent tissue_mucosa_of_stomach off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF053LRV/@@download/ENCFF053LRV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR384LKH mucosa_of_stomach_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR384LKH age=59_year description=ENCSR384LKH_mucosa_of_stomach_male_adult_59_years_fold_change_over_control_ donor=ENCDO895TFL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_mucosa_of_stomach_view_ENCSR384LKH
+	parent tissue_mucosa_of_stomach off
+	view ENCSR384LKH
+	visibility dense
+	type bigBed
+
+		track ENCSR384LKH_ENCFF587DKB
+		parent tissue_mucosa_of_stomach_view_ENCSR384LKH off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K9ac view=ENCSR384LKH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF587DKB/@@download/ENCFF587DKB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR384LKH mucosa_of_stomach_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR384LKH age=59_year description=ENCSR384LKH_mucosa_of_stomach_male_adult_59_years_peaks_ donor=ENCDO895TFL sex=male view=ENCSR384LKH 
+		view ENCSR384LKH
+
+	track ENCSR005LTG_ENCFF349JPO
+	parent tissue_mucosa_of_stomach off
+	subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF349JPO/@@download/ENCFF349JPO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR005LTG mucosa_of_stomach_male_adult_59_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR005LTG age=59_year description=ENCSR005LTG_mucosa_of_stomach_male_adult_59_years_fold_change_over_control_ donor=ENCDO895TFL sex=male view=bigWig 
+	view bigWig
+
+	track tissue_mucosa_of_stomach_view_ENCSR005LTG
+	parent tissue_mucosa_of_stomach off
+	view ENCSR005LTG
+	visibility dense
+	type bigBed
+
+		track ENCSR005LTG_ENCFF586ZKW
+		parent tissue_mucosa_of_stomach_view_ENCSR005LTG off
+		subGroups age=a59_year assay=ChIP-seq donor=ENCDO895TFL label=H3K9me3 view=ENCSR005LTG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF586ZKW/@@download/ENCFF586ZKW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR005LTG mucosa_of_stomach_male_adult_59_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR005LTG age=59_year description=ENCSR005LTG_mucosa_of_stomach_male_adult_59_years_peaks_ donor=ENCDO895TFL sex=male view=ENCSR005LTG 
+		view ENCSR005LTG
+

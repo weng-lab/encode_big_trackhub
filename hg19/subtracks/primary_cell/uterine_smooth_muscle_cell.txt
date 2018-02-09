@@ -1,0 +1,33 @@
+
+track primary_cell_uterine_smooth_muscle_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel uterine smooth mu
+longLabel uterine smooth muscle cell (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO057AAA=ENCDO057AAA 
+subGroup2 age age a48_year=48&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AAV_ENCFF936PIX
+	parent primary_cell_uterine_smooth_muscle_cell off
+	subGroups age=a48_year assay=RNA-seq donor=ENCDO057AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF936PIX/@@download/ENCFF936PIX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAV uterine_smooth_muscle_cell_female_adult_48_years_and_female_adult_50
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAV age=48_year description=ENCSR000AAV_uterine_smooth_muscle_cell_female_adult_48_years_and_female_adult_50_years_plus_strand_signal_of_unique_reads_ donor=ENCDO057AAA sex=female view=bigWig 
+	view bigWig
+

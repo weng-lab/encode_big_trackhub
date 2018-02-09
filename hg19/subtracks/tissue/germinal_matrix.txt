@@ -1,0 +1,426 @@
+
+track tissue_germinal_matrix
+parent super_tissue
+compositeTrack on
+shortLabel germinal matrix
+longLabel germinal matrix (13 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO026HUZ=ENCDO026HUZ ENCDO463PIS=ENCDO463PIS 
+subGroup2 age age a20_week=20&#32;week 
+subGroup3 view view ENCSR064VLH=ENCSR064VLH ENCSR359JHU=ENCSR359JHU ENCSR494OXB=ENCSR494OXB ENCSR528QDT=ENCSR528QDT ENCSR575ICR=ENCSR575ICR ENCSR690UYB=ENCSR690UYB ENCSR717BNA=ENCSR717BNA ENCSR764XUL=ENCSR764XUL ENCSR820ABR=ENCSR820ABR ENCSR911WPA=ENCSR911WPA bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR528QDT_ENCFF743UOT
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF743UOT/@@download/ENCFF743UOT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR528QDT germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR528QDT age=20_week description=ENCSR528QDT_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO026HUZ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR528QDT
+	parent tissue_germinal_matrix off
+	view ENCSR528QDT
+	visibility dense
+	type bigBed
+
+		track ENCSR528QDT_ENCFF971KZN
+		parent tissue_germinal_matrix_view_ENCSR528QDT off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K4me3 view=ENCSR528QDT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF971KZN/@@download/ENCFF971KZN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR528QDT germinal_matrix_male_embryo_20_weeks_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR528QDT age=20_week description=ENCSR528QDT_germinal_matrix_male_embryo_20_weeks_peaks_ donor=ENCDO026HUZ sex=male view=ENCSR528QDT 
+		view ENCSR528QDT
+
+	track ENCSR575ICR_ENCFF444CFV
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF444CFV/@@download/ENCFF444CFV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR575ICR germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR575ICR age=20_week description=ENCSR575ICR_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO463PIS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR575ICR
+	parent tissue_germinal_matrix off
+	view ENCSR575ICR
+	visibility dense
+	type bigBed
+
+		track ENCSR575ICR_ENCFF280SZQ
+		parent tissue_germinal_matrix_view_ENCSR575ICR off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K4me3 view=ENCSR575ICR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF280SZQ/@@download/ENCFF280SZQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR575ICR germinal_matrix_male_embryo_20_weeks_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR575ICR age=20_week description=ENCSR575ICR_germinal_matrix_male_embryo_20_weeks_stable_peaks_ donor=ENCDO463PIS sex=male view=ENCSR575ICR 
+		view ENCSR575ICR
+
+		track ENCSR575ICR_ENCFF190HQP
+		parent tissue_germinal_matrix_view_ENCSR575ICR off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K4me3 view=ENCSR575ICR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF190HQP/@@download/ENCFF190HQP.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF190HQP 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR575ICR age=20_week description=ENCFF190HQP_5group_ donor=ENCDO463PIS sex=male view=ENCSR575ICR 
+		view ENCSR575ICR
+
+	track ENCSR511NSE_ENCFF026DZH
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=microRNA-seq donor=ENCDO026HUZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF026DZH/@@download/ENCFF026DZH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR511NSE germinal_matrix_male_embryo_20_weeks_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR511NSE age=20_week description=ENCSR511NSE_germinal_matrix_male_embryo_20_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO026HUZ sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR736YYJ_ENCFF690VRU
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=microRNA-seq donor=ENCDO463PIS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF690VRU/@@download/ENCFF690VRU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel microRNA-seq
+	longLabel ENCSR736YYJ germinal_matrix_male_embryo_20_weeks_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR736YYJ age=20_week description=ENCSR736YYJ_germinal_matrix_male_embryo_20_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO463PIS sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR969JYY_ENCFF966OOB
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=RNA-seq donor=ENCDO463PIS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF966OOB/@@download/ENCFF966OOB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR969JYY germinal_matrix_male_embryo_20_weeks_ (plus strand signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR969JYY age=20_week description=ENCSR969JYY_germinal_matrix_male_embryo_20_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO463PIS sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR494OXB_ENCFF582YYZ
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF582YYZ/@@download/ENCFF582YYZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR494OXB germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR494OXB age=20_week description=ENCSR494OXB_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO463PIS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR494OXB
+	parent tissue_germinal_matrix off
+	view ENCSR494OXB
+	visibility dense
+	type bigBed
+
+		track ENCSR494OXB_ENCFF566UOB
+		parent tissue_germinal_matrix_view_ENCSR494OXB off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K27me3 view=ENCSR494OXB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF566UOB/@@download/ENCFF566UOB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR494OXB germinal_matrix_male_embryo_20_weeks_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR494OXB age=20_week description=ENCSR494OXB_germinal_matrix_male_embryo_20_weeks_stable_peaks_ donor=ENCDO463PIS sex=male view=ENCSR494OXB 
+		view ENCSR494OXB
+
+	track ENCSR911WPA_ENCFF829YSC
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF829YSC/@@download/ENCFF829YSC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR911WPA germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR911WPA age=20_week description=ENCSR911WPA_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO026HUZ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR911WPA
+	parent tissue_germinal_matrix off
+	view ENCSR911WPA
+	visibility dense
+	type bigBed
+
+		track ENCSR911WPA_ENCFF841UBB
+		parent tissue_germinal_matrix_view_ENCSR911WPA off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K27me3 view=ENCSR911WPA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF841UBB/@@download/ENCFF841UBB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR911WPA germinal_matrix_male_embryo_20_weeks_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR911WPA age=20_week description=ENCSR911WPA_germinal_matrix_male_embryo_20_weeks_peaks_ donor=ENCDO026HUZ sex=male view=ENCSR911WPA 
+		view ENCSR911WPA
+
+	track ENCSR690UYB_ENCFF279EML
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF279EML/@@download/ENCFF279EML.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR690UYB germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR690UYB age=20_week description=ENCSR690UYB_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO026HUZ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR690UYB
+	parent tissue_germinal_matrix off
+	view ENCSR690UYB
+	visibility dense
+	type bigBed
+
+		track ENCSR690UYB_ENCFF748HKM
+		parent tissue_germinal_matrix_view_ENCSR690UYB off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K36me3 view=ENCSR690UYB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF748HKM/@@download/ENCFF748HKM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR690UYB germinal_matrix_male_embryo_20_weeks_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR690UYB age=20_week description=ENCSR690UYB_germinal_matrix_male_embryo_20_weeks_stable_peaks_ donor=ENCDO026HUZ sex=male view=ENCSR690UYB 
+		view ENCSR690UYB
+
+	track ENCSR717BNA_ENCFF348FSZ
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF348FSZ/@@download/ENCFF348FSZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR717BNA germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR717BNA age=20_week description=ENCSR717BNA_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO463PIS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR717BNA
+	parent tissue_germinal_matrix off
+	view ENCSR717BNA
+	visibility dense
+	type bigBed
+
+		track ENCSR717BNA_ENCFF733NLR
+		parent tissue_germinal_matrix_view_ENCSR717BNA off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K36me3 view=ENCSR717BNA 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF733NLR/@@download/ENCFF733NLR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR717BNA germinal_matrix_male_embryo_20_weeks_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR717BNA age=20_week description=ENCSR717BNA_germinal_matrix_male_embryo_20_weeks_stable_peaks_ donor=ENCDO463PIS sex=male view=ENCSR717BNA 
+		view ENCSR717BNA
+
+	track ENCSR064VLH_ENCFF617SIH
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF617SIH/@@download/ENCFF617SIH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR064VLH germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR064VLH age=20_week description=ENCSR064VLH_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO463PIS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR064VLH
+	parent tissue_germinal_matrix off
+	view ENCSR064VLH
+	visibility dense
+	type bigBed
+
+		track ENCSR064VLH_ENCFF910KAB
+		parent tissue_germinal_matrix_view_ENCSR064VLH off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K4me1 view=ENCSR064VLH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF910KAB/@@download/ENCFF910KAB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR064VLH germinal_matrix_male_embryo_20_weeks_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR064VLH age=20_week description=ENCSR064VLH_germinal_matrix_male_embryo_20_weeks_peaks_ donor=ENCDO463PIS sex=male view=ENCSR064VLH 
+		view ENCSR064VLH
+
+	track ENCSR764XUL_ENCFF058NDK
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF058NDK/@@download/ENCFF058NDK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR764XUL germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR764XUL age=20_week description=ENCSR764XUL_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO026HUZ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR764XUL
+	parent tissue_germinal_matrix off
+	view ENCSR764XUL
+	visibility dense
+	type bigBed
+
+		track ENCSR764XUL_ENCFF769SVJ
+		parent tissue_germinal_matrix_view_ENCSR764XUL off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K4me1 view=ENCSR764XUL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF769SVJ/@@download/ENCFF769SVJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR764XUL germinal_matrix_male_embryo_20_weeks_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR764XUL age=20_week description=ENCSR764XUL_germinal_matrix_male_embryo_20_weeks_stable_peaks_ donor=ENCDO026HUZ sex=male view=ENCSR764XUL 
+		view ENCSR764XUL
+
+	track ENCSR359JHU_ENCFF839HWL
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF839HWL/@@download/ENCFF839HWL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR359JHU germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR359JHU age=20_week description=ENCSR359JHU_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO026HUZ sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR359JHU
+	parent tissue_germinal_matrix off
+	view ENCSR359JHU
+	visibility dense
+	type bigBed
+
+		track ENCSR359JHU_ENCFF435XLB
+		parent tissue_germinal_matrix_view_ENCSR359JHU off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO026HUZ label=H3K9me3 view=ENCSR359JHU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF435XLB/@@download/ENCFF435XLB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR359JHU germinal_matrix_male_embryo_20_weeks_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR359JHU age=20_week description=ENCSR359JHU_germinal_matrix_male_embryo_20_weeks_stable_peaks_ donor=ENCDO026HUZ sex=male view=ENCSR359JHU 
+		view ENCSR359JHU
+
+	track ENCSR820ABR_ENCFF483GTT
+	parent tissue_germinal_matrix off
+	subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF483GTT/@@download/ENCFF483GTT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR820ABR germinal_matrix_male_embryo_20_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR820ABR age=20_week description=ENCSR820ABR_germinal_matrix_male_embryo_20_weeks_fold_change_over_control_ donor=ENCDO463PIS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_germinal_matrix_view_ENCSR820ABR
+	parent tissue_germinal_matrix off
+	view ENCSR820ABR
+	visibility dense
+	type bigBed
+
+		track ENCSR820ABR_ENCFF891KPB
+		parent tissue_germinal_matrix_view_ENCSR820ABR off
+		subGroups age=a20_week assay=ChIP-seq donor=ENCDO463PIS label=H3K9me3 view=ENCSR820ABR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF891KPB/@@download/ENCFF891KPB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR820ABR germinal_matrix_male_embryo_20_weeks_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR820ABR age=20_week description=ENCSR820ABR_germinal_matrix_male_embryo_20_weeks_peaks_ donor=ENCDO463PIS sex=male view=ENCSR820ABR 
+		view ENCSR820ABR
+

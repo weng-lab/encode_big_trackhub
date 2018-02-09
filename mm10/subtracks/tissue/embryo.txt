@@ -1,0 +1,245 @@
+
+track tissue_embryo
+parent super_tissue
+compositeTrack on
+shortLabel embryo
+longLabel embryo (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO083AAA=ENCDO083AAA ENCDO956IXV=ENCDO956IXV 
+subGroup2 age age a10_5_day=10&#46;5&#32;day a10_day=10&#32;day a11_5_day=11&#46;5&#32;day a11_day=11&#32;day a9_50_day=9&#46;50&#32;day 
+subGroup3 view view ENCSR000CND=ENCSR000CND ENCSR172RHR=ENCSR172RHR ENCSR687JCD=ENCSR687JCD ENCSR723IXU=ENCSR723IXU ENCSR774TQO=ENCSR774TQO bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CND_ENCFF227XDD
+	parent tissue_embryo off
+	subGroups age=a11_5_day assay=DNase-seq donor=ENCDO083AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF227XDD/@@download/ENCFF227XDD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000CND CD_1_embryo_male_embryo_11_5_days_depleted_in_head (read-depth norma
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CND age=11_5_day description=ENCSR000CND_CD_1_embryo_male_embryo_11_5_days_depleted_in_head_read_depth_normalized_signal_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_embryo_view_ENCSR000CND
+	parent tissue_embryo off
+	view ENCSR000CND
+	visibility dense
+	type bigBed
+
+		track ENCSR000CND_ENCFF520FGB
+		parent tissue_embryo_view_ENCSR000CND off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO083AAA label=unknown view=ENCSR000CND 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF520FGB/@@download/ENCFF520FGB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000CND CD_1_embryo_male_embryo_11_5_days_depleted_in_head (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000CND age=11_5_day description=ENCSR000CND_CD_1_embryo_male_embryo_11_5_days_depleted_in_head_peaks_ donor=ENCDO083AAA sex=unknown view=ENCSR000CND 
+		view ENCSR000CND
+
+		track ENCSR000CND_ENCFF007IGI
+		parent tissue_embryo_view_ENCSR000CND off
+		subGroups age=a11_5_day assay=DNase-seq donor=ENCDO083AAA label=unknown view=ENCSR000CND 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF007IGI/@@download/ENCFF007IGI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF007IGI 9state-DNase DNase on 11.5 day (e11.5) embryonic mouse headless embr
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000CND age=11_5_day description=ENCFF007IGI_9state_DNase_DNase_on_11_5_day_e11_5_embryonic_mouse_headless_embryo donor=ENCDO083AAA sex=unknown view=ENCSR000CND 
+		view ENCSR000CND
+
+	track ENCSR172RHR_ENCFF829UGS
+	parent tissue_embryo off
+	subGroups age=a10_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF829UGS/@@download/ENCFF829UGS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR172RHR C57BL_6_embryo_embryo_10_5_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR172RHR age=10_5_day description=ENCSR172RHR_C57BL_6_embryo_embryo_10_5_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_embryo_view_ENCSR172RHR
+	parent tissue_embryo off
+	view ENCSR172RHR
+	visibility dense
+	type bigBed
+
+		track ENCSR172RHR_ENCFF368HFM
+		parent tissue_embryo_view_ENCSR172RHR off
+		subGroups age=a10_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR172RHR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF368HFM/@@download/ENCFF368HFM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR172RHR C57BL_6_embryo_embryo_10_5_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR172RHR age=10_5_day description=ENCSR172RHR_C57BL_6_embryo_embryo_10_5_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR172RHR 
+		view ENCSR172RHR
+
+		track ENCSR172RHR_ENCFF222RYL
+		parent tissue_embryo_view_ENCSR172RHR off
+		subGroups age=a10_5_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR172RHR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF222RYL/@@download/ENCFF222RYL.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF222RYL 9state-DNase DNase-seq on 10.5 day mouse embryo.
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR172RHR age=10_5_day description=ENCFF222RYL_9state_DNase_DNase_seq_on_10_5_day_mouse_embryo_ donor=ENCDO956IXV sex=unknown view=ENCSR172RHR 
+		view ENCSR172RHR
+
+	track ENCSR687JCD_ENCFF363ULE
+	parent tissue_embryo off
+	subGroups age=a9_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF363ULE/@@download/ENCFF363ULE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR687JCD C57BL_6_embryo_embryo_9_50_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR687JCD age=9_50_day description=ENCSR687JCD_C57BL_6_embryo_embryo_9_50_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_embryo_view_ENCSR687JCD
+	parent tissue_embryo off
+	view ENCSR687JCD
+	visibility dense
+	type bigBed
+
+		track ENCSR687JCD_ENCFF146PRA
+		parent tissue_embryo_view_ENCSR687JCD off
+		subGroups age=a9_50_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR687JCD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF146PRA/@@download/ENCFF146PRA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR687JCD C57BL_6_embryo_embryo_9_50_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR687JCD age=9_50_day description=ENCSR687JCD_C57BL_6_embryo_embryo_9_50_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR687JCD 
+		view ENCSR687JCD
+
+	track ENCSR723IXU_ENCFF894XDN
+	parent tissue_embryo off
+	subGroups age=a10_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF894XDN/@@download/ENCFF894XDN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR723IXU C57BL_6_embryo_embryo_10_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR723IXU age=10_day description=ENCSR723IXU_C57BL_6_embryo_embryo_10_days_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_embryo_view_ENCSR723IXU
+	parent tissue_embryo off
+	view ENCSR723IXU
+	visibility dense
+	type bigBed
+
+		track ENCSR723IXU_ENCFF339RXW
+		parent tissue_embryo_view_ENCSR723IXU off
+		subGroups age=a10_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR723IXU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF339RXW/@@download/ENCFF339RXW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR723IXU C57BL_6_embryo_embryo_10_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR723IXU age=10_day description=ENCSR723IXU_C57BL_6_embryo_embryo_10_days_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR723IXU 
+		view ENCSR723IXU
+
+		track ENCSR723IXU_ENCFF306MQQ
+		parent tissue_embryo_view_ENCSR723IXU off
+		subGroups age=a10_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR723IXU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF306MQQ/@@download/ENCFF306MQQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF306MQQ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR723IXU age=10_day description=ENCFF306MQQ_9state_DNase_ donor=ENCDO956IXV sex=unknown view=ENCSR723IXU 
+		view ENCSR723IXU
+
+	track ENCSR774TQO_ENCFF846VXR
+	parent tissue_embryo off
+	subGroups age=a11_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF846VXR/@@download/ENCFF846VXR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR774TQO C57BL_6_embryo_embryo_11_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR774TQO age=11_day description=ENCSR774TQO_C57BL_6_embryo_embryo_11_day_read_depth_normalized_signal_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tissue_embryo_view_ENCSR774TQO
+	parent tissue_embryo off
+	view ENCSR774TQO
+	visibility dense
+	type bigBed
+
+		track ENCSR774TQO_ENCFF806NAP
+		parent tissue_embryo_view_ENCSR774TQO off
+		subGroups age=a11_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR774TQO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF806NAP/@@download/ENCFF806NAP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR774TQO C57BL_6_embryo_embryo_11_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR774TQO age=11_day description=ENCSR774TQO_C57BL_6_embryo_embryo_11_day_peaks_ donor=ENCDO956IXV sex=unknown view=ENCSR774TQO 
+		view ENCSR774TQO
+
+		track ENCSR774TQO_ENCFF466GMW
+		parent tissue_embryo_view_ENCSR774TQO off
+		subGroups age=a11_day assay=DNase-seq donor=ENCDO956IXV label=unknown view=ENCSR774TQO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF466GMW/@@download/ENCFF466GMW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF466GMW 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR774TQO age=11_day description=ENCFF466GMW_9state_DNase_ donor=ENCDO956IXV sex=unknown view=ENCSR774TQO 
+		view ENCSR774TQO
+

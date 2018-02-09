@@ -1,0 +1,636 @@
+
+track tissue_left_lung
+parent super_tissue
+compositeTrack on
+shortLabel left lung
+longLabel left lung (17 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO012PVK=ENCDO012PVK ENCDO087TLK=ENCDO087TLK ENCDO126IGB=ENCDO126IGB ENCDO171HMD=ENCDO171HMD ENCDO375VTO=ENCDO375VTO ENCDO453STB=ENCDO453STB ENCDO605ZCF=ENCDO605ZCF ENCDO607LOS=ENCDO607LOS ENCDO608XKS=ENCDO608XKS ENCDO766MZV=ENCDO766MZV ENCDO816OTW=ENCDO816OTW ENCDO817EKT=ENCDO817EKT ENCDO837QWL=ENCDO837QWL 
+subGroup2 age age a105_day=105&#32;day a107_day=107&#32;day a108_day=108&#32;day a110_day=110&#32;day a113_day=113&#32;day a115_day=115&#32;day a117_day=117&#32;day a87_day=87&#32;day a91_day=91&#32;day a96_day=96&#32;day a98_day=98&#32;day 
+subGroup3 view view ENCSR441OGH=ENCSR441OGH ENCSR456KDF=ENCSR456KDF ENCSR468OVW=ENCSR468OVW ENCSR488PHT=ENCSR488PHT ENCSR541AVF=ENCSR541AVF ENCSR639XWF=ENCSR639XWF ENCSR680SDS=ENCSR680SDS ENCSR803VCR=ENCSR803VCR ENCSR935EVZ=ENCSR935EVZ ENCSR953WJO=ENCSR953WJO ENCSR960EJV=ENCSR960EJV bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR441OGH_ENCFF589VXC
+	parent tissue_left_lung off
+	subGroups age=a87_day assay=DNase-seq donor=ENCDO126IGB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF589VXC/@@download/ENCFF589VXC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR441OGH left_lung_male_embryo_87_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR441OGH age=87_day description=ENCSR441OGH_left_lung_male_embryo_87_days_read_depth_normalized_signal_ donor=ENCDO126IGB sex=male view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR441OGH
+	parent tissue_left_lung off
+	view ENCSR441OGH
+	visibility dense
+	type bigBed
+
+		track ENCSR441OGH_ENCFF552SLW
+		parent tissue_left_lung_view_ENCSR441OGH off
+		subGroups age=a87_day assay=DNase-seq donor=ENCDO126IGB label=unknown view=ENCSR441OGH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF552SLW/@@download/ENCFF552SLW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR441OGH left_lung_male_embryo_87_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR441OGH age=87_day description=ENCSR441OGH_left_lung_male_embryo_87_days_peaks_ donor=ENCDO126IGB sex=male view=ENCSR441OGH 
+		view ENCSR441OGH
+
+		track ENCSR441OGH_ENCFF568YOQ
+		parent tissue_left_lung_view_ENCSR441OGH off
+		subGroups age=a87_day assay=DNase-seq donor=ENCDO126IGB label=unknown view=ENCSR441OGH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF568YOQ/@@download/ENCFF568YOQ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF568YOQ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR441OGH age=87_day description=ENCFF568YOQ_9state_DNase_ donor=ENCDO126IGB sex=male view=ENCSR441OGH 
+		view ENCSR441OGH
+
+	track ENCSR456KDF_ENCFF541KXK
+	parent tissue_left_lung off
+	subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF541KXK/@@download/ENCFF541KXK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR456KDF left_lung_female_embryo_108_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR456KDF age=108_day description=ENCSR456KDF_left_lung_female_embryo_108_days_read_depth_normalized_signal_ donor=ENCDO012PVK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR456KDF
+	parent tissue_left_lung off
+	view ENCSR456KDF
+	visibility dense
+	type bigBed
+
+		track ENCSR456KDF_ENCFF269KER
+		parent tissue_left_lung_view_ENCSR456KDF off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR456KDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF269KER/@@download/ENCFF269KER.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR456KDF left_lung_female_embryo_108_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR456KDF age=108_day description=ENCSR456KDF_left_lung_female_embryo_108_days_peaks_ donor=ENCDO012PVK sex=female view=ENCSR456KDF 
+		view ENCSR456KDF
+
+		track ENCSR456KDF_ENCFF601IEG
+		parent tissue_left_lung_view_ENCSR456KDF off
+		subGroups age=a108_day assay=DNase-seq donor=ENCDO012PVK label=unknown view=ENCSR456KDF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF601IEG/@@download/ENCFF601IEG.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF601IEG 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR456KDF age=108_day description=ENCFF601IEG_9state_DNase_ donor=ENCDO012PVK sex=female view=ENCSR456KDF 
+		view ENCSR456KDF
+
+	track ENCSR468OVW_ENCFF802FZX
+	parent tissue_left_lung off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO766MZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF802FZX/@@download/ENCFF802FZX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR468OVW left_lung_female_embryo_105_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR468OVW age=105_day description=ENCSR468OVW_left_lung_female_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO766MZV sex=female view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR468OVW
+	parent tissue_left_lung off
+	view ENCSR468OVW
+	visibility dense
+	type bigBed
+
+		track ENCSR468OVW_ENCFF430SLU
+		parent tissue_left_lung_view_ENCSR468OVW off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO766MZV label=unknown view=ENCSR468OVW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF430SLU/@@download/ENCFF430SLU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR468OVW left_lung_female_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR468OVW age=105_day description=ENCSR468OVW_left_lung_female_embryo_105_days_peaks_ donor=ENCDO766MZV sex=female view=ENCSR468OVW 
+		view ENCSR468OVW
+
+		track ENCSR468OVW_ENCFF845ILV
+		parent tissue_left_lung_view_ENCSR468OVW off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO766MZV label=unknown view=ENCSR468OVW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF845ILV/@@download/ENCFF845ILV.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF845ILV 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR468OVW age=105_day description=ENCFF845ILV_9state_DNase_ donor=ENCDO766MZV sex=female view=ENCSR468OVW 
+		view ENCSR468OVW
+
+	track ENCSR488PHT_ENCFF879OTV
+	parent tissue_left_lung off
+	subGroups age=a113_day assay=DNase-seq donor=ENCDO608XKS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF879OTV/@@download/ENCFF879OTV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR488PHT left_lung_male_embryo_113_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR488PHT age=113_day description=ENCSR488PHT_left_lung_male_embryo_113_days_read_depth_normalized_signal_ donor=ENCDO608XKS sex=male view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR488PHT
+	parent tissue_left_lung off
+	view ENCSR488PHT
+	visibility dense
+	type bigBed
+
+		track ENCSR488PHT_ENCFF294AQE
+		parent tissue_left_lung_view_ENCSR488PHT off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO608XKS label=unknown view=ENCSR488PHT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF294AQE/@@download/ENCFF294AQE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR488PHT left_lung_male_embryo_113_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR488PHT age=113_day description=ENCSR488PHT_left_lung_male_embryo_113_days_peaks_ donor=ENCDO608XKS sex=male view=ENCSR488PHT 
+		view ENCSR488PHT
+
+		track ENCSR488PHT_ENCFF439BMK
+		parent tissue_left_lung_view_ENCSR488PHT off
+		subGroups age=a113_day assay=DNase-seq donor=ENCDO608XKS label=unknown view=ENCSR488PHT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF439BMK/@@download/ENCFF439BMK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF439BMK 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR488PHT age=113_day description=ENCFF439BMK_9state_DNase_ donor=ENCDO608XKS sex=male view=ENCSR488PHT 
+		view ENCSR488PHT
+
+	track ENCSR541AVF_ENCFF630GRI
+	parent tissue_left_lung off
+	subGroups age=a117_day assay=DNase-seq donor=ENCDO453STB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF630GRI/@@download/ENCFF630GRI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR541AVF left_lung_female_embryo_117_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR541AVF age=117_day description=ENCSR541AVF_left_lung_female_embryo_117_days_read_depth_normalized_signal_ donor=ENCDO453STB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR541AVF
+	parent tissue_left_lung off
+	view ENCSR541AVF
+	visibility dense
+	type bigBed
+
+		track ENCSR541AVF_ENCFF563WSM
+		parent tissue_left_lung_view_ENCSR541AVF off
+		subGroups age=a117_day assay=DNase-seq donor=ENCDO453STB label=unknown view=ENCSR541AVF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF563WSM/@@download/ENCFF563WSM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR541AVF left_lung_female_embryo_117_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR541AVF age=117_day description=ENCSR541AVF_left_lung_female_embryo_117_days_peaks_ donor=ENCDO453STB sex=female view=ENCSR541AVF 
+		view ENCSR541AVF
+
+		track ENCSR541AVF_ENCFF356UHI
+		parent tissue_left_lung_view_ENCSR541AVF off
+		subGroups age=a117_day assay=DNase-seq donor=ENCDO453STB label=unknown view=ENCSR541AVF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF356UHI/@@download/ENCFF356UHI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF356UHI 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR541AVF age=117_day description=ENCFF356UHI_9state_DNase_ donor=ENCDO453STB sex=female view=ENCSR541AVF 
+		view ENCSR541AVF
+
+	track ENCSR639XWF_ENCFF479NQG
+	parent tissue_left_lung off
+	subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF479NQG/@@download/ENCFF479NQG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR639XWF left_lung_male_embryo_96_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR639XWF age=96_day description=ENCSR639XWF_left_lung_male_embryo_96_days_read_depth_normalized_signal_ donor=ENCDO817EKT sex=male view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR639XWF
+	parent tissue_left_lung off
+	view ENCSR639XWF
+	visibility dense
+	type bigBed
+
+		track ENCSR639XWF_ENCFF457YPT
+		parent tissue_left_lung_view_ENCSR639XWF off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=ENCSR639XWF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF457YPT/@@download/ENCFF457YPT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR639XWF left_lung_male_embryo_96_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR639XWF age=96_day description=ENCSR639XWF_left_lung_male_embryo_96_days_peaks_ donor=ENCDO817EKT sex=male view=ENCSR639XWF 
+		view ENCSR639XWF
+
+		track ENCSR639XWF_ENCFF662HCT
+		parent tissue_left_lung_view_ENCSR639XWF off
+		subGroups age=a96_day assay=DNase-seq donor=ENCDO817EKT label=unknown view=ENCSR639XWF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF662HCT/@@download/ENCFF662HCT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF662HCT 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR639XWF age=96_day description=ENCFF662HCT_9state_DNase_ donor=ENCDO817EKT sex=male view=ENCSR639XWF 
+		view ENCSR639XWF
+
+	track ENCSR680SDS_ENCFF770BWY
+	parent tissue_left_lung off
+	subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF770BWY/@@download/ENCFF770BWY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR680SDS left_lung_female_embryo_107_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR680SDS age=107_day description=ENCSR680SDS_left_lung_female_embryo_107_days_read_depth_normalized_signal_ donor=ENCDO607LOS sex=female view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR680SDS
+	parent tissue_left_lung off
+	view ENCSR680SDS
+	visibility dense
+	type bigBed
+
+		track ENCSR680SDS_ENCFF995MPX
+		parent tissue_left_lung_view_ENCSR680SDS off
+		subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=ENCSR680SDS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF995MPX/@@download/ENCFF995MPX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR680SDS left_lung_female_embryo_107_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR680SDS age=107_day description=ENCSR680SDS_left_lung_female_embryo_107_days_peaks_ donor=ENCDO607LOS sex=female view=ENCSR680SDS 
+		view ENCSR680SDS
+
+		track ENCSR680SDS_ENCFF038LAU
+		parent tissue_left_lung_view_ENCSR680SDS off
+		subGroups age=a107_day assay=DNase-seq donor=ENCDO607LOS label=unknown view=ENCSR680SDS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF038LAU/@@download/ENCFF038LAU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF038LAU 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR680SDS age=107_day description=ENCFF038LAU_9state_DNase_ donor=ENCDO607LOS sex=female view=ENCSR680SDS 
+		view ENCSR680SDS
+
+	track ENCSR803VCR_ENCFF424TES
+	parent tissue_left_lung off
+	subGroups age=a91_day assay=DNase-seq donor=ENCDO605ZCF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF424TES/@@download/ENCFF424TES.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR803VCR left_lung_female_embryo_91_day_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR803VCR age=91_day description=ENCSR803VCR_left_lung_female_embryo_91_day_read_depth_normalized_signal_ donor=ENCDO605ZCF sex=female view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR803VCR
+	parent tissue_left_lung off
+	view ENCSR803VCR
+	visibility dense
+	type bigBed
+
+		track ENCSR803VCR_ENCFF713GDX
+		parent tissue_left_lung_view_ENCSR803VCR off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO605ZCF label=unknown view=ENCSR803VCR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF713GDX/@@download/ENCFF713GDX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR803VCR left_lung_female_embryo_91_day_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR803VCR age=91_day description=ENCSR803VCR_left_lung_female_embryo_91_day_peaks_ donor=ENCDO605ZCF sex=female view=ENCSR803VCR 
+		view ENCSR803VCR
+
+		track ENCSR803VCR_ENCFF621SIB
+		parent tissue_left_lung_view_ENCSR803VCR off
+		subGroups age=a91_day assay=DNase-seq donor=ENCDO605ZCF label=unknown view=ENCSR803VCR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF621SIB/@@download/ENCFF621SIB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF621SIB 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR803VCR age=91_day description=ENCFF621SIB_9state_DNase_ donor=ENCDO605ZCF sex=female view=ENCSR803VCR 
+		view ENCSR803VCR
+
+	track ENCSR935EVZ_ENCFF553YSN
+	parent tissue_left_lung off
+	subGroups age=a115_day assay=DNase-seq donor=ENCDO816OTW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF553YSN/@@download/ENCFF553YSN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR935EVZ left_lung_male_embryo_115_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR935EVZ age=115_day description=ENCSR935EVZ_left_lung_male_embryo_115_days_read_depth_normalized_signal_ donor=ENCDO816OTW sex=male view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR935EVZ
+	parent tissue_left_lung off
+	view ENCSR935EVZ
+	visibility dense
+	type bigBed
+
+		track ENCSR935EVZ_ENCFF142XKS
+		parent tissue_left_lung_view_ENCSR935EVZ off
+		subGroups age=a115_day assay=DNase-seq donor=ENCDO816OTW label=unknown view=ENCSR935EVZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF142XKS/@@download/ENCFF142XKS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR935EVZ left_lung_male_embryo_115_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR935EVZ age=115_day description=ENCSR935EVZ_left_lung_male_embryo_115_days_peaks_ donor=ENCDO816OTW sex=male view=ENCSR935EVZ 
+		view ENCSR935EVZ
+
+		track ENCSR935EVZ_ENCFF367RST
+		parent tissue_left_lung_view_ENCSR935EVZ off
+		subGroups age=a115_day assay=DNase-seq donor=ENCDO816OTW label=unknown view=ENCSR935EVZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF367RST/@@download/ENCFF367RST.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF367RST 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR935EVZ age=115_day description=ENCFF367RST_9state_DNase_ donor=ENCDO816OTW sex=male view=ENCSR935EVZ 
+		view ENCSR935EVZ
+
+	track ENCSR953WJO_ENCFF148SZM
+	parent tissue_left_lung off
+	subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF148SZM/@@download/ENCFF148SZM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR953WJO left_lung_male_embryo_105_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR953WJO age=105_day description=ENCSR953WJO_left_lung_male_embryo_105_days_read_depth_normalized_signal_ donor=ENCDO171HMD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR953WJO
+	parent tissue_left_lung off
+	view ENCSR953WJO
+	visibility dense
+	type bigBed
+
+		track ENCSR953WJO_ENCFF655CHD
+		parent tissue_left_lung_view_ENCSR953WJO off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=ENCSR953WJO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF655CHD/@@download/ENCFF655CHD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR953WJO left_lung_male_embryo_105_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR953WJO age=105_day description=ENCSR953WJO_left_lung_male_embryo_105_days_peaks_ donor=ENCDO171HMD sex=male view=ENCSR953WJO 
+		view ENCSR953WJO
+
+		track ENCSR953WJO_ENCFF102UTF
+		parent tissue_left_lung_view_ENCSR953WJO off
+		subGroups age=a105_day assay=DNase-seq donor=ENCDO171HMD label=unknown view=ENCSR953WJO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF102UTF/@@download/ENCFF102UTF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF102UTF 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR953WJO age=105_day description=ENCFF102UTF_9state_DNase_ donor=ENCDO171HMD sex=male view=ENCSR953WJO 
+		view ENCSR953WJO
+
+	track ENCSR960EJV_ENCFF264ZHD
+	parent tissue_left_lung off
+	subGroups age=a110_day assay=DNase-seq donor=ENCDO087TLK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF264ZHD/@@download/ENCFF264ZHD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR960EJV left_lung_female_embryo_110_days_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR960EJV age=110_day description=ENCSR960EJV_left_lung_female_embryo_110_days_read_depth_normalized_signal_ donor=ENCDO087TLK sex=female view=bigWig 
+	view bigWig
+
+	track tissue_left_lung_view_ENCSR960EJV
+	parent tissue_left_lung off
+	view ENCSR960EJV
+	visibility dense
+	type bigBed
+
+		track ENCSR960EJV_ENCFF723DYN
+		parent tissue_left_lung_view_ENCSR960EJV off
+		subGroups age=a110_day assay=DNase-seq donor=ENCDO087TLK label=unknown view=ENCSR960EJV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF723DYN/@@download/ENCFF723DYN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR960EJV left_lung_female_embryo_110_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR960EJV age=110_day description=ENCSR960EJV_left_lung_female_embryo_110_days_peaks_ donor=ENCDO087TLK sex=female view=ENCSR960EJV 
+		view ENCSR960EJV
+
+		track ENCSR960EJV_ENCFF309OAJ
+		parent tissue_left_lung_view_ENCSR960EJV off
+		subGroups age=a110_day assay=DNase-seq donor=ENCDO087TLK label=unknown view=ENCSR960EJV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF309OAJ/@@download/ENCFF309OAJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF309OAJ 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR960EJV age=110_day description=ENCFF309OAJ_9state_DNase_ donor=ENCDO087TLK sex=female view=ENCSR960EJV 
+		view ENCSR960EJV
+
+	track ENCSR222IGR_ENCFF383PCG
+	parent tissue_left_lung off
+	subGroups age=a96_day assay=RNA-seq donor=ENCDO817EKT label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF383PCG/@@download/ENCFF383PCG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR222IGR left_lung_male_embryo_96_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR222IGR age=96_day description=ENCSR222IGR_left_lung_male_embryo_96_days_signal_of_unique_reads_ donor=ENCDO817EKT sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR499NEL_ENCFF892TCW
+	parent tissue_left_lung off
+	subGroups age=a105_day assay=RNA-seq donor=ENCDO766MZV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF892TCW/@@download/ENCFF892TCW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR499NEL left_lung_female_embryo_105_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR499NEL age=105_day description=ENCSR499NEL_left_lung_female_embryo_105_days_signal_of_unique_reads_ donor=ENCDO766MZV sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR572FXC_ENCFF394JVA
+	parent tissue_left_lung off
+	subGroups age=a105_day assay=RNA-seq donor=ENCDO171HMD label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF394JVA/@@download/ENCFF394JVA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR572FXC left_lung_male_embryo_105_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR572FXC age=105_day description=ENCSR572FXC_left_lung_male_embryo_105_days_signal_of_unique_reads_ donor=ENCDO171HMD sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR592EZK_ENCFF976UGJ
+	parent tissue_left_lung off
+	subGroups age=a98_day assay=RNA-seq donor=ENCDO837QWL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF976UGJ/@@download/ENCFF976UGJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR592EZK left_lung_female_embryo_98_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR592EZK age=98_day description=ENCSR592EZK_left_lung_female_embryo_98_days_signal_of_unique_reads_ donor=ENCDO837QWL sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR733MWN_ENCFF775CXI
+	parent tissue_left_lung off
+	subGroups age=a91_day assay=RNA-seq donor=ENCDO375VTO label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF775CXI/@@download/ENCFF775CXI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR733MWN left_lung_male_embryo_91_day_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR733MWN age=91_day description=ENCSR733MWN_left_lung_male_embryo_91_day_signal_of_unique_reads_ donor=ENCDO375VTO sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR861SOG_ENCFF329DKG
+	parent tissue_left_lung off
+	subGroups age=a108_day assay=RNA-seq donor=ENCDO012PVK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF329DKG/@@download/ENCFF329DKG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR861SOG left_lung_female_embryo_108_days_ (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR861SOG age=108_day description=ENCSR861SOG_left_lung_female_embryo_108_days_signal_of_unique_reads_ donor=ENCDO012PVK sex=female view=bigWig 
+	view bigWig
+

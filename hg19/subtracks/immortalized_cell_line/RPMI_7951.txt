@@ -1,0 +1,48 @@
+
+track immortalized_cell_line_RPMI_7951
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel RPMI-7951
+longLabel RPMI-7951 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR104PJD_ENCFF888ZBH
+	parent immortalized_cell_line_RPMI_7951 off
+	subGroups age=a18_year assay=RAMPAGE donor=ENCDO000ADL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF888ZBH/@@download/ENCFF888ZBH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR104PJD RPMI_7951 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR104PJD age=18_year description=ENCSR104PJD_RPMI_7951_plus_strand_signal_of_unique_reads_ donor=ENCDO000ADL sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR320BRR_ENCFF112UUE
+	parent immortalized_cell_line_RPMI_7951 off
+	subGroups age=a18_year assay=RNA-seq donor=ENCDO000ADL label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF112UUE/@@download/ENCFF112UUE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR320BRR RPMI_7951 (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR320BRR age=18_year description=ENCSR320BRR_RPMI_7951_plus_strand_signal_of_unique_reads_ donor=ENCDO000ADL sex=female view=bigWig 
+	view bigWig
+

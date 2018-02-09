@@ -1,0 +1,931 @@
+
+track immortalized_cell_line_Ishikawa
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel Ishikawa
+longLabel Ishikawa (28 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label CEBPB=CEBPB CREB1=CREB1 CTCF=CTCF EGR1=EGR1 EP300=EP300 ESR1=ESR1 FOXM1=FOXM1 MAX=MAX NFIC=NFIC NR3C1=NR3C1 POLR2A=POLR2A RAD21=RAD21 REST=REST SRF=SRF TAF1=TAF1 TCF12=TCF12 TEAD4=TEAD4 USF1=USF1 YY1=YY1 ZBTB7A=ZBTB7A unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq RNA-seq=RNA-seq 
+subGroup3 view view ENCSR000BIY=ENCSR000BIY ENCSR000BIZ=ENCSR000BIZ ENCSR000BJC=ENCSR000BJC ENCSR000BKI=ENCSR000BKI ENCSR000BLB=ENCSR000BLB ENCSR000BQE=ENCSR000BQE ENCSR000BQR=ENCSR000BQR ENCSR000BSQ=ENCSR000BSQ ENCSR000BSW=ENCSR000BSW ENCSR000BSX=ENCSR000BSX ENCSR000BSY=ENCSR000BSY ENCSR000BSZ=ENCSR000BSZ ENCSR000BTD=ENCSR000BTD ENCSR000BTO=ENCSR000BTO ENCSR000BTT=ENCSR000BTT ENCSR000BTU=ENCSR000BTU ENCSR000BTY=ENCSR000BTY ENCSR000BUE=ENCSR000BUE ENCSR000BUR=ENCSR000BUR ENCSR000BUS=ENCSR000BUS ENCSR000BUT=ENCSR000BUT ENCSR000BUU=ENCSR000BUU ENCSR000BUV=ENCSR000BUV ENCSR000EIP=ENCSR000EIP bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EIP_ENCFF683XJW
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=DNase-seq donor=ENCDO000ACV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF683XJW/@@download/ENCFF683XJW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EIP Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (read-depth
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EIP age=39_year description=ENCSR000EIP_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_read_depth_normalized_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000EIP
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000EIP
+	visibility dense
+	type bigBed
+
+		track ENCSR000EIP_ENCFF919KGY
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000EIP off
+		subGroups age=a39_year assay=DNase-seq donor=ENCDO000ACV label=unknown view=ENCSR000EIP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF919KGY/@@download/ENCFF919KGY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EIP Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EIP age=39_year description=ENCSR000EIP_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000EIP 
+		view ENCSR000EIP
+
+	track ENCSR000BQE_ENCFF498CHL
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF498CHL/@@download/ENCFF498CHL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000BQE Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BQE age=39_year description=ENCSR000BQE_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_fold_change_over_control_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BQE
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BQE
+	visibility dense
+	type bigBed
+
+		track ENCSR000BQE_ENCFF601ODU
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BQE off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=CTCF view=ENCSR000BQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF601ODU/@@download/ENCFF601ODU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000BQE Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (optimal id
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000BQE age=39_year description=ENCSR000BQE_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BQE 
+		view ENCSR000BQE
+
+		track ENCSR000BQE_ENCFF380WMF
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BQE off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=CTCF view=ENCSR000BQE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF380WMF/@@download/ENCFF380WMF.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF380WMF 9state-CTCF CTCF ChIP-seq (protocol v041610.2) on ECC-1 treated with
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000BQE age=39_year description=ENCFF380WMF_9state_CTCF_CTCF_ChIP_seq_protocol_v041610_2_on_ECC_1_treated_with_dimethylsulfoxide_at_0_02_Note_This_experiment_previously_referred_to_its_biosample_as_ECC_1_however_it_has_been_found_that_all_currently_available_ECC_1_are_actually_Ishikawa_cells_ donor=ENCDO000ACV sex=female view=ENCSR000BQE 
+		view ENCSR000BQE
+
+	track ENCSR000BXZ_ENCFF512CVZ
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=RNA-seq donor=ENCDO000ACV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF512CVZ/@@download/ENCFF512CVZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BXZ Ishikawa_treated_with_100_nM_bisphenol_A_for_4_hours (signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BXZ age=39_year description=ENCSR000BXZ_Ishikawa_treated_with_100_nM_bisphenol_A_for_4_hours_signal_of_unique_reads_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000BYA_ENCFF614UZH
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=RNA-seq donor=ENCDO000ACV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF614UZH/@@download/ENCFF614UZH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYA Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_4_hours (signal of
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYA age=39_year description=ENCSR000BYA_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_4_hours_signal_of_unique_reads_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000BYB_ENCFF982UUN
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=RNA-seq donor=ENCDO000ACV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF982UUN/@@download/ENCFF982UUN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYB Ishikawa_treated_with_10_nM_estradiol_for_4_hours (signal of unique 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYB age=39_year description=ENCSR000BYB_Ishikawa_treated_with_10_nM_estradiol_for_4_hours_signal_of_unique_reads_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000BYC_ENCFF378XJM
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=RNA-seq donor=ENCDO000ACV label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF378XJM/@@download/ENCFF378XJM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000BYC Ishikawa_treated_with_100_nM_genistein_for_4_hours (signal of unique
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BYC age=39_year description=ENCSR000BYC_Ishikawa_treated_with_100_nM_genistein_for_4_hours_signal_of_unique_reads_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000BTT_ENCFF000NJZ
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=CEBPB view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NJZ/@@download/ENCFF000NJZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CEBPB
+	longLabel ENCSR000BTT Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTT age=39_year description=ENCSR000BTT_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BTT
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BTT
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTT_ENCFF000NJY
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BTT off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=CEBPB view=ENCSR000BTT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NJY/@@download/ENCFF000NJY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CEBPB
+		longLabel ENCSR000BTT Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTT age=39_year description=ENCSR000BTT_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BTT 
+		view ENCSR000BTT
+
+	track ENCSR000BUR_ENCFF000NKI
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=CREB1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NKI/@@download/ENCFF000NKI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CREB1
+	longLabel ENCSR000BUR Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BUR age=39_year description=ENCSR000BUR_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BUR
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BUR
+	visibility dense
+	type bigBed
+
+		track ENCSR000BUR_ENCFF000NKF
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BUR off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=CREB1 view=ENCSR000BUR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NKF/@@download/ENCFF000NKF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CREB1
+		longLabel ENCSR000BUR Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BUR age=39_year description=ENCSR000BUR_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BUR 
+		view ENCSR000BUR
+
+	track ENCSR000BSQ_ENCFF000NKY
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=EGR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NKY/@@download/ENCFF000NKY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EGR1
+	longLabel ENCSR000BSQ Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BSQ age=39_year description=ENCSR000BSQ_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BSQ
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BSQ
+	visibility dense
+	type bigBed
+
+		track ENCSR000BSQ_ENCFF000NKV
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BSQ off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=EGR1 view=ENCSR000BSQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NKV/@@download/ENCFF000NKV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EGR1
+		longLabel ENCSR000BSQ Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BSQ age=39_year description=ENCSR000BSQ_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BSQ 
+		view ENCSR000BSQ
+
+	track ENCSR000BUE_ENCFF000NOL
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NOL/@@download/ENCFF000NOL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR000BUE Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BUE age=39_year description=ENCSR000BUE_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BUE
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BUE
+	visibility dense
+	type bigBed
+
+		track ENCSR000BUE_ENCFF000NOJ
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BUE off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=EP300 view=ENCSR000BUE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NOJ/@@download/ENCFF000NOJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR000BUE Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BUE age=39_year description=ENCSR000BUE_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BUE 
+		view ENCSR000BUE
+
+	track ENCSR000BIY_ENCFF159DIH
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=ESR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF159DIH/@@download/ENCFF159DIH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ESR1
+	longLabel ENCSR000BIY Ishikawa_treated_with_10_nM_estradiol_for_1_hour (fold change over c
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BIY age=39_year description=ENCSR000BIY_Ishikawa_treated_with_10_nM_estradiol_for_1_hour_fold_change_over_control_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BIY
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BIY
+	visibility dense
+	type bigBed
+
+		track ENCSR000BIY_ENCFF455AJW
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BIY off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=ESR1 view=ENCSR000BIY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF455AJW/@@download/ENCFF455AJW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ESR1
+		longLabel ENCSR000BIY Ishikawa_treated_with_10_nM_estradiol_for_1_hour (optimal idr thresh
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BIY age=39_year description=ENCSR000BIY_Ishikawa_treated_with_10_nM_estradiol_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BIY 
+		view ENCSR000BIY
+
+	track ENCSR000BIZ_ENCFF624GDA
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=ESR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF624GDA/@@download/ENCFF624GDA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ESR1
+	longLabel ENCSR000BIZ Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BIZ age=39_year description=ENCSR000BIZ_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_fold_change_over_control_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BIZ
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BIZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000BIZ_ENCFF982EGN
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BIZ off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=ESR1 view=ENCSR000BIZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF982EGN/@@download/ENCFF982EGN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ESR1
+		longLabel ENCSR000BIZ Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (optimal id
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BIZ age=39_year description=ENCSR000BIZ_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BIZ 
+		view ENCSR000BIZ
+
+	track ENCSR000BQR_ENCFF977IMH
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=ESR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF977IMH/@@download/ENCFF977IMH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ESR1
+	longLabel ENCSR000BQR Ishikawa_treated_with_100_nM_bisphenol_A_for_1_hour (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BQR age=39_year description=ENCSR000BQR_Ishikawa_treated_with_100_nM_bisphenol_A_for_1_hour_fold_change_over_control_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BQR
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BQR
+	visibility dense
+	type bigBed
+
+		track ENCSR000BQR_ENCFF683UGF
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BQR off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=ESR1 view=ENCSR000BQR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF683UGF/@@download/ENCFF683UGF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ESR1
+		longLabel ENCSR000BQR Ishikawa_treated_with_100_nM_bisphenol_A_for_1_hour (optimal idr thr
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BQR age=39_year description=ENCSR000BQR_Ishikawa_treated_with_100_nM_bisphenol_A_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BQR 
+		view ENCSR000BQR
+
+	track ENCSR000BUS_ENCFF000NMS
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=FOXM1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NMS/@@download/ENCFF000NMS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FOXM1
+	longLabel ENCSR000BUS Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BUS age=39_year description=ENCSR000BUS_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BUS
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BUS
+	visibility dense
+	type bigBed
+
+		track ENCSR000BUS_ENCFF000NMQ
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BUS off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=FOXM1 view=ENCSR000BUS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NMQ/@@download/ENCFF000NMQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq FOXM1
+		longLabel ENCSR000BUS Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BUS age=39_year description=ENCSR000BUS_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BUS 
+		view ENCSR000BUS
+
+	track ENCSR000BTY_ENCFF000NNO
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NNO/@@download/ENCFF000NNO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR000BTY Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTY age=39_year description=ENCSR000BTY_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BTY
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BTY
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTY_ENCFF000NNL
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BTY off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=MAX view=ENCSR000BTY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NNL/@@download/ENCFF000NNL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MAX
+		longLabel ENCSR000BTY Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTY age=39_year description=ENCSR000BTY_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BTY 
+		view ENCSR000BTY
+
+	track ENCSR000BUT_ENCFF000NNV
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=NFIC view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NNV/@@download/ENCFF000NNV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NFIC
+	longLabel ENCSR000BUT Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BUT age=39_year description=ENCSR000BUT_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BUT
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BUT
+	visibility dense
+	type bigBed
+
+		track ENCSR000BUT_ENCFF000NNT
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BUT off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=NFIC view=ENCSR000BUT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NNT/@@download/ENCFF000NNT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq NFIC
+		longLabel ENCSR000BUT Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BUT age=39_year description=ENCSR000BUT_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BUT 
+		view ENCSR000BUT
+
+	track ENCSR000BJC_ENCFF527DXT
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=NR3C1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF527DXT/@@download/ENCFF527DXT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NR3C1
+	longLabel ENCSR000BJC Ishikawa_treated_with_100_nM_dexamethasone_for_1_hour (fold change o
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BJC age=39_year description=ENCSR000BJC_Ishikawa_treated_with_100_nM_dexamethasone_for_1_hour_fold_change_over_control_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BJC
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BJC
+	visibility dense
+	type bigBed
+
+		track ENCSR000BJC_ENCFF361SBP
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BJC off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=NR3C1 view=ENCSR000BJC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF361SBP/@@download/ENCFF361SBP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq NR3C1
+		longLabel ENCSR000BJC Ishikawa_treated_with_100_nM_dexamethasone_for_1_hour (optimal idr t
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BJC age=39_year description=ENCSR000BJC_Ishikawa_treated_with_100_nM_dexamethasone_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BJC 
+		view ENCSR000BJC
+
+	track ENCSR000BLB_ENCFF775CUL
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=NR3C1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF775CUL/@@download/ENCFF775CUL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NR3C1
+	longLabel ENCSR000BLB Ishikawa_treated_with_0_02_ethanol_for_1_hour (fold change over cont
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BLB age=39_year description=ENCSR000BLB_Ishikawa_treated_with_0_02_ethanol_for_1_hour_fold_change_over_control_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BLB
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BLB
+	visibility dense
+	type bigBed
+
+		track ENCSR000BLB_ENCFF323ITU
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BLB off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=NR3C1 view=ENCSR000BLB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF323ITU/@@download/ENCFF323ITU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq NR3C1
+		longLabel ENCSR000BLB Ishikawa_treated_with_0_02_ethanol_for_1_hour (optimal idr threshold
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BLB age=39_year description=ENCSR000BLB_Ishikawa_treated_with_0_02_ethanol_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BLB 
+		view ENCSR000BLB
+
+	track ENCSR000BKI_ENCFF357DZZ
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF357DZZ/@@download/ENCFF357DZZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000BKI Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BKI age=39_year description=ENCSR000BKI_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_fold_change_over_control_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BKI
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BKI
+	visibility dense
+	type bigBed
+
+		track ENCSR000BKI_ENCFF736SFW
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BKI off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=POLR2A view=ENCSR000BKI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF736SFW/@@download/ENCFF736SFW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR000BKI Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour (optimal id
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BKI age=39_year description=ENCSR000BKI_Ishikawa_treated_with_0_02_dimethyl_sulfoxide_for_1_hour_optimal_idr_thresholded_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BKI 
+		view ENCSR000BKI
+
+	track ENCSR000BTU_ENCFF000NPD
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=RAD21 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NPD/@@download/ENCFF000NPD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RAD21
+	longLabel ENCSR000BTU Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTU age=39_year description=ENCSR000BTU_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BTU
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BTU
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTU_ENCFF000NOZ
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BTU off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=RAD21 view=ENCSR000BTU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NOZ/@@download/ENCFF000NOZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq RAD21
+		longLabel ENCSR000BTU Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTU age=39_year description=ENCSR000BTU_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BTU 
+		view ENCSR000BTU
+
+	track ENCSR000BUU_ENCFF000NOE
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=REST view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NOE/@@download/ENCFF000NOE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq REST
+	longLabel ENCSR000BUU Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BUU age=39_year description=ENCSR000BUU_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BUU
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BUU
+	visibility dense
+	type bigBed
+
+		track ENCSR000BUU_ENCFF000NOC
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BUU off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=REST view=ENCSR000BUU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NOC/@@download/ENCFF000NOC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq REST
+		longLabel ENCSR000BUU Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BUU age=39_year description=ENCSR000BUU_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BUU 
+		view ENCSR000BUU
+
+	track ENCSR000BTD_ENCFF000NPS
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=SRF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NPS/@@download/ENCFF000NPS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SRF
+	longLabel ENCSR000BTD Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTD age=39_year description=ENCSR000BTD_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BTD
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BTD
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTD_ENCFF000NPQ
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BTD off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=SRF view=ENCSR000BTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NPQ/@@download/ENCFF000NPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq SRF
+		longLabel ENCSR000BTD Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTD age=39_year description=ENCSR000BTD_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BTD 
+		view ENCSR000BTD
+
+	track ENCSR000BTO_ENCFF000NQA
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=TAF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NQA/@@download/ENCFF000NQA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TAF1
+	longLabel ENCSR000BTO Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BTO age=39_year description=ENCSR000BTO_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BTO
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BTO
+	visibility dense
+	type bigBed
+
+		track ENCSR000BTO_ENCFF000NPZ
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BTO off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=TAF1 view=ENCSR000BTO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NPZ/@@download/ENCFF000NPZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq TAF1
+		longLabel ENCSR000BTO Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BTO age=39_year description=ENCSR000BTO_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BTO 
+		view ENCSR000BTO
+
+	track ENCSR000BUV_ENCFF000NQJ
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=TCF12 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NQJ/@@download/ENCFF000NQJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TCF12
+	longLabel ENCSR000BUV Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BUV age=39_year description=ENCSR000BUV_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BUV
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BUV
+	visibility dense
+	type bigBed
+
+		track ENCSR000BUV_ENCFF000NQG
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BUV off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=TCF12 view=ENCSR000BUV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NQG/@@download/ENCFF000NQG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq TCF12
+		longLabel ENCSR000BUV Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BUV age=39_year description=ENCSR000BUV_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BUV 
+		view ENCSR000BUV
+
+	track ENCSR000BSW_ENCFF000NQQ
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=TEAD4 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NQQ/@@download/ENCFF000NQQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TEAD4
+	longLabel ENCSR000BSW Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BSW age=39_year description=ENCSR000BSW_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BSW
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BSW
+	visibility dense
+	type bigBed
+
+		track ENCSR000BSW_ENCFF000NQO
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BSW off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=TEAD4 view=ENCSR000BSW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NQO/@@download/ENCFF000NQO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq TEAD4
+		longLabel ENCSR000BSW Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BSW age=39_year description=ENCSR000BSW_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BSW 
+		view ENCSR000BSW
+
+	track ENCSR000BSX_ENCFF000NQY
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=USF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NQY/@@download/ENCFF000NQY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF1
+	longLabel ENCSR000BSX Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BSX age=39_year description=ENCSR000BSX_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BSX
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BSX
+	visibility dense
+	type bigBed
+
+		track ENCSR000BSX_ENCFF000NQW
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BSX off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=USF1 view=ENCSR000BSX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NQW/@@download/ENCFF000NQW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq USF1
+		longLabel ENCSR000BSX Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BSX age=39_year description=ENCSR000BSX_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BSX 
+		view ENCSR000BSX
+
+	track ENCSR000BSY_ENCFF000NRG
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=YY1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NRG/@@download/ENCFF000NRG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq YY1
+	longLabel ENCSR000BSY Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BSY age=39_year description=ENCSR000BSY_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BSY
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BSY
+	visibility dense
+	type bigBed
+
+		track ENCSR000BSY_ENCFF000NRF
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BSY off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=YY1 view=ENCSR000BSY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NRF/@@download/ENCFF000NRF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq YY1
+		longLabel ENCSR000BSY Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BSY age=39_year description=ENCSR000BSY_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BSY 
+		view ENCSR000BSY
+
+	track ENCSR000BSZ_ENCFF000NRP
+	parent immortalized_cell_line_Ishikawa off
+	subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=ZBTB7A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000NRP/@@download/ENCFF000NRP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZBTB7A
+	longLabel ENCSR000BSZ Ishikawa (raw signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000BSZ age=39_year description=ENCSR000BSZ_Ishikawa_raw_signal_ donor=ENCDO000ACV sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_Ishikawa_view_ENCSR000BSZ
+	parent immortalized_cell_line_Ishikawa off
+	view ENCSR000BSZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000BSZ_ENCFF000NRN
+		parent immortalized_cell_line_Ishikawa_view_ENCSR000BSZ off
+		subGroups age=a39_year assay=ChIP-seq donor=ENCDO000ACV label=ZBTB7A view=ENCSR000BSZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF000NRN/@@download/ENCFF000NRN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ZBTB7A
+		longLabel ENCSR000BSZ Ishikawa (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000BSZ age=39_year description=ENCSR000BSZ_Ishikawa_peaks_ donor=ENCDO000ACV sex=female view=ENCSR000BSZ 
+		view ENCSR000BSZ
+

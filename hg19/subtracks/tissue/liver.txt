@@ -1,0 +1,2028 @@
+
+track tissue_liver
+parent super_tissue
+compositeTrack on
+shortLabel liver
+longLabel liver (62 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO059AAA=ENCDO059AAA ENCDO060AAA=ENCDO060AAA ENCDO060OTP=ENCDO060OTP ENCDO064AAA=ENCDO064AAA ENCDO232KQV=ENCDO232KQV ENCDO478OMA=ENCDO478OMA ENCDO481HRF=ENCDO481HRF ENCDO776UMN=ENCDO776UMN ENCDO832GKP=ENCDO832GKP ENCDO882MMZ=ENCDO882MMZ 
+subGroup2 age age a101_day=101&#32;day a18_year=18&#32;year a20_week=20&#32;week a25_year=25&#32;year a31_year=31&#32;year a32_year=32&#32;year a3_year=3&#32;year a4_year=4&#32;year a6_year=6&#32;year a78_year=78&#32;year 
+subGroup3 view view ENCSR016BMM=ENCSR016BMM ENCSR021BCU=ENCSR021BCU ENCSR038GMB=ENCSR038GMB ENCSR080XEY=ENCSR080XEY ENCSR111OHT=ENCSR111OHT ENCSR168SMX=ENCSR168SMX ENCSR196HGZ=ENCSR196HGZ ENCSR203RKZ=ENCSR203RKZ ENCSR205FOW=ENCSR205FOW ENCSR213DKS=ENCSR213DKS ENCSR218ZMU=ENCSR218ZMU ENCSR230IMS=ENCSR230IMS ENCSR230ZWH=ENCSR230ZWH ENCSR254YRM=ENCSR254YRM ENCSR266OIG=ENCSR266OIG ENCSR275DXO=ENCSR275DXO ENCSR297GII=ENCSR297GII ENCSR310NYI=ENCSR310NYI ENCSR324RCI=ENCSR324RCI ENCSR338MMB=ENCSR338MMB ENCSR345YWJ=ENCSR345YWJ ENCSR350ORK=ENCSR350ORK ENCSR351DLF=ENCSR351DLF ENCSR352QSB=ENCSR352QSB ENCSR382MOM=ENCSR382MOM ENCSR445QRF=ENCSR445QRF ENCSR458WIH=ENCSR458WIH ENCSR460RHN=ENCSR460RHN ENCSR480LIS=ENCSR480LIS ENCSR489RQV=ENCSR489RQV ENCSR516HUP=ENCSR516HUP ENCSR520BUX=ENCSR520BUX ENCSR521IID=ENCSR521IID ENCSR562FNN=ENCSR562FNN ENCSR563YGF=ENCSR563YGF ENCSR585KLQ=ENCSR585KLQ ENCSR601OGE=ENCSR601OGE ENCSR635OSG=ENCSR635OSG ENCSR642HII=ENCSR642HII ENCSR666FYM=ENCSR666FYM ENCSR678LND=ENCSR678LND ENCSR682MXX=ENCSR682MXX ENCSR735KEY=ENCSR735KEY ENCSR795VEN=ENCSR795VEN ENCSR803JYI=ENCSR803JYI ENCSR837GTK=ENCSR837GTK ENCSR847DIT=ENCSR847DIT ENCSR853JYB=ENCSR853JYB ENCSR867WPH=ENCSR867WPH ENCSR892MHG=ENCSR892MHG ENCSR893QWP=ENCSR893QWP ENCSR904LIL=ENCSR904LIL ENCSR917QNE=ENCSR917QNE ENCSR994YLZ=ENCSR994YLZ bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR562FNN_ENCFF087RKA
+	parent tissue_liver off
+	subGroups age=a101_day assay=DNase-seq donor=ENCDO060OTP label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF087RKA/@@download/ENCFF087RKA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR562FNN liver_female_embryo_101_day_and_female_embryo_113_days_ (read-depth 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR562FNN age=101_day description=ENCSR562FNN_liver_female_embryo_101_day_and_female_embryo_113_days_read_depth_normalized_signal_ donor=ENCDO060OTP sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR562FNN
+	parent tissue_liver off
+	view ENCSR562FNN
+	visibility dense
+	type bigBed
+
+		track ENCSR562FNN_ENCFF270MKS
+		parent tissue_liver_view_ENCSR562FNN off
+		subGroups age=a101_day assay=DNase-seq donor=ENCDO060OTP label=unknown view=ENCSR562FNN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF270MKS/@@download/ENCFF270MKS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR562FNN liver_female_embryo_101_day_and_female_embryo_113_days_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR562FNN age=101_day description=ENCSR562FNN_liver_female_embryo_101_day_and_female_embryo_113_days_peaks_ donor=ENCDO060OTP sex=female view=ENCSR562FNN 
+		view ENCSR562FNN
+
+	track ENCSR458WIH_ENCFF601KYL
+	parent tissue_liver off
+	subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF601KYL/@@download/ENCFF601KYL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR458WIH liver_male_adult_31_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR458WIH age=31_year description=ENCSR458WIH_liver_male_adult_31_year_fold_change_over_control_ donor=ENCDO832GKP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR458WIH
+	parent tissue_liver off
+	view ENCSR458WIH
+	visibility dense
+	type bigBed
+
+		track ENCSR458WIH_ENCFF872XHV
+		parent tissue_liver_view_ENCSR458WIH off
+		subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K4me3 view=ENCSR458WIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF872XHV/@@download/ENCFF872XHV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR458WIH liver_male_adult_31_year_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR458WIH age=31_year description=ENCSR458WIH_liver_male_adult_31_year_peaks_ donor=ENCDO832GKP sex=male view=ENCSR458WIH 
+		view ENCSR458WIH
+
+	track ENCSR520BUX_ENCFF278XAT
+	parent tissue_liver off
+	subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF278XAT/@@download/ENCFF278XAT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR520BUX liver_male_adult_78_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR520BUX age=78_year description=ENCSR520BUX_liver_male_adult_78_years_fold_change_over_control_ donor=ENCDO232KQV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR520BUX
+	parent tissue_liver off
+	view ENCSR520BUX
+	visibility dense
+	type bigBed
+
+		track ENCSR520BUX_ENCFF260YLU
+		parent tissue_liver_view_ENCSR520BUX off
+		subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K4me3 view=ENCSR520BUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF260YLU/@@download/ENCFF260YLU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR520BUX liver_male_adult_78_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR520BUX age=78_year description=ENCSR520BUX_liver_male_adult_78_years_stable_peaks_ donor=ENCDO232KQV sex=male view=ENCSR520BUX 
+		view ENCSR520BUX
+
+	track ENCSR795VEN_ENCFF817YAO
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF817YAO/@@download/ENCFF817YAO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR795VEN liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR795VEN age=32_year description=ENCSR795VEN_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR795VEN
+	parent tissue_liver off
+	view ENCSR795VEN
+	visibility dense
+	type bigBed
+
+		track ENCSR795VEN_ENCFF174ADG
+		parent tissue_liver_view_ENCSR795VEN off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K4me3 view=ENCSR795VEN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF174ADG/@@download/ENCFF174ADG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR795VEN liver_male_adult_32_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR795VEN age=32_year description=ENCSR795VEN_liver_male_adult_32_years_peaks_ donor=ENCDO060AAA sex=male view=ENCSR795VEN 
+		view ENCSR795VEN
+
+	track ENCSR803JYI_ENCFF033IUP
+	parent tissue_liver off
+	subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF033IUP/@@download/ENCFF033IUP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR803JYI liver_female_adult_25_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR803JYI age=25_year description=ENCSR803JYI_liver_female_adult_25_years_fold_change_over_control_ donor=ENCDO776UMN sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR803JYI
+	parent tissue_liver off
+	view ENCSR803JYI
+	visibility dense
+	type bigBed
+
+		track ENCSR803JYI_ENCFF502BOR
+		parent tissue_liver_view_ENCSR803JYI off
+		subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K4me3 view=ENCSR803JYI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF502BOR/@@download/ENCFF502BOR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR803JYI liver_female_adult_25_years_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR803JYI age=25_year description=ENCSR803JYI_liver_female_adult_25_years_peaks_ donor=ENCDO776UMN sex=female view=ENCSR803JYI 
+		view ENCSR803JYI
+
+	track ENCSR230IMS_ENCFF297HPK
+	parent tissue_liver off
+	subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF297HPK/@@download/ENCFF297HPK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR230IMS liver_male_adult_31_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR230IMS age=31_year description=ENCSR230IMS_liver_male_adult_31_year_fold_change_over_control_ donor=ENCDO832GKP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR230IMS
+	parent tissue_liver off
+	view ENCSR230IMS
+	visibility dense
+	type bigBed
+
+		track ENCSR230IMS_ENCFF884HCV
+		parent tissue_liver_view_ENCSR230IMS off
+		subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K27ac view=ENCSR230IMS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF884HCV/@@download/ENCFF884HCV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR230IMS liver_male_adult_31_year_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR230IMS age=31_year description=ENCSR230IMS_liver_male_adult_31_year_peaks_ donor=ENCDO832GKP sex=male view=ENCSR230IMS 
+		view ENCSR230IMS
+
+	track ENCSR254YRM_ENCFF555SBI
+	parent tissue_liver off
+	subGroups age=a6_year assay=ChIP-seq donor=ENCDO059AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF555SBI/@@download/ENCFF555SBI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR254YRM liver_female_child_6_years_and_male_adult_32_years_ (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR254YRM age=6_year description=ENCSR254YRM_liver_female_child_6_years_and_male_adult_32_years_fold_change_over_control_ donor=ENCDO059AAA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR254YRM
+	parent tissue_liver off
+	view ENCSR254YRM
+	visibility dense
+	type bigBed
+
+		track ENCSR254YRM_ENCFF638MPU
+		parent tissue_liver_view_ENCSR254YRM off
+		subGroups age=a6_year assay=ChIP-seq donor=ENCDO059AAA label=CTCF view=ENCSR254YRM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF638MPU/@@download/ENCFF638MPU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR254YRM liver_female_child_6_years_and_male_adult_32_years_ (optimal idr thr
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR254YRM age=6_year description=ENCSR254YRM_liver_female_child_6_years_and_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO059AAA sex=female view=ENCSR254YRM 
+		view ENCSR254YRM
+
+	track ENCSR678LND_ENCFF333JSQ
+	parent tissue_liver off
+	subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF333JSQ/@@download/ENCFF333JSQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR678LND liver_female_adult_25_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR678LND age=25_year description=ENCSR678LND_liver_female_adult_25_years_fold_change_over_control_ donor=ENCDO776UMN sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR678LND
+	parent tissue_liver off
+	view ENCSR678LND
+	visibility dense
+	type bigBed
+
+		track ENCSR678LND_ENCFF905OXC
+		parent tissue_liver_view_ENCSR678LND off
+		subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K27ac view=ENCSR678LND 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF905OXC/@@download/ENCFF905OXC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR678LND liver_female_adult_25_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR678LND age=25_year description=ENCSR678LND_liver_female_adult_25_years_peaks_ donor=ENCDO776UMN sex=female view=ENCSR678LND 
+		view ENCSR678LND
+
+	track ENCSR000AEU_ENCFF802RCH
+	parent tissue_liver off
+	subGroups age=a6_year assay=RNA-seq donor=ENCDO059AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF802RCH/@@download/ENCFF802RCH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AEU liver_female_child_6_years_and_male_adult_32_years_ (plus strand sig
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AEU age=6_year description=ENCSR000AEU_liver_female_child_6_years_and_male_adult_32_years_plus_strand_signal_of_unique_reads_ donor=ENCDO059AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AFB_ENCFF229ZYF
+	parent tissue_liver off
+	subGroups age=a20_week assay=RNA-seq donor=ENCDO064AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF229ZYF/@@download/ENCFF229ZYF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFB liver_female_embryo_20_weeks_and_male_embryo_22_weeks_ (plus strand 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFB age=20_week description=ENCSR000AFB_liver_female_embryo_20_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO064AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AFV_ENCFF902EEW
+	parent tissue_liver off
+	subGroups age=a20_week assay=RNA-seq donor=ENCDO064AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF902EEW/@@download/ENCFF902EEW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFV liver_female_embryo_20_weeks_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFV age=20_week description=ENCSR000AFV_liver_female_embryo_20_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO064AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGP_ENCFF728TBZ
+	parent tissue_liver off
+	subGroups age=a20_week assay=RAMPAGE donor=ENCDO064AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF728TBZ/@@download/ENCFF728TBZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR000AGP liver_female_embryo_20_weeks_and_male_embryo_22_weeks_ (plus strand 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGP age=20_week description=ENCSR000AGP_liver_female_embryo_20_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO064AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR085HNI_ENCFF503UHD
+	parent tissue_liver off
+	subGroups age=a18_year assay=RNA-seq donor=ENCDO481HRF label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF503UHD/@@download/ENCFF503UHD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR085HNI liver_male_adult_18_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR085HNI age=18_year description=ENCSR085HNI_liver_male_adult_18_years_plus_strand_signal_of_unique_reads_ donor=ENCDO481HRF sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR285LDX_ENCFF321DDY
+	parent tissue_liver off
+	subGroups age=a32_year assay=RAMPAGE donor=ENCDO060AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF321DDY/@@download/ENCFF321DDY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR285LDX liver_male_adult_32_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR285LDX age=32_year description=ENCSR285LDX_liver_male_adult_32_years_plus_strand_signal_of_unique_reads_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR388ZNJ_ENCFF510VQJ
+	parent tissue_liver off
+	subGroups age=a4_year assay=RNA-seq donor=ENCDO882MMZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF510VQJ/@@download/ENCFF510VQJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR388ZNJ liver_female_child_4_years_and_male_adult_32_years_ (signal of uniqu
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR388ZNJ age=4_year description=ENCSR388ZNJ_liver_female_child_4_years_and_male_adult_32_years_signal_of_unique_reads_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR714KDG_ENCFF715WBK
+	parent tissue_liver off
+	subGroups age=a3_year assay=RNA-seq donor=ENCDO478OMA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF715WBK/@@download/ENCFF715WBK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR714KDG liver_male_child_3_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR714KDG age=3_year description=ENCSR714KDG_liver_male_child_3_years_plus_strand_signal_of_unique_reads_ donor=ENCDO478OMA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR205FOW_ENCFF502PFD
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=ATF3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF502PFD/@@download/ENCFF502PFD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ATF3
+	longLabel ENCSR205FOW liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR205FOW age=4_year description=ENCSR205FOW_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR205FOW
+	parent tissue_liver off
+	view ENCSR205FOW
+	visibility dense
+	type bigBed
+
+		track ENCSR205FOW_ENCFF789XEL
+		parent tissue_liver_view_ENCSR205FOW off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=ATF3 view=ENCSR205FOW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF789XEL/@@download/ENCFF789XEL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ATF3
+		longLabel ENCSR205FOW liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR205FOW age=4_year description=ENCSR205FOW_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR205FOW 
+		view ENCSR205FOW
+
+	track ENCSR480LIS_ENCFF850ZSI
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=ATF3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF850ZSI/@@download/ENCFF850ZSI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ATF3
+	longLabel ENCSR480LIS liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR480LIS age=32_year description=ENCSR480LIS_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR480LIS
+	parent tissue_liver off
+	view ENCSR480LIS
+	visibility dense
+	type bigBed
+
+		track ENCSR480LIS_ENCFF111DET
+		parent tissue_liver_view_ENCSR480LIS off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=ATF3 view=ENCSR480LIS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF111DET/@@download/ENCFF111DET.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ATF3
+		longLabel ENCSR480LIS liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR480LIS age=32_year description=ENCSR480LIS_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR480LIS 
+		view ENCSR480LIS
+
+	track ENCSR324RCI_ENCFF382ULT
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=FOXA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF382ULT/@@download/ENCFF382ULT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FOXA1
+	longLabel ENCSR324RCI liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR324RCI age=4_year description=ENCSR324RCI_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR324RCI
+	parent tissue_liver off
+	view ENCSR324RCI
+	visibility dense
+	type bigBed
+
+		track ENCSR324RCI_ENCFF401BVO
+		parent tissue_liver_view_ENCSR324RCI off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=FOXA1 view=ENCSR324RCI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF401BVO/@@download/ENCFF401BVO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq FOXA1
+		longLabel ENCSR324RCI liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR324RCI age=4_year description=ENCSR324RCI_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR324RCI 
+		view ENCSR324RCI
+
+	track ENCSR735KEY_ENCFF319QZR
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=FOXA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF319QZR/@@download/ENCFF319QZR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FOXA1
+	longLabel ENCSR735KEY liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR735KEY age=32_year description=ENCSR735KEY_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR735KEY
+	parent tissue_liver off
+	view ENCSR735KEY
+	visibility dense
+	type bigBed
+
+		track ENCSR735KEY_ENCFF419KAD
+		parent tissue_liver_view_ENCSR735KEY off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=FOXA1 view=ENCSR735KEY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF419KAD/@@download/ENCFF419KAD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq FOXA1
+		longLabel ENCSR735KEY liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR735KEY age=32_year description=ENCSR735KEY_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR735KEY 
+		view ENCSR735KEY
+
+	track ENCSR080XEY_ENCFF965MSA
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=FOXA2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF965MSA/@@download/ENCFF965MSA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FOXA2
+	longLabel ENCSR080XEY liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR080XEY age=4_year description=ENCSR080XEY_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR080XEY
+	parent tissue_liver off
+	view ENCSR080XEY
+	visibility dense
+	type bigBed
+
+		track ENCSR080XEY_ENCFF811LJC
+		parent tissue_liver_view_ENCSR080XEY off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=FOXA2 view=ENCSR080XEY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF811LJC/@@download/ENCFF811LJC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq FOXA2
+		longLabel ENCSR080XEY liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR080XEY age=4_year description=ENCSR080XEY_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR080XEY 
+		view ENCSR080XEY
+
+	track ENCSR310NYI_ENCFF294WXK
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=FOXA2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF294WXK/@@download/ENCFF294WXK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FOXA2
+	longLabel ENCSR310NYI liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR310NYI age=32_year description=ENCSR310NYI_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR310NYI
+	parent tissue_liver off
+	view ENCSR310NYI
+	visibility dense
+	type bigBed
+
+		track ENCSR310NYI_ENCFF111TCG
+		parent tissue_liver_view_ENCSR310NYI off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=FOXA2 view=ENCSR310NYI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF111TCG/@@download/ENCFF111TCG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq FOXA2
+		longLabel ENCSR310NYI liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR310NYI age=32_year description=ENCSR310NYI_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR310NYI 
+		view ENCSR310NYI
+
+	track ENCSR038GMB_ENCFF085LGD
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=GABPA view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF085LGD/@@download/ENCFF085LGD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GABPA
+	longLabel ENCSR038GMB liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR038GMB age=32_year description=ENCSR038GMB_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR038GMB
+	parent tissue_liver off
+	view ENCSR038GMB
+	visibility dense
+	type bigBed
+
+		track ENCSR038GMB_ENCFF025XSA
+		parent tissue_liver_view_ENCSR038GMB off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=GABPA view=ENCSR038GMB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF025XSA/@@download/ENCFF025XSA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq GABPA
+		longLabel ENCSR038GMB liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR038GMB age=32_year description=ENCSR038GMB_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR038GMB 
+		view ENCSR038GMB
+
+	track ENCSR350ORK_ENCFF989EBM
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=GABPA view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF989EBM/@@download/ENCFF989EBM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GABPA
+	longLabel ENCSR350ORK liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR350ORK age=4_year description=ENCSR350ORK_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR350ORK
+	parent tissue_liver off
+	view ENCSR350ORK
+	visibility dense
+	type bigBed
+
+		track ENCSR350ORK_ENCFF950ZVM
+		parent tissue_liver_view_ENCSR350ORK off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=GABPA view=ENCSR350ORK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF950ZVM/@@download/ENCFF950ZVM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq GABPA
+		longLabel ENCSR350ORK liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR350ORK age=4_year description=ENCSR350ORK_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR350ORK 
+		view ENCSR350ORK
+
+	track ENCSR266OIG_ENCFF046IFZ
+	parent tissue_liver off
+	subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF046IFZ/@@download/ENCFF046IFZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR266OIG liver_male_adult_31_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR266OIG age=31_year description=ENCSR266OIG_liver_male_adult_31_year_fold_change_over_control_ donor=ENCDO832GKP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR266OIG
+	parent tissue_liver off
+	view ENCSR266OIG
+	visibility dense
+	type bigBed
+
+		track ENCSR266OIG_ENCFF713BHN
+		parent tissue_liver_view_ENCSR266OIG off
+		subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K27me3 view=ENCSR266OIG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF713BHN/@@download/ENCFF713BHN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR266OIG liver_male_adult_31_year_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR266OIG age=31_year description=ENCSR266OIG_liver_male_adult_31_year_peaks_ donor=ENCDO832GKP sex=male view=ENCSR266OIG 
+		view ENCSR266OIG
+
+	track ENCSR275DXO_ENCFF451AJL
+	parent tissue_liver off
+	subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF451AJL/@@download/ENCFF451AJL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR275DXO liver_male_adult_78_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR275DXO age=78_year description=ENCSR275DXO_liver_male_adult_78_years_fold_change_over_control_ donor=ENCDO232KQV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR275DXO
+	parent tissue_liver off
+	view ENCSR275DXO
+	visibility dense
+	type bigBed
+
+		track ENCSR275DXO_ENCFF723KFV
+		parent tissue_liver_view_ENCSR275DXO off
+		subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K27me3 view=ENCSR275DXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF723KFV/@@download/ENCFF723KFV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR275DXO liver_male_adult_78_years_ (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR275DXO age=78_year description=ENCSR275DXO_liver_male_adult_78_years_peaks_ donor=ENCDO232KQV sex=male view=ENCSR275DXO 
+		view ENCSR275DXO
+
+	track ENCSR666FYM_ENCFF042AXG
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF042AXG/@@download/ENCFF042AXG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR666FYM liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR666FYM age=32_year description=ENCSR666FYM_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR666FYM
+	parent tissue_liver off
+	view ENCSR666FYM
+	visibility dense
+	type bigBed
+
+		track ENCSR666FYM_ENCFF548GWR
+		parent tissue_liver_view_ENCSR666FYM off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K27me3 view=ENCSR666FYM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF548GWR/@@download/ENCFF548GWR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR666FYM liver_male_adult_32_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR666FYM age=32_year description=ENCSR666FYM_liver_male_adult_32_years_stable_peaks_ donor=ENCDO060AAA sex=male view=ENCSR666FYM 
+		view ENCSR666FYM
+
+	track ENCSR904LIL_ENCFF919DDX
+	parent tissue_liver off
+	subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF919DDX/@@download/ENCFF919DDX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR904LIL liver_female_adult_25_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR904LIL age=25_year description=ENCSR904LIL_liver_female_adult_25_years_fold_change_over_control_ donor=ENCDO776UMN sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR904LIL
+	parent tissue_liver off
+	view ENCSR904LIL
+	visibility dense
+	type bigBed
+
+		track ENCSR904LIL_ENCFF400HYX
+		parent tissue_liver_view_ENCSR904LIL off
+		subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K27me3 view=ENCSR904LIL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF400HYX/@@download/ENCFF400HYX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR904LIL liver_female_adult_25_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR904LIL age=25_year description=ENCSR904LIL_liver_female_adult_25_years_stable_peaks_ donor=ENCDO776UMN sex=female view=ENCSR904LIL 
+		view ENCSR904LIL
+
+	track ENCSR213DKS_ENCFF610YUQ
+	parent tissue_liver off
+	subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF610YUQ/@@download/ENCFF610YUQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR213DKS liver_female_adult_25_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR213DKS age=25_year description=ENCSR213DKS_liver_female_adult_25_years_fold_change_over_control_ donor=ENCDO776UMN sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR213DKS
+	parent tissue_liver off
+	view ENCSR213DKS
+	visibility dense
+	type bigBed
+
+		track ENCSR213DKS_ENCFF450TWI
+		parent tissue_liver_view_ENCSR213DKS off
+		subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K36me3 view=ENCSR213DKS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF450TWI/@@download/ENCFF450TWI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR213DKS liver_female_adult_25_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR213DKS age=25_year description=ENCSR213DKS_liver_female_adult_25_years_peaks_ donor=ENCDO776UMN sex=female view=ENCSR213DKS 
+		view ENCSR213DKS
+
+	track ENCSR460RHN_ENCFF664ZPT
+	parent tissue_liver off
+	subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF664ZPT/@@download/ENCFF664ZPT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR460RHN liver_male_adult_31_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR460RHN age=31_year description=ENCSR460RHN_liver_male_adult_31_year_fold_change_over_control_ donor=ENCDO832GKP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR460RHN
+	parent tissue_liver off
+	view ENCSR460RHN
+	visibility dense
+	type bigBed
+
+		track ENCSR460RHN_ENCFF828RLK
+		parent tissue_liver_view_ENCSR460RHN off
+		subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K36me3 view=ENCSR460RHN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF828RLK/@@download/ENCFF828RLK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR460RHN liver_male_adult_31_year_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR460RHN age=31_year description=ENCSR460RHN_liver_male_adult_31_year_peaks_ donor=ENCDO832GKP sex=male view=ENCSR460RHN 
+		view ENCSR460RHN
+
+	track ENCSR585KLQ_ENCFF353GHB
+	parent tissue_liver off
+	subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF353GHB/@@download/ENCFF353GHB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR585KLQ liver_male_adult_78_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR585KLQ age=78_year description=ENCSR585KLQ_liver_male_adult_78_years_fold_change_over_control_ donor=ENCDO232KQV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR585KLQ
+	parent tissue_liver off
+	view ENCSR585KLQ
+	visibility dense
+	type bigBed
+
+		track ENCSR585KLQ_ENCFF972ZRL
+		parent tissue_liver_view_ENCSR585KLQ off
+		subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K36me3 view=ENCSR585KLQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF972ZRL/@@download/ENCFF972ZRL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR585KLQ liver_male_adult_78_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR585KLQ age=78_year description=ENCSR585KLQ_liver_male_adult_78_years_stable_peaks_ donor=ENCDO232KQV sex=male view=ENCSR585KLQ 
+		view ENCSR585KLQ
+
+	track ENCSR892MHG_ENCFF209QTJ
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF209QTJ/@@download/ENCFF209QTJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR892MHG liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR892MHG age=32_year description=ENCSR892MHG_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR892MHG
+	parent tissue_liver off
+	view ENCSR892MHG
+	visibility dense
+	type bigBed
+
+		track ENCSR892MHG_ENCFF477MPN
+		parent tissue_liver_view_ENCSR892MHG off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K36me3 view=ENCSR892MHG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF477MPN/@@download/ENCFF477MPN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR892MHG liver_male_adult_32_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR892MHG age=32_year description=ENCSR892MHG_liver_male_adult_32_years_peaks_ donor=ENCDO060AAA sex=male view=ENCSR892MHG 
+		view ENCSR892MHG
+
+	track ENCSR111OHT_ENCFF669DIG
+	parent tissue_liver off
+	subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF669DIG/@@download/ENCFF669DIG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR111OHT liver_male_adult_31_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR111OHT age=31_year description=ENCSR111OHT_liver_male_adult_31_year_fold_change_over_control_ donor=ENCDO832GKP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR111OHT
+	parent tissue_liver off
+	view ENCSR111OHT
+	visibility dense
+	type bigBed
+
+		track ENCSR111OHT_ENCFF449JTB
+		parent tissue_liver_view_ENCSR111OHT off
+		subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K4me1 view=ENCSR111OHT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF449JTB/@@download/ENCFF449JTB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR111OHT liver_male_adult_31_year_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR111OHT age=31_year description=ENCSR111OHT_liver_male_adult_31_year_peaks_ donor=ENCDO832GKP sex=male view=ENCSR111OHT 
+		view ENCSR111OHT
+
+	track ENCSR203RKZ_ENCFF762TDA
+	parent tissue_liver off
+	subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF762TDA/@@download/ENCFF762TDA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR203RKZ liver_male_adult_78_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR203RKZ age=78_year description=ENCSR203RKZ_liver_male_adult_78_years_fold_change_over_control_ donor=ENCDO232KQV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR203RKZ
+	parent tissue_liver off
+	view ENCSR203RKZ
+	visibility dense
+	type bigBed
+
+		track ENCSR203RKZ_ENCFF588BMF
+		parent tissue_liver_view_ENCSR203RKZ off
+		subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K4me1 view=ENCSR203RKZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF588BMF/@@download/ENCFF588BMF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR203RKZ liver_male_adult_78_years_ (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR203RKZ age=78_year description=ENCSR203RKZ_liver_male_adult_78_years_stable_peaks_ donor=ENCDO232KQV sex=male view=ENCSR203RKZ 
+		view ENCSR203RKZ
+
+	track ENCSR218ZMU_ENCFF582PWO
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF582PWO/@@download/ENCFF582PWO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR218ZMU liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR218ZMU age=32_year description=ENCSR218ZMU_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR218ZMU
+	parent tissue_liver off
+	view ENCSR218ZMU
+	visibility dense
+	type bigBed
+
+		track ENCSR218ZMU_ENCFF085HZX
+		parent tissue_liver_view_ENCSR218ZMU off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K4me1 view=ENCSR218ZMU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF085HZX/@@download/ENCFF085HZX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR218ZMU liver_male_adult_32_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR218ZMU age=32_year description=ENCSR218ZMU_liver_male_adult_32_years_peaks_ donor=ENCDO060AAA sex=male view=ENCSR218ZMU 
+		view ENCSR218ZMU
+
+	track ENCSR642HII_ENCFF873PZO
+	parent tissue_liver off
+	subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF873PZO/@@download/ENCFF873PZO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR642HII liver_female_adult_25_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR642HII age=25_year description=ENCSR642HII_liver_female_adult_25_years_fold_change_over_control_ donor=ENCDO776UMN sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR642HII
+	parent tissue_liver off
+	view ENCSR642HII
+	visibility dense
+	type bigBed
+
+		track ENCSR642HII_ENCFF502QLL
+		parent tissue_liver_view_ENCSR642HII off
+		subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K4me1 view=ENCSR642HII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF502QLL/@@download/ENCFF502QLL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR642HII liver_female_adult_25_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR642HII age=25_year description=ENCSR642HII_liver_female_adult_25_years_peaks_ donor=ENCDO776UMN sex=female view=ENCSR642HII 
+		view ENCSR642HII
+
+	track ENCSR021BCU_ENCFF795DLL
+	parent tissue_liver off
+	subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF795DLL/@@download/ENCFF795DLL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR021BCU liver_male_adult_31_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR021BCU age=31_year description=ENCSR021BCU_liver_male_adult_31_year_fold_change_over_control_ donor=ENCDO832GKP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR021BCU
+	parent tissue_liver off
+	view ENCSR021BCU
+	visibility dense
+	type bigBed
+
+		track ENCSR021BCU_ENCFF374EUN
+		parent tissue_liver_view_ENCSR021BCU off
+		subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K9ac view=ENCSR021BCU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF374EUN/@@download/ENCFF374EUN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR021BCU liver_male_adult_31_year_ (stable peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR021BCU age=31_year description=ENCSR021BCU_liver_male_adult_31_year_stable_peaks_ donor=ENCDO832GKP sex=male view=ENCSR021BCU 
+		view ENCSR021BCU
+
+	track ENCSR682MXX_ENCFF456DQZ
+	parent tissue_liver off
+	subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF456DQZ/@@download/ENCFF456DQZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR682MXX liver_female_adult_25_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR682MXX age=25_year description=ENCSR682MXX_liver_female_adult_25_years_fold_change_over_control_ donor=ENCDO776UMN sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR682MXX
+	parent tissue_liver off
+	view ENCSR682MXX
+	visibility dense
+	type bigBed
+
+		track ENCSR682MXX_ENCFF300LPM
+		parent tissue_liver_view_ENCSR682MXX off
+		subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K9ac view=ENCSR682MXX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF300LPM/@@download/ENCFF300LPM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR682MXX liver_female_adult_25_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR682MXX age=25_year description=ENCSR682MXX_liver_female_adult_25_years_peaks_ donor=ENCDO776UMN sex=female view=ENCSR682MXX 
+		view ENCSR682MXX
+
+	track ENCSR351DLF_ENCFF552IQT
+	parent tissue_liver off
+	subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF552IQT/@@download/ENCFF552IQT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR351DLF liver_male_adult_31_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR351DLF age=31_year description=ENCSR351DLF_liver_male_adult_31_year_fold_change_over_control_ donor=ENCDO832GKP sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR351DLF
+	parent tissue_liver off
+	view ENCSR351DLF
+	visibility dense
+	type bigBed
+
+		track ENCSR351DLF_ENCFF764AUN
+		parent tissue_liver_view_ENCSR351DLF off
+		subGroups age=a31_year assay=ChIP-seq donor=ENCDO832GKP label=H3K9me3 view=ENCSR351DLF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF764AUN/@@download/ENCFF764AUN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR351DLF liver_male_adult_31_year_ (stable peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR351DLF age=31_year description=ENCSR351DLF_liver_male_adult_31_year_stable_peaks_ donor=ENCDO832GKP sex=male view=ENCSR351DLF 
+		view ENCSR351DLF
+
+	track ENCSR489RQV_ENCFF365EER
+	parent tissue_liver off
+	subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF365EER/@@download/ENCFF365EER.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR489RQV liver_male_adult_78_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR489RQV age=78_year description=ENCSR489RQV_liver_male_adult_78_years_fold_change_over_control_ donor=ENCDO232KQV sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR489RQV
+	parent tissue_liver off
+	view ENCSR489RQV
+	visibility dense
+	type bigBed
+
+		track ENCSR489RQV_ENCFF530PJF
+		parent tissue_liver_view_ENCSR489RQV off
+		subGroups age=a78_year assay=ChIP-seq donor=ENCDO232KQV label=H3K9me3 view=ENCSR489RQV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF530PJF/@@download/ENCFF530PJF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR489RQV liver_male_adult_78_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR489RQV age=78_year description=ENCSR489RQV_liver_male_adult_78_years_peaks_ donor=ENCDO232KQV sex=male view=ENCSR489RQV 
+		view ENCSR489RQV
+
+	track ENCSR563YGF_ENCFF566FON
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF566FON/@@download/ENCFF566FON.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR563YGF liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR563YGF age=32_year description=ENCSR563YGF_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR563YGF
+	parent tissue_liver off
+	view ENCSR563YGF
+	visibility dense
+	type bigBed
+
+		track ENCSR563YGF_ENCFF723LFU
+		parent tissue_liver_view_ENCSR563YGF off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=H3K9me3 view=ENCSR563YGF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF723LFU/@@download/ENCFF723LFU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR563YGF liver_male_adult_32_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR563YGF age=32_year description=ENCSR563YGF_liver_male_adult_32_years_peaks_ donor=ENCDO060AAA sex=male view=ENCSR563YGF 
+		view ENCSR563YGF
+
+	track ENCSR853JYB_ENCFF264XPD
+	parent tissue_liver off
+	subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF264XPD/@@download/ENCFF264XPD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR853JYB liver_female_adult_25_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR853JYB age=25_year description=ENCSR853JYB_liver_female_adult_25_years_fold_change_over_control_ donor=ENCDO776UMN sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR853JYB
+	parent tissue_liver off
+	view ENCSR853JYB
+	visibility dense
+	type bigBed
+
+		track ENCSR853JYB_ENCFF739WBD
+		parent tissue_liver_view_ENCSR853JYB off
+		subGroups age=a25_year assay=ChIP-seq donor=ENCDO776UMN label=H3K9me3 view=ENCSR853JYB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF739WBD/@@download/ENCFF739WBD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR853JYB liver_female_adult_25_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR853JYB age=25_year description=ENCSR853JYB_liver_female_adult_25_years_peaks_ donor=ENCDO776UMN sex=female view=ENCSR853JYB 
+		view ENCSR853JYB
+
+	track ENCSR445QRF_ENCFF229IAR
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=HNF4A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF229IAR/@@download/ENCFF229IAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq HNF4A
+	longLabel ENCSR445QRF liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR445QRF age=4_year description=ENCSR445QRF_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR445QRF
+	parent tissue_liver off
+	view ENCSR445QRF
+	visibility dense
+	type bigBed
+
+		track ENCSR445QRF_ENCFF723BBU
+		parent tissue_liver_view_ENCSR445QRF off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=HNF4A view=ENCSR445QRF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF723BBU/@@download/ENCFF723BBU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq HNF4A
+		longLabel ENCSR445QRF liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR445QRF age=4_year description=ENCSR445QRF_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR445QRF 
+		view ENCSR445QRF
+
+	track ENCSR601OGE_ENCFF818TPI
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=HNF4A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF818TPI/@@download/ENCFF818TPI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq HNF4A
+	longLabel ENCSR601OGE liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR601OGE age=32_year description=ENCSR601OGE_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR601OGE
+	parent tissue_liver off
+	view ENCSR601OGE
+	visibility dense
+	type bigBed
+
+		track ENCSR601OGE_ENCFF388ALA
+		parent tissue_liver_view_ENCSR601OGE off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=HNF4A view=ENCSR601OGE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF388ALA/@@download/ENCFF388ALA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq HNF4A
+		longLabel ENCSR601OGE liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR601OGE age=32_year description=ENCSR601OGE_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR601OGE 
+		view ENCSR601OGE
+
+	track ENCSR297GII_ENCFF499ABH
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=HNF4G view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF499ABH/@@download/ENCFF499ABH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq HNF4G
+	longLabel ENCSR297GII liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR297GII age=4_year description=ENCSR297GII_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR297GII
+	parent tissue_liver off
+	view ENCSR297GII
+	visibility dense
+	type bigBed
+
+		track ENCSR297GII_ENCFF651DRR
+		parent tissue_liver_view_ENCSR297GII off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=HNF4G view=ENCSR297GII 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF651DRR/@@download/ENCFF651DRR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq HNF4G
+		longLabel ENCSR297GII liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR297GII age=4_year description=ENCSR297GII_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR297GII 
+		view ENCSR297GII
+
+	track ENCSR196HGZ_ENCFF094XYL
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=JUND view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF094XYL/@@download/ENCFF094XYL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq JUND
+	longLabel ENCSR196HGZ liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR196HGZ age=4_year description=ENCSR196HGZ_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR196HGZ
+	parent tissue_liver off
+	view ENCSR196HGZ
+	visibility dense
+	type bigBed
+
+		track ENCSR196HGZ_ENCFF441ULY
+		parent tissue_liver_view_ENCSR196HGZ off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=JUND view=ENCSR196HGZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF441ULY/@@download/ENCFF441ULY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq JUND
+		longLabel ENCSR196HGZ liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR196HGZ age=4_year description=ENCSR196HGZ_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR196HGZ 
+		view ENCSR196HGZ
+
+	track ENCSR837GTK_ENCFF303OKE
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=JUND view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF303OKE/@@download/ENCFF303OKE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq JUND
+	longLabel ENCSR837GTK liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR837GTK age=32_year description=ENCSR837GTK_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR837GTK
+	parent tissue_liver off
+	view ENCSR837GTK
+	visibility dense
+	type bigBed
+
+		track ENCSR837GTK_ENCFF039IEL
+		parent tissue_liver_view_ENCSR837GTK off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=JUND view=ENCSR837GTK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF039IEL/@@download/ENCFF039IEL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq JUND
+		longLabel ENCSR837GTK liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR837GTK age=32_year description=ENCSR837GTK_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR837GTK 
+		view ENCSR837GTK
+
+	track ENCSR521IID_ENCFF773KEV
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF773KEV/@@download/ENCFF773KEV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR521IID liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR521IID age=32_year description=ENCSR521IID_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR521IID
+	parent tissue_liver off
+	view ENCSR521IID
+	visibility dense
+	type bigBed
+
+		track ENCSR521IID_ENCFF258FGR
+		parent tissue_liver_view_ENCSR521IID off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=MAX view=ENCSR521IID 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF258FGR/@@download/ENCFF258FGR.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MAX
+		longLabel ENCSR521IID liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR521IID age=32_year description=ENCSR521IID_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR521IID 
+		view ENCSR521IID
+
+	track ENCSR847DIT_ENCFF370ZNN
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF370ZNN/@@download/ENCFF370ZNN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR847DIT liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR847DIT age=4_year description=ENCSR847DIT_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR847DIT
+	parent tissue_liver off
+	view ENCSR847DIT
+	visibility dense
+	type bigBed
+
+		track ENCSR847DIT_ENCFF739RMG
+		parent tissue_liver_view_ENCSR847DIT off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=MAX view=ENCSR847DIT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF739RMG/@@download/ENCFF739RMG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq MAX
+		longLabel ENCSR847DIT liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR847DIT age=4_year description=ENCSR847DIT_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR847DIT 
+		view ENCSR847DIT
+
+	track ENCSR168SMX_ENCFF290SKO
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=NR2F2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF290SKO/@@download/ENCFF290SKO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NR2F2
+	longLabel ENCSR168SMX liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR168SMX age=4_year description=ENCSR168SMX_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR168SMX
+	parent tissue_liver off
+	view ENCSR168SMX
+	visibility dense
+	type bigBed
+
+		track ENCSR168SMX_ENCFF931HRK
+		parent tissue_liver_view_ENCSR168SMX off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=NR2F2 view=ENCSR168SMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF931HRK/@@download/ENCFF931HRK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq NR2F2
+		longLabel ENCSR168SMX liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR168SMX age=4_year description=ENCSR168SMX_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR168SMX 
+		view ENCSR168SMX
+
+	track ENCSR338MMB_ENCFF972IHG
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=NR2F2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF972IHG/@@download/ENCFF972IHG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NR2F2
+	longLabel ENCSR338MMB liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR338MMB age=32_year description=ENCSR338MMB_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR338MMB
+	parent tissue_liver off
+	view ENCSR338MMB
+	visibility dense
+	type bigBed
+
+		track ENCSR338MMB_ENCFF367GXC
+		parent tissue_liver_view_ENCSR338MMB off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=NR2F2 view=ENCSR338MMB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF367GXC/@@download/ENCFF367GXC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq NR2F2
+		longLabel ENCSR338MMB liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR338MMB age=32_year description=ENCSR338MMB_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR338MMB 
+		view ENCSR338MMB
+
+	track ENCSR230ZWH_ENCFF110WCE
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=RAD21 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF110WCE/@@download/ENCFF110WCE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RAD21
+	longLabel ENCSR230ZWH liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR230ZWH age=4_year description=ENCSR230ZWH_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR230ZWH
+	parent tissue_liver off
+	view ENCSR230ZWH
+	visibility dense
+	type bigBed
+
+		track ENCSR230ZWH_ENCFF920XVN
+		parent tissue_liver_view_ENCSR230ZWH off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=RAD21 view=ENCSR230ZWH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF920XVN/@@download/ENCFF920XVN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq RAD21
+		longLabel ENCSR230ZWH liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR230ZWH age=4_year description=ENCSR230ZWH_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR230ZWH 
+		view ENCSR230ZWH
+
+	track ENCSR635OSG_ENCFF502LYH
+	parent tissue_liver off
+	subGroups age=a6_year assay=ChIP-seq donor=ENCDO059AAA label=RAD21 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF502LYH/@@download/ENCFF502LYH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RAD21
+	longLabel ENCSR635OSG liver_female_child_6_years_and_male_adult_32_years_ (fold change ove
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR635OSG age=6_year description=ENCSR635OSG_liver_female_child_6_years_and_male_adult_32_years_fold_change_over_control_ donor=ENCDO059AAA sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR635OSG
+	parent tissue_liver off
+	view ENCSR635OSG
+	visibility dense
+	type bigBed
+
+		track ENCSR635OSG_ENCFF019EGA
+		parent tissue_liver_view_ENCSR635OSG off
+		subGroups age=a6_year assay=ChIP-seq donor=ENCDO059AAA label=RAD21 view=ENCSR635OSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF019EGA/@@download/ENCFF019EGA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq RAD21
+		longLabel ENCSR635OSG liver_female_child_6_years_and_male_adult_32_years_ (optimal idr thr
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR635OSG age=6_year description=ENCSR635OSG_liver_female_child_6_years_and_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO059AAA sex=female view=ENCSR635OSG 
+		view ENCSR635OSG
+
+	track ENCSR917QNE_ENCFF984NZJ
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=RAD21 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF984NZJ/@@download/ENCFF984NZJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RAD21
+	longLabel ENCSR917QNE liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR917QNE age=32_year description=ENCSR917QNE_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR917QNE
+	parent tissue_liver off
+	view ENCSR917QNE
+	visibility dense
+	type bigBed
+
+		track ENCSR917QNE_ENCFF959HHD
+		parent tissue_liver_view_ENCSR917QNE off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=RAD21 view=ENCSR917QNE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF959HHD/@@download/ENCFF959HHD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq RAD21
+		longLabel ENCSR917QNE liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR917QNE age=32_year description=ENCSR917QNE_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR917QNE 
+		view ENCSR917QNE
+
+	track ENCSR867WPH_ENCFF347ECZ
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=REST view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF347ECZ/@@download/ENCFF347ECZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq REST
+	longLabel ENCSR867WPH liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR867WPH age=32_year description=ENCSR867WPH_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR867WPH
+	parent tissue_liver off
+	view ENCSR867WPH
+	visibility dense
+	type bigBed
+
+		track ENCSR867WPH_ENCFF847ZBP
+		parent tissue_liver_view_ENCSR867WPH off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=REST view=ENCSR867WPH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF847ZBP/@@download/ENCFF847ZBP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq REST
+		longLabel ENCSR867WPH liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR867WPH age=32_year description=ENCSR867WPH_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR867WPH 
+		view ENCSR867WPH
+
+	track ENCSR893QWP_ENCFF533GQP
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=REST view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF533GQP/@@download/ENCFF533GQP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq REST
+	longLabel ENCSR893QWP liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR893QWP age=4_year description=ENCSR893QWP_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR893QWP
+	parent tissue_liver off
+	view ENCSR893QWP
+	visibility dense
+	type bigBed
+
+		track ENCSR893QWP_ENCFF872XFA
+		parent tissue_liver_view_ENCSR893QWP off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=REST view=ENCSR893QWP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF872XFA/@@download/ENCFF872XFA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq REST
+		longLabel ENCSR893QWP liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR893QWP age=4_year description=ENCSR893QWP_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR893QWP 
+		view ENCSR893QWP
+
+	track ENCSR352QSB_ENCFF633JGF
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=RXRA view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF633JGF/@@download/ENCFF633JGF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RXRA
+	longLabel ENCSR352QSB liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR352QSB age=4_year description=ENCSR352QSB_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR352QSB
+	parent tissue_liver off
+	view ENCSR352QSB
+	visibility dense
+	type bigBed
+
+		track ENCSR352QSB_ENCFF608HOD
+		parent tissue_liver_view_ENCSR352QSB off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=RXRA view=ENCSR352QSB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF608HOD/@@download/ENCFF608HOD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq RXRA
+		longLabel ENCSR352QSB liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR352QSB age=4_year description=ENCSR352QSB_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR352QSB 
+		view ENCSR352QSB
+
+	track ENCSR016BMM_ENCFF688EXM
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=TAF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF688EXM/@@download/ENCFF688EXM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TAF1
+	longLabel ENCSR016BMM liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR016BMM age=4_year description=ENCSR016BMM_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR016BMM
+	parent tissue_liver off
+	view ENCSR016BMM
+	visibility dense
+	type bigBed
+
+		track ENCSR016BMM_ENCFF635KVN
+		parent tissue_liver_view_ENCSR016BMM off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=TAF1 view=ENCSR016BMM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF635KVN/@@download/ENCFF635KVN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq TAF1
+		longLabel ENCSR016BMM liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR016BMM age=4_year description=ENCSR016BMM_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR016BMM 
+		view ENCSR016BMM
+
+	track ENCSR382MOM_ENCFF269NAU
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=YY1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF269NAU/@@download/ENCFF269NAU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq YY1
+	longLabel ENCSR382MOM liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR382MOM age=32_year description=ENCSR382MOM_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR382MOM
+	parent tissue_liver off
+	view ENCSR382MOM
+	visibility dense
+	type bigBed
+
+		track ENCSR382MOM_ENCFF612QWS
+		parent tissue_liver_view_ENCSR382MOM off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=YY1 view=ENCSR382MOM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF612QWS/@@download/ENCFF612QWS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq YY1
+		longLabel ENCSR382MOM liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR382MOM age=32_year description=ENCSR382MOM_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR382MOM 
+		view ENCSR382MOM
+
+	track ENCSR994YLZ_ENCFF922MJG
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=YY1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF922MJG/@@download/ENCFF922MJG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq YY1
+	longLabel ENCSR994YLZ liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR994YLZ age=4_year description=ENCSR994YLZ_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR994YLZ
+	parent tissue_liver off
+	view ENCSR994YLZ
+	visibility dense
+	type bigBed
+
+		track ENCSR994YLZ_ENCFF438BIL
+		parent tissue_liver_view_ENCSR994YLZ off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=YY1 view=ENCSR994YLZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF438BIL/@@download/ENCFF438BIL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq YY1
+		longLabel ENCSR994YLZ liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR994YLZ age=4_year description=ENCSR994YLZ_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR994YLZ 
+		view ENCSR994YLZ
+
+	track ENCSR345YWJ_ENCFF753GAP
+	parent tissue_liver off
+	subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=ZBTB33 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF753GAP/@@download/ENCFF753GAP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZBTB33
+	longLabel ENCSR345YWJ liver_female_child_4_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR345YWJ age=4_year description=ENCSR345YWJ_liver_female_child_4_years_fold_change_over_control_ donor=ENCDO882MMZ sex=female view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR345YWJ
+	parent tissue_liver off
+	view ENCSR345YWJ
+	visibility dense
+	type bigBed
+
+		track ENCSR345YWJ_ENCFF726ASD
+		parent tissue_liver_view_ENCSR345YWJ off
+		subGroups age=a4_year assay=ChIP-seq donor=ENCDO882MMZ label=ZBTB33 view=ENCSR345YWJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF726ASD/@@download/ENCFF726ASD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ZBTB33
+		longLabel ENCSR345YWJ liver_female_child_4_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR345YWJ age=4_year description=ENCSR345YWJ_liver_female_child_4_years_optimal_idr_thresholded_peaks_ donor=ENCDO882MMZ sex=female view=ENCSR345YWJ 
+		view ENCSR345YWJ
+
+	track ENCSR516HUP_ENCFF386HDH
+	parent tissue_liver off
+	subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=ZBTB33 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF386HDH/@@download/ENCFF386HDH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZBTB33
+	longLabel ENCSR516HUP liver_male_adult_32_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR516HUP age=32_year description=ENCSR516HUP_liver_male_adult_32_years_fold_change_over_control_ donor=ENCDO060AAA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_liver_view_ENCSR516HUP
+	parent tissue_liver off
+	view ENCSR516HUP
+	visibility dense
+	type bigBed
+
+		track ENCSR516HUP_ENCFF195IMH
+		parent tissue_liver_view_ENCSR516HUP off
+		subGroups age=a32_year assay=ChIP-seq donor=ENCDO060AAA label=ZBTB33 view=ENCSR516HUP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF195IMH/@@download/ENCFF195IMH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq ZBTB33
+		longLabel ENCSR516HUP liver_male_adult_32_years_ (optimal idr thresholded peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR516HUP age=32_year description=ENCSR516HUP_liver_male_adult_32_years_optimal_idr_thresholded_peaks_ donor=ENCDO060AAA sex=male view=ENCSR516HUP 
+		view ENCSR516HUP
+

@@ -1,0 +1,728 @@
+
+track in_vitro_differentiated_cells_mesendoderm
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel mesendoderm
+longLabel mesendoderm (22 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO000AAW=ENCDO000AAW 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR035BZI=ENCSR035BZI ENCSR036NSK=ENCSR036NSK ENCSR126BGU=ENCSR126BGU ENCSR144RXL=ENCSR144RXL ENCSR297AUZ=ENCSR297AUZ ENCSR327JOJ=ENCSR327JOJ ENCSR357HAN=ENCSR357HAN ENCSR405AXO=ENCSR405AXO ENCSR441SAT=ENCSR441SAT ENCSR473AQI=ENCSR473AQI ENCSR473PNT=ENCSR473PNT ENCSR565XTT=ENCSR565XTT ENCSR575ZNE=ENCSR575ZNE ENCSR598UDU=ENCSR598UDU ENCSR664KWY=ENCSR664KWY ENCSR721MPV=ENCSR721MPV ENCSR814MAF=ENCSR814MAF ENCSR839PUY=ENCSR839PUY ENCSR900EUT=ENCSR900EUT bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR441SAT_ENCFF261RYL
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF261RYL/@@download/ENCFF261RYL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR441SAT mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR441SAT age=unknown description=ENCSR441SAT_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR441SAT
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR441SAT
+	visibility dense
+	type bigBed
+
+		track ENCSR441SAT_ENCFF142HZC
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR441SAT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me3 view=ENCSR441SAT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF142HZC/@@download/ENCFF142HZC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR441SAT mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR441SAT age=unknown description=ENCSR441SAT_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR441SAT 
+		view ENCSR441SAT
+
+	track ENCSR473PNT_ENCFF940RRV
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF940RRV/@@download/ENCFF940RRV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR473PNT mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR473PNT age=unknown description=ENCSR473PNT_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR473PNT
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR473PNT
+	visibility dense
+	type bigBed
+
+		track ENCSR473PNT_ENCFF914VXQ
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR473PNT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27ac view=ENCSR473PNT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF914VXQ/@@download/ENCFF914VXQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR473PNT mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR473PNT age=unknown description=ENCSR473PNT_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR473PNT 
+		view ENCSR473PNT
+
+	track ENCSR494ATA_ENCFF325DCZ
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF325DCZ/@@download/ENCFF325DCZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR494ATA mesendoderm_originated_from_H1_hESC (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR494ATA age=unknown description=ENCSR494ATA_mesendoderm_originated_from_H1_hESC_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR700BEW_ENCFF370BVS
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF370BVS/@@download/ENCFF370BVS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR700BEW mesendoderm_originated_from_H1_hESC (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR700BEW age=unknown description=ENCSR700BEW_mesendoderm_originated_from_H1_hESC_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR976JGI_ENCFF887KID
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO000AAW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF887KID/@@download/ENCFF887KID.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR976JGI mesendoderm_originated_from_H1_hESC (plus strand signal of unique re
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR976JGI age=unknown description=ENCSR976JGI_mesendoderm_originated_from_H1_hESC_plus_strand_signal_of_unique_reads_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR598UDU_ENCFF308ATW
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2AK5ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF308ATW/@@download/ENCFF308ATW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2AK5ac
+	longLabel ENCSR598UDU mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR598UDU age=unknown description=ENCSR598UDU_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR598UDU
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR598UDU
+	visibility dense
+	type bigBed
+
+		track ENCSR598UDU_ENCFF245YZE
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR598UDU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2AK5ac view=ENCSR598UDU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF245YZE/@@download/ENCFF245YZE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2AK5ac
+		longLabel ENCSR598UDU mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR598UDU age=unknown description=ENCSR598UDU_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR598UDU 
+		view ENCSR598UDU
+
+	track ENCSR900EUT_ENCFF052JTG
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK120ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF052JTG/@@download/ENCFF052JTG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2BK120a
+	longLabel ENCSR900EUT mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR900EUT age=unknown description=ENCSR900EUT_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR900EUT
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR900EUT
+	visibility dense
+	type bigBed
+
+		track ENCSR900EUT_ENCFF874PYU
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR900EUT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK120ac view=ENCSR900EUT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF874PYU/@@download/ENCFF874PYU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2BK120a
+		longLabel ENCSR900EUT mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR900EUT age=unknown description=ENCSR900EUT_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR900EUT 
+		view ENCSR900EUT
+
+	track ENCSR297AUZ_ENCFF967HTU
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK15ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF967HTU/@@download/ENCFF967HTU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2BK15ac
+	longLabel ENCSR297AUZ mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR297AUZ age=unknown description=ENCSR297AUZ_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR297AUZ
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR297AUZ
+	visibility dense
+	type bigBed
+
+		track ENCSR297AUZ_ENCFF515HHX
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR297AUZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK15ac view=ENCSR297AUZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF515HHX/@@download/ENCFF515HHX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2BK15ac
+		longLabel ENCSR297AUZ mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR297AUZ age=unknown description=ENCSR297AUZ_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR297AUZ 
+		view ENCSR297AUZ
+
+	track ENCSR327JOJ_ENCFF098XFR
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK5ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF098XFR/@@download/ENCFF098XFR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H2BK5ac
+	longLabel ENCSR327JOJ mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR327JOJ age=unknown description=ENCSR327JOJ_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR327JOJ
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR327JOJ
+	visibility dense
+	type bigBed
+
+		track ENCSR327JOJ_ENCFF017XHK
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR327JOJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H2BK5ac view=ENCSR327JOJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF017XHK/@@download/ENCFF017XHK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H2BK5ac
+		longLabel ENCSR327JOJ mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR327JOJ age=unknown description=ENCSR327JOJ_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR327JOJ 
+		view ENCSR327JOJ
+
+	track ENCSR565XTT_ENCFF308MSG
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K18ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF308MSG/@@download/ENCFF308MSG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K18ac
+	longLabel ENCSR565XTT mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR565XTT age=unknown description=ENCSR565XTT_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR565XTT
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR565XTT
+	visibility dense
+	type bigBed
+
+		track ENCSR565XTT_ENCFF336IGV
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR565XTT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K18ac view=ENCSR565XTT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF336IGV/@@download/ENCFF336IGV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K18ac
+		longLabel ENCSR565XTT mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR565XTT age=unknown description=ENCSR565XTT_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR565XTT 
+		view ENCSR565XTT
+
+	track ENCSR473AQI_ENCFF974XZN
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K23ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF974XZN/@@download/ENCFF974XZN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K23ac
+	longLabel ENCSR473AQI mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR473AQI age=unknown description=ENCSR473AQI_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR473AQI
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR473AQI
+	visibility dense
+	type bigBed
+
+		track ENCSR473AQI_ENCFF985YNN
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR473AQI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K23ac view=ENCSR473AQI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF985YNN/@@download/ENCFF985YNN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K23ac
+		longLabel ENCSR473AQI mesendoderm_originated_from_H1_hESC (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR473AQI age=unknown description=ENCSR473AQI_mesendoderm_originated_from_H1_hESC_stable_peaks_ donor=ENCDO000AAW sex=male view=ENCSR473AQI 
+		view ENCSR473AQI
+
+	track ENCSR405AXO_ENCFF798DJJ
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF798DJJ/@@download/ENCFF798DJJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR405AXO mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR405AXO age=unknown description=ENCSR405AXO_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR405AXO
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR405AXO
+	visibility dense
+	type bigBed
+
+		track ENCSR405AXO_ENCFF916TSZ
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR405AXO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K27me3 view=ENCSR405AXO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF916TSZ/@@download/ENCFF916TSZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR405AXO mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR405AXO age=unknown description=ENCSR405AXO_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR405AXO 
+		view ENCSR405AXO
+
+	track ENCSR144RXL_ENCFF242QLL
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF242QLL/@@download/ENCFF242QLL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR144RXL mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR144RXL age=unknown description=ENCSR144RXL_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR144RXL
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR144RXL
+	visibility dense
+	type bigBed
+
+		track ENCSR144RXL_ENCFF930SGU
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR144RXL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K36me3 view=ENCSR144RXL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF930SGU/@@download/ENCFF930SGU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR144RXL mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR144RXL age=unknown description=ENCSR144RXL_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR144RXL 
+		view ENCSR144RXL
+
+	track ENCSR814MAF_ENCFF985ADM
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF985ADM/@@download/ENCFF985ADM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4ac
+	longLabel ENCSR814MAF mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR814MAF age=unknown description=ENCSR814MAF_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR814MAF
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR814MAF
+	visibility dense
+	type bigBed
+
+		track ENCSR814MAF_ENCFF690ODJ
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR814MAF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4ac view=ENCSR814MAF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF690ODJ/@@download/ENCFF690ODJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4ac
+		longLabel ENCSR814MAF mesendoderm_originated_from_H1_hESC (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR814MAF age=unknown description=ENCSR814MAF_mesendoderm_originated_from_H1_hESC_stable_peaks_ donor=ENCDO000AAW sex=male view=ENCSR814MAF 
+		view ENCSR814MAF
+
+	track ENCSR664KWY_ENCFF244DEJ
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF244DEJ/@@download/ENCFF244DEJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR664KWY mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR664KWY age=unknown description=ENCSR664KWY_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR664KWY
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR664KWY
+	visibility dense
+	type bigBed
+
+		track ENCSR664KWY_ENCFF150NCE
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR664KWY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me1 view=ENCSR664KWY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF150NCE/@@download/ENCFF150NCE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR664KWY mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR664KWY age=unknown description=ENCSR664KWY_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR664KWY 
+		view ENCSR664KWY
+
+	track ENCSR126BGU_ENCFF087TBR
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF087TBR/@@download/ENCFF087TBR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,255,128
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me2
+	longLabel ENCSR126BGU mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR126BGU age=unknown description=ENCSR126BGU_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR126BGU
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR126BGU
+	visibility dense
+	type bigBed
+
+		track ENCSR126BGU_ENCFF649SGU
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR126BGU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K4me2 view=ENCSR126BGU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF649SGU/@@download/ENCFF649SGU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me2
+		longLabel ENCSR126BGU mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 255,255,128
+		darkerLabels on
+		metadata accession=ENCSR126BGU age=unknown description=ENCSR126BGU_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR126BGU 
+		view ENCSR126BGU
+
+	track ENCSR036NSK_ENCFF668ASL
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K56ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF668ASL/@@download/ENCFF668ASL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K56ac
+	longLabel ENCSR036NSK mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR036NSK age=unknown description=ENCSR036NSK_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR036NSK
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR036NSK
+	visibility dense
+	type bigBed
+
+		track ENCSR036NSK_ENCFF892TNU
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR036NSK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K56ac view=ENCSR036NSK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF892TNU/@@download/ENCFF892TNU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K56ac
+		longLabel ENCSR036NSK mesendoderm_originated_from_H1_hESC (stable peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR036NSK age=unknown description=ENCSR036NSK_mesendoderm_originated_from_H1_hESC_stable_peaks_ donor=ENCDO000AAW sex=male view=ENCSR036NSK 
+		view ENCSR036NSK
+
+	track ENCSR357HAN_ENCFF795CMO
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K79me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF795CMO/@@download/ENCFF795CMO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me1
+	longLabel ENCSR357HAN mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR357HAN age=unknown description=ENCSR357HAN_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR357HAN
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR357HAN
+	visibility dense
+	type bigBed
+
+		track ENCSR357HAN_ENCFF520YTC
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR357HAN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K79me1 view=ENCSR357HAN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF520YTC/@@download/ENCFF520YTC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me1
+		longLabel ENCSR357HAN mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR357HAN age=unknown description=ENCSR357HAN_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR357HAN 
+		view ENCSR357HAN
+
+	track ENCSR575ZNE_ENCFF925KHY
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K79me2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF925KHY/@@download/ENCFF925KHY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K79me2
+	longLabel ENCSR575ZNE mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR575ZNE age=unknown description=ENCSR575ZNE_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR575ZNE
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR575ZNE
+	visibility dense
+	type bigBed
+
+		track ENCSR575ZNE_ENCFF592EYI
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR575ZNE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K79me2 view=ENCSR575ZNE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF592EYI/@@download/ENCFF592EYI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K79me2
+		longLabel ENCSR575ZNE mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR575ZNE age=unknown description=ENCSR575ZNE_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR575ZNE 
+		view ENCSR575ZNE
+
+	track ENCSR839PUY_ENCFF074YAC
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF074YAC/@@download/ENCFF074YAC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR839PUY mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR839PUY age=unknown description=ENCSR839PUY_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR839PUY
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR839PUY
+	visibility dense
+	type bigBed
+
+		track ENCSR839PUY_ENCFF371AEY
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR839PUY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H3K9ac view=ENCSR839PUY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF371AEY/@@download/ENCFF371AEY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR839PUY mesendoderm_originated_from_H1_hESC (replicated peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR839PUY age=unknown description=ENCSR839PUY_mesendoderm_originated_from_H1_hESC_replicated_peaks_ donor=ENCDO000AAW sex=male view=ENCSR839PUY 
+		view ENCSR839PUY
+
+	track ENCSR035BZI_ENCFF806TYR
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K5ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF806TYR/@@download/ENCFF806TYR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K5ac
+	longLabel ENCSR035BZI mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR035BZI age=unknown description=ENCSR035BZI_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR035BZI
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR035BZI
+	visibility dense
+	type bigBed
+
+		track ENCSR035BZI_ENCFF104IBW
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR035BZI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K5ac view=ENCSR035BZI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF104IBW/@@download/ENCFF104IBW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K5ac
+		longLabel ENCSR035BZI mesendoderm_originated_from_H1_hESC (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR035BZI age=unknown description=ENCSR035BZI_mesendoderm_originated_from_H1_hESC_peaks_ donor=ENCDO000AAW sex=male view=ENCSR035BZI 
+		view ENCSR035BZI
+
+	track ENCSR721MPV_ENCFF536HBK
+	parent in_vitro_differentiated_cells_mesendoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K8ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF536HBK/@@download/ENCFF536HBK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H4K8ac
+	longLabel ENCSR721MPV mesendoderm_originated_from_H1_hESC (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR721MPV age=unknown description=ENCSR721MPV_mesendoderm_originated_from_H1_hESC_fold_change_over_control_ donor=ENCDO000AAW sex=male view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_mesendoderm_view_ENCSR721MPV
+	parent in_vitro_differentiated_cells_mesendoderm off
+	view ENCSR721MPV
+	visibility dense
+	type bigBed
+
+		track ENCSR721MPV_ENCFF814YAL
+		parent in_vitro_differentiated_cells_mesendoderm_view_ENCSR721MPV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000AAW label=H4K8ac view=ENCSR721MPV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF814YAL/@@download/ENCFF814YAL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H4K8ac
+		longLabel ENCSR721MPV mesendoderm_originated_from_H1_hESC (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR721MPV age=unknown description=ENCSR721MPV_mesendoderm_originated_from_H1_hESC_peaks_ donor=ENCDO000AAW sex=male view=ENCSR721MPV 
+		view ENCSR721MPV
+

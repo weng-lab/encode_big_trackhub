@@ -1,0 +1,63 @@
+
+track primary_cell_vein_endothelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel vein endothelial 
+longLabel vein endothelial cell (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO149AAA=ENCDO149AAA 
+subGroup2 age age a52_year=52&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CKN_ENCFF397YAA
+	parent primary_cell_vein_endothelial_cell off
+	subGroups age=a52_year assay=CAGE donor=ENCDO149AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF397YAA/@@download/ENCFF397YAA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CKN vein_endothelial_cell_male_adult_48_years_and_male_adult_52_years_ (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CKN age=52_year description=ENCSR000CKN_vein_endothelial_cell_male_adult_48_years_and_male_adult_52_years_plus_strand_signal_of_unique_reads_ donor=ENCDO149AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CUG_ENCFF121XXK
+	parent primary_cell_vein_endothelial_cell off
+	subGroups age=a52_year assay=RNA-seq donor=ENCDO149AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF121XXK/@@download/ENCFF121XXK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CUG vein_endothelial_cell_male_adult_48_years_and_male_adult_52_years_ (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CUG age=52_year description=ENCSR000CUG_vein_endothelial_cell_male_adult_48_years_and_male_adult_52_years_plus_strand_signal_of_unique_reads_ donor=ENCDO149AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CVI_ENCFF177XCY
+	parent primary_cell_vein_endothelial_cell off
+	subGroups age=a52_year assay=RNA-seq donor=ENCDO149AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF177XCY/@@download/ENCFF177XCY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CVI vein_endothelial_cell_male_adult_48_years_and_male_adult_52_years_ (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CVI age=52_year description=ENCSR000CVI_vein_endothelial_cell_male_adult_48_years_and_male_adult_52_years_plus_strand_signal_of_unique_reads_ donor=ENCDO149AAA sex=male view=bigWig 
+	view bigWig
+

@@ -1,0 +1,695 @@
+
+track in_vitro_differentiated_cells_cardiac_mesoderm
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel cardiac mesoderm
+longLabel cardiac mesoderm (16 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO221AAA=ENCDO221AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DSD=ENCSR000DSD ENCSR000DSE=ENCSR000DSE ENCSR000DSF=ENCSR000DSF ENCSR000DSG=ENCSR000DSG ENCSR000DSH=ENCSR000DSH ENCSR000DSI=ENCSR000DSI ENCSR000DSJ=ENCSR000DSJ ENCSR000DSK=ENCSR000DSK ENCSR000DSL=ENCSR000DSL ENCSR000DSM=ENCSR000DSM ENCSR000DSO=ENCSR000DSO ENCSR000DSP=ENCSR000DSP ENCSR000EMV=ENCSR000EMV ENCSR000EMW=ENCSR000EMW ENCSR000EMX=ENCSR000EMX ENCSR000EMY=ENCSR000EMY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EMV_ENCFF949LHM
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF949LHM/@@download/ENCFF949LHM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMV cardiac_mesoderm (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMV age=unknown description=ENCSR000EMV_cardiac_mesoderm_read_depth_normalized_signal_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMV
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000EMV
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMV_ENCFF014XLY
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMV off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF014XLY/@@download/ENCFF014XLY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMV cardiac_mesoderm (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMV age=unknown description=ENCSR000EMV_cardiac_mesoderm_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000EMV 
+		view ENCSR000EMV
+
+		track ENCSR000EMV_ENCFF481ICT
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMV off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF481ICT/@@download/ENCFF481ICT.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF481ICT 9state-DNase DNase-seq on human H7-hESC differentiated for 9 days
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMV age=unknown description=ENCFF481ICT_9state_DNase_DNase_seq_on_human_H7_hESC_differentiated_for_9_days donor=ENCDO221AAA sex=female view=ENCSR000EMV 
+		view ENCSR000EMV
+
+	track ENCSR000EMW_ENCFF630OPH
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF630OPH/@@download/ENCFF630OPH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMW cardiac_mesoderm (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMW age=unknown description=ENCSR000EMW_cardiac_mesoderm_read_depth_normalized_signal_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMW
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000EMW
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMW_ENCFF403CWZ
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMW off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF403CWZ/@@download/ENCFF403CWZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMW cardiac_mesoderm (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMW age=unknown description=ENCSR000EMW_cardiac_mesoderm_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000EMW 
+		view ENCSR000EMW
+
+		track ENCSR000EMW_ENCFF709IRJ
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMW off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF709IRJ/@@download/ENCFF709IRJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF709IRJ 9state-DNase DNase-seq on human H7-hESC differentiated for 5 days
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMW age=unknown description=ENCFF709IRJ_9state_DNase_DNase_seq_on_human_H7_hESC_differentiated_for_5_days donor=ENCDO221AAA sex=female view=ENCSR000EMW 
+		view ENCSR000EMW
+
+		track ENCSR000EMW_ENCFF980OKE
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMW off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF980OKE/@@download/ENCFF980OKE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF980OKE 5group DNase-seq on human H7-hESC differentiated for 5 days
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMW age=unknown description=ENCFF980OKE_5group_DNase_seq_on_human_H7_hESC_differentiated_for_5_days donor=ENCDO221AAA sex=female view=ENCSR000EMW 
+		view ENCSR000EMW
+
+		track ENCSR000EMW_ENCFF012FYU
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMW off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF012FYU/@@download/ENCFF012FYU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF012FYU 9state-H3K4me3 DNase-seq on human H7-hESC differentiated for 5 days
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMW age=unknown description=ENCFF012FYU_9state_H3K4me3_DNase_seq_on_human_H7_hESC_differentiated_for_5_days donor=ENCDO221AAA sex=female view=ENCSR000EMW 
+		view ENCSR000EMW
+
+	track ENCSR000EMX_ENCFF623ASX
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF623ASX/@@download/ENCFF623ASX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMX cardiac_mesoderm (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMX age=unknown description=ENCSR000EMX_cardiac_mesoderm_read_depth_normalized_signal_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMX
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000EMX
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMX_ENCFF040DPH
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF040DPH/@@download/ENCFF040DPH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMX cardiac_mesoderm (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMX age=unknown description=ENCSR000EMX_cardiac_mesoderm_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000EMX 
+		view ENCSR000EMX
+
+		track ENCSR000EMX_ENCFF537YTC
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMX off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF537YTC/@@download/ENCFF537YTC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF537YTC 9state-DNase DNase-seq on human H7-hESC differentiated for 2 days
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMX age=unknown description=ENCFF537YTC_9state_DNase_DNase_seq_on_human_H7_hESC_differentiated_for_2_days donor=ENCDO221AAA sex=female view=ENCSR000EMX 
+		view ENCSR000EMX
+
+	track ENCSR000EMY_ENCFF802ORL
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF802ORL/@@download/ENCFF802ORL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EMY cardiac_mesoderm (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EMY age=unknown description=ENCSR000EMY_cardiac_mesoderm_read_depth_normalized_signal_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMY
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000EMY
+	visibility dense
+	type bigBed
+
+		track ENCSR000EMY_ENCFF659JJJ
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMY off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF659JJJ/@@download/ENCFF659JJJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EMY cardiac_mesoderm (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EMY age=unknown description=ENCSR000EMY_cardiac_mesoderm_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000EMY 
+		view ENCSR000EMY
+
+		track ENCSR000EMY_ENCFF286LCW
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000EMY off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO221AAA label=unknown view=ENCSR000EMY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF286LCW/@@download/ENCFF286LCW.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF286LCW 9state-DNase DNase-seq on human H7-hESC differentiated for 14 days
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EMY age=unknown description=ENCFF286LCW_9state_DNase_DNase_seq_on_human_H7_hESC_differentiated_for_14_days donor=ENCDO221AAA sex=female view=ENCSR000EMY 
+		view ENCSR000EMY
+
+	track ENCSR000DSD_ENCFF786VUK
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF786VUK/@@download/ENCFF786VUK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DSD cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSD age=unknown description=ENCSR000DSD_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSD
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSD
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSD_ENCFF586GHE
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSD off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=ENCSR000DSD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF586GHE/@@download/ENCFF586GHE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DSD cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DSD age=unknown description=ENCSR000DSD_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSD 
+		view ENCSR000DSD
+
+	track ENCSR000DSE_ENCFF594GUU
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF594GUU/@@download/ENCFF594GUU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DSE cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSE age=unknown description=ENCSR000DSE_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSE
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSE
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSE_ENCFF327ZII
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSE off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=ENCSR000DSE 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF327ZII/@@download/ENCFF327ZII.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DSE cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DSE age=unknown description=ENCSR000DSE_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSE 
+		view ENCSR000DSE
+
+	track ENCSR000DSO_ENCFF103CRJ
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF103CRJ/@@download/ENCFF103CRJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DSO cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSO age=unknown description=ENCSR000DSO_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSO
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSO
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSO_ENCFF601KXM
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=ENCSR000DSO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF601KXM/@@download/ENCFF601KXM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DSO cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DSO age=unknown description=ENCSR000DSO_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSO 
+		view ENCSR000DSO
+
+		track ENCSR000DSO_ENCFF709IRJ
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=ENCSR000DSO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF709IRJ/@@download/ENCFF709IRJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF709IRJ 9state-DNase H3K4me3 ChIP-seq on human H7-hESC differentiated 5 days
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSO age=unknown description=ENCFF709IRJ_9state_DNase_H3K4me3_ChIP_seq_on_human_H7_hESC_differentiated_5_days donor=ENCDO221AAA sex=female view=ENCSR000DSO 
+		view ENCSR000DSO
+
+		track ENCSR000DSO_ENCFF980OKE
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=ENCSR000DSO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF980OKE/@@download/ENCFF980OKE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF980OKE 5group H3K4me3 ChIP-seq on human H7-hESC differentiated 5 days
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSO age=unknown description=ENCFF980OKE_5group_H3K4me3_ChIP_seq_on_human_H7_hESC_differentiated_5_days donor=ENCDO221AAA sex=female view=ENCSR000DSO 
+		view ENCSR000DSO
+
+		track ENCSR000DSO_ENCFF012FYU
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSO off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=ENCSR000DSO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF012FYU/@@download/ENCFF012FYU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF012FYU 9state-H3K4me3 H3K4me3 ChIP-seq on human H7-hESC differentiated 5 da
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSO age=unknown description=ENCFF012FYU_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_H7_hESC_differentiated_5_days donor=ENCDO221AAA sex=female view=ENCSR000DSO 
+		view ENCSR000DSO
+
+	track ENCSR000DSP_ENCFF530YAH
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF530YAH/@@download/ENCFF530YAH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DSP cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSP age=unknown description=ENCSR000DSP_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSP
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSP
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSP_ENCFF390MQG
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSP off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K4me3 view=ENCSR000DSP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF390MQG/@@download/ENCFF390MQG.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DSP cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DSP age=unknown description=ENCSR000DSP_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSP 
+		view ENCSR000DSP
+
+	track ENCSR000DSJ_ENCFF846UEB
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF846UEB/@@download/ENCFF846UEB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DSJ cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSJ age=unknown description=ENCSR000DSJ_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSJ
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSJ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSJ_ENCFF324HJN
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSJ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K27me3 view=ENCSR000DSJ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF324HJN/@@download/ENCFF324HJN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DSJ cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DSJ age=unknown description=ENCSR000DSJ_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSJ 
+		view ENCSR000DSJ
+
+	track ENCSR000DSK_ENCFF940NZN
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF940NZN/@@download/ENCFF940NZN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DSK cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSK age=unknown description=ENCSR000DSK_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSK
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSK
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSK_ENCFF501MQN
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K27me3 view=ENCSR000DSK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF501MQN/@@download/ENCFF501MQN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DSK cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DSK age=unknown description=ENCSR000DSK_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSK 
+		view ENCSR000DSK
+
+	track ENCSR000DSL_ENCFF013LQY
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF013LQY/@@download/ENCFF013LQY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DSL cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSL age=unknown description=ENCSR000DSL_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSL
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSL
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSL_ENCFF877HSD
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K27me3 view=ENCSR000DSL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF877HSD/@@download/ENCFF877HSD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DSL cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DSL age=unknown description=ENCSR000DSL_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSL 
+		view ENCSR000DSL
+
+	track ENCSR000DSM_ENCFF697AUV
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF697AUV/@@download/ENCFF697AUV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR000DSM cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSM age=unknown description=ENCSR000DSM_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSM
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSM
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSM_ENCFF732UPT
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSM off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K27me3 view=ENCSR000DSM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF732UPT/@@download/ENCFF732UPT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR000DSM cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR000DSM age=unknown description=ENCSR000DSM_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSM 
+		view ENCSR000DSM
+
+	track ENCSR000DSF_ENCFF899IZB
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF899IZB/@@download/ENCFF899IZB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DSF cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSF age=unknown description=ENCSR000DSF_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSF
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSF
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSF_ENCFF689NYV
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K36me3 view=ENCSR000DSF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF689NYV/@@download/ENCFF689NYV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DSF cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DSF age=unknown description=ENCSR000DSF_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSF 
+		view ENCSR000DSF
+
+	track ENCSR000DSG_ENCFF228HNP
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF228HNP/@@download/ENCFF228HNP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DSG cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSG age=unknown description=ENCSR000DSG_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSG
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSG
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSG_ENCFF128OMP
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K36me3 view=ENCSR000DSG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF128OMP/@@download/ENCFF128OMP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DSG cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DSG age=unknown description=ENCSR000DSG_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSG 
+		view ENCSR000DSG
+
+	track ENCSR000DSH_ENCFF044WIE
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF044WIE/@@download/ENCFF044WIE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DSH cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSH age=unknown description=ENCSR000DSH_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSH
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSH
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSH_ENCFF453AZH
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K36me3 view=ENCSR000DSH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF453AZH/@@download/ENCFF453AZH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DSH cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DSH age=unknown description=ENCSR000DSH_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSH 
+		view ENCSR000DSH
+
+	track ENCSR000DSI_ENCFF927ZGT
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF927ZGT/@@download/ENCFF927ZGT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR000DSI cardiac_mesoderm (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSI age=unknown description=ENCSR000DSI_cardiac_mesoderm_fold_change_over_control_ donor=ENCDO221AAA sex=female view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSI
+	parent in_vitro_differentiated_cells_cardiac_mesoderm off
+	view ENCSR000DSI
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSI_ENCFF290GIF
+		parent in_vitro_differentiated_cells_cardiac_mesoderm_view_ENCSR000DSI off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO221AAA label=H3K36me3 view=ENCSR000DSI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF290GIF/@@download/ENCFF290GIF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR000DSI cardiac_mesoderm (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR000DSI age=unknown description=ENCSR000DSI_cardiac_mesoderm_replicated_peaks_ donor=ENCDO221AAA sex=female view=ENCSR000DSI 
+		view ENCSR000DSI
+

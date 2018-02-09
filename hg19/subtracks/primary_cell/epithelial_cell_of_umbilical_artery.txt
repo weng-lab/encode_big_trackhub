@@ -1,0 +1,33 @@
+
+track primary_cell_epithelial_cell_of_umbilical_artery
+parent super_primary_cell
+compositeTrack on
+shortLabel epithelial cell o
+longLabel epithelial cell of umbilical artery (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO052AAA=ENCDO052AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AAT_ENCFF646QKD
+	parent primary_cell_epithelial_cell_of_umbilical_artery off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO052AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF646QKD/@@download/ENCFF646QKD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAT epithelial_cell_of_umbilical_artery_female_newborn_and_male_newborn 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAT age=unknown description=ENCSR000AAT_epithelial_cell_of_umbilical_artery_female_newborn_and_male_newborn_plus_strand_signal_of_unique_reads_ donor=ENCDO052AAA sex=male view=bigWig 
+	view bigWig
+

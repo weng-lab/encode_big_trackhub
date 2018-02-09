@@ -1,0 +1,96 @@
+
+track primary_cell_glomerular_endothelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel glomerular endoth
+longLabel glomerular endothelial cell (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO248AAA=ENCDO248AAA ENCDO611INZ=ENCDO611INZ ENCDO778HJK=ENCDO778HJK 
+subGroup2 age age a22_week=22&#32;week aunknown=unknown 
+subGroup3 view view ENCSR000EOM=ENCSR000EOM bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EOM_ENCFF959OSD
+	parent primary_cell_glomerular_endothelial_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO248AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF959OSD/@@download/ENCFF959OSD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOM glomerular_endothelial_cell (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOM age=unknown description=ENCSR000EOM_glomerular_endothelial_cell_read_depth_normalized_signal_ donor=ENCDO248AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_glomerular_endothelial_cell_view_ENCSR000EOM
+	parent primary_cell_glomerular_endothelial_cell off
+	view ENCSR000EOM
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOM_ENCFF178MRH
+		parent primary_cell_glomerular_endothelial_cell_view_ENCSR000EOM off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO248AAA label=unknown view=ENCSR000EOM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF178MRH/@@download/ENCFF178MRH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOM glomerular_endothelial_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOM age=unknown description=ENCSR000EOM_glomerular_endothelial_cell_peaks_ donor=ENCDO248AAA sex=unknown view=ENCSR000EOM 
+		view ENCSR000EOM
+
+		track ENCSR000EOM_ENCFF785MCM
+		parent primary_cell_glomerular_endothelial_cell_view_ENCSR000EOM off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO248AAA label=unknown view=ENCSR000EOM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF785MCM/@@download/ENCFF785MCM.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF785MCM 9state-DNase DNase-seq on human HRGEC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOM age=unknown description=ENCFF785MCM_9state_DNase_DNase_seq_on_human_HRGEC donor=ENCDO248AAA sex=unknown view=ENCSR000EOM 
+		view ENCSR000EOM
+
+	track ENCSR469ZUS_ENCFF505PVZ
+	parent primary_cell_glomerular_endothelial_cell off
+	subGroups age=a22_week assay=RAMPAGE donor=ENCDO778HJK label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF505PVZ/@@download/ENCFF505PVZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR469ZUS glomerular_endothelial_cell_female_embryo_22_weeks_and_male_embryo_2
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR469ZUS age=22_week description=ENCSR469ZUS_glomerular_endothelial_cell_female_embryo_22_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO778HJK sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR878EUT_ENCFF233XJE
+	parent primary_cell_glomerular_endothelial_cell off
+	subGroups age=a22_week assay=RNA-seq donor=ENCDO611INZ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF233XJE/@@download/ENCFF233XJE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR878EUT glomerular_endothelial_cell_female_embryo_22_weeks_and_male_embryo_2
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR878EUT age=22_week description=ENCSR878EUT_glomerular_endothelial_cell_female_embryo_22_weeks_and_male_embryo_22_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO611INZ sex=male view=bigWig 
+	view bigWig
+

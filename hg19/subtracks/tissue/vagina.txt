@@ -1,0 +1,491 @@
+
+track tissue_vagina
+parent super_tissue
+compositeTrack on
+shortLabel vagina
+longLabel vagina (13 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO793LXB=ENCDO793LXB 
+subGroup2 age age a51_year=51&#32;year a53_year=53&#32;year 
+subGroup3 view view ENCSR258UUX=ENCSR258UUX ENCSR401ORC=ENCSR401ORC ENCSR437AYW=ENCSR437AYW ENCSR606TNN=ENCSR606TNN ENCSR655ECZ=ENCSR655ECZ ENCSR696HTM=ENCSR696HTM ENCSR718BTD=ENCSR718BTD ENCSR877SNO=ENCSR877SNO ENCSR962MYX=ENCSR962MYX ENCSR975QNR=ENCSR975QNR bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR437AYW_ENCFF911EQT
+	parent tissue_vagina off
+	subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF911EQT/@@download/ENCFF911EQT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR437AYW vagina_female_adult_53_years_ (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR437AYW age=53_year description=ENCSR437AYW_vagina_female_adult_53_years_read_depth_normalized_signal_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR437AYW
+	parent tissue_vagina off
+	view ENCSR437AYW
+	visibility dense
+	type bigBed
+
+		track ENCSR437AYW_ENCFF343BXS
+		parent tissue_vagina_view_ENCSR437AYW off
+		subGroups age=a53_year assay=DNase-seq donor=ENCDO793LXB label=unknown view=ENCSR437AYW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF343BXS/@@download/ENCFF343BXS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR437AYW vagina_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR437AYW age=53_year description=ENCSR437AYW_vagina_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR437AYW 
+		view ENCSR437AYW
+
+	track ENCSR258UUX_ENCFF071GTI
+	parent tissue_vagina off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF071GTI/@@download/ENCFF071GTI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR258UUX vagina_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR258UUX age=53_year description=ENCSR258UUX_vagina_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR258UUX
+	parent tissue_vagina off
+	view ENCSR258UUX
+	visibility dense
+	type bigBed
+
+		track ENCSR258UUX_ENCFF707ODD
+		parent tissue_vagina_view_ENCSR258UUX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR258UUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF707ODD/@@download/ENCFF707ODD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR258UUX vagina_female_adult_53_years_ (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR258UUX age=53_year description=ENCSR258UUX_vagina_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR258UUX 
+		view ENCSR258UUX
+
+		track ENCSR258UUX_ENCFF904XYE
+		parent tissue_vagina_view_ENCSR258UUX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR258UUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF904XYE/@@download/ENCFF904XYE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF904XYE 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR258UUX age=53_year description=ENCFF904XYE_5group_ donor=ENCDO793LXB sex=female view=ENCSR258UUX 
+		view ENCSR258UUX
+
+		track ENCSR258UUX_ENCFF794RHJ
+		parent tissue_vagina_view_ENCSR258UUX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR258UUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF794RHJ/@@download/ENCFF794RHJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF794RHJ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR258UUX age=53_year description=ENCFF794RHJ_9state_H3K4me3_ donor=ENCDO793LXB sex=female view=ENCSR258UUX 
+		view ENCSR258UUX
+
+		track ENCSR258UUX_ENCFF734RJY
+		parent tissue_vagina_view_ENCSR258UUX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K4me3 view=ENCSR258UUX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF734RJY/@@download/ENCFF734RJY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF734RJY 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR258UUX age=53_year description=ENCFF734RJY_9state_H3K27ac_ donor=ENCDO793LXB sex=female view=ENCSR258UUX 
+		view ENCSR258UUX
+
+	track ENCSR606TNN_ENCFF259VHI
+	parent tissue_vagina off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF259VHI/@@download/ENCFF259VHI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR606TNN vagina_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR606TNN age=53_year description=ENCSR606TNN_vagina_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR606TNN
+	parent tissue_vagina off
+	view ENCSR606TNN
+	visibility dense
+	type bigBed
+
+		track ENCSR606TNN_ENCFF770KBA
+		parent tissue_vagina_view_ENCSR606TNN off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR606TNN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF770KBA/@@download/ENCFF770KBA.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR606TNN vagina_female_adult_53_years_ (pseudoreplicated idr thresholded peak
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR606TNN age=53_year description=ENCSR606TNN_vagina_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR606TNN 
+		view ENCSR606TNN
+
+	track ENCSR655ECZ_ENCFF557ALA
+	parent tissue_vagina off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF557ALA/@@download/ENCFF557ALA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR655ECZ vagina_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR655ECZ age=51_year description=ENCSR655ECZ_vagina_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR655ECZ
+	parent tissue_vagina off
+	view ENCSR655ECZ
+	visibility dense
+	type bigBed
+
+		track ENCSR655ECZ_ENCFF922RVK
+		parent tissue_vagina_view_ENCSR655ECZ off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR655ECZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF922RVK/@@download/ENCFF922RVK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR655ECZ vagina_female_adult_51_year_ (pseudoreplicated idr thresholded peaks
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR655ECZ age=51_year description=ENCSR655ECZ_vagina_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR655ECZ 
+		view ENCSR655ECZ
+
+	track ENCSR718BTD_ENCFF868RBV
+	parent tissue_vagina off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF868RBV/@@download/ENCFF868RBV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR718BTD vagina_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR718BTD age=53_year description=ENCSR718BTD_vagina_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR718BTD
+	parent tissue_vagina off
+	view ENCSR718BTD
+	visibility dense
+	type bigBed
+
+		track ENCSR718BTD_ENCFF299QPF
+		parent tissue_vagina_view_ENCSR718BTD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR718BTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF299QPF/@@download/ENCFF299QPF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR718BTD vagina_female_adult_53_years_ (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR718BTD age=53_year description=ENCSR718BTD_vagina_female_adult_53_years_replicated_peaks_ donor=ENCDO793LXB sex=female view=ENCSR718BTD 
+		view ENCSR718BTD
+
+		track ENCSR718BTD_ENCFF904XYE
+		parent tissue_vagina_view_ENCSR718BTD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR718BTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF904XYE/@@download/ENCFF904XYE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF904XYE 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR718BTD age=53_year description=ENCFF904XYE_5group_ donor=ENCDO793LXB sex=female view=ENCSR718BTD 
+		view ENCSR718BTD
+
+		track ENCSR718BTD_ENCFF794RHJ
+		parent tissue_vagina_view_ENCSR718BTD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR718BTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF794RHJ/@@download/ENCFF794RHJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF794RHJ 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR718BTD age=53_year description=ENCFF794RHJ_9state_H3K4me3_ donor=ENCDO793LXB sex=female view=ENCSR718BTD 
+		view ENCSR718BTD
+
+		track ENCSR718BTD_ENCFF734RJY
+		parent tissue_vagina_view_ENCSR718BTD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K27ac view=ENCSR718BTD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF734RJY/@@download/ENCFF734RJY.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF734RJY 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR718BTD age=53_year description=ENCFF734RJY_9state_H3K27ac_ donor=ENCDO793LXB sex=female view=ENCSR718BTD 
+		view ENCSR718BTD
+
+	track ENCSR146LBD_ENCFF545OVI
+	parent tissue_vagina off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF545OVI/@@download/ENCFF545OVI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR146LBD vagina_female_adult_53_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR146LBD age=53_year description=ENCSR146LBD_vagina_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR219EAT_ENCFF222CLU
+	parent tissue_vagina off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF222CLU/@@download/ENCFF222CLU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR219EAT vagina_female_adult_53_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR219EAT age=53_year description=ENCSR219EAT_vagina_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR812JEU_ENCFF371FHL
+	parent tissue_vagina off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF371FHL/@@download/ENCFF371FHL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR812JEU vagina_female_adult_53_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR812JEU age=53_year description=ENCSR812JEU_vagina_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR877SNO_ENCFF737LLC
+	parent tissue_vagina off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF737LLC/@@download/ENCFF737LLC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR877SNO vagina_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR877SNO age=53_year description=ENCSR877SNO_vagina_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR877SNO
+	parent tissue_vagina off
+	view ENCSR877SNO
+	visibility dense
+	type bigBed
+
+		track ENCSR877SNO_ENCFF270YIJ
+		parent tissue_vagina_view_ENCSR877SNO off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=ENCSR877SNO 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF270YIJ/@@download/ENCFF270YIJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR877SNO vagina_female_adult_53_years_ (pseudoreplicated idr thresholded peak
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR877SNO age=53_year description=ENCSR877SNO_vagina_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR877SNO 
+		view ENCSR877SNO
+
+	track ENCSR975QNR_ENCFF381VXQ
+	parent tissue_vagina off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF381VXQ/@@download/ENCFF381VXQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR975QNR vagina_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR975QNR age=51_year description=ENCSR975QNR_vagina_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR975QNR
+	parent tissue_vagina off
+	view ENCSR975QNR
+	visibility dense
+	type bigBed
+
+		track ENCSR975QNR_ENCFF692BIM
+		parent tissue_vagina_view_ENCSR975QNR off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR975QNR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF692BIM/@@download/ENCFF692BIM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR975QNR vagina_female_adult_51_year_ (pseudoreplicated idr thresholded peaks
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR975QNR age=51_year description=ENCSR975QNR_vagina_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR975QNR 
+		view ENCSR975QNR
+
+	track ENCSR962MYX_ENCFF077VAY
+	parent tissue_vagina off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF077VAY/@@download/ENCFF077VAY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR962MYX vagina_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR962MYX age=53_year description=ENCSR962MYX_vagina_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR962MYX
+	parent tissue_vagina off
+	view ENCSR962MYX
+	visibility dense
+	type bigBed
+
+		track ENCSR962MYX_ENCFF825IXL
+		parent tissue_vagina_view_ENCSR962MYX off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=H3K36me3 view=ENCSR962MYX 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF825IXL/@@download/ENCFF825IXL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR962MYX vagina_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR962MYX age=53_year description=ENCSR962MYX_vagina_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR962MYX 
+		view ENCSR962MYX
+
+	track ENCSR401ORC_ENCFF495LKH
+	parent tissue_vagina off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF495LKH/@@download/ENCFF495LKH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR401ORC vagina_female_adult_53_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR401ORC age=53_year description=ENCSR401ORC_vagina_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR401ORC
+	parent tissue_vagina off
+	view ENCSR401ORC
+	visibility dense
+	type bigBed
+
+		track ENCSR401ORC_ENCFF586ION
+		parent tissue_vagina_view_ENCSR401ORC off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=POLR2A view=ENCSR401ORC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF586ION/@@download/ENCFF586ION.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR401ORC vagina_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR401ORC age=53_year description=ENCSR401ORC_vagina_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR401ORC 
+		view ENCSR401ORC
+
+	track ENCSR696HTM_ENCFF757MYM
+	parent tissue_vagina off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF757MYM/@@download/ENCFF757MYM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR696HTM vagina_female_adult_51_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR696HTM age=51_year description=ENCSR696HTM_vagina_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_vagina_view_ENCSR696HTM
+	parent tissue_vagina off
+	view ENCSR696HTM
+	visibility dense
+	type bigBed
+
+		track ENCSR696HTM_ENCFF504QTJ
+		parent tissue_vagina_view_ENCSR696HTM off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=POLR2A view=ENCSR696HTM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF504QTJ/@@download/ENCFF504QTJ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR696HTM vagina_female_adult_51_year_ (pseudoreplicated idr thresholded peaks
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR696HTM age=51_year description=ENCSR696HTM_vagina_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR696HTM 
+		view ENCSR696HTM
+

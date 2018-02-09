@@ -1,0 +1,412 @@
+
+track in_vitro_differentiated_cells_cardiac_muscle_cell
+parent super_in_vitro_differentiated_cells
+compositeTrack on
+shortLabel cardiac muscle ce
+longLabel cardiac muscle cell (10 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO924HBJ=ENCDO924HBJ 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000NPF=ENCSR000NPF ENCSR269ULZ=ENCSR269ULZ ENCSR276OLB=ENCSR276OLB ENCSR652QNW=ENCSR652QNW ENCSR713SXF=ENCSR713SXF ENCSR864LRY=ENCSR864LRY ENCSR994NPK=ENCSR994NPK bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR652QNW_ENCFF183RRC
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF183RRC/@@download/ENCFF183RRC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR652QNW cardiac_muscle_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR652QNW age=unknown description=ENCSR652QNW_cardiac_muscle_cell_fold_change_over_control_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR652QNW
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	view ENCSR652QNW
+	visibility dense
+	type bigBed
+
+		track ENCSR652QNW_ENCFF900IDB
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR652QNW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K4me3 view=ENCSR652QNW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF900IDB/@@download/ENCFF900IDB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR652QNW cardiac_muscle_cell (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR652QNW age=unknown description=ENCSR652QNW_cardiac_muscle_cell_replicated_peaks_ donor=ENCDO924HBJ sex=unknown view=ENCSR652QNW 
+		view ENCSR652QNW
+
+		track ENCSR652QNW_ENCFF725NGS
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR652QNW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K4me3 view=ENCSR652QNW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF725NGS/@@download/ENCFF725NGS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF725NGS 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR652QNW age=unknown description=ENCFF725NGS_9state_CTCF_ donor=ENCDO924HBJ sex=unknown view=ENCSR652QNW 
+		view ENCSR652QNW
+
+		track ENCSR652QNW_ENCFF663ANR
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR652QNW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K4me3 view=ENCSR652QNW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663ANR/@@download/ENCFF663ANR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF663ANR 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR652QNW age=unknown description=ENCFF663ANR_5group_ donor=ENCDO924HBJ sex=unknown view=ENCSR652QNW 
+		view ENCSR652QNW
+
+		track ENCSR652QNW_ENCFF080SGE
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR652QNW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K4me3 view=ENCSR652QNW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF080SGE/@@download/ENCFF080SGE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF080SGE 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR652QNW age=unknown description=ENCFF080SGE_9state_H3K27ac_ donor=ENCDO924HBJ sex=unknown view=ENCSR652QNW 
+		view ENCSR652QNW
+
+		track ENCSR652QNW_ENCFF706UPB
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR652QNW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K4me3 view=ENCSR652QNW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF706UPB/@@download/ENCFF706UPB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF706UPB 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR652QNW age=unknown description=ENCFF706UPB_9state_H3K4me3_ donor=ENCDO924HBJ sex=unknown view=ENCSR652QNW 
+		view ENCSR652QNW
+
+	track ENCSR000NPF_ENCFF739LGT
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF739LGT/@@download/ENCFF739LGT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR000NPF cardiac_muscle_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000NPF age=unknown description=ENCSR000NPF_cardiac_muscle_cell_fold_change_over_control_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR000NPF
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	view ENCSR000NPF
+	visibility dense
+	type bigBed
+
+		track ENCSR000NPF_ENCFF496JPO
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR000NPF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K27ac view=ENCSR000NPF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF496JPO/@@download/ENCFF496JPO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR000NPF cardiac_muscle_cell (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR000NPF age=unknown description=ENCSR000NPF_cardiac_muscle_cell_replicated_peaks_ donor=ENCDO924HBJ sex=unknown view=ENCSR000NPF 
+		view ENCSR000NPF
+
+		track ENCSR000NPF_ENCFF725NGS
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR000NPF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K27ac view=ENCSR000NPF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF725NGS/@@download/ENCFF725NGS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF725NGS 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000NPF age=unknown description=ENCFF725NGS_9state_CTCF_ donor=ENCDO924HBJ sex=unknown view=ENCSR000NPF 
+		view ENCSR000NPF
+
+		track ENCSR000NPF_ENCFF663ANR
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR000NPF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K27ac view=ENCSR000NPF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663ANR/@@download/ENCFF663ANR.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF663ANR 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000NPF age=unknown description=ENCFF663ANR_5group_ donor=ENCDO924HBJ sex=unknown view=ENCSR000NPF 
+		view ENCSR000NPF
+
+		track ENCSR000NPF_ENCFF080SGE
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR000NPF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K27ac view=ENCSR000NPF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF080SGE/@@download/ENCFF080SGE.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF080SGE 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000NPF age=unknown description=ENCFF080SGE_9state_H3K27ac_ donor=ENCDO924HBJ sex=unknown view=ENCSR000NPF 
+		view ENCSR000NPF
+
+		track ENCSR000NPF_ENCFF706UPB
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR000NPF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K27ac view=ENCSR000NPF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF706UPB/@@download/ENCFF706UPB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF706UPB 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000NPF age=unknown description=ENCFF706UPB_9state_H3K4me3_ donor=ENCDO924HBJ sex=unknown view=ENCSR000NPF 
+		view ENCSR000NPF
+
+	track ENCSR713SXF_ENCFF056RTG
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF056RTG/@@download/ENCFF056RTG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR713SXF cardiac_muscle_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR713SXF age=unknown description=ENCSR713SXF_cardiac_muscle_cell_fold_change_over_control_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR713SXF
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	view ENCSR713SXF
+	visibility dense
+	type bigBed
+
+		track ENCSR713SXF_ENCFF583DWN
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR713SXF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=CTCF view=ENCSR713SXF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF583DWN/@@download/ENCFF583DWN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR713SXF cardiac_muscle_cell (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR713SXF age=unknown description=ENCSR713SXF_cardiac_muscle_cell_peaks_ donor=ENCDO924HBJ sex=unknown view=ENCSR713SXF 
+		view ENCSR713SXF
+
+	track ENCSR294NDO_ENCFF407JND
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO924HBJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF407JND/@@download/ENCFF407JND.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR294NDO cardiac_muscle_cell (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR294NDO age=unknown description=ENCSR294NDO_cardiac_muscle_cell_signal_of_unique_reads_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR379YAE_ENCFF425MCB
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO924HBJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF425MCB/@@download/ENCFF425MCB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR379YAE cardiac_muscle_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR379YAE age=unknown description=ENCSR379YAE_cardiac_muscle_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR613JNT_ENCFF702OKH
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=RAMPAGE donor=ENCDO924HBJ label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF702OKH/@@download/ENCFF702OKH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR613JNT cardiac_muscle_cell (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR613JNT age=unknown description=ENCSR613JNT_cardiac_muscle_cell_plus_strand_signal_of_unique_reads_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR864LRY_ENCFF891FHN
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF891FHN/@@download/ENCFF891FHN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR864LRY cardiac_muscle_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR864LRY age=unknown description=ENCSR864LRY_cardiac_muscle_cell_fold_change_over_control_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR864LRY
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	view ENCSR864LRY
+	visibility dense
+	type bigBed
+
+		track ENCSR864LRY_ENCFF015PKP
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR864LRY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K27me3 view=ENCSR864LRY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF015PKP/@@download/ENCFF015PKP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR864LRY cardiac_muscle_cell (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR864LRY age=unknown description=ENCSR864LRY_cardiac_muscle_cell_replicated_peaks_ donor=ENCDO924HBJ sex=unknown view=ENCSR864LRY 
+		view ENCSR864LRY
+
+	track ENCSR994NPK_ENCFF691HEW
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF691HEW/@@download/ENCFF691HEW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR994NPK cardiac_muscle_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR994NPK age=unknown description=ENCSR994NPK_cardiac_muscle_cell_fold_change_over_control_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR994NPK
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	view ENCSR994NPK
+	visibility dense
+	type bigBed
+
+		track ENCSR994NPK_ENCFF070CTN
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR994NPK off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K36me3 view=ENCSR994NPK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF070CTN/@@download/ENCFF070CTN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR994NPK cardiac_muscle_cell (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR994NPK age=unknown description=ENCSR994NPK_cardiac_muscle_cell_replicated_peaks_ donor=ENCDO924HBJ sex=unknown view=ENCSR994NPK 
+		view ENCSR994NPK
+
+	track ENCSR276OLB_ENCFF041ZGQ
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF041ZGQ/@@download/ENCFF041ZGQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR276OLB cardiac_muscle_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR276OLB age=unknown description=ENCSR276OLB_cardiac_muscle_cell_fold_change_over_control_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR276OLB
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	view ENCSR276OLB
+	visibility dense
+	type bigBed
+
+		track ENCSR276OLB_ENCFF467JJU
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR276OLB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K4me1 view=ENCSR276OLB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF467JJU/@@download/ENCFF467JJU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR276OLB cardiac_muscle_cell (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR276OLB age=unknown description=ENCSR276OLB_cardiac_muscle_cell_replicated_peaks_ donor=ENCDO924HBJ sex=unknown view=ENCSR276OLB 
+		view ENCSR276OLB
+
+	track ENCSR269ULZ_ENCFF611WCR
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF611WCR/@@download/ENCFF611WCR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR269ULZ cardiac_muscle_cell (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR269ULZ age=unknown description=ENCSR269ULZ_cardiac_muscle_cell_fold_change_over_control_ donor=ENCDO924HBJ sex=unknown view=bigWig 
+	view bigWig
+
+	track in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR269ULZ
+	parent in_vitro_differentiated_cells_cardiac_muscle_cell off
+	view ENCSR269ULZ
+	visibility dense
+	type bigBed
+
+		track ENCSR269ULZ_ENCFF108UFH
+		parent in_vitro_differentiated_cells_cardiac_muscle_cell_view_ENCSR269ULZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO924HBJ label=H3K9me3 view=ENCSR269ULZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF108UFH/@@download/ENCFF108UFH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR269ULZ cardiac_muscle_cell (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR269ULZ age=unknown description=ENCSR269ULZ_cardiac_muscle_cell_replicated_peaks_ donor=ENCDO924HBJ sex=unknown view=ENCSR269ULZ 
+		view ENCSR269ULZ
+

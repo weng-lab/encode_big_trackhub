@@ -1,0 +1,7 @@
+
+hub ENCODE
+shortLabel ENCODE Trackhub Test3
+longLabel ENCODE Trackhub Test3
+genomesFile genomes.txt
+email zhiping.weng@umassmed.edu
+descriptionUrl http://encodeproject.org/

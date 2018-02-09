@@ -1,0 +1,33 @@
+
+track primary_cell_bronchial_smooth_muscle_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel bronchial smooth 
+longLabel bronchial smooth muscle cell (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO025AAA=ENCDO025AAA 
+subGroup2 age age a52_year=52&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AAE_ENCFF256PIZ
+	parent primary_cell_bronchial_smooth_muscle_cell off
+	subGroups age=a52_year assay=RNA-seq donor=ENCDO025AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF256PIZ/@@download/ENCFF256PIZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAE bronchial_smooth_muscle_cell_male_adult_52_years_and_male_adult_59_y
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAE age=52_year description=ENCSR000AAE_bronchial_smooth_muscle_cell_male_adult_52_years_and_male_adult_59_years_plus_strand_signal_of_unique_reads_ donor=ENCDO025AAA sex=male view=bigWig 
+	view bigWig
+

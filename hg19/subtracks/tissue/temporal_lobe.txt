@@ -1,0 +1,518 @@
+
+track tissue_temporal_lobe
+parent super_tissue
+compositeTrack on
+shortLabel temporal lobe
+longLabel temporal lobe (16 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO064AAA=ENCDO064AAA ENCDO067AAA=ENCDO067AAA ENCDO871IWW=ENCDO871IWW ENCDO980BZD=ENCDO980BZD 
+subGroup2 age age a20_week=20&#32;week a24_week=24&#32;week a75_year=75&#32;year a81_year=81&#32;year 
+subGroup3 view view ENCSR014TDK=ENCSR014TDK ENCSR113OKR=ENCSR113OKR ENCSR358KID=ENCSR358KID ENCSR377MFD=ENCSR377MFD ENCSR405YYG=ENCSR405YYG ENCSR477BHF=ENCSR477BHF ENCSR479GJI=ENCSR479GJI ENCSR569AGQ=ENCSR569AGQ ENCSR608XIG=ENCSR608XIG ENCSR717AJD=ENCSR717AJD ENCSR768DMK=ENCSR768DMK ENCSR781OGI=ENCSR781OGI ENCSR901SCD=ENCSR901SCD bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR477BHF_ENCFF565UAK
+	parent tissue_temporal_lobe off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF565UAK/@@download/ENCFF565UAK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR477BHF temporal_lobe_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR477BHF age=75_year description=ENCSR477BHF_temporal_lobe_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR477BHF
+	parent tissue_temporal_lobe off
+	view ENCSR477BHF
+	visibility dense
+	type bigBed
+
+		track ENCSR477BHF_ENCFF939UVF
+		parent tissue_temporal_lobe_view_ENCSR477BHF off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me3 view=ENCSR477BHF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF939UVF/@@download/ENCFF939UVF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR477BHF temporal_lobe_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR477BHF age=75_year description=ENCSR477BHF_temporal_lobe_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR477BHF 
+		view ENCSR477BHF
+
+	track ENCSR717AJD_ENCFF625DED
+	parent tissue_temporal_lobe off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF625DED/@@download/ENCFF625DED.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR717AJD temporal_lobe_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR717AJD age=81_year description=ENCSR717AJD_temporal_lobe_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR717AJD
+	parent tissue_temporal_lobe off
+	view ENCSR717AJD
+	visibility dense
+	type bigBed
+
+		track ENCSR717AJD_ENCFF590GQK
+		parent tissue_temporal_lobe_view_ENCSR717AJD off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me3 view=ENCSR717AJD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF590GQK/@@download/ENCFF590GQK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR717AJD temporal_lobe_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR717AJD age=81_year description=ENCSR717AJD_temporal_lobe_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR717AJD 
+		view ENCSR717AJD
+
+	track ENCSR014TDK_ENCFF467FJD
+	parent tissue_temporal_lobe off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF467FJD/@@download/ENCFF467FJD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR014TDK temporal_lobe_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR014TDK age=81_year description=ENCSR014TDK_temporal_lobe_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR014TDK
+	parent tissue_temporal_lobe off
+	view ENCSR014TDK
+	visibility dense
+	type bigBed
+
+		track ENCSR014TDK_ENCFF855OIO
+		parent tissue_temporal_lobe_view_ENCSR014TDK off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27ac view=ENCSR014TDK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF855OIO/@@download/ENCFF855OIO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR014TDK temporal_lobe_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR014TDK age=81_year description=ENCSR014TDK_temporal_lobe_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR014TDK 
+		view ENCSR014TDK
+
+	track ENCSR608XIG_ENCFF297ASM
+	parent tissue_temporal_lobe off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF297ASM/@@download/ENCFF297ASM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR608XIG temporal_lobe_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR608XIG age=75_year description=ENCSR608XIG_temporal_lobe_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR608XIG
+	parent tissue_temporal_lobe off
+	view ENCSR608XIG
+	visibility dense
+	type bigBed
+
+		track ENCSR608XIG_ENCFF988ABP
+		parent tissue_temporal_lobe_view_ENCSR608XIG off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27ac view=ENCSR608XIG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF988ABP/@@download/ENCFF988ABP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR608XIG temporal_lobe_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR608XIG age=75_year description=ENCSR608XIG_temporal_lobe_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR608XIG 
+		view ENCSR608XIG
+
+	track ENCSR000AFJ_ENCFF951JCR
+	parent tissue_temporal_lobe off
+	subGroups age=a20_week assay=RNA-seq donor=ENCDO064AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF951JCR/@@download/ENCFF951JCR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AFJ temporal_lobe_female_embryo_20_weeks_and_female_embryo_24_weeks_ (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AFJ age=20_week description=ENCSR000AFJ_temporal_lobe_female_embryo_20_weeks_and_female_embryo_24_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO064AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGD_ENCFF501EOR
+	parent tissue_temporal_lobe off
+	subGroups age=a20_week assay=RNA-seq donor=ENCDO064AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF501EOR/@@download/ENCFF501EOR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AGD temporal_lobe_female_embryo_20_weeks_and_female_embryo_24_weeks_ (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGD age=20_week description=ENCSR000AGD_temporal_lobe_female_embryo_20_weeks_and_female_embryo_24_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO064AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000AGX_ENCFF938JQO
+	parent tissue_temporal_lobe off
+	subGroups age=a24_week assay=RAMPAGE donor=ENCDO067AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF938JQO/@@download/ENCFF938JQO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR000AGX temporal_lobe_female_embryo_20_weeks_and_female_embryo_24_weeks_ (pl
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AGX age=24_week description=ENCSR000AGX_temporal_lobe_female_embryo_20_weeks_and_female_embryo_24_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO067AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR358KID_ENCFF113WPZ
+	parent tissue_temporal_lobe off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF113WPZ/@@download/ENCFF113WPZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR358KID temporal_lobe_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR358KID age=81_year description=ENCSR358KID_temporal_lobe_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR358KID
+	parent tissue_temporal_lobe off
+	view ENCSR358KID
+	visibility dense
+	type bigBed
+
+		track ENCSR358KID_ENCFF531UNW
+		parent tissue_temporal_lobe_view_ENCSR358KID off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K27me3 view=ENCSR358KID 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF531UNW/@@download/ENCFF531UNW.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR358KID temporal_lobe_male_adult_81_year_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR358KID age=81_year description=ENCSR358KID_temporal_lobe_male_adult_81_year_stable_peaks_ donor=ENCDO980BZD sex=male view=ENCSR358KID 
+		view ENCSR358KID
+
+	track ENCSR569AGQ_ENCFF715ZYJ
+	parent tissue_temporal_lobe off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF715ZYJ/@@download/ENCFF715ZYJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR569AGQ temporal_lobe_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR569AGQ age=75_year description=ENCSR569AGQ_temporal_lobe_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR569AGQ
+	parent tissue_temporal_lobe off
+	view ENCSR569AGQ
+	visibility dense
+	type bigBed
+
+		track ENCSR569AGQ_ENCFF956BPK
+		parent tissue_temporal_lobe_view_ENCSR569AGQ off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K27me3 view=ENCSR569AGQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF956BPK/@@download/ENCFF956BPK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR569AGQ temporal_lobe_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR569AGQ age=75_year description=ENCSR569AGQ_temporal_lobe_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR569AGQ 
+		view ENCSR569AGQ
+
+	track ENCSR113OKR_ENCFF049QWB
+	parent tissue_temporal_lobe off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF049QWB/@@download/ENCFF049QWB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR113OKR temporal_lobe_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR113OKR age=81_year description=ENCSR113OKR_temporal_lobe_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR113OKR
+	parent tissue_temporal_lobe off
+	view ENCSR113OKR
+	visibility dense
+	type bigBed
+
+		track ENCSR113OKR_ENCFF415CXS
+		parent tissue_temporal_lobe_view_ENCSR113OKR off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K36me3 view=ENCSR113OKR 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF415CXS/@@download/ENCFF415CXS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR113OKR temporal_lobe_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR113OKR age=81_year description=ENCSR113OKR_temporal_lobe_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR113OKR 
+		view ENCSR113OKR
+
+	track ENCSR781OGI_ENCFF826LCI
+	parent tissue_temporal_lobe off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF826LCI/@@download/ENCFF826LCI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR781OGI temporal_lobe_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR781OGI age=75_year description=ENCSR781OGI_temporal_lobe_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR781OGI
+	parent tissue_temporal_lobe off
+	view ENCSR781OGI
+	visibility dense
+	type bigBed
+
+		track ENCSR781OGI_ENCFF750FGE
+		parent tissue_temporal_lobe_view_ENCSR781OGI off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K36me3 view=ENCSR781OGI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF750FGE/@@download/ENCFF750FGE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR781OGI temporal_lobe_female_adult_75_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR781OGI age=75_year description=ENCSR781OGI_temporal_lobe_female_adult_75_years_stable_peaks_ donor=ENCDO871IWW sex=female view=ENCSR781OGI 
+		view ENCSR781OGI
+
+	track ENCSR479GJI_ENCFF926ZCA
+	parent tissue_temporal_lobe off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF926ZCA/@@download/ENCFF926ZCA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR479GJI temporal_lobe_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR479GJI age=75_year description=ENCSR479GJI_temporal_lobe_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR479GJI
+	parent tissue_temporal_lobe off
+	view ENCSR479GJI
+	visibility dense
+	type bigBed
+
+		track ENCSR479GJI_ENCFF770KTT
+		parent tissue_temporal_lobe_view_ENCSR479GJI off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K4me1 view=ENCSR479GJI 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF770KTT/@@download/ENCFF770KTT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR479GJI temporal_lobe_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR479GJI age=75_year description=ENCSR479GJI_temporal_lobe_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR479GJI 
+		view ENCSR479GJI
+
+	track ENCSR901SCD_ENCFF182UGZ
+	parent tissue_temporal_lobe off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF182UGZ/@@download/ENCFF182UGZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR901SCD temporal_lobe_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR901SCD age=81_year description=ENCSR901SCD_temporal_lobe_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR901SCD
+	parent tissue_temporal_lobe off
+	view ENCSR901SCD
+	visibility dense
+	type bigBed
+
+		track ENCSR901SCD_ENCFF083UZQ
+		parent tissue_temporal_lobe_view_ENCSR901SCD off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K4me1 view=ENCSR901SCD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF083UZQ/@@download/ENCFF083UZQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR901SCD temporal_lobe_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR901SCD age=81_year description=ENCSR901SCD_temporal_lobe_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR901SCD 
+		view ENCSR901SCD
+
+	track ENCSR768DMK_ENCFF538KWE
+	parent tissue_temporal_lobe off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF538KWE/@@download/ENCFF538KWE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,121,3
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9ac
+	longLabel ENCSR768DMK temporal_lobe_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR768DMK age=75_year description=ENCSR768DMK_temporal_lobe_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR768DMK
+	parent tissue_temporal_lobe off
+	view ENCSR768DMK
+	visibility dense
+	type bigBed
+
+		track ENCSR768DMK_ENCFF462JKB
+		parent tissue_temporal_lobe_view_ENCSR768DMK off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9ac view=ENCSR768DMK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF462JKB/@@download/ENCFF462JKB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9ac
+		longLabel ENCSR768DMK temporal_lobe_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 255,121,3
+		darkerLabels on
+		metadata accession=ENCSR768DMK age=75_year description=ENCSR768DMK_temporal_lobe_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR768DMK 
+		view ENCSR768DMK
+
+	track ENCSR377MFD_ENCFF505PLK
+	parent tissue_temporal_lobe off
+	subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF505PLK/@@download/ENCFF505PLK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR377MFD temporal_lobe_male_adult_81_year_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR377MFD age=81_year description=ENCSR377MFD_temporal_lobe_male_adult_81_year_fold_change_over_control_ donor=ENCDO980BZD sex=male view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR377MFD
+	parent tissue_temporal_lobe off
+	view ENCSR377MFD
+	visibility dense
+	type bigBed
+
+		track ENCSR377MFD_ENCFF639HZB
+		parent tissue_temporal_lobe_view_ENCSR377MFD off
+		subGroups age=a81_year assay=ChIP-seq donor=ENCDO980BZD label=H3K9me3 view=ENCSR377MFD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF639HZB/@@download/ENCFF639HZB.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR377MFD temporal_lobe_male_adult_81_year_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR377MFD age=81_year description=ENCSR377MFD_temporal_lobe_male_adult_81_year_peaks_ donor=ENCDO980BZD sex=male view=ENCSR377MFD 
+		view ENCSR377MFD
+
+	track ENCSR405YYG_ENCFF128KIR
+	parent tissue_temporal_lobe off
+	subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF128KIR/@@download/ENCFF128KIR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR405YYG temporal_lobe_female_adult_75_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR405YYG age=75_year description=ENCSR405YYG_temporal_lobe_female_adult_75_years_fold_change_over_control_ donor=ENCDO871IWW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_temporal_lobe_view_ENCSR405YYG
+	parent tissue_temporal_lobe off
+	view ENCSR405YYG
+	visibility dense
+	type bigBed
+
+		track ENCSR405YYG_ENCFF886EGY
+		parent tissue_temporal_lobe_view_ENCSR405YYG off
+		subGroups age=a75_year assay=ChIP-seq donor=ENCDO871IWW label=H3K9me3 view=ENCSR405YYG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF886EGY/@@download/ENCFF886EGY.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR405YYG temporal_lobe_female_adult_75_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR405YYG age=75_year description=ENCSR405YYG_temporal_lobe_female_adult_75_years_peaks_ donor=ENCDO871IWW sex=female view=ENCSR405YYG 
+		view ENCSR405YYG
+

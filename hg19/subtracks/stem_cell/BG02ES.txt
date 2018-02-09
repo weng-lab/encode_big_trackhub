@@ -1,0 +1,123 @@
+
+track stem_cell_BG02ES
+parent super_stem_cell
+compositeTrack on
+shortLabel BG02ES
+longLabel BG02ES (7 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO176AAA=ENCDO176AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AXB_ENCFF000KTW
+	parent stem_cell_BG02ES off
+	subGroups age=aunknown assay=Repli-chip donor=ENCDO176AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF000KTW/@@download/ENCFF000KTW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-chip
+	longLabel ENCSR000AXB BG02ES (wavelet-smoothed signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AXB age=unknown description=ENCSR000AXB_BG02ES_wavelet_smoothed_signal_ donor=ENCDO176AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CXB_ENCFF001GHF
+	parent stem_cell_BG02ES off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO176AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GHF/@@download/ENCFF001GHF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR000CXB BG02ES_G1b_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CXB age=unknown description=ENCSR000CXB_BG02ES_G1b_phase_percentage_normalized_signal_ donor=ENCDO176AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR226MSR_ENCFF001GHO
+	parent stem_cell_BG02ES off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO176AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GHO/@@download/ENCFF001GHO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR226MSR BG02ES_S2_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR226MSR age=unknown description=ENCSR226MSR_BG02ES_S2_phase_percentage_normalized_signal_ donor=ENCDO176AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR305ALH_ENCFF001GHS
+	parent stem_cell_BG02ES off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO176AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GHS/@@download/ENCFF001GHS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR305ALH BG02ES_S3_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR305ALH age=unknown description=ENCSR305ALH_BG02ES_S3_phase_percentage_normalized_signal_ donor=ENCDO176AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR347TZI_ENCFF001GHH
+	parent stem_cell_BG02ES off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO176AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GHH/@@download/ENCFF001GHH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR347TZI BG02ES_G2_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR347TZI age=unknown description=ENCSR347TZI_BG02ES_G2_phase_percentage_normalized_signal_ donor=ENCDO176AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR537ICK_ENCFF001GHM
+	parent stem_cell_BG02ES off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO176AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GHM/@@download/ENCFF001GHM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR537ICK BG02ES_S1_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR537ICK age=unknown description=ENCSR537ICK_BG02ES_S1_phase_percentage_normalized_signal_ donor=ENCDO176AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR999NSK_ENCFF001GHV
+	parent stem_cell_BG02ES off
+	subGroups age=aunknown assay=Repli-seq donor=ENCDO176AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF001GHV/@@download/ENCFF001GHV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel Repli-seq
+	longLabel ENCSR999NSK BG02ES_S4_phase (percentage normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR999NSK age=unknown description=ENCSR999NSK_BG02ES_S4_phase_percentage_normalized_signal_ donor=ENCDO176AAA sex=male view=bigWig 
+	view bigWig
+

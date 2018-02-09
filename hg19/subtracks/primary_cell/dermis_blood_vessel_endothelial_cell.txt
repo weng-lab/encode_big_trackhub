@@ -1,0 +1,129 @@
+
+track primary_cell_dermis_blood_vessel_endothelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel dermis blood vess
+longLabel dermis blood vessel endothelial cell (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO033AAA=ENCDO033AAA ENCDO240AAA=ENCDO240AAA ENCDO244AAA=ENCDO244AAA 
+subGroup2 age age a13_year=13&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000ENY=ENCSR000ENY ENCSR000EOC=ENCSR000EOC bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ENY_ENCFF743TGR
+	parent primary_cell_dermis_blood_vessel_endothelial_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO240AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF743TGR/@@download/ENCFF743TGR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENY dermis_blood_vessel_endothelial_cell_female_adult (read-depth normal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENY age=unknown description=ENCSR000ENY_dermis_blood_vessel_endothelial_cell_female_adult_read_depth_normalized_signal_ donor=ENCDO240AAA sex=female view=bigWig 
+	view bigWig
+
+	track primary_cell_dermis_blood_vessel_endothelial_cell_view_ENCSR000ENY
+	parent primary_cell_dermis_blood_vessel_endothelial_cell off
+	view ENCSR000ENY
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENY_ENCFF478BNP
+		parent primary_cell_dermis_blood_vessel_endothelial_cell_view_ENCSR000ENY off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO240AAA label=unknown view=ENCSR000ENY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF478BNP/@@download/ENCFF478BNP.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENY dermis_blood_vessel_endothelial_cell_female_adult (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENY age=unknown description=ENCSR000ENY_dermis_blood_vessel_endothelial_cell_female_adult_peaks_ donor=ENCDO240AAA sex=female view=ENCSR000ENY 
+		view ENCSR000ENY
+
+		track ENCSR000ENY_ENCFF399QNN
+		parent primary_cell_dermis_blood_vessel_endothelial_cell_view_ENCSR000ENY off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO240AAA label=unknown view=ENCSR000ENY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF399QNN/@@download/ENCFF399QNN.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF399QNN 9state-DNase DNase-seq and DGF on human HMVEC-dBl-Ad
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENY age=unknown description=ENCFF399QNN_9state_DNase_DNase_seq_and_DGF_on_human_HMVEC_dBl_Ad donor=ENCDO240AAA sex=female view=ENCSR000ENY 
+		view ENCSR000ENY
+
+	track ENCSR000EOC_ENCFF237KOS
+	parent primary_cell_dermis_blood_vessel_endothelial_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO244AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF237KOS/@@download/ENCFF237KOS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOC dermis_blood_vessel_endothelial_cell_male_newborn (read-depth normal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOC age=unknown description=ENCSR000EOC_dermis_blood_vessel_endothelial_cell_male_newborn_read_depth_normalized_signal_ donor=ENCDO244AAA sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_dermis_blood_vessel_endothelial_cell_view_ENCSR000EOC
+	parent primary_cell_dermis_blood_vessel_endothelial_cell off
+	view ENCSR000EOC
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOC_ENCFF765FKF
+		parent primary_cell_dermis_blood_vessel_endothelial_cell_view_ENCSR000EOC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO244AAA label=unknown view=ENCSR000EOC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF765FKF/@@download/ENCFF765FKF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOC dermis_blood_vessel_endothelial_cell_male_newborn (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOC age=unknown description=ENCSR000EOC_dermis_blood_vessel_endothelial_cell_male_newborn_peaks_ donor=ENCDO244AAA sex=male view=ENCSR000EOC 
+		view ENCSR000EOC
+
+		track ENCSR000EOC_ENCFF854RND
+		parent primary_cell_dermis_blood_vessel_endothelial_cell_view_ENCSR000EOC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO244AAA label=unknown view=ENCSR000EOC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF854RND/@@download/ENCFF854RND.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF854RND 9state-DNase DNase-seq on human HMVEC-dNeo
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOC age=unknown description=ENCFF854RND_9state_DNase_DNase_seq_on_human_HMVEC_dNeo donor=ENCDO244AAA sex=male view=ENCSR000EOC 
+		view ENCSR000EOC
+
+	track ENCSR000AAI_ENCFF073EKL
+	parent primary_cell_dermis_blood_vessel_endothelial_cell off
+	subGroups age=a13_year assay=RNA-seq donor=ENCDO033AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF073EKL/@@download/ENCFF073EKL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAI dermis_blood_vessel_endothelial_cell_female_child_16_years_and_male_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAI age=13_year description=ENCSR000AAI_dermis_blood_vessel_endothelial_cell_female_child_16_years_and_male_child_13_years_plus_strand_signal_of_unique_reads_ donor=ENCDO033AAA sex=male view=bigWig 
+	view bigWig
+

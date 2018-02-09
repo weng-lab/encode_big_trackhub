@@ -1,0 +1,81 @@
+
+track primary_cell_renal_cortical_epithelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel renal cortical ep
+longLabel renal cortical epithelial cell (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO048AAA=ENCDO048AAA ENCDO098AAA=ENCDO098AAA 
+subGroup2 age age a69_year=69&#32;year aunknown=unknown 
+subGroup3 view view ENCSR000EOK=ENCSR000EOK bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EOK_ENCFF847ONQ
+	parent primary_cell_renal_cortical_epithelial_cell off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO098AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF847ONQ/@@download/ENCFF847ONQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EOK renal_cortical_epithelial_cell (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EOK age=unknown description=ENCSR000EOK_renal_cortical_epithelial_cell_read_depth_normalized_signal_ donor=ENCDO098AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_renal_cortical_epithelial_cell_view_ENCSR000EOK
+	parent primary_cell_renal_cortical_epithelial_cell off
+	view ENCSR000EOK
+	visibility dense
+	type bigBed
+
+		track ENCSR000EOK_ENCFF527HHE
+		parent primary_cell_renal_cortical_epithelial_cell_view_ENCSR000EOK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO098AAA label=unknown view=ENCSR000EOK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF527HHE/@@download/ENCFF527HHE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EOK renal_cortical_epithelial_cell (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EOK age=unknown description=ENCSR000EOK_renal_cortical_epithelial_cell_peaks_ donor=ENCDO098AAA sex=unknown view=ENCSR000EOK 
+		view ENCSR000EOK
+
+		track ENCSR000EOK_ENCFF648XOK
+		parent primary_cell_renal_cortical_epithelial_cell_view_ENCSR000EOK off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO098AAA label=unknown view=ENCSR000EOK 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF648XOK/@@download/ENCFF648XOK.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF648XOK 9state-DNase DNase-seq and DGF on human HRCEpiC
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000EOK age=unknown description=ENCFF648XOK_9state_DNase_DNase_seq_and_DGF_on_human_HRCEpiC donor=ENCDO098AAA sex=unknown view=ENCSR000EOK 
+		view ENCSR000EOK
+
+	track ENCSR000AAQ_ENCFF687QQS
+	parent primary_cell_renal_cortical_epithelial_cell off
+	subGroups age=a69_year assay=RNA-seq donor=ENCDO048AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF687QQS/@@download/ENCFF687QQS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAQ renal_cortical_epithelial_cell_female_adult_69_years_and_male_adult_
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAQ age=69_year description=ENCSR000AAQ_renal_cortical_epithelial_cell_female_adult_69_years_and_male_adult_84_years_plus_strand_signal_of_unique_reads_ donor=ENCDO048AAA sex=female view=bigWig 
+	view bigWig
+

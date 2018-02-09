@@ -1,0 +1,279 @@
+
+track primary_cell_astrocyte_of_the_cerebellum
+parent super_primary_cell
+compositeTrack on
+shortLabel astrocyte of the 
+longLabel astrocyte of the cerebellum (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO227AAA=ENCDO227AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000DSY=ENCSR000DSY ENCSR000DSZ=ENCSR000DSZ ENCSR000ENC=ENCSR000ENC bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ENC_ENCFF792TWU
+	parent primary_cell_astrocyte_of_the_cerebellum off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF792TWU/@@download/ENCFF792TWU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ENC astrocyte_of_the_cerebellum (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ENC age=unknown description=ENCSR000ENC_astrocyte_of_the_cerebellum_read_depth_normalized_signal_ donor=ENCDO227AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000ENC
+	parent primary_cell_astrocyte_of_the_cerebellum off
+	view ENCSR000ENC
+	visibility dense
+	type bigBed
+
+		track ENCSR000ENC_ENCFF748SHZ
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000ENC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF748SHZ/@@download/ENCFF748SHZ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ENC astrocyte_of_the_cerebellum (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ENC age=unknown description=ENCSR000ENC_astrocyte_of_the_cerebellum_peaks_ donor=ENCDO227AAA sex=unknown view=ENCSR000ENC 
+		view ENCSR000ENC
+
+		track ENCSR000ENC_ENCFF863WHC
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000ENC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF863WHC/@@download/ENCFF863WHC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF863WHC 9state-DNase DNase-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENC age=unknown description=ENCFF863WHC_9state_DNase_DNase_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000ENC 
+		view ENCSR000ENC
+
+		track ENCSR000ENC_ENCFF930IPH
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000ENC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF930IPH/@@download/ENCFF930IPH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF930IPH 9state-CTCF DNase-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENC age=unknown description=ENCFF930IPH_9state_CTCF_DNase_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000ENC 
+		view ENCSR000ENC
+
+		track ENCSR000ENC_ENCFF456CLI
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000ENC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF456CLI/@@download/ENCFF456CLI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF456CLI 5group DNase-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENC age=unknown description=ENCFF456CLI_5group_DNase_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000ENC 
+		view ENCSR000ENC
+
+		track ENCSR000ENC_ENCFF613YDS
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000ENC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO227AAA label=unknown view=ENCSR000ENC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF613YDS/@@download/ENCFF613YDS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF613YDS 9state-H3K4me3 DNase-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000ENC age=unknown description=ENCFF613YDS_9state_H3K4me3_DNase_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000ENC 
+		view ENCSR000ENC
+
+	track ENCSR000DSY_ENCFF318CPT
+	parent primary_cell_astrocyte_of_the_cerebellum off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF318CPT/@@download/ENCFF318CPT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DSY astrocyte_of_the_cerebellum (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSY age=unknown description=ENCSR000DSY_astrocyte_of_the_cerebellum_fold_change_over_control_ donor=ENCDO227AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSY
+	parent primary_cell_astrocyte_of_the_cerebellum off
+	view ENCSR000DSY
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSY_ENCFF325EXC
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DSY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF325EXC/@@download/ENCFF325EXC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DSY astrocyte_of_the_cerebellum (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DSY age=unknown description=ENCSR000DSY_astrocyte_of_the_cerebellum_replicated_peaks_ donor=ENCDO227AAA sex=unknown view=ENCSR000DSY 
+		view ENCSR000DSY
+
+		track ENCSR000DSY_ENCFF863WHC
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DSY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF863WHC/@@download/ENCFF863WHC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF863WHC 9state-DNase H3K4me3 ChIP-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSY age=unknown description=ENCFF863WHC_9state_DNase_H3K4me3_ChIP_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000DSY 
+		view ENCSR000DSY
+
+		track ENCSR000DSY_ENCFF930IPH
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DSY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF930IPH/@@download/ENCFF930IPH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF930IPH 9state-CTCF H3K4me3 ChIP-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSY age=unknown description=ENCFF930IPH_9state_CTCF_H3K4me3_ChIP_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000DSY 
+		view ENCSR000DSY
+
+		track ENCSR000DSY_ENCFF456CLI
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DSY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF456CLI/@@download/ENCFF456CLI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF456CLI 5group H3K4me3 ChIP-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSY age=unknown description=ENCFF456CLI_5group_H3K4me3_ChIP_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000DSY 
+		view ENCSR000DSY
+
+		track ENCSR000DSY_ENCFF613YDS
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=H3K4me3 view=ENCSR000DSY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF613YDS/@@download/ENCFF613YDS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF613YDS 9state-H3K4me3 H3K4me3 ChIP-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSY age=unknown description=ENCFF613YDS_9state_H3K4me3_H3K4me3_ChIP_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000DSY 
+		view ENCSR000DSY
+
+	track ENCSR000DSZ_ENCFF728AYZ
+	parent primary_cell_astrocyte_of_the_cerebellum off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF728AYZ/@@download/ENCFF728AYZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DSZ astrocyte_of_the_cerebellum (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DSZ age=unknown description=ENCSR000DSZ_astrocyte_of_the_cerebellum_fold_change_over_control_ donor=ENCDO227AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSZ
+	parent primary_cell_astrocyte_of_the_cerebellum off
+	view ENCSR000DSZ
+	visibility dense
+	type bigBed
+
+		track ENCSR000DSZ_ENCFF608IHX
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DSZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF608IHX/@@download/ENCFF608IHX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DSZ astrocyte_of_the_cerebellum (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DSZ age=unknown description=ENCSR000DSZ_astrocyte_of_the_cerebellum_optimal_idr_thresholded_peaks_ donor=ENCDO227AAA sex=unknown view=ENCSR000DSZ 
+		view ENCSR000DSZ
+
+		track ENCSR000DSZ_ENCFF863WHC
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DSZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF863WHC/@@download/ENCFF863WHC.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF863WHC 9state-DNase CTCF ChIP-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSZ age=unknown description=ENCFF863WHC_9state_DNase_CTCF_ChIP_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000DSZ 
+		view ENCSR000DSZ
+
+		track ENCSR000DSZ_ENCFF930IPH
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DSZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF930IPH/@@download/ENCFF930IPH.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF930IPH 9state-CTCF CTCF ChIP-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSZ age=unknown description=ENCFF930IPH_9state_CTCF_CTCF_ChIP_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000DSZ 
+		view ENCSR000DSZ
+
+		track ENCSR000DSZ_ENCFF456CLI
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DSZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF456CLI/@@download/ENCFF456CLI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF456CLI 5group CTCF ChIP-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSZ age=unknown description=ENCFF456CLI_5group_CTCF_ChIP_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000DSZ 
+		view ENCSR000DSZ
+
+		track ENCSR000DSZ_ENCFF613YDS
+		parent primary_cell_astrocyte_of_the_cerebellum_view_ENCSR000DSZ off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO227AAA label=CTCF view=ENCSR000DSZ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF613YDS/@@download/ENCFF613YDS.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF613YDS 9state-H3K4me3 CTCF ChIP-seq on human HAc
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DSZ age=unknown description=ENCFF613YDS_9state_H3K4me3_CTCF_ChIP_seq_on_human_HAc donor=ENCDO227AAA sex=unknown view=ENCSR000DSZ 
+		view ENCSR000DSZ
+

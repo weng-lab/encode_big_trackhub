@@ -1,0 +1,607 @@
+
+track primary_cell_neutrophil
+parent super_primary_cell
+compositeTrack on
+shortLabel neutrophil
+longLabel neutrophil (12 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO055UKA=ENCDO055UKA ENCDO978TAT=ENCDO978TAT 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR058FCG=ENCSR058FCG ENCSR072QBN=ENCSR072QBN ENCSR254XTB=ENCSR254XTB ENCSR267YXV=ENCSR267YXV ENCSR373WCB=ENCSR373WCB ENCSR393SYU=ENCSR393SYU ENCSR434AFF=ENCSR434AFF ENCSR437MHW=ENCSR437MHW ENCSR524RIH=ENCSR524RIH ENCSR586POT=ENCSR586POT ENCSR785YRL=ENCSR785YRL ENCSR826VJY=ENCSR826VJY bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR393SYU_ENCFF582AHA
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF582AHA/@@download/ENCFF582AHA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR393SYU neutrophil (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR393SYU age=unknown description=ENCSR393SYU_neutrophil_fold_change_over_control_ donor=ENCDO055UKA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR393SYU
+	parent primary_cell_neutrophil off
+	view ENCSR393SYU
+	visibility dense
+	type bigBed
+
+		track ENCSR393SYU_ENCFF674NJV
+		parent primary_cell_neutrophil_view_ENCSR393SYU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K4me3 view=ENCSR393SYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF674NJV/@@download/ENCFF674NJV.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR393SYU neutrophil (replicated peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR393SYU age=unknown description=ENCSR393SYU_neutrophil_replicated_peaks_ donor=ENCDO055UKA sex=unknown view=ENCSR393SYU 
+		view ENCSR393SYU
+
+		track ENCSR393SYU_ENCFF663ZGJ
+		parent primary_cell_neutrophil_view_ENCSR393SYU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K4me3 view=ENCSR393SYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663ZGJ/@@download/ENCFF663ZGJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF663ZGJ 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR393SYU age=unknown description=ENCFF663ZGJ_9state_CTCF_ donor=ENCDO055UKA sex=unknown view=ENCSR393SYU 
+		view ENCSR393SYU
+
+		track ENCSR393SYU_ENCFF410ASB
+		parent primary_cell_neutrophil_view_ENCSR393SYU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K4me3 view=ENCSR393SYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF410ASB/@@download/ENCFF410ASB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF410ASB 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR393SYU age=unknown description=ENCFF410ASB_5group_ donor=ENCDO055UKA sex=unknown view=ENCSR393SYU 
+		view ENCSR393SYU
+
+		track ENCSR393SYU_ENCFF702IJX
+		parent primary_cell_neutrophil_view_ENCSR393SYU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K4me3 view=ENCSR393SYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702IJX/@@download/ENCFF702IJX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF702IJX 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR393SYU age=unknown description=ENCFF702IJX_9state_H3K4me3_ donor=ENCDO055UKA sex=unknown view=ENCSR393SYU 
+		view ENCSR393SYU
+
+		track ENCSR393SYU_ENCFF075VML
+		parent primary_cell_neutrophil_view_ENCSR393SYU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K4me3 view=ENCSR393SYU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF075VML/@@download/ENCFF075VML.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF075VML 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR393SYU age=unknown description=ENCFF075VML_9state_H3K27ac_ donor=ENCDO055UKA sex=unknown view=ENCSR393SYU 
+		view ENCSR393SYU
+
+	track ENCSR434AFF_ENCFF977OTL
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF977OTL/@@download/ENCFF977OTL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR434AFF neutrophil_male (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR434AFF age=unknown description=ENCSR434AFF_neutrophil_male_fold_change_over_control_ donor=ENCDO978TAT sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR434AFF
+	parent primary_cell_neutrophil off
+	view ENCSR434AFF
+	visibility dense
+	type bigBed
+
+		track ENCSR434AFF_ENCFF898IWK
+		parent primary_cell_neutrophil_view_ENCSR434AFF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K4me3 view=ENCSR434AFF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF898IWK/@@download/ENCFF898IWK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR434AFF neutrophil_male (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR434AFF age=unknown description=ENCSR434AFF_neutrophil_male_peaks_ donor=ENCDO978TAT sex=male view=ENCSR434AFF 
+		view ENCSR434AFF
+
+		track ENCSR434AFF_ENCFF274KRI
+		parent primary_cell_neutrophil_view_ENCSR434AFF off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K4me3 view=ENCSR434AFF 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF274KRI/@@download/ENCFF274KRI.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCFF274KRI 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR434AFF age=unknown description=ENCFF274KRI_5group_ donor=ENCDO978TAT sex=male view=ENCSR434AFF 
+		view ENCSR434AFF
+
+	track ENCSR267YXV_ENCFF066BUP
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K27ac view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF066BUP/@@download/ENCFF066BUP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,205,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27ac
+	longLabel ENCSR267YXV neutrophil (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR267YXV age=unknown description=ENCSR267YXV_neutrophil_fold_change_over_control_ donor=ENCDO055UKA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR267YXV
+	parent primary_cell_neutrophil off
+	view ENCSR267YXV
+	visibility dense
+	type bigBed
+
+		track ENCSR267YXV_ENCFF281KSI
+		parent primary_cell_neutrophil_view_ENCSR267YXV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K27ac view=ENCSR267YXV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF281KSI/@@download/ENCFF281KSI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCSR267YXV neutrophil (replicated peaks)
+		itemRgb On
+		color 255,205,0
+		darkerLabels on
+		metadata accession=ENCSR267YXV age=unknown description=ENCSR267YXV_neutrophil_replicated_peaks_ donor=ENCDO055UKA sex=unknown view=ENCSR267YXV 
+		view ENCSR267YXV
+
+		track ENCSR267YXV_ENCFF663ZGJ
+		parent primary_cell_neutrophil_view_ENCSR267YXV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K27ac view=ENCSR267YXV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663ZGJ/@@download/ENCFF663ZGJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF663ZGJ 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR267YXV age=unknown description=ENCFF663ZGJ_9state_CTCF_ donor=ENCDO055UKA sex=unknown view=ENCSR267YXV 
+		view ENCSR267YXV
+
+		track ENCSR267YXV_ENCFF410ASB
+		parent primary_cell_neutrophil_view_ENCSR267YXV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K27ac view=ENCSR267YXV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF410ASB/@@download/ENCFF410ASB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF410ASB 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR267YXV age=unknown description=ENCFF410ASB_5group_ donor=ENCDO055UKA sex=unknown view=ENCSR267YXV 
+		view ENCSR267YXV
+
+		track ENCSR267YXV_ENCFF702IJX
+		parent primary_cell_neutrophil_view_ENCSR267YXV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K27ac view=ENCSR267YXV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702IJX/@@download/ENCFF702IJX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF702IJX 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR267YXV age=unknown description=ENCFF702IJX_9state_H3K4me3_ donor=ENCDO055UKA sex=unknown view=ENCSR267YXV 
+		view ENCSR267YXV
+
+		track ENCSR267YXV_ENCFF075VML
+		parent primary_cell_neutrophil_view_ENCSR267YXV off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K27ac view=ENCSR267YXV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF075VML/@@download/ENCFF075VML.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq H3K27ac
+		longLabel ENCFF075VML 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR267YXV age=unknown description=ENCFF075VML_9state_H3K27ac_ donor=ENCDO055UKA sex=unknown view=ENCSR267YXV 
+		view ENCSR267YXV
+
+	track ENCSR785YRL_ENCFF061DVI
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF061DVI/@@download/ENCFF061DVI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR785YRL neutrophil (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR785YRL age=unknown description=ENCSR785YRL_neutrophil_fold_change_over_control_ donor=ENCDO055UKA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR785YRL
+	parent primary_cell_neutrophil off
+	view ENCSR785YRL
+	visibility dense
+	type bigBed
+
+		track ENCSR785YRL_ENCFF499EPQ
+		parent primary_cell_neutrophil_view_ENCSR785YRL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=CTCF view=ENCSR785YRL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF499EPQ/@@download/ENCFF499EPQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR785YRL neutrophil (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR785YRL age=unknown description=ENCSR785YRL_neutrophil_optimal_idr_thresholded_peaks_ donor=ENCDO055UKA sex=unknown view=ENCSR785YRL 
+		view ENCSR785YRL
+
+		track ENCSR785YRL_ENCFF663ZGJ
+		parent primary_cell_neutrophil_view_ENCSR785YRL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=CTCF view=ENCSR785YRL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF663ZGJ/@@download/ENCFF663ZGJ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF663ZGJ 9state-CTCF 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR785YRL age=unknown description=ENCFF663ZGJ_9state_CTCF_ donor=ENCDO055UKA sex=unknown view=ENCSR785YRL 
+		view ENCSR785YRL
+
+		track ENCSR785YRL_ENCFF410ASB
+		parent primary_cell_neutrophil_view_ENCSR785YRL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=CTCF view=ENCSR785YRL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF410ASB/@@download/ENCFF410ASB.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF410ASB 5group 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR785YRL age=unknown description=ENCFF410ASB_5group_ donor=ENCDO055UKA sex=unknown view=ENCSR785YRL 
+		view ENCSR785YRL
+
+		track ENCSR785YRL_ENCFF702IJX
+		parent primary_cell_neutrophil_view_ENCSR785YRL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=CTCF view=ENCSR785YRL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF702IJX/@@download/ENCFF702IJX.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF702IJX 9state-H3K4me3 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR785YRL age=unknown description=ENCFF702IJX_9state_H3K4me3_ donor=ENCDO055UKA sex=unknown view=ENCSR785YRL 
+		view ENCSR785YRL
+
+		track ENCSR785YRL_ENCFF075VML
+		parent primary_cell_neutrophil_view_ENCSR785YRL off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=CTCF view=ENCSR785YRL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF075VML/@@download/ENCFF075VML.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF075VML 9state-H3K27ac 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR785YRL age=unknown description=ENCFF075VML_9state_H3K27ac_ donor=ENCDO055UKA sex=unknown view=ENCSR785YRL 
+		view ENCSR785YRL
+
+	track ENCSR058FCG_ENCFF907HGH
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF907HGH/@@download/ENCFF907HGH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR058FCG neutrophil (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR058FCG age=unknown description=ENCSR058FCG_neutrophil_fold_change_over_control_ donor=ENCDO055UKA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR058FCG
+	parent primary_cell_neutrophil off
+	view ENCSR058FCG
+	visibility dense
+	type bigBed
+
+		track ENCSR058FCG_ENCFF609MYE
+		parent primary_cell_neutrophil_view_ENCSR058FCG off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K27me3 view=ENCSR058FCG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF609MYE/@@download/ENCFF609MYE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR058FCG neutrophil (replicated peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR058FCG age=unknown description=ENCSR058FCG_neutrophil_replicated_peaks_ donor=ENCDO055UKA sex=unknown view=ENCSR058FCG 
+		view ENCSR058FCG
+
+	track ENCSR254XTB_ENCFF565TCQ
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K27me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF565TCQ/@@download/ENCFF565TCQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 174,175,174
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K27me3
+	longLabel ENCSR254XTB neutrophil_male (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR254XTB age=unknown description=ENCSR254XTB_neutrophil_male_fold_change_over_control_ donor=ENCDO978TAT sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR254XTB
+	parent primary_cell_neutrophil off
+	view ENCSR254XTB
+	visibility dense
+	type bigBed
+
+		track ENCSR254XTB_ENCFF228RXI
+		parent primary_cell_neutrophil_view_ENCSR254XTB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K27me3 view=ENCSR254XTB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF228RXI/@@download/ENCFF228RXI.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K27me3
+		longLabel ENCSR254XTB neutrophil_male (peaks)
+		itemRgb On
+		color 174,175,174
+		darkerLabels on
+		metadata accession=ENCSR254XTB age=unknown description=ENCSR254XTB_neutrophil_male_peaks_ donor=ENCDO978TAT sex=male view=ENCSR254XTB 
+		view ENCSR254XTB
+
+	track ENCSR072QBN_ENCFF758UTV
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF758UTV/@@download/ENCFF758UTV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR072QBN neutrophil_male (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR072QBN age=unknown description=ENCSR072QBN_neutrophil_male_fold_change_over_control_ donor=ENCDO978TAT sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR072QBN
+	parent primary_cell_neutrophil off
+	view ENCSR072QBN
+	visibility dense
+	type bigBed
+
+		track ENCSR072QBN_ENCFF832ZYQ
+		parent primary_cell_neutrophil_view_ENCSR072QBN off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K36me3 view=ENCSR072QBN 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF832ZYQ/@@download/ENCFF832ZYQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR072QBN neutrophil_male (peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR072QBN age=unknown description=ENCSR072QBN_neutrophil_male_peaks_ donor=ENCDO978TAT sex=male view=ENCSR072QBN 
+		view ENCSR072QBN
+
+	track ENCSR373WCB_ENCFF362CTO
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF362CTO/@@download/ENCFF362CTO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR373WCB neutrophil (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR373WCB age=unknown description=ENCSR373WCB_neutrophil_fold_change_over_control_ donor=ENCDO055UKA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR373WCB
+	parent primary_cell_neutrophil off
+	view ENCSR373WCB
+	visibility dense
+	type bigBed
+
+		track ENCSR373WCB_ENCFF653PTF
+		parent primary_cell_neutrophil_view_ENCSR373WCB off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K36me3 view=ENCSR373WCB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF653PTF/@@download/ENCFF653PTF.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR373WCB neutrophil (replicated peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR373WCB age=unknown description=ENCSR373WCB_neutrophil_replicated_peaks_ donor=ENCDO055UKA sex=unknown view=ENCSR373WCB 
+		view ENCSR373WCB
+
+	track ENCSR586POT_ENCFF324WFW
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF324WFW/@@download/ENCFF324WFW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR586POT neutrophil_male (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR586POT age=unknown description=ENCSR586POT_neutrophil_male_fold_change_over_control_ donor=ENCDO978TAT sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR586POT
+	parent primary_cell_neutrophil off
+	view ENCSR586POT
+	visibility dense
+	type bigBed
+
+		track ENCSR586POT_ENCFF791FBN
+		parent primary_cell_neutrophil_view_ENCSR586POT off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K4me1 view=ENCSR586POT 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF791FBN/@@download/ENCFF791FBN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR586POT neutrophil_male (stable peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR586POT age=unknown description=ENCSR586POT_neutrophil_male_stable_peaks_ donor=ENCDO978TAT sex=male view=ENCSR586POT 
+		view ENCSR586POT
+
+	track ENCSR826VJY_ENCFF489FCQ
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K4me1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF489FCQ/@@download/ENCFF489FCQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,223,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me1
+	longLabel ENCSR826VJY neutrophil (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR826VJY age=unknown description=ENCSR826VJY_neutrophil_fold_change_over_control_ donor=ENCDO055UKA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR826VJY
+	parent primary_cell_neutrophil off
+	view ENCSR826VJY
+	visibility dense
+	type bigBed
+
+		track ENCSR826VJY_ENCFF454QAN
+		parent primary_cell_neutrophil_view_ENCSR826VJY off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K4me1 view=ENCSR826VJY 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF454QAN/@@download/ENCFF454QAN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me1
+		longLabel ENCSR826VJY neutrophil (replicated peaks)
+		itemRgb On
+		color 255,223,0
+		darkerLabels on
+		metadata accession=ENCSR826VJY age=unknown description=ENCSR826VJY_neutrophil_replicated_peaks_ donor=ENCDO055UKA sex=unknown view=ENCSR826VJY 
+		view ENCSR826VJY
+
+	track ENCSR437MHW_ENCFF202TBY
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF202TBY/@@download/ENCFF202TBY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR437MHW neutrophil_male (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR437MHW age=unknown description=ENCSR437MHW_neutrophil_male_fold_change_over_control_ donor=ENCDO978TAT sex=male view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR437MHW
+	parent primary_cell_neutrophil off
+	view ENCSR437MHW
+	visibility dense
+	type bigBed
+
+		track ENCSR437MHW_ENCFF480QVO
+		parent primary_cell_neutrophil_view_ENCSR437MHW off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO978TAT label=H3K9me3 view=ENCSR437MHW 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF480QVO/@@download/ENCFF480QVO.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR437MHW neutrophil_male (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR437MHW age=unknown description=ENCSR437MHW_neutrophil_male_peaks_ donor=ENCDO978TAT sex=male view=ENCSR437MHW 
+		view ENCSR437MHW
+
+	track ENCSR524RIH_ENCFF306YVD
+	parent primary_cell_neutrophil off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF306YVD/@@download/ENCFF306YVD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR524RIH neutrophil (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR524RIH age=unknown description=ENCSR524RIH_neutrophil_fold_change_over_control_ donor=ENCDO055UKA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_neutrophil_view_ENCSR524RIH
+	parent primary_cell_neutrophil off
+	view ENCSR524RIH
+	visibility dense
+	type bigBed
+
+		track ENCSR524RIH_ENCFF954ALD
+		parent primary_cell_neutrophil_view_ENCSR524RIH off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO055UKA label=H3K9me3 view=ENCSR524RIH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF954ALD/@@download/ENCFF954ALD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR524RIH neutrophil (replicated peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR524RIH age=unknown description=ENCSR524RIH_neutrophil_replicated_peaks_ donor=ENCDO055UKA sex=unknown view=ENCSR524RIH 
+		view ENCSR524RIH
+

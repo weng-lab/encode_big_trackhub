@@ -1,0 +1,466 @@
+
+track tissue_testis
+parent super_tissue
+compositeTrack on
+shortLabel testis
+longLabel testis (17 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO451RUA=ENCDO451RUA ENCDO482LIM=ENCDO482LIM ENCDO730LED=ENCDO730LED ENCDO836UAR=ENCDO836UAR ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a44_year=44&#32;year a54_year=54&#32;year aunknown=unknown 
+subGroup3 view view ENCSR046INL=ENCSR046INL ENCSR278FHC=ENCSR278FHC ENCSR376JOC=ENCSR376JOC ENCSR494TNM=ENCSR494TNM ENCSR561MYM=ENCSR561MYM ENCSR611DJQ=ENCSR611DJQ ENCSR729DRB=ENCSR729DRB ENCSR803FAP=ENCSR803FAP ENCSR981CID=ENCSR981CID bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR278FHC_ENCFF455TFF
+	parent tissue_testis off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO836UAR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF455TFF/@@download/ENCFF455TFF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR278FHC testis_male_embryo (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR278FHC age=unknown description=ENCSR278FHC_testis_male_embryo_read_depth_normalized_signal_ donor=ENCDO836UAR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR278FHC
+	parent tissue_testis off
+	view ENCSR278FHC
+	visibility dense
+	type bigBed
+
+		track ENCSR278FHC_ENCFF319EVS
+		parent tissue_testis_view_ENCSR278FHC off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO836UAR label=unknown view=ENCSR278FHC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF319EVS/@@download/ENCFF319EVS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR278FHC testis_male_embryo (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR278FHC age=unknown description=ENCSR278FHC_testis_male_embryo_peaks_ donor=ENCDO836UAR sex=male view=ENCSR278FHC 
+		view ENCSR278FHC
+
+	track ENCSR729DRB_ENCFF168VLQ
+	parent tissue_testis off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO482LIM label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF168VLQ/@@download/ENCFF168VLQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR729DRB testis_male_embryo (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR729DRB age=unknown description=ENCSR729DRB_testis_male_embryo_read_depth_normalized_signal_ donor=ENCDO482LIM sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR729DRB
+	parent tissue_testis off
+	view ENCSR729DRB
+	visibility dense
+	type bigBed
+
+		track ENCSR729DRB_ENCFF269FKE
+		parent tissue_testis_view_ENCSR729DRB off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO482LIM label=unknown view=ENCSR729DRB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF269FKE/@@download/ENCFF269FKE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR729DRB testis_male_embryo (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR729DRB age=unknown description=ENCSR729DRB_testis_male_embryo_peaks_ donor=ENCDO482LIM sex=male view=ENCSR729DRB 
+		view ENCSR729DRB
+
+		track ENCSR729DRB_ENCFF953TJU
+		parent tissue_testis_view_ENCSR729DRB off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO482LIM label=unknown view=ENCSR729DRB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF953TJU/@@download/ENCFF953TJU.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel DNase-seq
+		longLabel ENCFF953TJU 9state-DNase 
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR729DRB age=unknown description=ENCFF953TJU_9state_DNase_ donor=ENCDO482LIM sex=male view=ENCSR729DRB 
+		view ENCSR729DRB
+
+	track ENCSR611DJQ_ENCFF679VUW
+	parent tissue_testis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF679VUW/@@download/ENCFF679VUW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR611DJQ testis_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR611DJQ age=37_year description=ENCSR611DJQ_testis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR611DJQ
+	parent tissue_testis off
+	view ENCSR611DJQ
+	visibility dense
+	type bigBed
+
+		track ENCSR611DJQ_ENCFF595VKU
+		parent tissue_testis_view_ENCSR611DJQ off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K4me3 view=ENCSR611DJQ 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF595VKU/@@download/ENCFF595VKU.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR611DJQ testis_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR611DJQ age=37_year description=ENCSR611DJQ_testis_male_adult_37_years_stable_peaks_ donor=ENCDO845WKR sex=male view=ENCSR611DJQ 
+		view ENCSR611DJQ
+
+	track ENCSR494TNM_ENCFF431OZO
+	parent tissue_testis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF431OZO/@@download/ENCFF431OZO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR494TNM testis_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR494TNM age=37_year description=ENCSR494TNM_testis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR494TNM
+	parent tissue_testis off
+	view ENCSR494TNM
+	visibility dense
+	type bigBed
+
+		track ENCSR494TNM_ENCFF772SZX
+		parent tissue_testis_view_ENCSR494TNM off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=CTCF view=ENCSR494TNM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF772SZX/@@download/ENCFF772SZX.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR494TNM testis_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR494TNM age=37_year description=ENCSR494TNM_testis_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR494TNM 
+		view ENCSR494TNM
+
+	track ENCSR981CID_ENCFF212PTB
+	parent tissue_testis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF212PTB/@@download/ENCFF212PTB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR981CID testis_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR981CID age=54_year description=ENCSR981CID_testis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR981CID
+	parent tissue_testis off
+	view ENCSR981CID
+	visibility dense
+	type bigBed
+
+		track ENCSR981CID_ENCFF510ZNT
+		parent tissue_testis_view_ENCSR981CID off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=CTCF view=ENCSR981CID 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF510ZNT/@@download/ENCFF510ZNT.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR981CID testis_male_adult_54_years_ (pseudoreplicated idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR981CID age=54_year description=ENCSR981CID_testis_male_adult_54_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO451RUA sex=male view=ENCSR981CID 
+		view ENCSR981CID
+
+	track ENCSR029KNZ_ENCFF201HWB
+	parent tissue_testis off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF201HWB/@@download/ENCFF201HWB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR029KNZ testis_male_adult_37_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR029KNZ age=37_year description=ENCSR029KNZ_testis_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR229WIW_ENCFF007IUU
+	parent tissue_testis off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF007IUU/@@download/ENCFF007IUU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR229WIW testis_male_adult_37_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR229WIW age=37_year description=ENCSR229WIW_testis_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR344MQK_ENCFF637UNU
+	parent tissue_testis off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF637UNU/@@download/ENCFF637UNU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR344MQK testis_male_adult_54_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR344MQK age=54_year description=ENCSR344MQK_testis_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR626GVP_ENCFF944YCS
+	parent tissue_testis off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF944YCS/@@download/ENCFF944YCS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR626GVP testis_male_adult_54_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR626GVP age=54_year description=ENCSR626GVP_testis_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR693GGB_ENCFF384HEA
+	parent tissue_testis off
+	subGroups age=a44_year assay=RNA-seq donor=ENCDO730LED label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF384HEA/@@download/ENCFF384HEA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR693GGB testis_male_adult_44_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR693GGB age=44_year description=ENCSR693GGB_testis_male_adult_44_years_plus_strand_signal_of_unique_reads_ donor=ENCDO730LED sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR755LFM_ENCFF765WJC
+	parent tissue_testis off
+	subGroups age=aunknown assay=RNA-seq donor=ENCDO836UAR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF765WJC/@@download/ENCFF765WJC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR755LFM testis_male_embryo (signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR755LFM age=unknown description=ENCSR755LFM_testis_male_embryo_signal_of_unique_reads_ donor=ENCDO836UAR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR841EQJ_ENCFF313NPK
+	parent tissue_testis off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF313NPK/@@download/ENCFF313NPK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR841EQJ testis_male_adult_37_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR841EQJ age=37_year description=ENCSR841EQJ_testis_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR866SRG_ENCFF869VCN
+	parent tissue_testis off
+	subGroups age=a54_year assay=RAMPAGE donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF869VCN/@@download/ENCFF869VCN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR866SRG testis_male_adult_54_years_ (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR866SRG age=54_year description=ENCSR866SRG_testis_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR046INL_ENCFF774YJG
+	parent tissue_testis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF774YJG/@@download/ENCFF774YJG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR046INL testis_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR046INL age=37_year description=ENCSR046INL_testis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR046INL
+	parent tissue_testis off
+	view ENCSR046INL
+	visibility dense
+	type bigBed
+
+		track ENCSR046INL_ENCFF695AMM
+		parent tissue_testis_view_ENCSR046INL off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=ENCSR046INL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF695AMM/@@download/ENCFF695AMM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR046INL testis_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR046INL age=37_year description=ENCSR046INL_testis_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR046INL 
+		view ENCSR046INL
+
+	track ENCSR561MYM_ENCFF562JDG
+	parent tissue_testis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF562JDG/@@download/ENCFF562JDG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,128,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K36me3
+	longLabel ENCSR561MYM testis_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR561MYM age=37_year description=ENCSR561MYM_testis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR561MYM
+	parent tissue_testis off
+	view ENCSR561MYM
+	visibility dense
+	type bigBed
+
+		track ENCSR561MYM_ENCFF905MUS
+		parent tissue_testis_view_ENCSR561MYM off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K36me3 view=ENCSR561MYM 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF905MUS/@@download/ENCFF905MUS.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K36me3
+		longLabel ENCSR561MYM testis_male_adult_37_years_ (stable peaks)
+		itemRgb On
+		color 0,128,0
+		darkerLabels on
+		metadata accession=ENCSR561MYM age=37_year description=ENCSR561MYM_testis_male_adult_37_years_stable_peaks_ donor=ENCDO845WKR sex=male view=ENCSR561MYM 
+		view ENCSR561MYM
+
+	track ENCSR376JOC_ENCFF315GIO
+	parent tissue_testis off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF315GIO/@@download/ENCFF315GIO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 180,221,228
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K9me3
+	longLabel ENCSR376JOC testis_male_adult_37_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR376JOC age=37_year description=ENCSR376JOC_testis_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR376JOC
+	parent tissue_testis off
+	view ENCSR376JOC
+	visibility dense
+	type bigBed
+
+		track ENCSR376JOC_ENCFF914JAD
+		parent tissue_testis_view_ENCSR376JOC off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=H3K9me3 view=ENCSR376JOC 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF914JAD/@@download/ENCFF914JAD.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K9me3
+		longLabel ENCSR376JOC testis_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 180,221,228
+		darkerLabels on
+		metadata accession=ENCSR376JOC age=37_year description=ENCSR376JOC_testis_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR376JOC 
+		view ENCSR376JOC
+
+	track ENCSR803FAP_ENCFF666TUC
+	parent tissue_testis off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF666TUC/@@download/ENCFF666TUC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR803FAP testis_male_adult_54_years_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR803FAP age=54_year description=ENCSR803FAP_testis_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_testis_view_ENCSR803FAP
+	parent tissue_testis off
+	view ENCSR803FAP
+	visibility dense
+	type bigBed
+
+		track ENCSR803FAP_ENCFF888DLH
+		parent tissue_testis_view_ENCSR803FAP off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=POLR2A view=ENCSR803FAP 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF888DLH/@@download/ENCFF888DLH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq POLR2A
+		longLabel ENCSR803FAP testis_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR803FAP age=54_year description=ENCSR803FAP_testis_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR803FAP 
+		view ENCSR803FAP
+

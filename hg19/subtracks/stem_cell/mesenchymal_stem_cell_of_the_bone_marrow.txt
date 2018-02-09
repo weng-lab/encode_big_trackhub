@@ -1,0 +1,63 @@
+
+track stem_cell_mesenchymal_stem_cell_of_the_bone_marrow
+parent super_stem_cell
+compositeTrack on
+shortLabel mesenchymal stem 
+longLabel mesenchymal stem cell of the bone marrow (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO134AAA=ENCDO134AAA ENCDO135AAA=ENCDO135AAA 
+subGroup2 age age a57_year=57&#32;year a60_year=60&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000CLF_ENCFF756YXN
+	parent stem_cell_mesenchymal_stem_cell_of_the_bone_marrow off
+	subGroups age=a60_year assay=CAGE donor=ENCDO135AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF756YXN/@@download/ENCFF756YXN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel CAGE
+	longLabel ENCSR000CLF mesenchymal_stem_cell_of_the_bone_marrow (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CLF age=60_year description=ENCSR000CLF_mesenchymal_stem_cell_of_the_bone_marrow_plus_strand_signal_of_unique_reads_ donor=ENCDO135AAA sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR000CUD_ENCFF221KVU
+	parent stem_cell_mesenchymal_stem_cell_of_the_bone_marrow off
+	subGroups age=a57_year assay=RNA-seq donor=ENCDO134AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF221KVU/@@download/ENCFF221KVU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CUD mesenchymal_stem_cell_of_the_bone_marrow (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CUD age=57_year description=ENCSR000CUD_mesenchymal_stem_cell_of_the_bone_marrow_plus_strand_signal_of_unique_reads_ donor=ENCDO134AAA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR000CVS_ENCFF255IZI
+	parent stem_cell_mesenchymal_stem_cell_of_the_bone_marrow off
+	subGroups age=a60_year assay=RNA-seq donor=ENCDO135AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF255IZI/@@download/ENCFF255IZI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000CVS mesenchymal_stem_cell_of_the_bone_marrow (plus strand signal of uniq
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CVS age=60_year description=ENCSR000CVS_mesenchymal_stem_cell_of_the_bone_marrow_plus_strand_signal_of_unique_reads_ donor=ENCDO135AAA sex=female view=bigWig 
+	view bigWig
+

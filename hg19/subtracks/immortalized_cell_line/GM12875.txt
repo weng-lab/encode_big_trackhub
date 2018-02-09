@@ -1,0 +1,101 @@
+
+track immortalized_cell_line_GM12875
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel GM12875
+longLabel GM12875 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label CTCF=CTCF H3K4me3=H3K4me3 
+subGroup2 assay assay ChIP-seq=ChIP-seq 
+subGroup3 view view ENCSR000DRS=ENCSR000DRS ENCSR000DRU=ENCSR000DRU bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000DRS_ENCFF437TKB
+	parent immortalized_cell_line_GM12875 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABZ label=H3K4me3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF437TKB/@@download/ENCFF437TKB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 255,0,0
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq H3K4me3
+	longLabel ENCSR000DRS GM12875 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DRS age=unknown description=ENCSR000DRS_GM12875_fold_change_over_control_ donor=ENCDO000ABZ sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_GM12875_view_ENCSR000DRS
+	parent immortalized_cell_line_GM12875 off
+	view ENCSR000DRS
+	visibility dense
+	type bigBed
+
+		track ENCSR000DRS_ENCFF957LEQ
+		parent immortalized_cell_line_GM12875_view_ENCSR000DRS off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABZ label=H3K4me3 view=ENCSR000DRS 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF957LEQ/@@download/ENCFF957LEQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq H3K4me3
+		longLabel ENCSR000DRS GM12875 (peaks)
+		itemRgb On
+		color 255,0,0
+		darkerLabels on
+		metadata accession=ENCSR000DRS age=unknown description=ENCSR000DRS_GM12875_peaks_ donor=ENCDO000ABZ sex=female view=ENCSR000DRS 
+		view ENCSR000DRS
+
+	track ENCSR000DRU_ENCFF450VWA
+	parent immortalized_cell_line_GM12875 off
+	subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABZ label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF450VWA/@@download/ENCFF450VWA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DRU GM12875 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DRU age=unknown description=ENCSR000DRU_GM12875_fold_change_over_control_ donor=ENCDO000ABZ sex=female view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_GM12875_view_ENCSR000DRU
+	parent immortalized_cell_line_GM12875 off
+	view ENCSR000DRU
+	visibility dense
+	type bigBed
+
+		track ENCSR000DRU_ENCFF099CZC
+		parent immortalized_cell_line_GM12875_view_ENCSR000DRU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABZ label=CTCF view=ENCSR000DRU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF099CZC/@@download/ENCFF099CZC.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR000DRU GM12875 (optimal idr thresholded peaks)
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR000DRU age=unknown description=ENCSR000DRU_GM12875_optimal_idr_thresholded_peaks_ donor=ENCDO000ABZ sex=female view=ENCSR000DRU 
+		view ENCSR000DRU
+
+		track ENCSR000DRU_ENCFF092BZZ
+		parent immortalized_cell_line_GM12875_view_ENCSR000DRU off
+		subGroups age=aunknown assay=ChIP-seq donor=ENCDO000ABZ label=CTCF view=ENCSR000DRU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF092BZZ/@@download/ENCFF092BZZ.bigBed?proxy=true
+		visibility hide
+		type bigBed 9
+		shortLabel ChIP-seq CTCF
+		longLabel ENCFF092BZZ 9state-CTCF CTCF ChIP-seq on human GM12875
+		itemRgb On
+		darkerLabels on
+		metadata accession=ENCSR000DRU age=unknown description=ENCFF092BZZ_9state_CTCF_CTCF_ChIP_seq_on_human_GM12875 donor=ENCDO000ABZ sex=female view=ENCSR000DRU 
+		view ENCSR000DRU
+

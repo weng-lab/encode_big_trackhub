@@ -1,0 +1,348 @@
+
+track tissue_subcutaneous_adipose_tissue
+parent super_tissue
+compositeTrack on
+shortLabel subcutaneous adip
+longLabel subcutaneous adipose tissue (14 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO271OUW=ENCDO271OUW ENCDO451RUA=ENCDO451RUA ENCDO793LXB=ENCDO793LXB ENCDO845WKR=ENCDO845WKR 
+subGroup2 age age a37_year=37&#32;year a51_year=51&#32;year a53_year=53&#32;year a54_year=54&#32;year 
+subGroup3 view view ENCSR147VKD=ENCSR147VKD ENCSR176BAH=ENCSR176BAH ENCSR762PCG=ENCSR762PCG ENCSR790VEV=ENCSR790VEV ENCSR980OPB=ENCSR980OPB ENCSR983SZL=ENCSR983SZL bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR762PCG_ENCFF830XOG
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF830XOG/@@download/ENCFF830XOG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR762PCG subcutaneous_adipose_tissue_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR762PCG age=53_year description=ENCSR762PCG_subcutaneous_adipose_tissue_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_subcutaneous_adipose_tissue_view_ENCSR762PCG
+	parent tissue_subcutaneous_adipose_tissue off
+	view ENCSR762PCG
+	visibility dense
+	type bigBed
+
+		track ENCSR762PCG_ENCFF955FEK
+		parent tissue_subcutaneous_adipose_tissue_view_ENCSR762PCG off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=CTCF view=ENCSR762PCG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF955FEK/@@download/ENCFF955FEK.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR762PCG subcutaneous_adipose_tissue_female_adult_53_years_ (pseudoreplicated
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR762PCG age=53_year description=ENCSR762PCG_subcutaneous_adipose_tissue_female_adult_53_years_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO793LXB sex=female view=ENCSR762PCG 
+		view ENCSR762PCG
+
+	track ENCSR790VEV_ENCFF653ZVS
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF653ZVS/@@download/ENCFF653ZVS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR790VEV subcutaneous_adipose_tissue_female_adult_51_year_ (fold change over 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR790VEV age=51_year description=ENCSR790VEV_subcutaneous_adipose_tissue_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_subcutaneous_adipose_tissue_view_ENCSR790VEV
+	parent tissue_subcutaneous_adipose_tissue off
+	view ENCSR790VEV
+	visibility dense
+	type bigBed
+
+		track ENCSR790VEV_ENCFF794EQH
+		parent tissue_subcutaneous_adipose_tissue_view_ENCSR790VEV off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=CTCF view=ENCSR790VEV 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF794EQH/@@download/ENCFF794EQH.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq CTCF
+		longLabel ENCSR790VEV subcutaneous_adipose_tissue_female_adult_51_year_ (pseudoreplicated 
+		itemRgb On
+		color 0,176,240
+		darkerLabels on
+		metadata accession=ENCSR790VEV age=51_year description=ENCSR790VEV_subcutaneous_adipose_tissue_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR790VEV 
+		view ENCSR790VEV
+
+	track ENCSR020VES_ENCFF813EUK
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF813EUK/@@download/ENCFF813EUK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR020VES subcutaneous_adipose_tissue_female_adult_53_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR020VES age=53_year description=ENCSR020VES_subcutaneous_adipose_tissue_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR053ZMS_ENCFF759GEW
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a37_year assay=RAMPAGE donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF759GEW/@@download/ENCFF759GEW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR053ZMS subcutaneous_adipose_tissue_male_adult_37_years_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR053ZMS age=37_year description=ENCSR053ZMS_subcutaneous_adipose_tissue_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR150QJY_ENCFF962RQV
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a51_year assay=RNA-seq donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF962RQV/@@download/ENCFF962RQV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR150QJY subcutaneous_adipose_tissue_female_adult_51_year_ (plus strand signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR150QJY age=51_year description=ENCSR150QJY_subcutaneous_adipose_tissue_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR419MZM_ENCFF228VJT
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a53_year assay=RAMPAGE donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF228VJT/@@download/ENCFF228VJT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR419MZM subcutaneous_adipose_tissue_female_adult_53_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR419MZM age=53_year description=ENCSR419MZM_subcutaneous_adipose_tissue_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR504NIU_ENCFF586WGC
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a53_year assay=RNA-seq donor=ENCDO793LXB label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF586WGC/@@download/ENCFF586WGC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR504NIU subcutaneous_adipose_tissue_female_adult_53_years_ (plus strand sign
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR504NIU age=53_year description=ENCSR504NIU_subcutaneous_adipose_tissue_female_adult_53_years_plus_strand_signal_of_unique_reads_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR671WMH_ENCFF189FYI
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a54_year assay=RNA-seq donor=ENCDO451RUA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF189FYI/@@download/ENCFF189FYI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR671WMH subcutaneous_adipose_tissue_male_adult_54_years_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR671WMH age=54_year description=ENCSR671WMH_subcutaneous_adipose_tissue_male_adult_54_years_plus_strand_signal_of_unique_reads_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR708VVE_ENCFF505ZVY
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a37_year assay=RNA-seq donor=ENCDO845WKR label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF505ZVY/@@download/ENCFF505ZVY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR708VVE subcutaneous_adipose_tissue_male_adult_37_years_ (plus strand signal
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR708VVE age=37_year description=ENCSR708VVE_subcutaneous_adipose_tissue_male_adult_37_years_plus_strand_signal_of_unique_reads_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR785OGK_ENCFF122CTY
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a51_year assay=RAMPAGE donor=ENCDO271OUW label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF122CTY/@@download/ENCFF122CTY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR785OGK subcutaneous_adipose_tissue_female_adult_51_year_ (plus strand signa
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR785OGK age=51_year description=ENCSR785OGK_subcutaneous_adipose_tissue_female_adult_51_year_plus_strand_signal_of_unique_reads_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track ENCSR147VKD_ENCFF027CLO
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF027CLO/@@download/ENCFF027CLO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR147VKD subcutaneous_adipose_tissue_female_adult_53_years_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR147VKD age=53_year description=ENCSR147VKD_subcutaneous_adipose_tissue_female_adult_53_years_fold_change_over_control_ donor=ENCDO793LXB sex=female view=bigWig 
+	view bigWig
+
+	track tissue_subcutaneous_adipose_tissue_view_ENCSR147VKD
+	parent tissue_subcutaneous_adipose_tissue off
+	view ENCSR147VKD
+	visibility dense
+	type bigBed
+
+		track ENCSR147VKD_ENCFF434WMQ
+		parent tissue_subcutaneous_adipose_tissue_view_ENCSR147VKD off
+		subGroups age=a53_year assay=ChIP-seq donor=ENCDO793LXB label=EP300 view=ENCSR147VKD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF434WMQ/@@download/ENCFF434WMQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR147VKD subcutaneous_adipose_tissue_female_adult_53_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR147VKD age=53_year description=ENCSR147VKD_subcutaneous_adipose_tissue_female_adult_53_years_peaks_ donor=ENCDO793LXB sex=female view=ENCSR147VKD 
+		view ENCSR147VKD
+
+	track ENCSR176BAH_ENCFF610UUP
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF610UUP/@@download/ENCFF610UUP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR176BAH subcutaneous_adipose_tissue_male_adult_37_years_ (fold change over c
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR176BAH age=37_year description=ENCSR176BAH_subcutaneous_adipose_tissue_male_adult_37_years_fold_change_over_control_ donor=ENCDO845WKR sex=male view=bigWig 
+	view bigWig
+
+	track tissue_subcutaneous_adipose_tissue_view_ENCSR176BAH
+	parent tissue_subcutaneous_adipose_tissue off
+	view ENCSR176BAH
+	visibility dense
+	type bigBed
+
+		track ENCSR176BAH_ENCFF279ZHM
+		parent tissue_subcutaneous_adipose_tissue_view_ENCSR176BAH off
+		subGroups age=a37_year assay=ChIP-seq donor=ENCDO845WKR label=EP300 view=ENCSR176BAH 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF279ZHM/@@download/ENCFF279ZHM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR176BAH subcutaneous_adipose_tissue_male_adult_37_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR176BAH age=37_year description=ENCSR176BAH_subcutaneous_adipose_tissue_male_adult_37_years_peaks_ donor=ENCDO845WKR sex=male view=ENCSR176BAH 
+		view ENCSR176BAH
+
+	track ENCSR980OPB_ENCFF728JAJ
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF728JAJ/@@download/ENCFF728JAJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR980OPB subcutaneous_adipose_tissue_male_adult_54_years_ (fold change over c
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR980OPB age=54_year description=ENCSR980OPB_subcutaneous_adipose_tissue_male_adult_54_years_fold_change_over_control_ donor=ENCDO451RUA sex=male view=bigWig 
+	view bigWig
+
+	track tissue_subcutaneous_adipose_tissue_view_ENCSR980OPB
+	parent tissue_subcutaneous_adipose_tissue off
+	view ENCSR980OPB
+	visibility dense
+	type bigBed
+
+		track ENCSR980OPB_ENCFF980YZM
+		parent tissue_subcutaneous_adipose_tissue_view_ENCSR980OPB off
+		subGroups age=a54_year assay=ChIP-seq donor=ENCDO451RUA label=EP300 view=ENCSR980OPB 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF980YZM/@@download/ENCFF980YZM.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR980OPB subcutaneous_adipose_tissue_male_adult_54_years_ (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR980OPB age=54_year description=ENCSR980OPB_subcutaneous_adipose_tissue_male_adult_54_years_peaks_ donor=ENCDO451RUA sex=male view=ENCSR980OPB 
+		view ENCSR980OPB
+
+	track ENCSR983SZL_ENCFF228ONB
+	parent tissue_subcutaneous_adipose_tissue off
+	subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF228ONB/@@download/ENCFF228ONB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR983SZL subcutaneous_adipose_tissue_female_adult_51_year_ (fold change over 
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR983SZL age=51_year description=ENCSR983SZL_subcutaneous_adipose_tissue_female_adult_51_year_fold_change_over_control_ donor=ENCDO271OUW sex=female view=bigWig 
+	view bigWig
+
+	track tissue_subcutaneous_adipose_tissue_view_ENCSR983SZL
+	parent tissue_subcutaneous_adipose_tissue off
+	view ENCSR983SZL
+	visibility dense
+	type bigBed
+
+		track ENCSR983SZL_ENCFF289CWN
+		parent tissue_subcutaneous_adipose_tissue_view_ENCSR983SZL off
+		subGroups age=a51_year assay=ChIP-seq donor=ENCDO271OUW label=EP300 view=ENCSR983SZL 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF289CWN/@@download/ENCFF289CWN.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel ChIP-seq EP300
+		longLabel ENCSR983SZL subcutaneous_adipose_tissue_female_adult_51_year_ (pseudoreplicated 
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR983SZL age=51_year description=ENCSR983SZL_subcutaneous_adipose_tissue_female_adult_51_year_pseudoreplicated_idr_thresholded_peaks_ donor=ENCDO271OUW sex=female view=ENCSR983SZL 
+		view ENCSR983SZL
+

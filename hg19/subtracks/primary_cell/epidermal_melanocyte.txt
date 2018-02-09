@@ -1,0 +1,53 @@
+
+track primary_cell_epidermal_melanocyte
+parent super_primary_cell
+compositeTrack on
+shortLabel epidermal melanoc
+longLabel epidermal melanocyte (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO264AAA=ENCDO264AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000ELD=ENCSR000ELD bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000ELD_ENCFF269AKZ
+	parent primary_cell_epidermal_melanocyte off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO264AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF269AKZ/@@download/ENCFF269AKZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000ELD epidermal_melanocyte (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ELD age=unknown description=ENCSR000ELD_epidermal_melanocyte_read_depth_normalized_signal_ donor=ENCDO264AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_epidermal_melanocyte_view_ENCSR000ELD
+	parent primary_cell_epidermal_melanocyte off
+	view ENCSR000ELD
+	visibility dense
+	type bigBed
+
+		track ENCSR000ELD_ENCFF227ISL
+		parent primary_cell_epidermal_melanocyte_view_ENCSR000ELD off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO264AAA label=unknown view=ENCSR000ELD 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF227ISL/@@download/ENCFF227ISL.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000ELD epidermal_melanocyte (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000ELD age=unknown description=ENCSR000ELD_epidermal_melanocyte_peaks_ donor=ENCDO264AAA sex=unknown view=ENCSR000ELD 
+		view ENCSR000ELD
+

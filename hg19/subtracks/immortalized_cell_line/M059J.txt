@@ -1,0 +1,83 @@
+
+track immortalized_cell_line_M059J
+parent super_immortalized_cell_line
+compositeTrack on
+shortLabel M059J
+longLabel M059J (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq RAMPAGE=RAMPAGE RNA-seq=RNA-seq 
+subGroup3 view view ENCSR000EPG=ENCSR000EPG bigWig=bigWig 
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EPG_ENCFF476JLJ
+	parent immortalized_cell_line_M059J off
+	subGroups age=a33_year assay=DNase-seq donor=ENCDO000ACY label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF476JLJ/@@download/ENCFF476JLJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EPG M059J (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EPG age=33_year description=ENCSR000EPG_M059J_read_depth_normalized_signal_ donor=ENCDO000ACY sex=male view=bigWig 
+	view bigWig
+
+	track immortalized_cell_line_M059J_view_ENCSR000EPG
+	parent immortalized_cell_line_M059J off
+	view ENCSR000EPG
+	visibility dense
+	type bigBed
+
+		track ENCSR000EPG_ENCFF828WFQ
+		parent immortalized_cell_line_M059J_view_ENCSR000EPG off
+		subGroups age=a33_year assay=DNase-seq donor=ENCDO000ACY label=unknown view=ENCSR000EPG 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF828WFQ/@@download/ENCFF828WFQ.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EPG M059J (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EPG age=33_year description=ENCSR000EPG_M059J_peaks_ donor=ENCDO000ACY sex=male view=ENCSR000EPG 
+		view ENCSR000EPG
+
+	track ENCSR507GYW_ENCFF686DGH
+	parent immortalized_cell_line_M059J off
+	subGroups age=a33_year assay=RAMPAGE donor=ENCDO000ACY label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF686DGH/@@download/ENCFF686DGH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RAMPAGE
+	longLabel ENCSR507GYW M059J (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR507GYW age=33_year description=ENCSR507GYW_M059J_plus_strand_signal_of_unique_reads_ donor=ENCDO000ACY sex=male view=bigWig 
+	view bigWig
+
+	track ENCSR696SMK_ENCFF502RNF
+	parent immortalized_cell_line_M059J off
+	subGroups age=a33_year assay=RNA-seq donor=ENCDO000ACY label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF502RNF/@@download/ENCFF502RNF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR696SMK M059J (plus strand signal of unique reads)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR696SMK age=33_year description=ENCSR696SMK_M059J_plus_strand_signal_of_unique_reads_ donor=ENCDO000ACY sex=male view=bigWig 
+	view bigWig
+

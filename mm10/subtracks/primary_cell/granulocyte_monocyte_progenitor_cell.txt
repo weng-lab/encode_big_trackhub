@@ -1,0 +1,63 @@
+
+track primary_cell_granulocyte_monocyte_progenitor_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel granulocyte monoc
+longLabel granulocyte monocyte progenitor cell (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
+subGroup2 age age a5_6_week=5-6&#32;week 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR257PGU_ENCFF408OOS
+	parent primary_cell_granulocyte_monocyte_progenitor_cell off
+	subGroups age=a5_6_week assay=ATAC-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF408OOS/@@download/ENCFF408OOS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ATAC-seq
+	longLabel ENCSR257PGU C57BL_6_granulocyte_monocyte_progenitor_cell_male_adult_5_6_weeks_ (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR257PGU age=5_6_week description=ENCSR257PGU_C57BL_6_granulocyte_monocyte_progenitor_cell_male_adult_5_6_weeks_fold_change_over_control_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR277DPB_ENCFF606RBW
+	parent primary_cell_granulocyte_monocyte_progenitor_cell off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF606RBW/@@download/ENCFF606RBW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR277DPB C57BL_6_granulocyte_monocyte_progenitor_cell_male_adult_5_6_weeks_ (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR277DPB age=5_6_week description=ENCSR277DPB_C57BL_6_granulocyte_monocyte_progenitor_cell_male_adult_5_6_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track ENCSR833HPM_ENCFF694YTE
+	parent primary_cell_granulocyte_monocyte_progenitor_cell off
+	subGroups age=a5_6_week assay=RNA-seq donor=ENCDO072AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF694YTE/@@download/ENCFF694YTE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR833HPM C57BL_6_granulocyte_monocyte_progenitor_cell_male_adult_5_6_weeks_ (
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR833HPM age=5_6_week description=ENCSR833HPM_C57BL_6_granulocyte_monocyte_progenitor_cell_male_adult_5_6_weeks_plus_strand_signal_of_unique_reads_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+

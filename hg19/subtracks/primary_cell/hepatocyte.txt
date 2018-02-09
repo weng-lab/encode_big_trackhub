@@ -1,0 +1,53 @@
+
+track primary_cell_hepatocyte
+parent super_primary_cell
+compositeTrack on
+shortLabel hepatocyte
+longLabel hepatocyte (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO102AAA=ENCDO102AAA 
+subGroup2 age age aunknown=unknown 
+subGroup3 view view ENCSR000EJU=ENCSR000EJU bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000EJU_ENCFF990PCZ
+	parent primary_cell_hepatocyte off
+	subGroups age=aunknown assay=DNase-seq donor=ENCDO102AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF990PCZ/@@download/ENCFF990PCZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel DNase-seq
+	longLabel ENCSR000EJU hepatocyte (read-depth normalized signal)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EJU age=unknown description=ENCSR000EJU_hepatocyte_read_depth_normalized_signal_ donor=ENCDO102AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track primary_cell_hepatocyte_view_ENCSR000EJU
+	parent primary_cell_hepatocyte off
+	view ENCSR000EJU
+	visibility dense
+	type bigBed
+
+		track ENCSR000EJU_ENCFF086FXE
+		parent primary_cell_hepatocyte_view_ENCSR000EJU off
+		subGroups age=aunknown assay=DNase-seq donor=ENCDO102AAA label=unknown view=ENCSR000EJU 
+		bigDataUrl https://www.encodeproject.org/files/ENCFF086FXE/@@download/ENCFF086FXE.bigBed?proxy=true
+		visibility hide
+		type bigBed
+		shortLabel DNase-seq
+		longLabel ENCSR000EJU hepatocyte (peaks)
+		itemRgb On
+		color 227,184,136
+		darkerLabels on
+		metadata accession=ENCSR000EJU age=unknown description=ENCSR000EJU_hepatocyte_peaks_ donor=ENCDO102AAA sex=unknown view=ENCSR000EJU 
+		view ENCSR000EJU
+

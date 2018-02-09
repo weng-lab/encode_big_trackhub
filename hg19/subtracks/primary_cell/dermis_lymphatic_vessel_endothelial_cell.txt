@@ -1,0 +1,33 @@
+
+track primary_cell_dermis_lymphatic_vessel_endothelial_cell
+parent super_primary_cell
+compositeTrack on
+shortLabel dermis lymphatic 
+longLabel dermis lymphatic vessel endothelial cell (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 donor donor ENCDO036AAA=ENCDO036AAA 
+subGroup2 age age a6_year=6&#32;year 
+subGroup3 view view bigWig=bigWig 
+sortOrder donor=+ age=+ view=+
+dimensions dimX=age dimY=donor
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track ENCSR000AAJ_ENCFF689MGD
+	parent primary_cell_dermis_lymphatic_vessel_endothelial_cell off
+	subGroups age=a6_year assay=RNA-seq donor=ENCDO036AAA label=unknown view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF689MGD/@@download/ENCFF689MGD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel RNA-seq
+	longLabel ENCSR000AAJ dermis_lymphatic_vessel_endothelial_cell_female_adult_45_years_and_m
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AAJ age=6_year description=ENCSR000AAJ_dermis_lymphatic_vessel_endothelial_cell_female_adult_45_years_and_male_child_6_years_plus_strand_signal_of_unique_reads_ donor=ENCDO036AAA sex=male view=bigWig 
+	view bigWig
+
