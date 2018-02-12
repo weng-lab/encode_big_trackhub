@@ -1,0 +1,618 @@
+astrocyte	astrocyte	ENCFF255LCX	ENCFF773MEH	ENCFF000CHA	ENCFF000CFQ
+B_cell_adult	B cell adult	ENCFF189YNN	ENCFF353QSH	ENCFF386JLI	ENCFF000AMN
+bipolar_spindle_neuron_derived_from_induced_pluripotent_stem_cell	bipolar spindle neuron derived from induced pluripotent stem cell	ENCFF535XHF	ENCFF258WCY	ENCFF036PHA	ENCFF284REP
+fibroblast_of_dermis	fibroblast of dermis	ENCFF286RQI	ENCFF441PKI	ENCFF000CJZ	ENCFF000CIV
+fibroblast_of_lung_male_fetal_12_weeks	fibroblast of lung male fetal (12 weeks)	ENCFF942XQR	ENCFF001ENU	ENCFF001ENF	ENCFF001GWQ
+foreskin_fibroblast_male_newborn	foreskin fibroblast male newborn	ENCFF240UTR	ENCFF586DIY	ENCFF309PVY	ENCFF001GZQ
+GM12878	GM12878	ENCFF131XEA	ENCFF818GNV	ENCFF180LKW	ENCFF886KRA
+H1-hESC	H1-hESC	ENCFF316ZUB	ENCFF347APS	ENCFF000AWK	ENCFF000AVN
+HCT116	HCT116	ENCFF467PEX	ENCFF859AQD	ENCFF225QAB	ENCFF000OYT
+HeLa-S3	HeLa-S3	ENCFF397NCI	ENCFF001FKU	ENCFF000BBR	ENCFF000BAN
+hepatocyte_derived_from_H9	hepatocyte derived from H9	ENCFF315GOQ	ENCFF634XSS	ENCFF323LSJ	ENCFF911ZCT
+HepG2	HepG2	ENCFF646UXG	ENCFF741UBT	ENCFF149IFW	ENCFF000PGW
+IMR-90_female_fetal_16_weeks	IMR-90 female fetal (16 weeks)	ENCFF868PZL	ENCFF274SSA	ENCFF519DLP	ENCFF000YCP
+induced_pluripotent_stem_cell_male_adult_53_years_derived_from_fibroblast_of_arm	induced pluripotent stem cell male adult derived from fibroblast of arm (53 years)	ENCFF920RNE	ENCFF175FJO	ENCFF743DDY	ENCFF786KBL
+K562	K562	ENCFF686NUN	ENCFF689TMV	ENCFF000BWY	ENCFF000YMA
+keratinocyte_female	keratinocyte female	ENCFF550IZT	ENCFF104ABN	ENCFF000CNE	ENCFF000SCO
+mammary_epithelial_cell_female	mammary epithelial cell female	ENCFF899ZLS	ENCFF001FOA	ENCFF000BIB	ENCFF001HPG
+MCF-7	MCF-7	ENCFF305LCQ	ENCFF001FXW	ENCFF212JTP	ENCFF812KNI
+myotube	myotube	ENCFF279THP	ENCFF848NPS	ENCFF000BOL	ENCFF000BNN
+pancreas_male_adult	pancreas male adult	ENCFF050KUK	ENCFF332GDL	ENCFF183QVV	ENCFF000SCW
+PC-9	PC-9	ENCFF919AVI	ENCFF352QOD	ENCFF497CGM	ENCFF606RVV
+adrenal_gland_male_fetal_96-97_days	adrenal gland male fetal (96-97 days)	ENCFF783UAA	ENCFF351DQS	ENCFF502RXB	NA
+body_of_pancreas_male_adult_37_years	body of pancreas male adult (37 years)	ENCFF376WLQ	ENCFF527JEF	ENCFF011ZFZ	NA
+CD14+_monocytes_from_male_peripheral_blood	CD14+ monocytes from male peripheral blood	ENCFF849GUA	ENCFF206DXH	ENCFF025QOB	NA
+common_myeloid_progenitor_CD34+_female	common myeloid progenitor CD34+ female	ENCFF675GIJ	ENCFF669OBG	ENCFF508QOR	NA
+fibroblast_of_arm_male_adult_53_years	fibroblast of arm male adult (53 years)	ENCFF785WSP	ENCFF647UUF	ENCFF217TIX	NA
+foreskin_keratinocyte_male_newborn	foreskin keratinocyte male newborn	ENCFF566IHI	ENCFF339FYG	ENCFF704OXU	NA
+foreskin_melanocyte_male_newborn	foreskin melanocyte male newborn	ENCFF966HSU	ENCFF582UXX	ENCFF683FWC	NA
+gastrocnemius_medialis_male_adult_54_years	gastrocnemius medialis male adult (54 years)	ENCFF561OES	ENCFF596MDR	ENCFF195KTA	NA
+H9	H9	ENCFF755YAA	ENCFF494BBO	ENCFF608EJJ	NA
+iPS_DF_19.11_male_newborn	iPS DF 19.11 male newborn	ENCFF514NIM	ENCFF430FXT	ENCFF152DMI	NA
+iPS_DF_6.9_male_newborn	iPS DF 6.9 male newborn	ENCFF606LWE	ENCFF970JMO	ENCFF832EKB	NA
+Karpas-422	Karpas-422	ENCFF252XGM	ENCFF086WSJ	ENCFF896ZBB	NA
+large_intestine_male_fetal_108_days	large intestine male fetal (108 days)	ENCFF564VTX	ENCFF198XAL	ENCFF347QKD	NA
+MM.1S	MM.1S	ENCFF182SDS	ENCFF386VHL	ENCFF305ARC	NA
+muscle_of_leg_female_fetal_110-113_days	muscle of leg female fetal (110-113 days)	ENCFF908GVS	ENCFF891KCD	ENCFF279IAA	NA
+muscle_of_trunk_female_fetal_113-115_days	muscle of trunk female fetal (113-115 days)	ENCFF472WHS	ENCFF520APO	ENCFF307REJ	NA
+natural_killer_cell_male_adult_37_years	natural killer cell male adult (37 years)	ENCFF199IRF	ENCFF707TUY	ENCFF814VKT	NA
+neural_progenitor_cell_derived_from_H9	neural progenitor cell derived from H9	ENCFF817EJO	ENCFF644BAH	ENCFF533OFX	NA
+neuronal_stem_cell	neuronal stem cell	ENCFF593XYH	ENCFF866HBM	ENCFF635FIJ	NA
+OCI-LY7	OCI-LY7	ENCFF020KCP	ENCFF168ARD	ENCFF854ACC	NA
+ovary_female_adult_30_years	ovary female adult (30 years)	ENCFF576JBT	ENCFF469VTD	ENCFF844WTL	NA
+Panc1	Panc1	ENCFF817RBE	ENCFF001GBJ	ENCFF000VJJ	NA
+PC-3	PC-3	ENCFF379CCW	ENCFF321KXR	ENCFF792XEZ	NA
+placenta_female_fetal_108-113_days	placenta female fetal (108-113 days)	ENCFF454SXV	ENCFF741KYY	ENCFF591EVP	NA
+right_lobe_of_liver_female_adult_53_years	right lobe of liver female adult (53 years)	ENCFF354ZKN	ENCFF249QWR	ENCFF599LSB	NA
+sigmoid_colon_male	sigmoid colon male	ENCFF680NAX	ENCFF620IAB	ENCFF468WFJ	NA
+SK-N-MC	SK-N-MC	ENCFF565RKP	ENCFF825ZBV	ENCFF921GJR	NA
+small_intestine_male_fetal_108_days	small intestine male fetal (108 days)	ENCFF278QDC	ENCFF288QAQ	ENCFF546LQG	NA
+stomach_female_fetal_96-98_days	stomach female fetal (96-98 days)	ENCFF558GXR	ENCFF522VAL	ENCFF056SIE	NA
+stomach_male_adult_34_years	stomach male adult (34 years)	ENCFF525SHE	ENCFF687NHR	ENCFF542HWW	NA
+T-cell_male_adult_37_years	T-cell male adult (37 years)	ENCFF123MWQ	ENCFF971TDY	ENCFF608TNF	NA
+thymus_female_fetal_110-113_days	thymus female fetal (110-113 days)	ENCFF010DVG	ENCFF559BWF	ENCFF819RUM	NA
+thyroid_gland_male_adult_54_years	thyroid gland male adult (54 years)	ENCFF166WQI	ENCFF782HFF	ENCFF062GEM	NA
+trophoblast_cell_male_embryo	trophoblast cell male embryo	ENCFF211RCD	ENCFF183OBS	ENCFF555JVO	NA
+astrocyte_of_the_cerebellum	astrocyte of the cerebellum	ENCFF400YWH	ENCFF001FFE	NA	ENCFF001HIU
+BE2C	BE2C	ENCFF689XET	ENCFF001EQH	NA	ENCFF164VOK
+brain_microvascular_endothelial_cell	brain microvascular endothelial cell	ENCFF433ZPU	ENCFF001FGE	NA	ENCFF225MWV
+bronchial_epithelial_cell	bronchial epithelial cell	ENCFF513CIC	ENCFF001GDE	NA	ENCFF001HWV
+Caco-2	Caco-2	ENCFF511PJV	ENCFF001ESW	NA	ENCFF001HAD
+choroid_plexus_epithelial_cell	choroid plexus epithelial cell	ENCFF903XOS	ENCFF001FHZ	NA	ENCFF001HLD
+epithelial_cell_of_proximal_tubule	epithelial cell of proximal tubule	ENCFF586LBQ	ENCFF001GBY	NA	ENCFF001HWH
+fibroblast_of_gingiva_female_adult_24_years	fibroblast of gingiva female adult (24 years)	ENCFF326EMX	ENCFF001EOU	NA	ENCFF001GXQ
+fibroblast_of_lung	fibroblast of lung	ENCFF042AAN	ENCFF001FPO	NA	ENCFF001HQT
+fibroblast_of_mammary_gland_female	fibroblast of mammary gland female	ENCFF346IOW	ENCFF001FOP	NA	ENCFF001HPT
+fibroblast_of_pedal_digit_skin_female_adult_21_year	fibroblast of pedal digit skin female adult (21 years)	ENCFF161MVS	ENCFF001EOI	NA	ENCFF001GXD
+fibroblast_of_pulmonary_artery	fibroblast of pulmonary artery	ENCFF822KEX	ENCFF001FPC	NA	ENCFF001HQG
+fibroblast_of_the_aortic_adventitia_female	fibroblast of the aortic adventitia female	ENCFF754GJO	ENCFF001EPU	NA	ENCFF001GYR
+fibroblast_of_upper_leg_skin_male_fetal_12_weeks	fibroblast of upper leg skin male fetal (12 weeks)	ENCFF332QJL	ENCFF001EMH	NA	ENCFF001GWD
+GM06990	GM06990	ENCFF331MNL	ENCFF001EUW	NA	ENCFF001HAW
+GM12864	GM12864	ENCFF561KMR	ENCFF974YBO	NA	ENCFF001HBU
+HL-60	HL-60	ENCFF966ZSL	ENCFF852VFY	NA	ENCFF001HOU
+kidney_epithelial_cell	kidney epithelial cell	ENCFF290AMP	ENCFF001FQU	NA	ENCFF001HRG
+LNCaP_clone_FGC	LNCaP clone FGC	ENCFF752YDY	ENCFF001FXI	NA	ENCFF000RXT
+retinal_pigment_epithelial_cell	retinal pigment epithelial cell	ENCFF226VWD	ENCFF001FRH	NA	ENCFF001HRT
+WERI-Rb-1	WERI-Rb-1	ENCFF821FMG	ENCFF381YGT	NA	ENCFF376FYZ
+B_cell_female_adult_43_years	B cell female adult (43 years)	ENCFF609ANH	ENCFF001ETI	NA	NA
+body_of_pancreas_male_adult_54_years	body of pancreas male adult (54 years)	ENCFF736OLR	ENCFF982WVN	NA	NA
+brain_female_fetal	brain female fetal	ENCFF563ZCA	ENCFF708VIP	NA	NA
+brain_male_fetal_122_days	brain male fetal (122 days)	ENCFF028LDF	ENCFF265ILW	NA	NA
+cardiac_mesoderm_5_day_differentiation	cardiac mesoderm 5 day differentiation	ENCFF448XVN	ENCFF103CRJ	NA	NA
+common_myeloid_progenitor_CD34+_male_adult_42_years	common myeloid progenitor CD34+ male adult (42 years)	ENCFF033TFX	ENCFF547LOT	NA	NA
+esophagus_squamous_epithelium_female_adult_53_years	esophagus squamous epithelium female adult (53 years)	ENCFF174RSF	ENCFF787FLH	NA	NA
+H7-hESC	H7-hESC	ENCFF405ZPU	ENCFF282VLR	NA	NA
+kidney_female_fetal_120_days	kidney female fetal (120 days)	ENCFF430OBS	ENCFF956BEP	NA	NA
+lung_fetal_101_day	lung fetal (101 days)	ENCFF699AQI	ENCFF239TOK	NA	NA
+NT2/D1	NT2/D1	ENCFF406RWT	ENCFF535JKB	NA	NA
+T-cell	T-cell	ENCFF169DIO	ENCFF878CCJ	NA	NA
+A673	A673	ENCFF891YXC	NA	ENCFF743TET	NA
+adrenal_gland_male_adult_54_years	adrenal gland male adult (54 years)	ENCFF869QKK	NA	ENCFF104OUW	NA
+thyroid_gland_male_adult_37_years	thyroid gland male adult (37 years)	ENCFF822UFJ	NA	ENCFF125PJA	NA
+CD14+_monocyte_female	CD14+ monocyte female	ENCFF222YYU	NA	NA	ENCFF000CCR
+HeLa-S3_G1b_phase	HeLa-S3 G1b phase	ENCFF689XDW	NA	NA	ENCFF001HND
+HFF-Myc_male_postnatal_derived_from_foreskin_fibroblast	HFF-Myc male postnatal derived from foreskin fibroblast	ENCFF963GTB	NA	NA	ENCFF876PSQ
+MCF-7_treated_with_estradiol	MCF-7 treated with estradiol	ENCFF648YWZ	NA	NA	ENCFF000RZU
+skin_fibroblast_female	skin fibroblast female	ENCFF088BXV	NA	NA	ENCFF000RMS
+SK-N-SH_treated_with_all-trans-retinoic_acid	SK-N-SH treated with all-trans-retinoic acid	ENCFF591EBW	NA	NA	ENCFF001HXO
+A172	A172	ENCFF500ZNG	NA	NA	NA
+adipocyte	adipocyte	ENCFF659DZH	NA	NA	NA
+adrenal_gland_female_adult_51_year	adrenal gland female adult (51 years)	ENCFF205TQN	NA	NA	NA
+adrenal_gland_female_fetal_108_days	adrenal gland female fetal (108 days)	ENCFF270FTD	NA	NA	NA
+adrenal_gland_female_fetal_113_days	adrenal gland female fetal (113 days)	ENCFF805AQB	NA	NA	NA
+adrenal_gland_female_fetal_85_days	adrenal gland female fetal (85 days)	ENCFF044EPB	NA	NA	NA
+adrenal_gland_male_adult_37_years	adrenal gland male adult (37 years)	ENCFF332HYA	NA	NA	NA
+adrenal_gland_male_fetal_101_day	adrenal gland male fetal (101 days)	ENCFF600BCZ	NA	NA	NA
+adrenal_gland_male_fetal_108_days	adrenal gland male fetal (108 days)	ENCFF432XCM	NA	NA	NA
+adrenal_gland_male_fetal_85_days	adrenal gland male fetal (85 days)	ENCFF820EHC	NA	NA	NA
+Ammon's_horn_male_adult_84_years	Ammon's horn male adult (84 years)	ENCFF309EYE	NA	NA	NA
+amniotic_epithelial_cell	amniotic epithelial cell	ENCFF951NCM	NA	NA	NA
+amniotic_stem_cell	amniotic stem cell	ENCFF539CCN	NA	NA	NA
+B_cell_female_adult_34_years	B cell female adult (34 years)	ENCFF474BFQ	NA	NA	NA
+brain_female_fetal_105_days	brain female fetal (105 days)	ENCFF836FCT	NA	NA	NA
+brain_female_fetal_109_days	brain female fetal (109 days)	ENCFF461VFY	NA	NA	NA
+brain_female_fetal_117_days	brain female fetal (117 days)	ENCFF194HAH	NA	NA	NA
+brain_female_fetal_85_days	brain female fetal (85 days)	ENCFF853YZC	NA	NA	NA
+brain_female_fetal_96_days	brain female fetal (96 days)	ENCFF339ZTD	NA	NA	NA
+brain_fetal_112_days	brain fetal (112 days)	ENCFF943YKA	NA	NA	NA
+brain_fetal_56_days_and_male_fetal_58_days	brain fetal (56-58 days)	ENCFF392FDM	NA	NA	NA
+brain_male_fetal_101_day	brain male fetal (101 days)	ENCFF160WEC	NA	NA	NA
+brain_male_fetal_104_days	brain male fetal (104 days)	ENCFF203MIQ	NA	NA	NA
+brain_male_fetal_72_days_and_male_fetal_76_days	brain male fetal (72 days and 76 days)	ENCFF005EFQ	NA	NA	NA
+brain_pericyte	brain pericyte	ENCFF024DAF	NA	NA	NA
+bronchial_epithelial_cell_female_treated_with_retinoic_acid	bronchial epithelial cell female treated with retinoic acid	ENCFF155GEM	NA	NA	NA
+Caki2	Caki2	ENCFF635NYX	NA	NA	NA
+cardiac_mesoderm_14_day_differentiation	cardiac mesoderm 14 day differentiation	ENCFF926PPC	NA	NA	NA
+cardiac_mesoderm_2_day_differentiation	cardiac mesoderm 2 day differentiation	ENCFF368CUH	NA	NA	NA
+cardiac_mesoderm_9_day_differentiation	cardiac mesoderm 9 day differentiation	ENCFF318OSA	NA	NA	NA
+CD14+_monocyte_female_adult_34_years	CD14+ monocyte female adult (34 years)	ENCFF953YTK	NA	NA	NA
+CD1c+_myeloid_dendritic_cell	CD1c+ myeloid dendritic cell	ENCFF002YNE	NA	NA	NA
+CD4+_helper_T_cell_female_adult_33_years	CD4+ helper T cell female adult (33 years)	ENCFF884XML	NA	NA	NA
+CD4+_helper_T_cell_male_adult_21_year	CD4+ helper T cell male adult (21 years)	ENCFF486BYS	NA	NA	NA
+CD4+_helper_T_cell_male_adult_37_years	CD4+ helper T cell male adult (37 years)	ENCFF039JSC	NA	NA	NA
+CD8+_alpha-beta_T_cell_female_adult_33_years	CD8+ alpha-beta T cell female adult (33 years)	ENCFF597CHD	NA	NA	NA
+CD8+_alpha-beta_T_cell_female_adult_34_years	CD8+ alpha-beta T cell female adult (34 years)	ENCFF514GXK	NA	NA	NA
+CD8+_alpha-beta_T_cell_male_adult_21_year	CD8+ alpha-beta T cell male adult (21 years)	ENCFF571DLD	NA	NA	NA
+cerebellar_cortex_male_adult_78_years_and_male_adult_84_years	cerebellar cortex male adult (78 years and 84 years)	ENCFF934GDA	NA	NA	NA
+CMK	CMK	ENCFF913LFZ	NA	NA	NA
+common_myeloid_progenitor_CD34+_female_adult_27_years	common myeloid progenitor CD34+ female adult (27 years)	ENCFF366XGQ	NA	NA	NA
+common_myeloid_progenitor_CD34+_female_adult_50_years	common myeloid progenitor CD34+ female adult (50 years)	ENCFF783FLC	NA	NA	NA
+common_myeloid_progenitor_CD34+_male	common myeloid progenitor CD34+ male	ENCFF864PIK	NA	NA	NA
+common_myeloid_progenitor_CD34+_male_adult	common myeloid progenitor CD34+ male adult	ENCFF400OJL	NA	NA	NA
+common_myeloid_progenitor_CD34+_male_adult_23_years	common myeloid progenitor CD34+ male adult (23 years)	ENCFF965EVR	NA	NA	NA
+common_myeloid_progenitor_CD34+_male_adult_36_years	common myeloid progenitor CD34+ male adult (36 years)	ENCFF059TJM	NA	NA	NA
+common_myeloid_progenitor_CD34+_male_adult_37_years	common myeloid progenitor CD34+ male adult (37 years)	ENCFF185ZKU	NA	NA	NA
+common_myeloid_progenitor_CD34+_male_adult_43_years	common myeloid progenitor CD34+ male adult (43 years)	ENCFF908OMF	NA	NA	NA
+common_myeloid_progenitor_CD34+_male_adult_49_years	common myeloid progenitor CD34+ male adult (49 years)	ENCFF318UXX	NA	NA	NA
+Daoy	Daoy	ENCFF576IAN	NA	NA	NA
+dermis_blood_vessel_endothelial_cell_female_adult	dermis blood vessel endothelial cell female adult	ENCFF805RBY	NA	NA	NA
+dermis_blood_vessel_endothelial_cell_male_postnatal	dermis blood vessel endothelial cell male postnatal	ENCFF904DYE	NA	NA	NA
+dermis_microvascular_lymphatic_vessel_endothelial_cell_female	dermis microvascular lymphatic vessel endothelial cell female	ENCFF235ODQ	NA	NA	NA
+EH	EH	ENCFF755VKW	NA	NA	NA
+EL	EL	ENCFF754UVV	NA	NA	NA
+ELF-1	ELF-1	ENCFF569DQU	NA	NA	NA
+ELR	ELR	ENCFF203XBQ	NA	NA	NA
+embryonic_facial_prominence_fetal_53_days_and_fetal_58_days	embryonic facial prominence fetal (53 days and 58 days)	ENCFF777KLE	NA	NA	NA
+embryonic_facial_prominence_male_fetal_81_day	embryonic facial prominence male fetal (81 days)	ENCFF879WOR	NA	NA	NA
+epithelial_cell_of_prostate	epithelial cell of prostate	ENCFF499EJU	NA	NA	NA
+eye_female_fetal_76_days	eye female fetal (76 days)	ENCFF436HXX	NA	NA	NA
+eye_fetal_56_days_and_male_fetal_76_days	eye fetal (56 and 76 days)	ENCFF852ZZC	NA	NA	NA
+fibroblast_of_peridontal_ligament_male	fibroblast of peridontal ligament male	ENCFF644WAM	NA	NA	NA
+fibroblast_of_skin_of_abdomen_male_fetal_97_days	fibroblast of skin of abdomen male fetal (97 days)	ENCFF249IHA	NA	NA	NA
+fibroblast_of_the_conjunctiva	fibroblast of the conjunctiva	ENCFF192PIA	NA	NA	NA
+forelimb_muscle_female_fetal_108_days	forelimb muscle female fetal (108 days)	ENCFF082JFC	NA	NA	NA
+G401	G401	ENCFF950NJG	NA	NA	NA
+globus_pallidus_male_adult_78_years_and_male_adult_84_years	globus pallidus male adult (78 years and 84 years)	ENCFF937GMC	NA	NA	NA
+glomerular_endothelial_cell	glomerular endothelial cell	ENCFF702GXV	NA	NA	NA
+glomerular_visceral_epithelial_cell_child_3_years	glomerular visceral epithelial cell child (3 years)	ENCFF985YVG	NA	NA	NA
+H4	H4	ENCFF880HQJ	NA	NA	NA
+H9_G1_phase_transiently_expressing_fusion_protein	H9 G1 phase transiently expressing fusion protein	ENCFF561LGG	NA	NA	NA
+H9_G2_phase_transiently_expressing_fusion_protein	H9 G2 phase transiently expressing fusion protein	ENCFF671HYN	NA	NA	NA
+H9_S1_phase_transiently_expressing_fusion_protein	H9 S1 phase transiently expressing fusion protein	ENCFF419RUA	NA	NA	NA
+HAP-1	HAP-1	ENCFF643YWB	NA	NA	NA
+heart_female_fetal_103_days	heart female fetal (103 days)	ENCFF209WEG	NA	NA	NA
+heart_female_fetal_105_days	heart female fetal (105 days)	ENCFF233TQO	NA	NA	NA
+heart_female_fetal_110_days	heart female fetal (110 days)	ENCFF283QCW	NA	NA	NA
+heart_female_fetal_116_days_and_female_fetal_98_days	heart female fetal (116 days and 98 days)	ENCFF706SXW	NA	NA	NA
+heart_female_fetal_117_days	heart female fetal (117 days)	ENCFF551UPK	NA	NA	NA
+heart_female_fetal_147_days	heart female fetal (147 days)	ENCFF642JAQ	NA	NA	NA
+heart_female_fetal_76_days_and_fetal_59_days	heart female fetal (76 days and 59 days)	ENCFF204CLB	NA	NA	NA
+heart_female_fetal_91_day	heart female fetal (91 days)	ENCFF180AVL	NA	NA	NA
+heart_fetal_101_day	heart fetal (101 day)	ENCFF371GMM	NA	NA	NA
+heart_fetal_80_days	heart fetal (80 days)	ENCFF538QSO	NA	NA	NA
+heart_fetal_96_days	heart fetal (96 days)	ENCFF358PFM	NA	NA	NA
+heart_left_ventricle_female_fetal_101_day_and_female_fetal_136_days	heart left ventricle female fetal (101 days and 136 days)	ENCFF290GMX	NA	NA	NA
+heart_male_child_3_years	heart male child (3 years)	ENCFF282ZAA	NA	NA	NA
+heart_male_fetal_105_days	heart male fetal (105 days)	ENCFF692KPG	NA	NA	NA
+heart_male_fetal_110_days	heart male fetal (110 days)	ENCFF838SZN	NA	NA	NA
+heart_male_fetal_120_days	heart male fetal (120 days)	ENCFF533IIX	NA	NA	NA
+heart_male_fetal_72_days_and_male_fetal_76_days	heart male fetal (72 days and 76 days)	ENCFF555RMF	NA	NA	NA
+heart_male_fetal_96_days	heart male fetal (96 days)	ENCFF343DLI	NA	NA	NA
+hematopoietic_multipotent_progenitor_cell_female_adult_34_years	hematopoietic multipotent progenitor cell female adult (34 years)	ENCFF574QQF	NA	NA	NA
+hematopoietic_multipotent_progenitor_cell_male	hematopoietic multipotent progenitor cell male	ENCFF973OVW	NA	NA	NA
+hematopoietic_multipotent_progenitor_cell_male_adult_25_years_treated_with_interleukin-3__kit_ligand__hydrocortisone_succinate__erythropoietin	hematopoietic multipotent progenitor cell male adult treated with interleukin-3  kit ligand  hydrocortisone succinate  erythropoietin (25 years)	ENCFF340IBY	NA	NA	NA
+hindlimb_muscle_male_fetal_120_days	hindlimb muscle male fetal (120 days)	ENCFF725ZGB	NA	NA	NA
+HS-27A	HS-27A	ENCFF976DTP	NA	NA	NA
+HS-5	HS-5	ENCFF288HAC	NA	NA	NA
+HT-29	HT-29	ENCFF419MBI	NA	NA	NA
+HT1080	HT1080	ENCFF930ZWL	NA	NA	NA
+inferior_parietal_cortex_male_adult_84_years	inferior parietal cortex male adult (84 years)	ENCFF737SGI	NA	NA	NA
+iPS_DF_19.7_male_newborn	iPS DF 19.7 male newborn	ENCFF370FTT	NA	NA	NA
+iPS_DF_4.7_male_newborn	iPS DF 4.7 male newborn	ENCFF476NMU	NA	NA	NA
+Jurkat_clone_E61	Jurkat clone E61	ENCFF555EUK	NA	NA	NA
+KBM-7	KBM-7	ENCFF715TDE	NA	NA	NA
+kidney_female_fetal_105_days	kidney female fetal (105 days)	ENCFF388AWC	NA	NA	NA
+kidney_female_fetal_108_days	kidney female fetal (108 days)	ENCFF827SOV	NA	NA	NA
+kidney_female_fetal_113_days	kidney female fetal (113 days)	ENCFF435PMU	NA	NA	NA
+kidney_female_fetal_121_day	kidney female fetal (121 days)	ENCFF929VWD	NA	NA	NA
+kidney_female_fetal_82_days	kidney female fetal (82 days)	ENCFF860ZLJ	NA	NA	NA
+kidney_female_fetal_85_days	kidney female fetal (85 days)	ENCFF513BMX	NA	NA	NA
+kidney_fetal_80_days	kidney fetal (80 days)	ENCFF294IOW	NA	NA	NA
+kidney_male_fetal_105_days	kidney male fetal (105 days)	ENCFF562KFO	NA	NA	NA
+kidney_male_fetal_85_days	kidney male fetal (85 days)	ENCFF597SRR	NA	NA	NA
+kidney_male_fetal_87_days	kidney male fetal (87 days)	ENCFF607ZFS	NA	NA	NA
+L1-S8	L1-S8	ENCFF681DIN	NA	NA	NA
+L1-S8R	L1-S8R	ENCFF585PHC	NA	NA	NA
+large_intestine_female_fetal_103_days	large intestine female fetal (103 days)	ENCFF962QGQ	NA	NA	NA
+large_intestine_female_fetal_105_days	large intestine female fetal (105 days)	ENCFF741OUT	NA	NA	NA
+large_intestine_female_fetal_107_days	large intestine female fetal (107 days)	ENCFF731BOP	NA	NA	NA
+large_intestine_female_fetal_108_days	large intestine female fetal (108 days)	ENCFF123UIT	NA	NA	NA
+large_intestine_female_fetal_110_days	large intestine female fetal (110 days)	ENCFF373XQR	NA	NA	NA
+large_intestine_female_fetal_120_days	large intestine female fetal (120 days)	ENCFF336HTZ	NA	NA	NA
+large_intestine_female_fetal_85_days	large intestine female fetal (85 days)	ENCFF726ERM	NA	NA	NA
+large_intestine_female_fetal_91_day	large intestine female fetal (91 days)	ENCFF310HSN	NA	NA	NA
+large_intestine_female_fetal_98_days	large intestine female fetal (98 days)	ENCFF676WQH	NA	NA	NA
+large_intestine_male_fetal_105_days	large intestine male fetal (105 days)	ENCFF543WLC	NA	NA	NA
+large_intestine_male_fetal_113_days	large intestine male fetal (113 days)	ENCFF298PUD	NA	NA	NA
+large_intestine_male_fetal_115_days	large intestine male fetal (115 days)	ENCFF974LGX	NA	NA	NA
+large_intestine_male_fetal_91_day	large intestine male fetal (91 days)	ENCFF234WTY	NA	NA	NA
+left_kidney_female_fetal_107_days	left kidney female fetal (107 days)	ENCFF012PQL	NA	NA	NA
+left_kidney_female_fetal_110_days	left kidney female fetal (110 days)	ENCFF370PHA	NA	NA	NA
+left_kidney_female_fetal_147_days	left kidney female fetal (147 days)	ENCFF739SUN	NA	NA	NA
+left_kidney_female_fetal_59_days_and_male_fetal_91_day	left kidney female fetal (59 days and 91 days)	ENCFF612OPD	NA	NA	NA
+left_kidney_female_fetal_87_days	left kidney female fetal (87 days)	ENCFF418ZRX	NA	NA	NA
+left_kidney_female_fetal_98_days	left kidney female fetal (98 days)	ENCFF070MEV	NA	NA	NA
+left_kidney_male_fetal_115_days	left kidney male fetal (115 days)	ENCFF818RCP	NA	NA	NA
+left_kidney_male_fetal_87_days	left kidney male fetal (87 days)	ENCFF784SPQ	NA	NA	NA
+left_kidney_male_fetal_96_days	left kidney male fetal (96 days)	ENCFF691AFX	NA	NA	NA
+left_lung_female_fetal_105_days	left lung female fetal (105 days)	ENCFF673CVD	NA	NA	NA
+left_lung_female_fetal_107_days	left lung female fetal (107 days)	ENCFF703UCH	NA	NA	NA
+left_lung_female_fetal_108_days	left lung female fetal (108 days)	ENCFF040KEJ	NA	NA	NA
+left_lung_female_fetal_110_days	left lung female fetal (110 days)	ENCFF094OTH	NA	NA	NA
+left_lung_female_fetal_117_days	left lung female fetal (117 days)	ENCFF513PTG	NA	NA	NA
+left_lung_female_fetal_91_day	left lung female fetal (91 days)	ENCFF133JTH	NA	NA	NA
+left_lung_female_fetal_98_days	left lung female fetal (98 days)	ENCFF829ZNN	NA	NA	NA
+left_lung_male_fetal_105_days	left lung male fetal (105 days)	ENCFF880HKX	NA	NA	NA
+left_lung_male_fetal_113_days	left lung male fetal (113 days)	ENCFF639DDE	NA	NA	NA
+left_lung_male_fetal_115_days	left lung male fetal (115 days)	ENCFF728ADH	NA	NA	NA
+left_lung_male_fetal_87_days	left lung male fetal (87 days)	ENCFF641YGN	NA	NA	NA
+left_lung_male_fetal_91_day	left lung male fetal (91 days)	ENCFF472WZP	NA	NA	NA
+left_lung_male_fetal_96_days	left lung male fetal (96 days)	ENCFF513VUD	NA	NA	NA
+left_renal_cortex_interstitium_male_fetal_105_days	left renal cortex interstitium male fetal (105 days)	ENCFF819DSW	NA	NA	NA
+left_renal_cortex_interstitium_male_fetal_120_days	left renal cortex interstitium male fetal (120 days)	ENCFF442GNA	NA	NA	NA
+left_renal_pelvis_male_fetal_105_days	left renal pelvis male fetal (105 days)	ENCFF783JUL	NA	NA	NA
+left_renal_pelvis_male_fetal_120_days	left renal pelvis male fetal (120 days)	ENCFF135CPW	NA	NA	NA
+limb_fetal_53_days_and_fetal_56_days	limb fetal 53 days and fetal (56 days)	ENCFF187XGL	NA	NA	NA
+limb_fetal_58_days_and_fetal_59_days	limb fetal 58 days and fetal (59 days)	ENCFF707HAW	NA	NA	NA
+LoVo	LoVo	ENCFF747YWZ	NA	NA	NA
+lung_female_fetal_108_days	lung female fetal (108 days)	ENCFF446UER	NA	NA	NA
+lung_female_fetal_120_days	lung female fetal (120 days)	ENCFF496EOT	NA	NA	NA
+lung_female_fetal_85_days	lung female fetal (85 days)	ENCFF282YJV	NA	NA	NA
+lung_female_fetal_96_days	lung female fetal (96 days)	ENCFF500AOV	NA	NA	NA
+lung_fetal_112_days	lung fetal (112 days)	ENCFF278JZP	NA	NA	NA
+lung_fetal_67_days	lung fetal (67 days)	ENCFF303ELS	NA	NA	NA
+lung_fetal_80_days_and_male_fetal_76_days	lung fetal (80 days and 76 days)	ENCFF826KJE	NA	NA	NA
+lung_male_fetal_103_days	lung male fetal (103 days)	ENCFF801OUO	NA	NA	NA
+lung_male_fetal_108_days	lung male fetal (108 days)	ENCFF182MTK	NA	NA	NA
+lung_male_fetal_54_days_and_male_fetal_58_days	lung male fetal (54 days and 58 days)	ENCFF640SBT	NA	NA	NA
+lung_male_fetal_82_days	lung male fetal (82 days)	ENCFF879EGH	NA	NA	NA
+medulla_oblongata_male_adult_78_years_and_male_adult_84_years	medulla oblongata male adult (78 years and 84 years)	ENCFF690VOB	NA	NA	NA
+MG63	MG63	ENCFF252OBW	NA	NA	NA
+midbrain_male_adult_78_years_and_male_adult_84_years	midbrain male adult (78 years and 84 years)	ENCFF126DHW	NA	NA	NA
+middle_frontal_gyrus_male_adult_78_years	middle frontal gyrus male adult (78 years)	ENCFF269ALE	NA	NA	NA
+muscle_of_arm_female_fetal_105_days	muscle of arm female fetal (105 days)	ENCFF331YRI	NA	NA	NA
+muscle_of_arm_female_fetal_115_days	muscle of arm female fetal (115 days)	ENCFF013ALJ	NA	NA	NA
+muscle_of_arm_female_fetal_120_days	muscle of arm female fetal (120 days)	ENCFF692UQA	NA	NA	NA
+muscle_of_arm_female_fetal_85_days	muscle of arm female fetal (85 days)	ENCFF025ILA	NA	NA	NA
+muscle_of_arm_female_fetal_98_days	muscle of arm female fetal (98 days)	ENCFF565LGX	NA	NA	NA
+muscle_of_arm_fetal_101_day	muscle of arm fetal (101 days)	ENCFF774CMS	NA	NA	NA
+muscle_of_arm_male_fetal_101_day	muscle of arm male fetal (101 days)	ENCFF123GKN	NA	NA	NA
+muscle_of_arm_male_fetal_104_days	muscle of arm male fetal (104 days)	ENCFF720KRC	NA	NA	NA
+muscle_of_arm_male_fetal_105_days	muscle of arm male fetal (105 days)	ENCFF258HDS	NA	NA	NA
+muscle_of_arm_male_fetal_113_days	muscle of arm male fetal (113 days)	ENCFF893XPJ	NA	NA	NA
+muscle_of_arm_male_fetal_115_days	muscle of arm male fetal (115 days)	ENCFF218GKF	NA	NA	NA
+muscle_of_arm_male_fetal_120_days	muscle of arm male fetal (120 days)	ENCFF556TQV	NA	NA	NA
+muscle_of_arm_male_fetal_127_days	muscle of arm male fetal (127 days)	ENCFF409FNK	NA	NA	NA
+muscle_of_arm_male_fetal_91_day	muscle of arm male fetal (91 days)	ENCFF824QPC	NA	NA	NA
+muscle_of_arm_male_fetal_96_days	muscle of arm male fetal (96 days)	ENCFF047VUE	NA	NA	NA
+muscle_of_arm_male_fetal_97_days	muscle of arm male fetal (97 days)	ENCFF819LNO	NA	NA	NA
+muscle_of_back_female_fetal_105_days	muscle of back female fetal (105 days)	ENCFF448ZXO	NA	NA	NA
+muscle_of_back_female_fetal_113_days	muscle of back female fetal (113 days)	ENCFF393UYX	NA	NA	NA
+muscle_of_back_female_fetal_115_days	muscle of back female fetal (115 days)	ENCFF148TIJ	NA	NA	NA
+muscle_of_back_female_fetal_85_days	muscle of back female fetal (85 days)	ENCFF692JAU	NA	NA	NA
+muscle_of_back_female_fetal_98_days	muscle of back female fetal (98 days)	ENCFF764RAB	NA	NA	NA
+muscle_of_back_male_fetal_101_day	muscle of back male fetal (101 days)	ENCFF636UWK	NA	NA	NA
+muscle_of_back_male_fetal_104_days	muscle of back male fetal (104 days)	ENCFF114NAE	NA	NA	NA
+muscle_of_back_male_fetal_105_days	muscle of back male fetal (105 days)	ENCFF644ENL	NA	NA	NA
+muscle_of_back_male_fetal_108_days	muscle of back male fetal (108 days)	ENCFF702DON	NA	NA	NA
+muscle_of_back_male_fetal_127_days	muscle of back male fetal (127 days)	ENCFF485UDN	NA	NA	NA
+muscle_of_back_male_fetal_91_day	muscle of back male fetal (91 days)	ENCFF522DSE	NA	NA	NA
+muscle_of_back_male_fetal_96_days	muscle of back male fetal (96 days)	ENCFF004KMH	NA	NA	NA
+muscle_of_back_male_fetal_97_days	muscle of back male fetal (97 days)	ENCFF196ROU	NA	NA	NA
+muscle_of_leg_female_fetal_105_days	muscle of leg female fetal (105 days)	ENCFF596UXK	NA	NA	NA
+muscle_of_leg_female_fetal_115_days	muscle of leg female fetal (115 days)	ENCFF028WRE	NA	NA	NA
+muscle_of_leg_female_fetal_85_days	muscle of leg female fetal (85 days)	ENCFF156MPZ	NA	NA	NA
+muscle_of_leg_male_fetal_101_day	muscle of leg male fetal (101 days)	ENCFF620NZM	NA	NA	NA
+muscle_of_leg_male_fetal_104_days	muscle of leg male fetal (104 days)	ENCFF888XKT	NA	NA	NA
+muscle_of_leg_male_fetal_105_days	muscle of leg male fetal (105 days)	ENCFF619YGB	NA	NA	NA
+muscle_of_leg_male_fetal_113_days	muscle of leg male fetal (113 days)	ENCFF185GPW	NA	NA	NA
+muscle_of_leg_male_fetal_115_days	muscle of leg male fetal (115 days)	ENCFF288ZVZ	NA	NA	NA
+muscle_of_leg_male_fetal_127_days	muscle of leg male fetal (127 days)	ENCFF657AFS	NA	NA	NA
+muscle_of_leg_male_fetal_96_days	muscle of leg male fetal (96 days)	ENCFF418ZEG	NA	NA	NA
+muscle_of_leg_male_fetal_97_days	muscle of leg male fetal (97 days)	ENCFF159UNW	NA	NA	NA
+muscle_of_trunk_female_fetal_120_days	muscle of trunk female fetal (120 days)	ENCFF789MBK	NA	NA	NA
+naive_thymus-derived_CD4-positive_alpha-beta_T_cell_female_adult_35_years	naive thymus-derived CD4-positive alpha-beta T cell female adult (35 years)	ENCFF050QMH	NA	NA	NA
+NAMALWA	NAMALWA	ENCFF743FHT	NA	NA	NA
+natural_killer_cell_female_adult_34_years	natural killer cell female adult (34 years)	ENCFF168FEJ	NA	NA	NA
+NCI-H226	NCI-H226	ENCFF240HWQ	NA	NA	NA
+NCI-H460	NCI-H460	ENCFF824THZ	NA	NA	NA
+non-pigmented_ciliary_epithelial_cell	non-pigmented ciliary epithelial cell	ENCFF686KDW	NA	NA	NA
+occipital_lobe_male_adult_84_years	occipital lobe male adult (84 years)	ENCFF655JTZ	NA	NA	NA
+ovary_female	ovary female	ENCFF255TDF	NA	NA	NA
+ovary_female_adult_51_year	ovary female adult (51 years)	ENCFF675RRE	NA	NA	NA
+pancreas_female_adult_30_years	pancreas female adult (30 years)	ENCFF918CHT	NA	NA	NA
+placenta_female_fetal_101_day_and_male_fetal_105_days	placenta female fetal (101 days and 105 days)	ENCFF655AOK	NA	NA	NA
+placenta_female_fetal_105_days	placenta female fetal (105 days)	ENCFF125FVJ	NA	NA	NA
+placenta_female_fetal_85_days	placenta female fetal (85 days)	ENCFF141OAK	NA	NA	NA
+placenta_fetal_53_days	placenta fetal (53 days)	ENCFF594VCA	NA	NA	NA
+placenta_male_fetal_85_days	placenta male fetal (85 days)	ENCFF785QWY	NA	NA	NA
+placenta_male_fetal_91_day	placenta male fetal (91 days)	ENCFF970GZR	NA	NA	NA
+pons_male_adult_78_years	pons male adult (78 years)	ENCFF877ZIE	NA	NA	NA
+prostate_gland_male_adult_54_years	prostate gland male adult (54 years)	ENCFF856IEB	NA	NA	NA
+pulmonary_artery_endothelial_cell_female	pulmonary artery endothelial cell female	ENCFF013NJV	NA	NA	NA
+RCC_7860	RCC 7860	ENCFF400IYO	NA	NA	NA
+regulatory_T_cell_male_adult_28_years	regulatory T cell male adult (28 years)	ENCFF748PAO	NA	NA	NA
+renal_cortex_interstitium_female_adult_96_days	renal cortex interstitium female adult (96 days)	ENCFF184WNT	NA	NA	NA
+renal_cortex_interstitium_female_fetal_103_days	renal cortex interstitium female fetal (103 days)	ENCFF958XQB	NA	NA	NA
+renal_cortex_interstitium_female_fetal_120_days	renal cortex interstitium female fetal (120 days)	ENCFF347ITC	NA	NA	NA
+renal_cortex_interstitium_female_fetal_89_days	renal cortex interstitium female fetal (89 days)	ENCFF629NHL	NA	NA	NA
+renal_cortex_interstitium_female_fetal_96_days	renal cortex interstitium female fetal (96 days)	ENCFF518JCV	NA	NA	NA
+renal_cortex_interstitium_male_fetal_108_days	renal cortex interstitium male fetal (108 days)	ENCFF635CPU	NA	NA	NA
+renal_cortex_interstitium_male_fetal_113_days	renal cortex interstitium male fetal (113 days)	ENCFF475PBR	NA	NA	NA
+renal_cortex_interstitium_male_fetal_127_days	renal cortex interstitium male fetal (127 days)	ENCFF223PPS	NA	NA	NA
+renal_cortex_interstitium_male_fetal_91_day	renal cortex interstitium male fetal (91 days)	ENCFF960JBA	NA	NA	NA
+renal_cortex_interstitium_male_fetal_97_days	renal cortex interstitium male fetal (97 days)	ENCFF452NDP	NA	NA	NA
+renal_cortical_epithelial_cell	renal cortical epithelial cell	ENCFF252AFT	NA	NA	NA
+renal_pelvis_female_adult_96_days	renal pelvis female adult (96 days)	ENCFF735FYT	NA	NA	NA
+renal_pelvis_female_fetal_103_days	renal pelvis female fetal (103 days)	ENCFF763NKA	NA	NA	NA
+renal_pelvis_female_fetal_105_days	renal pelvis female fetal (105 days)	ENCFF502SRF	NA	NA	NA
+renal_pelvis_female_fetal_89_days	renal pelvis female fetal (89 days)	ENCFF874UOF	NA	NA	NA
+renal_pelvis_female_fetal_96_days	renal pelvis female fetal (96 days)	ENCFF296GUK	NA	NA	NA
+renal_pelvis_male_fetal_108_days	renal pelvis male fetal (108 days)	ENCFF776GNZ	NA	NA	NA
+renal_pelvis_male_fetal_113_days	renal pelvis male fetal (113 days)	ENCFF507ZQW	NA	NA	NA
+renal_pelvis_male_fetal_127_days	renal pelvis male fetal (127 days)	ENCFF995CIY	NA	NA	NA
+renal_pelvis_male_fetal_91_day	renal pelvis male fetal (91 days)	ENCFF975LSL	NA	NA	NA
+renal_pelvis_male_fetal_97_days	renal pelvis male fetal (97 days)	ENCFF312TEV	NA	NA	NA
+retina_female_fetal_89_days	retina female fetal (89 days)	ENCFF594HIY	NA	NA	NA
+retina_fetal_125_days_and_male_fetal_103_days	retina fetal (125 days and 103 days)	ENCFF645AMT	NA	NA	NA
+retina_fetal_74_days_and_fetal_85_days	retina fetal (74 days and 85 days)	ENCFF897JBR	NA	NA	NA
+right_kidney_female_fetal_107_days	right kidney female fetal (107 days)	ENCFF891ZHF	NA	NA	NA
+right_kidney_female_fetal_117_days	right kidney female fetal (117 days)	ENCFF111VYG	NA	NA	NA
+right_kidney_female_fetal_147_days	right kidney female fetal (147 days)	ENCFF567RHQ	NA	NA	NA
+right_kidney_female_fetal_87_days	right kidney female fetal (87 days)	ENCFF978SQW	NA	NA	NA
+right_kidney_female_fetal_98_days	right kidney female fetal (98 days)	ENCFF851RPK	NA	NA	NA
+right_kidney_male_fetal_108_days	right kidney male fetal (108 days)	ENCFF607UOT	NA	NA	NA
+right_kidney_male_fetal_115_days	right kidney male fetal (115 days)	ENCFF525EPI	NA	NA	NA
+right_kidney_male_fetal_87_days	right kidney male fetal (87 days)	ENCFF300AQW	NA	NA	NA
+right_kidney_male_fetal_91_day	right kidney male fetal (91 days)	ENCFF615EGV	NA	NA	NA
+right_kidney_male_fetal_96_days	right kidney male fetal (96 days)	ENCFF974FRW	NA	NA	NA
+right_lung_female_fetal_105_days	right lung female fetal (105 days)	ENCFF319GKJ	NA	NA	NA
+right_lung_female_fetal_107_days	right lung female fetal (107 days)	ENCFF319VCA	NA	NA	NA
+right_lung_female_fetal_108_days	right lung female fetal (108 days)	ENCFF451VSH	NA	NA	NA
+right_lung_female_fetal_110_days	right lung female fetal (110 days)	ENCFF774TWP	NA	NA	NA
+right_lung_female_fetal_117_days	right lung female fetal (117 days)	ENCFF519QEF	NA	NA	NA
+right_lung_female_fetal_91_day	right lung female fetal (91 days)	ENCFF334CFO	NA	NA	NA
+right_lung_female_fetal_98_days	right lung female fetal (98 days)	ENCFF666ELC	NA	NA	NA
+right_lung_male_fetal_105_days	right lung male fetal (105 days)	ENCFF199DII	NA	NA	NA
+right_lung_male_fetal_115_days	right lung male fetal (115 days)	ENCFF434WEU	NA	NA	NA
+right_lung_male_fetal_87_days	right lung male fetal (87 days)	ENCFF863PKH	NA	NA	NA
+right_lung_male_fetal_96_days	right lung male fetal (96 days)	ENCFF889YGP	NA	NA	NA
+right_renal_cortex_interstitium_male_fetal_105_days	right renal cortex interstitium male fetal (105 days)	ENCFF487OGC	NA	NA	NA
+right_renal_cortex_interstitium_male_fetal_120_days	right renal cortex interstitium male fetal (120 days)	ENCFF431IBM	NA	NA	NA
+right_renal_pelvis_male_fetal_105_days	right renal pelvis male fetal (105 days)	ENCFF763RBF	NA	NA	NA
+right_renal_pelvis_male_fetal_120_days	right renal pelvis male fetal (120 days)	ENCFF069XOA	NA	NA	NA
+RKO	RKO	ENCFF461ZZI	NA	NA	NA
+RPMI8226	RPMI8226	ENCFF716KNN	NA	NA	NA
+sigmoid_colon_female_adult_53_years	sigmoid colon female adult (53 years)	ENCFF932GNW	NA	NA	NA
+SJCRH30	SJCRH30	ENCFF866SXV	NA	NA	NA
+SJSA1	SJSA1	ENCFF546LCQ	NA	NA	NA
+SK-MEL-5	SK-MEL-5	ENCFF049HXK	NA	NA	NA
+SK-N-DZ	SK-N-DZ	ENCFF448XYX	NA	NA	NA
+SK-N-DZ_treated_with_dimethyl_sulfoxide	SK-N-DZ treated with dimethyl sulfoxide	ENCFF160AGD	NA	NA	NA
+skin_fibroblast_male_fetal_97_days	skin fibroblast male fetal (97 days)	ENCFF712DRN	NA	NA	NA
+skin_of_body_female_fetal_82_days	skin of body female fetal (82 days)	ENCFF024REE	NA	NA	NA
+small_intestine_female_fetal_105_days	small intestine female fetal (105 days)	ENCFF521JXF	NA	NA	NA
+small_intestine_female_fetal_107_days	small intestine female fetal (107 days)	ENCFF765EPA	NA	NA	NA
+small_intestine_female_fetal_108_days	small intestine female fetal (108 days)	ENCFF518XNS	NA	NA	NA
+small_intestine_female_fetal_110_days	small intestine female fetal (110 days)	ENCFF927ZYU	NA	NA	NA
+small_intestine_female_fetal_120_days	small intestine female fetal (120 days)	ENCFF672HUK	NA	NA	NA
+small_intestine_female_fetal_91_day	small intestine female fetal (91 days)	ENCFF917XEU	NA	NA	NA
+small_intestine_female_fetal_98_days	small intestine female fetal (98 days)	ENCFF126ZAW	NA	NA	NA
+small_intestine_male_fetal_105_days	small intestine male fetal (105 days)	ENCFF842TMT	NA	NA	NA
+small_intestine_male_fetal_115_days	small intestine male fetal (115 days)	ENCFF649MDX	NA	NA	NA
+small_intestine_male_fetal_87_days	small intestine male fetal (87 days)	ENCFF873ABN	NA	NA	NA
+small_intestine_male_fetal_91_day	small intestine male fetal (91 days)	ENCFF043DTS	NA	NA	NA
+smooth_muscle_cell_of_the_brain_vasculature_female	smooth muscle cell of the brain vasculature female	ENCFF317HOT	NA	NA	NA
+spinal_cord_female_fetal_113_days	spinal cord female fetal (113 days)	ENCFF367OKP	NA	NA	NA
+spinal_cord_female_fetal_59_days_and_male_fetal_72_days	spinal cord female fetal 59 days and 72 days)	ENCFF849QKL	NA	NA	NA
+spinal_cord_female_fetal_87_days	spinal cord female fetal (87 days)	ENCFF098DKN	NA	NA	NA
+spinal_cord_female_fetal_89_days	spinal cord female fetal (89 days)	ENCFF690EDI	NA	NA	NA
+spinal_cord_male_fetal_105_days	spinal cord male fetal (105 days)	ENCFF237IUQ	NA	NA	NA
+spinal_cord_male_fetal_96_days	spinal cord male fetal (96 days)	ENCFF951NFW	NA	NA	NA
+spleen_fetal_112_days	spleen fetal (112 days)	ENCFF689GEP	NA	NA	NA
+stomach_female_adult_96_days	stomach female adult (96 days)	ENCFF502JCB	NA	NA	NA
+stomach_female_fetal	stomach female fetal	ENCFF618TOA	NA	NA	NA
+stomach_female_fetal_105_days	stomach female fetal (105 days)	ENCFF192QWJ	NA	NA	NA
+stomach_female_fetal_107_days	stomach female fetal (107 days)	ENCFF650ELS	NA	NA	NA
+stomach_female_fetal_108_days	stomach female fetal (108 days)	ENCFF018KVX	NA	NA	NA
+stomach_female_fetal_121_day	stomach female fetal (121 days)	ENCFF758FEM	NA	NA	NA
+stomach_female_fetal_147_days	stomach female fetal (147 days)	ENCFF355GNS	NA	NA	NA
+stomach_female_fetal_96_days	stomach female fetal (96 days)	ENCFF843CWZ	NA	NA	NA
+stomach_male_child_3_years	stomach male child (3 years)	ENCFF507VGV	NA	NA	NA
+stomach_male_fetal_108_days	stomach male fetal (108 days)	ENCFF890AFN	NA	NA	NA
+stomach_male_fetal_127_days	stomach male fetal (127 days)	ENCFF895RHV	NA	NA	NA
+stomach_male_fetal_58_days_and_male_fetal_76_days	stomach male fetal (58 days and 76 days)	ENCFF741FYD	NA	NA	NA
+stomach_male_fetal_91_day	stomach male fetal (91 days)	ENCFF557DHP	NA	NA	NA
+stromal_cell_of_bone_marrow_male	stromal cell of bone marrow male	ENCFF467VIU	NA	NA	NA
+superior_temporal_gyrus_male_adult_84_years	superior temporal gyrus male adult (84 years)	ENCFF201HKW	NA	NA	NA
+SW480	SW480	ENCFF972ROX	NA	NA	NA
+T-cell_male_adult_21_year	T-cell male adult (21 years)	ENCFF984HMX	NA	NA	NA
+T-cell_male_adult_36_years	T-cell male adult (36 years)	ENCFF342SWJ	NA	NA	NA
+T-helper_1_cell_male_adult_33_years	T-helper 1 cell male adult (33 years)	ENCFF871CIA	NA	NA	NA
+T-helper_2_cell_female_adult_26_years	T-helper 2 cell female adult (26 years)	ENCFF623WJG	NA	NA	NA
+testis_male_adult_37_years	testis male adult (37 years)	ENCFF844QLU	NA	NA	NA
+testis_male_fetal	testis male fetal	ENCFF649NBO	NA	NA	NA
+thoracic_segment_muscle_female_fetal_108_days	thoracic segment muscle female fetal (108 days)	ENCFF254MWC	NA	NA	NA
+thymus_female_fetal	thymus female fetal	ENCFF250AHQ	NA	NA	NA
+thymus_female_fetal_105_days	thymus female fetal (105 days)	ENCFF386EZA	NA	NA	NA
+thymus_female_fetal_147_days	thymus female fetal (147 days)	ENCFF194YAR	NA	NA	NA
+thymus_male_fetal_104_days	thymus male fetal (104 days)	ENCFF003JVF	NA	NA	NA
+thymus_male_fetal_108_days	thymus male fetal (108 days)	ENCFF029QZL	NA	NA	NA
+thymus_male_fetal_113_days	thymus male fetal (113 days)	ENCFF876PXE	NA	NA	NA
+thymus_male_fetal_127_days	thymus male fetal (127 days)	ENCFF546TWP	NA	NA	NA
+thymus_male_fetal_97_days	thymus male fetal (97 days)	ENCFF694LQQ	NA	NA	NA
+thyroid_gland_female_adult_51_year	thyroid gland female adult (51 years)	ENCFF074DNE	NA	NA	NA
+tongue_female_fetal_59_days_and_female_fetal_76_days	tongue female fetal (59 days and 76 days)	ENCFF111RJQ	NA	NA	NA
+tongue_male_fetal_72_days	tongue male fetal (72 days)	ENCFF933PRJ	NA	NA	NA
+transverse_colon_female_adult_53_years	transverse colon female adult (53 years)	ENCFF738TTH	NA	NA	NA
+transverse_colon_male_adult_37_years	transverse colon male adult (37 years)	ENCFF390TTU	NA	NA	NA
+transverse_colon_male_adult_54_years	transverse colon male adult (54 years)	ENCFF341QJU	NA	NA	NA
+trophoblast_cell_fetal_17_weeks_and_fetal_18_weeks	trophoblast cell fetal (17 weeks and 18 weeks)	ENCFF758BTS	NA	NA	NA
+trophoblast_cell_fetal_21_week	trophoblast cell fetal (21 weeks)	ENCFF366HDI	NA	NA	NA
+trophoblast_cell_fetal_23_weeks	trophoblast cell fetal (23 weeks)	ENCFF772FVJ	NA	NA	NA
+trophoblast_cell_fetal_39_weeks_and_fetal_40_weeks	trophoblast cell fetal (39 weeks and 40 weeks)	ENCFF997ELK	NA	NA	NA
+umbilical_cord_male_fetal_76_days	umbilical cord male fetal (76 days)	ENCFF833UQA	NA	NA	NA
+urinary_bladder_male_fetal_76_days	urinary bladder male fetal (76 days)	ENCFF742AXJ	NA	NA	NA
+uterus_female_adult_51_year	uterus female adult (51 years)	ENCFF079EFZ	NA	NA	NA
+uterus_female_adult_53_years	uterus female adult (53 years)	ENCFF707TYP	NA	NA	NA
+WI38_derived_from_WI38_stably_expressing_fusion_protein	WI38 derived from WI38 stably expressing fusion protein	ENCFF434IZM	NA	NA	NA
+WI38_derived_from_WI38_stably_treated_with_afimoxifene_expressing_fusion_protein	WI38 derived from WI38 stably treated with afimoxifene expressing fusion protein	ENCFF179TXN	NA	NA	NA
+muscle_of_trunk_female_fetal_121_day	muscle of trunk female fetal (121 days)	ENCFF482WUZ	NA	NA	NA
+stomach_fetal_101_days	stomach fetal (101 days)	ENCFF608VTJ	NA	NA	NA
+thymus_female_fetal_98_days	thymus female fetal (98 days)	ENCFF811DIP	NA	NA	NA
+ACC112	ACC112	NA	ENCFF770MFR	ENCFF284WAX	NA
+amnion_male_fetal_16_weeks	amnion male fetal (16 weeks)	NA	ENCFF586DCJ	ENCFF365HWT	NA
+angular_gyrus_female_adult_75_years	angular gyrus female adult (75 years)	NA	ENCFF671DYY	ENCFF295ADS	NA
+aorta_male_adult_34_years	aorta male adult (34 years)	NA	ENCFF087IRL	ENCFF991OEV	NA
+caudate_nucleus_male_adult_81_year	caudate nucleus male adult (81 years)	NA	ENCFF594LYN	ENCFF696VGQ	NA
+chondrocyte	chondrocyte	NA	ENCFF086WPJ	ENCFF899BGU	NA
+cingulate_gyrus_female_adult_75_years	cingulate gyrus female adult (75 years)	NA	ENCFF955DOM	ENCFF763SUO	NA
+colonic_mucosa_female_adult_73_years	colonic mucosa female adult (73 years)	NA	ENCFF568MZT	ENCFF484FVN	NA
+ectodermal_cell	ectodermal cell	NA	ENCFF175NZF	ENCFF499KRR	NA
+endocrine_pancreas_male_adult_45_years	endocrine pancreas male adult (45 years)	NA	ENCFF913QCA	ENCFF819FQQ	NA
+esophagus_male_adult_34_years	esophagus male adult (34 years)	NA	ENCFF163MDE	ENCFF065VYC	NA
+gastrocnemius_medialis_male_adult_37_years	gastrocnemius medialis male adult (37 years)	NA	ENCFF074GLQ	ENCFF508MKG	NA
+H9_stably_expressing_fusion_protein	H9 stably expressing fusion protein	NA	ENCFF796WXE	ENCFF439PBE	NA
+heart_right_ventricle_male_child_3_years	heart right ventricle male child (3 years)	NA	ENCFF565NKN	ENCFF908WLR	NA
+HUES48	HUES48	NA	ENCFF930LWY	ENCFF779ZEE	NA
+HUES6	HUES6	NA	ENCFF112VVW	ENCFF853FXP	NA
+HUES64	HUES64	NA	ENCFF854OTV	ENCFF494HVU	NA
+HUES64-derived_CD184+	HUES64-derived CD184+	NA	ENCFF387FFE	ENCFF197QRX	NA
+iPS-18_cell	iPS-18 cell	NA	ENCFF360WEN	ENCFF655ETA	NA
+iPS-20b_male	iPS-20b male	NA	ENCFF613OJI	ENCFF928BGZ	NA
+layer_of_hippocampus_male_adult_73_years	layer of hippocampus male adult (73 years)	NA	ENCFF882XPQ	ENCFF924HUJ	NA
+liver_male_adult_31_year	liver male adult (31 years)	NA	ENCFF239JOR	ENCFF469GVU	NA
+Loucy	Loucy	NA	ENCFF103TXQ	ENCFF522YUM	NA
+mesendoderm	mesendoderm	NA	ENCFF299ZCY	ENCFF750XQE	NA
+mesodermal_cell	mesodermal cell	NA	ENCFF402NGI	ENCFF002USO	NA
+middle_frontal_area_46_male_adult_81_year	middle frontal area (46 years and 81 years)	NA	ENCFF819RVG	ENCFF628UJF	NA
+mid-neurogenesis_radial_glial_cells_derived_from_H9_stably_expressing_fusion_protein	mid-neurogenesis radial glial cells derived from H9 stably expressing fusion protein	NA	ENCFF075WFF	ENCFF088YXB	NA
+mucosa_of_rectum_female_adult_50_years	mucosa of rectum female adult (50 years)	NA	ENCFF240RUK	ENCFF309CUV	NA
+mucosa_of_rectum_female_adult_61_year	mucosa of rectum female adult (61 years)	NA	ENCFF785WNN	ENCFF589AAI	NA
+muscle_layer_of_duodenum_male	muscle layer of duodenum male	NA	ENCFF283TST	ENCFF196BHB	NA
+neural_cell	neural cell	NA	ENCFF208EDB	ENCFF718CNN	NA
+neuroepithelial_stem_cell_derived_from_H9_stably_expressing_fusion_protein	neuroepithelial stem cell derived from H9 stably expressing fusion protein	NA	ENCFF022CUD	ENCFF821BBY	NA
+OCI-LY1	OCI-LY1	NA	ENCFF373PXI	ENCFF848INU	NA
+OCI-LY3	OCI-LY3	NA	ENCFF057EOU	ENCFF109YKY	NA
+peripheral_blood_mononuclear_cell_female_adult_28_years	peripheral blood mononuclear cell female adult (28 years)	NA	ENCFF459ZJO	ENCFF482UFG	NA
+psoas_muscle_male_adult_34_years	psoas muscle male adult (34 years)	NA	ENCFF148WIP	ENCFF549BCD	NA
+radial_glial_cell_derived_from_H9_stably_expressing_fusion_protein	radial glial cell derived from H9 stably expressing fusion protein	NA	ENCFF038HSI	ENCFF413YUD	NA
+rectal_smooth_muscle_female_adult_50_years	rectal smooth muscle female adult (50 years)	NA	ENCFF489HTJ	ENCFF282PSN	NA
+right_cardiac_atrium_male_adult_34_years	right cardiac atrium male adult (34 years)	NA	ENCFF524BXK	ENCFF835DXR	NA
+skeletal_muscle_female_adult_72_years	skeletal muscle female adult (72 years)	NA	ENCFF510JXN	ENCFF865KCY	NA
+smooth_muscle_cell_derived_from_H9	smooth muscle cell derived from H9	NA	ENCFF394FMW	ENCFF162KWR	NA
+stomach_smooth_muscle_female_adult_84_years	stomach smooth muscle female adult (84 years)	NA	ENCFF424WNA	ENCFF226KHW	NA
+subcutaneous_abdominal_adipose_nuclear_fraction_female_adult_49_years	subcutaneous abdominal adipose nuclear fraction female adult (49 years)	NA	ENCFF879QZC	ENCFF381VTZ	NA
+substantia_nigra_male_adult_81_year	substantia nigra male adult (81 years)	NA	ENCFF727LGV	ENCFF451JYD	NA
+SUDHL6	SUDHL6	NA	ENCFF395YHV	ENCFF689STD	NA
+T_CD8+_memory_cells_from_peripheral_blood	T CD8+ memory cells from peripheral blood	NA	ENCFF724BSK	ENCFF162NMY	NA
+T_CD8+_naive_cells_from_peripheral_blood	T CD8+ naive cells from peripheral blood	NA	ENCFF901XSD	ENCFF051TOF	NA
+T_cells_effector/memory_enriched_from_peripheral_blood	T cells effector/memory enriched from peripheral blood	NA	ENCFF195JRG	ENCFF682KOR	NA
+temporal_lobe_female_adult_75_years	temporal lobe female adult (75 years)	NA	ENCFF389OVD	ENCFF076RSU	NA
+T_helper_17_cells_PMA-I_stimulated	T helper 17 cells PMA-I stimulated	NA	ENCFF029ETV	ENCFF018VHB	NA
+T_helper_cells_from_peripheral_blood	T helper cells from peripheral blood	NA	ENCFF370CDG	ENCFF036KJF	NA
+T_helper_cells_PMA-I_stimulated	T helper cells PMA-I stimulated	NA	ENCFF753CTY	ENCFF787GYP	NA
+T_helper_memory_cells_from_peripheral_blood_1	T helper memory cells from peripheral blood 1	NA	ENCFF986KCO	ENCFF632SZK	NA
+T_helper_memory_cells_from_peripheral_blood_2	T helper memory cells from peripheral blood 2	NA	ENCFF573SNQ	ENCFF576GQU	NA
+T_helper_naive_cells_from_peripheral_blood	T helper naive cells from peripheral blood	NA	ENCFF959SEA	ENCFF169OYT	NA
+T_helper_naive_cells_from_peripheral_blood_CD25M_CD45RA	T helper naive cells from peripheral blood CD25M CD45RA	NA	ENCFF371OXX	ENCFF623HAF	NA
+thoracic_aorta_male_adult_37-54_years	thoracic aorta male adult (37-54 years)	NA	ENCFF712GED	ENCFF772QFT	NA
+thymus_male_child_3_years	thymus male child (3 years)	NA	ENCFF579KSZ	ENCFF531UTJ	NA
+T_regulatory_cells_from_peripheral_blood	T regulatory cells from peripheral blood	NA	ENCFF365QXG	ENCFF341YXS	NA
+vagina_female_adult_53_years	vagina female adult (53 years)	NA	ENCFF071GTI	ENCFF868RBV	NA
+A549_treated_with_ethanol	A549 treated with ethanol	NA	ENCFF709KWY	NA	ENCFF000AHQ
+astrocyte_of_the_spinal_cord	astrocyte of the spinal cord	NA	ENCFF001FFS	NA	ENCFF001HJF
+cardiac_fibroblast	cardiac fibroblast	NA	ENCFF001FGS	NA	ENCFF001HKE
+epithelial_cell_of_esophagus	epithelial cell of esophagus	NA	ENCFF001FJA	NA	ENCFF001HMD
+fibroblast_of_skin_of_abdomen_male_adult_22_years	fibroblast of skin of abdomen male adult (22 years)	NA	ENCFF001EPH	NA	ENCFF001GYD
+fibroblast_of_villous_mesenchyme	fibroblast of villous mesenchyme	NA	ENCFF001FTB	NA	ENCFF001HST
+foreskin_fibroblast_male_postnatal	foreskin fibroblast male postnatal	NA	ENCFF001FMK	NA	ENCFF744SJH
+GM12865	GM12865	NA	ENCFF072UAX	NA	ENCFF001HCN
+mammary_epithelial_cell_female_50_years	mammary epithelial cell female (50 years)	NA	ENCFF176QON	NA	ENCFF000BHD
+NB4	NB4	NA	ENCFF001FYQ	NA	ENCFF001HUL
+WI38	WI38	NA	ENCFF001GGL	NA	ENCFF001HYN
+Monocytes-CD14+_RO01746	Monocytes-CD14+ RO01746	NA	ENCFF483COQ	NA	NA
+BJ_foreskin_fibroblast	BJ foreskin fibroblast	NA	ENCFF001ERP	NA	NA
+HFF-Myc	HFF-Myc	NA	ENCFF001FMV	NA	NA
+Jurkat	Jurkat	NA	ENCFF001FTP	NA	NA
+skeletal_muscle_cell	skeletal muscle cell	NA	ENCFF001GDR	NA	NA
+mononuclear_cell_male	mononuclear cell male	NA	ENCFF670ZAF	NA	NA
+mesenchymal_stem_cell_in_vitro_differentiated_cells_bone_marrow_derived	mesenchymal stem cell in vitro differentiated cells bone marrow derived	NA	ENCFF890RER	NA	NA
+adipose_derived_mesenchymal_stem_cell_in_vitro_differentiated_cells	adipose derived mesenchymal stem cell in vitro differentiated cells	NA	ENCFF034IBQ	NA	NA
+NCI-H929	NCI-H929	NA	ENCFF147OBU	NA	NA
+ganglionic_eminence_derived_neurospheres_female_fetal_17_weeks	ganglionic eminence derived neurospheres female fetal (17 weeks)	NA	ENCFF150AIE	NA	NA
+duodenal_mucosa_male_adult_76_years	duodenal mucosa male adult (76 years)	NA	ENCFF632QJX	NA	NA
+B_cells_from_cord_blood	B cells from cord blood	NA	ENCFF047LEN	NA	NA
+mesenchymal_stem_cell_in_vitro_differentiated_cells_H1_derived	mesenchymal stem cell in vitro differentiated cells H1 derived	NA	ENCFF092HPB	NA	NA
+common_myeloid_progenitor_primary	common myeloid progenitor primary	NA	ENCFF747HSZ	NA	NA
+iPS-15b_female	iPS-15b female	NA	ENCFF877SBN	NA	NA
+neuron	neuron	NA	ENCFF887LRZ	NA	NA
+coronary_artery_female_adult_53_years	coronary artery female adult (53 years)	NA	ENCFF297RMA	NA	NA
+skeletal_muscle_male_adult_54_years	skeletal muscle male adult (54 years)	NA	ENCFF141STN	NA	NA
+heart_male_fetal_91_day	heart male fetal (91 days)	NA	ENCFF316LYX	NA	NA
+HUES64-derived	HUES64-derived	NA	ENCFF157YBS	NA	NA
+breast_epithelium_female_adult_53_years	breast epithelium female adult (53 years)	NA	ENCFF216DKX	NA	NA
+neutrophil_male	neutrophil male	NA	ENCFF067XDD	NA	NA
+mucosa_of_stomach_male_adult_59_years	mucosa of stomach male adult (59 years)	NA	ENCFF814AHD	NA	NA
+mesenchymal_stem_cell	mesenchymal stem cell	NA	ENCFF951BEM	NA	NA
+gastroesophageal_sphincter_female_adult_53_years	gastroesophageal sphincter female adult (53 years)	NA	ENCFF700TUA	NA	NA
+neuronal_stem_in_vitro_differentiated_cells_H1_derived	neuronal stem in vitro differentiated cells H1 derived	NA	ENCFF378LUG	NA	NA
+germinal_matrix_male_fetal_20_weeks	germinal matrix male fetal (20 weeks)	NA	ENCFF230KFJ	NA	NA
+esophagus_muscularis_mucosa_female_adult_53_years	esophagus muscularis mucosa female adult (53 years)	NA	ENCFF050YTI	NA	NA
+heart_left_ventricle_male_child_3_years	heart left ventricle male child (3 years)	NA	ENCFF701SLI	NA	NA
+common_myeloid_progenitor_cultured	common myeloid progenitor cultured	NA	ENCFF399GUI	NA	NA
+ES-I3	ES-I3	NA	ENCFF017EKR	NA	NA
+UCSF-4	UCSF-4	NA	ENCFF912ODS	NA	NA
+mammary_epithelial_cell_female_adult_18_years	mammary epithelial cell female adult (18 years)	NA	ENCFF938AHY	NA	NA
+Peyer's_patch_female_adult_53_years	Peyer's patch female adult (53 years)	NA	ENCFF184XML	NA	NA
+myoepithelial_of_mammary_gland_female_adult_33_years	myoepithelial of mammary gland female adult (33 years)	NA	ENCFF584UTR	NA	NA
+cortex_derived_neurospheres_female_fetal_17_weeks	cortex derived neurospheres female fetal (17 weeks)	NA	ENCFF200WDS	NA	NA
+skeletal_muscle_satellite_female_adult	skeletal muscle satellite female adult	NA	ENCFF696ZJD	NA	NA
+fat	fat	NA	ENCFF893QFO	NA	NA
+Bone_Marrow_Derived_Cultured_Mesenchymal_Stem_Cells	Bone Marrow Derived Cultured Mesenchymal Stem Cells	NA	NA	ENCFF616NGR	NA
+gastrocnemius_medialis_female_adult_53_years	gastrocnemius medialis female adult (53 years)	NA	NA	ENCFF431JXN	NA
+H1_Derived_Mesenchymal_Stem_Cells	H1 Derived Mesenchymal Stem Cells	NA	NA	ENCFF177LND	NA
+KMS-11	KMS-11	NA	NA	ENCFF637MNF	NA
+KOPT-K1	KOPT-K1	NA	NA	ENCFF280TQO	NA
+A549	A549	NA	NA	NA	ENCFF001GVQ
+A549_treated_with_dexamethasone	A549 treated with dexamethasone	NA	NA	NA	ENCFF000AHK
+fibroblast_of_lung_male_adult_45_years	fibroblast of lung male adult (45 years)	NA	NA	NA	ENCFF001HVU
+GM10248	GM10248	NA	NA	NA	ENCFF000RNR
+GM10266	GM10266	NA	NA	NA	ENCFF000RNZ
+GM12801	GM12801	NA	NA	NA	ENCFF001HBG
+GM12866	GM12866	NA	NA	NA	ENCFF001HDB
+GM12867	GM12867	NA	NA	NA	ENCFF001HDL
+GM12868	GM12868	NA	NA	NA	ENCFF001HDW
+GM12869	GM12869	NA	NA	NA	ENCFF001HEF
+GM12870	GM12870	NA	NA	NA	ENCFF001HER
+GM12871	GM12871	NA	NA	NA	ENCFF001HEZ
+GM12872	GM12872	NA	NA	NA	ENCFF001HFN
+GM12873	GM12873	NA	NA	NA	ENCFF001HGE
+GM12874	GM12874	NA	NA	NA	ENCFF001HGT
+GM12875	GM12875	NA	NA	NA	ENCFF450VWA
+GM12891	GM12891	NA	NA	NA	ENCFF000RPN
+GM12892	GM12892	NA	NA	NA	ENCFF000RPV
+GM13976	GM13976	NA	NA	NA	ENCFF000RQC
+GM13977	GM13977	NA	NA	NA	ENCFF000RQL
+GM19238	GM19238	NA	NA	NA	ENCFF000RQU
+GM19239	GM19239	NA	NA	NA	ENCFF000RRC
+GM19240	GM19240	NA	NA	NA	ENCFF000RRJ
+GM20000	GM20000	NA	NA	NA	ENCFF000RRQ
+H54	H54	NA	NA	NA	ENCFF000RMZ
+HEK293	HEK293	NA	NA	NA	ENCFF001HMQ
+HGPS_cell	HGPS cell	NA	NA	NA	ENCFF000SDD
+Ishikawa_treated_with_dimethyl_sulfoxide	Ishikawa treated with dimethyl sulfoxide	NA	NA	NA	ENCFF498CHL
+kidney_male_adult_22_years_and_male_adult_27_years_and_male_adult_35_years	kidney male adult (22 years, 27 years and 35 years)	NA	NA	NA	ENCFF000RXC
+medulloblastoma	medulloblastoma	NA	NA	NA	ENCFF000SBZ
+T47D_treated_with_dimethyl_sulfoxide	T47D treated with dimethyl sulfoxide	NA	NA	NA	ENCFF000RGW
+cardiac_muscle_cell	cardiac muscle cell	NA	ENCFF183RRC	ENCFF739LGT	ENCFF001HKQ
+DND-41	DND-41	NA	ENCFF420KFC	ENCFF000AQA	ENCFF000AOC
+DOHH2	DOHH2	NA	ENCFF985CGU	ENCFF799XTO	ENCFF287ALH
+endothelial_cell_of_umbilical_vein_newborn	endothelial cell of umbilical vein newborn	NA	ENCFF254MNL	ENCFF000BRY	ENCFF000BQX
+fibroblast_of_lung_female_11_year_and_male_adult_45_years	fibroblast of lung (11 years and 45 years)	NA	ENCFF837XME	ENCFF000CRL	ENCFF000CQN
+lung_adult	lung adult	NA	ENCFF206HHS	ENCFF125UOA	ENCFF000RYD
+neutrophil	neutrophil	NA	ENCFF582AHA	ENCFF066BUP	ENCFF061DVI
+osteoblast	osteoblast	NA	ENCFF264HZC	ENCFF000CVK	ENCFF000CUY
+skeletal_muscle_myoblast_male_adult_22_years	skeletal muscle myoblast male adult (22 years)	NA	ENCFF211KTI	ENCFF000BLA	ENCFF000BKJ
+SK-N-SH	SK-N-SH	NA	ENCFF001GFL	ENCFF712CGL	ENCFF000ZQN
+spleen_adult	spleen adult	NA	ENCFF250YPP	ENCFF012XIR	ENCFF000SDR

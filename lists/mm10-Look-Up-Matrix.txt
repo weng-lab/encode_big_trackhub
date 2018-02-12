@@ -1,0 +1,138 @@
+129_E14TG2a.4	129 E14TG2a.4	NA	ENCFF469DBC	NA	ENCFF454YWR
+129_ES-E14	129 ES-E14	ENCFF863YPM	ENCFF240MDV	ENCFF163HEV	NA
+129_G1E	129 G1E	NA	ENCFF249XCU	NA	ENCFF938UFC
+129_liver_male_embryo_14.5_days	129 liver male embryo (14.5 days)	ENCFF446CGK	NA	NA	NA
+129_ZHBTc4-mESC_treated_with_doxycycline_hyclate	129 ZHBTc4-mESC treated with doxycycline hyclate	ENCFF069NLT	NA	NA	NA
+129.DLCR_liver_male_embryo_14.5_days	129.DLCR liver male embryo (14.5 days)	ENCFF008YOP	NA	NA	NA
+B10.H-2aH-4bp/Wts_CH12.LX	B10.H-2aH-4bp/Wts_CH12.LX	ENCFF418UNC	ENCFF288OKN	ENCFF867PYD	ENCFF025UEN
+C57BL/6_3T3-L1	C57BL/6 3T3-L1	ENCFF597LWW	NA	NA	NA
+C57BL/6_acute_myeloid_leukemia	C57BL/6 acute myeloid leukemia	ENCFF657AJF	NA	NA	NA
+C57BL/6_adipocyte	C57BL/6 adipocyte	ENCFF617WHP	NA	NA	NA
+C57BL/6_bone_marrow_macrophage_male_adult_8_weeks	C57BL/6 bone marrow macrophage male adult (8 weeks)	NA	ENCFF186XGM	ENCFF668SMR	ENCFF826OQW
+C57BL/6_bone_marrow_male_adult_8_weeks	C57BL/6 bone marrow male adult (8 weeks)	NA	ENCFF620KTZ	ENCFF692OFZ	ENCFF156BYW
+C57BL/6_brain_embryo_14.5_days	C57BL/6 brain embryo (14.5 days)	NA	ENCFF907LAM	ENCFF892CFF	NA
+C57BL/6_brain_male_embryo_18.5_days	C57BL/6 brain male embryo (18.5 days)	ENCFF497XOO	NA	NA	NA
+C57BL/6_brown_adipose_tissue_male_adult_24_weeks	C57BL/6 brown adipose tissue male adult 24 weeks	NA	ENCFF966UOI	ENCFF012PBY	NA
+C57BL/6_cerebellum_male_adult_8_weeks	C57BL/6 cerebellum male adult (8 weeks)	ENCFF495IKU	ENCFF288SAJ	ENCFF234IJR	ENCFF867MOQ
+C57BL/6_cortical_plate_male_adult_8_weeks	C57BL/6 cortical plate male adult (8 weeks)	NA	ENCFF652BWR	ENCFF619CVT	ENCFF057UOO
+C57BL/6_embryo_embryo_10_days	C57BL/6 embryo embryo (10.5 days)	ENCFF037FGW	NA	NA	NA
+C57BL/6_embryo_embryo_10.5_days	C57BL/6 embryo embryo (11 days)	ENCFF962EHQ	NA	NA	NA
+C57BL/6_embryo_embryo_11_day	C57BL/6 embryo embryo 1(0 days)	ENCFF121MHO	NA	NA	NA
+C57BL/6_embryonic_facial_prominence_embryo_10.5_days	C57BL/6 embryonic facial prominence embryo (10.5 days)	NA	ENCFF675TVC	ENCFF440LYR	NA
+C57BL/6_embryonic_facial_prominence_embryo_11.5_days	C57BL/6 embryonic facial prominence embryo (11.5 days)	ENCFF826JNZ	ENCFF627ZLA	ENCFF089IXS	NA
+C57BL/6_embryonic_facial_prominence_embryo_12.5_days	C57BL/6 embryonic facial prominence embryo (12.5 days)	NA	ENCFF508WCS	ENCFF596BHZ	NA
+C57BL/6_embryonic_facial_prominence_embryo_13.5_days	C57BL/6 embryonic facial prominence embryo (13.5 days)	NA	ENCFF394ABQ	ENCFF306YHS	NA
+C57BL/6_embryonic_facial_prominence_embryo_14.5_days	C57BL/6 embryonic facial prominence embryo (14.5 days)	ENCFF946JRF	ENCFF312WJP	ENCFF071HGW	NA
+C57BL/6_embryonic_facial_prominence_embryo_15.5_days	C57BL/6 embryonic facial prominence embryo (15.5 days)	NA	ENCFF727YWB	ENCFF033PTH	NA
+C57BL/6_embryonic_fibroblast_male_embryo_13.5_weeks	C57BL/6 embryonic fibroblast male embryo (13.5 weeks)	NA	ENCFF379VFT	ENCFF387JGJ	ENCFF432JCZ
+C57BL/6_ES-Bruce4	C57BL/6 ES-Bruce4	NA	ENCFF363JJV	ENCFF124CBV	ENCFF339GSH
+C57BL/6_fat_pad_male_adult_8_weeks	C57BL/6 fat pad male adult (8 weeks)	ENCFF791XHO	NA	NA	NA
+C57BL/6_fibroblast_male_adult_8_weeks	C57BL/6 fibroblast male adult (8 weeks)	ENCFF801LTR	NA	NA	NA
+C57BL/6_forebrain_embryo_10.5_days	C57BL/6 forebrain embryo (10.5 days)	NA	ENCFF149KHB	ENCFF266KHC	NA
+C57BL/6_forebrain_embryo_11.5_days	C57BL/6 forebrain embryo (11.5 days)	NA	ENCFF880ZZM	ENCFF827WXG	NA
+C57BL/6_forebrain_embryo_12.5_days	C57BL/6 forebrain embryo (12.5 days)	NA	ENCFF178JLS	ENCFF541IJI	NA
+C57BL/6_forebrain_embryo_13.5_days	C57BL/6 forebrain embryo (13.5 days)	NA	ENCFF314QNW	ENCFF107UHG	NA
+C57BL/6_forebrain_embryo_14.5_days	C57BL/6 forebrain embryo (14.5 days)	ENCFF522BUI	ENCFF465QRZ	ENCFF527FOD	NA
+C57BL/6_forebrain_embryo_15.5_days	C57BL/6 forebrain embryo (15.5 days)	NA	ENCFF469CPH	ENCFF440SCC	NA
+C57BL/6_forebrain_embryo_16.5_days	C57BL/6 forebrain embryo (16.5 days)	NA	ENCFF041JZL	ENCFF826KEG	NA
+C57BL/6_forebrain_postnatal_0_days	C57BL/6 forebrain postnatal (0 days)	ENCFF094GPH	ENCFF330NUS	ENCFF835DLZ	ENCFF500SSQ
+C57BL/6_gonadal_fat_pad_male_adult_8_weeks	C57BL/6 gonadal fat pad male adult (8 weeks)	ENCFF975KIZ	NA	NA	NA
+C57BL/6_heart_embryo_10.5_days	C57BL/6 heart embryo (10.5 days)	NA	ENCFF889KFS	ENCFF222TEU	NA
+C57BL/6_heart_embryo_11.5_days	C57BL/6 heart embryo (11.5 days)	NA	ENCFF564SDZ	ENCFF305IHU	NA
+C57BL/6_heart_embryo_12.5_days	C57BL/6 heart embryo (12.5 days)	NA	ENCFF331OQE	ENCFF937AXD	NA
+C57BL/6_heart_embryo_13.5_days	C57BL/6 heart embryo (13.5 days)	NA	ENCFF054NVM	ENCFF870SQY	NA
+C57BL/6_heart_embryo_14.5_days	C57BL/6 heart embryo (14.5 days)	NA	ENCFF774GGS	ENCFF689PCR	NA
+C57BL/6_heart_embryo_15.5_days	C57BL/6 heart embryo (15.5 days)	NA	ENCFF109NPC	ENCFF021RTZ	NA
+C57BL/6_heart_embryo_16.5_days	C57BL/6 heart embryo (16.5 days)	NA	ENCFF808VAT	ENCFF801FFG	NA
+C57BL/6_heart_male_adult_8_weeks	C57BL/6 heart male adult (8 weeks)	NA	ENCFF118SXS	ENCFF691YDA	ENCFF639AFA
+C57BL/6_heart_postnatal_0_days	C57BL/6 heart postnatal (0 days)	ENCFF539AJY	ENCFF104GKL	ENCFF804EYG	ENCFF278NWO
+C57BL/6_hindbrain_embryo_10.5_days	C57BL/6 hindbrain embryo (10.5 days)	NA	ENCFF863DGY	ENCFF782RAO	NA
+C57BL/6_hindbrain_embryo_11.5_days	C57BL/6 hindbrain embryo (11.5 days)	ENCFF786AEI	ENCFF703BHN	ENCFF177SVC	NA
+C57BL/6_hindbrain_embryo_12.5_days	C57BL/6 hindbrain embryo (12.5 days)	NA	ENCFF493WPM	ENCFF631JYQ	NA
+C57BL/6_hindbrain_embryo_13.5_days	C57BL/6 hindbrain embryo (13.5 days)	NA	ENCFF356LUU	ENCFF923TVC	NA
+C57BL/6_hindbrain_embryo_14.5_days	C57BL/6 hindbrain embryo (14.5 days)	ENCFF996XOJ	ENCFF837LYE	ENCFF774AQE	NA
+C57BL/6_hindbrain_embryo_15.5_days	C57BL/6 hindbrain embryo (15.5 days)	NA	ENCFF576SVQ	ENCFF121XJR	NA
+C57BL/6_hindbrain_embryo_16.5_days	C57BL/6 hindbrain embryo (16.5 days)	NA	ENCFF959NHK	ENCFF011VMX	NA
+C57BL/6_hindbrain_postnatal_0_days	C57BL/6 hindbrain postnatal (0 days)	ENCFF299CTE	ENCFF669USU	ENCFF665WCP	ENCFF251FHP
+C57BL/6_intestine_embryo_14.5_days	C57BL/6 intestine embryo (14.5 days)	NA	ENCFF751FCH	ENCFF251XZW	NA
+C57BL/6_intestine_embryo_15.5_days	C57BL/6 intestine embryo (15.5 days)	NA	ENCFF525EWD	ENCFF803SVJ	NA
+C57BL/6_intestine_embryo_16.5_days	C57BL/6 intestine embryo (16.5 days)	NA	ENCFF029WVD	ENCFF829GXB	NA
+C57BL/6_intestine_postnatal_0_days	C57BL/6 intestine postnatal (0 days)	NA	ENCFF115TVW	ENCFF512TCI	ENCFF661SPC
+C57BL/6_kidney_embryo_14.5_days	C57BL/6 kidney embryo (14.5 days)	NA	ENCFF696ITD	ENCFF298GLI	NA
+C57BL/6_kidney_embryo_15.5_days	C57BL/6 kidney embryo (15.5 days)	NA	ENCFF354BAJ	ENCFF297RMH	NA
+C57BL/6_kidney_embryo_16.5_days	C57BL/6 kidney embryo (16.5 days)	NA	ENCFF455WJT	ENCFF132TLS	NA
+C57BL/6_kidney_male_adult_8_weeks	C57BL/6 kidney male adult (8 weeks)	NA	ENCFF177YGH	ENCFF188DKO	ENCFF164ZFD
+C57BL/6_kidney_postnatal_0_days	C57BL/6 kidney postnatal (0 days)	NA	ENCFF376RQB	ENCFF873EBR	ENCFF083ZQN
+C57BL/6_large_intestine_male_adult_8_weeks	C57BL/6 large intestine male adult (8 weeks)	ENCFF831WNN	NA	NA	NA
+C57BL/6_limb_embryo_10.5_days	C57BL/6 limb embryo (10.5 days)	NA	ENCFF563HQA	ENCFF502YGZ	NA
+C57BL/6_limb_embryo_11.5_days	C57BL/6 limb embryo (11.5 days)	ENCFF119SYM	ENCFF306YUK	ENCFF897QOI	NA
+C57BL/6_limb_embryo_12.5_days	C57BL/6 limb embryo (12.5 days)	NA	ENCFF840MYF	ENCFF008XYM	NA
+C57BL/6_limb_embryo_13.5_days	C57BL/6 limb embryo (13.5 days)	NA	ENCFF856ZXY	ENCFF402FVP	NA
+C57BL/6_limb_embryo_14.5_days	C57BL/6 limb embryo (14.5 days)	ENCFF368DRT	ENCFF994FKT	ENCFF538TEQ	NA
+C57BL/6_limb_embryo_15.5_days	C57BL/6 limb embryo (15.5 days)	NA	ENCFF205JZO	ENCFF199SCG	NA
+C57BL/6_liver_embryo_11.5_days	C57BL/6 liver embryo (11.5 days)	NA	ENCFF053JUA	ENCFF274AWM	NA
+C57BL/6_liver_embryo_12.5_days	C57BL/6 liver embryo (12.5 days)	NA	ENCFF487TJN	ENCFF285ZJD	NA
+C57BL/6_liver_embryo_13.5_days	C57BL/6 liver embryo (13.5 days)	NA	ENCFF068KSP	ENCFF289PYS	NA
+C57BL/6_liver_embryo_14.5_days	C57BL/6 liver embryo (14.5 days)	NA	ENCFF118SNE	ENCFF518VSR	ENCFF691ULU
+C57BL/6_liver_embryo_15.5_days	C57BL/6 liver embryo (15.5 days)	NA	ENCFF960DLF	ENCFF290NHP	NA
+C57BL/6_liver_embryo_16.5_days	C57BL/6 liver embryo (16.5 days)	NA	ENCFF315VST	ENCFF526VAG	NA
+C57BL/6_liver_male_adult_8_weeks	C57BL/6 liver male adult (8 weeks)	NA	ENCFF753IXB	ENCFF632VNQ	ENCFF919KIP
+C57BL/6_liver_male_embryo_14.5_days	C57BL/6 liver male embryo (14.5 days)	ENCFF276AQS	NA	NA	NA
+C57BL/6_liver_postnatal_0_days	C57BL/6 liver postnatal (0 days)	ENCFF805GTK	ENCFF615IVU	ENCFF588AKC	ENCFF186QKQ
+C57BL/6_lung_embryo_14.5_days	C57BL/6 lung embryo (14.5 days)	ENCFF879PTQ	ENCFF916AGC	ENCFF173XOV	ENCFF176KNA
+C57BL/6_lung_embryo_15.5_days	C57BL/6 lung embryo (15.5 days)	NA	ENCFF551UEX	ENCFF018LWM	NA
+C57BL/6_lung_embryo_16.5_days	C57BL/6 lung embryo (16.5 days)	NA	ENCFF389JEL	ENCFF681GAF	NA
+C57BL/6_lung_male_adult_8_weeks	C57BL/6 lung male adult (8 weeks)	NA	ENCFF944BPE	NA	ENCFF538KBR
+C57BL/6_lung_postnatal_0_days	C57BL/6 lung postnatal (0 days)	ENCFF183CQI	ENCFF377ZXP	ENCFF924XGB	ENCFF739QBQ
+C57BL/6_midbrain_embryo_10.5_days	C57BL/6 midbrain embryo (10.5 days)	NA	ENCFF197CLN	ENCFF773NIS	NA
+C57BL/6_midbrain_embryo_11.5_days	C57BL/6 midbrain embryo (11.5 days)	ENCFF401CHN	ENCFF081AUZ	ENCFF230FQZ	NA
+C57BL/6_midbrain_embryo_12.5_days	C57BL/6 midbrain embryo (12.5 days)	NA	ENCFF682ZKK	ENCFF406MDW	NA
+C57BL/6_midbrain_embryo_13.5_days	C57BL/6 midbrain embryo (13.5 days)	NA	ENCFF842FSB	ENCFF416UPA	NA
+C57BL/6_midbrain_embryo_14.5_days	C57BL/6 midbrain embryo (14.5 days)	ENCFF504BWS	ENCFF002MTC	ENCFF900XUW	NA
+C57BL/6_midbrain_embryo_15.5_days	C57BL/6 midbrain embryo (15.5 days)	NA	ENCFF724CMA	ENCFF616CNP	NA
+C57BL/6_midbrain_embryo_16.5_days	C57BL/6 midbrain embryo (16.5 days)	NA	ENCFF644PLR	ENCFF447LGJ	NA
+C57BL/6_midbrain_postnatal_0_days	C57BL/6 midbrain postnatal (0 days)	ENCFF725EAC	ENCFF339HOE	ENCFF961KLD	ENCFF581XWU
+C57BL/6_MN1	C57BL/6 MN1	ENCFF590ZTG	NA	NA	NA
+C57BL/6_MN1_treated_with_methyltrienolone	C57BL/6 MN1 treated with methyltrienolone	ENCFF201ZKU	NA	NA	NA
+C57BL/6_Muller_cell_postnatal_12_days	C57BL/6 Muller cell postnatal (12 days)	ENCFF848WWK	NA	NA	NA
+C57BL/6_neural_tube_embryo_11.5_days	C57BL/6 neural tube embryo (11.5 days)	ENCFF046RWH	ENCFF638WLA	ENCFF422NJA	NA
+C57BL/6_neural_tube_embryo_12.5_days	C57BL/6 neural tube embryo (12.5 days)	NA	ENCFF552KFS	ENCFF704GSX	NA
+C57BL/6_neural_tube_embryo_13.5_days	C57BL/6 neural tube embryo (13.5 days)	NA	ENCFF293PAY	ENCFF066PYN	NA
+C57BL/6_neural_tube_embryo_14.5_days	C57BL/6 neural tube embryo (14.5 days)	NA	ENCFF229GJB	ENCFF494OOQ	NA
+C57BL/6_neural_tube_embryo_15.5_days	C57BL/6 neural tube embryo (15.5 days)	NA	ENCFF030BTL	ENCFF789UMC	NA
+C57BL/6_olfactory_bulb_male_adult_8_weeks	C57BL/6 olfactory bulb male adult (8 weeks)	NA	ENCFF069XTE	ENCFF669DNL	ENCFF331JEE
+C57BL/6_placenta_female_adult_8_weeks	C57BL/6 placenta female adult (8 weeks)	NA	ENCFF235ZAJ	ENCFF924IWW	NA
+C57BL/6_retina_embryo_14.5_days	C57BL/6 retina embryo (14.5 days)	ENCFF807WFQ	NA	NA	NA
+C57BL/6_retina_male_adult_8_weeks	C57BL/6 retina male adult (8 weeks)	ENCFF311JHZ	NA	NA	NA
+C57BL/6_retina_male_postnatal_7_days	C57BL/6 retina male postnatal (7 days)	ENCFF730VBE	NA	NA	NA
+C57BL/6_skeletal_muscle_tissue_male_adult_8_weeks	C57BL/6 skeletal muscle tissue male adult (8 weeks)	ENCFF506WFH	NA	NA	NA
+C57BL/6_small_intestine_male_adult_8_weeks	C57BL/6 small intestine male adult (8 weeks)	NA	ENCFF032JSS	ENCFF212SMS	ENCFF472ZGZ
+C57BL/6_spleen_male_adult_8_weeks	C57BL/6 spleen male adult (8 weeks)	ENCFF957GIS	ENCFF347ZYP	ENCFF470WIY	NA
+C57BL/6_stomach_embryo_14.5_days	C57BL/6 stomach embryo (14.5 days)	NA	ENCFF280VOA	ENCFF036PPT	NA
+C57BL/6_stomach_embryo_15.5_days	C57BL/6 stomach embryo (15.5 days)	NA	ENCFF180VGZ	ENCFF604BOY	NA
+C57BL/6_stomach_embryo_16.5_days	C57BL/6 stomach embryo (16.5 days)	NA	ENCFF309WXH	ENCFF069OMF	NA
+C57BL/6_stomach_postnatal_0_days	C57BL/6 stomach postnatal (0 days)	ENCFF113OKU	ENCFF703KOJ	ENCFF224LDB	ENCFF685EPG
+C57BL/6_telencephalon_male_adult_8_weeks	C57BL/6 telencephalon male adult (8 weeks)	ENCFF210JUD	NA	NA	NA
+C57BL/6_testis_male_adult_8_weeks	C57BL/6 testis male adult (8 weeks)	NA	ENCFF147BMC	ENCFF572JFH	ENCFF946MNK
+C57BL/6_thymus_male_adult_8_weeks	C57BL/6 thymus male adult (8 weeks)	NA	ENCFF810PIW	ENCFF354DWX	ENCFF639STL
+C57BL/6_thymus_postnatal_0_days	C57BL/6 thymus postnatal (0 days)	ENCFF483LRK	NA	NA	NA
+CD-1_c-Kit-negative_CD71-positive_TER-119-positive_erythroid_progenitor_cells_male_embryo_14.5_days	CD-1 c-Kit-negative CD71-positive TER-119-positive erythroid progenitor cells male embryo (14.5 days)	ENCFF885PCY	NA	NA	NA
+CD-1_c-Kit-positive_CD71-negative_TER-119-negative_erythroid_progenitor_cells_male_embryo_14.5_days	CD-1 c-Kit-positive CD71-negative TER-119-negative erythroid progenitor cells male embryo (14.5 days)	ENCFF402MSO	NA	NA	NA
+CD-1_c-Kit-positive_CD71-positive_TER-119-negative_erythroid_progenitor_cells_male_embryo_14.5_days	CD-1 c-Kit-positive CD71-positive TER-119-negative erythroid progenitor cells male embryo (14.5 days)	ENCFF045SNF	NA	NA	NA
+CD-1_c-Kit-positive_CD71-positive_TER-119-positive_erythroid_progenitor_cells_male_embryo_14.5_days	CD-1 c-Kit-positive CD71-positive TER-119-positive erythroid progenitor cells male embryo (14.5 days)	ENCFF432LOL	NA	NA	NA
+CD-1_embryoid_body_male_embryo_11.5_days	CD-1 embryoid body male embryo (11.5 days)	ENCFF277PIC	NA	NA	NA
+CD-1_erythroblast_embryo_14.5_days	CD-1 erythroblast embryo (14.5 days)	NA	ENCFF612WPA	NA	NA
+CD-1_forelimb_bud_male_embryo_11.5_days	CD-1 forelimb bud male embryo (11.5 days)	ENCFF636YCK	NA	NA	NA
+CD-1_hindlimb_bud_male_embryo_11.5_days	CD-1 hindlimb bud male embryo (11.5 days)	ENCFF622XCT	NA	NA	NA
+CD-1_megakaryocyte_embryo_14.5_days	CD-1 megakaryocyte embryo (14.5 days)	NA	ENCFF211IXB	NA	NA
+CD-1_mesoderm_male_embryo_11.5_days	CD-1 mesoderm male embryo (11.5 days)	ENCFF322SRF	NA	NA	NA
+DBA/2_erythroblast_derived_from_MEL-GATA-1-ER_treated_with_estradiol_1_day_diff	DBA/2 erythroblast derived from MEL-GATA-1-ER treated with estradiol 1 day diff	ENCFF386VCV	NA	NA	NA
+DBA/2_erythroblast_derived_from_MEL-GATA-1-ER_treated_with_estradiol_2_day_diff	DBA/2 erythroblast derived from MEL-GATA-1-ER treated with estradiol 2 day diff	ENCFF871GSA	NA	NA	NA
+DBA/2_MEL_cell_line	DBA/2 MEL cell line	ENCFF976TUI	ENCFF583MBD	ENCFF414TDD	ENCFF515BPN
+DBA/2_MEL_cell_line_treated_with_dimethyl_sulfoxide	DBA/2 MEL cell line treated with dimethyl sulfoxide	NA	ENCFF206DMH	NA	ENCFF056UBA
+DBA/2_MEL_cell_line_treated_with_zinc_dichloride	DBA/2 MEL cell line treated with zinc dichloride	ENCFF455JRQ	NA	NA	NA
+DBA/2_MEL-GATA-1-ER	DBA/2 MEL-GATA-1-ER	ENCFF285TSR	NA	NA	NA
+G1E-ER4	G1E-ER4	NA	ENCFF299BAW	NA	ENCFF816XFR
+M.spretus_x_C57BL/6J_Patski	M.spretus x C57BL/6J Patski	ENCFF470ZGX	NA	NA	NA
+WW6	WW6	ENCFF954XMQ	NA	NA	NA
+WW6_F1KO	WW6 F1KO	ENCFF687OIK	NA	NA	NA
