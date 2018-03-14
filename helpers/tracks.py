@@ -10,6 +10,19 @@ from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 
 import helpers as Helpers
 
+class Lookup:
+    def __init__(self, btid, btname, info, cREs):
+        self.btid = btid
+        self.btname = btname
+        self.info = info
+        self.cREs = cREs
+
+    def isActive(self):
+        r = self.btid in ["hepatocyte_derived_from_H9",
+                          "bipolar_spindle_neuron_derived_from_induced_pluripotent_stem_cell",
+                          "B_cell_adult"]
+        return r
+
 def outputLines(d, indentLevel, extras = {}):
     prefix = '\t' * indentLevel
     for k, v in d.iteritems():
