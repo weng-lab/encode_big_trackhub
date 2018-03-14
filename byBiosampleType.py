@@ -110,16 +110,20 @@ class TrackhubDbBiosampleType:
     def _makeMainTrackDb(self):
         mainTrackDb = []
 
+        priority = 10
         for bt, btnFnps in self.byBiosampleTypeBiosample.iteritems():
+            priority += 1
             totalExperiments = sum([len(info["expIDs"]) for info in btnFnps.values()])
             shortLabel = self.btToNormal[bt]
             longLabel = self.btToNormal[bt] + " (%s experiments)" % totalExperiments
             mainTrackDb.append("""
 track super_{bt}
 superTrack on show
+priority {priority}
 shortLabel {shortL}
 longLabel {longL}
 """.format(bt = bt,
+           priority = priority,
            shortL=Helpers.makeShortLabel(shortLabel),
            longL=Helpers.makeLongLabel(longLabel)))
 
