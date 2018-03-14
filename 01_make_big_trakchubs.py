@@ -10,6 +10,7 @@ import argparse
 import requests
 from collections import OrderedDict, defaultdict
 from joblib import Parallel, delayed
+import StringIO
 
 from helpers.tracks import Tracks, Parent
 import helpers.helpers as Helpers
@@ -34,7 +35,8 @@ def merge_two_dicts(x, y):
     return z
 
 Host = Urls.metadataWebService
-BaseDir = os.path.join(os.path.dirname(__file__), 'www')
+BaseWwwTmpDir = os.path.join(os.path.dirname(__file__), 'www-tmp')
+BaseWwwDir = os.path.join(os.path.dirname(__file__), 'www')
 
 
 class Lookup:
@@ -50,11 +52,48 @@ class Lookup:
                           "B_cell_adult"]
         return r
 
-class TrackhubDb:
-    def __init__(self, args, assembly, cache):
+class MegaTrackHub:
+    def __init__(self, args, assembly, globalData):
         self.args = args
         self.assembly = assembly
-        self.cache = cache
+        self.globalData = globalData
+
+        self.mw = MetadataWS(host=Host)
+
+    def run(self):
+        self._makeHub()
+
+        self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly, self.globalData)
+        self.byBiosampleTypeOutput = self.byBiosampleType.run()
+        
+        self.makeMainTrackDb()
+        
+    def makeMainTrackDb(self):
+        fnp = os.path.join(BaseWwwDir, self.assembly, 'trackDb.txt')
+        Utils.ensureDir(fnp)
+        with open(fnp, 'w') as f:
+            f.write(self.byBiosampleTypeOutput)
+        printWroteNumLines(fnp)
+        
+    def _makeHub(self):
+        fnp = os.path.join(BaseWwwDir, 'hub.txt')
+        with open(fnp, 'w') as f:
+            f.write("""
+hub ENCODE
+shortLabel ENCODE Trackhub Test3
+longLabel ENCODE Trackhub Test3
+genomesFile genomes.txt
+email zhiping.weng@umassmed.edu
+descriptionUrl http://encodeproject.org/
+""")
+        printWroteNumLines(fnp)
+
+    
+class TrackhubDbBiosampleType:
+    def __init__(self, args, assembly, globalData):
+        self.args = args
+        self.assembly = assembly
+        self.globalData = globalData
         self.byBiosampleTypeBiosample = defaultdict(lambda: defaultdict(dict))
         self.subGroups = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
 
@@ -72,7 +111,7 @@ class TrackhubDb:
                                              "idx": len(jobs) + 1,
                                              "total": len(self.inputData)}))
 
-        Parallel(n_jobs=self.args.j)(delayed(outputAllTracks)(job)
+        Parallel(n_jobs=self.args.j)(delayed(outputAllTracksByBiosampleType)(job)
                                      for job in jobs)
 
     def _lookup(self):
@@ -80,10 +119,10 @@ class TrackhubDb:
                            self.assembly + "-Look-Up-Matrix.txt")
         printt("parsing", fnp)
 
-        creBigBeds = self.cache["creBigBedsByCellType"]
+        creBigBeds = self.globalData["creBigBedsByCellType"]
 
         self.lookupByExp = {}
-        for ct, assays in self.cache["byCellType"].iteritems():
+        for ct, assays in self.globalData["byCellType"].iteritems():
             for info in assays:
                 btid = info["cellTypeName"]
                 btname = info["cellTypeDesc"]
@@ -99,39 +138,38 @@ class TrackhubDb:
         self._lookup()
 
         printt("building infos...")
-        btToNormal = {}
+        self.btToNormal = {}
         for r in self.inputData:
             biosample_type = r[0]["biosample_type"]
             bt = Helpers.sanitize(biosample_type)
-            btToNormal[bt] = biosample_type
+            self.btToNormal[bt] = biosample_type
 
             biosample_term_name = r[0]["biosample_term_name"]
             btn = Helpers.sanitize(biosample_term_name)
 
             expIDs = r[0]["expIDs"]
-            fnpBase = os.path.join("subtracks", bt, btn +'.txt')
+            fnp = os.path.join(BaseWwwTmpDir, self.assembly, "subtracks", bt, btn +'.txt')
             self.byBiosampleTypeBiosample[bt][btn]= {
                 "biosample_type": biosample_type,
                 "bt": bt,
                 "biosample_term_name": biosample_term_name,
                 "btn": btn,
-                "fnpBase": fnpBase,
+                "fnp": fnp,
                 "expIDs": expIDs,
                 "assembly": self.assembly
             }
 
         printt("making tracks and subtracks...")
         self._makeSubTracks()
-        self._makeFiles(btToNormal)
-        self._makeHub()
+        return self._makeMainTrackDb()
 
-    def _makeFiles(self, btToNormal):
+    def _makeMainTrackDb(self):
         mainTrackDb = []
 
         for bt, btnFnps in self.byBiosampleTypeBiosample.iteritems():
             totalExperiments = sum([len(info["expIDs"]) for info in btnFnps.values()])
-            shortLabel = btToNormal[bt]
-            longLabel = btToNormal[bt] + " (%s experiments)" % totalExperiments
+            shortLabel = self.btToNormal[bt]
+            longLabel = self.btToNormal[bt] + " (%s experiments)" % totalExperiments
             mainTrackDb.append("""
 track super_{bt}
 superTrack on show
@@ -141,40 +179,23 @@ longLabel {longL}
            shortL=Helpers.makeShortLabel(shortLabel),
            longL=Helpers.makeLongLabel(longLabel)))
 
-        fnp = os.path.join(BaseDir, self.assembly, 'subtracks.txt')
-        mainTrackDb.append('include subtracks.txt')
-        with open(fnp, 'w') as f:
-            for bt, btnFnps in self.byBiosampleTypeBiosample.iteritems():
-                for btn, info in btnFnps.iteritems():
-                        f.write('include ' + info["fnpBase"] + '\n')
-        printWroteNumLines(fnp)
+        outF = StringIO.StringIO()
+        outF.write('\n'.join(mainTrackDb))
+        for bt, btnFnps in self.byBiosampleTypeBiosample.iteritems():
+            for btn, info in btnFnps.iteritems():
+                with open(info["fnp"]) as f:
+                    outF.write(f.read())
+                    outF.write('\n')
+        return outF.getvalue()
 
-        fnp = os.path.join(BaseDir, self.assembly, 'trackDb.txt')
-        with open(fnp, 'w') as f:
-            f.write('\n'.join(mainTrackDb))
-        printWroteNumLines(fnp)
-
-    def _makeHub(self):
-        fnp = os.path.join(BaseDir, 'hub.txt')
-        with open(fnp, 'w') as f:
-            f.write("""
-hub ENCODE
-shortLabel ENCODE Trackhub Test3
-longLabel ENCODE Trackhub Test3
-genomesFile genomes.txt
-email zhiping.weng@umassmed.edu
-descriptionUrl http://encodeproject.org/
-""")
-        printWroteNumLines(fnp)
-
-def outputAllTracks(info):
+def outputAllTracksByBiosampleType(info):
     subGroups = outputSubTrack(**info)
     info["subGroups"] = subGroups
-    outputCompositeTrack(**info)
+    outputCompositeTrackByBiosampleType(**info)
 
-def outputCompositeTrack(assembly, bt, btn, expIDs, fnpBase, idx, total, subGroups,
-                         biosample_type, biosample_term_name, lookupByExp):
-    fnp = os.path.join(BaseDir, assembly, fnpBase)
+def outputCompositeTrackByBiosampleType(assembly, bt, btn, expIDs, fnp, idx, total,
+                                        subGroups, biosample_type, biosample_term_name,
+                                        lookupByExp):
     if not os.path.exists(fnp):
         raise Exception("missing " + fnp)
 
@@ -240,7 +261,7 @@ darkerLabels on
 
     printWroteNumLines(fnp, idx, 'of', total)
 
-def outputSubTrack(assembly, bt, btn, expIDs, fnpBase, idx, total,
+def outputSubTrack(assembly, bt, btn, expIDs, fnp, idx, total,
                    biosample_type, biosample_term_name, lookupByExp):
     mw = MetadataWS(host=Host)
     exps = mw.exps(expIDs)
@@ -265,7 +286,6 @@ def outputSubTrack(assembly, bt, btn, expIDs, fnpBase, idx, total,
             cREs = lookupByExp[expID].cREs
         tracks.addExp(exp, active, cREs)
 
-    fnp = os.path.join(BaseDir, assembly, fnpBase)
     Utils.ensureDir(fnp)
     with open(fnp, 'w') as f:
         for line in tracks.lines():
@@ -274,7 +294,7 @@ def outputSubTrack(assembly, bt, btn, expIDs, fnpBase, idx, total,
     return tracks.subgroups()
 
 def outputGenomes(assemblies):
-    fnp = os.path.join(BaseDir, 'genomes.txt')
+    fnp = os.path.join(BaseWwwDir, 'genomes.txt')
     with open(fnp, 'w') as f:
         for assembly in assemblies:
             f.write("""
@@ -298,13 +318,13 @@ def main():
     for assembly in assemblies:
         printt("************************", assembly)
 
-        printt("loading cache from API...")
-        cacheUrl = "http://api.wenglab.org/screenv10_python/globalData/0/" + assembly
-        ws = requests.get(cacheUrl)
-        cache = ws.json()
+        printt("loading globalData from API...")
+        globalDataUrl = "http://api.wenglab.org/screenv10_python/globalData/0/" + assembly
+        ws = requests.get(globalDataUrl)
+        globalData = ws.json()
         printt("done")
 
-        tdb = TrackhubDb(args, assembly, cache)
+        tdb = MegaTrackHub(args, assembly, globalData)
         tdb.run()
     outputGenomes(assemblies)
 
