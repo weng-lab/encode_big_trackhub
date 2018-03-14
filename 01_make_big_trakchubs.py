@@ -23,20 +23,6 @@ from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 from metadataws import MetadataWS
 from files_and_paths import Urls
 
-# from http://stackoverflow.com/a/19861595
-import copy_reg
-import types
-
-def _reduce_method(meth):
-    return (getattr, (meth.__self__, meth.__func__.__name__))
-copy_reg.pickle(types.MethodType, _reduce_method)
-
-def merge_two_dicts(x, y):
-    z = x.copy()   # start with x's keys and values
-    z.update(y)    # modifies z with y's keys and values & returns None
-    return z
-
-
 
 class MegaTrackHub:
     def __init__(self, args, assembly, globalData):
