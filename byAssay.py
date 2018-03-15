@@ -57,11 +57,10 @@ class TrackhubDbByAssay:
         self.lookupByExp = {}
 
     def run(self):
-        ret = ""
         for title, assayAbbr, expsF in self.expsByAssay:
             exps = expsF()
-            ret += self._build(title, assayAbbr, exps)
-        return ret
+            self._build(title, assayAbbr, exps)
+        return self._makeMainTrackDb()
 
     def _build(self, assay_term_name, atn, exps):
         printt("building", assay_term_name, "...")
@@ -89,7 +88,6 @@ class TrackhubDbByAssay:
 
         printt("making tracks and subtracks...")
         self._makeSubTracks()
-        return self._makeMainTrackDb()
 
     def _makeSubTracks(self):
         jobs = []
