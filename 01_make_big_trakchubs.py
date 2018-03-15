@@ -19,10 +19,9 @@ from byBiosampleType import TrackhubDbBiosampleType
 from byAssay import TrackhubDbByAssay
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../metadata/utils'))
-from files_and_paths import Dirs
+from files_and_paths import Dirs, Urls, Datasets
 from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 from metadataws import MetadataWS
-from files_and_paths import Urls
 
 
 class MegaTrackHub:
@@ -31,26 +30,28 @@ class MegaTrackHub:
         self.assembly = assembly
         self.globalData = globalData
 
-        self.mw = MetadataWS(host=Host)
+        dataset = Datasets.byAssembly(assembly)
+        self.mw = MetadataWS(dataset=dataset, host=Host)
 
     def run(self):
         self._makeHub()
 
-        self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly, self.globalData)
+        self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly,
+                                                       self.globalData, self.mw)
         self.byBiosampleTypeOutput = self.byBiosampleType.run()
 
         self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
         self.byAssayOutput = self.byAssay.run()
-        
+
         self.makeMainTrackDb()
-        
+
     def makeMainTrackDb(self):
         fnp = os.path.join(BaseWwwDir, self.assembly, 'trackDb.txt')
         Utils.ensureDir(fnp)
         with open(fnp, 'w') as f:
             f.write(self.byBiosampleTypeOutput)
         printWroteNumLines(fnp)
-        
+
     def _makeHub(self):
         fnp = os.path.join(BaseWwwDir, 'hub.txt')
         with open(fnp, 'w') as f:
@@ -73,7 +74,7 @@ genome {assembly}
 trackDb {assembly}/trackDb.txt
 """.format(assembly = assembly))
     printWroteNumLines(fnp)
-  
+
 
 
 def parse_args():
@@ -90,10 +91,17 @@ def main():
     for assembly in assemblies:
         printt("************************", assembly)
 
-        printt("loading globalData from API...")
-        globalDataUrl = "http://api.wenglab.org/screenv10_python/globalData/0/" + assembly
-        ws = requests.get(globalDataUrl)
-        globalData = ws.json()
+        if 0:
+            printt("loading globalData from API...")
+            globalDataUrl = "http://api.wenglab.org/screenv10_python/globalData/0/" + assembly
+            ws = requests.get(globalDataUrl)
+            globalData = ws.json()
+        else:
+            printt("loading globalData from disk...")
+            fnp = os.path.join(os.path.dirname(__file__), "lists",
+                               "globalData." + assembly + ".json")
+            with open(fnp) as f:
+                globalData = json.load(f)
         printt("done")
 
         tdb = MegaTrackHub(args, assembly, globalData)

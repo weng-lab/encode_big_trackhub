@@ -34,7 +34,7 @@ def merge_two_dicts(x, y):
     return z
 
 class TrackhubDbBiosampleType:
-    def __init__(self, args, assembly, globalData):
+    def __init__(self, args, assembly, globalData, mw):
         self.args = args
         self.assembly = assembly
         self.globalData = globalData
@@ -42,7 +42,7 @@ class TrackhubDbBiosampleType:
         self.subGroups = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
 
         printt("loading exps by biosample_type...")
-        self.mw = MetadataWS(host=Host)
+        self.mw = mw
         self.inputData = self.mw.encodeByBiosampleTypeCustom(self.assembly)
         self.lookupByExp = {}
 
@@ -240,4 +240,3 @@ def outputSubTrack(assembly, bt, btn, expIDs, fnp, idx, total,
             f.write(line)
     printWroteNumLines(fnp, idx, 'of', total)
     return tracks.subgroups()
-
