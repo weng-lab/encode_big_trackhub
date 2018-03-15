@@ -41,35 +41,36 @@ class TrackhubDbByAssay:
         self.globalData = globalData
         self.mw = mw
 
-        self.tfExps = self.mw.chipseq_tfs_useful()
-        self.histExp = self.mw.chipseq_histones_useful()
-        self.dnaseExps = self.mw.dnases_useful()
-
-        self.expsByAssay= [("Chromatin Accessibility", "chromatin_accessibility", self.dnaseExps),
-                           ("Transcription Factors", "transcription_factors", self.tfExps),
-                           ("Histone Modifications", "histone_modifications", self.histExp)]
+        self.expsByAssay= [("Chromatin Accessibility", "chromatin_accessibility",
+                            self.mw.dnases_useful),
+                           ("Transcription Factors", "transcription_factors",
+                            self.mw.chipseq_tfs_useful),
+                           ("Histone Modifications", "histone_modifications",
+                            self.mw.chipseq_histones_useful)]
 
         # assay x biosamepleType x biosamplesView
-        
+
         self.byBiosampleType = defaultdict(dict)
         self.subGroups = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
 
         self.lookupByExp = {}
-        
+
     def run(self):
-        for title, assayAbbr, exps in self.expsByAssay:
-            data = self._build(title, assayAbbr, exps)
+        ret = ""
+        for title, assayAbbr, expsF in self.expsByAssay:
+            exps = expsF()
+            ret += self._build(title, assayAbbr, exps)
+        return ret
 
     def _build(self, title, assayAbbr, exps):
         printt("building", title, "...")
         def sorter(exp):
             return (exp.biosample_type)
         exps.sort(key = sorter)
-        
+
         self.btToNormal = {}
         for biosample_type, exps in groupby(exps, sorter):
             exps = list(exps)
-            biosample_type = biosample_type
             bt = Helpers.sanitize(biosample_type)
             self.btToNormal[bt] = biosample_type
 
@@ -88,12 +89,11 @@ class TrackhubDbByAssay:
 
     def _makeSubTracks(self):
         jobs = []
-        for bt, btnInfo in self.byBiosampleTypeBiosample.iteritems():
-            for btn, info in btnInfo.iteritems():
-                jobs.append(merge_two_dicts(info,
-                                            {"lookupByExp": self.lookupByExp,
-                                             "idx": len(jobs) + 1,
-                                             "total": len(self.inputData)}))
+        for bt, info in self.byBiosampleType.iteritems():
+            jobs.append(merge_two_dicts(info,
+                                        {"lookupByExp": self.lookupByExp,
+                                         "idx": len(jobs) + 1,
+                                         "total": len(self.byBiosampleType)}))
 
         Parallel(n_jobs=self.args.j)(delayed(outputAllTracksByBiosampleType)(job)
                                      for job in jobs)
@@ -102,9 +102,9 @@ class TrackhubDbByAssay:
         mainTrackDb = []
 
         priority = 10
-        for bt, btnFnps in self.byBiosampleTypeBiosample.iteritems():
+        for bt, info in self.byBiosampleType.iteritems():
             priority += 1
-            totalExperiments = sum([len(info["expIDs"]) for info in btnFnps.values()])
+            totalExperiments = len(info["exps"])
             shortLabel = self.btToNormal[bt]
             longLabel = self.btToNormal[bt] + " (%s experiments)" % totalExperiments
             mainTrackDb.append("""
@@ -120,11 +120,10 @@ longLabel {longL}
 
         outF = StringIO.StringIO()
         outF.write('\n'.join(mainTrackDb))
-        for bt, btnFnps in self.byBiosampleTypeBiosample.iteritems():
-            for btn, info in btnFnps.iteritems():
-                with open(info["fnp"]) as f:
-                    outF.write(f.read())
-                    outF.write('\n')
+        for bt, info in self.byBiosampleType.iteritems():
+            with open(info["fnp"]) as f:
+                outF.write(f.read())
+                outF.write('\n')
         return outF.getvalue()
 
 def outputAllTracksByBiosampleType(info):
@@ -132,16 +131,15 @@ def outputAllTracksByBiosampleType(info):
     info["subGroups"] = subGroups
     outputCompositeTrackByBiosampleType(**info)
 
-def outputCompositeTrackByBiosampleType(assembly, bt, btn, expIDs, fnp, idx, total,
-                                        subGroups, biosample_type, biosample_term_name,
-                                        lookupByExp):
+def outputCompositeTrackByBiosampleType(assembly, bt, exps, fnp, idx, total,
+                                        subGroups, biosample_type, lookupByExp):
     if not os.path.exists(fnp):
         raise Exception("missing " + fnp)
 
     subGroupsDict = {}
     for k in Helpers.SubGroupKeys:
         subGroupsDict[k] = {a[0]:a[1] for a in subGroups[k]}
-    longLabel = biosample_term_name + " (%s experiments)" % len(expIDs)
+    longLabel = biosample_type + " (%s experiments)" % len(exps)
 
     if "immortalized_cell_line" == bt:
         subGroup1key = "label"
@@ -155,23 +153,22 @@ def outputCompositeTrackByBiosampleType(assembly, bt, btn, expIDs, fnp, idx, tot
     subGroup3 = Helpers.unrollEquals(subGroupsDict[subGroup3key])
 
     actives = []
-    for expID in expIDs:
-        if expID in lookupByExp:
-            actives.append(lookupByExp[expID].isActive())
+    # for expID in expIDs:
+    #     if expID in lookupByExp:
+    #         actives.append(lookupByExp[expID].isActive())
     isActive = any(t for t in actives)
-    if isActive:
-        print("active biosample (composite):", btn)
+    # if isActive:
+    #     print("active biosample (composite):", btn)
 
     with open(fnp) as f:
         subtracks = f.read()
 
     with open(fnp, 'w') as f:
         f.write("""
-track {bt}_{btn}
+track {bt}
 parent super_{bt}
 compositeTrack on
-""".format(bt=bt,
-           btn=btn))
+""".format(bt=bt))
         if isActive:
             f.write("visibility full\n")
         f.write("""shortLabel {shortL}
@@ -187,7 +184,7 @@ dimensions dimX={subGroup2key} dimY={subGroup1key}
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
-""".format(shortL=Helpers.makeShortLabel(biosample_term_name),
+""".format(shortL=Helpers.makeShortLabel(biosample_type),
            longL=Helpers.makeLongLabel(longLabel),
            subGroup1key=subGroup1key,
            subGroup1=subGroup1,
@@ -200,20 +197,17 @@ darkerLabels on
 
     printWroteNumLines(fnp, idx, 'of', total)
 
-def outputSubTrack(assembly, bt, btn, expIDs, fnp, idx, total,
-                   biosample_type, biosample_term_name, lookupByExp):
-    mw = MetadataWS(host=Host)
-    exps = mw.exps(expIDs)
-
+def outputSubTrack(assembly, bt, exps, fnp, idx, total,
+                   biosample_type, lookupByExp):
     actives = []
-    for expID in expIDs:
-        if expID in lookupByExp:
-            actives.append(lookupByExp[expID].isActive())
+    # for expID in expIDs:
+    #     if expID in lookupByExp:
+    #         actives.append(lookupByExp[expID].isActive())
     isActive = any(t for t in actives)
     if isActive:
         print("active biosample:", btn)
 
-    parent = Parent(bt + '_' + btn, isActive)
+    parent = Parent(bt, isActive)
 
     tracks = Tracks(assembly, parent, (1 + idx) * 1000)
     for exp in exps:
@@ -231,4 +225,3 @@ def outputSubTrack(assembly, bt, btn, expIDs, fnp, idx, total,
             f.write(line)
     printWroteNumLines(fnp, idx, 'of', total)
     return tracks.subgroups()
-

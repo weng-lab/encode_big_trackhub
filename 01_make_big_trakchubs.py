@@ -36,9 +36,10 @@ class MegaTrackHub:
     def run(self):
         self._makeHub()
 
-        self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly,
-                                                       self.globalData, self.mw)
-        self.byBiosampleTypeOutput = self.byBiosampleType.run()
+        if 0:
+            self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly,
+                                                           self.globalData, self.mw)
+            self.byBiosampleTypeOutput = self.byBiosampleType.run()
 
         self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
         self.byAssayOutput = self.byAssay.run()
@@ -49,7 +50,8 @@ class MegaTrackHub:
         fnp = os.path.join(BaseWwwDir, self.assembly, 'trackDb.txt')
         Utils.ensureDir(fnp)
         with open(fnp, 'w') as f:
-            f.write(self.byBiosampleTypeOutput)
+            f.write(self.byAssayOutput)
+            #f.write(self.byBiosampleTypeOutput)
         printWroteNumLines(fnp)
 
     def _makeHub(self):
