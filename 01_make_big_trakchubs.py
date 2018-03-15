@@ -36,13 +36,14 @@ class MegaTrackHub:
     def run(self):
         self._makeHub()
 
-        if 0:
+        if 1:
             self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly,
                                                            self.globalData, self.mw)
             self.byBiosampleTypeOutput = self.byBiosampleType.run()
 
-        self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
-        self.byAssayOutput = self.byAssay.run()
+        if 1:
+            self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
+            self.byAssayOutput = self.byAssay.run()
 
         self.makeMainTrackDb()
 
@@ -51,7 +52,7 @@ class MegaTrackHub:
         Utils.ensureDir(fnp)
         with open(fnp, 'w') as f:
             f.write(self.byAssayOutput)
-            #f.write(self.byBiosampleTypeOutput)
+            f.write(self.byBiosampleTypeOutput)
         printWroteNumLines(fnp)
 
     def _makeHub(self):
@@ -59,8 +60,8 @@ class MegaTrackHub:
         with open(fnp, 'w') as f:
             f.write("""
 hub ENCODE
-shortLabel ENCODE Trackhub Test3
-longLabel ENCODE Trackhub Test3
+shortLabel ENCODE Trackhub Test4
+longLabel ENCODE Trackhub Test4
 genomesFile genomes.txt
 email zhiping.weng@umassmed.edu
 descriptionUrl http://encodeproject.org/

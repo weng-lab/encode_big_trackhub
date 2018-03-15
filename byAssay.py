@@ -104,7 +104,7 @@ class TrackhubDbByAssay:
     def _makeMainTrackDb(self):
         mainTrackDb = []
 
-        priority = 10
+        priority = 0
         for atn, btAndInfo in self.byAssayBiosampleType.iteritems():
             priority += 1
             totalExperiments = sum([len(info["exps"]) for info in btAndInfo.values()])

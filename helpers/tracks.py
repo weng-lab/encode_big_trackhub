@@ -43,6 +43,9 @@ class Parent:
             return self.parent + ' on'
         return self.parent + ' off'
 
+    def initials(self):
+        return self.parent[:3] + '_'
+
 class BigWigTrack(object):
     def __init__(self, assembly, exp, f, parent, active):
         self.assembly = assembly
@@ -55,7 +58,7 @@ class BigWigTrack(object):
 
     def _init(self):
         p = OrderedDict()
-        p["track"] = Helpers.sanitize(self.f.expID + '_' + self.f.fileID)
+        p["track"] = self.parent.initials() + Helpers.sanitize(self.f.expID + '_' + self.f.fileID)
         p["parent"] = self.parent.param(self.active)
         p["subGroups"] = Helpers.unrollEquals(self._subgroups())
         p["bigDataUrl"] = self._url()
