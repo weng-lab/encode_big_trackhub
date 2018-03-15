@@ -16,6 +16,7 @@ from helpers.tracks import Tracks, Parent
 import helpers.helpers as Helpers
 from paths import Host, BaseWwwDir, BaseWwwTmpDir
 from byBiosampleType import TrackhubDbBiosampleType
+from byAssay import TrackhubDbByAssay
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../metadata/utils'))
 from files_and_paths import Dirs
@@ -37,6 +38,9 @@ class MegaTrackHub:
 
         self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly, self.globalData)
         self.byBiosampleTypeOutput = self.byBiosampleType.run()
+
+        self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
+        self.byAssayOutput = self.byAssay.run()
         
         self.makeMainTrackDb()
         
