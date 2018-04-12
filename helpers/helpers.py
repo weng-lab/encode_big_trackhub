@@ -29,7 +29,7 @@ AssayColors = {"DNase": ["6,218,147", "#06DA93"],
 
 SubGroupKeys = ["age", "donor", "label", "assay", "view"]
 
-    
+
 def viz(state, active):
     if active:
         return state

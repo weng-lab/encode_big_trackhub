@@ -17,7 +17,7 @@ from paths import Host, BaseWwwDir, BaseWwwTmpDir
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../metadata/utils'))
 from files_and_paths import Dirs
-from utils import Utils, eprint, AddPath, printt, printWroteNumLines
+from utils import Utils, eprint, AddPath, printt, printWroteNumLines, dotdict
 from metadataws import MetadataWS
 from files_and_paths import Urls
 
@@ -34,8 +34,69 @@ def merge_two_dicts(x, y):
     z.update(y)    # modifies z with y's keys and values & returns None
     return z
 
-def ccREexps():
-    return []
+class MockFile:
+    def __init__(self, eInfo, assembly):
+        self.expID = eInfo["expID"]
+        self.fileID = eInfo["fileID"]
+        self.assembly = assembly
+        self.output_type = "fold change over control"
+        self.isPooled = True
+        self.url = "https://www.encodeproject.org/files/{fileID}/@@download/{fileID}.bigWig".format(fileID = self.fileID)
+
+    def isBigBed(self):
+        return False
+
+    def isBigWig(self):
+        return True
+
+    def isReleased(self):
+        return True
+
+class MockExp:
+    def __init__(self, eInfo, assembly):
+        for k, v in eInfo.items():
+            setattr(self, k, v)
+        self.assay_term_name = eInfo["assay"]
+        self.encodeID = eInfo["expID"]
+        self.files = [MockFile(eInfo, assembly)]
+        self.donor_id = self.encodeID
+        self.tf = self.assay
+        self.label = self.assay
+        self.age_display = ""
+        self.donor_sex = ""
+        self.description = eInfo["cellTypeDesc"]
+
+    def isRnaSeqLike(self):
+        return self.assay == "RNA-seq"
+
+    def isDNaseSeq(self):
+        return self.assay == "DNase-seq"
+
+    def isChipSeq(self):
+        return self.assay == "ChIP-seq"
+
+    def isChipSeqTF(self):
+        return self.assay == "CTCF"
+
+    def isChipSeqHistoneMark(self):
+        return self.assay == "H3K4me3" or self.assay == "H3K27ac"
+
+def ccREexps(globalData, mw, assembly):
+
+    creBigBeds = globalData["creBigBedsByCellType"]
+    by4exps = globalData["byCellType"]
+
+    expIDs = set()
+
+    ret = []
+    for ctn, eInfos in by4exps.iteritems():
+        for eInfo in eInfos:
+            if eInfo["expID"] in expIDs:
+                continue
+            expIDs.add(eInfo["expID"]) # b/c of ROADMAP
+            e = MockExp(eInfo, assembly)
+            ret.append(e)
+    return ret
 
 class TrackhubDbByCcREs:
     def __init__(self, args, assembly, globalData, mw):
@@ -48,7 +109,6 @@ class TrackhubDbByCcREs:
                             ccREexps),
         ]
 
-
         # assay x biosamepleType x biosamplesView
 
         self.byAssayBiosampleType = defaultdict(lambda: defaultdict(dict))
@@ -57,9 +117,31 @@ class TrackhubDbByCcREs:
         self.btToNormal = {}
         self.lookupByExp = {}
 
+    def _lookup(self):
+        fnp = os.path.join(os.path.dirname(__file__), "lists",
+                           self.assembly + "-Look-Up-Matrix.txt")
+        printt("parsing", fnp)
+
+        creBigBeds = self.globalData["creBigBedsByCellType"]
+
+        self.lookupByExp = {}
+        for ct, assays in self.globalData["byCellType"].iteritems():
+            for info in assays:
+                btid = info["cellTypeName"]
+                btname = info["cellTypeDesc"]
+                expID = info["expID"]
+                cREs = creBigBeds.get(btid, {})
+                if not cREs:
+                    print("missing cREs for", btid)
+                self.lookupByExp[expID] = Lookup(btid, btname, info, cREs)
+        print(len(self.lookupByExp))
+
     def run(self):
+        printt("building lookup...")
+        self._lookup()
+
         for title, assayAbbr, expsF in self.expsByAssay:
-            exps = expsF()
+            exps = expsF(self.globalData, self.mw, self.assembly)
             self._build(title, assayAbbr, exps)
         return self._makeMainTrackDb()
 
@@ -94,6 +176,7 @@ class TrackhubDbByCcREs:
         jobs = []
         for atn, btAndInfo in self.byAssayBiosampleType.iteritems():
             for bt, info in btAndInfo.iteritems():
+                print(atn, bt)
                 jobs.append(merge_two_dicts(info,
                                             {"lookupByExp": self.lookupByExp,
                                              "idx": len(jobs) + 1,

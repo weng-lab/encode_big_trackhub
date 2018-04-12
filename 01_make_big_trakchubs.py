@@ -92,7 +92,7 @@ trackDb {assembly}/trackDb.txt
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-j', type=int, default=4)
-    parser.add_argument("--assembly", type=str, default="hg19")
+    parser.add_argument("--assembly", type=str, default="")
     return parser.parse_args()
 
 
