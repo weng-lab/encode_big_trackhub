@@ -10,7 +10,7 @@ from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 
 import helpers as Helpers
 
-class Lookup:
+class LookupActive:
     def __init__(self, btid, btname, info, cREs):
         self.btid = btid
         self.btname = btname
@@ -20,7 +20,7 @@ class Lookup:
     def isActive(self):
         return False
 
-class LookupForCcREs:
+class LookupActiveForCcREs:
     def __init__(self, btid, btname, info, cREs):
         self.btid = btid
         self.btname = btname
@@ -28,7 +28,6 @@ class LookupForCcREs:
         self.cREs = cREs
 
     def isActive(self):
-        return False
         r = self.btid in ["hepatocyte_derived_from_H9",
                           "bipolar_spindle_neuron_derived_from_induced_pluripotent_stem_cell",
                           "B_cell_adult"]

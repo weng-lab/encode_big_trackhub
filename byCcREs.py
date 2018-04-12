@@ -11,7 +11,7 @@ from collections import OrderedDict, defaultdict
 from joblib import Parallel, delayed
 import StringIO
 
-from helpers.tracks import Tracks, Parent, Lookup
+from helpers.tracks import Tracks, Parent, LookupActiveForCcREs
 import helpers.helpers as Helpers
 from paths import Host, BaseWwwDir, BaseWwwTmpDir
 
@@ -133,7 +133,7 @@ class TrackhubDbByCcREs:
                 cREs = creBigBeds.get(btid, {})
                 if not cREs:
                     print("missing cREs for", btid)
-                self.lookupByExp[expID] = Lookup(btid, btname, info, cREs)
+                self.lookupByExp[expID] = LookupActiveForCcREs(btid, btname, info, cREs)
         print(len(self.lookupByExp))
 
     def run(self):

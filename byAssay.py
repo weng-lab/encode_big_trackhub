@@ -11,7 +11,7 @@ from collections import OrderedDict, defaultdict
 from joblib import Parallel, delayed
 import StringIO
 
-from helpers.tracks import Tracks, Parent, Lookup
+from helpers.tracks import Tracks, Parent, LookupActive
 import helpers.helpers as Helpers
 from paths import Host, BaseWwwDir, BaseWwwTmpDir
 
