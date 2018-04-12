@@ -34,11 +34,11 @@ longLabel Chromatin Accessibility_cell line (7 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO072AAA=ENCDO072AAA ENCDO073AAA=ENCDO073AAA ENCDO350LAJ=ENCDO350LAJ ENCDO956IXV=ENCDO956IXV 
-subGroup2 age age aunknown=unknown 
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
 subGroup3 view view bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -1269,11 +1269,11 @@ longLabel Histone Modifications_cell line (36 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO073AAA=ENCDO073AAA ENCDO321TZV=ENCDO321TZV ENCDO324YEK=ENCDO324YEK 
-subGroup2 age age aunknown=unknown aunknown_week=unknown&#32;week 
+subGroup1 label label H3K27ac=H3K27ac H3K27me3=H3K27me3 H3K36me3=H3K36me3 H3K4me1=H3K4me1 H3K4me2=H3K4me2 H3K4me3=H3K4me3 H3K79me2=H3K79me2 H3K79me3=H3K79me3 H3K9ac=H3K9ac H3K9me3=H3K9me3 H3ac=H3ac 
+subGroup2 assay assay ChIP-seq=ChIP-seq 
 subGroup3 view view bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -11894,11 +11894,11 @@ longLabel Transcription Factors_cell line (89 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO073AAA=ENCDO073AAA ENCDO321TZV=ENCDO321TZV ENCDO324YEK=ENCDO324YEK 
-subGroup2 age age aunknown=unknown aunknown_week=unknown&#32;week 
+subGroup1 label label BHLHE40=BHLHE40 CEBPB=CEBPB CHD1=CHD1 CHD2=CHD2 CTCF=CTCF E2F4=E2F4 ELF1=ELF1 EP300=EP300 ETS1=ETS1 GABPA=GABPA GATA1=GATA1 HCFC1=HCFC1 IRF4=IRF4 JUN=JUN JUND=JUND KAT2A=KAT2A MAFK=MAFK MAX=MAX MAZ=MAZ MEF2A=MEF2A MXI1=MXI1 MYB=MYB MYC=MYC MYOD1=MYOD1 NELFE=NELFE NRF1=NRF1 PAX5=PAX5 POLR2A=POLR2A RAD21=RAD21 RCOR1=RCOR1 SIN3A=SIN3A SMC3=SMC3 TAL1=TAL1 TBP=TBP TCF12=TCF12 UBTF=UBTF USF1=USF1 USF2=USF2 ZC3H11A=ZC3H11A ZKSCAN1=ZKSCAN1 ZMIZ1=ZMIZ1 ZNF384=ZNF384 
+subGroup2 assay assay ChIP-seq=ChIP-seq 
 subGroup3 view view bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -14344,11 +14344,11 @@ longLabel Transcription_cell line (11 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO073AAA=ENCDO073AAA ENCDO321TZV=ENCDO321TZV ENCDO324YEK=ENCDO324YEK 
-subGroup2 age age aunknown=unknown aunknown_week=unknown&#32;week 
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RNA-seq=RNA-seq 
 subGroup3 view view bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -17413,11 +17413,11 @@ longLabel CH12.LX (54 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO324YEK=ENCDO324YEK 
-subGroup2 age age aunknown=unknown 
+subGroup1 label label BHLHE40=BHLHE40 CHD1=CHD1 CHD2=CHD2 CTCF=CTCF E2F4=E2F4 ELF1=ELF1 EP300=EP300 ETS1=ETS1 GABPA=GABPA H3K27ac=H3K27ac H3K27me3=H3K27me3 H3K36me3=H3K36me3 H3K4me1=H3K4me1 H3K4me2=H3K4me2 H3K4me3=H3K4me3 H3K79me2=H3K79me2 H3K9ac=H3K9ac H3K9me3=H3K9me3 HCFC1=HCFC1 IRF4=IRF4 JUN=JUN JUND=JUND KAT2A=KAT2A MAFK=MAFK MAX=MAX MAZ=MAZ MEF2A=MEF2A MXI1=MXI1 MYC=MYC NELFE=NELFE NRF1=NRF1 PAX5=PAX5 POLR2A=POLR2A RAD21=RAD21 RCOR1=RCOR1 SIN3A=SIN3A SMC3=SMC3 TBP=TBP TCF12=TCF12 UBTF=UBTF USF1=USF1 USF2=USF2 ZC3H11A=ZC3H11A ZKSCAN1=ZKSCAN1 ZMIZ1=ZMIZ1 ZNF384=ZNF384 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq RNA-seq=RNA-seq 
 subGroup3 view view ENCSR000ADI=ENCSR000ADI ENCSR000CFL=ENCSR000CFL ENCSR000CGH=ENCSR000CGH ENCSR000CGI=ENCSR000CGI ENCSR000CGJ=ENCSR000CGJ ENCSR000CGK=ENCSR000CGK ENCSR000CGL=ENCSR000CGL ENCSR000CGM=ENCSR000CGM ENCSR000DHO=ENCSR000DHO ENCSR000DHQ=ENCSR000DHQ ENCSR000DHU=ENCSR000DHU ENCSR000DHW=ENCSR000DHW ENCSR000DHY=ENCSR000DHY ENCSR000DIH=ENCSR000DIH ENCSR000DIU=ENCSR000DIU ENCSR000EQO=ENCSR000EQO ENCSR000EQP=ENCSR000EQP ENCSR000EQQ=ENCSR000EQQ ENCSR000EQR=ENCSR000EQR ENCSR000EQS=ENCSR000EQS ENCSR000EQT=ENCSR000EQT ENCSR000EQU=ENCSR000EQU ENCSR000EQV=ENCSR000EQV ENCSR000EQW=ENCSR000EQW ENCSR000EQX=ENCSR000EQX ENCSR000EQY=ENCSR000EQY ENCSR000EQZ=ENCSR000EQZ ENCSR000ERA=ENCSR000ERA ENCSR000ERB=ENCSR000ERB ENCSR000ERC=ENCSR000ERC ENCSR000ERD=ENCSR000ERD ENCSR000ERE=ENCSR000ERE ENCSR000ERF=ENCSR000ERF ENCSR000ERG=ENCSR000ERG ENCSR000ERI=ENCSR000ERI ENCSR000ERJ=ENCSR000ERJ ENCSR000ERK=ENCSR000ERK ENCSR000ERL=ENCSR000ERL ENCSR000ERM=ENCSR000ERM ENCSR000ERN=ENCSR000ERN ENCSR000ERO=ENCSR000ERO ENCSR000ERP=ENCSR000ERP ENCSR000ERQ=ENCSR000ERQ ENCSR000ERR=ENCSR000ERR ENCSR000ERU=ENCSR000ERU ENCSR293WTN=ENCSR293WTN ENCSR743ZJL=ENCSR743ZJL ENCSR806JZK=ENCSR806JZK ENCSR906QEK=ENCSR906QEK ENCSR973SOG=ENCSR973SOG ENCSR980YXJ=ENCSR980YXJ bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -19457,11 +19457,11 @@ longLabel C2C12 (12 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO321TZV=ENCDO321TZV 
-subGroup2 age age aunknown=unknown 
+subGroup1 label label CEBPB=CEBPB CTCF=CTCF H3K27me3=H3K27me3 H3K36me3=H3K36me3 H3K4me3=H3K4me3 H3K79me2=H3K79me2 H3K79me3=H3K79me3 H3ac=H3ac MAX=MAX MYOD1=MYOD1 USF1=USF1 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq RNA-seq=RNA-seq 
 subGroup3 view view ENCSR000AHL=ENCSR000AHL ENCSR000AHO=ENCSR000AHO ENCSR000AHP=ENCSR000AHP ENCSR000AHQ=ENCSR000AHQ ENCSR000AHR=ENCSR000AHR ENCSR000AHW=ENCSR000AHW ENCSR000AIG=ENCSR000AIG ENCSR000AIJ=ENCSR000AIJ ENCSR000AIO=ENCSR000AIO ENCSR000AIQ=ENCSR000AIQ ENCSR000AIV=ENCSR000AIV bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -19876,11 +19876,11 @@ longLabel MEL cell line (70 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO073AAA=ENCDO073AAA 
-subGroup2 age age aunknown=unknown aunknown_week=unknown&#32;week 
+subGroup1 label label BHLHE40=BHLHE40 CHD1=CHD1 CHD2=CHD2 CTCF=CTCF E2F4=E2F4 ELF1=ELF1 EP300=EP300 ETS1=ETS1 GABPA=GABPA GATA1=GATA1 H3K27ac=H3K27ac H3K27me3=H3K27me3 H3K36me3=H3K36me3 H3K4me1=H3K4me1 H3K4me3=H3K4me3 H3K79me2=H3K79me2 H3K9ac=H3K9ac H3K9me3=H3K9me3 HCFC1=HCFC1 JUND=JUND KAT2A=KAT2A MAFK=MAFK MAX=MAX MAZ=MAZ MXI1=MXI1 MYB=MYB MYC=MYC NELFE=NELFE NRF1=NRF1 POLR2A=POLR2A RAD21=RAD21 RCOR1=RCOR1 SIN3A=SIN3A SMC3=SMC3 TAL1=TAL1 TBP=TBP TCF12=TCF12 UBTF=UBTF USF1=USF1 USF2=USF2 ZC3H11A=ZC3H11A ZKSCAN1=ZKSCAN1 ZMIZ1=ZMIZ1 ZNF384=ZNF384 unknown=unknown 
+subGroup2 assay assay ChIP-seq=ChIP-seq DNase-seq=DNase-seq RNA-seq=RNA-seq 
 subGroup3 view view ENCSR000ADP=ENCSR000ADP ENCSR000ADQ=ENCSR000ADQ ENCSR000ADR=ENCSR000ADR ENCSR000ADT=ENCSR000ADT ENCSR000ADW=ENCSR000ADW ENCSR000ADX=ENCSR000ADX ENCSR000ADY=ENCSR000ADY ENCSR000AEA=ENCSR000AEA ENCSR000AEB=ENCSR000AEB ENCSR000CER=ENCSR000CER ENCSR000CES=ENCSR000CES ENCSR000CET=ENCSR000CET ENCSR000CEU=ENCSR000CEU ENCSR000CEV=ENCSR000CEV ENCSR000CEW=ENCSR000CEW ENCSR000CEX=ENCSR000CEX ENCSR000CFH=ENCSR000CFH ENCSR000CFI=ENCSR000CFI ENCSR000DIA=ENCSR000DIA ENCSR000DIP=ENCSR000DIP ENCSR000ESD=ENCSR000ESD ENCSR000ESE=ENCSR000ESE ENCSR000ESF=ENCSR000ESF ENCSR000ESG=ENCSR000ESG ENCSR000ESH=ENCSR000ESH ENCSR000ESI=ENCSR000ESI ENCSR000ESJ=ENCSR000ESJ ENCSR000ESK=ENCSR000ESK ENCSR000ESL=ENCSR000ESL ENCSR000ESM=ENCSR000ESM ENCSR000ESN=ENCSR000ESN ENCSR000ESX=ENCSR000ESX ENCSR000ESY=ENCSR000ESY ENCSR000ETA=ENCSR000ETA ENCSR000ETB=ENCSR000ETB ENCSR000ETC=ENCSR000ETC ENCSR000ETE=ENCSR000ETE ENCSR000ETF=ENCSR000ETF ENCSR000ETG=ENCSR000ETG ENCSR000ETK=ENCSR000ETK ENCSR000ETL=ENCSR000ETL ENCSR000ETN=ENCSR000ETN ENCSR000ETO=ENCSR000ETO ENCSR000ETP=ENCSR000ETP ENCSR000ETQ=ENCSR000ETQ ENCSR000ETR=ENCSR000ETR ENCSR000ETS=ENCSR000ETS ENCSR000ETT=ENCSR000ETT ENCSR000ETU=ENCSR000ETU ENCSR000ETV=ENCSR000ETV ENCSR000ETW=ENCSR000ETW ENCSR000ETX=ENCSR000ETX ENCSR000ETY=ENCSR000ETY ENCSR000ETZ=ENCSR000ETZ ENCSR000EUA=ENCSR000EUA ENCSR000EUB=ENCSR000EUB ENCSR000EUC=ENCSR000EUC ENCSR000EUG=ENCSR000EUG ENCSR033OWC=ENCSR033OWC ENCSR135SWH=ENCSR135SWH ENCSR349JDH=ENCSR349JDH ENCSR372SMH=ENCSR372SMH ENCSR446MUM=ENCSR446MUM ENCSR705HGT=ENCSR705HGT ENCSR972MRN=ENCSR972MRN bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -22492,11 +22492,11 @@ longLabel Patski (1 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO350LAJ=ENCDO350LAJ 
-subGroup2 age age aunknown=unknown 
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
 subGroup3 view view ENCSR000CNT=ENCSR000CNT bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -22559,11 +22559,11 @@ longLabel MN1 (2 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO956IXV=ENCDO956IXV 
-subGroup2 age age aunknown=unknown 
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
 subGroup3 view view ENCSR732IZK=ENCSR732IZK ENCSR898KAX=ENCSR898KAX bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -22674,11 +22674,11 @@ longLabel C3H10T1/2 (2 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO321TZV=ENCDO321TZV 
-subGroup2 age age aunknown=unknown 
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay RNA-seq=RNA-seq 
 subGroup3 view view bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -22723,11 +22723,11 @@ longLabel 3T3-L1 (1 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO072AAA=ENCDO072AAA 
-subGroup2 age age aunknown=unknown 
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
 subGroup3 view view ENCSR687EAW=ENCSR687EAW bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on
@@ -22790,11 +22790,11 @@ longLabel MEL-GATA-1-ER (1 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
-subGroup1 donor donor ENCDO073AAA=ENCDO073AAA 
-subGroup2 age age aunknown=unknown 
+subGroup1 label label unknown=unknown 
+subGroup2 assay assay DNase-seq=DNase-seq 
 subGroup3 view view ENCSR000CNP=ENCSR000CNP bigWig=bigWig 
-sortOrder donor=+ age=+ view=+
-dimensions dimX=age dimY=donor
+sortOrder label=+ assay=+ view=+
+dimensions dimX=assay dimY=label
 dragAndDrop subTracks
 hoverMetadata on
 darkerLabels on

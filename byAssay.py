@@ -149,7 +149,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
         subGroupsDict[k] = {a[0]:a[1] for a in subGroups[k]}
     longLabel = assay_term_name + '_' + biosample_type + " (%s experiments)" % len(exps)
 
-    if "immortalized_cell_line" == bt:
+    if "cell_line" == bt:
         subGroup1key = "label"
         subGroup2key = "assay"
     else:
