@@ -43,10 +43,14 @@ class TrackhubDbByAssay:
 
         self.expsByAssay= [("Chromatin Accessibility", "chromatin_accessibility",
                             self.mw.dnases_useful),
-                           ("Transcription Factors", "transcription_factors",
-                            self.mw.chipseq_tfs_useful),
                            ("Histone Modifications", "histone_modifications",
-                            self.mw.chipseq_histones_useful)]
+                            self.mw.chipseq_histones_useful),
+                           ("Transcription", "transcription",
+                            self.mw.transcription_useful),
+                           ("Transcription Factors", "transcription_factors",
+                            self.mw.chipseq_tfs_useful)
+        ]
+
 
         # assay x biosamepleType x biosamplesView
 
