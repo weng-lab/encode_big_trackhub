@@ -17,6 +17,7 @@ import helpers.helpers as Helpers
 from paths import Host, BaseWwwDir, BaseWwwTmpDir
 from byBiosampleType import TrackhubDbBiosampleType
 from byAssay import TrackhubDbByAssay
+from byCcREs import TrackhubDbByCcREs
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../metadata/utils'))
 from files_and_paths import Dirs, Urls, Datasets
@@ -36,14 +37,21 @@ class MegaTrackHub:
     def run(self):
         self._makeHub()
 
-        if 1:
+        self.byBiosampleTypeOutput = ""
+        if 0:
             self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly,
                                                            self.globalData, self.mw)
             self.byBiosampleTypeOutput = self.byBiosampleType.run()
 
-        if 1:
+        self.byAssayOutput = ""
+        if 0:
             self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
             self.byAssayOutput = self.byAssay.run()
+
+        self.byCcREsOutput = ""
+        if 1:
+            self.byCcREs = TrackhubDbByCcREs(self.args, self.assembly, self.globalData, self.mw)
+            self.byCcREsOutput = self.byCcREs.run()
 
         self.makeMainTrackDb()
 
@@ -53,6 +61,7 @@ class MegaTrackHub:
         with open(fnp, 'w') as f:
             f.write(self.byAssayOutput)
             f.write(self.byBiosampleTypeOutput)
+            f.write(self.byCcREsOutput)
         printWroteNumLines(fnp)
 
     def _makeHub(self):
