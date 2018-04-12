@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    www:
+      image: nginx:1.13-alpine
+      volumes:
+        - ./www:/usr/share/nginx/html
+      labels:
+        - traefik.backend=whoami
+        - traefik.frontend.rule=PathPrefixStrip:/
+        - traefik.port=80
+        - traefik.enable=true
+
+    traefik:
+      image: traefik
+      command: -c /dev/null --api --docker --docker.domain=docker.localhost #--logLevel=DEBUG
+      volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
+      ports:
+        - 80:80
