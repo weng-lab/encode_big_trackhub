@@ -152,7 +152,7 @@ class BigBedTrack(object):
 
     def _init(self):
         p = OrderedDict()
-        p["track"] = Helpers.sanitize(self.f.expID + '_' + self.f.fileID)
+        p["track"] = self.parent.initials() + Helpers.sanitize(self.f.expID + '_' + self.f.fileID)
         p["parent"] = self.parent.param(self.parent.on)
         p["subGroups"] = Helpers.unrollEquals(self._subgroups())
         p["bigDataUrl"] = self._url()
@@ -239,7 +239,7 @@ class cRETrack(object):
 
     def _init(self):
         p = OrderedDict()
-        p["track"] = Helpers.sanitize(self.exp.encodeID + '_' + self.cREaccession)
+        p["track"] = self.parent.initials() + Helpers.sanitize(self.exp.encodeID + '_' + self.cREaccession)
         p["parent"] = self.parent.param(self.parent.on)
         p["subGroups"] = Helpers.unrollEquals(self._subgroups())
         p["bigDataUrl"] = self._url()
