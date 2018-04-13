@@ -65,6 +65,8 @@ class MockExp:
         self.age_display = ""
         self.donor_sex = ""
         self.description = eInfo["cellTypeDesc"]
+        self.biosample_summary = eInfo["biosample_summary"]
+        self.biosample_term_name = eInfo["cellTypeDesc"]
 
     def isRnaSeqLike(self):
         return self.assay == "RNA-seq"
@@ -229,24 +231,25 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
         subGroupsDict[k] = {a[0]:a[1] for a in subGroups[k]}
     longLabel = assay_term_name + '_' + biosample_type + " (%s experiments)" % len(exps)
 
-    if "cell_line" == bt:
-        subGroup1key = "label"
-        subGroup2key = "assay"
-    else:
-        subGroup1key = "donor"
-        subGroup2key = "age"
+    if 0:
+        for k, v in subGroupsDict.iteritems():
+            print(k, v)
+
+    subGroup1key = "biosample"
+    subGroup2key = "assay"
     subGroup3key = "view"
     subGroup1 = Helpers.unrollEquals(subGroupsDict[subGroup1key])
     subGroup2 = Helpers.unrollEquals(subGroupsDict[subGroup2key])
     subGroup3 = Helpers.unrollEquals(subGroupsDict[subGroup3key])
 
     actives = []
-    # for expID in expIDs:
-    #     if expID in lookupByExp:
-    #         actives.append(lookupByExp[expID].isActive())
+    for exp in exps:
+        expID = exp.expID
+        if expID in lookupByExp:
+            actives.append(lookupByExp[expID].isActive())
     isActive = any(t for t in actives)
-    # if isActive:
-    #     print("active biosample (composite):", btn)
+    if isActive:
+        print("active biosample (composite):", bt)
 
     with open(fnp) as f:
         subtracks = f.read()
