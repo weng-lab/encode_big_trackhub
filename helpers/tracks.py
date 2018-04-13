@@ -98,22 +98,29 @@ class BigWigTrack(object):
         assay = self.exp.assay_term_name
         if "RNA-seq" == assay:
             assay = self.exp.assay_title
+        target_label = ' '.join([self.exp.assay_term_name, self.exp.target, self.exp.label]).strip()
         s = {}
         s["donor"] = Helpers.getOrUnknown(self.exp.donor_id)
         s["assay"] = Helpers.getOrUnknown(assay)
         s["label"] = Helpers.getOrUnknown(self.exp.tf)
+        s["target_label"] = Helpers.getOrUnknown(target_label)
         s["biosample"] = Helpers.getOrUnknown(self.exp.biosample_term_name)
+        s["biosample_summary"] = Helpers.getOrUnknown(self.exp.biosample_summary).encode('ascii', 'ignore').decode('ascii')
         s["age"] = 'a' + Helpers.sanitize(Helpers.getOrUnknown(self.exp.age_display))
+        s["sex"] = Helpers.getOrUnknown(self.exp.donor_sex)
         s["view"] = self.view
         self.presentation = {}
         self.presentation["label"] = (s["label"],
                                    Helpers.html_escape(Helpers.getOrUnknown(self.exp.tf)))
         self.presentation["assay"] = (s["assay"], s["assay"])
         self.presentation["donor"] = (s["donor"], s["donor"])
+        self.presentation["target_label"] = (s["target_label"], s["target_label"])
         self.presentation["age"] = (s["age"],
                                     Helpers.html_escape(Helpers.getOrUnknown(self.exp.age_display)))
         self.presentation["view"] = (s["view"], s["view"])
+        self.presentation["sex"] = (s["sex"], s["sex"])
         self.presentation["biosample"] = (s["biosample"], s["biosample"])
+        self.presentation["biosample_summary"] = (s["biosample_summary"], s["biosample_summary"])
         return s
 
     def _url(self):
@@ -210,22 +217,29 @@ class BigBedTrack(object):
         assay = self.exp.assay_term_name
         if "RNA-seq" == assay:
             assay = self.exp.assay_title
+        target_label = ' '.join([self.exp.assay_term_name, self.exp.target, self.exp.label]).strip()
         s = {}
         s["donor"] = Helpers.getOrUnknown(self.exp.donor_id)
         s["assay"] = Helpers.getOrUnknown(assay)
         s["label"] = Helpers.getOrUnknown(self.exp.tf)
+        s["target_label"] = Helpers.getOrUnknown(target_label)
         s["biosample"] = Helpers.getOrUnknown(self.exp.biosample_term_name)
+        s["biosample_summary"] = Helpers.getOrUnknown(self.exp.biosample_summary).encode('ascii', 'ignore').decode('ascii')
         s["age"] = 'a' + Helpers.sanitize(Helpers.getOrUnknown(self.exp.age_display))
+        s["sex"] = Helpers.getOrUnknown(self.exp.donor_sex)
         s["view"] = self.exp.encodeID
         self.presentation = {}
         self.presentation["label"] = (s["label"],
                                    Helpers.html_escape(Helpers.getOrUnknown(self.exp.tf)))
         self.presentation["assay"] = (s["assay"], s["assay"])
+        self.presentation["target_label"] = (s["target_label"], s["target_label"])
         self.presentation["donor"] = (s["donor"], s["donor"])
         self.presentation["age"] = (s["age"],
                                     Helpers.html_escape(Helpers.getOrUnknown(self.exp.age_display)))
         self.presentation["view"] = (s["view"], s["view"])
+        self.presentation["sex"] = (s["sex"], s["sex"])
         self.presentation["biosample"] = (s["biosample"], s["biosample"])
+        self.presentation["biosample_summary"] = (s["biosample_summary"], s["biosample_summary"])
         return s
 
     def lines(self, idx):

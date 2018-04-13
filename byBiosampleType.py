@@ -71,9 +71,11 @@ class TrackhubDbBiosampleType:
                 btid = info["cellTypeName"]
                 btname = info["cellTypeDesc"]
                 expID = info["expID"]
-                cREs = creBigBeds.get(btid, {})
-                if not cREs:
-                    print("missing cREs for", btid)
+                cREs = {}
+                if 0:
+                    cREs = creBigBeds.get(btid, {})
+                    if not cREs:
+                        print("missing cREs for", btid)
                 self.lookupByExp[expID] = LookupActive(btid, btname, info, cREs)
         print(len(self.lookupByExp))
 
@@ -153,10 +155,10 @@ def outputCompositeTrackByBiosampleType(assembly, bt, btn, expIDs, fnp, idx, tot
     longLabel = biosample_term_name + " (%s experiments)" % len(expIDs)
 
     if "cell_line" == bt:
-        subGroup1key = "label"
-        subGroup2key = "assay"
+        subGroup1key = "target_label"
+        subGroup2key = "biosample_summary"
     else:
-        subGroup1key = "donor"
+        subGroup1key = "sex"
         subGroup2key = "age"
     subGroup3key = "view"
     subGroup1 = Helpers.unrollEquals(subGroupsDict[subGroup1key])

@@ -27,7 +27,8 @@ AssayColors = {"DNase": ["6,218,147", "#06DA93"],
                "TF ChIP-seq": ["18,98,235", "#1262EB"],
                "CTCF": ["0,176,240", "#00B0F0"]}
 
-SubGroupKeys = ["age", "donor", "label", "assay", "view", "biosample"]
+SubGroupKeys = ["age", "donor", "label", "assay", "view", "biosample", "sex", "target_label",
+                "biosample_summary"]
 
 
 def viz(state, active):
