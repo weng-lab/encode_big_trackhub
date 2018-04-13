@@ -158,8 +158,8 @@ def outputCompositeTrackByBiosampleType(assembly, bt, btn, expIDs, fnp, idx, tot
         subGroup1key = "target_label"
         subGroup2key = "biosample_summary"
     else:
-        subGroup1key = "sex"
-        subGroup2key = "age"
+        subGroup1key = "target_label"
+        subGroup2key = "age_sex"
     subGroup3key = "view"
     subGroup1 = Helpers.unrollEquals(subGroupsDict[subGroup1key])
     subGroup2 = Helpers.unrollEquals(subGroupsDict[subGroup2key])

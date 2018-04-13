@@ -108,6 +108,8 @@ class BigWigTrack(object):
         s["biosample_summary"] = Helpers.getOrUnknown(self.exp.biosample_summary).encode('ascii', 'ignore').decode('ascii')
         s["age"] = 'a' + Helpers.sanitize(Helpers.getOrUnknown(self.exp.age_display))
         s["sex"] = Helpers.getOrUnknown(self.exp.donor_sex)
+        age_sex = ' '.join([e for e in [self.exp.age_display, self.exp.donor_sex] if e]).strip()
+        s["age_sex"] = Helpers.getOrUnknown(age_sex)
         s["view"] = self.view
         self.presentation = {}
         self.presentation["label"] = (s["label"],
@@ -119,6 +121,7 @@ class BigWigTrack(object):
                                     Helpers.html_escape(Helpers.getOrUnknown(self.exp.age_display)))
         self.presentation["view"] = (s["view"], s["view"])
         self.presentation["sex"] = (s["sex"], s["sex"])
+        self.presentation["age_sex"] = (s["age_sex"], s["age_sex"])
         self.presentation["biosample"] = (s["biosample"], s["biosample"])
         self.presentation["biosample_summary"] = (s["biosample_summary"], s["biosample_summary"])
         return s
@@ -227,6 +230,8 @@ class BigBedTrack(object):
         s["biosample_summary"] = Helpers.getOrUnknown(self.exp.biosample_summary).encode('ascii', 'ignore').decode('ascii')
         s["age"] = 'a' + Helpers.sanitize(Helpers.getOrUnknown(self.exp.age_display))
         s["sex"] = Helpers.getOrUnknown(self.exp.donor_sex)
+        age_sex = ' '.join([e for e in [self.exp.age_display, self.exp.donor_sex] if e]).strip()
+        s["age_sex"] = Helpers.getOrUnknown(age_sex)
         s["view"] = self.exp.encodeID
         self.presentation = {}
         self.presentation["label"] = (s["label"],
@@ -238,6 +243,7 @@ class BigBedTrack(object):
                                     Helpers.html_escape(Helpers.getOrUnknown(self.exp.age_display)))
         self.presentation["view"] = (s["view"], s["view"])
         self.presentation["sex"] = (s["sex"], s["sex"])
+        self.presentation["age_sex"] = (s["age_sex"], s["age_sex"])
         self.presentation["biosample"] = (s["biosample"], s["biosample"])
         self.presentation["biosample_summary"] = (s["biosample_summary"], s["biosample_summary"])
         return s
@@ -314,6 +320,10 @@ class cRETrack(object):
                                     Helpers.html_escape(Helpers.getOrUnknown(self.exp.age_display)))
         self.presentation["view"] = (s["view"], s["view"])
         self.presentation["biosample"] = (s["biosample"], s["biosample"])
+        self.presentation["sex"] = ('', '')
+        self.presentation["age_sex"] = ('', '')
+        self.presentation["target_label"] = (s["assay"], s["assay"])
+        self.presentation["biosample_summary"] = (s["biosample"], s["biosample"])
         return s
 
     def lines(self, idx):

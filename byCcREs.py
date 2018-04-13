@@ -62,6 +62,7 @@ class MockExp:
         self.donor_id = self.encodeID
         self.tf = self.assay
         self.label = self.assay
+        self.target = self.assay
         self.age_display = ""
         self.donor_sex = ""
         self.description = eInfo["cellTypeDesc"]

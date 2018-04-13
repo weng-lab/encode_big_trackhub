@@ -1,7 +1,7 @@
 
 hub ENCODE
-shortLabel ENCODE Trackhub Test4
-longLabel ENCODE Trackhub Test4
+shortLabel ENCODE Trackhub Test5
+longLabel ENCODE Trackhub Test5
 genomesFile genomes.txt
 email zhiping.weng@umassmed.edu
 descriptionUrl http://encodeproject.org/

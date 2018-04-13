@@ -44,12 +44,12 @@ class MegaTrackHub:
             self.byBiosampleTypeOutput = self.byBiosampleType.run()
 
         self.byAssayOutput = ""
-        if 0:
+        if 1:
             self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
             self.byAssayOutput = self.byAssay.run()
 
         self.byCcREsOutput = ""
-        if 0:
+        if 1:
             self.byCcREs = TrackhubDbByCcREs(self.args, self.assembly, self.globalData, self.mw)
             self.byCcREsOutput = self.byCcREs.run()
 
