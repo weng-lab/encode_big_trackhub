@@ -149,8 +149,19 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
         subGroupsDict[k] = {a[0]:a[1] for a in subGroups[k]}
     longLabel = assay_term_name + '_' + biosample_type + " (%s experiments)" % len(exps)
 
-    if "cell_line" == bt:
-        subGroup1key = "label"
+    print(subGroupsDict["assay"])
+
+    if "chromatin_accessibility" == atn:
+        subGroup1key = "biosample"
+        subGroup2key = "age"
+    elif "histone_modifications" == atn:
+        subGroup1key = "biosample"
+        subGroup2key = "label"
+    elif "transcription_factors" == atn:
+        subGroup1key = "biosample"
+        subGroup2key = "label"
+    elif "transcription" == atn:
+        subGroup1key = "biosample"
         subGroup2key = "assay"
     else:
         subGroup1key = "donor"
@@ -160,6 +171,9 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
     subGroup2 = Helpers.unrollEquals(subGroupsDict[subGroup2key])
     subGroup3 = Helpers.unrollEquals(subGroupsDict[subGroup3key])
 
+    with open(fnp) as f:
+        subtracks = f.read()
+
     actives = []
     # for expID in expIDs:
     #     if expID in lookupByExp:
@@ -167,9 +181,6 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
     isActive = any(t for t in actives)
     # if isActive:
     #     print("active biosample (composite):", btn)
-
-    with open(fnp) as f:
-        subtracks = f.read()
 
     with open(fnp, 'w') as f:
         f.write("""

@@ -95,9 +95,12 @@ class BigWigTrack(object):
         return s
 
     def _subgroups(self):
+        assay = self.exp.assay_term_name
+        if "RNA-seq" == assay:
+            assay = self.exp.assay_title
         s = {}
         s["donor"] = Helpers.getOrUnknown(self.exp.donor_id)
-        s["assay"] = Helpers.getOrUnknown(self.exp.assay_term_name)
+        s["assay"] = Helpers.getOrUnknown(assay)
         s["label"] = Helpers.getOrUnknown(self.exp.tf)
         s["biosample"] = Helpers.getOrUnknown(self.exp.biosample_term_name)
         s["age"] = 'a' + Helpers.sanitize(Helpers.getOrUnknown(self.exp.age_display))
@@ -204,9 +207,12 @@ class BigBedTrack(object):
         return s
 
     def _subgroups(self):
+        assay = self.exp.assay_term_name
+        if "RNA-seq" == assay:
+            assay = self.exp.assay_title
         s = {}
         s["donor"] = Helpers.getOrUnknown(self.exp.donor_id)
-        s["assay"] = Helpers.getOrUnknown(self.exp.assay_term_name)
+        s["assay"] = Helpers.getOrUnknown(assay)
         s["label"] = Helpers.getOrUnknown(self.exp.tf)
         s["biosample"] = Helpers.getOrUnknown(self.exp.biosample_term_name)
         s["age"] = 'a' + Helpers.sanitize(Helpers.getOrUnknown(self.exp.age_display))
