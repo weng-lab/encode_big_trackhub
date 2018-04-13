@@ -42,7 +42,7 @@ def unrollEquals(sUnsorted):
     r = ''
     s = OrderedDict(sorted(sUnsorted.items()))
     for k, v in s.iteritems():
-        r += k + '=' + v + ' '
+        r += k.replace(' ', '_') + '=' + v.replace(' ', '_') + ' '
     return r
 
 def getOrUnknown(s):
