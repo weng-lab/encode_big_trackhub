@@ -38,18 +38,18 @@ class MegaTrackHub:
         self._makeHub()
 
         self.byBiosampleTypeOutput = ""
-        if 1:
+        if self.args.biosample:
             self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly,
                                                            self.globalData, self.mw)
             self.byBiosampleTypeOutput = self.byBiosampleType.run()
 
         self.byAssayOutput = ""
-        if 1:
+        if self.args.assay:
             self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
             self.byAssayOutput = self.byAssay.run()
 
         self.byCcREsOutput = ""
-        if 1:
+        if self.args.ccREs:
             self.byCcREs = TrackhubDbByCcREs(self.args, self.assembly, self.globalData, self.mw)
             self.byCcREsOutput = self.byCcREs.run()
 
@@ -93,6 +93,22 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-j', type=int, default=4)
     parser.add_argument("--assembly", type=str, default="")
+
+    assay_parser = parser.add_mutually_exclusive_group(required=False)
+    assay_parser.add_argument('--assay', dest='assay', action='store_true')
+    assay_parser.add_argument('--no-assay', dest='assay', action='store_false')
+    parser.set_defaults(assay=True)
+
+    biosample_parser = parser.add_mutually_exclusive_group(required=False)
+    biosample_parser.add_argument('--biosample', dest='biosample', action='store_true')
+    biosample_parser.add_argument('--no-biosample', dest='biosample', action='store_false')
+    parser.set_defaults(biosample=True)
+
+    ccREs_parser = parser.add_mutually_exclusive_group(required=False)
+    ccREs_parser.add_argument('--ccREs', dest='ccREs', action='store_true')
+    ccREs_parser.add_argument('--no-ccREs', dest='ccREs', action='store_false')
+    parser.set_defaults(ccREs=True)
+
     return parser.parse_args()
 
 

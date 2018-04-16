@@ -346,7 +346,7 @@ class CompositeExpTrack(object):
 
         ret = []
         if not files:
-            eprint(expID)
+            eprint("missing bigwig for", expID)
         else:
             for f in files:
                 t = BigWigTrack(self.assembly, exp, f, self.parent, active)
@@ -358,7 +358,7 @@ class CompositeExpTrack(object):
         expID = exp.encodeID
 
         if not files:
-            eprint(expID)
+            eprint("missing bed for", expID)
             #raise Exception("expected a file...", exp)
             return []
         ret = []
