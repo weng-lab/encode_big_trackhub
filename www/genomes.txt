@@ -1,6 +1,8 @@
 
 genome hg19
 trackDb hg19/trackDb.txt
+defaultPos chr12:47385000-47415000
 
 genome mm10
 trackDb mm10/trackDb.txt
+defaultPos 

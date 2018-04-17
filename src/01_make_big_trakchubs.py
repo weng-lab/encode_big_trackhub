@@ -19,6 +19,7 @@ from byBiosampleType import TrackhubDbBiosampleType
 from byAssayByBiosampleType import TrackhubDbByAssayByBiosampleType
 from byAssayByFactor import TrackhubDbByAssayByFactor
 from byCcREs import TrackhubDbByCcREs
+from byOrganSlim import TrackhubDbByOrganSlim
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../../metadata/utils'))
 from files_and_paths import Dirs, Urls, Datasets
@@ -37,6 +38,11 @@ class MegaTrackHub:
 
     def run(self):
         self._makeHub()
+
+        self.byOrganSlimOutput = ""
+        if self.args.organSlim:
+            self.byOrganSlimOutput = TrackhubDbByOrganSlim(self.args, self.assembly,
+                                                           self.globalData, self.mw).run()
 
         self.byAssayByFactorOutput = ""
         if self.args.factor:
@@ -68,6 +74,7 @@ class MegaTrackHub:
             f.write(self.byBiosampleTypeOutput)
             f.write(self.byCcREsOutput)
             f.write(self.byAssayByFactorOutput)
+            f.write(self.byOrganSlimOutput)
         printWroteNumLines(fnp)
 
     def _makeHub(self):
@@ -85,12 +92,20 @@ descriptionUrl http://encodeproject.org/
 
 def outputGenomes(assemblies):
     fnp = os.path.join(BaseWwwDir, 'genomes.txt')
+
+    defaultPoses = {"hg19": "chr12:47385000-47415000",
+                    "mm10": ""}
+
     with open(fnp, 'w') as f:
         for assembly in assemblies:
+            defaultPos = defaultPoses.get(assembly, "")
+
             f.write("""
 genome {assembly}
 trackDb {assembly}/trackDb.txt
-""".format(assembly = assembly))
+defaultPos {defaultPos}
+""".format(assembly = assembly,
+           defaultPos = defaultPos))
     printWroteNumLines(fnp)
 
 
@@ -119,6 +134,11 @@ def parse_args():
     factor_parser.add_argument('--factor', dest='factor', action='store_true')
     factor_parser.add_argument('--no-factor', dest='factor', action='store_false')
     parser.set_defaults(factor=True)
+
+    organSlim_parser = parser.add_mutually_exclusive_group(required=False)
+    organSlim_parser.add_argument('--organSlim', dest='organSlim', action='store_true')
+    organSlim_parser.add_argument('--no-organSlim', dest='organSlim', action='store_false')
+    parser.set_defaults(organSlim=True)
 
     return parser.parse_args()
 
