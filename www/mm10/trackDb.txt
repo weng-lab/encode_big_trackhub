@@ -2,35 +2,35 @@
 track super_chromatin_accessibility
 superTrack on show
 priority 1
-shortLabel Chromatin Accessi
-longLabel Chromatin Accessibility (76 experiments)
+shortLabel DNase
+longLabel DNase (76 experiments)
 
 
 track super_histone_modifications
 superTrack on show
 priority 2
-shortLabel Histone Modificat
-longLabel Histone Modifications (702 experiments)
+shortLabel Histone
+longLabel Histone (702 experiments)
 
 
 track super_transcription_factors
 superTrack on show
 priority 3
-shortLabel Transcription Fac
-longLabel Transcription Factors (157 experiments)
+shortLabel TFs by Biosample Type
+longLabel TFs by Biosample Type (157 experiments)
 
 
 track super_transcription
 superTrack on show
 priority 4
-shortLabel Transcription
-longLabel Transcription (196 experiments)
+shortLabel RNA-seq
+longLabel RNA-seq (196 experiments)
 
 track chromatin_accessibility_cell_line
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel cell line
-longLabel Chromatin Accessibility_cell line (7 experiments)
+longLabel cell line (7 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -154,7 +154,7 @@ track chromatin_accessibility_in_vitro_differentiated_cells
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel in vitro differen
-longLabel Chromatin Accessibility_in vitro differentiated cells (4 experiments)
+longLabel in vitro differentiated cells (4 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -233,7 +233,7 @@ track chromatin_accessibility_stem_cell
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel stem cell
-longLabel Chromatin Accessibility_stem cell (4 experiments)
+longLabel stem cell (4 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -312,7 +312,7 @@ track chromatin_accessibility_tissue
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel tissue
-longLabel Chromatin Accessibility_tissue (55 experiments)
+longLabel tissue (55 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -1156,7 +1156,7 @@ track chromatin_accessibility_primary_cell
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel primary cell
-longLabel Chromatin Accessibility_primary cell (6 experiments)
+longLabel primary cell (6 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -1265,7 +1265,7 @@ track histone_modifications_cell_line
 parent super_histone_modifications
 compositeTrack on
 shortLabel cell line
-longLabel Histone Modifications_cell line (36 experiments)
+longLabel cell line (36 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -1824,7 +1824,7 @@ track histone_modifications_in_vitro_differentiated_cells
 parent super_histone_modifications
 compositeTrack on
 shortLabel in vitro differen
-longLabel Histone Modifications_in vitro differentiated cells (6 experiments)
+longLabel in vitro differentiated cells (6 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -1933,7 +1933,7 @@ track histone_modifications_stem_cell
 parent super_histone_modifications
 compositeTrack on
 shortLabel stem cell
-longLabel Histone Modifications_stem cell (30 experiments)
+longLabel stem cell (30 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -2402,7 +2402,7 @@ track histone_modifications_tissue
 parent super_histone_modifications
 compositeTrack on
 shortLabel tissue
-longLabel Histone Modifications_tissue (612 experiments)
+longLabel tissue (612 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -11601,7 +11601,7 @@ track histone_modifications_primary_cell
 parent super_histone_modifications
 compositeTrack on
 shortLabel primary cell
-longLabel Histone Modifications_primary cell (18 experiments)
+longLabel primary cell (18 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -11890,7 +11890,7 @@ track transcription_factors_cell_line
 parent super_transcription_factors
 compositeTrack on
 shortLabel cell line
-longLabel Transcription Factors_cell line (89 experiments)
+longLabel cell line (89 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -13244,7 +13244,7 @@ track transcription_factors_in_vitro_differentiated_cells
 parent super_transcription_factors
 compositeTrack on
 shortLabel in vitro differen
-longLabel Transcription Factors_in vitro differentiated cells (15 experiments)
+longLabel in vitro differentiated cells (15 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -13488,7 +13488,7 @@ track transcription_factors_stem_cell
 parent super_transcription_factors
 compositeTrack on
 shortLabel stem cell
-longLabel Transcription Factors_stem cell (18 experiments)
+longLabel stem cell (18 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -13777,7 +13777,7 @@ track transcription_factors_tissue
 parent super_transcription_factors
 compositeTrack on
 shortLabel tissue
-longLabel Transcription Factors_tissue (29 experiments)
+longLabel tissue (29 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14231,7 +14231,7 @@ track transcription_factors_primary_cell
 parent super_transcription_factors
 compositeTrack on
 shortLabel primary cell
-longLabel Transcription Factors_primary cell (6 experiments)
+longLabel primary cell (6 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14340,7 +14340,7 @@ track transcription_cell_line
 parent super_transcription
 compositeTrack on
 shortLabel cell line
-longLabel Transcription_cell line (11 experiments)
+longLabel cell line (11 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14524,7 +14524,7 @@ track transcription_in_vitro_differentiated_cells
 parent super_transcription
 compositeTrack on
 shortLabel in vitro differen
-longLabel Transcription_in vitro differentiated cells (2 experiments)
+longLabel in vitro differentiated cells (2 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14573,7 +14573,7 @@ track transcription_stem_cell
 parent super_transcription
 compositeTrack on
 shortLabel stem cell
-longLabel Transcription_stem cell (18 experiments)
+longLabel stem cell (18 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14862,7 +14862,7 @@ track transcription_tissue
 parent super_transcription
 compositeTrack on
 shortLabel tissue
-longLabel Transcription_tissue (144 experiments)
+longLabel tissue (144 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -17041,7 +17041,7 @@ track transcription_primary_cell
 parent super_transcription
 compositeTrack on
 shortLabel primary cell
-longLabel Transcription_primary cell (21 experiments)
+longLabel primary cell (21 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -17374,35 +17374,35 @@ darkerLabels on
 track super_cell_line
 superTrack on show
 priority 11
-shortLabel cell line
+shortLabel Cell Line Exps
 longLabel cell line (143 experiments)
 
 
 track super_in_vitro_differentiated_cells
 superTrack on show
 priority 12
-shortLabel in vitro differen
+shortLabel in vitro Diff Cells Exps
 longLabel in vitro differentiated cells (32 experiments)
 
 
 track super_stem_cell
 superTrack on show
 priority 13
-shortLabel stem cell
+shortLabel Stem Cell Exps
 longLabel stem cell (74 experiments)
 
 
 track super_tissue
 superTrack on show
 priority 14
-shortLabel tissue
+shortLabel Tissue Exps
 longLabel tissue (1019 experiments)
 
 
 track super_primary_cell
 superTrack on show
 priority 15
-shortLabel primary cell
+shortLabel Primary Cell Exps
 longLabel primary cell (61 experiments)
 
 track cell_line_CH12_LX
@@ -57776,14 +57776,14 @@ darkerLabels on
 track super_ccres
 superTrack on show
 priority 1
-shortLabel ccREs
-longLabel ccREs (284 experiments)
+shortLabel candidate cis-Regulatory Regions
+longLabel candidate cis-Regulatory Regions (284 experiments)
 
 track ccres_in_vitro_differentiated_cells
 parent super_ccres
 compositeTrack on
 shortLabel in vitro differen
-longLabel ccREs_in vitro differentiated cells (4 experiments)
+longLabel candidate cis-Regulatory Regions_in vitro differentiated cells (4 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -57938,7 +57938,7 @@ track ccres_primary_cell
 parent super_ccres
 compositeTrack on
 shortLabel primary cell
-longLabel ccREs_primary cell (14 experiments)
+longLabel candidate cis-Regulatory Regions_primary cell (14 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -58667,7 +58667,7 @@ track ccres_immortalized_cell_line
 parent super_ccres
 compositeTrack on
 shortLabel immortalized cell
-longLabel ccREs_immortalized cell line (16 experiments)
+longLabel candidate cis-Regulatory Regions_immortalized cell line (16 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -59594,7 +59594,7 @@ track ccres_tissue
 parent super_ccres
 compositeTrack on
 shortLabel tissue
-longLabel ccREs_tissue (235 experiments)
+longLabel candidate cis-Regulatory Regions_tissue (235 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -74779,7 +74779,7 @@ track ccres_stem_cell
 parent super_ccres
 compositeTrack on
 shortLabel stem cell
-longLabel ccREs_stem cell (15 experiments)
+longLabel candidate cis-Regulatory Regions_stem cell (15 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -75691,5 +75691,3316 @@ darkerLabels on
 		darkerLabels on
 		metadata accession=ENCSR000CMX age=unknown description=ENCFF900WTQ_9state_DNase_WW6 donor=ENCSR000CMX sex=unknown view=ENCSR000CMX 
 		view ENCSR000CMX
+
+
+
+track super_tf_factors
+superTrack on show
+priority 1
+shortLabel TFs by Factor
+longLabel TFs by Factor (157 experiments)
+
+track tf_factors_JUND
+parent super_tf_factors
+compositeTrack on
+shortLabel JUND
+longLabel JUND (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERR_ENCFF544VSI
+	parent tf_factors_JUND off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=JUND sex=unknown target_label=ChIP-seq_transcription_factor_JUND view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF544VSI/@@download/ENCFF544VSI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq JUND
+	longLabel ENCSR000ERR B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERR age=unknown description=ENCSR000ERR_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETZ_ENCFF673UJE
+	parent tf_factors_JUND off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=JUND sex=unknown target_label=ChIP-seq_transcription_factor_JUND view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF673UJE/@@download/ENCFF673UJE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq JUND
+	longLabel ENCSR000ETZ DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETZ age=unknown_week description=ENCSR000ETZ_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_KAT2A
+parent super_tf_factors
+compositeTrack on
+shortLabel KAT2A
+longLabel KAT2A (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQU_ENCFF835AUM
+	parent tf_factors_KAT2A off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=KAT2A sex=unknown target_label=ChIP-seq_transcription_factor_KAT2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF835AUM/@@download/ENCFF835AUM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq KAT2A
+	longLabel ENCSR000EQU B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQU age=unknown description=ENCSR000EQU_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESM_ENCFF013LGH
+	parent tf_factors_KAT2A off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=KAT2A sex=unknown target_label=ChIP-seq_transcription_factor_KAT2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF013LGH/@@download/ENCFF013LGH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq KAT2A
+	longLabel ENCSR000ESM DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESM age=unknown_week description=ENCSR000ESM_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_NELFE
+parent super_tf_factors
+compositeTrack on
+shortLabel NELFE
+longLabel NELFE (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERD_ENCFF775LKP
+	parent tf_factors_NELFE off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=NELFE sex=unknown target_label=ChIP-seq_transcription_factor_NELFE view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF775LKP/@@download/ENCFF775LKP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NELFE
+	longLabel ENCSR000ERD B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERD age=unknown description=ENCSR000ERD_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETU_ENCFF060EGQ
+	parent tf_factors_NELFE off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=NELFE sex=unknown target_label=ChIP-seq_transcription_factor_NELFE view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF060EGQ/@@download/ENCFF060EGQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NELFE
+	longLabel ENCSR000ETU DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETU age=unknown_week description=ENCSR000ETU_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_RCOR1
+parent super_tf_factors
+compositeTrack on
+shortLabel RCOR1
+longLabel RCOR1 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQZ_ENCFF210EXT
+	parent tf_factors_RCOR1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=RCOR1 sex=unknown target_label=ChIP-seq_transcription_factor_RCOR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF210EXT/@@download/ENCFF210EXT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RCOR1
+	longLabel ENCSR000EQZ B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQZ age=unknown description=ENCSR000EQZ_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESI_ENCFF525ZGM
+	parent tf_factors_RCOR1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=RCOR1 sex=unknown target_label=ChIP-seq_transcription_factor_RCOR1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF525ZGM/@@download/ENCFF525ZGM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RCOR1
+	longLabel ENCSR000ESI DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESI age=unknown_week description=ENCSR000ESI_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MAFK
+parent super_tf_factors
+compositeTrack on
+shortLabel MAFK
+longLabel MAFK (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX ES-E14=ES-E14 MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERB_ENCFF727IMP
+	parent tf_factors_MAFK off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=MAFK sex=unknown target_label=ChIP-seq_transcription_factor_MAFK view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF727IMP/@@download/ENCFF727IMP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAFK
+	longLabel ENCSR000ERB B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERB age=unknown description=ENCSR000ERB_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESY_ENCFF369XQN
+	parent tf_factors_MAFK off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days donor=ENCDO073AAA label=MAFK sex=unknown target_label=ChIP-seq_transcription_factor_MAFK view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF369XQN/@@download/ENCFF369XQN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAFK
+	longLabel ENCSR000ESY DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days (fo
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESY age=unknown_week description=ENCSR000ESY_DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETK_ENCFF516ABO
+	parent tf_factors_MAFK off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=MAFK sex=unknown target_label=ChIP-seq_transcription_factor_MAFK view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF516ABO/@@download/ENCFF516ABO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAFK
+	longLabel ENCSR000ETK DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETK age=unknown_week description=ENCSR000ETK_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR604XDL_ENCFF738IHC
+	parent tf_factors_MAFK off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=ES-E14 biosample_summary=129_ES-E14 donor=ENCDO015AAA label=MAFK sex=unknown target_label=ChIP-seq_transcription_factor_MAFK view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF738IHC/@@download/ENCFF738IHC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAFK
+	longLabel ENCSR604XDL 129_ES_E14 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR604XDL age=unknown description=ENCSR604XDL_129_ES_E14_fold_change_over_control_ donor=ENCDO015AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_ELF1
+parent super_tf_factors
+compositeTrack on
+shortLabel ELF1
+longLabel ELF1 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR033OWC_ENCFF507ODK
+	parent tf_factors_ELF1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=ELF1 sex=unknown target_label=ChIP-seq_transcription_factor_ELF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF507ODK/@@download/ENCFF507ODK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ELF1
+	longLabel ENCSR033OWC DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR033OWC age=unknown_week description=ENCSR033OWC_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR293WTN_ENCFF600CWP
+	parent tf_factors_ELF1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=ELF1 sex=unknown target_label=ChIP-seq_transcription_factor_ELF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF600CWP/@@download/ENCFF600CWP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ELF1
+	longLabel ENCSR293WTN B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR293WTN age=unknown description=ENCSR293WTN_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_TAL1
+parent super_tf_factors
+compositeTrack on
+shortLabel TAL1
+longLabel TAL1 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample G1E=G1E G1E-ER4=G1E-ER4 MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex 0_day=0_day unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000DIA_ENCFF302RFZ
+	parent tf_factors_TAL1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=TAL1 sex=unknown target_label=ChIP-seq_transcription_factor_TAL1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF302RFZ/@@download/ENCFF302RFZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TAL1
+	longLabel ENCSR000DIA DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIA age=unknown_week description=ENCSR000DIA_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIM_ENCFF653ZIY
+	parent tf_factors_TAL1 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=G1E-ER4 biosample_summary=129_G1E-ER4_treated_with_10_nM_17-estradiol_for_24_hours donor=ENCDO089AAA label=TAL1 sex=unknown target_label=ChIP-seq_transcription_factor_TAL1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF653ZIY/@@download/ENCFF653ZIY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TAL1
+	longLabel ENCSR000DIM 129_G1E_ER4_treated_with_10_nM_17_estradiol_for_24_hours (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIM age=0_day description=ENCSR000DIM_129_G1E_ER4_treated_with_10_nM_17_estradiol_for_24_hours_fold_change_over_control_ donor=ENCDO089AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIN_ENCFF263FFV
+	parent tf_factors_TAL1 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=G1E biosample_summary=129_G1E donor=ENCDO089AAA label=TAL1 sex=unknown target_label=ChIP-seq_transcription_factor_TAL1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF263FFV/@@download/ENCFF263FFV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TAL1
+	longLabel ENCSR000DIN 129_G1E (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIN age=0_day description=ENCSR000DIN_129_G1E_fold_change_over_control_ donor=ENCDO089AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MYOG
+parent super_tf_factors
+compositeTrack on
+shortLabel MYOG
+longLabel MYOG (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIC_ENCFF059BXG
+	parent tf_factors_MYOG off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=MYOG sex=unknown target_label=ChIP-seq_transcription_factor_MYOG view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF059BXG/@@download/ENCFF059BXG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOG
+	longLabel ENCSR000AIC C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIC age=unknown description=ENCSR000AIC_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000AID_ENCFF891VZV
+	parent tf_factors_MYOG off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=MYOG sex=unknown target_label=ChIP-seq_transcription_factor_MYOG view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF891VZV/@@download/ENCFF891VZV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOG
+	longLabel ENCSR000AID C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AID age=unknown description=ENCSR000AID_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000AIW_ENCFF140UCV
+	parent tf_factors_MYOG off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=MYOG sex=unknown target_label=ChIP-seq_transcription_factor_MYOG view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF140UCV/@@download/ENCFF140UCV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOG
+	longLabel ENCSR000AIW C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIW age=unknown description=ENCSR000AIW_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_CHD1
+parent super_tf_factors
+compositeTrack on
+shortLabel CHD1
+longLabel CHD1 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQV_ENCFF217FQC
+	parent tf_factors_CHD1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=CHD1 sex=unknown target_label=ChIP-seq_transcription_factor_CHD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF217FQC/@@download/ENCFF217FQC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CHD1
+	longLabel ENCSR000EQV B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQV age=unknown description=ENCSR000EQV_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESN_ENCFF498FCD
+	parent tf_factors_CHD1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=CHD1 sex=unknown target_label=ChIP-seq_transcription_factor_CHD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF498FCD/@@download/ENCFF498FCD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CHD1
+	longLabel ENCSR000ESN DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESN age=unknown_week description=ENCSR000ESN_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_CEBPB
+parent super_tf_factors
+compositeTrack on
+shortLabel CEBPB
+longLabel CEBPB (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample C2C12=C2C12 myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIB_ENCFF096FAR
+	parent tf_factors_CEBPB off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=CEBPB sex=unknown target_label=ChIP-seq_transcription_factor_CEBPB view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF096FAR/@@download/ENCFF096FAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CEBPB
+	longLabel ENCSR000AIB C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIB age=unknown description=ENCSR000AIB_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000AIV_ENCFF674URL
+	parent tf_factors_CEBPB off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=C2C12 biosample_summary=C3H_C2C12 donor=ENCDO321TZV label=CEBPB sex=unknown target_label=ChIP-seq_transcription_factor_CEBPB view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF674URL/@@download/ENCFF674URL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CEBPB
+	longLabel ENCSR000AIV C3H_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIV age=unknown description=ENCSR000AIV_C3H_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_CHD2
+parent super_tf_factors
+compositeTrack on
+shortLabel CHD2
+longLabel CHD2 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX ES-E14=ES-E14 MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERF_ENCFF174LRE
+	parent tf_factors_CHD2 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=CHD2 sex=unknown target_label=ChIP-seq_transcription_factor_CHD2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF174LRE/@@download/ENCFF174LRE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CHD2
+	longLabel ENCSR000ERF B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERF age=unknown description=ENCSR000ERF_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETO_ENCFF623ITO
+	parent tf_factors_CHD2 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=CHD2 sex=unknown target_label=ChIP-seq_transcription_factor_CHD2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF623ITO/@@download/ENCFF623ITO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CHD2
+	longLabel ENCSR000ETO DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETO age=unknown_week description=ENCSR000ETO_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR531HWD_ENCFF064FUW
+	parent tf_factors_CHD2 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=ES-E14 biosample_summary=129_ES-E14 donor=ENCDO015AAA label=CHD2 sex=unknown target_label=ChIP-seq_transcription_factor_CHD2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF064FUW/@@download/ENCFF064FUW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CHD2
+	longLabel ENCSR531HWD 129_ES_E14 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR531HWD age=unknown description=ENCSR531HWD_129_ES_E14_fold_change_over_control_ donor=ENCDO015AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_NANOG
+parent super_tf_factors
+compositeTrack on
+shortLabel NANOG
+longLabel NANOG (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample E14TG2a4=E14TG2a4 
+subGroup2 age_sex age_sex 35_day=35_day 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR779CZG_ENCFF232UNC
+	parent tf_factors_NANOG off
+	subGroups age=a3_5_day age_sex=35_day assay=ChIP-seq biosample=E14TG2a4 biosample_summary=129_E14TG2a4 donor=ENCDO015AAA label=NANOG sex=unknown target_label=ChIP-seq_transcription_factor_NANOG view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF232UNC/@@download/ENCFF232UNC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NANOG
+	longLabel ENCSR779CZG 129_E14TG2a_4 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR779CZG age=3_5_day description=ENCSR779CZG_129_E14TG2a_4_fold_change_over_control_ donor=ENCDO015AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MYOD1
+parent super_tf_factors
+compositeTrack on
+shortLabel MYOD1
+longLabel MYOD1 (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample C2C12=C2C12 myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIG_ENCFF462ONT
+	parent tf_factors_MYOD1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=C2C12 biosample_summary=C3H_C2C12 donor=ENCDO321TZV label=MYOD1 sex=unknown target_label=ChIP-seq_transcription_factor_MYOD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF462ONT/@@download/ENCFF462ONT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOD1
+	longLabel ENCSR000AIG C3H_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIG age=unknown description=ENCSR000AIG_C3H_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000AIH_ENCFF779WLW
+	parent tf_factors_MYOD1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=MYOD1 sex=unknown target_label=ChIP-seq_transcription_factor_MYOD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF779WLW/@@download/ENCFF779WLW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOD1
+	longLabel ENCSR000AIH C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIH age=unknown description=ENCSR000AIH_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000AIR_ENCFF539PGU
+	parent tf_factors_MYOD1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=MYOD1 sex=unknown target_label=ChIP-seq_transcription_factor_MYOD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF539PGU/@@download/ENCFF539PGU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOD1
+	longLabel ENCSR000AIR C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIR age=unknown description=ENCSR000AIR_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000AIT_ENCFF122ZAR
+	parent tf_factors_MYOD1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=MYOD1 sex=unknown target_label=ChIP-seq_transcription_factor_MYOD1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF122ZAR/@@download/ENCFF122ZAR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYOD1
+	longLabel ENCSR000AIT C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIT age=unknown description=ENCSR000AIT_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_HCFC1
+parent super_tf_factors
+compositeTrack on
+shortLabel HCFC1
+longLabel HCFC1 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX ES-E14=ES-E14 MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQR_ENCFF781WYP
+	parent tf_factors_HCFC1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=HCFC1 sex=unknown target_label=ChIP-seq_transcription_factor_HCFC1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF781WYP/@@download/ENCFF781WYP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq HCFC1
+	longLabel ENCSR000EQR B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQR age=unknown description=ENCSR000EQR_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ERX_ENCFF122FYP
+	parent tf_factors_HCFC1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=ES-E14 biosample_summary=129_ES-E14 donor=ENCDO015AAA label=HCFC1 sex=unknown target_label=ChIP-seq_transcription_factor_HCFC1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF122FYP/@@download/ENCFF122FYP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq HCFC1
+	longLabel ENCSR000ERX 129_ES_E14 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERX age=unknown description=ENCSR000ERX_129_ES_E14_fold_change_over_control_ donor=ENCDO015AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESG_ENCFF707FPY
+	parent tf_factors_HCFC1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=HCFC1 sex=unknown target_label=ChIP-seq_transcription_factor_HCFC1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF707FPY/@@download/ENCFF707FPY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq HCFC1
+	longLabel ENCSR000ESG DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESG age=unknown_week description=ENCSR000ESG_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_BHLHE40
+parent super_tf_factors
+compositeTrack on
+shortLabel BHLHE40
+longLabel BHLHE40 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERC_ENCFF668KLU
+	parent tf_factors_BHLHE40 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=BHLHE40 sex=unknown target_label=ChIP-seq_transcription_factor_BHLHE40 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF668KLU/@@download/ENCFF668KLU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq BHLHE40
+	longLabel ENCSR000ERC B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERC age=unknown description=ENCSR000ERC_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESH_ENCFF252OTG
+	parent tf_factors_BHLHE40 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=BHLHE40 sex=unknown target_label=ChIP-seq_transcription_factor_BHLHE40 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF252OTG/@@download/ENCFF252OTG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq BHLHE40
+	longLabel ENCSR000ESH DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESH age=unknown_week description=ENCSR000ESH_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_SMC3
+parent super_tf_factors
+compositeTrack on
+shortLabel SMC3
+longLabel SMC3 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERG_ENCFF216JRQ
+	parent tf_factors_SMC3 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=SMC3 sex=unknown target_label=ChIP-seq_transcription_factor_SMC3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF216JRQ/@@download/ENCFF216JRQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SMC3
+	longLabel ENCSR000ERG B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERG age=unknown description=ENCSR000ERG_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETL_ENCFF034BBD
+	parent tf_factors_SMC3 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=SMC3 sex=unknown target_label=ChIP-seq_transcription_factor_SMC3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF034BBD/@@download/ENCFF034BBD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SMC3
+	longLabel ENCSR000ETL DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETL age=unknown_week description=ENCSR000ETL_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_UBTF
+parent super_tf_factors
+compositeTrack on
+shortLabel UBTF
+longLabel UBTF (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQX_ENCFF950EEV
+	parent tf_factors_UBTF off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=UBTF sex=unknown target_label=ChIP-seq_transcription_factor_UBTF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF950EEV/@@download/ENCFF950EEV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq UBTF
+	longLabel ENCSR000EQX B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQX age=unknown description=ENCSR000EQX_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESJ_ENCFF790OHZ
+	parent tf_factors_UBTF off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=UBTF sex=unknown target_label=ChIP-seq_transcription_factor_UBTF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF790OHZ/@@download/ENCFF790OHZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq UBTF
+	longLabel ENCSR000ESJ DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESJ age=unknown_week description=ENCSR000ESJ_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_JUN
+parent super_tf_factors
+compositeTrack on
+shortLabel JUN
+longLabel JUN (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERO_ENCFF944MUS
+	parent tf_factors_JUN off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=JUN sex=unknown target_label=ChIP-seq_transcription_factor_JUN view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF944MUS/@@download/ENCFF944MUS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq JUN
+	longLabel ENCSR000ERO B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERO age=unknown description=ENCSR000ERO_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_USF2
+parent super_tf_factors
+compositeTrack on
+shortLabel USF2
+longLabel USF2 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERJ_ENCFF495UJH
+	parent tf_factors_USF2 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=USF2 sex=unknown target_label=ChIP-seq_transcription_factor_USF2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF495UJH/@@download/ENCFF495UJH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF2
+	longLabel ENCSR000ERJ B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERJ age=unknown description=ENCSR000ERJ_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETF_ENCFF141IPU
+	parent tf_factors_USF2 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=USF2 sex=unknown target_label=ChIP-seq_transcription_factor_USF2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF141IPU/@@download/ENCFF141IPU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF2
+	longLabel ENCSR000ETF DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETF age=unknown_week description=ENCSR000ETF_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETW_ENCFF465SVV
+	parent tf_factors_USF2 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=USF2 sex=unknown target_label=ChIP-seq_transcription_factor_USF2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF465SVV/@@download/ENCFF465SVV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF2
+	longLabel ENCSR000ETW DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETW age=unknown_week description=ENCSR000ETW_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_ETS1
+parent super_tf_factors
+compositeTrack on
+shortLabel ETS1
+longLabel ETS1 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERA_ENCFF165JVA
+	parent tf_factors_ETS1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=ETS1 sex=unknown target_label=ChIP-seq_transcription_factor_ETS1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF165JVA/@@download/ENCFF165JVA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ETS1
+	longLabel ENCSR000ERA B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERA age=unknown description=ENCSR000ERA_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETB_ENCFF760BIB
+	parent tf_factors_ETS1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=ETS1 sex=unknown target_label=ChIP-seq_transcription_factor_ETS1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF760BIB/@@download/ENCFF760BIB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ETS1
+	longLabel ENCSR000ETB DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETB age=unknown_week description=ENCSR000ETB_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MYC
+parent super_tf_factors
+compositeTrack on
+shortLabel MYC
+longLabel MYC (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERN_ENCFF562UOS
+	parent tf_factors_MYC off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=MYC sex=unknown target_label=ChIP-seq_transcription_factor_MYC view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF562UOS/@@download/ENCFF562UOS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYC
+	longLabel ENCSR000ERN B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERN age=unknown description=ENCSR000ERN_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000EUA_ENCFF998KIS
+	parent tf_factors_MYC off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=MYC sex=unknown target_label=ChIP-seq_transcription_factor_MYC view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF998KIS/@@download/ENCFF998KIS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYC
+	longLabel ENCSR000EUA DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EUA age=unknown_week description=ENCSR000EUA_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MYB
+parent super_tf_factors
+compositeTrack on
+shortLabel MYB
+longLabel MYB (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ETR_ENCFF428NKW
+	parent tf_factors_MYB off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=MYB sex=unknown target_label=ChIP-seq_transcription_factor_MYB view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF428NKW/@@download/ENCFF428NKW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MYB
+	longLabel ENCSR000ETR DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETR age=unknown_week description=ENCSR000ETR_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_SIN3A
+parent super_tf_factors
+compositeTrack on
+shortLabel SIN3A
+longLabel SIN3A (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQY_ENCFF659WQU
+	parent tf_factors_SIN3A off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=SIN3A sex=unknown target_label=ChIP-seq_transcription_factor_SIN3A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF659WQU/@@download/ENCFF659WQU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SIN3A
+	longLabel ENCSR000EQY B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQY age=unknown description=ENCSR000EQY_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETC_ENCFF297ZST
+	parent tf_factors_SIN3A off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=SIN3A sex=unknown target_label=ChIP-seq_transcription_factor_SIN3A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF297ZST/@@download/ENCFF297ZST.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SIN3A
+	longLabel ENCSR000ETC DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETC age=unknown_week description=ENCSR000ETC_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_SRF
+parent super_tf_factors
+compositeTrack on
+shortLabel SRF
+longLabel SRF (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIM_ENCFF552PFK
+	parent tf_factors_SRF off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=SRF sex=unknown target_label=ChIP-seq_transcription_factor_SRF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF552PFK/@@download/ENCFF552PFK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq SRF
+	longLabel ENCSR000AIM C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIM age=unknown description=ENCSR000AIM_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_TCF3
+parent super_tf_factors
+compositeTrack on
+shortLabel TCF3
+longLabel TCF3 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIP_ENCFF565MVR
+	parent tf_factors_TCF3 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=TCF3 sex=unknown target_label=ChIP-seq_transcription_factor_TCF3 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF565MVR/@@download/ENCFF565MVR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TCF3
+	longLabel ENCSR000AIP C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIP age=unknown description=ENCSR000AIP_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_RAD21
+parent super_tf_factors
+compositeTrack on
+shortLabel RAD21
+longLabel RAD21 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERK_ENCFF388SYO
+	parent tf_factors_RAD21 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=RAD21 sex=unknown target_label=ChIP-seq_transcription_factor_RAD21 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF388SYO/@@download/ENCFF388SYO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RAD21
+	longLabel ENCSR000ERK B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERK age=unknown description=ENCSR000ERK_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETS_ENCFF198FKD
+	parent tf_factors_RAD21 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=RAD21 sex=unknown target_label=ChIP-seq_transcription_factor_RAD21 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF198FKD/@@download/ENCFF198FKD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RAD21
+	longLabel ENCSR000ETS DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETS age=unknown_week description=ENCSR000ETS_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETT_ENCFF527GUY
+	parent tf_factors_RAD21 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days donor=ENCDO073AAA label=RAD21 sex=unknown target_label=ChIP-seq_transcription_factor_RAD21 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF527GUY/@@download/ENCFF527GUY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq RAD21
+	longLabel ENCSR000ETT DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days (fo
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETT age=unknown_week description=ENCSR000ETT_DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_TCF12
+parent super_tf_factors
+compositeTrack on
+shortLabel TCF12
+longLabel TCF12 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIN_ENCFF247PFV
+	parent tf_factors_TCF12 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=TCF12 sex=unknown target_label=ChIP-seq_transcription_factor_TCF12 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF247PFV/@@download/ENCFF247PFV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TCF12
+	longLabel ENCSR000AIN C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIN age=unknown description=ENCSR000AIN_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR349JDH_ENCFF894YTN
+	parent tf_factors_TCF12 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=TCF12 sex=unknown target_label=ChIP-seq_transcription_factor_TCF12 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF894YTN/@@download/ENCFF894YTN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TCF12
+	longLabel ENCSR349JDH DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR349JDH age=unknown_week description=ENCSR349JDH_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR906QEK_ENCFF177GZH
+	parent tf_factors_TCF12 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=TCF12 sex=unknown target_label=ChIP-seq_transcription_factor_TCF12 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF177GZH/@@download/ENCFF177GZH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TCF12
+	longLabel ENCSR906QEK B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR906QEK age=unknown description=ENCSR906QEK_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_FLI1
+parent super_tf_factors
+compositeTrack on
+shortLabel FLI1
+longLabel FLI1 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample megakaryocyte=megakaryocyte 
+subGroup2 age_sex age_sex 145_day=145_day 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000DHD_ENCFF460EAQ
+	parent tf_factors_FLI1 off
+	subGroups age=a14_5_day age_sex=145_day assay=ChIP-seq biosample=megakaryocyte biosample_summary=CD-1_megakaryocyte_embryo_145_days donor=ENCDO083AAA label=FLI1 sex=unknown target_label=ChIP-seq_transcription_factor_FLI1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF460EAQ/@@download/ENCFF460EAQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq FLI1
+	longLabel ENCSR000DHD CD_1_megakaryocyte_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DHD age=14_5_day description=ENCSR000DHD_CD_1_megakaryocyte_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_REST
+parent super_tf_factors
+compositeTrack on
+shortLabel REST
+longLabel REST (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIS_ENCFF967HVW
+	parent tf_factors_REST off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=REST sex=unknown target_label=ChIP-seq_transcription_factor_REST view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF967HVW/@@download/ENCFF967HVW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq REST
+	longLabel ENCSR000AIS C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIS age=unknown description=ENCSR000AIS_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_PAX5
+parent super_tf_factors
+compositeTrack on
+shortLabel PAX5
+longLabel PAX5 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000DIH_ENCFF636WAD
+	parent tf_factors_PAX5 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=PAX5 sex=unknown target_label=ChIP-seq_transcription_factor_PAX5 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF636WAD/@@download/ENCFF636WAD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq PAX5
+	longLabel ENCSR000DIH B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIH age=unknown description=ENCSR000DIH_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_USF1
+parent super_tf_factors
+compositeTrack on
+shortLabel USF1
+longLabel USF1 (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample C2C12=C2C12 CH12LX=CH12LX MEL_cell_line=MEL_cell_line myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIE_ENCFF170WKG
+	parent tf_factors_USF1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=USF1 sex=unknown target_label=ChIP-seq_transcription_factor_USF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF170WKG/@@download/ENCFF170WKG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF1
+	longLabel ENCSR000AIE C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIE age=unknown description=ENCSR000AIE_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000AIQ_ENCFF602DCT
+	parent tf_factors_USF1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=C2C12 biosample_summary=C3H_C2C12 donor=ENCDO321TZV label=USF1 sex=unknown target_label=ChIP-seq_transcription_factor_USF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF602DCT/@@download/ENCFF602DCT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF1
+	longLabel ENCSR000AIQ C3H_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIQ age=unknown description=ENCSR000AIQ_C3H_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR705HGT_ENCFF377WET
+	parent tf_factors_USF1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=USF1 sex=unknown target_label=ChIP-seq_transcription_factor_USF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF377WET/@@download/ENCFF377WET.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF1
+	longLabel ENCSR705HGT DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR705HGT age=unknown_week description=ENCSR705HGT_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR973SOG_ENCFF193AYX
+	parent tf_factors_USF1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=USF1 sex=unknown target_label=ChIP-seq_transcription_factor_USF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF193AYX/@@download/ENCFF193AYX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq USF1
+	longLabel ENCSR973SOG B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR973SOG age=unknown description=ENCSR973SOG_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_ZNF384
+parent super_tf_factors
+compositeTrack on
+shortLabel ZNF384
+longLabel ZNF384 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX ES-E14=ES-E14 MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQO_ENCFF365FLT
+	parent tf_factors_ZNF384 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=ZNF384 sex=unknown target_label=ChIP-seq_transcription_factor_ZNF384 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF365FLT/@@download/ENCFF365FLT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZNF384
+	longLabel ENCSR000EQO B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQO age=unknown description=ENCSR000EQO_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ERV_ENCFF643WMY
+	parent tf_factors_ZNF384 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=ES-E14 biosample_summary=129_ES-E14 donor=ENCDO015AAA label=ZNF384 sex=unknown target_label=ChIP-seq_transcription_factor_ZNF384 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF643WMY/@@download/ENCFF643WMY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZNF384
+	longLabel ENCSR000ERV 129_ES_E14 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERV age=unknown description=ENCSR000ERV_129_ES_E14_fold_change_over_control_ donor=ENCDO015AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESD_ENCFF807HIG
+	parent tf_factors_ZNF384 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=ZNF384 sex=unknown target_label=ChIP-seq_transcription_factor_ZNF384 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF807HIG/@@download/ENCFF807HIG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZNF384
+	longLabel ENCSR000ESD DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESD age=unknown_week description=ENCSR000ESD_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_POLR2A
+parent super_tf_factors
+compositeTrack on
+shortLabel POLR2A
+longLabel POLR2A (15 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX ES-Bruce4=ES-Bruce4 MEL_cell_line=MEL_cell_line bone_marrow=bone_marrow bone_marrow_macrophage=bone_marrow_macrophage cerebellum=cerebellum embryonic_fibroblast=embryonic_fibroblast heart=heart kidney=kidney myocyte=myocyte olfactory_bulb=olfactory_bulb small_intestine=small_intestine spleen=spleen 
+subGroup2 age_sex age_sex 135_week=135_week 8_week=8_week unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIX_ENCFF680DPI
+	parent tf_factors_POLR2A off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF680DPI/@@download/ENCFF680DPI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000AIX C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIX age=unknown description=ENCSR000AIX_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBK_ENCFF916PLK
+	parent tf_factors_POLR2A off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=kidney biosample_summary=C57BL6_kidney_male_adult_8_weeks donor=ENCDO956IXV label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF916PLK/@@download/ENCFF916PLK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CBK C57BL_6_kidney_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBK age=8_week description=ENCSR000CBK_C57BL_6_kidney_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBM_ENCFF595EFE
+	parent tf_factors_POLR2A off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=bone_marrow biosample_summary=C57BL6_bone_marrow_male_adult_8_weeks donor=ENCDO956IXV label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF595EFE/@@download/ENCFF595EFE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CBM C57BL_6_bone_marrow_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBM age=8_week description=ENCSR000CBM_C57BL_6_bone_marrow_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBQ_ENCFF625PME
+	parent tf_factors_POLR2A off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=cerebellum biosample_summary=C57BL6_cerebellum_male_adult_8_weeks donor=ENCDO956IXV label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF625PME/@@download/ENCFF625PME.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CBQ C57BL_6_cerebellum_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBQ age=8_week description=ENCSR000CBQ_C57BL_6_cerebellum_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBS_ENCFF868AOT
+	parent tf_factors_POLR2A off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=heart biosample_summary=C57BL6_heart_male_adult_8_weeks donor=ENCDO956IXV label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF868AOT/@@download/ENCFF868AOT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CBS C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBS age=8_week description=ENCSR000CBS_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBX_ENCFF378CWR
+	parent tf_factors_POLR2A off
+	subGroups age=a13_5_week age_sex=135_week assay=ChIP-seq biosample=embryonic_fibroblast biosample_summary=C57BL6_embryonic_fibroblast_male_embryo_135_weeks donor=ENCDO072AAA label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF378CWR/@@download/ENCFF378CWR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CBX C57BL_6_embryonic_fibroblast_male_embryo_13_5_weeks_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBX age=13_5_week description=ENCSR000CBX_C57BL_6_embryonic_fibroblast_male_embryo_13_5_weeks_fold_change_over_control_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBZ_ENCFF376VCU
+	parent tf_factors_POLR2A off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=spleen biosample_summary=C57BL6_spleen_male_adult_8_weeks donor=ENCDO956IXV label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF376VCU/@@download/ENCFF376VCU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CBZ C57BL_6_spleen_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBZ age=8_week description=ENCSR000CBZ_C57BL_6_spleen_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CCC_ENCFF040HIS
+	parent tf_factors_POLR2A off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=ES-Bruce4 biosample_summary=C57BL6_ES-Bruce4 donor=ENCDO081AAA label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF040HIS/@@download/ENCFF040HIS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CCC C57BL_6_ES_Bruce4 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CCC age=unknown description=ENCSR000CCC_C57BL_6_ES_Bruce4_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CDY_ENCFF193PLE
+	parent tf_factors_POLR2A off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=olfactory_bulb biosample_summary=C57BL6_olfactory_bulb_male_adult_8_weeks donor=ENCDO956IXV label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF193PLE/@@download/ENCFF193PLE.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CDY C57BL_6_olfactory_bulb_male_adult_8_weeks_ (fold change over control
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CDY age=8_week description=ENCSR000CDY_C57BL_6_olfactory_bulb_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CEE_ENCFF820TWT
+	parent tf_factors_POLR2A off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=small_intestine biosample_summary=C57BL6_small_intestine_male_adult_8_weeks donor=ENCDO956IXV label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF820TWT/@@download/ENCFF820TWT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CEE C57BL_6_small_intestine_male_adult_8_weeks_ (fold change over contro
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CEE age=8_week description=ENCSR000CEE_C57BL_6_small_intestine_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CFI_ENCFF218UAZ
+	parent tf_factors_POLR2A off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF218UAZ/@@download/ENCFF218UAZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CFI DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFI age=unknown_week description=ENCSR000CFI_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CFK_ENCFF575UNY
+	parent tf_factors_POLR2A off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=bone_marrow_macrophage biosample_summary=C57BL6_bone_marrow_macrophage_male_adult_8_weeks donor=ENCDO081AAA label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF575UNY/@@download/ENCFF575UNY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000CFK C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFK age=8_week description=ENCSR000CFK_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ERQ_ENCFF847BNC
+	parent tf_factors_POLR2A off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF847BNC/@@download/ENCFF847BNC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000ERQ B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERQ age=unknown description=ENCSR000ERQ_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETG_ENCFF128VVT
+	parent tf_factors_POLR2A off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days donor=ENCDO073AAA label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF128VVT/@@download/ENCFF128VVT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000ETG DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days (fo
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETG age=unknown_week description=ENCSR000ETG_DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000EUC_ENCFF906BFI
+	parent tf_factors_POLR2A off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=POLR2A sex=unknown target_label=ChIP-seq_transcription_factor_POLR2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF906BFI/@@download/ENCFF906BFI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq POLR2A
+	longLabel ENCSR000EUC DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EUC age=unknown_week description=ENCSR000EUC_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_GATA4
+parent super_tf_factors
+compositeTrack on
+shortLabel GATA4
+longLabel GATA4 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample liver=liver 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR194GNY_ENCFF353ZBQ
+	parent tf_factors_GATA4 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=liver biosample_summary=C57BL6xSv129_liver_adult donor=ENCDO221RVN label=GATA4 sex=unknown target_label=ChIP-seq_transcription_factor_GATA4 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF353ZBQ/@@download/ENCFF353ZBQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA4
+	longLabel ENCSR194GNY C57BL_6xSv129_liver_adult (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR194GNY age=unknown description=ENCSR194GNY_C57BL_6xSv129_liver_adult_fold_change_over_control_ donor=ENCDO221RVN sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_EP300
+parent super_tf_factors
+compositeTrack on
+shortLabel EP300
+longLabel EP300 (10 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX ES-Bruce4=ES-Bruce4 MEL_cell_line=MEL_cell_line heart=heart liver=liver lung=lung stomach=stomach 
+subGroup2 age_sex age_sex 0_day=0_day 145_day=145_day 8_week=8_week unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000CCA_ENCFF852EDW
+	parent tf_factors_EP300 off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=heart biosample_summary=C57BL6_heart_male_adult_8_weeks donor=ENCDO956IXV label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF852EDW/@@download/ENCFF852EDW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR000CCA C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CCA age=8_week description=ENCSR000CCA_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CCD_ENCFF320LZI
+	parent tf_factors_EP300 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=ES-Bruce4 biosample_summary=C57BL6_ES-Bruce4 donor=ENCDO081AAA label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF320LZI/@@download/ENCFF320LZI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR000CCD C57BL_6_ES_Bruce4 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CCD age=unknown description=ENCSR000CCD_C57BL_6_ES_Bruce4_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ERI_ENCFF140YUU
+	parent tf_factors_EP300 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF140YUU/@@download/ENCFF140YUU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR000ERI B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERI age=unknown description=ENCSR000ERI_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETP_ENCFF266YOT
+	parent tf_factors_EP300 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF266YOT/@@download/ENCFF266YOT.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR000ETP DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETP age=unknown_week description=ENCSR000ETP_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETV_ENCFF325EHX
+	parent tf_factors_EP300 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF325EHX/@@download/ENCFF325EHX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR000ETV DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETV age=unknown_week description=ENCSR000ETV_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR450KVW_ENCFF665UTM
+	parent tf_factors_EP300 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=stomach biosample_summary=C57BL6_stomach_postnatal_0_days donor=ENCDO956IXV label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF665UTM/@@download/ENCFF665UTM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR450KVW C57BL_6_stomach_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR450KVW age=0_day description=ENCSR450KVW_C57BL_6_stomach_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR527DME_ENCFF583XLF
+	parent tf_factors_EP300 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=lung biosample_summary=C57BL6_lung_postnatal_0_days donor=ENCDO956IXV label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF583XLF/@@download/ENCFF583XLF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR527DME C57BL_6_lung_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR527DME age=0_day description=ENCSR527DME_C57BL_6_lung_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR765RPR_ENCFF251ZXL
+	parent tf_factors_EP300 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=liver biosample_summary=C57BL6_liver_postnatal_0_days donor=ENCDO956IXV label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF251ZXL/@@download/ENCFF251ZXL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR765RPR C57BL_6_liver_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR765RPR age=0_day description=ENCSR765RPR_C57BL_6_liver_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR777VNA_ENCFF338GTZ
+	parent tf_factors_EP300 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=heart biosample_summary=C57BL6_heart_postnatal_0_days donor=ENCDO956IXV label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF338GTZ/@@download/ENCFF338GTZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR777VNA C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR777VNA age=0_day description=ENCSR777VNA_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR982LJQ_ENCFF549QHQ
+	parent tf_factors_EP300 off
+	subGroups age=a14_5_day age_sex=145_day assay=ChIP-seq biosample=liver biosample_summary=C57BL6_liver_embryo_145_days donor=ENCDO956IXV label=EP300 sex=unknown target_label=ChIP-seq_transcription_factor_EP300 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF549QHQ/@@download/ENCFF549QHQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq EP300
+	longLabel ENCSR982LJQ C57BL_6_liver_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR982LJQ age=14_5_day description=ENCSR982LJQ_C57BL_6_liver_embryo_14_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_GATA2
+parent super_tf_factors
+compositeTrack on
+shortLabel GATA2
+longLabel GATA2 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample G1E=G1E G1E-ER4=G1E-ER4 
+subGroup2 age_sex age_sex 0_day=0_day 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000DID_ENCFF367IMF
+	parent tf_factors_GATA2 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=G1E-ER4 biosample_summary=129_G1E-ER4_treated_with_10_nM_17-estradiol_for_24_hours donor=ENCDO089AAA label=GATA2 sex=unknown target_label=ChIP-seq_transcription_factor_GATA2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF367IMF/@@download/ENCFF367IMF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA2
+	longLabel ENCSR000DID 129_G1E_ER4_treated_with_10_nM_17_estradiol_for_24_hours (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DID age=0_day description=ENCSR000DID_129_G1E_ER4_treated_with_10_nM_17_estradiol_for_24_hours_fold_change_over_control_ donor=ENCDO089AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIE_ENCFF630HUU
+	parent tf_factors_GATA2 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=G1E biosample_summary=129_G1E donor=ENCDO089AAA label=GATA2 sex=unknown target_label=ChIP-seq_transcription_factor_GATA2 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF630HUU/@@download/ENCFF630HUU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA2
+	longLabel ENCSR000DIE 129_G1E (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIE age=0_day description=ENCSR000DIE_129_G1E_fold_change_over_control_ donor=ENCDO089AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_ZMIZ1
+parent super_tf_factors
+compositeTrack on
+shortLabel ZMIZ1
+longLabel ZMIZ1 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQP_ENCFF133UFU
+	parent tf_factors_ZMIZ1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=ZMIZ1 sex=unknown target_label=ChIP-seq_transcription_factor_ZMIZ1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF133UFU/@@download/ENCFF133UFU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZMIZ1
+	longLabel ENCSR000EQP B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQP age=unknown description=ENCSR000EQP_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESE_ENCFF689AFL
+	parent tf_factors_ZMIZ1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=ZMIZ1 sex=unknown target_label=ChIP-seq_transcription_factor_ZMIZ1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF689AFL/@@download/ENCFF689AFL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZMIZ1
+	longLabel ENCSR000ESE DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESE age=unknown_week description=ENCSR000ESE_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_GATA1
+parent super_tf_factors
+compositeTrack on
+shortLabel GATA1
+longLabel GATA1 (5 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample G1E=G1E G1E-ER4=G1E-ER4 MEL_cell_line=MEL_cell_line erythroblast=erythroblast 
+subGroup2 age_sex age_sex 0_day=0_day 145_day=145_day unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000DIC_ENCFF860JAB
+	parent tf_factors_GATA1 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=G1E biosample_summary=129_G1E donor=ENCDO089AAA label=GATA1 sex=unknown target_label=ChIP-seq_transcription_factor_GATA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF860JAB/@@download/ENCFF860JAB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA1
+	longLabel ENCSR000DIC 129_G1E (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIC age=0_day description=ENCSR000DIC_129_G1E_fold_change_over_control_ donor=ENCDO089AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIL_ENCFF779AOL
+	parent tf_factors_GATA1 off
+	subGroups age=a14_5_day age_sex=145_day assay=ChIP-seq biosample=erythroblast biosample_summary=CD-1_erythroblast_embryo_145_days donor=ENCDO083AAA label=GATA1 sex=unknown target_label=ChIP-seq_transcription_factor_GATA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF779AOL/@@download/ENCFF779AOL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA1
+	longLabel ENCSR000DIL CD_1_erythroblast_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIL age=14_5_day description=ENCSR000DIL_CD_1_erythroblast_embryo_14_5_days_fold_change_over_control_ donor=ENCDO083AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIQ_ENCFF279GQJ
+	parent tf_factors_GATA1 off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=G1E-ER4 biosample_summary=129_G1E-ER4_treated_with_10_nM_17-estradiol_for_24_hours donor=ENCDO089AAA label=GATA1 sex=unknown target_label=ChIP-seq_transcription_factor_GATA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF279GQJ/@@download/ENCFF279GQJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA1
+	longLabel ENCSR000DIQ 129_G1E_ER4_treated_with_10_nM_17_estradiol_for_24_hours (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIQ age=0_day description=ENCSR000DIQ_129_G1E_ER4_treated_with_10_nM_17_estradiol_for_24_hours_fold_change_over_control_ donor=ENCDO089AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETA_ENCFF283VEC
+	parent tf_factors_GATA1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days donor=ENCDO073AAA label=GATA1 sex=unknown target_label=ChIP-seq_transcription_factor_GATA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF283VEC/@@download/ENCFF283VEC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA1
+	longLabel ENCSR000ETA DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days (fo
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETA age=unknown_week description=ENCSR000ETA_DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000EUG_ENCFF160HQN
+	parent tf_factors_GATA1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=GATA1 sex=unknown target_label=ChIP-seq_transcription_factor_GATA1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF160HQN/@@download/ENCFF160HQN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GATA1
+	longLabel ENCSR000EUG DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EUG age=unknown_week description=ENCSR000EUG_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_E2F4
+parent super_tf_factors
+compositeTrack on
+shortLabel E2F4
+longLabel E2F4 (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AII_ENCFF528UTW
+	parent tf_factors_E2F4 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=E2F4 sex=unknown target_label=ChIP-seq_transcription_factor_E2F4 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF528UTW/@@download/ENCFF528UTW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq E2F4
+	longLabel ENCSR000AII C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AII age=unknown description=ENCSR000AII_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ERU_ENCFF162FEM
+	parent tf_factors_E2F4 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=E2F4 sex=unknown target_label=ChIP-seq_transcription_factor_E2F4 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF162FEM/@@download/ENCFF162FEM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq E2F4
+	longLabel ENCSR000ERU B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERU age=unknown description=ENCSR000ERU_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETY_ENCFF240ORP
+	parent tf_factors_E2F4 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=E2F4 sex=unknown target_label=ChIP-seq_transcription_factor_E2F4 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF240ORP/@@download/ENCFF240ORP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq E2F4
+	longLabel ENCSR000ETY DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETY age=unknown_week description=ENCSR000ETY_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_ZC3H11A
+parent super_tf_factors
+compositeTrack on
+shortLabel ZC3H11A
+longLabel ZC3H11A (3 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX ES-E14=ES-E14 MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQQ_ENCFF429LKF
+	parent tf_factors_ZC3H11A off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=ZC3H11A sex=unknown target_label=ChIP-seq_transcription_factor_ZC3H11A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF429LKF/@@download/ENCFF429LKF.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZC3H11A
+	longLabel ENCSR000EQQ B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQQ age=unknown description=ENCSR000EQQ_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ERW_ENCFF550KLM
+	parent tf_factors_ZC3H11A off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=ES-E14 biosample_summary=129_ES-E14 donor=ENCDO015AAA label=ZC3H11A sex=unknown target_label=ChIP-seq_transcription_factor_ZC3H11A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF550KLM/@@download/ENCFF550KLM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZC3H11A
+	longLabel ENCSR000ERW 129_ES_E14 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERW age=unknown description=ENCSR000ERW_129_ES_E14_fold_change_over_control_ donor=ENCDO015AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESF_ENCFF417EAD
+	parent tf_factors_ZC3H11A off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=ZC3H11A sex=unknown target_label=ChIP-seq_transcription_factor_ZC3H11A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF417EAD/@@download/ENCFF417EAD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZC3H11A
+	longLabel ENCSR000ESF DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESF age=unknown_week description=ENCSR000ESF_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_IRF4
+parent super_tf_factors
+compositeTrack on
+shortLabel IRF4
+longLabel IRF4 (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR743ZJL_ENCFF113RHY
+	parent tf_factors_IRF4 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=IRF4 sex=unknown target_label=ChIP-seq_transcription_factor_IRF4 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF113RHY/@@download/ENCFF113RHY.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq IRF4
+	longLabel ENCSR743ZJL B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR743ZJL age=unknown description=ENCSR743ZJL_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MAX
+parent super_tf_factors
+compositeTrack on
+shortLabel MAX
+longLabel MAX (4 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample C2C12=C2C12 CH12LX=CH12LX MEL_cell_line=MEL_cell_line myocyte=myocyte 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIL_ENCFF595PRV
+	parent tf_factors_MAX off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=myocyte biosample_summary=C3H_myocyte_originated_from_C2C12 donor=ENCDO321TZV label=MAX sex=unknown target_label=ChIP-seq_transcription_factor_MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF595PRV/@@download/ENCFF595PRV.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR000AIL C3H_myocyte_originated_from_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIL age=unknown description=ENCSR000AIL_C3H_myocyte_originated_from_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000AIO_ENCFF862HLX
+	parent tf_factors_MAX off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=C2C12 biosample_summary=C3H_C2C12 donor=ENCDO321TZV label=MAX sex=unknown target_label=ChIP-seq_transcription_factor_MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF862HLX/@@download/ENCFF862HLX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR000AIO C3H_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIO age=unknown description=ENCSR000AIO_C3H_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ERL_ENCFF291HYO
+	parent tf_factors_MAX off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=MAX sex=unknown target_label=ChIP-seq_transcription_factor_MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF291HYO/@@download/ENCFF291HYO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR000ERL B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERL age=unknown description=ENCSR000ERL_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETX_ENCFF368ANL
+	parent tf_factors_MAX off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=MAX sex=unknown target_label=ChIP-seq_transcription_factor_MAX view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF368ANL/@@download/ENCFF368ANL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAX
+	longLabel ENCSR000ETX DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETX age=unknown_week description=ENCSR000ETX_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MAZ
+parent super_tf_factors
+compositeTrack on
+shortLabel MAZ
+longLabel MAZ (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQT_ENCFF283POK
+	parent tf_factors_MAZ off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=MAZ sex=unknown target_label=ChIP-seq_transcription_factor_MAZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF283POK/@@download/ENCFF283POK.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAZ
+	longLabel ENCSR000EQT B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQT age=unknown description=ENCSR000EQT_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESL_ENCFF591TEI
+	parent tf_factors_MAZ off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=MAZ sex=unknown target_label=ChIP-seq_transcription_factor_MAZ view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF591TEI/@@download/ENCFF591TEI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MAZ
+	longLabel ENCSR000ESL DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESL age=unknown_week description=ENCSR000ESL_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_ZKSCAN1
+parent super_tf_factors
+compositeTrack on
+shortLabel ZKSCAN1
+longLabel ZKSCAN1 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQW_ENCFF411YYG
+	parent tf_factors_ZKSCAN1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=ZKSCAN1 sex=unknown target_label=ChIP-seq_transcription_factor_ZKSCAN1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF411YYG/@@download/ENCFF411YYG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZKSCAN1
+	longLabel ENCSR000EQW B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQW age=unknown description=ENCSR000EQW_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESX_ENCFF585YOH
+	parent tf_factors_ZKSCAN1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=ZKSCAN1 sex=unknown target_label=ChIP-seq_transcription_factor_ZKSCAN1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF585YOH/@@download/ENCFF585YOH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq ZKSCAN1
+	longLabel ENCSR000ESX DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESX age=unknown_week description=ENCSR000ESX_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MEF2A
+parent super_tf_factors
+compositeTrack on
+shortLabel MEF2A
+longLabel MEF2A (1 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX 
+subGroup2 age_sex age_sex unknown=unknown 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR806JZK_ENCFF199YQB
+	parent tf_factors_MEF2A off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=MEF2A sex=unknown target_label=ChIP-seq_transcription_factor_MEF2A view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF199YQB/@@download/ENCFF199YQB.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MEF2A
+	longLabel ENCSR806JZK B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR806JZK age=unknown description=ENCSR806JZK_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_MXI1
+parent super_tf_factors
+compositeTrack on
+shortLabel MXI1
+longLabel MXI1 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERE_ENCFF724BKJ
+	parent tf_factors_MXI1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=MXI1 sex=unknown target_label=ChIP-seq_transcription_factor_MXI1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF724BKJ/@@download/ENCFF724BKJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MXI1
+	longLabel ENCSR000ERE B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERE age=unknown description=ENCSR000ERE_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETN_ENCFF780AWC
+	parent tf_factors_MXI1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=MXI1 sex=unknown target_label=ChIP-seq_transcription_factor_MXI1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF780AWC/@@download/ENCFF780AWC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq MXI1
+	longLabel ENCSR000ETN DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETN age=unknown_week description=ENCSR000ETN_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_GABPA
+parent super_tf_factors
+compositeTrack on
+shortLabel GABPA
+longLabel GABPA (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000EQS_ENCFF985RMX
+	parent tf_factors_GABPA off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=GABPA sex=unknown target_label=ChIP-seq_transcription_factor_GABPA view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF985RMX/@@download/ENCFF985RMX.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GABPA
+	longLabel ENCSR000EQS B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EQS age=unknown description=ENCSR000EQS_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ESK_ENCFF104SUM
+	parent tf_factors_GABPA off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=GABPA sex=unknown target_label=ChIP-seq_transcription_factor_GABPA view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF104SUM/@@download/ENCFF104SUM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq GABPA
+	longLabel ENCSR000ESK DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ESK age=unknown_week description=ENCSR000ESK_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_TBP
+parent super_tf_factors
+compositeTrack on
+shortLabel TBP
+longLabel TBP (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000ERP_ENCFF111ZPI
+	parent tf_factors_TBP off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=TBP sex=unknown target_label=ChIP-seq_transcription_factor_TBP view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF111ZPI/@@download/ENCFF111ZPI.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TBP
+	longLabel ENCSR000ERP B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERP age=unknown description=ENCSR000ERP_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000EUB_ENCFF026AMD
+	parent tf_factors_TBP off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=TBP sex=unknown target_label=ChIP-seq_transcription_factor_TBP view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF026AMD/@@download/ENCFF026AMD.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq TBP
+	longLabel ENCSR000EUB DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000EUB age=unknown_week description=ENCSR000EUB_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_CTCF
+parent super_tf_factors
+compositeTrack on
+shortLabel CTCF
+longLabel CTCF (28 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample C2C12=C2C12 CH12LX=CH12LX E14TG2a4=E14TG2a4 ES-Bruce4=ES-Bruce4 G1E=G1E G1E-ER4=G1E-ER4 MEL_cell_line=MEL_cell_line bone_marrow=bone_marrow bone_marrow_macrophage=bone_marrow_macrophage cerebellum=cerebellum embryonic_fibroblast=embryonic_fibroblast forebrain=forebrain heart=heart hindbrain=hindbrain intestine=intestine kidney=kidney liver=liver lung=lung midbrain=midbrain stomach=stomach 
+subGroup2 age_sex age_sex 0_day=0_day 135_week=135_week 145_day=145_day 35_day=35_day 8_week=8_week unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR000AIJ_ENCFF583QSM
+	parent tf_factors_CTCF off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=C2C12 biosample_summary=C3H_C2C12 donor=ENCDO321TZV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF583QSM/@@download/ENCFF583QSM.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000AIJ C3H_C2C12 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000AIJ age=unknown description=ENCSR000AIJ_C3H_C2C12_fold_change_over_control_ donor=ENCDO321TZV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBI_ENCFF639AFA
+	parent tf_factors_CTCF off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=heart biosample_summary=C57BL6_heart_male_adult_8_weeks donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF639AFA/@@download/ENCFF639AFA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CBI C57BL_6_heart_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBI age=8_week description=ENCSR000CBI_C57BL_6_heart_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBL_ENCFF156BYW
+	parent tf_factors_CTCF off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=bone_marrow biosample_summary=C57BL6_bone_marrow_male_adult_8_weeks donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF156BYW/@@download/ENCFF156BYW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CBL C57BL_6_bone_marrow_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBL age=8_week description=ENCSR000CBL_C57BL_6_bone_marrow_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBN_ENCFF867MOQ
+	parent tf_factors_CTCF off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=cerebellum biosample_summary=C57BL6_cerebellum_male_adult_8_weeks donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF867MOQ/@@download/ENCFF867MOQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CBN C57BL_6_cerebellum_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBN age=8_week description=ENCSR000CBN_C57BL_6_cerebellum_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBU_ENCFF919KIP
+	parent tf_factors_CTCF off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=liver biosample_summary=C57BL6_liver_male_adult_8_weeks donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF919KIP/@@download/ENCFF919KIP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CBU C57BL_6_liver_male_adult_8_weeks_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBU age=8_week description=ENCSR000CBU_C57BL_6_liver_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CBW_ENCFF432JCZ
+	parent tf_factors_CTCF off
+	subGroups age=a13_5_week age_sex=135_week assay=ChIP-seq biosample=embryonic_fibroblast biosample_summary=C57BL6_embryonic_fibroblast_male_embryo_135_weeks donor=ENCDO072AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF432JCZ/@@download/ENCFF432JCZ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CBW C57BL_6_embryonic_fibroblast_male_embryo_13_5_weeks_ (fold change ov
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CBW age=13_5_week description=ENCSR000CBW_C57BL_6_embryonic_fibroblast_male_embryo_13_5_weeks_fold_change_over_control_ donor=ENCDO072AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CCB_ENCFF339GSH
+	parent tf_factors_CTCF off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=ES-Bruce4 biosample_summary=C57BL6_ES-Bruce4 donor=ENCDO081AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF339GSH/@@download/ENCFF339GSH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CCB C57BL_6_ES_Bruce4 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CCB age=unknown description=ENCSR000CCB_C57BL_6_ES_Bruce4_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CFH_ENCFF771PZS
+	parent tf_factors_CTCF off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF771PZS/@@download/ENCFF771PZS.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CFH DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFH age=unknown_week description=ENCSR000CFH_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000CFJ_ENCFF826OQW
+	parent tf_factors_CTCF off
+	subGroups age=a8_week age_sex=8_week assay=ChIP-seq biosample=bone_marrow_macrophage biosample_summary=C57BL6_bone_marrow_macrophage_male_adult_8_weeks donor=ENCDO081AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF826OQW/@@download/ENCFF826OQW.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000CFJ C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_ (fold change over
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000CFJ age=8_week description=ENCSR000CFJ_C57BL_6_bone_marrow_macrophage_male_adult_8_weeks_fold_change_over_control_ donor=ENCDO081AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIP_ENCFF498RZJ
+	parent tf_factors_CTCF off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF498RZJ/@@download/ENCFF498RZJ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DIP DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIP age=unknown_week description=ENCSR000DIP_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIR_ENCFF816XFR
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=G1E-ER4 biosample_summary=129_G1E-ER4_treated_with_10_nM_17-estradiol_for_24_hours donor=ENCDO089AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF816XFR/@@download/ENCFF816XFR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DIR 129_G1E_ER4_treated_with_10_nM_17_estradiol_for_24_hours (fold chang
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIR age=0_day description=ENCSR000DIR_129_G1E_ER4_treated_with_10_nM_17_estradiol_for_24_hours_fold_change_over_control_ donor=ENCDO089AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIS_ENCFF938UFC
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=G1E biosample_summary=129_G1E donor=ENCDO089AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF938UFC/@@download/ENCFF938UFC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DIS 129_G1E (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIS age=0_day description=ENCSR000DIS_129_G1E_fold_change_over_control_ donor=ENCDO089AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000DIU_ENCFF844EOO
+	parent tf_factors_CTCF off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF844EOO/@@download/ENCFF844EOO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000DIU B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000DIU age=unknown description=ENCSR000DIU_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ERM_ENCFF025UEN
+	parent tf_factors_CTCF off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF025UEN/@@download/ENCFF025UEN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000ERM B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ERM age=unknown description=ENCSR000ERM_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETE_ENCFF056UBA
+	parent tf_factors_CTCF off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days donor=ENCDO073AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF056UBA/@@download/ENCFF056UBA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000ETE DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days (fo
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETE age=unknown_week description=ENCSR000ETE_DBA_2_MEL_cell_line_treated_with_2_dimethyl_sulfoxide_for_5_days_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR000ETQ_ENCFF515BPN
+	parent tf_factors_CTCF off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF515BPN/@@download/ENCFF515BPN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR000ETQ DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR000ETQ age=unknown_week description=ENCSR000ETQ_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR002ZAG_ENCFF661SPC
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=intestine biosample_summary=C57BL6_intestine_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF661SPC/@@download/ENCFF661SPC.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR002ZAG C57BL_6_intestine_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR002ZAG age=0_day description=ENCSR002ZAG_C57BL_6_intestine_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR041SMK_ENCFF186QKQ
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=liver biosample_summary=C57BL6_liver_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF186QKQ/@@download/ENCFF186QKQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR041SMK C57BL_6_liver_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR041SMK age=0_day description=ENCSR041SMK_C57BL_6_liver_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR104QEN_ENCFF685EPG
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=stomach biosample_summary=C57BL6_stomach_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF685EPG/@@download/ENCFF685EPG.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR104QEN C57BL_6_stomach_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR104QEN age=0_day description=ENCSR104QEN_C57BL_6_stomach_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR143WOK_ENCFF083ZQN
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=kidney biosample_summary=C57BL6_kidney_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF083ZQN/@@download/ENCFF083ZQN.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR143WOK C57BL_6_kidney_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR143WOK age=0_day description=ENCSR143WOK_C57BL_6_kidney_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR150RGT_ENCFF251FHP
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=hindbrain biosample_summary=C57BL6_hindbrain_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF251FHP/@@download/ENCFF251FHP.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR150RGT C57BL_6_hindbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR150RGT age=0_day description=ENCSR150RGT_C57BL_6_hindbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR362VNF_ENCFF454YWR
+	parent tf_factors_CTCF off
+	subGroups age=a3_5_day age_sex=35_day assay=ChIP-seq biosample=E14TG2a4 biosample_summary=129_E14TG2a4 donor=ENCDO015AAA label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF454YWR/@@download/ENCFF454YWR.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR362VNF 129_E14TG2a_4 (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR362VNF age=3_5_day description=ENCSR362VNF_129_E14TG2a_4_fold_change_over_control_ donor=ENCDO015AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR397RHW_ENCFF691ULU
+	parent tf_factors_CTCF off
+	subGroups age=a14_5_day age_sex=145_day assay=ChIP-seq biosample=liver biosample_summary=C57BL6_liver_embryo_145_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF691ULU/@@download/ENCFF691ULU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR397RHW C57BL_6_liver_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR397RHW age=14_5_day description=ENCSR397RHW_C57BL_6_liver_embryo_14_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR418SBY_ENCFF739QBQ
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=lung biosample_summary=C57BL6_lung_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF739QBQ/@@download/ENCFF739QBQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR418SBY C57BL_6_lung_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR418SBY age=0_day description=ENCSR418SBY_C57BL_6_lung_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR491NUM_ENCFF278NWO
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=heart biosample_summary=C57BL6_heart_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF278NWO/@@download/ENCFF278NWO.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR491NUM C57BL_6_heart_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR491NUM age=0_day description=ENCSR491NUM_C57BL_6_heart_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR677HXC_ENCFF500SSQ
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=forebrain biosample_summary=C57BL6_forebrain_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF500SSQ/@@download/ENCFF500SSQ.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR677HXC C57BL_6_forebrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR677HXC age=0_day description=ENCSR677HXC_C57BL_6_forebrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR677SIH_ENCFF176KNA
+	parent tf_factors_CTCF off
+	subGroups age=a14_5_day age_sex=145_day assay=ChIP-seq biosample=lung biosample_summary=C57BL6_lung_embryo_145_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF176KNA/@@download/ENCFF176KNA.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR677SIH C57BL_6_lung_embryo_14_5_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR677SIH age=14_5_day description=ENCSR677SIH_C57BL_6_lung_embryo_14_5_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR985ZTV_ENCFF581XWU
+	parent tf_factors_CTCF off
+	subGroups age=a0_day age_sex=0_day assay=ChIP-seq biosample=midbrain biosample_summary=C57BL6_midbrain_postnatal_0_days donor=ENCDO956IXV label=CTCF sex=unknown target_label=ChIP-seq_transcription_factor_CTCF view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF581XWU/@@download/ENCFF581XWU.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 0,176,240
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq CTCF
+	longLabel ENCSR985ZTV C57BL_6_midbrain_postnatal_0_days_ (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR985ZTV age=0_day description=ENCSR985ZTV_C57BL_6_midbrain_postnatal_0_days_fold_change_over_control_ donor=ENCDO956IXV sex=unknown view=bigWig 
+	view bigWig
+
+
+
+track tf_factors_NRF1
+parent super_tf_factors
+compositeTrack on
+shortLabel NRF1
+longLabel NRF1 (2 experiments)
+type bigWig 9 +
+maxHeightPixels 64:12:8
+autoScale on
+subGroup1 biosample biosample CH12LX=CH12LX MEL_cell_line=MEL_cell_line 
+subGroup2 age_sex age_sex unknown=unknown unknown_week=unknown_week 
+subGroup3 view view bigWig=bigWig 
+sortOrder biosample=+ age_sex=+ view=+
+dimensions dimX=age_sex dimY=biosample
+dragAndDrop subTracks
+hoverMetadata on
+darkerLabels on
+
+	track tf__ENCSR135SWH_ENCFF623PQH
+	parent tf_factors_NRF1 off
+	subGroups age=aunknown_week age_sex=unknown_week assay=ChIP-seq biosample=MEL_cell_line biosample_summary=DBA2_MEL_cell_line donor=ENCDO073AAA label=NRF1 sex=unknown target_label=ChIP-seq_transcription_factor_NRF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF623PQH/@@download/ENCFF623PQH.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NRF1
+	longLabel ENCSR135SWH DBA_2_MEL_cell_line (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR135SWH age=unknown_week description=ENCSR135SWH_DBA_2_MEL_cell_line_fold_change_over_control_ donor=ENCDO073AAA sex=unknown view=bigWig 
+	view bigWig
+
+	track tf__ENCSR980YXJ_ENCFF650BRL
+	parent tf_factors_NRF1 off
+	subGroups age=aunknown age_sex=unknown assay=ChIP-seq biosample=CH12LX biosample_summary=B10H-2aH-4bpWts_CH12LX donor=ENCDO324YEK label=NRF1 sex=unknown target_label=ChIP-seq_transcription_factor_NRF1 view=bigWig 
+	bigDataUrl https://www.encodeproject.org/files/ENCFF650BRL/@@download/ENCFF650BRL.bigWig?proxy=true
+	visibility hide
+	type bigWig
+	color 227,184,136
+	height maxHeightPixels 64:12:8
+	shortLabel ChIP-seq NRF1
+	longLabel ENCSR980YXJ B10_H_2aH_4bp_Wts_CH12_LX (fold change over control)
+	itemRgb On
+	darkerLabels on
+	metadata accession=ENCSR980YXJ age=unknown description=ENCSR980YXJ_B10_H_2aH_4bp_Wts_CH12_LX_fold_change_over_control_ donor=ENCDO324YEK sex=unknown view=bigWig 
+	view bigWig
 
 
