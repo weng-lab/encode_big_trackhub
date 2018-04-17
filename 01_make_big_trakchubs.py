@@ -38,6 +38,11 @@ class MegaTrackHub:
     def run(self):
         self._makeHub()
 
+        self.byAssayByFactorOutput = ""
+        if self.args.factor:
+            self.byAssayByFactorOutput = TrackhubDbByAssayByFactor(self.args, self.assembly,
+                                                                   self.globalData, self.mw).run()
+
         self.byBiosampleTypeOutput = ""
         if self.args.biosample:
             self.byBiosampleTypeOutput = TrackhubDbBiosampleType(self.args, self.assembly,
@@ -47,11 +52,6 @@ class MegaTrackHub:
         if self.args.assay:
             self.byAssayByBiosampleTypeOutput = TrackhubDbByAssayByBiosampleType(self.args, self.assembly,
                                                                   self.globalData, self.mw).run()
-
-        self.byAssayByFactorOutput = ""
-        if self.args.factor:
-            self.byAssayByFactorOutput = TrackhubDbByAssayByFactor(self.args, self.assembly,
-                                                                   self.globalData, self.mw).run()
 
         self.byCcREsOutput = ""
         if self.args.ccREs:
