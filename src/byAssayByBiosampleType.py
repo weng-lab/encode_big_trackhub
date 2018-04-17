@@ -43,7 +43,7 @@ class TrackhubDbByAssayByBiosampleType:
 
         self.expsByAssay= [("DNase", "chromatin_accessibility", True,
                             self.mw.dnases_useful),
-                           ("Histone", "histone_modifications", True,
+                           ("Histone", "histone_modifications", False,
                             self.mw.chipseq_histones_useful),
                            ("RNA-seq", "transcription", True,
                             self.mw.transcription_useful),
