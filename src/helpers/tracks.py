@@ -5,7 +5,7 @@ import os
 import urllib
 from collections import OrderedDict, defaultdict
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '../../metadata/utils'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../../metadata/utils'))
 from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 
 import helpers as Helpers

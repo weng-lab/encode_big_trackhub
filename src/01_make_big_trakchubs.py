@@ -20,7 +20,7 @@ from byAssayByBiosampleType import TrackhubDbByAssayByBiosampleType
 from byAssayByFactor import TrackhubDbByAssayByFactor
 from byCcREs import TrackhubDbByCcREs
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '../metadata/utils'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../metadata/utils'))
 from files_and_paths import Dirs, Urls, Datasets
 from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 from metadataws import MetadataWS
@@ -137,7 +137,7 @@ def main():
             globalData = ws.json()
         else:
             printt("loading globalData from disk...")
-            fnp = os.path.join(os.path.dirname(__file__), "lists",
+            fnp = os.path.join(os.path.dirname(__file__), "../lists",
                                "globalData." + assembly + ".json")
             with open(fnp) as f:
                 globalData = json.load(f)
