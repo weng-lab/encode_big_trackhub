@@ -85,12 +85,20 @@ descriptionUrl http://encodeproject.org/
 
 def outputGenomes(assemblies):
     fnp = os.path.join(BaseWwwDir, 'genomes.txt')
+
+    defaultPoses = {"hg19": "chr12:47385000-47415000",
+                    "mm10": ""}
+
     with open(fnp, 'w') as f:
         for assembly in assemblies:
+            defaultPos = defaultPoses.get(assembly, "")
+
             f.write("""
 genome {assembly}
 trackDb {assembly}/trackDb.txt
-""".format(assembly = assembly))
+defaultPos {defaultPos}
+""".format(assembly = assembly,
+           defaultPos = defaultPos))
     printWroteNumLines(fnp)
 
 
