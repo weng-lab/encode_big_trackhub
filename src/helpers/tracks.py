@@ -9,6 +9,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../../../metadata/utils
 from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 
 import helpers as Helpers
+from byAll import GetTissue, ColorByTissue
 
 class LookupActive:
     def __init__(self, btid, btname, info, cREs):
@@ -64,6 +65,7 @@ class BigWigTrack(object):
         self.parent = parent
         self.active = active
         self.view = "bigWig"
+        self.presentation = {}
         self.p = self._init()
 
     def _init(self):
@@ -111,7 +113,6 @@ class BigWigTrack(object):
         age_sex = ' '.join([e for e in [self.exp.age_display, self.exp.donor_sex] if e]).strip()
         s["age_sex"] = Helpers.getOrUnknown(age_sex)
         s["view"] = self.view
-        self.presentation = {}
         self.presentation["label"] = (s["label"],
                                    Helpers.html_escape(Helpers.getOrUnknown(self.exp.tf)))
         self.presentation["assay"] = (s["assay"], s["assay"])
@@ -155,6 +156,17 @@ class BigWigTrack(object):
         if self.active:
             extras["priority"] = idx
         return outputLines(self.p, 1, extras)
+
+class BigWigTrackAll(BigWigTrack):
+    def __init__(self, assembly, exp, f, parent, active):
+        BigWigTrack.__init__(self, assembly, exp, f, parent, active)
+        self.tissue = GetTissue(assembly, exp)
+        self.p["color"] = ColorByTissue(self.tissue)
+        self.p["track"] = "all_" + self.p["track"]
+        self.p["height"] = "maxHeightPixels 32:12:8"
+        self.p["shortLabel"] = Helpers.makeShortLabel(exp.biosample_term_name)
+
+        self.presentation["tissue"] = (self.tissue, self.tissue)
 
 class BigBedTrack(object):
     def __init__(self, assembly, exp, f, parent, active):
@@ -339,6 +351,9 @@ class CompositeExpTrack(object):
         self.exp = exp
         self.active = active
         self.bedParent = Parent(parent.parent + '_view_' + exp.encodeID, parent.on)
+        self.beds = []
+        self.bigWigs = []
+        self.cREs = []
 
     def _addExpBestBigWig(self, exp, active):
         files = Helpers.bigWigFilters(self.assembly, exp)
@@ -350,6 +365,19 @@ class CompositeExpTrack(object):
         else:
             for f in files:
                 t = BigWigTrack(self.assembly, exp, f, self.parent, active)
+                ret.append(t)
+        return ret
+
+    def _addExpBestBigWigAll(self, exp, active):
+        files = Helpers.bigWigFilters(self.assembly, exp)
+        expID = exp.encodeID
+
+        ret = []
+        if not files:
+            eprint("missing bigwig for", expID)
+        else:
+            for f in files:
+                t = BigWigTrackAll(self.assembly, exp, f, self.parent, active)
                 ret.append(t)
         return ret
 
@@ -383,6 +411,9 @@ class CompositeExpTrack(object):
         self.bigWigs = self._addExpBestBigWig(self.exp, self.active)
         self.cREs = self._addcREs(self.exp, self.active, cREs)
 
+    def addExpAll(self, cREs):
+        self.bigWigs = self._addExpBestBigWigAll(self.exp, self.active)
+
     def view(self):
         p = OrderedDict()
         p["track"] = self.bedParent.parent
@@ -397,19 +428,28 @@ class CompositeExpTrack(object):
             yield t
 
 class Tracks(object):
-    def __init__(self, assembly, parent, priorityStart):
+    def __init__(self, assembly, parent, priorityStart, isAll = False):
         self.assembly = assembly
         self.parent = parent
         self.priorityStart = priorityStart
         self.tracks = []
+        self.isAll = False
 
     def addExp(self, exp, active, cREs):
         ct = CompositeExpTrack(self.assembly, self.parent, exp, active)
         ct.addExp(cREs)
         self.tracks.append(ct)
 
+    def addExpAll(self, exp, active, cREs):
+        ct = CompositeExpTrack(self.assembly, self.parent, exp, active)
+        ct.addExpAll(cREs)
+        self.tracks.append(ct)
+
     def lines(self):
-        tracks = self._sortedTracks()
+        if self.isAll:
+            tracks = self._sortAllTracks()
+        else:
+            tracks = self._sortedTracks()
         counter = 0
         for ct in tracks:
             for t in ct.bigWigs:
@@ -424,6 +464,14 @@ class Tracks(object):
                     counter += 1
                     for line in t.lines(self.priorityStart + counter):
                         yield line
+
+    def _sortAllTracks(self):
+        tracks = self.tracks
+
+        def preferredSortOrder(track):
+            return (track.tissue, track.exp.biosample_term_name)
+
+        return sorted(tracks, key = lambda t: preferredSortOrder(t.exp))
 
     def _sortedTracks(self):
         tracks = self.tracks

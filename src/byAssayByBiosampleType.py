@@ -41,18 +41,14 @@ class TrackhubDbByAssayByBiosampleType:
         self.globalData = globalData
         self.mw = mw
 
-        self.expsByAssay= [("DNase",
-                            "chromatin_accessibility",
+        self.expsByAssay= [("DNase", "chromatin_accessibility", True,
                             self.mw.dnases_useful),
-                           ("Histone",
-                            "histone_modifications",
+                           ("Histone", "histone_modifications", False,
                             self.mw.chipseq_histones_useful),
-                           ("RNA-seq",
-                            "transcription",
+                           ("RNA-seq", "transcription", True,
                             self.mw.transcription_useful),
-                           ("TFs by Biosample Type",
-                            "transcription_factors",
-                            self.mw.chipseq_tfs_useful)
+                           ("TFs by Biosample Type", "transcription_factors",
+                            False, self.mw.chipseq_tfs_useful)
         ]
 
 
@@ -65,18 +61,35 @@ class TrackhubDbByAssayByBiosampleType:
         self.lookupByExp = {}
 
     def run(self):
-        for title, assayAbbr, expsF in self.expsByAssay:
+        for title, assayAbbr, showAllTrack, expsF in self.expsByAssay:
             exps = expsF()
-            self._build(title, assayAbbr, exps)
+            self._build(title, assayAbbr, showAllTrack, exps)
         return self._makeMainTrackDb()
 
-    def _build(self, assay_term_name, atn, exps):
+    def _build(self, assay_term_name, atn, showAllTrack, exps):
         printt("building", assay_term_name, "...")
+
         def sorter(exp):
             return (exp.biosample_type)
         exps.sort(key = sorter)
 
         self.btToNormal[atn] = assay_term_name
+
+        if showAllTrack:
+            biosample_type = "0_all"
+            bt = Helpers.sanitize(biosample_type)
+            self.btToNormal[bt] = biosample_type
+
+            fnp = os.path.join(BaseWwwTmpDir, self.assembly, "subtracks", atn, bt +'.txt')
+            self.byAssayBiosampleType[atn][bt] = {
+                "assay_term_name": assay_term_name,
+                "atn": atn,
+                "biosample_type": biosample_type,
+                "bt": bt,
+                "fnp": fnp,
+                "exps": exps,
+                "assembly": self.assembly
+            }
 
         for biosample_type, exps in groupby(exps, sorter):
             exps = list(exps)
@@ -168,6 +181,9 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
     elif "transcription" == atn:
         subGroup1key = "biosample"
         subGroup2key = "assay"
+    elif "0_all" == bt:
+        subGroup1key = "tissue"
+        subGroup2key = "age_sex"
     else:
         subGroup1key = "donor"
         subGroup2key = "age"
@@ -234,7 +250,7 @@ def outputSubTrack(assembly, assay_term_name, atn, biosample_type, bt,
 
     parent = Parent(atn + '_' + bt, isActive)
 
-    tracks = Tracks(assembly, parent, (1 + idx) * 1000)
+    tracks = Tracks(assembly, parent, (1 + idx) * 1000, "0_all" == bt)
     for exp in exps:
         active = False
         expID = exp.encodeID
@@ -242,7 +258,10 @@ def outputSubTrack(assembly, assay_term_name, atn, biosample_type, bt,
         if expID in lookupByExp:
             active = lookupByExp[expID].isActive()
             cREs = lookupByExp[expID].cREs
-        tracks.addExp(exp, active, cREs)
+        if "0_all" == bt:
+            tracks.addExpAll(exp, True, cREs)
+        else:
+            tracks.addExp(exp, active, cREs)
 
     Utils.ensureDir(fnp)
     with open(fnp, 'w') as f:
