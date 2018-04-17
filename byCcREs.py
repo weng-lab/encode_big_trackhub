@@ -108,7 +108,7 @@ class TrackhubDbByCcREs:
         self.globalData = globalData
         self.mw = mw
 
-        self.expsByAssay= [("ccREs", "ccres",
+        self.expsByAssay= [("candidate cis-Regulatory Regions", "ccres",
                             ccREexps),
         ]
 
@@ -205,7 +205,7 @@ shortLabel {shortL}
 longLabel {longL}
 """.format(atn = atn,
            priority = priority,
-           shortL=Helpers.makeShortLabel(shortLabel),
+           shortL=shortLabel,
            longL=Helpers.makeLongLabel(longLabel)))
 
         outF = StringIO.StringIO()

@@ -9,6 +9,7 @@ import requests
 from collections import OrderedDict, defaultdict
 from joblib import Parallel, delayed
 import StringIO
+from titlecase import titlecase
 
 from helpers.tracks import Tracks, Parent, LookupActive
 import helpers.helpers as Helpers
@@ -118,6 +119,16 @@ class TrackhubDbBiosampleType:
             totalExperiments = sum([len(info["expIDs"]) for info in btnFnps.values()])
             shortLabel = self.btToNormal[bt]
             longLabel = self.btToNormal[bt] + " (%s experiments)" % totalExperiments
+
+            if shortLabel == "induced pluripotent stem cell line":
+                shortLabel = "IPSC"
+
+            shortLabel = titlecase(shortLabel)
+            shortLabel = shortLabel.replace('Ipsc', 'IPSC')
+            shortLabel = shortLabel.replace('In Vitro Differentiated Cell',
+                                            'in vitro Diff Cell')
+            shortLabel = 'Exps: ' + shortLabel
+
             mainTrackDb.append("""
 track super_{bt}
 superTrack on show
@@ -126,7 +137,7 @@ shortLabel {shortL}
 longLabel {longL}
 """.format(bt = bt,
            priority = priority,
-           shortL=Helpers.makeShortLabel(shortLabel),
+           shortL=shortLabel,
            longL=Helpers.makeLongLabel(longLabel)))
 
         outF = StringIO.StringIO()

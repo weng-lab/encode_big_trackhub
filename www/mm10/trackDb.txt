@@ -2,35 +2,35 @@
 track super_chromatin_accessibility
 superTrack on show
 priority 1
-shortLabel Chromatin Accessi
-longLabel Chromatin Accessibility (76 experiments)
+shortLabel Assay: DNase
+longLabel Assay: DNase (76 experiments)
 
 
 track super_histone_modifications
 superTrack on show
 priority 2
-shortLabel Histone Modificat
-longLabel Histone Modifications (702 experiments)
+shortLabel Assay: Histone
+longLabel Assay: Histone (702 experiments)
 
 
 track super_transcription_factors
 superTrack on show
 priority 3
-shortLabel Transcription Fac
-longLabel Transcription Factors (157 experiments)
+shortLabel Assay: TF
+longLabel Assay: TF (157 experiments)
 
 
 track super_transcription
 superTrack on show
 priority 4
-shortLabel Transcription
-longLabel Transcription (196 experiments)
+shortLabel Assay: RNA-seq
+longLabel Assay: RNA-seq (196 experiments)
 
 track chromatin_accessibility_cell_line
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel cell line
-longLabel Chromatin Accessibility_cell line (7 experiments)
+longLabel Assay: DNase_cell line (7 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -154,7 +154,7 @@ track chromatin_accessibility_in_vitro_differentiated_cells
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel in vitro differen
-longLabel Chromatin Accessibility_in vitro differentiated cells (4 experiments)
+longLabel Assay: DNase_in vitro differentiated cells (4 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -233,7 +233,7 @@ track chromatin_accessibility_stem_cell
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel stem cell
-longLabel Chromatin Accessibility_stem cell (4 experiments)
+longLabel Assay: DNase_stem cell (4 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -312,7 +312,7 @@ track chromatin_accessibility_tissue
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel tissue
-longLabel Chromatin Accessibility_tissue (55 experiments)
+longLabel Assay: DNase_tissue (55 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -1156,7 +1156,7 @@ track chromatin_accessibility_primary_cell
 parent super_chromatin_accessibility
 compositeTrack on
 shortLabel primary cell
-longLabel Chromatin Accessibility_primary cell (6 experiments)
+longLabel Assay: DNase_primary cell (6 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -1265,7 +1265,7 @@ track histone_modifications_cell_line
 parent super_histone_modifications
 compositeTrack on
 shortLabel cell line
-longLabel Histone Modifications_cell line (36 experiments)
+longLabel Assay: Histone_cell line (36 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -1824,7 +1824,7 @@ track histone_modifications_in_vitro_differentiated_cells
 parent super_histone_modifications
 compositeTrack on
 shortLabel in vitro differen
-longLabel Histone Modifications_in vitro differentiated cells (6 experiments)
+longLabel Assay: Histone_in vitro differentiated cells (6 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -1933,7 +1933,7 @@ track histone_modifications_stem_cell
 parent super_histone_modifications
 compositeTrack on
 shortLabel stem cell
-longLabel Histone Modifications_stem cell (30 experiments)
+longLabel Assay: Histone_stem cell (30 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -2402,7 +2402,7 @@ track histone_modifications_tissue
 parent super_histone_modifications
 compositeTrack on
 shortLabel tissue
-longLabel Histone Modifications_tissue (612 experiments)
+longLabel Assay: Histone_tissue (612 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -11601,7 +11601,7 @@ track histone_modifications_primary_cell
 parent super_histone_modifications
 compositeTrack on
 shortLabel primary cell
-longLabel Histone Modifications_primary cell (18 experiments)
+longLabel Assay: Histone_primary cell (18 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -11890,7 +11890,7 @@ track transcription_factors_cell_line
 parent super_transcription_factors
 compositeTrack on
 shortLabel cell line
-longLabel Transcription Factors_cell line (89 experiments)
+longLabel Assay: TF_cell line (89 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -13244,7 +13244,7 @@ track transcription_factors_in_vitro_differentiated_cells
 parent super_transcription_factors
 compositeTrack on
 shortLabel in vitro differen
-longLabel Transcription Factors_in vitro differentiated cells (15 experiments)
+longLabel Assay: TF_in vitro differentiated cells (15 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -13488,7 +13488,7 @@ track transcription_factors_stem_cell
 parent super_transcription_factors
 compositeTrack on
 shortLabel stem cell
-longLabel Transcription Factors_stem cell (18 experiments)
+longLabel Assay: TF_stem cell (18 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -13777,7 +13777,7 @@ track transcription_factors_tissue
 parent super_transcription_factors
 compositeTrack on
 shortLabel tissue
-longLabel Transcription Factors_tissue (29 experiments)
+longLabel Assay: TF_tissue (29 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14231,7 +14231,7 @@ track transcription_factors_primary_cell
 parent super_transcription_factors
 compositeTrack on
 shortLabel primary cell
-longLabel Transcription Factors_primary cell (6 experiments)
+longLabel Assay: TF_primary cell (6 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14340,7 +14340,7 @@ track transcription_cell_line
 parent super_transcription
 compositeTrack on
 shortLabel cell line
-longLabel Transcription_cell line (11 experiments)
+longLabel Assay: RNA-seq_cell line (11 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14524,7 +14524,7 @@ track transcription_in_vitro_differentiated_cells
 parent super_transcription
 compositeTrack on
 shortLabel in vitro differen
-longLabel Transcription_in vitro differentiated cells (2 experiments)
+longLabel Assay: RNA-seq_in vitro differentiated cells (2 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14573,7 +14573,7 @@ track transcription_stem_cell
 parent super_transcription
 compositeTrack on
 shortLabel stem cell
-longLabel Transcription_stem cell (18 experiments)
+longLabel Assay: RNA-seq_stem cell (18 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -14862,7 +14862,7 @@ track transcription_tissue
 parent super_transcription
 compositeTrack on
 shortLabel tissue
-longLabel Transcription_tissue (144 experiments)
+longLabel Assay: RNA-seq_tissue (144 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -17041,7 +17041,7 @@ track transcription_primary_cell
 parent super_transcription
 compositeTrack on
 shortLabel primary cell
-longLabel Transcription_primary cell (21 experiments)
+longLabel Assay: RNA-seq_primary cell (21 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -17374,35 +17374,35 @@ darkerLabels on
 track super_cell_line
 superTrack on show
 priority 11
-shortLabel cell line
+shortLabel Exps: Cell Line
 longLabel cell line (143 experiments)
 
 
 track super_in_vitro_differentiated_cells
 superTrack on show
 priority 12
-shortLabel in vitro differen
+shortLabel Exps: in vitro Diff Cells
 longLabel in vitro differentiated cells (32 experiments)
 
 
 track super_stem_cell
 superTrack on show
 priority 13
-shortLabel stem cell
+shortLabel Exps: Stem Cell
 longLabel stem cell (74 experiments)
 
 
 track super_tissue
 superTrack on show
 priority 14
-shortLabel tissue
+shortLabel Exps: Tissue
 longLabel tissue (1019 experiments)
 
 
 track super_primary_cell
 superTrack on show
 priority 15
-shortLabel primary cell
+shortLabel Exps: Primary Cell
 longLabel primary cell (61 experiments)
 
 track cell_line_CH12_LX
@@ -57776,14 +57776,14 @@ darkerLabels on
 track super_ccres
 superTrack on show
 priority 1
-shortLabel ccREs
-longLabel ccREs (284 experiments)
+shortLabel candidate cis-Regulatory Regions
+longLabel candidate cis-Regulatory Regions (284 experiments)
 
 track ccres_in_vitro_differentiated_cells
 parent super_ccres
 compositeTrack on
 shortLabel in vitro differen
-longLabel ccREs_in vitro differentiated cells (4 experiments)
+longLabel candidate cis-Regulatory Regions_in vitro differentiated cells (4 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -57938,7 +57938,7 @@ track ccres_primary_cell
 parent super_ccres
 compositeTrack on
 shortLabel primary cell
-longLabel ccREs_primary cell (14 experiments)
+longLabel candidate cis-Regulatory Regions_primary cell (14 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -58667,7 +58667,7 @@ track ccres_immortalized_cell_line
 parent super_ccres
 compositeTrack on
 shortLabel immortalized cell
-longLabel ccREs_immortalized cell line (16 experiments)
+longLabel candidate cis-Regulatory Regions_immortalized cell line (16 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -59594,7 +59594,7 @@ track ccres_tissue
 parent super_ccres
 compositeTrack on
 shortLabel tissue
-longLabel ccREs_tissue (235 experiments)
+longLabel candidate cis-Regulatory Regions_tissue (235 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on
@@ -74779,7 +74779,7 @@ track ccres_stem_cell
 parent super_ccres
 compositeTrack on
 shortLabel stem cell
-longLabel ccREs_stem cell (15 experiments)
+longLabel candidate cis-Regulatory Regions_stem cell (15 experiments)
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on

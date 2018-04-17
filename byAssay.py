@@ -41,13 +41,13 @@ class TrackhubDbByAssay:
         self.globalData = globalData
         self.mw = mw
 
-        self.expsByAssay= [("Chromatin Accessibility", "chromatin_accessibility",
+        self.expsByAssay= [("Assay: DNase", "chromatin_accessibility",
                             self.mw.dnases_useful),
-                           ("Histone Modifications", "histone_modifications",
+                           ("Assay: Histone", "histone_modifications",
                             self.mw.chipseq_histones_useful),
-                           ("Transcription", "transcription",
+                           ("Assay: RNA-seq", "transcription",
                             self.mw.transcription_useful),
-                           ("Transcription Factors", "transcription_factors",
+                           ("Assay: TF", "transcription_factors",
                             self.mw.chipseq_tfs_useful)
         ]
 
@@ -114,6 +114,7 @@ class TrackhubDbByAssay:
             totalExperiments = sum([len(info["exps"]) for info in btAndInfo.values()])
             shortLabel = self.btToNormal[atn]
             longLabel = self.btToNormal[atn] + " (%s experiments)" % totalExperiments
+
             mainTrackDb.append("""
 track super_{atn}
 superTrack on show
@@ -122,7 +123,7 @@ shortLabel {shortL}
 longLabel {longL}
 """.format(atn = atn,
            priority = priority,
-           shortL=Helpers.makeShortLabel(shortLabel),
+           shortL=shortLabel,
            longL=Helpers.makeLongLabel(longLabel)))
 
         outF = StringIO.StringIO()
