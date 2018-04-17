@@ -16,7 +16,8 @@ from helpers.tracks import Tracks, Parent
 import helpers.helpers as Helpers
 from paths import Host, BaseWwwDir, BaseWwwTmpDir
 from byBiosampleType import TrackhubDbBiosampleType
-from byAssay import TrackhubDbByAssay
+from byAssayByBiosampleType import TrackhubDbByAssayByBiosampleType
+from byAssayByFactor import TrackhubDbByAssayByFactor
 from byCcREs import TrackhubDbByCcREs
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '../metadata/utils'))
@@ -39,19 +40,23 @@ class MegaTrackHub:
 
         self.byBiosampleTypeOutput = ""
         if self.args.biosample:
-            self.byBiosampleType = TrackhubDbBiosampleType(self.args, self.assembly,
-                                                           self.globalData, self.mw)
-            self.byBiosampleTypeOutput = self.byBiosampleType.run()
+            self.byBiosampleTypeOutput = TrackhubDbBiosampleType(self.args, self.assembly,
+                                                                 self.globalData, self.mw).run()
 
-        self.byAssayOutput = ""
+        self.byAssayByBiosampleTypeOutput = ""
         if self.args.assay:
-            self.byAssay = TrackhubDbByAssay(self.args, self.assembly, self.globalData, self.mw)
-            self.byAssayOutput = self.byAssay.run()
+            self.byAssayByBiosampleTypeOutput = TrackhubDbByAssayByBiosampleType(self.args, self.assembly,
+                                                                  self.globalData, self.mw).run()
+
+        self.byAssayByFactorOutput = ""
+        if self.args.factor:
+            self.byAssayByFactorOutput = TrackhubDbByAssayByFactor(self.args, self.assembly,
+                                                                   self.globalData, self.mw).run()
 
         self.byCcREsOutput = ""
         if self.args.ccREs:
-            self.byCcREs = TrackhubDbByCcREs(self.args, self.assembly, self.globalData, self.mw)
-            self.byCcREsOutput = self.byCcREs.run()
+            self.byCcREsOutput = TrackhubDbByCcREs(self.args, self.assembly,
+                                                   self.globalData, self.mw).run()
 
         self.makeMainTrackDb()
 
@@ -59,9 +64,10 @@ class MegaTrackHub:
         fnp = os.path.join(BaseWwwDir, self.assembly, 'trackDb.txt')
         Utils.ensureDir(fnp)
         with open(fnp, 'w') as f:
-            f.write(self.byAssayOutput)
+            f.write(self.byAssayByBiosampleTypeOutput)
             f.write(self.byBiosampleTypeOutput)
             f.write(self.byCcREsOutput)
+            f.write(self.byAssayByFactorOutput)
         printWroteNumLines(fnp)
 
     def _makeHub(self):
@@ -108,6 +114,11 @@ def parse_args():
     ccREs_parser.add_argument('--ccREs', dest='ccREs', action='store_true')
     ccREs_parser.add_argument('--no-ccREs', dest='ccREs', action='store_false')
     parser.set_defaults(ccREs=True)
+
+    factor_parser = parser.add_mutually_exclusive_group(required=False)
+    factor_parser.add_argument('--factor', dest='factor', action='store_true')
+    factor_parser.add_argument('--no-factor', dest='factor', action='store_false')
+    parser.set_defaults(factor=True)
 
     return parser.parse_args()
 
