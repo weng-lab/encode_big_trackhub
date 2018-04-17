@@ -43,7 +43,7 @@ class TrackhubDbByAssayByBiosampleType:
 
         self.expsByAssay= [("DNase", "chromatin_accessibility", True,
                             self.mw.dnases_useful),
-                           ("Histone", "histone_modifications", False,
+                           ("Histone", "histone_modifications", True,
                             self.mw.chipseq_histones_useful),
                            ("RNA-seq", "transcription", True,
                             self.mw.transcription_useful),
@@ -128,7 +128,12 @@ class TrackhubDbByAssayByBiosampleType:
         priority = 0
         for atn, btAndInfo in self.byAssayBiosampleType.iteritems():
             priority += 1
-            totalExperiments = sum([len(info["exps"]) for info in btAndInfo.values()])
+
+            totalExperiments = 0
+            for bt, info in btAndInfo.iteritems():
+                if "0_all" != bt:
+                    totalExperiments += len(info["exps"])
+
             shortLabel = self.btToNormal[atn]
             longLabel = self.btToNormal[atn] + " (%s experiments)" % totalExperiments
 
@@ -181,12 +186,14 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
     elif "transcription" == atn:
         subGroup1key = "biosample"
         subGroup2key = "assay"
-    elif "0_all" == bt:
-        subGroup1key = "tissue"
-        subGroup2key = "age_sex"
     else:
         subGroup1key = "donor"
         subGroup2key = "age"
+
+    if "0_all" == bt:
+        subGroup1key = "tissue"
+        subGroup2key = "age_sex"
+
     subGroup3key = "view"
     subGroup1 = Helpers.unrollEquals(subGroupsDict[subGroup1key])
     subGroup2 = Helpers.unrollEquals(subGroupsDict[subGroup2key])

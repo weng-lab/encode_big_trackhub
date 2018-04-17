@@ -59,10 +59,11 @@ class DetermineTissue:
 def GetTissue(assembly, exp):
     t = DetermineTissue.TranslateTissue(assembly, exp).strip()
     if not t:
-        print("missing " + exp.encodeID)
+        eprint("missing", exp.encodeID, exp.biosample_term_name)
         #raise Exception("missing " + expID)
         t = exp.biosample_term_name
 
+    #eprint(exp.biosample_term_name, t)
     return t
 
 TissueColors = {}

@@ -79,7 +79,7 @@ class BigWigTrack(object):
         p["color"] = Helpers.colorize(self.exp)
         p["height"] = "maxHeightPixels 64:12:8"
         p["shortLabel"] = Helpers.makeShortLabel(self.exp.assay_term_name, self.exp.tf)
-        p["longLabel"] = Helpers.makeLongLabel(self._desc())
+        p["longLabel"] = Helpers.makeLongLabel(self.exp.assay_term_name + ' ' + self._desc())
         p["itemRgb"] = "On"
         p["darkerLabels"] = "on"
         p["metadata"] = Helpers.unrollEquals(self._metadata())
@@ -125,6 +125,7 @@ class BigWigTrack(object):
         self.presentation["age_sex"] = (s["age_sex"], s["age_sex"])
         self.presentation["biosample"] = (s["biosample"], s["biosample"])
         self.presentation["biosample_summary"] = (s["biosample_summary"], s["biosample_summary"])
+        self.presentation["tissue"] = self.presentation["biosample"]
         return s
 
     def _url(self):
@@ -158,15 +159,15 @@ class BigWigTrack(object):
         return outputLines(self.p, 1, extras)
 
 class BigWigTrackAll(BigWigTrack):
-    def __init__(self, assembly, exp, f, parent, active):
+    def __init__(self, assembly, exp, f, parent, active, tissue):
         BigWigTrack.__init__(self, assembly, exp, f, parent, active)
-        self.tissue = GetTissue(assembly, exp)
-        self.p["color"] = ColorByTissue(self.tissue)
+
+        self.p["color"] = ColorByTissue(tissue)
         self.p["track"] = "all_" + self.p["track"]
         self.p["height"] = "maxHeightPixels 32:12:8"
-        self.p["shortLabel"] = Helpers.makeShortLabel(exp.biosample_term_name)
+        self.p["shortLabel"] = Helpers.makeShortLabel(tissue)
 
-        self.presentation["tissue"] = (self.tissue, self.tissue)
+        self.presentation["tissue"] = (tissue, tissue)
 
 class BigBedTrack(object):
     def __init__(self, assembly, exp, f, parent, active):
@@ -258,6 +259,7 @@ class BigBedTrack(object):
         self.presentation["age_sex"] = (s["age_sex"], s["age_sex"])
         self.presentation["biosample"] = (s["biosample"], s["biosample"])
         self.presentation["biosample_summary"] = (s["biosample_summary"], s["biosample_summary"])
+        self.presentation["tissue"] = self.presentation["biosample"]
         return s
 
     def lines(self, idx):
@@ -336,6 +338,7 @@ class cRETrack(object):
         self.presentation["age_sex"] = ('', '')
         self.presentation["target_label"] = (s["assay"], s["assay"])
         self.presentation["biosample_summary"] = (s["biosample"], s["biosample"])
+        self.presentation["tissue"] = self.presentation["biosample"]
         return s
 
     def lines(self, idx):
@@ -371,13 +374,15 @@ class CompositeExpTrack(object):
     def _addExpBestBigWigAll(self, exp, active):
         files = Helpers.bigWigFilters(self.assembly, exp)
         expID = exp.encodeID
+        self.tissue = GetTissue(self.assembly, exp)
 
         ret = []
         if not files:
             eprint("missing bigwig for", expID)
         else:
             for f in files:
-                t = BigWigTrackAll(self.assembly, exp, f, self.parent, active)
+                t = BigWigTrackAll(self.assembly, exp, f, self.parent, active,
+                                   self.tissue)
                 ret.append(t)
         return ret
 
@@ -433,7 +438,7 @@ class Tracks(object):
         self.parent = parent
         self.priorityStart = priorityStart
         self.tracks = []
-        self.isAll = False
+        self.isAll = isAll
 
     def addExp(self, exp, active, cREs):
         ct = CompositeExpTrack(self.assembly, self.parent, exp, active)
@@ -471,7 +476,7 @@ class Tracks(object):
         def preferredSortOrder(track):
             return (track.tissue, track.exp.biosample_term_name)
 
-        return sorted(tracks, key = lambda t: preferredSortOrder(t.exp))
+        return sorted(tracks, key = lambda t: preferredSortOrder(t))
 
     def _sortedTracks(self):
         tracks = self.tracks
