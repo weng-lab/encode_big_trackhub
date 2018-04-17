@@ -41,16 +41,21 @@ class TrackhubDbByAssayByBiosampleType:
         self.globalData = globalData
         self.mw = mw
 
-        self.expsByAssay= [("DNase-seq", "dnase", True,
+        self.expsByAssay= [("DNase-seq", "dnase",
+                            "DNase-seq", True,
                             self.mw.dnases_useful),
-                           ("Histone", "histone_modifications", False,
+                           ("Histone by Biosample", "histone_modifications",
+                            "Histone modifications and variants", False,
                             self.mw.chipseq_histones_useful),
-                           ("RNA-seq", "transcription", True,
+                           ("RNA-seq", "transcription",
+                            "RNA-seq", True,
                             self.mw.transcription_useful),
-                           ("microRNAseq", "microRNAseq", True,
+                           ("microRNA-seq", "microRNAseq",
+                            "microRNA-seq", True,
                             self.mw.microRNAseq_useful),
                            ("TFs by Biosample Type", "transcription_factors",
-                            False, self.mw.chipseq_tfs_useful)
+                            "Transcription Factors", False,
+                            self.mw.chipseq_tfs_useful)
         ]
         if "mm10" == assembly:
             self.expsByAssay.append(("ATAC-seq", "atac_seq", True,
@@ -69,10 +74,10 @@ class TrackhubDbByAssayByBiosampleType:
         self.lookupByExp = {}
 
     def run(self):
-        for title, assayAbbr, showAllTrack, expsF in self.expsByAssay:
+        for title, assayAbbr, longLabelBase, showAllTrack, expsF in self.expsByAssay:
             exps = expsF()
             self._build(title, assayAbbr, showAllTrack, exps)
-        return self._makeMainTrackDb()
+        return self._makeMainTrackDb(longLabelBase)
 
     def _build(self, assay_term_name, atn, showAllTrack, exps):
         printt("building", assay_term_name, "...")
@@ -84,8 +89,8 @@ class TrackhubDbByAssayByBiosampleType:
         self.btToNormal[atn] = assay_term_name
 
         if showAllTrack:
-            biosample_type = "0_all"
-            bt = Helpers.sanitize(biosample_type)
+            biosample_type = "ALL DATA"
+            bt = "0_all"
             self.btToNormal[bt] = biosample_type
 
             fnp = os.path.join(BaseWwwTmpDir, self.assembly, "subtracks", atn, bt +'.txt')
@@ -130,7 +135,7 @@ class TrackhubDbByAssayByBiosampleType:
         Parallel(n_jobs=self.args.j)(delayed(outputAllTracksByBiosampleType)(job)
                                      for job in jobs)
 
-    def _makeMainTrackDb(self):
+    def _makeMainTrackDb(self, longLabelBase):
         mainTrackDb = []
 
         priority = 0
@@ -143,7 +148,7 @@ class TrackhubDbByAssayByBiosampleType:
                     totalExperiments += len(info["exps"])
 
             shortLabel = self.btToNormal[atn]
-            longLabel = self.btToNormal[atn] + " (%s experiments)" % totalExperiments
+            longLabel = longLabelBase + " (%s experiments)" % totalExperiments
 
             mainTrackDb.append("""
 track super_{atn}

@@ -44,7 +44,7 @@ class TrackhubDbByOrganSlim:
         def wrap():
             return self.mw.dnases_useful() + self.mw.chipseq_histones_useful() + self.mw.transcription_useful() + self.mw.chipseq_tfs_useful()
 
-        self.expsByAssay= [("By organ ontology",
+        self.expsByAssay= [("Exps by Organ Ontology",
                             "organ_ontology",
                             wrap)
         ]
