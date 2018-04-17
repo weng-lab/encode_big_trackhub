@@ -276,7 +276,7 @@ def outputSubTrack(assembly, assay_term_name, atn, biosample_type, bt,
         if "0_all" == bt:
             tracks.addExpAll(exp, True, cREs)
         else:
-            tracks.addExp(exp, active, cREs)
+            tracks.addExp(exp, True, cREs)
 
     Utils.ensureDir(fnp)
     with open(fnp, 'w') as f:

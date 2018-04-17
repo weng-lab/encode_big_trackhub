@@ -227,7 +227,7 @@ def outputSubTrack(assembly, assay_term_name, atn, label, labelN,
         if expID in lookupByExp:
             active = lookupByExp[expID].isActive()
             cREs = lookupByExp[expID].cREs
-        tracks.addExp(exp, active, cREs)
+        tracks.addExp(exp, True, cREs)
 
     Utils.ensureDir(fnp)
     with open(fnp, 'w') as f:
