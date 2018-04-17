@@ -41,9 +41,11 @@ class TrackhubDbByAssayByBiosampleType:
         self.globalData = globalData
         self.mw = mw
 
-        self.expsByAssay= [("DNase", "chromatin_accessibility", True,
+        self.expsByAssay= [("DNase-seq", "dnase", True,
                             self.mw.dnases_useful),
-                           ("Histone", "histone_modifications", True,
+                           ("ATAC-seq", "atac_seq", True,
+                            self.mw.atac_seq_useful),
+                           ("Histone", "histone_modifications", False,
                             self.mw.chipseq_histones_useful),
                            ("RNA-seq", "transcription", True,
                             self.mw.transcription_useful),
