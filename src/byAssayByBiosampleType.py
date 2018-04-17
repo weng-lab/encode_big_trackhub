@@ -43,8 +43,6 @@ class TrackhubDbByAssayByBiosampleType:
 
         self.expsByAssay= [("DNase-seq", "dnase", True,
                             self.mw.dnases_useful),
-                           ("ATAC-seq", "atac_seq", True,
-                            self.mw.atac_seq_useful),
                            ("Histone", "histone_modifications", False,
                             self.mw.chipseq_histones_useful),
                            ("RNA-seq", "transcription", True,
@@ -52,7 +50,9 @@ class TrackhubDbByAssayByBiosampleType:
                            ("TFs by Biosample Type", "transcription_factors",
                             False, self.mw.chipseq_tfs_useful)
         ]
-
+        if "mm10" == assembly:
+            self.expsByAssay.append(("ATAC-seq", "atac_seq", True,
+                                     self.mw.atac_seq_useful))
 
         # assay x biosamepleType x biosamplesView
 
