@@ -47,12 +47,18 @@ class TrackhubDbByAssayByBiosampleType:
                             self.mw.chipseq_histones_useful),
                            ("RNA-seq", "transcription", True,
                             self.mw.transcription_useful),
+                           ("microRNAseq", "microRNAseq", True,
+                            self.mw.microRNAseq_useful),
                            ("TFs by Biosample Type", "transcription_factors",
                             False, self.mw.chipseq_tfs_useful)
         ]
         if "mm10" == assembly:
             self.expsByAssay.append(("ATAC-seq", "atac_seq", True,
                                      self.mw.atac_seq_useful))
+        if "hg19" == assembly:
+            self.expsByAssay.append(("RAMPAGE", "rampage", True,
+                                     self.mw.rampage_useful))
+
 
         # assay x biosamepleType x biosamplesView
 
@@ -176,7 +182,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
 
     print(subGroupsDict["assay"])
 
-    if "chromatin_accessibility" == atn:
+    if atn in ["dnase", "atac_seq"]:
         subGroup1key = "biosample"
         subGroup2key = "age"
     elif "histone_modifications" == atn:
@@ -185,7 +191,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
     elif "transcription_factors" == atn:
         subGroup1key = "biosample"
         subGroup2key = "label"
-    elif "transcription" == atn:
+    elif atn in ["transcription", "rampage", "microRNAseq"]:
         subGroup1key = "biosample"
         subGroup2key = "assay"
     else:
