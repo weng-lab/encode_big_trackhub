@@ -89,7 +89,7 @@ class TrackhubDbByAssayByBiosampleType:
         self.btToNormal[atn] = assay_term_name
 
         if showAllTrack:
-            biosample_type = "ALL DATA"
+            biosample_type = "_ALL DATA"
             bt = "0_all"
             self.btToNormal[bt] = biosample_type
 
