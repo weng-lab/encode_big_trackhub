@@ -11,7 +11,7 @@ from collections import OrderedDict, defaultdict
 from joblib import Parallel, delayed
 import StringIO
 
-from helpers.tracks import Tracks, Parent, LookupActiveForCcREs
+from helpers.tracks import Tracks, Parent
 import helpers.helpers as Helpers
 from paths import Host, BaseWwwDir, BaseWwwTmpDir
 
@@ -33,6 +33,10 @@ def merge_two_dicts(x, y):
     z = x.copy()   # start with x's keys and values
     z.update(y)    # modifies z with y's keys and values & returns None
     return z
+
+ActiveBiosamples = ["hepatocyte_derived_from_H9",
+                    "bipolar_spindle_neuron_derived_from_induced_pluripotent_stem_cell",
+                    "B_cell_adult"]
 
 class MockFile:
     def __init__(self, eInfo, assembly):
@@ -68,6 +72,7 @@ class MockExp:
         self.description = eInfo["cellTypeDesc"]
         self.biosample_summary = eInfo["biosample_summary"]
         self.biosample_term_name = eInfo["cellTypeDesc"]
+        self.ccREbigBeds = {}
 
     def isRnaSeqLike(self):
         return self.assay == "RNA-seq"
@@ -85,7 +90,6 @@ class MockExp:
         return self.assay == "H3K4me3" or self.assay == "H3K27ac"
 
 def ccREexps(globalData, mw, assembly):
-
     creBigBeds = globalData["creBigBedsByCellType"]
     by4exps = globalData["byCellType"]
 
@@ -93,12 +97,26 @@ def ccREexps(globalData, mw, assembly):
 
     ret = []
     for ctn, eInfos in by4exps.iteritems():
+        ctnExps = []
         for eInfo in eInfos:
-            if eInfo["expID"] in expIDs:
+            expID = eInfo["expID"]
+            if expID in expIDs:
+                eprint("skipping", expID)
                 continue
-            expIDs.add(eInfo["expID"]) # b/c of ROADMAP
+            expIDs.add(expID) # b/c of ROADMAP
             e = MockExp(eInfo, assembly)
-            ret.append(e)
+            e.active = ctn in ActiveBiosamples
+            ctnExps.append(e)
+
+        if not ctnExps:
+            eprint("missing exps for", ctn)
+            continue
+
+        ccREbigBeds = creBigBeds.get(ctn, {})
+        if not ccREbigBeds:
+            eprint("missing ccREs for", ctn)
+        ctnExps[0].ccREbigBeds = ccREbigBeds
+        ret += ctnExps
     return ret
 
 class TrackhubDbByCcREs:
@@ -118,31 +136,8 @@ class TrackhubDbByCcREs:
         self.subGroups = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
 
         self.btToNormal = {}
-        self.lookupByExp = {}
-
-    def _lookup(self):
-        fnp = os.path.join(os.path.dirname(__file__), "lists",
-                           self.assembly + "-Look-Up-Matrix.txt")
-        printt("parsing", fnp)
-
-        creBigBeds = self.globalData["creBigBedsByCellType"]
-
-        self.lookupByExp = {}
-        for ct, assays in self.globalData["byCellType"].iteritems():
-            for info in assays:
-                btid = info["cellTypeName"]
-                btname = info["cellTypeDesc"]
-                expID = info["expID"]
-                cREs = creBigBeds.get(btid, {})
-                if not cREs:
-                    print("missing cREs for", btid)
-                self.lookupByExp[expID] = LookupActiveForCcREs(btid, btname, info, cREs)
-        print(len(self.lookupByExp))
 
     def run(self):
-        printt("building lookup...")
-        self._lookup()
-
         for title, assayAbbr, expsF in self.expsByAssay:
             exps = expsF(self.globalData, self.mw, self.assembly)
             self._build(title, assayAbbr, exps)
@@ -181,8 +176,7 @@ class TrackhubDbByCcREs:
             for bt, info in btAndInfo.iteritems():
                 print(atn, bt)
                 jobs.append(merge_two_dicts(info,
-                                            {"lookupByExp": self.lookupByExp,
-                                             "idx": len(jobs) + 1,
+                                            {"idx": len(jobs) + 1,
                                              "total": len(self.byAssayBiosampleType)}))
 
         Parallel(n_jobs=self.args.j)(delayed(outputAllTracksByBiosampleType)(job)
@@ -222,15 +216,17 @@ def outputAllTracksByBiosampleType(info):
     info["subGroups"] = subGroups
     outputCompositeTrackByBiosampleType(**info)
 
-def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosample_type, bt,
-                                        exps, fnp, idx, total, subGroups, lookupByExp):
+def outputCompositeTrackByBiosampleType(assembly, assay_term_name,
+                                        atn, biosample_type, bt,
+                                        exps, fnp, idx, total,
+                                        subGroups):
     if not os.path.exists(fnp):
         raise Exception("missing " + fnp)
 
     subGroupsDict = {}
     for k in Helpers.SubGroupKeys:
         subGroupsDict[k] = {a[0]:a[1] for a in subGroups[k]}
-    longLabel = assay_term_name + '_' + biosample_type + " (%s experiments)" % len(exps)
+    longLabel = biosample_type + " (%s experiments)" % len(exps)
 
     if 0:
         for k, v in subGroupsDict.iteritems():
@@ -244,11 +240,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
     subGroup3 = Helpers.unrollEquals(subGroupsDict[subGroup3key])
 
     actives = []
-    for exp in exps:
-        expID = exp.expID
-        if expID in lookupByExp:
-            actives.append(lookupByExp[expID].isActive())
-    isActive = any(t for t in actives)
+    isActive = bt in ActiveBiosamples
     if isActive:
         print("active biosample (composite):", bt)
 
@@ -290,27 +282,17 @@ darkerLabels on
 
     printWroteNumLines(fnp, idx, 'of', total)
 
-def outputSubTrack(assembly, assay_term_name, atn, biosample_type, bt,
-                   exps, fnp, idx, total, lookupByExp):
-    actives = []
-    # for expID in expIDs:
-    #     if expID in lookupByExp:
-    #         actives.append(lookupByExp[expID].isActive())
-    isActive = any(t for t in actives)
+def outputSubTrack(assembly, assay_term_name, atn, biosample_type,
+                   bt, exps, fnp, idx, total):
+    isActive = bt in ActiveBiosamples
     if isActive:
-        print("active biosample:", btn)
+        print("active biosample:", bt)
 
     parent = Parent(atn + '_' + bt, isActive)
 
     tracks = Tracks(assembly, parent, (1 + idx) * 1000)
     for exp in exps:
-        active = False
-        expID = exp.encodeID
-        cREs = {}
-        if expID in lookupByExp:
-            active = lookupByExp[expID].isActive()
-            cREs = lookupByExp[expID].cREs
-        tracks.addExp(exp, active, cREs)
+        tracks.addExp(exp, exp.active, exp.ccREbigBeds)
 
     Utils.ensureDir(fnp)
     with open(fnp, 'w') as f:
