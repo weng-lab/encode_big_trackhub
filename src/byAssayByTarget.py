@@ -34,16 +34,16 @@ def merge_two_dicts(x, y):
     z.update(y)    # modifies z with y's keys and values & returns None
     return z
 
-class TrackhubDbByAssayByFactor:
+class TrackhubDbByAssayByTarget:
     def __init__(self, args, assembly, globalData, mw):
         self.args = args
         self.assembly = assembly
         self.globalData = globalData
         self.mw = mw
 
-        self.expsByAssay= [("TFs by Factor",
-                            "tf_factors",
-                            self.mw.chipseq_tfs_useful)
+        self.expsByAssay= [("Histone by Mark",
+                            "hm_by_marks",
+                            self.mw.chipseq_histones_useful)
         ]
 
         # assay x factor x biosamplesView

@@ -18,6 +18,7 @@ from paths import Host, BaseWwwDir, BaseWwwTmpDir
 from byBiosampleType import TrackhubDbBiosampleType
 from byAssayByBiosampleType import TrackhubDbByAssayByBiosampleType
 from byAssayByFactor import TrackhubDbByAssayByFactor
+from byAssayByTarget import TrackhubDbByAssayByTarget
 from byCcREs import TrackhubDbByCcREs
 from byOrganSlim import TrackhubDbByOrganSlim
 
@@ -49,6 +50,11 @@ class MegaTrackHub:
             self.byAssayByFactorOutput = TrackhubDbByAssayByFactor(self.args, self.assembly,
                                                                    self.globalData, self.mw).run()
 
+        self.byAssayByTargetOutput = ""
+        if self.args.factor:
+            self.byAssayByTargetOutput = TrackhubDbByAssayByTarget(self.args, self.assembly,
+                                                                   self.globalData, self.mw).run()
+
         self.byBiosampleTypeOutput = ""
         if self.args.biosample:
             self.byBiosampleTypeOutput = TrackhubDbBiosampleType(self.args, self.assembly,
@@ -74,6 +80,7 @@ class MegaTrackHub:
             f.write(self.byBiosampleTypeOutput)
             f.write(self.byCcREsOutput)
             f.write(self.byAssayByFactorOutput)
+            f.write(self.byAssayByTargetOutput)
             f.write(self.byOrganSlimOutput)
         printWroteNumLines(fnp)
 
@@ -109,6 +116,12 @@ defaultPos {defaultPos}
     printWroteNumLines(fnp)
 
 
+def testHub():
+    printt("checking hub...")
+    cmds = ["/data/common/tools/ucsc.v350/hubCheck",
+            "-noTracks",
+            os.path.join(BaseWwwDir, 'hub.txt')]
+    printt(Utils.runCmds(cmds))
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -171,6 +184,7 @@ def main():
         tdb = MegaTrackHub(args, assembly, globalData)
         tdb.run()
     outputGenomes(assemblies)
+    testHub()
 
 if __name__ == '__main__':
     main()

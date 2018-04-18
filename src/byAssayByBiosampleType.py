@@ -58,10 +58,12 @@ class TrackhubDbByAssayByBiosampleType:
                             self.mw.chipseq_tfs_useful)
         ]
         if "mm10" == assembly:
-            self.expsByAssay.append(("ATAC-seq", "atac_seq", True,
+            self.expsByAssay.append(("ATAC-seq", "atac_seq",
+                                     "ATAC-seq", True,
                                      self.mw.atac_seq_useful))
         if "hg19" == assembly:
-            self.expsByAssay.append(("RAMPAGE", "rampage", True,
+            self.expsByAssay.append(("RAMPAGE", "rampage",
+                                     "RAMPAGE", True,
                                      self.mw.rampage_useful))
 
 
