@@ -34,71 +34,35 @@ def merge_two_dicts(x, y):
     z.update(y)    # modifies z with y's keys and values & returns None
     return z
 
-class MockFile:
-    def __init__(self, eInfo, assembly):
-        self.expID = eInfo["expID"]
-        self.fileID = eInfo["fileID"]
-        self.assembly = assembly
-        self.output_type = "fold change over control"
-        self.isPooled = True
-        self.url = "https://www.encodeproject.org/files/{fileID}/@@download/{fileID}.bigWig".format(fileID = self.fileID)
-
-    def isBigBed(self):
-        return False
-
-    def isBigWig(self):
-        return True
-
-    def isReleased(self):
-        return True
-
-class MockExp:
-    def __init__(self, eInfo, assembly):
-        for k, v in eInfo.items():
-            setattr(self, k, v)
-        self.assay_term_name = eInfo["assay"]
-        self.encodeID = eInfo["expID"]
-        self.files = [MockFile(eInfo, assembly)]
-        self.donor_id = self.encodeID
-        self.tf = self.assay
-        self.label = self.assay
-        self.target = self.assay
-        self.age_display = ""
-        self.donor_sex = ""
-        self.description = eInfo["cellTypeDesc"]
-        self.biosample_summary = eInfo["biosample_summary"]
-        self.biosample_term_name = eInfo["cellTypeDesc"]
-
-    def isRnaSeqLike(self):
-        return self.assay == "RNA-seq"
-
-    def isDNaseSeq(self):
-        return self.assay == "DNase-seq"
-
-    def isChipSeq(self):
-        return self.assay == "ChIP-seq"
-
-    def isChipSeqTF(self):
-        return self.assay == "CTCF"
-
-    def isChipSeqHistoneMark(self):
-        return self.assay == "H3K4me3" or self.assay == "H3K27ac"
-
 def ccREexps(globalData, mw, assembly):
-
     creBigBeds = globalData["creBigBedsByCellType"]
     by4exps = globalData["byCellType"]
 
-    expIDs = set()
+    fileIDs = set()
 
-    ret = []
     for ctn, eInfos in by4exps.iteritems():
         for eInfo in eInfos:
-            if eInfo["expID"] in expIDs:
+            fileID = eInfo["fileID"]
+            fileIDs.add(fileID)
+    printt("getting", len(fileIDs), "fileIDs")
+    exps = mw.expsFromFileIDs(sorted(list(fileIDs)))
+    exps = {exp.encodeID : exp for exp in exps}
+
+    ret = {}
+    for ctn, eInfos in by4exps.iteritems():
+        r = {}
+        r["exps"] = []
+        r["ccREs"] = creBigBeds[ctn]
+
+        for eInfo in eInfos:
+            expID = eInfo["expID"]
+            fileID = eInfo["fileID"]
+            if expID not in exps:
+                eprint("missing exp", expID, "for file", fileID)
                 continue
-            expIDs.add(eInfo["expID"]) # b/c of ROADMAP
-            e = MockExp(eInfo, assembly)
-            ret.append(e)
+            r["exps"].append(exps[expID])
+
+        ret[ctn] = r
     return ret
 
 class TrackhubDbByCcREs:
