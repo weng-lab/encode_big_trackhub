@@ -43,7 +43,10 @@ class TrackhubDbByAssayByFactor:
 
         self.expsByAssay= [("TFs by Factor",
                             "tf_factors",
-                            self.mw.chipseq_tfs_useful)
+                            self.mw.chipseq_tfs_useful),
+                           ("Histone by Mark",
+                            "hm_by_marks",
+                            self.mw.chipseq_histones_useful)
         ]
 
         # assay x factor x biosamplesView
