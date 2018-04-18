@@ -93,8 +93,8 @@ descriptionUrl http://encodeproject.org/
 def outputGenomes(assemblies):
     fnp = os.path.join(BaseWwwDir, 'genomes.txt')
 
-    defaultPoses = {"hg19": "chr12:47385000-47415000",
-                    "mm10": ""}
+    defaultPoses = {"hg19": "chr12:121374959-121481905",
+                    "mm10": "chr2:163423234-163655010"}
 
     with open(fnp, 'w') as f:
         for assembly in assemblies:
@@ -134,6 +134,11 @@ def parse_args():
     factor_parser.add_argument('--factor', dest='factor', action='store_true')
     factor_parser.add_argument('--no-factor', dest='factor', action='store_false')
     parser.set_defaults(factor=True)
+
+    target_parser = parser.add_mutually_exclusive_group(required=False)
+    target_parser.add_argument('--target', dest='target', action='store_true')
+    target_parser.add_argument('--no-target', dest='target', action='store_false')
+    parser.set_defaults(target=True)
 
     organSlim_parser = parser.add_mutually_exclusive_group(required=False)
     organSlim_parser.add_argument('--organSlim', dest='organSlim', action='store_true')
