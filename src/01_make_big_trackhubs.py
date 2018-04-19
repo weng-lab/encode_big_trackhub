@@ -10,7 +10,6 @@ import argparse
 import requests
 from collections import OrderedDict, defaultdict
 from joblib import Parallel, delayed
-import StringIO
 
 from helpers.tracks import Tracks, Parent
 import helpers.helpers as Helpers

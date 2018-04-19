@@ -78,10 +78,10 @@ class TrackhubDbByAssayByBiosampleType:
     def run(self):
         for title, assayAbbr, longLabelBase, showAllTrack, expsF in self.expsByAssay:
             exps = expsF()
-            self._build(title, assayAbbr, showAllTrack, exps)
-        return self._makeMainTrackDb(longLabelBase)
+            self._build(title, assayAbbr, showAllTrack, exps, longLabelBase)
+        return self._makeMainTrackDb()
 
-    def _build(self, assay_term_name, atn, showAllTrack, exps):
+    def _build(self, assay_term_name, atn, showAllTrack, exps, longLabelBase):
         printt("building", assay_term_name, "...")
 
         def sorter(exp):
@@ -103,7 +103,8 @@ class TrackhubDbByAssayByBiosampleType:
                 "bt": bt,
                 "fnp": fnp,
                 "exps": exps,
-                "assembly": self.assembly
+                "assembly": self.assembly,
+                "longLabelBase": longLabelBase
             }
 
         for biosample_type, exps in groupby(exps, sorter):
@@ -119,7 +120,8 @@ class TrackhubDbByAssayByBiosampleType:
                 "bt": bt,
                 "fnp": fnp,
                 "exps": exps,
-                "assembly": self.assembly
+                "assembly": self.assembly,
+                "longLabelBase": longLabelBase
             }
 
         printt("making tracks and subtracks...")
@@ -137,7 +139,7 @@ class TrackhubDbByAssayByBiosampleType:
         Parallel(n_jobs=self.args.j)(delayed(outputAllTracksByBiosampleType)(job)
                                      for job in jobs)
 
-    def _makeMainTrackDb(self, longLabelBase):
+    def _makeMainTrackDb(self):
         mainTrackDb = []
 
         priority = 0
@@ -150,7 +152,7 @@ class TrackhubDbByAssayByBiosampleType:
                     totalExperiments += len(info["exps"])
 
             shortLabel = self.btToNormal[atn]
-            longLabel = longLabelBase + " (%s experiments)" % totalExperiments
+            longLabel = info["longLabelBase"] + " (%s experiments)" % totalExperiments
 
             mainTrackDb.append("""
 track super_{atn}
@@ -178,7 +180,7 @@ def outputAllTracksByBiosampleType(info):
     outputCompositeTrackByBiosampleType(**info)
 
 def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosample_type, bt,
-                                        exps, fnp, idx, total, subGroups, lookupByExp):
+                                        exps, fnp, idx, total, subGroups, lookupByExp, longLabelBase = None):
     if not os.path.exists(fnp):
         raise Exception("missing " + fnp)
 
@@ -261,7 +263,7 @@ darkerLabels on
     printWroteNumLines(fnp, idx, 'of', total)
 
 def outputSubTrack(assembly, assay_term_name, atn, biosample_type, bt,
-                   exps, fnp, idx, total, lookupByExp):
+                   exps, fnp, idx, total, lookupByExp, longLabelBase = None):
     actives = []
     # for expID in expIDs:
     #     if expID in lookupByExp:
