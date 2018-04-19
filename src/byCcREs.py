@@ -126,7 +126,7 @@ class TrackhubDbByCcREs:
         self.globalData = globalData
         self.mw = mw
 
-        self.expsByAssay= [("candidate cis-Regulatory Regions", "ccres",
+        self.expsByAssay= [("candidate cis-Regulatory Elements", "ccres",
                             ccREexps),
         ]
 
