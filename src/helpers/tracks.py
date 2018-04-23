@@ -292,7 +292,7 @@ class cRETrack(object):
 
         shortLabel = Helpers.makeShortLabel(self.stateType)
         if "5group" == self.stateType:
-            shortLabel = Helpers.makeShortLabel(self.stateType, self.exp.tf)
+            shortLabel = Helpers.makeShortLabel("ccRE 5 groups")
         p["shortLabel"] = shortLabel
 
         p["longLabel"] = Helpers.makeLongLabel(self._desc())
