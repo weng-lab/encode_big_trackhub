@@ -232,6 +232,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
 track {atn}_{bt}
 parent super_{atn}
 compositeTrack on
+centerLabelsDense on
 """.format(atn=atn,
            bt=bt))
         if isActive:

@@ -193,6 +193,7 @@ def outputCompositeTrackByBiosampleType(assembly, bt, btn, expIDs, fnp, idx, tot
 track {bt}_{btn}
 parent super_{bt}
 compositeTrack on
+centerLabelsDense on
 """.format(bt=bt,
            btn=btn))
         if isActive:

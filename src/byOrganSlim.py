@@ -177,6 +177,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, label, l
 track {atn}_{labelN}
 parent super_{atn}
 compositeTrack on
+centerLabelsDense on
 """.format(atn=atn,
            labelN=labelN))
         if isActive:

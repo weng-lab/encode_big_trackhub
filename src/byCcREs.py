@@ -274,7 +274,9 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name,
     subGroupsDict = {}
     for k in Helpers.SubGroupKeys:
         subGroupsDict[k] = {a[0]:a[1] for a in subGroups[k]}
-    longLabel = biosample_type + " (%s experiments)" % len(exps)
+    longLabel = "ccREs in " + biosample_type
+    if "_GENERAL ccREs" == biosample_type:
+        longLabel = "General ccREs"
 
     if 0:
         for k, v in subGroupsDict.iteritems():
@@ -300,6 +302,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name,
 track {atn}_{bt}
 parent super_{atn}
 compositeTrack on
+centerLabelsDense on
 """.format(atn=atn,
            bt=bt))
         if isActive:
