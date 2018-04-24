@@ -283,14 +283,14 @@ class cRETrack(object):
 
     def _labels(self):
         if 'general' == self.ct:
-            if self.show5group:
+            if "5group" == self.stateType:
                 shortLabel = ["general 5g cREs"]
                 longLabel = ["general 5-group cREs"]
             else:
                 shortLabel = ["9s", self.ct]
                 longLabel =  ["general cREs", "with high", self.assay, '(9 state)']
         else:
-            if self.show5group:
+            if "5group" == self.stateType:
                 shortLabel = ["5g", self.ct]
                 longLabel = ["cREs in", self.ct, '(5 group)']
             else:

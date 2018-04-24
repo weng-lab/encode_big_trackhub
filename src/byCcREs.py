@@ -89,6 +89,7 @@ class MockExp:
     def isChipSeqHistoneMark(self):
         return self.assay == "H3K4me3" or self.assay == "H3K27ac"
 
+
 def ccREexps(globalData, mw, assembly):
     creBigBeds = globalData["creBigBedsByCellType"]
     by4exps = globalData["byCellType"]
@@ -142,6 +143,46 @@ class TrackhubDbByCcREs:
             exps = expsF(self.globalData, self.mw, self.assembly)
             self._build(title, assayAbbr, exps)
         return self._makeMainTrackDb()
+
+    def agnosticCres(self):
+        AgnosticCres = {"5-group": {"hg19": "ENCFF658MYW",
+                                    "mm10": "ENCFF318XQA"},
+                        "9-state": {"H3K4me3": {"hg19": "ENCFF706MWD",
+                                                "mm10": "ENCFF549SJX"},
+                                    "H3K27ac": {"hg19": "ENCFF656QBL",
+                                                "mm10": "ENCFF776IAR"},
+                                    "CTCF": {"hg19": "ENCFF106AGR",
+                                             "mm10": "ENCFF506YHI"}}}
+
+        biosample_type = "_GENERAL ccREs"
+        assay_term_name = biosamply_type
+        bt = "_GENERAL_ccREs"
+        atn = bt
+        self.btToNormal[bt] = biosample_type
+
+        fnp = os.path.join(BaseWwwTmpDir, self.assembly, "subtracks",
+                           atn, bt +'.txt')
+
+        e = MockExp(eInfo, assembly)
+        e.active = True
+
+        ccREbigBeds = []
+        ccREbigBeds.append(AgnosticCres["5-group"][self.assembly])
+        for assay in ["H3K4me3", "H3K27ac", "CTCF"]:
+            ccREbigBeds.append(AgnosticCres["9-state"][assay][self.assembly])
+        e.ccREbigBeds = ccREbigBeds
+        exps = [e]
+
+        self.byAssayBiosampleType[atn][bt] = {
+            "assay_term_name": assay_term_name,
+            "atn": atn,
+            "biosample_type": biosample_type,
+            "bt": bt,
+            "fnp": fnp,
+            "exps": exps,
+            "assembly": self.assembly,
+            "longLabelBase": ""
+        }
 
     def _build(self, assay_term_name, atn, exps):
         printt("building", assay_term_name, "...")
