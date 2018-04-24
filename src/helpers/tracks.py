@@ -461,10 +461,9 @@ class CompositeExpTrack(object):
             yield t
 
 class Tracks(object):
-    def __init__(self, assembly, parent, priorityStart, isAll = False):
+    def __init__(self, assembly, parent, isAll):
         self.assembly = assembly
         self.parent = parent
-        self.priorityStart = priorityStart
         self.tracks = []
         self.isAll = isAll
 
@@ -478,25 +477,37 @@ class Tracks(object):
         ct.addExpAll(ccREs)
         self.tracks.append(ct)
 
-    def lines(self):
+    def lines(self, priority):
         if self.isAll:
             tracks = self._sortAllTracks()
         else:
             tracks = self._sortedTracks()
+
+        # count number of tracks, and atomically bump priority to accomodate
+        #  all tracks
         counter = 0
         for ct in tracks:
             for t in ct.bigWigs:
                 counter += 1
-                for line in t.lines(self.priorityStart + counter):
+            if len(ct.beds + ct.ccREs) > 0:
+                for t in ct.beds + ct.ccREs:
+                    counter += 1
+        priorityStart = priority.increment(counter) - counter
+
+        counter = 0
+        for ct in tracks:
+            for t in ct.bigWigs:
+                for line in t.lines(priorityStart + counter):
                     yield line
+                counter += 1
             if len(ct.beds + ct.ccREs) > 0:
                 # empty view not allowed
                 for line in outputLines(ct.view(), 1):
                     yield line
                 for t in ct.beds + ct.ccREs:
-                    counter += 1
-                    for line in t.lines(self.priorityStart + counter):
+                    for line in t.lines(priorityStart + counter):
                         yield line
+                    counter += 1
 
     def _sortAllTracks(self):
         tracks = self.tracks

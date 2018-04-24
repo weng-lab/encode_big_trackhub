@@ -32,9 +32,21 @@ class Counter(object):
         self.val = manager.Value('i', initval)
         self.lock = manager.Lock()
 
-    def increment(self):
+    def increment(self, val = 1):
+        return self.add_pre(val)
+
+    # pre-fix add a given val
+    def add_pre(self, val = 1):
         with self.lock:
-            self.val.value += 1
+            self.val.value += val
+            return self.val.value
+
+    # post-fix add a given val
+    def add_post(self, val = 1):
+        with self.lock:
+            ret = self.val.value
+            self.val.value += val
+            return ret
 
     def value(self):
         with self.lock:

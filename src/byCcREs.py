@@ -228,14 +228,14 @@ class TrackhubDbByCcREs:
                                             {"idx": len(jobs) + 1,
                                              "total": len(self.byAssayBiosampleType)}))
 
-        Parallel(n_jobs=self.args.j)(delayed(outputAllTracksByBiosampleType)(job)
-                                     for job in jobs)
+        Parallel(n_jobs=self.args.j)(delayed(outputAllTracksByBiosampleType)
+                                     (self.priority, job) for job in jobs)
 
     def _makeMainTrackDb(self):
         mainTrackDb = []
 
         for atn, btAndInfo in self.byAssayBiosampleType.iteritems():
-            self.priority += 1
+            pri = self.priority.increment(1)
             totalExperiments = sum([len(info["exps"]) for info in btAndInfo.values()])
             shortLabel = self.btToNormal[atn]
             longLabel = self.btToNormal[atn] + " (%s experiments)" % totalExperiments
@@ -246,7 +246,7 @@ priority {priority}
 shortLabel {shortL}
 longLabel {longL}
 """.format(atn = atn,
-           priority = self.priority,
+           priority = pri,
            shortL=shortLabel,
            longL=Helpers.makeLongLabel(longLabel)))
 
@@ -259,8 +259,8 @@ longLabel {longL}
                     outF.write('\n')
         return outF.getvalue()
 
-def outputAllTracksByBiosampleType(info):
-    subGroups = outputSubTrack(**info)
+def outputAllTracksByBiosampleType(priority, info):
+    subGroups = outputSubTrack(priority, **info)
     info["subGroups"] = subGroups
     outputCompositeTrackByBiosampleType(**info)
 
@@ -330,7 +330,7 @@ darkerLabels on
 
     printWroteNumLines(fnp, idx, 'of', total)
 
-def outputSubTrack(assembly, assay_term_name, atn, biosample_type,
+def outputSubTrack(priority, assembly, assay_term_name, atn, biosample_type,
                    bt, exps, fnp, idx, total):
     isActive = bt in ActiveBiosamples
     if isActive:
@@ -338,13 +338,13 @@ def outputSubTrack(assembly, assay_term_name, atn, biosample_type,
 
     parent = Parent(atn + '_' + bt, isActive)
 
-    tracks = Tracks(assembly, parent, (1 + idx) * 1000)
+    tracks = Tracks(assembly, parent, False)
     for exp in exps:
         tracks.addExp(exp, exp.active, exp.ccREbigBeds)
 
     Utils.ensureDir(fnp)
     with open(fnp, 'w') as f:
-        for line in tracks.lines():
+        for line in tracks.lines(priority):
             f.write(line)
     printWroteNumLines(fnp, idx, 'of', total)
     return tracks.subgroups()
