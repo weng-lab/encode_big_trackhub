@@ -139,7 +139,7 @@ class BigWigTrack(object):
         exp = self.exp
         desc = [self.exp.encodeID]
         if exp.biosample_summary:
-            desc.append(Helpers.sanitize(exp.biosample_summary.strip()))
+            desc.append(Helpers.sanitize(exp.biosample_summary.strip(), ' ').strip())
         elif exp.description:
             desc.append(exp.description)
         else:
@@ -483,7 +483,7 @@ class Tracks(object):
         else:
             tracks = self._sortedTracks()
 
-        # count number of tracks, and atomically bump priority to accomodate
+        # count number of tracks, and atomically inc priority to accomodate
         #  all tracks
         counter = 0
         for ct in tracks:

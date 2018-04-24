@@ -208,7 +208,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, biosampl
         subGroup2key = "age"
 
     if "0_all" == bt:
-        subGroup1key = "tissue"
+        subGroup1key = "biosample"
         subGroup2key = "age_sex"
 
     subGroup3key = "view"
