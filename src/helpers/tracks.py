@@ -12,21 +12,21 @@ import helpers as Helpers
 from byAll import GetTissue, ColorByTissue
 
 class LookupActive:
-    def __init__(self, btid, btname, info, cREs):
+    def __init__(self, btid, btname, info, ccREs):
         self.btid = btid
         self.btname = btname
         self.info = info
-        self.cREs = cREs
+        self.ccREs = ccREs
 
     def isActive(self):
         return False
 
 class LookupActiveForCcREs:
-    def __init__(self, btid, btname, info, cREs):
+    def __init__(self, btid, btname, info, ccREs):
         self.btid = btid
         self.btname = btname
         self.info = info
-        self.cREs = cREs
+        self.ccREs = ccREs
 
     def isActive(self):
         r = self.btid in ["hepatocyte_derived_from_H9",
@@ -268,12 +268,12 @@ class BigBedTrack(object):
             extras["priority"] = idx
         return outputLines(self.p, 2, extras)
 
-class cRETrack(object):
-    def __init__(self, assembly, exp, stateType, cREaccession, parent, active):
+class ccRETrack(object):
+    def __init__(self, assembly, exp, stateType, ccREaccession, parent, active):
         self.assembly = assembly
         self.exp = exp
         self.stateType = stateType
-        self.cREaccession = cREaccession
+        self.ccREaccession = ccREaccession
         self.parent = parent
         a = False
         if active and "5group" == stateType:
@@ -285,25 +285,25 @@ class cRETrack(object):
         assay = self.stateType.replace("9state-", '')
         if '_general' == self.exp.ct:
             if "5group" == self.stateType:
-                shortLabel = ["general 5g cREs"]
-                longLabel = ["general 5-group cREs"]
+                shortLabel = ["general 5g ccREs"]
+                longLabel = ["general 5-group ccREs"]
             else:
                 shortLabel = ["9s general", assay]
-                longLabel =  ["general cREs", "with high",
+                longLabel =  ["general ccREs", "with high",
                               assay, '(9 state)']
         else:
             if "5group" == self.stateType:
                 shortLabel = ["5g", self.exp.ct]
                 longLabel = ["cREs in", self.exp.ct, '(5 group)']
             else:
-                shortLabel = ["9s", self.exp.ct, assay]
+                shortLabel = ["9s", assay, self.exp.ct]
                 longLabel =  ["cREs in", self.exp.ct, "with high",
                               assay, '(9 state)']
         return Helpers.makeShortLabel(*shortLabel), Helpers.makeLongLabel(*longLabel)
 
     def _init(self):
         p = OrderedDict()
-        p["track"] = self.parent.initials() + Helpers.sanitize(self.exp.encodeID + '_' + self.cREaccession)
+        p["track"] = self.parent.initials() + Helpers.sanitize(self.exp.encodeID + '_' + self.ccREaccession)
         p["parent"] = self.parent.param(self.parent.on)
         p["subGroups"] = Helpers.unrollEquals(self._subgroups())
         p["bigDataUrl"] = self._url()
@@ -327,13 +327,13 @@ class cRETrack(object):
 
     def _url(self):
         return os.path.join("https://www.encodeproject.org/files/",
-                            self.cREaccession,
+                            self.ccREaccession,
                             "@@download/",
-                            self.cREaccession + ".bigBed?proxy=true")
+                            self.ccREaccession + ".bigBed?proxy=true")
 
     def _desc(self):
         exp = self.exp
-        return self.cREaccession + " " + self.stateType + " " + exp.description
+        return self.ccREaccession + " " + self.stateType + " " + exp.description
 
     def _metadata(self):
         s = {}
@@ -384,7 +384,7 @@ class CompositeExpTrack(object):
         self.bedParent = Parent(parent.parent + '_view_' + exp.encodeID, parent.on)
         self.beds = []
         self.bigWigs = []
-        self.cREs = []
+        self.ccREs = []
 
     def _addExpBestBigWig(self, exp, active):
         files = Helpers.bigWigFilters(self.assembly, exp)
@@ -429,22 +429,22 @@ class CompositeExpTrack(object):
             break # TODO allow multiple bigBeds, if needed
         return ret
 
-    def _addcREs(self, exp, active, cREs):
+    def _addcREs(self, exp, active, ccREs):
         ret = []
-        cREaccessions = set()
-        for stateType, accession in cREs.iteritems():
-            if accession not in cREaccessions:
-                t = cRETrack(self.assembly, exp, stateType, accession, self.bedParent, active)
+        ccREaccessions = set()
+        for stateType, accession in ccREs.iteritems():
+            if accession not in ccREaccessions:
+                t = ccRETrack(self.assembly, exp, stateType, accession, self.bedParent, active)
                 ret.append(t)
-                cREaccessions.add(accession)
+                ccREaccessions.add(accession)
         return ret
 
-    def addExp(self, cREs):
+    def addExp(self, ccREs):
         self.beds = self._addExpBestBed(self.exp, self.active)
         self.bigWigs = self._addExpBestBigWig(self.exp, self.active)
-        self.cREs = self._addcREs(self.exp, self.active, cREs)
+        self.ccREs = self._addcREs(self.exp, self.active, ccREs)
 
-    def addExpAll(self, cREs):
+    def addExpAll(self, ccREs):
         self.bigWigs = self._addExpBestBigWigAll(self.exp, self.active)
 
     def view(self):
@@ -457,7 +457,7 @@ class CompositeExpTrack(object):
         return p
 
     def tracks(self):
-        for t in self.beds + self.cREs + self.bigWigs:
+        for t in self.beds + self.ccREs + self.bigWigs:
             yield t
 
 class Tracks(object):
@@ -468,14 +468,14 @@ class Tracks(object):
         self.tracks = []
         self.isAll = isAll
 
-    def addExp(self, exp, active, cREs):
+    def addExp(self, exp, active, ccREs):
         ct = CompositeExpTrack(self.assembly, self.parent, exp, active)
-        ct.addExp(cREs)
+        ct.addExp(ccREs)
         self.tracks.append(ct)
 
-    def addExpAll(self, exp, active, cREs):
+    def addExpAll(self, exp, active, ccREs):
         ct = CompositeExpTrack(self.assembly, self.parent, exp, active)
-        ct.addExpAll(cREs)
+        ct.addExpAll(ccREs)
         self.tracks.append(ct)
 
     def lines(self):
@@ -489,11 +489,11 @@ class Tracks(object):
                 counter += 1
                 for line in t.lines(self.priorityStart + counter):
                     yield line
-            if len(ct.beds + ct.cREs) > 0:
+            if len(ct.beds + ct.ccREs) > 0:
                 # empty view not allowed
                 for line in outputLines(ct.view(), 1):
                     yield line
-                for t in ct.beds + ct.cREs:
+                for t in ct.beds + ct.ccREs:
                     counter += 1
                     for line in t.lines(self.priorityStart + counter):
                         yield line

@@ -244,7 +244,7 @@ def outputSubTrack(assembly, bt, btn, expIDs, fnp, idx, total,
         cREs = {}
         if expID in lookupByExp:
             active = lookupByExp[expID].isActive()
-            cREs = lookupByExp[expID].cREs
+            cREs = lookupByExp[expID].ccREs
         tracks.addExp(exp, True, cREs)
 
     Utils.ensureDir(fnp)
