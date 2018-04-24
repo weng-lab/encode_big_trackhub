@@ -282,21 +282,24 @@ class cRETrack(object):
         self.p = self._init()
 
     def _labels(self):
-        if 'general' == self.ct:
+        assay = self.stateType.replace("9state-", '')
+        if '_general' == self.exp.ct:
             if "5group" == self.stateType:
                 shortLabel = ["general 5g cREs"]
                 longLabel = ["general 5-group cREs"]
             else:
-                shortLabel = ["9s", self.ct]
-                longLabel =  ["general cREs", "with high", self.assay, '(9 state)']
+                shortLabel = ["9s general", assay]
+                longLabel =  ["general cREs", "with high",
+                              assay, '(9 state)']
         else:
             if "5group" == self.stateType:
-                shortLabel = ["5g", self.ct]
-                longLabel = ["cREs in", self.ct, '(5 group)']
+                shortLabel = ["5g", self.exp.ct]
+                longLabel = ["cREs in", self.exp.ct, '(5 group)']
             else:
-                shortLabel = ["9s", self.assay, self.ct]
-                longLabel =  ["cREs in", self.ct, "with high", self.assay, '(9 state)']
-        return shortLabel, longLabel
+                shortLabel = ["9s", self.exp.ct, assay]
+                longLabel =  ["cREs in", self.exp.ct, "with high",
+                              assay, '(9 state)']
+        return Helpers.makeShortLabel(*shortLabel), Helpers.makeLongLabel(*longLabel)
 
     def _init(self):
         p = OrderedDict()
@@ -307,7 +310,7 @@ class cRETrack(object):
         p["visibility"] = Helpers.viz("dense", self.active)
         p["type"] = "bigBed 9"
 
-        if 1:
+        if 0:
             shortLabel = Helpers.makeShortLabel(self.stateType)
             if "5group" == self.stateType:
                 shortLabel = Helpers.makeShortLabel("ccRE 5 groups")

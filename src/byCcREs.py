@@ -34,7 +34,8 @@ def merge_two_dicts(x, y):
     z.update(y)    # modifies z with y's keys and values & returns None
     return z
 
-ActiveBiosamples = ["hepatocyte_derived_from_H9",
+ActiveBiosamples = ["_general_ccREs",
+                    "hepatocyte_derived_from_H9",
                     "bipolar_spindle_neuron_derived_from_induced_pluripotent_stem_cell",
                     "B_cell_adult"]
 
@@ -72,6 +73,7 @@ class MockExp:
         self.description = eInfo["cellTypeDesc"]
         self.biosample_summary = eInfo["biosample_summary"]
         self.biosample_term_name = eInfo["cellTypeDesc"]
+        self.ct = self.biosample_term_name
         self.ccREbigBeds = {}
 
     def isRnaSeqLike(self):
@@ -144,8 +146,8 @@ class TrackhubDbByCcREs:
             self._build(title, assayAbbr, exps)
         return self._makeMainTrackDb()
 
-    def agnosticCres(self):
-        AgnosticCres = {"5-group": {"hg19": "ENCFF658MYW",
+    def generalCres(self, assay_term_name, atn):
+        GeneralCres = {"5-group": {"hg19": "ENCFF658MYW",
                                     "mm10": "ENCFF318XQA"},
                         "9-state": {"H3K4me3": {"hg19": "ENCFF706MWD",
                                                 "mm10": "ENCFF549SJX"},
@@ -155,21 +157,25 @@ class TrackhubDbByCcREs:
                                              "mm10": "ENCFF506YHI"}}}
 
         biosample_type = "_GENERAL ccREs"
-        assay_term_name = biosamply_type
-        bt = "_GENERAL_ccREs"
-        atn = bt
+        bt = "_general_ccREs"
+
         self.btToNormal[bt] = biosample_type
 
         fnp = os.path.join(BaseWwwTmpDir, self.assembly, "subtracks",
                            atn, bt +'.txt')
 
-        e = MockExp(eInfo, assembly)
+        eInfo = {"assay": "_general",
+                 "expID": "_general",
+                 "cellTypeDesc": "_general",
+                 "biosample_summary": "_general",
+                 "fileID": ""}
+        e = MockExp(eInfo, self.assembly)
+        e.files = []
         e.active = True
 
-        ccREbigBeds = []
-        ccREbigBeds.append(AgnosticCres["5-group"][self.assembly])
+        ccREbigBeds = {"5group": GeneralCres["5-group"][self.assembly]}
         for assay in ["H3K4me3", "H3K27ac", "CTCF"]:
-            ccREbigBeds.append(AgnosticCres["9-state"][assay][self.assembly])
+            ccREbigBeds["9state-" + assay] = GeneralCres["9-state"][assay][self.assembly]
         e.ccREbigBeds = ccREbigBeds
         exps = [e]
 
@@ -180,8 +186,7 @@ class TrackhubDbByCcREs:
             "bt": bt,
             "fnp": fnp,
             "exps": exps,
-            "assembly": self.assembly,
-            "longLabelBase": ""
+            "assembly": self.assembly
         }
 
     def _build(self, assay_term_name, atn, exps):
@@ -191,6 +196,8 @@ class TrackhubDbByCcREs:
         exps.sort(key = sorter)
 
         self.btToNormal[atn] = assay_term_name
+
+        self.generalCres(assay_term_name, atn)
 
         for biosample_type, exps in groupby(exps, sorter):
             exps = list(exps)
