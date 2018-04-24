@@ -127,7 +127,7 @@ class TrackhubDbBiosampleType:
             shortLabel = shortLabel.replace('Ipsc', 'IPSC')
             shortLabel = shortLabel.replace('In Vitro Differentiated Cell',
                                             'in vitro Diff Cell')
-            shortLabel = shortLabel + ' Exps'
+            shortLabel = shortLabel + ' Experiments'
 
             mainTrackDb.append("""
 track super_{bt}

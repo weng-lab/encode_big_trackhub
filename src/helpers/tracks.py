@@ -78,7 +78,7 @@ class BigWigTrack(object):
         p["type"] = "bigWig"
         p["color"] = Helpers.colorize(self.exp)
         p["height"] = "maxHeightPixels 64:12:8"
-        p["shortLabel"] = Helpers.makeShortLabel(self.exp.assay_term_name, self.exp.tf)
+        p["shortLabel"] = Helpers.makeShortLabel(self.exp.assay_term_name, self.exp.biosample_term_name)
         p["longLabel"] = Helpers.makeLongLabel(self.exp.assay_term_name + ' ' + self._desc())
         p["itemRgb"] = "On"
         p["darkerLabels"] = "on"
@@ -281,6 +281,23 @@ class cRETrack(object):
         self.active = a
         self.p = self._init()
 
+    def _labels(self):
+        if 'general' == self.ct:
+            if self.show5group:
+                shortLabel = ["general 5g cREs"]
+                longLabel = ["general 5-group cREs"]
+            else:
+                shortLabel = ["9s", self.ct]
+                longLabel =  ["general cREs", "with high", self.assay, '(9 state)']
+        else:
+            if self.show5group:
+                shortLabel = ["5g", self.ct]
+                longLabel = ["cREs in", self.ct, '(5 group)']
+            else:
+                shortLabel = ["9s", self.assay, self.ct]
+                longLabel =  ["cREs in", self.ct, "with high", self.assay, '(9 state)']
+        return shortLabel, longLabel
+
     def _init(self):
         p = OrderedDict()
         p["track"] = self.parent.initials() + Helpers.sanitize(self.exp.encodeID + '_' + self.cREaccession)
@@ -290,12 +307,15 @@ class cRETrack(object):
         p["visibility"] = Helpers.viz("dense", self.active)
         p["type"] = "bigBed 9"
 
-        shortLabel = Helpers.makeShortLabel(self.stateType)
-        if "5group" == self.stateType:
-            shortLabel = Helpers.makeShortLabel("ccRE 5 groups")
-        p["shortLabel"] = shortLabel
+        if 1:
+            shortLabel = Helpers.makeShortLabel(self.stateType)
+            if "5group" == self.stateType:
+                shortLabel = Helpers.makeShortLabel("ccRE 5 groups")
+            p["shortLabel"] = shortLabel
+            p["longLabel"] = Helpers.makeLongLabel(self._desc())
+        else:
+            p["shortLabel"], p["longLabel"] = self._labels()
 
-        p["longLabel"] = Helpers.makeLongLabel(self._desc())
         p["itemRgb"] = "On"
         p["darkerLabels"] = "on"
         p["metadata"] = Helpers.unrollEquals(self._metadata())

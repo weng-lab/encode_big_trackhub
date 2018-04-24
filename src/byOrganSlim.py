@@ -155,7 +155,7 @@ def outputCompositeTrackByBiosampleType(assembly, assay_term_name, atn, label, l
     print(subGroupsDict["assay"])
 
     subGroup1key = "target_label"
-    subGroup2key = "age_sex"
+    subGroup2key = "biosample_summary"
     subGroup3key = "view"
     subGroup1 = Helpers.unrollEquals(subGroupsDict[subGroup1key])
     subGroup2 = Helpers.unrollEquals(subGroupsDict[subGroup2key])
