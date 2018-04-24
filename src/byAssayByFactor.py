@@ -35,11 +35,12 @@ def merge_two_dicts(x, y):
     return z
 
 class TrackhubDbByAssayByFactor:
-    def __init__(self, args, assembly, globalData, mw):
+    def __init__(self, args, assembly, globalData, mw, priority):
         self.args = args
         self.assembly = assembly
         self.globalData = globalData
         self.mw = mw
+        self.priority = priority
 
         self.expsByAssay= [("TFs by Factor",
                             "tf_factors",
@@ -105,21 +106,20 @@ class TrackhubDbByAssayByFactor:
     def _makeMainTrackDb(self):
         mainTrackDb = []
 
-        priority = 0
         for atn, labelNAndInfo in self.byAssayBiosampleType.iteritems():
-            priority += 1
+            self.priority += 1
             totalExperiments = sum([len(info["exps"]) for info in labelNAndInfo.values()])
             shortLabel = self.labelNToNormal[atn]
             longLabel = self.labelNToNormal[atn] + " (%s experiments)" % totalExperiments
 
             mainTrackDb.append("""
 track super_{atn}
-superTrack on show
+superTrack on
 priority {priority}
 shortLabel {shortL}
 longLabel {longL}
 """.format(atn = atn,
-           priority = priority,
+           priority = self.priority,
            shortL=shortLabel,
            longL=Helpers.makeLongLabel(longLabel)))
 

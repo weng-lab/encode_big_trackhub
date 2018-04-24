@@ -35,15 +35,17 @@ def merge_two_dicts(x, y):
     return z
 
 class TrackhubDbBiosampleType:
-    def __init__(self, args, assembly, globalData, mw):
+    def __init__(self, args, assembly, globalData, mw, priority):
         self.args = args
         self.assembly = assembly
         self.globalData = globalData
+        self.mw = mw
+        self.priority = priority
+
         self.byBiosampleTypeBiosample = defaultdict(lambda: defaultdict(dict))
         self.subGroups = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
 
         printt("loading exps by biosample_type...")
-        self.mw = mw
         self.inputData = self.mw.encodeByBiosampleTypeCustom(self.assembly)
         self.lookupByExp = {}
 
@@ -113,9 +115,8 @@ class TrackhubDbBiosampleType:
     def _makeMainTrackDb(self):
         mainTrackDb = []
 
-        priority = 10
         for bt, btnFnps in self.byBiosampleTypeBiosample.iteritems():
-            priority += 1
+            self.priority += 1
             totalExperiments = sum([len(info["expIDs"]) for info in btnFnps.values()])
             shortLabel = self.btToNormal[bt]
             longLabel = self.btToNormal[bt] + " (%s experiments)" % totalExperiments
@@ -131,12 +132,12 @@ class TrackhubDbBiosampleType:
 
             mainTrackDb.append("""
 track super_{bt}
-superTrack on show
+superTrack on
 priority {priority}
 shortLabel {shortL}
 longLabel {longL}
 """.format(bt = bt,
-           priority = priority,
+           priority = self.priority,
            shortL=shortLabel,
            longL=Helpers.makeLongLabel(longLabel)))
 

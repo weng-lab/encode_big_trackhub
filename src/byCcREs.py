@@ -123,11 +123,12 @@ def ccREexps(globalData, mw, assembly):
     return ret
 
 class TrackhubDbByCcREs:
-    def __init__(self, args, assembly, globalData, mw):
+    def __init__(self, args, assembly, globalData, mw, priority):
         self.args = args
         self.assembly = assembly
         self.globalData = globalData
         self.mw = mw
+        self.priority = priority
 
         self.expsByAssay= [("candidate cis-Regulatory Elements", "ccres",
                             ccREexps),
@@ -233,9 +234,8 @@ class TrackhubDbByCcREs:
     def _makeMainTrackDb(self):
         mainTrackDb = []
 
-        priority = 0
         for atn, btAndInfo in self.byAssayBiosampleType.iteritems():
-            priority += 1
+            self.priority += 1
             totalExperiments = sum([len(info["exps"]) for info in btAndInfo.values()])
             shortLabel = self.btToNormal[atn]
             longLabel = self.btToNormal[atn] + " (%s experiments)" % totalExperiments
@@ -246,7 +246,7 @@ priority {priority}
 shortLabel {shortL}
 longLabel {longL}
 """.format(atn = atn,
-           priority = priority,
+           priority = self.priority,
            shortL=shortLabel,
            longL=Helpers.makeLongLabel(longLabel)))
 

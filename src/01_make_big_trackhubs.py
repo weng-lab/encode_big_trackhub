@@ -9,6 +9,7 @@ import re
 import argparse
 import requests
 from collections import OrderedDict, defaultdict
+from multiprocessing import Process, Value, Lock, Manager, Pool
 from joblib import Parallel, delayed
 
 from helpers.tracks import Tracks, Parent
@@ -25,12 +26,27 @@ from files_and_paths import Dirs, Urls, Datasets
 from utils import Utils, eprint, AddPath, printt, printWroteNumLines
 from metadataws import MetadataWS
 
+class Counter(object):
+    # https://github.com/davidheryanto/etc/blob/master/python-recipes/parallel-joblib-counter.py
+    def __init__(self, manager, initval=0):
+        self.val = manager.Value('i', initval)
+        self.lock = manager.Lock()
+
+    def increment(self):
+        with self.lock:
+            self.val.value += 1
+
+    def value(self):
+        with self.lock:
+            return self.val.value
+
 
 class MegaTrackHub:
-    def __init__(self, args, assembly, globalData):
+    def __init__(self, args, assembly, globalData, priority):
         self.args = args
         self.assembly = assembly
         self.globalData = globalData
+        self.priority = priority
 
         dataset = Datasets.byAssembly(assembly)
         self.mw = MetadataWS(dataset=dataset, host=Host)
@@ -38,30 +54,26 @@ class MegaTrackHub:
     def run(self):
         self._makeHub()
 
-        self.byOrganSlimOutput = ""
-        if self.args.organSlim:
-            self.byOrganSlimOutput = TrackhubDbByOrganSlim(self.args, self.assembly,
-                                                           self.globalData, self.mw).run()
+        args = {"args": self.args,
+                "assembly": self.assembly,
+                "globalData": self.globalData,
+                "mw": self.mw,
+                "priority": self.priority}
 
-        self.byAssayByFactorOutput = ""
-        if self.args.factor:
-            self.byAssayByFactorOutput = TrackhubDbByAssayByFactor(self.args, self.assembly,
-                                                                   self.globalData, self.mw).run()
+        def runner(arg, klass):
+            if not arg:
+                return ""
+            return klass(**args).run()
 
-        self.byBiosampleTypeOutput = ""
-        if self.args.biosample:
-            self.byBiosampleTypeOutput = TrackhubDbBiosampleType(self.args, self.assembly,
-                                                                 self.globalData, self.mw).run()
+        self.typs = [("ccREs", TrackhubDbByCcREs),
+                     ("organSlim", TrackhubDbByOrganSlim),
+                     ("factor", TrackhubDbByAssayByFactor),
+                     ("assay", TrackhubDbByAssayByBiosampleType),
+                     ("biosample", TrackhubDbBiosampleType)]
 
-        self.byAssayByBiosampleTypeOutput = ""
-        if self.args.assay:
-            self.byAssayByBiosampleTypeOutput = TrackhubDbByAssayByBiosampleType(self.args, self.assembly,
-                                                                  self.globalData, self.mw).run()
-
-        self.byCcREsOutput = ""
-        if self.args.ccREs:
-            self.byCcREsOutput = TrackhubDbByCcREs(self.args, self.assembly,
-                                                   self.globalData, self.mw).run()
+        self.out = {}
+        for typ, f in self.typs:
+            self.out[typ] = runner(getattr(self.args, typ), f)
 
         self.makeMainTrackDb()
 
@@ -69,11 +81,8 @@ class MegaTrackHub:
         fnp = os.path.join(BaseWwwDir, self.assembly, 'trackDb.txt')
         Utils.ensureDir(fnp)
         with open(fnp, 'w') as f:
-            f.write(self.byAssayByBiosampleTypeOutput)
-            f.write(self.byBiosampleTypeOutput)
-            f.write(self.byCcREsOutput)
-            f.write(self.byAssayByFactorOutput)
-            f.write(self.byOrganSlimOutput)
+            for typ, _ in self.typs:
+                f.write(self.out[typ])
         printWroteNumLines(fnp)
 
     def _makeHub(self):
@@ -81,8 +90,8 @@ class MegaTrackHub:
         with open(fnp, 'w') as f:
             f.write("""
 hub ENCODE
-shortLabel ENCODE Trackhub Test5
-longLabel ENCODE Trackhub Test5
+shortLabel ENCODE Trackhub Test6
+longLabel ENCODE Trackhub Test6
 genomesFile genomes.txt
 email zhiping.weng@umassmed.edu
 descriptionUrl http://encodeproject.org/
@@ -151,6 +160,10 @@ def parse_args():
 def main():
     args = parse_args()
 
+    manager = Manager()
+    result = manager.dict()
+    priority = Counter(manager, 0)
+
     assemblies = ["hg19", "mm10"]
     for assembly in assemblies:
         printt("************************", assembly)
@@ -168,7 +181,7 @@ def main():
                 globalData = json.load(f)
         printt("done")
 
-        tdb = MegaTrackHub(args, assembly, globalData)
+        tdb = MegaTrackHub(args, assembly, globalData, priority)
         tdb.run()
     outputGenomes(assemblies)
     testHub()
