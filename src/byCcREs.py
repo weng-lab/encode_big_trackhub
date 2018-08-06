@@ -245,6 +245,7 @@ superTrack on show
 priority {priority}
 shortLabel {shortL}
 longLabel {longL}
+description {longL}
 """.format(atn = atn,
            priority = pri,
            shortL=shortLabel,
@@ -309,6 +310,7 @@ centerLabelsDense on
             f.write("visibility full\n")
         f.write("""shortLabel {shortL}
 longLabel {longL}
+description {longL}
 type bigWig 9 +
 maxHeightPixels 64:12:8
 autoScale on

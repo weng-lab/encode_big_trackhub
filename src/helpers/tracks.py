@@ -294,10 +294,10 @@ class ccRETrack(object):
         else:
             if "5group" == self.stateType:
                 shortLabel = ["5g", self.exp.ct]
-                longLabel = ["cREs in", self.exp.ct, '(5 group)']
+                longLabel = ["ccREs in", self.exp.ct, '(5 group)']
             else:
                 shortLabel = ["9s", assay, self.exp.ct]
-                longLabel =  ["cREs in", self.exp.ct, "with high",
+                longLabel =  ["ccREs in", self.exp.ct, "with high",
                               assay, '(9 state)']
         return Helpers.makeShortLabel(*shortLabel), Helpers.makeLongLabel(*longLabel)
 
